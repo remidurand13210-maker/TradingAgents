@@ -1,0 +1,17 @@
+services:
+  studio:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:?definir ADMIN_PASSWORD dans .env}
+      BRAND: ${BRAND:-Maison Audou}
+      BLUR_SIGMA: ${BLUR_SIGMA:-20}
+      MAX_FILE_MB: ${MAX_FILE_MB:-80}
+      NODE_ENV: production
+      # A passer a true des que le service est servi en HTTPS.
+      SECURE_COOKIES: ${SECURE_COOKIES:-false}
+    volumes:
+      # Le seul dossier a sauvegarder : originaux, apercus, base, journal.
+      - ./coffre:/coffre

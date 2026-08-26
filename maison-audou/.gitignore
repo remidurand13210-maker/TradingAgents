@@ -1,0 +1,13 @@
+# Le coffre ne doit JAMAIS partir dans git : il contient les originaux,
+# les aperçus et la base des égéries.
+coffre/
+storage/
+*.db
+*.db-wal
+*.db-shm
+
+node_modules/
+.env
+.session-secret
+npm-debug.log*
+.DS_Store

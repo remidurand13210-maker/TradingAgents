@@ -1,0 +1,25 @@
+{
+  "name": "maison-audou-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plateforme de depot photo des egeries Maison Audou : apercus floutes dans l'outil, originaux conserves hors ligne.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "egerie": "node scripts/egerie.js",
+    "verif": "node scripts/verif.js"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "better-sqlite3": "^11.10.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "multer": "^2.2.0",
+    "sharp": "^0.35.3"
+  }
+}
