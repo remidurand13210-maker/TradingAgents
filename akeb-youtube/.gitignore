@@ -1,0 +1,18 @@
+# Médias lourds et caches : hors Git (dépôt public)
+*.wav
+*.mp4
+*.mov
+*.m4a
+*.mp3
+*.aac
+audio/cache/
+montage/rendu/
+montage/tmp/
+__pycache__/
+*.pyc
+# Jamais de secrets
+.env
+*.key
+secrets*
+outils/modeles/
+audio/temoin/

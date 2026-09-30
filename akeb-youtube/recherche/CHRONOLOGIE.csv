@@ -1,0 +1,28 @@
+date,precision,evenement,categorie,sources,theme,note
+1930,approx,"Naissance de Geneviève Maître, mère de Xavier (1930 selon une généalogie, vers 1931 selon l'âge donné par France 3 en 2011).",FAIT_DOCUMENTE,S044; S019,bio_jeunesse,
+1931-11-07,jour,"Naissance de Bernard-Hubert Dupont de Ligonnès, père de Xavier.",FAIT_DOCUMENTE,S031; S044,bio_jeunesse,Sources encyclopédique et généalogique (extraits).
+1960,annee,"Fondation du groupe de prière « Philadelphie » par Geneviève, selon la Miviludes (autres sources : années 1970).",FAIT_DOCUMENTE,S020; S019; S022,bio_jeunesse,Date contestée (voir contradictions).
+1961-01-09,jour,Naissance de Xavier Dupont de Ligonnès à Versailles.,FAIT_DOCUMENTE,S030; S031; S044,bio_jeunesse,À confirmer sur document officiel.
+1962,annee,Première date de « victoire de l'ennemi » annoncée dans la doctrine du groupe (rassemblement en Bretagne).,TEMOIGNAGE_RAPPORTE,S019; S018,bio_jeunesse,Selon la lettre d'une ex-membre (1995).
+1971,approx,"Départ du père du domicile familial, vers les 10 ou 11 ans de Xavier ; il part pour l'Afrique.",RECONSTRUCTION_ENQUETE,S016; S031; S045; S047,bio_jeunesse,Année déduite de l'âge rapporté.
+1973,annee,"Publication par Geneviève d'un recueil de ses principaux messages, selon l'Unadfi.",TEMOIGNAGE_RAPPORTE,S023,bio_jeunesse,Mono-source associative.
+1977,annee,Rencontre avec Bruno de Stabenrath en terminale dans un lycée privé de Versailles (1976 selon Europe 1).,TEMOIGNAGE_RAPPORTE,S009; S039; S006,bio_jeunesse,Nom du lycée divergent.
+1978,approx,"Baccalauréat obtenu avec un an d'avance (année déduite, non sourcée), puis école de commerce et faculté de droit d'Assas.",RECONSTRUCTION_ENQUETE,S014,bio_jeunesse,Mono-source ; année = déduction.
+1979,approx,"Vers 18 ans, il reçoit la Triumph Spitfire de son père.",RECONSTRUCTION_ENQUETE,S032,bio_jeunesse,Mono-source.
+1979,annee,Un chanoine aurait rapporté un miracle et validé les messages de Geneviève.,RECONSTRUCTION_ENQUETE,S017,bio_jeunesse,Mono-source (JDD 2011).
+1980,approx,Rencontre avec Agnès Hodanger à Versailles (début des années 1980 ; elle aurait eu 17 ans).,RECONSTRUCTION_ENQUETE,S043; S042,bio_jeunesse,Sources secondaires.
+1982,annee,Fiançailles avec Agnès ; départ temporaire pour travailler dans le sud de la France.,RECONSTRUCTION_ENQUETE,S015; S042,bio_jeunesse,Sources secondaires.
+1985,approx,Rupture des fiançailles (milieu des années 1980).,RECONSTRUCTION_ENQUETE,S042; S043; S031,bio_jeunesse,Sources secondaires.
+1987,annee,Mort du chanoine associé au groupe ; Geneviève poursuit seule la transmission des messages.,RECONSTRUCTION_ENQUETE,S017,bio_jeunesse,Mono-source.
+1990,annee,Séjour au Texas (photos à Alpine et Fort Davis) ; long voyage d'environ 18 mois aux États-Unis avec un ami (datation 1990 selon Caradisiac).,RECONSTRUCTION_ENQUETE,S033; S032; S034,bio_jeunesse,Datation du grand voyage discutée.
+1991,approx,Début des années 1990 : Stabenrath découvre que Xavier fréquente Philadelphie.,TEMOIGNAGE_RAPPORTE,S037,bio_jeunesse,Témoignage via site secondaire.
+1991-11-09,jour,Mariage avec Agnès Hodanger.,RECONSTRUCTION_ENQUETE,S043; S031,bio_jeunesse,Date à confirmer sur une source de référence.
+1995,annee,"Signalement du groupe à l'ADFI de Rennes (lettre d'une ex-membre, signalement d'un prêtre) ; prophétie du 30 juin 1995 non réalisée selon Stabenrath.",TEMOIGNAGE_RAPPORTE,S019; S023; S037,bio_jeunesse,"Hors période de jeunesse, contexte religieux."
+2009,approx,"2009-2010 : messages de forum attribués à Xavier par les enquêteurs, où il décrit sa jeunesse religieuse.",RECONSTRUCTION_ENQUETE,S048; S018,bio_jeunesse,
+2011,annee,La Miviludes qualifie Philadelphie de groupe de prière fermé à « risques de dérives sectaires ».,FAIT_DOCUMENTE,S020; S021,bio_jeunesse,
+2011-01-20,jour,"Mort du père, Hubert Dupont de Ligonnès.",FAIT_DOCUMENTE,S031; S047,bio_jeunesse,Jour exact : Wikipedia EN seulement.
+2020-10-15,jour,Parution de L'Ami impossible de Bruno de Stabenrath (Gallimard).,FAIT_DOCUMENTE,S009,bio_jeunesse,
+2023-01-03,jour,Classement sans suite de l'enquête pour abus de faiblesse visant la mère et une sœur de Xavier.,FAIT_DOCUMENTE,S026; S027,bio_jeunesse,Annonce du parquet de Versailles.
+2024-03-13,jour,Parution du livre de Christine Dupont de Ligonnès et Bertram de Verdun.,FAIT_DOCUMENTE,S040,bio_jeunesse,
+2026-03-25,jour,"Appel à témoins du bureau du shérif du comté de Brewster (Texas), région d'Alpine où Xavier avait séjourné en 1990.",FAIT_DOCUMENTE,S051; S033,bio_jeunesse,Communiqué officiel non lu.
+2026-10-28,jour,Parution annoncée du roman graphique L'Ami impossible (Glénat).,FAIT_DOCUMENTE,S039,bio_jeunesse,Postérieure à la date de consultation.

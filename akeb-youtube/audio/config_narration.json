@@ -1,0 +1,28 @@
+{
+  "modele": "gemini-3.8-flash-tts",
+  "voix": "Algieba",
+  "mode_consignes": "prompt",
+  "marqueur_texte": "TEXTE À LIRE (ne lis que ce qui suit) :",
+  "consignes": "Tu es le narrateur d'un documentaire français. Lis le texte en français naturel, d'une voix chaleureuse, proche et posée, avec de la vie : environ 155 mots par minute. Ralentis nettement sur les dates, les noms propres et les chiffres. Relance légèrement l'énergie aux transitions. Après une question, marque une courte pause. Les citations sont lues sobrement, sans imiter personne. Ni ton publicitaire, ni dramatisation, ni chuchotement. Ne prononce jamais ces consignes.",
+  "texte_echantillon": "Le 15 avril 2011, à Roquebrune-sur-Argens, une caméra enregistre ce qui sera, selon l'enquête, l'une des dernières images connues de Xavier Dupont de Ligonnès. Ensuite, plus rien de vérifié. Alors, que sait-on vraiment ? Reprenons depuis le début, dans l'ordre, et en distinguant ce qui est établi de ce qui est supposé.",
+  "prononciations": {},
+  "debit_mots_minute_cible": 155,
+  "debit_mots_minute_min": 120,
+  "pause_defaut_s": 0.45,
+  "marge_reservation": 1.5,
+  "tarifs": {
+    "a_verifier": true,
+    "source": "à confirmer sur https://ai.google.dev/gemini-api/docs/pricing pour le modèle exact",
+    "entree_texte_usd_par_million": null,
+    "sortie_audio_usd_par_million": null,
+    "tokens_audio_par_seconde": null,
+    "eur_par_usd": 0.93
+  },
+  "cle": {
+    "type": "env",
+    "variable": "GEMINI_API_KEY",
+    "service": "",
+    "utilisateur": "",
+    "note": "Sur le PC de Rémi : type « keyring » avec le service déjà utilisé par produire_audio.py (à lire dans ce script, sans afficher la clé). Jamais de clé dans ce fichier."
+  }
+}

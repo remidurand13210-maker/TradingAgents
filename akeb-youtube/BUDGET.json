@@ -1,0 +1,34 @@
+{
+  "mise_a_jour": "2026-09-30",
+  "regles": [
+    "Plafonds, pas objectifs de dépense. Aucun compteur n'est jamais remis à zéro.",
+    "Publicité : 100 € au total toutes plateformes ; 50 € maximum facturables le premier jour, inclus dans les 100 €.",
+    "Les 100 € publicitaires ne financent ni abonnement ni appel API.",
+    "Narration de la série : une seule enveloppe demandée à Rémi après estimation ; aucun appel payant avant accord.",
+    "Aucun abonnement, recharge ou hausse automatique sans accord de Rémi."
+  ],
+  "publicite": {
+    "plafond_total_eur": 100,
+    "plafond_premier_jour_eur": 50,
+    "repartition_preferee_jour_1": {"youtube_media_eur": 30, "search_et_meta_ensemble_max_eur": 10, "marge_taxes_frais_eur": 10},
+    "campagnes_existantes_inspectees": false,
+    "depense_constatee_eur": null,
+    "engagements_constates_eur": null,
+    "statut": "non inspecté : Google Ads et Meta Ads ne sont pas accessibles depuis l'environnement cloud de cette session",
+    "lancements": []
+  },
+  "production_livre_api": {
+    "plafond_eur": 5,
+    "registres_sources": ["La_derniere_correction_production/depenses.json", "akeb-promotion/depenses_shorts.json", "akeb-promotion/budget_resume.json"],
+    "depense_constatee_eur": null,
+    "statut": "registres situés sur le PC de Rémi, non lisibles ici ; valeur à reprendre telle quelle, jamais réinitialisée"
+  },
+  "narration": {
+    "enveloppe_demandee_eur": null,
+    "enveloppe_accordee_eur": null,
+    "registre": "audio/registre_narration.jsonl",
+    "depense_cumulee_eur": 0.0,
+    "statut": "en attente de l'estimation sur les scripts définitifs"
+  },
+  "autres_depenses_session": []
+}

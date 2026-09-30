@@ -1,0 +1,19 @@
+media,exemple,usage_prevu,autorise,fondement,conditions,statut_verification
+Visuels originaux,"cartons, frises, tableaux de synthèse, miniatures",oui,oui,créés par la chaîne (outils/identite.py),signés « réalisé par la chaîne » quand c'est un tableau de synthèse,vérifié (production interne)
+Fond de carte,Natural Earth admin 0 (1:50m),oui,oui,domaine public (Natural Earth),mention « fond Natural Earth (domaine public) » sur chaque carte,vérifié (conditions connues ; page non relue le 30/09/2026)
+Polices,Source Sans Pro ; Liberation Serif,oui,oui,SIL Open Font License 1.1,licences jointes dans outils/polices/,vérifié (fichiers de licence présents)
+Musique,nappes « archives » « enquête » « conclusion »,oui,oui,synthèse locale originale (outils/musique.py),aucun échantillon tiers,vérifié (production interne)
+Voix de narration,Gemini TTS voix Algieba,oui,oui sous conditions,conditions d'utilisation de l'API Gemini,vérifier les conditions d'usage commercial des sorties et les exigences de mention,à vérifier (ai.google.dev bloqué)
+Couverture du roman,couverture Akeb exacte,oui,oui,propriété de Rémi / Akeb,fichier exact à déposer dans montage/assets/couverture_akeb.png,en attente du fichier
+Shorts existants,"01_il_aurait_du_se_taire, 02_le_faux_pretre, 03_apres_la_disparition",oui,oui,production de Rémi,à contrôler (sur le PC de Rémi),non vérifiable depuis la session cloud
+Citations de presse,phrases brèves attribuées,oui (brèves),oui sous conditions,courte citation (art. L122-5 du CPI),"≤ 20 mots, auteur et source cités, justifiées par l'information ; pas d'enchaînement de citations",principe connu ; relecture juridique recommandée
+Captures d'articles,"pages de journaux, logos, mises en page",non,non,droits des éditeurs et marques,remplacer par une citation recomposée sur carton original,—
+Photos de XDDL et de la famille,"portraits, photos de famille, photo d'avis de recherche",non,non,droit à l'image et droits d'auteur (photographes/famille),aucune photo de personne réelle,—
+Photos des victimes,tout visuel des victimes,non,non,respect des victimes et droit à l'image,aucune,—
+Notice Interpol / avis de recherche,visuel officiel,non,non (sans droits vérifiés),ne pas supposer libre de droits,citer en texte seulement,—
+Extraits télévisés,"émission de M6, reportages",non,non,droits des diffuseurs,décrire en texte avec source datée,—
+Extraits radio et podcasts,"Europe 1, France Inter…",non,non,droits des diffuseurs,citer brièvement en texte,—
+Photos de lieux,"maison de Nantes, hôtel de Roquebrune, Street View",non,non,droits des photographes ; vie privée des occupants actuels,carte schématique à la place,—
+Wikimedia Commons,photos sous licence libre,non prévu,cas par cas,licence propre à chaque fichier,attribution exacte si utilisé,—
+Tuiles OpenStreetMap,fonds de carte détaillés,non prévu,sous conditions,ODbL avec attribution,non utilisé (Natural Earth suffit),—
+Documents judiciaires ou de police,"PV, rapports",non,non,pièces non publiques ; risque de faux,ne jamais fabriquer un « document de police »,—
