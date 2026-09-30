@@ -14,7 +14,8 @@ Chaîne documentaire distincte de La Brig'ads. Première saison : l'affaire Xavi
 | `PUBLICATIONS.csv` | identifiants et liens réels, une ligne par publication |
 | `PROMPT_RECHERCHE_ANTIGRAVITY.md` | prompt complet pour faire la recherche avec Antigravity sur le PC de Rémi |
 | `PROMPT_RECHERCHE_DEEPSEEK.md` | prompt de contre-vérification indépendante (DeepSeek) |
-| `recherche/` | `SOURCES.csv`, `ASSERTIONS.csv`, `CHRONOLOGIE.csv`, `DETAILS_MOINS_CONNUS.md`, `CONTRADICTIONS_ET_LIMITES.md`, `DROITS_MEDIAS.csv` ; `brut/` = fichiers par thème ; `contre_verif/` = passes indépendantes |
+| `recherche/` | `SOURCES.csv`, `ASSERTIONS.csv`, `CHRONOLOGIE.csv`, `DETAILS_MOINS_CONNUS.md`, `CONTRADICTIONS_ET_LIMITES.md`, `DROITS_MEDIAS.csv` ; `brut/` = Antigravity ; `brut_codex/` = seconde passe Codex (branche `codex/akeb-recherche`) ; `contre_verif/` = DeepSeek |
+| `PROMPT_RECHERCHE_CODEX.md` | prompt de seconde recherche indépendante pour Codex |
 | `episodes/<nn_nom>/` | `script_annote.md`, `narration.txt`, `storyboard.csv`, `metadonnees.md`, `chapitres_mesures.txt` |
 | `chaine/` | présentation, identité, calendrier, métadonnées communes, visuels |
 | `audio/` | direction vocale, configuration de narration, manifeste des segments, registre des dépenses de narration, musique |

@@ -38,7 +38,7 @@ def ecrire_csv(chemin: Path, champs: list[str], lignes: list[dict]) -> None:
 
 
 def main() -> dict:
-    fichiers = sorted(BRUT.glob("*.json"))
+    fichiers = sorted(BRUT.glob("*.json")) + sorted((BRUT.parent / "brut_codex").glob("*.json"))
     sources: dict[str, dict] = {}
     index: dict[str, str] = {}
     assertions, chrono, constats = [], [], []
@@ -62,7 +62,7 @@ def main() -> dict:
         return sources[cle]["id"]
 
     for f in fichiers:
-        theme = f.stem
+        theme = f.stem + ("_codex" if f.parent.name == "brut_codex" else "")
         try:
             d = json.loads(f.read_text(encoding="utf-8"))
         except Exception as e:  # noqa: BLE001
