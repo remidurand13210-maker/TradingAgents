@@ -1113,7 +1113,12 @@
     },
     "04_notre_hypothese/S21": {
       "empreinte": "7cd8c8bf4b13f7a7b943e878",
-      "statut": "quota"
+      "wav": "audio/cache/7cd8c8bf4b13f7a7b943e878.wav",
+      "duree_s": 18.0,
+      "taux": 24000,
+      "mots": 55,
+      "statut": "genere",
+      "debit_mpm": 183.3
     },
     "02_avril_2011/S01": {
       "empreinte": "02eec5716ffa4d8ed1024d3b",
@@ -1135,6 +1140,28 @@
     },
     "02_avril_2011/S03": {
       "empreinte": "110e61d340932968e6904461",
+      "statut": "quota"
+    },
+    "04_notre_hypothese/S22": {
+      "empreinte": "0548fa9c148d1b26519e795a",
+      "wav": "audio/cache/0548fa9c148d1b26519e795a.wav",
+      "duree_s": 24.32,
+      "taux": 24000,
+      "mots": 70,
+      "statut": "genere",
+      "debit_mpm": 172.7
+    },
+    "04_notre_hypothese/S23": {
+      "empreinte": "2c3279c52c358d7d78021e82",
+      "wav": "audio/cache/2c3279c52c358d7d78021e82.wav",
+      "duree_s": 24.96,
+      "taux": 24000,
+      "mots": 76,
+      "statut": "genere",
+      "debit_mpm": 182.7
+    },
+    "04_notre_hypothese/S24": {
+      "empreinte": "d61b278c16b79256a185b36d",
       "statut": "quota"
     }
   }
