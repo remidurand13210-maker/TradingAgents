@@ -733,6 +733,8 @@ class Plan:
 
     def g_livre(self):
         lignes_ = [x.strip() for x in self.p.get("texte", "").split("|") if x.strip()]
+        deja = {"la dernière correction", "un roman d'akeb", "un roman d’akeb"}  # titre et sous-titre fixes
+        lignes_ = [x for x in lignes_ if x.lower() not in deja]
         cov = RACINE / "montage" / "assets" / "couverture_akeb.png"
         rouge = I.ETIQUETTES["FICTION"][1]
         if cov.exists():
