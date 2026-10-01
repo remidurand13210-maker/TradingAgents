@@ -2,13 +2,13 @@
 
 STATUT : BROUILLON v1
 
-Révision v1 (01/10/2026) : chaque phrase factuelle repose désormais sur une source Codex lue intégralement (`recherche/brut_codex/avril_2011_avant.json`, `avril_2011_apres.json`, `decouverte_enquete.json`, `bio_famille.json`) ou sur une page relue par WebFetch le 01/10/2026. Les appuis Bionic et « extrait_moteur » du v0 ont été retirés ou remplacés. Vérification phrase par phrase : `VERIFICATION_V1.md`.
+Révision v1 (01/10/2026), relecture stricte : chaque phrase factuelle repose désormais sur une page relue intégralement par curl le 01/10/2026 (texte extrait par html.parser ; pages enregistrées dans le scratchpad de la session) ou, pour le portrait, sur la légende AFP relue sur La Libre Belgique. Les phrases qui ne reposaient que sur une lecture Codex d'une page inaccessible (proxy, HTTP 402/403) ont été retirées, réduites ou réattribuées à une page relue. Vérification phrase par phrase : `VERIFICATION_V1.md`.
 
 - **Titre de travail** : Avril 2011 : les jours qui changent tout
 - **Question de l'épisode** : En avril 2011, qui savait vraiment quoi ?
-- **Réponse apportée (S34-S35)** : sur le moment, aucun interlocuteur n'avait l'ensemble ; les établissements, l'employeur d'Agnès et le patron de Xavier ont reçu la version australienne ; neuf proches une version américaine qui présentait l'Australie comme une couverture ; le club de tir l'avait vu le 1er avril ; le reste n'a été assemblé qu'après coup par l'enquête.
-- **Longueur** : 1786 mots de narration (décompte par espaces), 37 segments, 79 plans
-- **Durée estimée** : 1786 ÷ 155 ≈ 11.5 min de voix (hors pauses et cartons muets de 7 s)
+- **Réponse apportée (S34-S35)** : sur le moment, aucun interlocuteur n'avait l'ensemble ; le collège-lycée et l'employeur d'Agnès ont entendu « maladie », puis l'Australie ; le patron de Xavier, l'Australie ; neuf proches, une version américaine (DEA, protection des témoins) ; le club de tir l'avait vu le 1er avril ; le reste n'a été assemblé qu'après coup par l'enquête.
+- **Longueur** : 1801 mots de narration (décompte par espaces, texte des segments seulement), 37 segments, 79 plans
+- **Durée estimée** : 1801 ÷ 155 ≈ 11.6 min de voix (hors pauses et cartons muets de 7 s)
 - **Chapitres** :
   - 0. Introduction (S01, cartons titre et avertissement)
   - 1. Avant avril : le club, le deuil, les achats (S02)
@@ -18,8 +18,8 @@ Révision v1 (01/10/2026) : chaque phrase factuelle repose désormais sur une so
   - 5. Le 21 avril, puis le mandat (S28)
   - 6. Qui savait quoi ? (S34)
 - **Période couverte** : décembre 2010 → 10 mai 2011 (mandat d'arrêt international). Aucune scène imaginée après la dernière trace du 15 avril.
-- **Légende des accès** : lu_integral (Codex, 01/10/2026) = page lue intégralement par Codex, sans contradiction trouvée ; relu WebFetch 01/10/2026 = page rouverte dans cette révision ; lu_partiel (Codex) = appoint seulement, jamais seul appui d'une phrase.
-- **WebFetch du 01/10/2026** : seul lalibre.be a répondu. Refusés par l'outil : leparisien.fr, estrepublicain.fr, dna.fr, edito.nicematin.com, nicematin.com, rtl.fr, 20minutes.fr, ladepeche.fr, lemonde.fr, numerama.com, angers.maville.com, ouest-france.fr, making-of.afp.com, libramemoria.com, ledauphine.com, lepoint.fr, web.archive.org ; europe1.fr : HTTP 403 ; bloqués par le proxy : interpol.int, planet.fr, lejdd.fr, actualitte.com, francetvpro.fr, laregledujeu.org.
+- **Légende des accès** : « relu curl 01/10/2026 » = page téléchargée (curl -sL, User-Agent de navigateur, proxy configuré, TLS vérifié) et lue en entier dans le texte extrait.
+- **Inaccessibles le 01/10/2026** : proxy de sortie (CONNECT 403) : estrepublicain.fr, dna.fr, edito.nicematin.com, angers.maville.com, planet.fr, libramemoria.com, interpol.int, midilibre.fr, web.archive.org ; HTTP 403 du site : europe1.fr, ouest-france.fr ; HTTP 402 (paywall, non contourné) : lemonde.fr.
 
 ---
 
@@ -28,7 +28,7 @@ Révision v1 (01/10/2026) : chaque phrase factuelle repose désormais sur une so
 Le 11 avril 2011, à Nantes, deux établissements reçoivent un courrier : le collège-lycée des deux plus jeunes enfants Dupont de Ligonnès, et l'établissement où travaille leur mère, Agnès. La famille, dit ce courrier, part en Australie. Le même jour, des proches reçoivent une tout autre lettre : elle parle des États-Unis et d'une protection américaine. Alors, en avril 2011, qui savait vraiment quoi ?
 
 - Statut : FAIT DOCUMENTÉ (réception le 11 avril, Australie) ; TÉMOIGNAGE RAPPORTÉ (teneur de la lettre aux proches, via extraits publiés)
-- Sources : S060 L'Est Républicain 22/05/2011 (lu_integral (Codex, 01/10/2026)) ; S061 DNA/AFP 23/04/2011 (lu_integral (Codex, 01/10/2026)) ; S052 Europe 1/AFP 05/05/2011 (lu_integral (Codex, 01/10/2026)) ; S059 L'Est Républicain 22/04/2011 (lu_partiel (Codex), appoint)
+- Sources : S056 Le Parisien 03/04/2026 (relu curl 01/10/2026) ; S082 Le Parisien 22/04/2011 (relu curl 01/10/2026) ; S216 Le Télégramme 15/04/2013 (relu curl 01/10/2026)
 - Assertions : A043, A045, A047
 - Incertitude : faible pour la réception du 11 avril (reprises possibles d'une même dépêche) ; la teneur de la lettre est un récit attribué
 - Visuels : P001, P002, P003, P004 ; puis P005 (titre, muet 3 s) et P006 (avertissement, muet 4 s)
@@ -43,7 +43,7 @@ Le 11 avril 2011, à Nantes, deux établissements reçoivent un courrier : le co
 Pour répondre, il faut remonter de quelques mois, et séparer trois registres : ce qui a été observé à l'époque, ce que des témoins ont raconté ensuite, et ce que l'enquête a reconstitué après coup. Le père, Xavier Dupont de Ligonnès, est soupçonné par l'enquête et visé depuis mai 2011 par un mandat d'arrêt international. Il n'a jamais été jugé.
 
 - Statut : Cadre de méthode ; FAIT (mandat d'arrêt international, mai 2011) ; « soupçonné » (légende AFP)
-- Sources : S121 La Dépêche/AFP 10/05/2011 (lu_integral (Codex, 01/10/2026)) ; S122 Le Monde 11/05/2011 (lu_integral (Codex, 01/10/2026)) ; S222 La Libre Belgique, légende AFP, 15/04/2024 (relu WebFetch 01/10/2026)
+- Sources : S121 La Dépêche/AFP 10/05/2011 (relu curl 01/10/2026) ; S222 La Libre Belgique 15/04/2024, légende AFP (relu curl 01/10/2026) ; S056 Le Parisien 03/04/2026 (relu curl 01/10/2026)
 - Assertions : A140
 - Incertitude : faible
 - Visuels : P007, P008, P009, P010
@@ -52,46 +52,46 @@ Pour répondre, il faut remonter de quelques mois, et séparer trois registres :
 
 ### S03
 
-Décembre 2010, à Nantes. Selon les responsables de son club de tir, interrogés par Ouest-France, c'est à ce moment qu'il commence à fréquenter le stand. En février, il y tire de façon autonome ; une chronologie publiée par L'Est Républicain date sa licence du 2 février 2011.
+Décembre 2010, à Nantes. Selon une dépêche de l'Agence France-Presse reprise par 20 Minutes, c'est à ce moment qu'il s'initie au tir, dans un club de la ville. Il en obtient la licence le 2 février 2011.
 
-- Statut : TÉMOIGNAGE RAPPORTÉ (début en décembre, autonomie en février) ; RECONSTRUCTION journalistique (licence du 2 février)
-- Sources : S074 Ouest-France via Maville 24/04/2011 (lu_integral (Codex, 01/10/2026)) ; S060 L'Est Républicain 22/05/2011 (lu_integral (Codex, 01/10/2026))
+- Statut : RECONSTRUCTION attribuée (initiation en décembre 2010, licence le 2 février 2011, selon l'AFP)
+- Sources : S071 20 Minutes/AFP 23/04/2011 (relu curl 01/10/2026) ; S216 Le Télégramme 15/04/2013 (relu curl 01/10/2026) ; S072 Le Parisien 27/04/2011 (relu curl 01/10/2026)
 - Assertions : A063, A064
-- Incertitude : faible pour décembre ; moyenne pour le jour du 2 février (document administratif non consulté, attribué)
+- Incertitude : faible ; licence non consultée
 - Visuels : P011, P012
-- Note de prudence : Responsables du club non nommés (particuliers).
-- Mots : 47
+- Note de prudence : « Autonomie en février » et attribution aux responsables du club (Ouest-France via Maville, inaccessible par le proxy) retirées. Le Parisien 27/04/2011 confirme « depuis décembre ».
+- Mots : 37
 
 ### S04
 
-Entre-temps, son père meurt. La date varie selon les sources : le 20 janvier 2011, d'après une notice de décès qui reprend les données de l'Insee ; en février, selon un article du Parisien d'avril 2011. Nous ne trancherons pas. Un point, en revanche, ne dépend pas de cette date : le tir a commencé en décembre, avant ce décès.
+Entre-temps, son père meurt. La date varie selon les sources : en février, selon un article du Parisien d'avril 2011 ; une chronologie du Télégramme, publiée en 2013, situe plutôt en janvier l'héritage qu'il reçoit de lui. Nous ne trancherons pas. Un point, en revanche, ne dépend pas de cette date : le tir a commencé en décembre, avant ce décès.
 
-- Statut : FAIT DOCUMENTÉ avec DIVERGENCE (date du décès du père)
-- Sources : S076 Libra Memoria, notice (données Insee) (lu_integral (Codex, 01/10/2026)) ; S075 Nice-Matin 04/04/2026 (lu_partiel (Codex), appoint) ; S072 Le Parisien 27/04/2011 (lu_integral (Codex, 01/10/2026))
+- Statut : DIVERGENCE attribuée (janvier : héritage selon Le Télégramme ; février : décès selon Le Parisien)
+- Sources : S072 Le Parisien 27/04/2011 (relu curl 01/10/2026) ; S216 Le Télégramme 15/04/2013 (relu curl 01/10/2026) ; S071 20 Minutes/AFP 23/04/2011 (relu curl 01/10/2026)
 - Assertions : A065
-- Incertitude : divergence janvier/février présentée sans trancher (consigne de Rémi)
+- Incertitude : moyenne ; acte de décès non consulté
 - Visuels : P013, P014
-- Note de prudence : Acte de décès original non consulté.
-- Mots : 60
+- Note de prudence : La date du 20 janvier (notice Libra Memoria, inaccessible par le proxy) est retirée ; la divergence repose désormais sur deux pages relues.
+- Mots : 61
 
 ### S05
 
-Après cette mort, il récupère une carabine qui avait appartenu à son père : c'est ce que rapportent Le Parisien et une dépêche de l'Agence France-Presse. L'héritage ne peut donc pas expliquer le début de cette pratique. Simple question de calendrier, mais elle compte pour l'interprétation.
+Cet héritage, c'est une carabine qui avait appartenu à son père : c'est ce que rapporte Le Parisien. L'héritage ne peut donc pas expliquer le début de cette pratique. Simple question de calendrier, mais elle compte pour l'interprétation.
 
-- Statut : RECONSTRUCTION de l'enquête rapportée (carabine récupérée après le décès)
-- Sources : S072 Le Parisien 27/04/2011 (lu_integral (Codex, 01/10/2026)) ; S061 DNA/AFP 23/04/2011 (lu_integral (Codex, 01/10/2026)) ; S075 Nice-Matin 2026 (lu_partiel (Codex), appoint)
+- Statut : RECONSTRUCTION attribuée (Le Parisien : « C'était l'arme de son père. Il en avait hérité à sa mort »)
+- Sources : S072 Le Parisien 27/04/2011 (relu curl 01/10/2026)
 - Assertions : A066
 - Incertitude : moyenne pour la date exacte de récupération (non établie) ; l'ordre tir puis héritage est solide
 - Visuels : P015, P016
-- Note de prudence : Calibre et modèle exclus (détail opératoire).
-- Mots : 46
+- Note de prudence : L'appui AFP (DNA, inaccessible) est retiré : source unique, dite « selon Le Parisien ».
+- Mots : 38
 
 ### S06
 
 En mars se place un témoignage que, parmi nos sources, seul Le Parisien rapporte. Un armurier de la région nantaise raconte avoir reçu cet homme, qui se présentait comme « un prêtre tireur d'élite » et demandait une arme de poing. Il serait reparti sans en obtenir. Rien d'autre, dans notre dossier, ne vient corroborer ce récit.
 
 - Statut : TÉMOIGNAGE RAPPORTÉ, source unique
-- Sources : S072 Le Parisien 27/04/2011 (lu_integral (Codex, 01/10/2026))
+- Sources : S072 Le Parisien 27/04/2011 (relu curl 01/10/2026)
 - Assertions : A070
 - Incertitude : moyenne : source unique, non corroborée (Europe 1 403)
 - Visuels : P017, P018
@@ -100,60 +100,60 @@ En mars se place un témoignage que, parmi nos sources, seul Le Parisien rapport
 
 ### S07
 
-Le 12 mars, selon la dépêche de l'AFP et L'Est Républicain, il achète des munitions ; L'Est Républicain mentionne aussi, à cette date, un silencieux. Fin mars, selon le club, il vient quatre fois au stand, et deux de ses fils y sont initiés : l'AFP les identifie comme Thomas et Benoît. Sa dernière séance date du premier avril.
+Le 12 mars, selon la chronologie du Télégramme, il achète des munitions et un silencieux pour cette carabine. La dernière semaine de mars, selon le président du club, interrogé par l'AFP, il vient quatre fois au stand ; depuis mars, selon la même dépêche, il y emmène ses fils. Sa dernière visite date du premier avril.
 
-- Statut : RECONSTRUCTION (achats du 12 mars) ; TÉMOIGNAGE RAPPORTÉ (venues au stand, fils initiés, dernière séance)
-- Sources : S061 DNA/AFP 23/04/2011 (lu_integral (Codex, 01/10/2026)) ; S060 L'Est Républicain 22/05/2011 (lu_integral (Codex, 01/10/2026)) ; S074 Ouest-France 24/04/2011 (lu_integral (Codex, 01/10/2026))
+- Statut : RECONSTRUCTION attribuée (12 mars, Télégramme) ; TÉMOIGNAGE RAPPORTÉ (président du club à l'AFP : « quatre fois la dernière semaine de mars », « dernière visite remonte au 1er avril »)
+- Sources : S216 Le Télégramme 15/04/2013 (relu curl 01/10/2026) ; S071 20 Minutes/AFP 23/04/2011 (relu curl 01/10/2026)
 - Assertions : A067, A068, A069
-- Incertitude : faible (venues, dernière séance) ; moyenne (silencieux à la même date : attribué à L'Est Républicain seul)
+- Incertitude : faible (venues, dernière visite) ; moyenne (12 mars, munitions et silencieux : Le Télégramme seul)
 - Visuels : P019, P020, P021
-- Note de prudence : Le message du 9 avril au club (v0) est retiré : source 20 Minutes inaccessible.
-- Mots : 59
+- Note de prudence : Prénoms « Thomas et Benoît » et « deux fils » retirés : la dépêche relue dit seulement « ses fils ».
+- Mots : 56
 
 ### S08
 
-Ce même premier avril, puis le lendemain, les achats changent de nature : du ciment et des outils, puis de la chaux, selon la chronologie de L'Est Républicain, que l'on retrouve aussi chez Nice-Matin. Nous nous en tenons volontairement aux dates et aux catégories. Pris un par un, ces éléments sont épars ; c'est l'enquête qui, plus tard, les a mis bout à bout.
+Ce même premier avril, puis le lendemain, les achats changent de nature : du ciment et des outils, puis de la chaux, selon la chronologie du Télégramme ; Le Parisien et 20 Minutes mentionnent aussi ces outils et cette chaux. Nous nous en tenons volontairement aux dates et aux catégories. Pris un par un, ces éléments sont épars ; c'est l'enquête qui, plus tard, les a mis bout à bout.
 
-- Statut : RECONSTRUCTION (achats des 1er et 2 avril)
-- Sources : S060 L'Est Républicain 22/05/2011 (lu_integral (Codex, 01/10/2026)) ; S057 Nice-Matin, chronologie non datée (lu_integral (Codex, 01/10/2026))
+- Statut : RECONSTRUCTION attribuée (Télégramme : « ciment, une bêche et une houe, puis, le lendemain, quatre sacs de 10 kg de chaux »)
+- Sources : S216 Le Télégramme 15/04/2013 (relu curl 01/10/2026) ; S056 Le Parisien 03/04/2026 (relu curl 01/10/2026) ; S070 20 Minutes 03/04/2018 (relu curl 01/10/2026)
 - Assertions : A071
 - Incertitude : moyenne (justificatifs non vus)
 - Visuels : P022, P023, P024
-- Note de prudence : Dates et catégories seulement ; aucun usage évoqué.
-- Mots : 64
+- Note de prudence : Catégories seulement. Le ciment n'est relu que dans Le Télégramme ; Le Parisien 2026 et 20 Minutes 2018 citent outils et chaux.
+- Mots : 70
 
 ## Chapitre 2 — Début avril : les jours de la famille
 
 ### S09
 
-Arrêtons-nous sur celles et ceux que ces jours concernent. Agnès, née Hodanger, travaille à temps partiel dans un établissement scolaire, Blanche-de-Castille. Une collègue, citée par Le Parisien, se souvient de l'estime qu'on lui portait.
+Arrêtons-nous sur celles et ceux que ces jours concernent. Agnès, née Hodanger, travaille de temps à autre comme surveillante dans un établissement scolaire catholique de Nantes, Blanche-de-Castille. Ses collègues, cités par Le Parisien, la décrivent comme « charmante, très conviviale et d'un excellent relationnel ».
 
-- Statut : FAIT DOCUMENTÉ (Agnès : nom de naissance, emploi) ; TÉMOIGNAGE RAPPORTÉ (collègue)
-- Sources : S079 Nice-Matin 19/04/2022 (lu_integral (Codex, 01/10/2026)) ; S088 Society, extrait (lu_partiel (Codex), appoint) ; S082 Le Parisien 22/04/2011 (lu_integral (Codex, 01/10/2026)) ; S083 Le Monde 29/04/2011 (lu_partiel (Codex), appoint)
+- Statut : FAIT (née Hodanger, Nice-Matin) ; FAIT attribué (surveillante « de temps à autre », Le Parisien) ; TÉMOIGNAGE RAPPORTÉ (collègues, citation exacte)
+- Sources : S079 Nice-Matin 19/04/2022 (relu curl 01/10/2026) ; S080 Le Parisien 22/04/2011 (relu curl 01/10/2026) ; S082 Le Parisien 22/04/2011 (relu curl 01/10/2026)
 - Assertions : A079, A087, A092
 - Incertitude : faible ; l'estime est une impression attribuée
 - Visuels : P025, P026, P027
-- Note de prudence : Agnès présentée comme personne, par son travail et le regard d'une collègue. « Catéchèse » non retenue (appui partiel).
-- Mots : 34
+- Note de prudence : « À temps partiel » et « une collègue se souvient de l'estime » corrigés : la page dit « travaillait de temps à autre comme surveillante » et « Décrite par ses collègues comme « charmante, très conviviale et d'un excellent relationnel » ».
+- Mots : 45
 
 ### S10
 
-Le couple a quatre enfants. Arthur, l'aîné, a 20 ans selon Le Parisien d'avril 2011, qui le décrit préparant un BTS en Vendée et travaillant dans une pizzeria. Xavier n'était pas son père biologique ; il l'a élevé avec Agnès. Thomas, 18 ans, étudie la musicologie à Angers.
+Le couple a quatre enfants. Arthur, l'aîné, a 20 ans selon Le Parisien d'avril 2011, qui le décrit préparant un BTS en Vendée et travaillant dans une pizzeria. Selon Nice-Matin, il est né avant le mariage d'Agnès et de Xavier, célébré en 1991. Thomas, 18 ans, étudie la musicologie à Angers.
 
 - Statut : FAIT DOCUMENTÉ (âge de Thomas, études de Thomas, filiation d'Arthur) ; âge d'Arthur ATTRIBUÉ (20 ans selon Le Parisien 22/04/2011 et RTL 2021 ; 21 ans selon Le Parisien 03/04/2026 : divergence) ; TÉMOIGNAGE RAPPORTÉ (BTS et pizzeria, attribués ; S080 relu par curl le 01/10/2026)
-- Sources : S080 Le Parisien 22/04/2011 (lu_integral (Codex, 01/10/2026)) ; S079 Nice-Matin 19/04/2022 (lu_integral (Codex, 01/10/2026)) ; S088 Society (lu_partiel (Codex), appoint) ; S002 Le Monde 27/07/2011 (lu_partiel (Codex), appoint)
+- Sources : S080 Le Parisien 22/04/2011 (relu curl 01/10/2026) ; S079 Nice-Matin 19/04/2022 (relu curl 01/10/2026)
 - Assertions : A082, A083, A084, A088, A089
 - Incertitude : faible (âges, deux origines) ; moyenne (BTS/pizzeria, source unique, attribuée)
 - Visuels : P028, P029
-- Note de prudence : Filiation d'Arthur dite sobrement, sans ressort dramatique ni mention d'un tiers ; nature juridique (reconnaissance ou adoption) non tranchée, non dite.
-- Mots : 48
+- Note de prudence : « Xavier n'était pas son père biologique ; il l'a élevé » remplacé par ce que dit Nice-Matin : Agnès, « mère célibataire d'Arthur », épouse Xavier le 11 septembre 1991. Âge d'Arthur attribué (21 ans dans Le Parisien 2026).
+- Mots : 51
 
 ### S11
 
 Anne, 16 ans, est en première scientifique et joue du piano, selon Le Parisien ; Benoît, 13 ans, joue de la batterie. Tous deux sont élèves d'un collège-lycée nantais, la Perverie. Ce sont des personnes, pas des personnages : nous ne décrirons rien de ce qu'ils ont subi.
 
 - Statut : FAIT DOCUMENTÉ (âges, établissement) ; TÉMOIGNAGE RAPPORTÉ (piano, attribué)
-- Sources : S080 Le Parisien 22/04/2011 (lu_integral (Codex, 01/10/2026)) ; S082 Le Parisien 22/04/2011 (lu_integral (Codex, 01/10/2026)) ; S088 Society (lu_partiel (Codex), batterie, appoint)
+- Sources : S080 Le Parisien 22/04/2011 (relu curl 01/10/2026) ; S082 Le Parisien 22/04/2011 (relu curl 01/10/2026)
 - Assertions : A083, A090, A091
 - Incertitude : faible
 - Visuels : P030, P031
@@ -162,183 +162,183 @@ Anne, 16 ans, est en première scientifique et joue du piano, selon Le Parisien 
 
 ### S12
 
-Le 3 avril, le couple sort avec trois des enfants : un restaurant et une séance de cinéma, dans un ordre qui varie selon les chronologies. C'est la dernière sortie familiale rapportée. Ce qui suit n'est connu que par la reconstitution de l'enquête.
+Le 3 avril, le couple sort avec trois des enfants : un restaurant, puis une séance de cinéma, selon la chronologie du Parisien. C'est la dernière sortie familiale rapportée. Ce qui suit n'est connu que par la reconstitution de l'enquête.
 
-- Statut : RECONSTRUCTION (sortie du 3 avril)
-- Sources : S060 L'Est Républicain 22/05/2011 (lu_integral (Codex, 01/10/2026)) ; S056 Le Parisien 03/04/2026 (lu_integral (Codex, 01/10/2026))
+- Statut : RECONSTRUCTION attribuée (Le Parisien 2026 : restaurant « avant de se rendre dans un cinéma »)
+- Sources : S056 Le Parisien 03/04/2026 (relu curl 01/10/2026) ; S216 Le Télégramme 15/04/2013 (relu curl 01/10/2026)
 - Assertions : A073
 - Incertitude : moyenne : l'ordre restaurant/cinéma varie
 - Visuels : P032, P033
-- Note de prudence : Le v0 disait « repas en périphérie de Nantes » : lieu non retenu.
-- Mots : 43
+- Note de prudence : « Ordre variable selon les chronologies » retiré : la seule autre version (L'Est Républicain) est inaccessible.
+- Mots : 40
 
 ### S13
 
-D'après la chronologie publiée par L'Est Républicain en mai 2011, l'enquête retient la nuit du 3 au 4 avril comme date probable de la mort d'Agnès, d'Arthur, d'Anne et de Benoît. Une date probable, pas une certitude.
+D'après les chronologies du Télégramme et du Parisien, l'enquête retient la nuit du 3 au 4 avril comme date probable de la mort d'Agnès, d'Arthur, d'Anne et de Benoît. Une date probable, pas une certitude.
 
-- Statut : RECONSTRUCTION DE L'ENQUÊTE (date probable)
-- Sources : S060 L'Est Républicain 22/05/2011 (lu_integral (Codex, 01/10/2026)) ; S057 Nice-Matin (lu_integral (Codex, 01/10/2026))
+- Statut : RECONSTRUCTION attribuée (« date probable », Télégramme et Le Parisien 2026)
+- Sources : S216 Le Télégramme 15/04/2013 (relu curl 01/10/2026) ; S056 Le Parisien 03/04/2026 (relu curl 01/10/2026)
 - Assertions : A078
 - Incertitude : moyenne (dates probables)
 - Visuels : P034
 - Pause après : 1.0 s
-- Note de prudence : Le v0 attribuait « date probable » au procureur : attribution corrigée (chronologie de L'Est Républicain). Propos « au jour près » et témoins des 5 et 7 avril retirés (extraits encyclopédiques).
-- Mots : 37
+- Note de prudence : Le Télégramme attribue la « date probable » au procureur de Nantes ; Le Parisien 2026 écrit « « date probable » des meurtres ». L'Est Républicain (inaccessible) n'est plus cité. Propos « au jour près » et témoins des 5 et 7 avril retirés.
+- Mots : 35
 
 ### S14
 
-Le 4 avril, le collège-lycée est averti de l'absence d'Anne et de Benoît, pour cause de maladie. C'est l'explication que l'établissement a reçue, telle que la presse la rapportait à l'époque ; rien de plus.
+Le 4 avril, selon 20 Minutes, le collège-lycée est averti de l'absence d'Anne et de Benoît, pour cause de maladie ; l'employeur d'Agnès reçoit la même explication pour elle. C'est ce qu'on leur a dit ; rien de plus.
 
-- Statut : TÉMOIGNAGE RAPPORTÉ (explication reçue par l'école)
-- Sources : S057 Nice-Matin (lu_integral (Codex, 01/10/2026)) ; S061 DNA/AFP 23/04/2011 (lu_integral (Codex, 01/10/2026)) ; S059 L'Est Républicain 22/04/2011 (lu_partiel (Codex), appoint)
+- Statut : TÉMOIGNAGE RAPPORTÉ attribué (20 Minutes : collège et employeur avertis d'une « maladie »)
+- Sources : S070 20 Minutes 03/04/2018 (relu curl 01/10/2026)
 - Assertions : A074
 - Incertitude : faible ; on rapporte le motif transmis, pas une maladie réelle
 - Visuels : P035
-- Note de prudence : Phrase v0 « les responsables n'avaient jamais rencontré le père » retirée (20 Minutes inaccessible).
-- Mots : 35
+- Note de prudence : « Telle que la presse la rapportait à l'époque » retiré (source de 2018).
+- Mots : 39
 
 ### S15
 
-Thomas, lui, est à Angers. Selon les chronologies de 2011, son père dîne avec lui près d'Angers le 4 avril, puis, le 5, lui demande de rentrer à Nantes. Une chronologie du Parisien, en 2026, place ce repas le 5, après son retour. Un repas ou deux, le 4 ou le 5 : les sources divergent, et nous ne trancherons pas.
+Thomas, lui, est à Angers. Selon 20 Minutes et Le Parisien de 2011, son père dîne avec lui près d'Angers le 4 avril ; le lendemain, selon Le Parisien, il lui demande de rentrer à Nantes. Une chronologie du Parisien, en 2026, place ce repas le 5, après son retour. Un repas ou deux, le 4 ou le 5 : les sources divergent, et nous ne trancherons pas.
 
 - Statut : RECONSTRUCTION avec DIVERGENCE (dîner avec Thomas)
-- Sources : S058 Le Parisien 03/09/2011 (lu_integral (Codex, 01/10/2026)) ; S060 L'Est Républicain 22/05/2011 (lu_integral (Codex, 01/10/2026)) ; S057 Nice-Matin (lu_integral (Codex, 01/10/2026)) ; S056 Le Parisien 03/04/2026 (lu_integral (Codex, 01/10/2026))
+- Sources : S058 Le Parisien 03/09/2011 (relu curl 01/10/2026) ; S070 20 Minutes 03/04/2018 (relu curl 01/10/2026) ; S056 Le Parisien 03/04/2026 (relu curl 01/10/2026)
 - Assertions : A076, A077
 - Incertitude : moyenne ; divergence 4/5 avril non tranchée (consigne de Rémi)
 - Visuels : P036, P037
-- Note de prudence : Lieu précis du restaurant non cité.
-- Mots : 61
+- Note de prudence : Le dîner du 4 est dans Le Parisien 2011 et 20 Minutes ; la demande de retour le 5 seulement dans Le Parisien 2011 ; repas le 5 dans Le Parisien 2026.
+- Mots : 68
 
 ### S16
 
-La date retenue pour la mort de Thomas suit cette incertitude : la nuit du 5 au 6 avril dans le tableau de L'Est Républicain ; la nuit du 4 au 5, ou la suivante, dans celui de Nice-Matin.
+La date probable retenue pour la mort de Thomas suit ce retour : la nuit du 5 au 6 avril, selon Le Télégramme et Nice-Matin.
 
-- Statut : RECONSTRUCTION avec DIVERGENCE (date probable pour Thomas)
-- Sources : S060 (lu_integral (Codex, 01/10/2026)) ; S057 (lu_integral (Codex, 01/10/2026))
+- Statut : RECONSTRUCTION attribuée (nuit du 5 au 6, Télégramme et Nice-Matin 2022)
+- Sources : S216 Le Télégramme 15/04/2013 (relu curl 01/10/2026) ; S079 Nice-Matin 19/04/2022 (relu curl 01/10/2026)
 - Assertions : A078
 - Incertitude : moyenne
 - Visuels : P038
 - Pause après : 0.8 s
-- Mots : 39
+- Mots : 25
 
 ## Chapitre 3 — Les courriers : un départ, deux versions
 
 ### S17
 
-Le Parisien, qui a interrogé son patron, rapporte un courriel daté du 8 avril : Xavier Dupont de Ligonnès y annonce à ce patron son départ pour l'Australie. Le même jour, selon plusieurs chronologies, une lettre part vers des proches. Elle arrive le 11, en même temps que les courriers adressés aux établissements.
+Le Parisien, qui a interrogé son patron, rapporte un courriel daté du 8 avril : Xavier Dupont de Ligonnès y annonce à ce patron son départ pour l'Australie. Le même jour, selon 20 Minutes et Le Télégramme, une lettre part vers des proches. Elle arrive le 11, en même temps que les courriers adressés aux établissements.
 
 - Statut : TÉMOIGNAGE RAPPORTÉ (courriel au patron) ; RECONSTRUCTION (expédition le 8, réception le 11)
-- Sources : S062 Le Parisien 21/05/2011 (lu_integral (Codex, 01/10/2026)) ; S070 20 Minutes 03/04/2018 (lu_integral (Codex, 01/10/2026)) ; S057 Nice-Matin (lu_integral (Codex, 01/10/2026)) ; S060 L'Est Républicain (lu_integral (Codex, 01/10/2026))
+- Sources : S062 Le Parisien 21/05/2011 (relu curl 01/10/2026) ; S070 20 Minutes 03/04/2018 (relu curl 01/10/2026) ; S216 Le Télégramme 15/04/2013 (relu curl 01/10/2026) ; S056 Le Parisien 03/04/2026 (relu curl 01/10/2026)
 - Assertions : A044, A045
 - Incertitude : moyenne (courriel : source unique, attribuée ; pièces postales non vues)
 - Visuels : P039, P040, P041
-- Note de prudence : Patron non nommé ; entreprise non citée à l'antenne.
-- Mots : 53
+- Note de prudence : Courriel : « daté du 8 avril », « nous partons nous installer en Australie » (S062). Lettre : expédiée le 8 (20 Minutes ; Télégramme : « Les lettres ont été envoyées le 8 avril ») ; reçue le 11 (Le Parisien 2026).
+- Mots : 56
 
 ### S18
 
-Les établissements lisent un départ pour l'Australie. Les proches lisent une autre histoire, dont l'Agence France-Presse a repris des extraits révélés par RTL : un départ secret vers les États-Unis, sous la protection des services antidrogue américains. Selon un avocat interrogé par l'AFP, neuf proches ont reçu cette lettre.
+Les établissements lisent un départ pour l'Australie, pour une « mutation professionnelle urgente », selon Le Parisien. Les proches lisent une autre histoire : un travail secret pour l'agence américaine de lutte contre les stupéfiants, puis le départ de toute la famille vers les États-Unis, sous une fausse identité, dans le cadre d'un programme fédéral de protection des témoins. Selon Le Parisien comme selon Le Télégramme, neuf proches reçoivent cette lettre.
 
-- Statut : FAIT (version australienne reçue) ; TÉMOIGNAGE RAPPORTÉ (extraits de la lettre, nombre de destinataires)
-- Sources : S052 Europe 1 avec AFP 05/05/2011 (lu_integral (Codex, 01/10/2026)) ; S060 L'Est Républicain (lu_integral (Codex, 01/10/2026)) ; S061 DNA/AFP (lu_integral (Codex, 01/10/2026))
+- Statut : TÉMOIGNAGE RAPPORTÉ attribué (teneur de la lettre selon Le Parisien 2026 et 20 Minutes ; neuf destinataires selon Le Parisien et Le Télégramme)
+- Sources : S056 Le Parisien 03/04/2026 (relu curl 01/10/2026) ; S070 20 Minutes 03/04/2018 (relu curl 01/10/2026) ; S216 Le Télégramme 15/04/2013 (relu curl 01/10/2026)
 - Assertions : A043, A046, A047
 - Incertitude : moyenne pour « neuf » (une seule origine : l'avocat via l'AFP)
 - Visuels : P042, P043, P044
-- Note de prudence : Avocat non nommé. « Mutation professionnelle urgente » (v0) retirée : formule non retrouvée dans les sources Codex.
-- Mots : 49
+- Note de prudence : « Extraits révélés par RTL, repris par l'AFP » et « avocat interrogé par l'AFP » (Europe 1, HTTP 403) retirés. Le Parisien écrit « neuf membres de la famille », Le Télégramme « neuf proches ».
+- Mots : 71
 
 ### S19
 
-Et la lettre contient une consigne : faire croire, autour d'eux, à la version australienne. Selon ces extraits, les deux récits ne s'ignorent donc pas : l'un est présenté aux proches comme la couverture de l'autre.
+Un avocat, cité par Le Télégramme, qualifiait ce courrier d'« énigmatique et abracadabrant ». La lettre prévient aussi, selon Le Parisien, que personne ne pourra joindre la famille durant plusieurs années.
 
-- Statut : TÉMOIGNAGE RAPPORTÉ (consigne de la lettre)
-- Sources : S052 Europe 1/AFP (lu_integral (Codex, 01/10/2026)) ; S061 DNA/AFP (lu_integral (Codex, 01/10/2026))
+- Statut : TÉMOIGNAGE RAPPORTÉ (avocat non nommé, Télégramme) ; teneur attribuée (Le Parisien)
+- Sources : S216 Le Télégramme 15/04/2013 (relu curl 01/10/2026) ; S056 Le Parisien 03/04/2026 (relu curl 01/10/2026)
 - Assertions : A047
-- Incertitude : faible sur l'existence de la consigne dans les extraits ; aucune véracité du récit
+- Incertitude : faible sur les mots cités ; aucune véracité du récit de la lettre
 - Visuels : P045
-- Note de prudence : La citation « gravats » du v0 est retirée (évocation indirecte du sort des victimes).
-- Mots : 36
+- Note de prudence : La « consigne de faire croire à la version australienne » est retirée : aucune page relue ne la donne (Europe 1 et DNA inaccessibles ; seule Wikipédia l'évoque).
+- Mots : 31
 
 ### S20
 
-Mettons-les côte à côte. Pour les établissements et le patron : l'Australie. Pour neuf proches : les États-Unis, sous protection, avec la consigne de parler d'Australie. Ce que raconte cette lettre, attribuée à Xavier Dupont de Ligonnès, aucune de nos sources ne l'établit : c'est un récit, pas un fait.
+Mettons-les côte à côte. Pour les établissements et le patron : l'Australie. Pour neuf proches : les États-Unis, sous protection. Nice-Matin le résumait en 2022 : une mutation en Australie pour les uns, un programme de protection des témoins aux États-Unis pour les autres. Ce que raconte cette lettre, attribuée à Xavier Dupont de Ligonnès, aucune de nos sources ne l'établit : c'est un récit, pas un fait.
 
 - Statut : Synthèse des segments S17 à S19
-- Sources : mêmes sources (S052, S060, S062)
+- Sources : S056 Le Parisien 03/04/2026 (relu curl 01/10/2026) ; S062 Le Parisien 21/05/2011 (relu curl 01/10/2026) ; S079 Nice-Matin 19/04/2022 (relu curl 01/10/2026)
 - Assertions : A043, A044, A047
 - Incertitude : faible
 - Visuels : P046
-- Note de prudence : Rappel explicite : récit attribué, pas un fait.
-- Mots : 50
+- Note de prudence : Synthèse sans la « consigne ». Résumé de Nice-Matin 2022 paraphrasé, non cité entre guillemets.
+- Mots : 68
 
 ## Chapitre 4 — Du 10 au 15 avril : la route
 
 ### S21
 
-Selon la plupart des chronologies, quand ces courriers arrivent, il a déjà quitté Nantes. Selon Le Monde, repris par le site Numerama en juin 2011, une trace informatique révélée par Sud Ouest le situe près de La Rochelle dans la nuit du 10 au 11 avril. Numerama soulignait lui-même que le mécanisme décrit restait ambigu.
+Quand ces courriers arrivent, où est-il ? Selon Le Monde, repris par le site Numerama en juin 2011, les enquêteurs ont retrouvé sa trace dans un hôtel de La Rochelle pour la nuit du 10 au 11 avril, grâce à une adresse informatique, d'après Sud Ouest. Numerama jugeait lui-même ce détail « curieux ».
 
-- Statut : RECONSTRUCTION (trace informatique) ; HYPOTHÈSE de journaliste (ambiguïté)
-- Sources : S054 Numerama 21/06/2011 (lu_integral (Codex, 01/10/2026)) ; S053 Le Monde 21/06/2011 (lu_partiel (Codex), appoint)
+- Statut : RECONSTRUCTION attribuée (Numerama citant Le Monde, citant Sud-Ouest)
+- Sources : S054 Numerama 21/06/2011 (relu curl 01/10/2026)
 - Assertions : A051, A052
-- Incertitude : moyenne : une seule origine (Sud Ouest, article non récupéré)
+- Incertitude : moyenne : une seule origine (Sud-Ouest, article non récupéré)
 - Visuels : P047, P048, P049
-- Note de prudence : « Selon la plupart des chronologies » : Le Parisien 2026 diverge (S22). Citation « calme et discret » (ICI La Rochelle, v0) retirée : non lue.
-- Mots : 55
+- Note de prudence : « Près de La Rochelle » corrigé en « un hôtel de La Rochelle » (page : « un établissement deux étoiles de La Rochelle »). « Mécanisme ambigu » remplacé par le mot de la page : « Un élément curieux ».
+- Mots : 54
 
 ### S22
 
-En 2021, le site Planet, qui s'appuie notamment sur un livre d'enquête, précise la commune : Puilboreau. À l'inverse, la chronologie du Parisien de 2026 ne le fait partir que le 12 avril. Là encore, nous signalons l'écart sans le combler.
+En septembre 2011, Le Parisien faisait lui aussi de La Rochelle sa première escale. À l'inverse, la chronologie du Parisien de 2026 ne le fait partir que le 12 avril. Là encore, nous signalons l'écart sans le combler.
 
-- Statut : TÉMOIGNAGE RAPPORTÉ secondaire (Puilboreau) ; DIVERGENCE (départ le 12)
-- Sources : S065 Planet 20/07/2021 (lu_integral (Codex, 01/10/2026)) ; S056 Le Parisien 03/04/2026 (lu_integral (Codex, 01/10/2026))
+- Statut : RECONSTRUCTION attribuée (Le Parisien 2011 : « première escale à La Rochelle ») ; DIVERGENCE (départ le 12, Le Parisien 2026)
+- Sources : S058 Le Parisien 03/09/2011 (relu curl 01/10/2026) ; S056 Le Parisien 03/04/2026 (relu curl 01/10/2026)
 - Assertions : A053
 - Incertitude : moyenne (livre cité non lu)
 - Visuels : P050, P051
-- Note de prudence : Puilboreau absent de lieux.json : non placé sur carte.
-- Mots : 41
+- Note de prudence : Puilboreau (Planet, bloqué par le proxy) retiré. Le Parisien 2011 date aussi le départ « entre le 11 et le 13 avril ».
+- Mots : 38
 
 ### S23
 
-Le 11 avril au soir, il dort à Blagnac, près de Toulouse. Le 12, au Pontet, près d'Avignon. Selon la directrice de l'hôtel, interrogée par l'AFP, il s'y présente sous le nom de « Xavier Laurent » ; selon Nice-Matin et 20 Minutes, la nuit est réglée avec la carte bancaire d'Agnès.
+Il fait ensuite étape à Blagnac, près de Toulouse, selon Le Parisien de septembre 2011. Le 12, il descend dans une auberge du Pontet, dans le Vaucluse : sous une fausse identité, selon Le Parisien en 2026 ; selon 20 Minutes, la nuit est réglée avec la carte bancaire d'Agnès.
 
-- Statut : RECONSTRUCTION (Blagnac, Le Pontet) ; TÉMOIGNAGE RAPPORTÉ (nom donné, attribué) ; RECONSTRUCTION (carte d'Agnès)
-- Sources : S057 Nice-Matin (lu_integral (Codex, 01/10/2026)) ; S058 Le Parisien 03/09/2011 (lu_integral (Codex, 01/10/2026)) ; S065 Planet (lu_integral (Codex, 01/10/2026)) ; S061 DNA/AFP 23/04/2011 (lu_integral (Codex, 01/10/2026)) ; S070 20 Minutes 2018 (lu_integral (Codex, 01/10/2026))
+- Statut : RECONSTRUCTION attribuée (Blagnac, Le Pontet, fausse identité, carte d'Agnès)
+- Sources : S058 Le Parisien 03/09/2011 (relu curl 01/10/2026) ; S056 Le Parisien 03/04/2026 (relu curl 01/10/2026) ; S070 20 Minutes 03/04/2018 (relu curl 01/10/2026)
 - Assertions : A048, A049, A050
-- Incertitude : faible (Le Pontet) ; moyenne (Blagnac, nom « Xavier Laurent » : source unique attribuée)
+- Incertitude : faible (Le Pontet) ; moyenne (Blagnac, non daté sur la page relue)
 - Visuels : P052, P053, P054
-- Note de prudence : Directrice non nommée. « Xavier Ligonne » à Blagnac (La Dépêche 2020, v0) retiré : hors Codex. Montants exclus.
-- Mots : 52
+- Note de prudence : « Xavier Laurent » retiré : DNA inaccessible, et Wikipédia FR relue ne cite pas Midi Libre pour ce nom (phrase sans note). Date « 11 au soir » pour Blagnac retirée. « Près d'Avignon » remplacé par « dans le Vaucluse ».
+- Mots : 50
 
 ### S24
 
-La nuit du 13 au 14 avril reste la moins documentée. En septembre 2011, Le Parisien la disait inconnue ; des récits ultérieurs, dont celui de Planet, la situent à La Seyne-sur-Mer, dans le Var.
+La journée du 13 avril reste la moins documentée. En septembre 2011, Le Parisien écrivait que sa trace se perdait ce jour-là. En 2022, Nice-Matin le situe à La Seyne-sur-Mer, dans le Var, où il réserve une chambre d'hôtel, en précisant qu'on ne sait pas ce qu'il y a fait.
 
-- Statut : RECONSTRUCTION avec DIVERGENCE (nuit du 13 au 14)
-- Sources : S058 Le Parisien 03/09/2011 (lu_integral (Codex, 01/10/2026)) ; S065 Planet (lu_integral (Codex, 01/10/2026)) ; S066 La Provence (lu_partiel (Codex), appoint)
+- Statut : RECONSTRUCTION attribuée (trace perdue le 13, Le Parisien 2011 ; La Seyne-sur-Mer, Nice-Matin 2022)
+- Sources : S058 Le Parisien 03/09/2011 (relu curl 01/10/2026) ; S079 Nice-Matin 19/04/2022 (relu curl 01/10/2026)
 - Assertions : A054
 - Incertitude : moyenne
 - Visuels : P055
-- Note de prudence : La Seyne-sur-Mer absente de lieux.json : non placée sur carte.
-- Mots : 35
+- Note de prudence : Planet (bloqué) remplacé par Nice-Matin 2022 relu : « Il retrouvera La Seyne le 13 avril 2011 […] Il réservera une chambre dans un hôtel », « On ne sait pas ce qu'il a fait des 24 heures ».
+- Mots : 50
 
 ### S25
 
-Le 14 avril, à Roquebrune-sur-Argens, dans le Var, il retire 30 euros à un distributeur, puis passe la nuit à l'hôtel Formule 1 de la commune. Rien dans notre dossier ne permet de prêter à ce retrait une intention particulière.
+Le 14 avril, à Roquebrune-sur-Argens, dans le Var, il retire 30 euros à un distributeur, selon 20 Minutes, puis passe la nuit à l'hôtel Formule 1 de la commune. Rien dans notre dossier ne permet de prêter à ce retrait une intention particulière.
 
 - Statut : RECONSTRUCTION (retrait, nuit au Formule 1)
-- Sources : S070 20 Minutes 03/04/2018 (lu_integral (Codex, 01/10/2026)) ; S057 Nice-Matin (lu_integral (Codex, 01/10/2026)) ; S059 L'Est Républicain (lu_partiel (Codex), appoint)
+- Sources : S070 20 Minutes 03/04/2018 (relu curl 01/10/2026) ; S056 Le Parisien 03/04/2026 (relu curl 01/10/2026) ; S216 Le Télégramme 15/04/2013 (relu curl 01/10/2026)
 - Assertions : A055, A057
 - Incertitude : faible
 - Visuels : P056, P057
 - Note de prudence : Total « 1 000 euros » (Le Monde) et « compte fermé, téléphone coupé » (v0) retirés : appui partiel. Courriel « nettoyage final » du 14 avril retiré : hors Codex.
-- Mots : 40
+- Mots : 43
 
 ### S26
 
 Le 15 avril, selon 20 Minutes, il quitte l'hôtel en voiture le matin, revient vers 16 heures, puis repart à pied. Une chronologie du Parisien de septembre 2011 situait, elle, le départ dans la matinée. Ce qu'il porte, un sac ou une housse selon les récits, ne dit rien, à lui seul, de son contenu.
 
 - Statut : RECONSTRUCTION avec DIVERGENCE (déroulé du 15 avril) ; HYPOTHÈSE écartée (contenu du sac)
-- Sources : S070 20 Minutes 03/04/2018 (lu_integral (Codex, 01/10/2026)) ; S058 Le Parisien 03/09/2011 (lu_integral (Codex, 01/10/2026)) ; S065 Planet (lu_integral (Codex, 01/10/2026)) ; S066 La Provence (lu_partiel (Codex), 16 h 10, non utilisé)
+- Sources : S070 20 Minutes 03/04/2018 (relu curl 01/10/2026) ; S058 Le Parisien 03/09/2011 (relu curl 01/10/2026) ; S056 Le Parisien 03/04/2026 (relu curl 01/10/2026) ; S216 Le Télégramme 15/04/2013 (relu curl 01/10/2026)
 - Assertions : A058, A059
 - Incertitude : moyenne ; vidéo non visionnée
 - Visuels : P058, P059
@@ -350,7 +350,7 @@ Le 15 avril, selon 20 Minutes, il quitte l'hôtel en voiture le matin, revient v
 C'est la dernière trace connue dans les bilans que nous avons lus. Les signalements ultérieurs, dont RTL faisait encore le point en juin 2026, ne la prolongent pas : aucune preuve définitive n'a été annoncée. Nous ne racontons rien au-delà.
 
 - Statut : RECONSTRUCTION (dernière trace dans les bilans lus)
-- Sources : S057 Nice-Matin (lu_integral (Codex, 01/10/2026)) ; S064 RTL 02/06/2026 (lu_integral (Codex, 01/10/2026))
+- Sources : S056 Le Parisien 03/04/2026 (relu curl 01/10/2026) ; S064 RTL 02/06/2026 (relu curl 01/10/2026)
 - Assertions : A060
 - Incertitude : faible
 - Visuels : P060, P061
@@ -365,7 +365,7 @@ C'est la dernière trace connue dans les bilans que nous avons lus. Les signalem
 Pendant ce temps, à Nantes, le silence de la famille inquiète. Selon la chronologie publiée par Le Parisien en 2026, un voisin donne l'alerte dès le 13 avril, et la police se rend une première fois au domicile.
 
 - Statut : RECONSTRUCTION rétrospective, source unique attribuée (S056 relu par curl le 01/10/2026 : « un de ses voisins » appelle la police le 13 avril)
-- Sources : S056 Le Parisien 03/04/2026 (lu_integral (Codex, 01/10/2026) dans les thèmes avril ; lu_partiel (Codex) dans decouverte_enquete) ; S063 Le Parisien 2019 (lu_partiel (Codex), appoint)
+- Sources : S056 Le Parisien 03/04/2026 (relu curl 01/10/2026)
 - Assertions : A133
 - Incertitude : moyenne (A133 non confirmée indépendamment)
 - Visuels : P062, P063
@@ -377,7 +377,7 @@ Pendant ce temps, à Nantes, le silence de la famille inquiète. Selon la chrono
 Le 21 avril, selon RTL, les policiers reviennent pour la cinquième fois. Ce jour-là, Agnès et ses quatre enfants sont retrouvés morts dans la maison familiale.
 
 - Statut : FAIT DOCUMENTÉ (découverte du 21 avril) ; RECONSTRUCTION attribuée (cinquième visite, RTL)
-- Sources : S117 RTL 06/04/2021 (lu_integral (Codex, 01/10/2026)) ; S118 20 Minutes 29/03/2022 (lu_integral (Codex, 01/10/2026)) ; S119 20 Minutes 01/04/2021 (lu_integral (Codex, 01/10/2026)) ; S121 La Dépêche/AFP 10/05/2011 (lu_integral (Codex, 01/10/2026))
+- Sources : S117 RTL 06/04/2021 (relu curl 01/10/2026) ; S070 20 Minutes 03/04/2018 (relu curl 01/10/2026) ; S056 Le Parisien 03/04/2026 (relu curl 01/10/2026)
 - Assertions : A134, A135
 - Incertitude : faible (découverte) ; moyenne (nombre de visites, RTL seul)
 - Visuels : P064, P065
@@ -390,7 +390,7 @@ Le 21 avril, selon RTL, les policiers reviennent pour la cinquième fois. Ce jou
 Un détail, moins connu, éclaire la journée. Le procureur de Nantes, Xavier Ronsin, avait convoqué la presse ce jour-là pour lancer un appel à témoins sur la disparition de la famille. Apprenant la découverte d'un premier corps, il a maintenu son point presse : c'est ce qu'il a raconté en 2021 à 20 Minutes, dont un journaliste était présent.
 
 - Statut : TÉMOIGNAGE RAPPORTÉ (souvenir du procureur, confirmé par le journaliste présent)
-- Sources : S119 20 Minutes 01/04/2021 (lu_integral (Codex, 01/10/2026)) ; S118 20 Minutes 29/03/2022 (lu_integral (Codex, 01/10/2026))
+- Sources : S119 20 Minutes 01/04/2021 (relu curl 01/10/2026) ; S118 20 Minutes 29/03/2022 (relu curl 01/10/2026)
 - Assertions : A136
 - Incertitude : faible
 - Visuels : P066
@@ -399,66 +399,66 @@ Un détail, moins connu, éclaire la journée. Le procureur de Nantes, Xavier Ro
 
 ### S31
 
-Le 22 avril, une information judiciaire est ouverte contre X pour assassinats, selon un communiqué du parquet cité par l'AFP. Le 23 avril, selon une légende de l'AFP, une photo est rendue publique : son portrait, tel qu'il figure sur sa fiche d'inscription au club de tir.
+Le 22 avril, une information judiciaire est ouverte contre X pour assassinats, selon une dépêche de l'AFP publiée par La Dépêche. Le 23 avril, selon une légende de l'AFP, une photo est rendue publique : son portrait, tel qu'il figure sur sa fiche d'inscription au club de tir.
 
 - Statut : RECONSTRUCTION attribuée (information judiciaire) ; FAIT (légende AFP du portrait)
-- Sources : S121 La Dépêche/AFP 10/05/2011 (lu_integral (Codex, 01/10/2026)) ; S222 La Libre Belgique 15/04/2024, légende AFP (relu WebFetch 01/10/2026, légende lue : « A picture made available on April 23, 2011 shows the portrait of Xavier Dupont de Ligonnes […] on the registration form of his rifle club association »)
+- Sources : S121 La Dépêche/AFP 10/05/2011 (relu curl 01/10/2026) ; S216 Le Télégramme 15/04/2013 (relu curl 01/10/2026) ; S222 La Libre Belgique 15/04/2024, légende AFP (relu curl 01/10/2026)
 - Assertions : A137, A240
 - Incertitude : faible pour la légende ; l'auteur de la photo n'apparaît pas dans la légende lue
 - Visuels : P067, P068
-- Note de prudence : Raccord RACCORDS_V0 n° 2 tranché : fiche du club de tir, diffusée le 23/04/2011, selon la légende AFP lue. Formulation prudente : « une photo rendue publique », sans affirmer qu'elle est l'unique portrait diffusé. Pas d'image du portrait à l'écran (droits).
-- Mots : 47
+- Note de prudence : « Communiqué du parquet cité par l'AFP » remplacé par « une dépêche de l'AFP » (la date du 22 avril est dans le texte de la dépêche, pas dans la citation du communiqué). Portrait : légende AFP relue (curl) sur La Libre.
+- Mots : 48
 
 ### S32
 
-Dans un premier temps, la recherche internationale vise à l'entendre comme témoin. Le 26 avril, selon un communiqué du procureur cité par Le Monde, une diffusion Interpol de type notice bleue est demandée : selon Interpol, ce type d'avis sert à recueillir des renseignements sur une personne, notamment sur l'endroit où elle se trouve.
+Dans un premier temps, il est seulement recherché pour être entendu comme témoin, selon la même dépêche. D'après la chronologie du Télégramme, ce mandat de recherche est diffusé dans l'espace Schengen, puis, le 26 avril, par Interpol.
 
-- Statut : RECONSTRUCTION attribuée (témoin, notice bleue) ; FAIT (définition Interpol)
-- Sources : S121 (lu_integral (Codex, 01/10/2026)) ; S122 Le Monde 11/05/2011 (lu_integral (Codex, 01/10/2026)) ; S120 Le Monde 27/04/2011 (lu_integral (Codex, 01/10/2026)) ; S140 Interpol, « À propos des notices » (lu_integral (Codex, 01/10/2026) ; WebFetch bloqué)
+- Statut : RECONSTRUCTION attribuée (témoin : AFP ; Schengen puis Interpol le 26 avril : Télégramme)
+- Sources : S121 La Dépêche/AFP 10/05/2011 (relu curl 01/10/2026) ; S216 Le Télégramme 15/04/2013 (relu curl 01/10/2026)
 - Assertions : A139, A140, A141
-- Incertitude : moyenne (couleur de notice : état historique daté)
+- Incertitude : faible
 - Visuels : P069, P070
-- Note de prudence : Couleur actuelle de la notice non dite (divergence 2021/2026).
-- Mots : 54
+- Note de prudence : « Notice bleue » et définition Interpol retirées : Le Monde (HTTP 402) et interpol.int (bloqué) non relus.
+- Mots : 37
 
 ### S33
 
-Le 10 mai 2011, le parquet annonce un mandat d'arrêt international. Son statut change : il n'est plus recherché comme témoin, il est visé par un mandat. À ne pas confondre avec une notice rouge d'Interpol, qui demande de localiser une personne et de l'arrêter provisoirement, sans être, elle-même, un mandat d'arrêt.
+Le 10 mai 2011, le parquet annonce un mandat d'arrêt international. Son statut change : il n'est plus recherché comme témoin, il est visé par un mandat. Le procureur le précisait alors : il « reste naturellement toujours présumé innocent ».
 
-- Statut : FAIT (mandat annoncé par le parquet) ; FAIT (définition de la notice rouge)
-- Sources : S121 La Dépêche/AFP 10/05/2011 (lu_integral (Codex, 01/10/2026)) ; S122 Le Monde 11/05/2011 (lu_integral (Codex, 01/10/2026)) ; S139 Interpol, notices rouges (lu_integral (Codex, 01/10/2026) ; WebFetch bloqué)
+- Statut : FAIT (mandat annoncé par le parquet) ; citation du procureur (AFP)
+- Sources : S121 La Dépêche/AFP 10/05/2011 (relu curl 01/10/2026) ; S056 Le Parisien 03/04/2026 (relu curl 01/10/2026)
 - Assertions : A140, A141
 - Incertitude : faible
 - Visuels : P071, P072, P073
 - Pause après : 1.0 s
-- Note de prudence : Mandat original non consulté : « le parquet annonce ».
-- Mots : 52
+- Note de prudence : Définition de la notice rouge retirée (interpol.int bloqué). Citation exacte : « Il reste naturellement toujours présumé innocent ».
+- Mots : 41
 
 ## Chapitre 6 — Qui savait quoi ?
 
 ### S34
 
-Revenons à notre question : en avril 2011, qui savait quoi ? Le collège-lycée a entendu parler de maladie, puis d'Australie ; l'employeur d'Agnès et le patron de Xavier, d'Australie. Neuf proches ont lu une histoire de protection américaine, avec la consigne de parler d'Australie. Le club de tir, lui, l'avait vu pour la dernière fois le premier avril.
+Revenons à notre question : en avril 2011, qui savait quoi ? Le collège-lycée et l'employeur d'Agnès ont entendu parler de maladie, puis d'Australie ; le patron de Xavier, d'Australie. Neuf proches ont lu une histoire de protection américaine. Le club de tir, lui, l'avait vu pour la dernière fois le premier avril.
 
 - Statut : Synthèse (réponse à la question)
-- Sources : reprend S061, S060, S062, S052, S074
+- Sources : S070 20 Minutes 03/04/2018 (relu curl 01/10/2026) ; S056 Le Parisien 03/04/2026 (relu curl 01/10/2026) ; S062 Le Parisien 21/05/2011 (relu curl 01/10/2026) ; S071 20 Minutes/AFP 23/04/2011 (relu curl 01/10/2026)
 - Assertions : A043, A044, A047, A067, A074
 - Incertitude : faible
 - Visuels : P074, P075
-- Note de prudence : Aucun fait nouveau.
-- Mots : 59
+- Note de prudence : Synthèse sans la « consigne » ; l'employeur d'Agnès a aussi reçu l'explication de la maladie (20 Minutes).
+- Mots : 53
 
 ### S35
 
-Les versions ne concordaient qu'en apparence : selon la lettre aux proches, l'Australie servait de couverture. Achats, nuits d'hôtel, retrait, déplacements : tout cela n'a été assemblé qu'après coup, par l'enquête. Voilà la réponse que permettent nos sources : sur le moment, aucun de ces interlocuteurs n'avait l'ensemble du tableau.
+Deux versions circulaient donc en même temps, chacune adressée à des destinataires différents. Achats, nuits d'hôtel, retrait, déplacements : tout cela n'a été assemblé qu'après coup, par l'enquête. Voilà la réponse que permettent nos sources : sur le moment, aucun de ces interlocuteurs n'avait l'ensemble du tableau.
 
-- Statut : Synthèse et conclusion
-- Sources : reprend S052 (consigne de la lettre)
+- Statut : Synthèse
+- Sources : S056 Le Parisien 03/04/2026 (relu curl 01/10/2026) ; S070 20 Minutes 03/04/2018 (relu curl 01/10/2026)
 - Assertions : A047
 - Incertitude : faible
 - Visuels : P076
-- Note de prudence : Conclusion = lecture de la chaîne, appuyée sur les segments précédents.
-- Mots : 50
+- Note de prudence : « Selon la lettre, l'Australie servait de couverture » retiré (consigne non relue).
+- Mots : 47
 
 ### S36
 
@@ -490,43 +490,40 @@ Le prochain épisode part de ce mandat d'arrêt du 10 mai 2011. Viendront les fo
 
 « Moins connu » ne veut pas dire « inédit » : ces éléments figurent dans la presse, ils sont simplement moins souvent mis en avant.
 
-1. **Le tir commence avant la mort du père (S03-S05)** — Premières venues au stand en décembre 2010 ; décès du père le 20 janvier ou en février 2011 ; carabine récupérée ensuite. L'héritage ne peut pas expliquer le début de la pratique. S074, S076, S072, S061 ; A063, A065, A066.
-2. **La lettre aux proches présentait l'Australie comme une couverture (S19-S20, S35)** — Les deux récits ne sont pas indépendants : la lettre demande de faire croire à la version australienne. S052, S061 ; A047.
-3. **Le point presse du 21 avril avait été prévu avant la découverte (S30)** — Pour un appel à témoins ; maintenu après l'annonce d'un premier corps. Évite de prêter au parquet une connaissance anticipée. S118, S119 ; A136.
-4. **Témoin, notice bleue, mandat, notice rouge (S32-S33)** — Recherche d'abord comme témoin ; notice bleue le 26 avril ; mandat d'arrêt international le 10 mai ; une notice rouge n'est pas un mandat. S120, S121, S122, S139, S140 ; A139, A140, A141.
+1. **Le tir commence avant la mort du père (S03-S05)** — Initiation en décembre 2010 (AFP via 20 Minutes ; Le Parisien : club « qu'il fréquentait depuis décembre ») ; décès du père en janvier ou février 2011 ; carabine héritée ensuite. L'héritage ne peut pas expliquer le début de la pratique. S071, S072, S216.
+2. **Deux versions adressées à deux publics (S18-S20)** — Australie pour les établissements et le patron ; États-Unis et protection des témoins pour neuf proches. S056, S062, S070, S079, S216.
+3. **Le point presse du 21 avril avait été prévu avant la découverte (S30)** — Pour un appel à témoins ; maintenu après l'annonce d'un premier corps. S118, S119.
+4. **Témoin, puis mandat (S32-S33)** — Mandat de recherche pour l'entendre comme témoin (Schengen, puis Interpol le 26 avril) ; mandat d'arrêt international le 10 mai ; « Il reste naturellement toujours présumé innocent ». S121, S216.
 
 ## DIVERGENCES SIGNALÉES
 
-- **Mort du père** : 20 janvier 2011 (notice Libra Memoria reprenant l'Insee, S076 ; Nice-Matin 2026, S075 partiel) ou février 2011 (Le Parisien, 27/04/2011, S072). Présentée sans trancher (S04, P013-P014).
-- **Dîner avec Thomas** : près d'Angers le 4 avril, retour à Nantes le 5 (Le Parisien 03/09/2011, L'Est Républicain 22/05/2011, Nice-Matin) ; repas le 5 après son retour (Le Parisien 03/04/2026). Un ou deux repas : non tranché (S15).
-- **Date probable de la mort de Thomas** : nuit du 5 au 6 (L'Est Républicain) ; nuit du 4 au 5 ou suivante (Nice-Matin) (S16).
-- **Ordre restaurant / cinéma du 3 avril** : variable (S12).
-- **Départ de Nantes** : nuit du 10 au 11 près de La Rochelle (trace informatique, Numerama/Le Monde/Sud Ouest), Puilboreau selon Planet ; départ le 12 selon Le Parisien 2026 (S21-S22).
-- **Nuit du 13 au 14** : inconnue en septembre 2011 (Le Parisien) ; La Seyne-sur-Mer dans des récits ultérieurs (S24).
-- **15 avril** : sortie en voiture le matin, retour vers 16 heures, départ à pied (20 Minutes 2018) ; départ dans la matinée (Le Parisien 09/2011) (S26). L'heure « 16 h 10 » n'est lue que dans une transcription partielle (La Provence) : non utilisée.
-- **Origine du portrait public** (raccord n° 2) : tranchée sur page relue — légende AFP reprise par La Libre Belgique : photo rendue disponible le 23/04/2011, portrait sur la fiche d'inscription au club de tir. La version « image du distributeur » n'est appuyée par aucune page lue et n'est pas utilisée.
+- **Mort du père** : héritage en janvier 2011 (Le Télégramme 2013, S216) ou décès en février 2011 (Le Parisien 27/04/2011, S072). Présentée sans trancher (S04, P013-P014).
+- **Dîner avec Thomas** : près d'Angers le 4 avril (Le Parisien 03/09/2011, 20 Minutes 2018), retour à Nantes le 5 (Le Parisien 2011) ; repas le 5 après son retour (Le Parisien 03/04/2026). Non tranché (S15).
+- **Départ de Nantes** : nuit du 10 au 11 dans un hôtel de La Rochelle (Numerama citant Le Monde citant Sud-Ouest) ; La Rochelle « première escale » (Le Parisien 2011, qui date le départ « entre le 11 et le 13 ») ; fuite le 12 selon Le Parisien 2026 (S21-S22).
+- **13 avril** : trace perdue (Le Parisien 09/2011) ; La Seyne-sur-Mer (Nice-Matin 2022) (S24).
+- **15 avril** : sortie en voiture vers 10 h, retour vers 16 heures, départ à pied (20 Minutes 2018) ; départ « le lendemain matin, à pied » (Le Parisien 09/2011) ; départ vers 16 heures (Le Parisien 2026) (S26).
+- **Âge d'Arthur** : 20 ans (Le Parisien 22/04/2011 ; RTL 2021) ; 21 ans (Le Parisien 2026). Formule attribuée (S10).
+- **Origine du portrait public** : légende AFP relue sur La Libre Belgique : photo rendue disponible le 23/04/2011, portrait sur la fiche d'inscription au club de tir.
 
-## ÉLÉMENTS RETIRÉS DEPUIS LE v0
+## ÉLÉMENTS RETIRÉS OU RÉDUITS
 
-- Le Télégramme 2013 (chronologie) et ICI La Rochelle 2021 (« calme et discret ») : hors base Codex, non lus.
-- Courriel du 14 avril à 20 h 32 (« nettoyage final ») : hors Codex (Nice-Matin reprenant Society, fragile selon l'audit Bionic).
-- « Xavier Ligonne » à Blagnac (La Dépêche du Midi 2020) : hors Codex.
-- Propos du procureur sur une date « non fixée au jour près » et voisins ayant vu Agnès les 5 et 7 avril : extraits encyclopédiques.
-- Message du 9 avril au club de tir ; « les responsables n'avaient jamais rencontré le père » : 20 Minutes 2011, inaccessible.
-- Compte bancaire fermé, téléphone coupé, total de 1 000 euros : Le Monde 21/06/2011 lu partiellement seulement.
-- « Mutation professionnelle urgente », « volets fermés », « sous la terrasse », « gravats », « mythomane », Citroën C5 : formulations non retrouvées dans une source lue intégralement ou jugées inutiles et proches de détails sur les victimes.
-- Jour de repérage de la voiture (21 ou 22 avril) : sources lues partiellement seulement.
+Depuis le v0 : ICI La Rochelle (« calme et discret »), courriel « nettoyage final » du 14 avril, « Xavier Ligonne » à Blagnac, propos « au jour près » du procureur, voisins des 5 et 7 avril, message du 9 avril au club, compte fermé et téléphone coupé, « volets fermés », heure « 16 h 10 », Citroën C5, jour de repérage de la voiture.
+
+Relecture stricte du 01/10/2026 (source unique inaccessible, aucune page relue ne dit la même chose) :
+- « Xavier Laurent » (S23) : DNA/AFP inaccessible ; Wikipédia FR relue donne le nom sans note ni mention de Midi Libre : retiré. Reste « sous une fausse identité » (Le Parisien 2026).
+- Consigne de « faire croire à la version australienne » et « l'Australie servait de couverture » (S19, S20, S34, S35) : Europe 1 (403) et DNA inaccessibles : retirées.
+- « Extraits révélés par RTL, repris par l'AFP », « services antidrogue américains », « avocat interrogé par l'AFP » (S18) : remplacés par la teneur relue dans Le Parisien 2026 et 20 Minutes ; « neuf » attribué au Parisien et au Télégramme.
+- Puilboreau (S22, Planet bloqué) ; 20 janvier 2011 (S04, Libra Memoria bloqué) ; « responsables du club interrogés par Ouest-France » et « autonome en février » (S03, Maville bloqué) ; appui AFP de la carabine (S05) ; prénoms « Thomas et Benoît » au stand (S07, la dépêche relue dit « ses fils ») ; « ordre variable » du 3 avril (S12) ; nuit « du 4 au 5 ou suivante » pour Thomas (S16) ; « Blagnac le 11 au soir » (S23) ; notice bleue et définitions Interpol (S32-S33, Le Monde 402, interpol.int bloqué).
+- Formulations corrigées pour coller aux pages : « à temps partiel » → « de temps à autre comme surveillante » ; « une collègue se souvient de l'estime » → citation exacte des collègues ; « Xavier n'était pas son père biologique ; il l'a élevé » → « né avant le mariage […] en 1991 » ; « près de La Rochelle » → « un hôtel de La Rochelle » ; « mécanisme ambigu » → « curieux » ; « près d'Avignon » → « dans le Vaucluse » ; « communiqué du parquet cité par l'AFP » → « dépêche de l'AFP ».
 
 ## LACUNES
 
-- Date de repérage de la voiture à Roquebrune-sur-Argens (21 ou 22 avril) : uniquement sur sources lues partiellement.
-- Article Sud Ouest du 01/06/2011 (trace informatique) : jamais récupéré ; une seule origine pour l'étape rochelaise.
-- Coordonnées de Puilboreau (ou La Rochelle) et de La Seyne-sur-Mer : absentes de outils/donnees/lieux.json ; étapes non placées sur les cartes (P052 ne montre que Nantes, Blagnac et Le Pontet).
-- Textes originaux des courriers, du courriel au patron et de la lettre aux proches : seuls des extraits publiés sont connus.
+- Article Sud-Ouest du 01/06/2011 (trace informatique) : jamais récupéré ; une seule origine pour l'étape rochelaise.
+- La Rochelle et La Seyne-sur-Mer : absentes de outils/donnees/lieux.json ; non placées sur les cartes (P052 montre Nantes, Blagnac, Le Pontet).
+- Textes originaux des courriers, du courriel au patron et de la lettre aux proches : seuls des résumés et extraits publiés sont connus.
 - Acte de décès du père, licence de tir, factures, relevés bancaires, mandat d'arrêt original, fiche Interpol individuelle : non consultés.
 - Contenu du sac ou de la housse emporté le 15 avril : aucune information publique lue.
-- Couleur actuelle de la notice Interpol : divergente (bleue en 2011 et en 2026 selon La Dépêche ; rouge selon Le Monde 2021), non dite.
-- Date d'ouverture de l'enquête pour disparition inquiétante (19 ou 20 avril) : non utilisée.
+- Pages inaccessibles qui pourraient rétablir des détails retirés : L'Est Républicain 22/05/2011, DNA 23/04/2011, Europe 1 05/05/2011, Nice-Matin (chronologie), Ouest-France/Maville 24/04/2011, Planet 2021, Le Monde 27/04 et 11/05/2011, Interpol.
 
 ## TRANSITION VERS L'ÉPISODE SUIVANT
 
@@ -538,14 +535,14 @@ PHOTOS DE LIEUX SOUHAITÉES : Nantes (vue générale, jamais la maison), Angers,
 
 - Dupont de Ligonnès : « du-pon de li-go-nèss »
 - Hodanger : « o-dan-jé »
+- La Rochelle : « la ro-chèl »
+- Le Télégramme : « le té-lé-gram »
 - Blanche-de-Castille : « blanche de kas-tiy »
 - la Perverie : « per-ve-ri »
-- Puilboreau : « pu-il-bo-ro »
 - Blagnac : « bla-gnac »
 - Le Pontet : « le pon-tè »
 - La Seyne-sur-Mer : « la sèn sur mèr »
 - Roquebrune-sur-Argens : « rok-brun sur ar-jan(s) »
 - Xavier Ronsin : « ron-sin »
-- Insee : « in-sé »
 - Interpol : « in-ter-pol »
 - Numerama : « nu-mé-ra-ma »
