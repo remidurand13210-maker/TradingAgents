@@ -28,7 +28,7 @@
       "acces": "lu_integral",
       "type": "media_regional",
       "origine": "propre",
-      "notes": "Durée 948 s affichée ou obtenue dans la page publique. Page et description ouvertes ; transcription française automatique lue intégralement, 0:01–15:36. Audio et images non visionnés. HTML : 949 s. Repères : 1:25 enfance ; 4:24 quotidien ; 6:12 travail ; 7:59 tableau financier ; 10:26 amie ; 14:00 choix du récit. Erreur manifeste de sous-titrage à 1:53 : année incompatible avec les âges donnés, à vérifier."
+      "notes": "Durée 948 s affichée ou obtenue dans la page publique. Page et description ouvertes ; transcription française automatique lue intégralement, 0:01–15:36. Audio et images non visionnés. HTML et lecteur : 948 s. Repères : 1:25 enfance ; 4:24 quotidien ; 6:12 travail ; 7:59 tableau financier ; 10:26 amie ; 14:00 choix du récit. Erreur manifeste de sous-titrage à 1:53 : année incompatible avec les âges donnés, à vérifier."
     },
     {
       "ref": "S-youtube_apports_codex-03",
@@ -112,7 +112,7 @@
       "acces": "lu_integral",
       "type": "media_etranger",
       "origine": "propre",
-      "notes": "Durée 0 s (sans objet : article). Article intégralement ouvert et lu ; mise à jour 26 mars 2026. Reproduit la clarification du Sheriff's Office ; communiqué Facebook original non ouvert. Source associée pour contrôler les vidéos françaises, sans compter comme observation confirmée."
+      "notes": "Article intégralement ouvert et lu ; mise à jour 26 mars 2026. Reproduit la clarification du Sheriff's Office ; communiqué Facebook original non ouvert. Source associée pour contrôler les vidéos françaises, sans compter comme observation confirmée."
     },
     {
       "ref": "S-youtube_apports_codex-09",
@@ -210,7 +210,7 @@
       "acces": "lu_partiel",
       "type": "media_national",
       "origine": "propre",
-      "notes": "Durée 586 s affichée ou obtenue dans la page publique. Page et description intégralement ouvertes et lues dans le navigateur ; aucune transcription obtenue après chargement et développement de la description. Vidéo non visionnée. HTML : 587 s. La liste des experts est celle de l'émission ; leur prise de parole dans ce clip n'est pas vérifiée."
+      "notes": "Durée 586 s affichée ou obtenue dans la page publique. Page et description intégralement ouvertes et lues dans le navigateur ; aucune transcription obtenue après chargement et développement de la description. Vidéo non visionnée. HTML et lecteur : 586 s. La liste des experts est celle de l'émission ; leur prise de parole dans ce clip n'est pas vérifiée."
     }
   ],
   "assertions": [
@@ -305,8 +305,8 @@
       "centrale": true,
       "notes": "À confronter aux clips français ; le site du média a été lu, le post original n'a pas été ouvert.",
       "verification": {
-        "statut": "confirme",
-        "commentaire": "À 13:01–13:46 de son entretien Europe 1, Galloux décrit également la visite de l'équipe. Il s'agit d'un accord sur l'origine de l'appel, pas d'une localisation."
+        "statut": "nuance",
+        "commentaire": "Galloux relate aussi la visite de l’équipe, mais ne corrobore pas de façon indépendante l’absence d’observation confirmée. La clarification du shérif reste une seule origine, reproduite par KOSA."
       }
     },
     {
@@ -340,8 +340,8 @@
       "centrale": true,
       "notes": "S-06 : 0:43–1:26 ; S-05 : 1:13–1:41. Deux montages d'une même origine. Aucune sanction ni poursuite établie ici.",
       "verification": {
-        "statut": "confirme",
-        "commentaire": "Les extraits attribués à l'évêque sont lisibles dans les deux montages ; ils ne constituent qu'une origine indépendante."
+        "statut": "nuance",
+        "commentaire": "Les propos de l’évêque sont directement lisibles dans deux montages du même reportage ; cette répétition ne constitue pas une corroboration indépendante."
       }
     },
     {
@@ -395,7 +395,7 @@
       "date": "2026-03-27",
       "precision": "jour",
       "evenement": "Publication des clips TF1 et franceinfo sur l'appel texan.",
-      "categorie": "FAIT_DOCUMENTE",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
       "sources": [
         "S-youtube_apports_codex-03",
         "S-youtube_apports_codex-04"
@@ -406,7 +406,7 @@
       "date": "2026-06-02",
       "precision": "jour",
       "evenement": "Publication de la vidéo originale Ouest-France consacrée à Epsilon.",
-      "categorie": "FAIT_DOCUMENTE",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
       "sources": [
         "S-youtube_apports_codex-01"
       ],
@@ -416,7 +416,7 @@
       "date": "2026-06-03",
       "precision": "jour",
       "evenement": "Publications Europe 1 du démenti, des excuses de M6 et de l'entretien Galloux.",
-      "categorie": "FAIT_DOCUMENTE",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
       "sources": [
         "S-youtube_apports_codex-05",
         "S-youtube_apports_codex-06",
@@ -428,7 +428,7 @@
       "date": "2026-08-02",
       "precision": "jour",
       "evenement": "Publication du portrait vidéo d'Agnès par Ouest-France.",
-      "categorie": "FAIT_DOCUMENTE",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
       "sources": [
         "S-youtube_apports_codex-02"
       ],
@@ -438,7 +438,7 @@
       "date": "2026-08-29",
       "precision": "jour",
       "evenement": "Publication du clip C dans l'air consacré à la fascination et aux enquêtes parallèles.",
-      "categorie": "FAIT_DOCUMENTE",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
       "sources": [
         "S-youtube_apports_codex-15"
       ],
@@ -533,6 +533,7 @@
     }
   ],
   "lacunes": [
+    "Couverture de la passe : 48 URL YouTube distinctes documentées et ouvertes ; 13 textes de vidéos examinés, dont 12 transcriptions françaises complètes et une lacunaire. Les durées des 13 programmes totalisent 35 292 secondes, soit 9 h 48 min 12 s ; ce total ne représente pas un visionnage audiovisuel. Catalogue réparti dans youtube_archives_entretiens_codex.json, youtube_documentaires_biographies_codex.json et youtube_pistes_2024_2026_codex.json ; doublons de liens dédupliqués, pas tous les remontages.",
     "Repérage large en français et en anglais, sans garantie d'exhaustivité de toutes les vidéos YouTube, republications ou suppressions.",
     "Les transcriptions ont été lues ; les images, la mise en scène, la musique et l'audio ne sont pas analysés. Aucun média audiovisuel n'a été téléchargé.",
     "Les noms, dates et montants des sous-titres automatiques peuvent être erronés ; contrôler toute information retenue dans une pièce ou une source indépendante.",
