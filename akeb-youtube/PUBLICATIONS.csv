@@ -1,1 +1,6 @@
 element,type,plateforme,titre,fichier,statut,id_plateforme,url,date_statut,preuve,note
+chaine,chaine,youtube,"Les Mystères d'Akeb",,configuree_par_codex,UCeY1bZMUcigbZX2VwJmln-Q,https://www.youtube.com/@LesMysteresDAkeb,2026-10-01,transmission Codex (non relu par la session cloud),"nom, identifiant, description, lien Payhip enregistrés ; avatar et bannière à installer"
+meta_test,campagne,meta,"Test Akeb",,soumis_traitement_en_cours,120249781441090097,,2026-10-01,transmission Codex,"40 € média jusqu'au 04/10 23 h 59 + 10 € réserve ; ne pas dupliquer"
+short_01,short,youtube,"Il aurait dû se taire",01_il_aurait_du_se_taire.mp4,controle_technique_defaut_zone_sure,,,2026-10-01,exports/shorts/CONTROLE_SHORTS.md,"non publié ; ré-export v2 demandé (mention fiction en zone sûre, 30 i/s)"
+short_02,short,youtube,"Le faux prêtre",02_le_faux_pretre.mp4,controle_technique_defaut_zone_sure,,,2026-10-01,exports/shorts/CONTROLE_SHORTS.md,"non publié ; ré-export v2 demandé (mention fiction en zone sûre, 30 i/s)"
+short_03,short,youtube,"Après la disparition",03_apres_la_disparition.mp4,controle_technique_defaut_zone_sure,,,2026-10-01,exports/shorts/CONTROLE_SHORTS.md,"non publié ; ré-export v2 demandé (mention fiction en zone sûre, 30 i/s)"

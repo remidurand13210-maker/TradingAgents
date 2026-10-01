@@ -3,6 +3,18 @@
 Ce sont des **plafonds**, pas des objectifs de dépense. Les 50 € du premier jour sont **inclus** dans les 100 €.
 Aucune recharge, aucune hausse automatique, aucun abonnement. Au plafond : arrêt. Pour aller au-delà, présenter les résultats à Rémi et lui demander.
 
+## Mise à jour du 01/10/2026 — engagement Meta constaté (transmission de Codex)
+
+| Plateforme | Campagne | Média | Réserve taxes/frais | Fin | Statut observé |
+|---|---|---|---|---|---|
+| Meta | 120249781441090097 (ensemble 120249781441100097, annonce 120249781441080097) | 40 € au total | 10 € | 04/10/2026 23 h 59 (Paris) | « Traitement en cours » |
+
+Conséquences :
+- l'enveloppe du **premier jour (50 €)** est consommée par ce lancement du 01/10 ; **ne pas le dupliquer** ;
+- reste **au plus 50 €, taxes et frais compris**, pour tout le reste, YouTube compris, et seulement après inspection de Google Ads (brouillon Search et éventuels anciens brouillons « Test 20 EUR ») ;
+- la répartition du tableau « Budgets » ci-dessous est **remplacée** par : YouTube A (in-stream sur emplacements) ≤ 25 €, YouTube B (fil Shorts) ≤ 15 €, réserve 10 € ; Search 0 € ; aucune nouvelle campagne Meta ;
+- relever la dépense réellement facturée par Meta au 05/10 avant toute décision : si elle est inférieure à 50 €, le reliquat n'est **pas** réaffecté sans l'accord de Rémi.
+
 ## 0. Avant tout lancement (obligatoire)
 
 1. Google Ads : lister **toutes** les campagnes (y compris le brouillon Search), leurs statuts, budgets, dépenses depuis la création, moyens de paiement, crédits promotionnels, alertes.
@@ -10,7 +22,7 @@ Aucune recharge, aucune hausse automatique, aucun abonnement. Au plafond : arrê
 3. Reporter les montants constatés dans `BUDGET.json › publicite` (dépense et engagements) : **le plafond restant = 100 € − déjà dépensé − déjà engagé**.
 4. Captures ou exports dans `preuves/` (sans données de paiement visibles).
 
-Statut au 30/09/2026 : **non fait**. Google Ads et Meta ne sont pas accessibles depuis la session cloud (aucun navigateur connecté, domaines bloqués).
+Statut au 01/10/2026 : Meta inventorié par Codex (ci-dessus) ; **Google Ads non inspecté**. Ni l'un ni l'autre n'est accessible depuis la session cloud.
 
 ## 1. Campagne principale : YouTube, autour des vidéos traitant de l'affaire
 

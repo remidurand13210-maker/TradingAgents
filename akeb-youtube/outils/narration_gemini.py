@@ -11,6 +11,7 @@ Garde-fous :
 
 Usage :
   python3 narration_gemini.py estimer                 # volumes et coût maximal, sans appel
+  python3 narration_gemini.py presence                # la clé est-elle injectée ? (oui/non, jamais la valeur)
   python3 narration_gemini.py verifier-modele         # GET du modèle (gratuit, clé requise)
   python3 narration_gemini.py echantillon             # court échantillon de voix
   python3 narration_gemini.py produire [--episode 01] [--segment S12] [--forcer]
@@ -304,7 +305,7 @@ def produire(cfg: dict, filtre: str | None, segment: str | None, forcer: bool, e
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("commande", choices=["estimer", "verifier-modele", "echantillon", "produire"])
+    ap.add_argument("commande", choices=["presence", "estimer", "verifier-modele", "echantillon", "produire"])
     ap.add_argument("--episode")
     ap.add_argument("--segment")
     ap.add_argument("--forcer", action="store_true")
@@ -312,6 +313,11 @@ def main() -> None:
     cfg = charger_json(CONFIG, None)
     if cfg is None:
         sys.exit(f"Configuration absente : {CONFIG}")
+    if a.commande == "presence":
+        source = cfg.get("cle", {})
+        nom = source.get("variable", "GEMINI_API_KEY")
+        print(json.dumps({"variable": nom, "presente": bool(os.environ.get(nom))}, ensure_ascii=False))
+        return
     if a.commande == "estimer":
         print(json.dumps(cmd_estimer(cfg, a.episode), ensure_ascii=False, indent=2))
     elif a.commande == "verifier-modele":

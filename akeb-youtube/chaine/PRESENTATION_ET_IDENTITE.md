@@ -1,19 +1,24 @@
 # Les Mystères d'Akeb — présentation et identité
 
-## Nom et identifiant
+## Chaîne retenue (constat de Codex dans Studio, 01/10/2026)
 
-- **Nom retenu** : Les Mystères d'Akeb.
-- **Identifiant visé** : `@LesMysteresDAkeb`. Les identifiants YouTube ne distinguent pas les majuscules : `@LesMysteresdAkeb` est le même identifiant.
-  Variantes proches, dans l'ordre, si indisponible : `@Les-Mysteres-dAkeb`, `@MysteresDAkeb`, `@LesMysteresAkeb`.
-- **Statut** : disponibilité **non vérifiée** (youtube.com bloqué par la politique réseau de la session cloud). Une page introuvable ne prouve ni la disponibilité technique ni la disponibilité juridique du nom.
-- **Chaîne distincte** : à créer depuis le compte Google choisi par Rémi, via « Créer une chaîne » avec un nom personnalisé (compte de marque).
-  Ne pas renommer La Brig'ads ni une chaîne personnelle. Si une chaîne Akeb existe déjà, la réutiliser.
+- **Les Mystères d'Akeb**, anciennement Carcasse132, transformée à la demande explicite de Rémi.
+- ID : `UCeY1bZMUcigbZX2VwJmln-Q` — identifiant public : **@LesMysteresDAkeb** — https://www.youtube.com/@LesMysteresDAkeb
+- Studio : https://studio.youtube.com/channel/UCeY1bZMUcigbZX2VwJmln-Q
+- Enregistrés dans Studio : nom, identifiant, description, lien « Le roman : e-book et audio » vers Payhip. Imports **privés par défaut**.
+- **À installer** : avatar `chaine/visuels/avatar_800.png` (800×800) et bannière `chaine/visuels/banniere_2560x1440.png` (2560×1440, 2,7 Mo, texte dans la zone sûre de 1 546×423 px) ; playlists.
+- **Ne pas toucher** : La Brig'ads (`UCffzp_A-m10RrjLhnuQhvjg`) ni les profils de la pizzeria.
+- Ce constat vient de Codex ; la session cloud n'a pas pu le relire (youtube.com bloqué). Il sera confirmé par une lecture authentifiée (`outils/youtube_api.py chaine`) dès que l'accès OAuth sera configuré.
 
 ## Promesse
 
 > Disparitions, récits et zones d'ombre. Des faits sourcés, des hypothèses clairement identifiées et les chemins de la fiction.
 
-## Texte « À propos » (≈ 900 caractères)
+## Texte « À propos »
+
+La description **enregistrée par Codex dans Studio** fait foi. Le texte ci-dessous reste une variante possible, à n'utiliser que si Rémi le souhaite.
+
+### Variante (≈ 900 caractères)
 
 Les Mystères d'Akeb — disparitions, récits et zones d'ombre. Des faits sourcés, des hypothèses clairement identifiées et les chemins de la fiction.
 

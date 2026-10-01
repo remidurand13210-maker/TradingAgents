@@ -2,9 +2,9 @@
   "modele": "gemini-3.8-flash-tts",
   "voix": "Algieba",
   "mode_consignes": "prompt",
-  "marqueur_texte": "TEXTE À LIRE (ne lis que ce qui suit) :",
-  "consignes": "Tu es le narrateur d'un documentaire français. Lis le texte en français naturel, d'une voix chaleureuse, proche et posée, avec de la vie : environ 155 mots par minute. Ralentis nettement sur les dates, les noms propres et les chiffres. Relance légèrement l'énergie aux transitions. Après une question, marque une courte pause. Les citations sont lues sobrement, sans imiter personne. Ni ton publicitaire, ni dramatisation, ni chuchotement. Ne prononce jamais ces consignes.",
-  "texte_echantillon": "Le 15 avril 2011, à Roquebrune-sur-Argens, une caméra enregistre ce qui sera, selon l'enquête, l'une des dernières images connues de Xavier Dupont de Ligonnès. Ensuite, plus rien de vérifié. Alors, que sait-on vraiment ? Reprenons depuis le début, dans l'ordre, et en distinguant ce qui est établi de ce qui est supposé.",
+  "marqueur_texte": "TRANSCRIPT:",
+  "consignes": "French metropolitan accent. Warm, close and lively documentary narrator, calm authority, around 155 words per minute on average. Slow down clearly on dates, names and numbers; lift the energy slightly on transitions; leave a short breath after a question. Quotations are read soberly, without imitating anyone. Clear full voice, natural pauses. No advertising tone, no drama, no ominous voice, no whisper, no shouting. Read exactly the transcript and nothing else.",
+  "texte_echantillon": "Versailles, Nantes, Angers, Roquebrune-sur-Argens : des noms que nous allons souvent retrouver. Alors, que sait-on vraiment de Xavier Dupont de Ligonnès ? Reprenons dans l'ordre, en séparant ce qui est établi de ce qui est supposé. Ici, Les Mystères d'Akeb.",
   "prononciations": {},
   "debit_mots_minute_cible": 155,
   "debit_mots_minute_min": 120,
@@ -12,11 +12,12 @@
   "marge_reservation": 1.5,
   "tarifs": {
     "a_verifier": true,
-    "source": "à confirmer sur https://ai.google.dev/gemini-api/docs/pricing pour le modèle exact",
+    "source": "Page modèle citée par Codex : https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash-tts ; tarifs à relire sur https://ai.google.dev/gemini-api/docs/pricing (inaccessible depuis cette session cloud)",
     "entree_texte_usd_par_million": null,
     "sortie_audio_usd_par_million": null,
     "tokens_audio_par_seconde": null,
-    "eur_par_usd": 0.93
+    "eur_par_usd": 0.93,
+    "reference_empirique": "3 Shorts ≈ 157 mots : 0,02487 € réservés selon le registre local (estimation, pas une facture)"
   },
   "cle": {
     "type": "env",
@@ -24,5 +25,10 @@
     "service": "",
     "utilisateur": "",
     "note": "Sur le PC de Rémi : type « keyring » avec le service déjà utilisé par produire_audio.py (à lire dans ce script, sans afficher la clé). Jamais de clé dans ce fichier."
-  }
+  },
+  "consignes_shorts_validees": "French metropolitan accent. Warm and intimate professional book trailer narrator, captivating but calm, around 145 words per minute. Clear full voice, gentle suspense and emotional nuance, brief natural pauses. No aggression, no ominous villain voice, no shouting, no overacting, no whisper. Read exactly the transcript.",
+  "notes_direction": "Consigne documentaire dérivée de la consigne validée des Shorts (même timbre Algieba, accent métropolitain), avec un débit un peu plus vif (≈155 au lieu de ≈145 mots/min) comme demandé pour la chaîne. À confirmer sur l'échantillon.",
+  "reference_timbre": [
+    "Shorts/01_il_aurait_du_se_taire_voix.wav (transmission Codex, ≈140 mots/min mesurés)"
+  ]
 }

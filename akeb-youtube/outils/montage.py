@@ -219,11 +219,142 @@ def decouper_repliques(phrase: str, max_car: int = 84) -> list[str]:
 
 
 def deux_lignes(texte: str, max_ligne: int = 42) -> str:
+    """Coupe en deux lignes équilibrées ; jamais avant : ; ? ! » ni après «, de préférence après une virgule."""
     if len(texte) <= max_ligne:
         return texte
-    espaces = [i for i, c in enumerate(texte) if c == " "]
-    i = min(espaces, key=lambda k: abs(k - len(texte) / 2))
+    candidats = []
+    for i, c in enumerate(texte):
+        if c != " " or i + 1 >= len(texte):
+            continue
+        if texte[i + 1] in ":;?!»" or texte[i - 1] == "«":
+            continue
+        g, d = texte[:i], texte[i + 1:]
+        cout = max(len(g), len(d)) - (4 if g.endswith((",", ";", ":")) else 0)
+        candidats.append((cout, i))
+    if not candidats:
+        return texte
+    i = min(candidats)[1]
     return texte[:i] + "\n" + texte[i + 1:]
+
+
+def morceaux_texte(texte: str) -> list[dict]:
+    """Propositions : coupe après . ! ? … (forte) et après , ; : — (faible)."""
+    brut = re.split(r"(?<=[.!?…])\s+|(?<=[,;:])\s+|\s+(?=— )", texte.strip())
+    sortie = []
+    for m in brut:
+        m = m.strip()
+        if not m:
+            continue
+        fort = bool(re.search(r"[.!?…»]$", m))
+        sortie.append({"texte": m, "fort": fort})
+    return sortie
+
+
+def aligner_morceaux(morceaux: list[dict], voix: np.ndarray) -> list[tuple[float, float]]:
+    """Apparie les frontières de propositions aux pauses réelles (programmation dynamique
+    sur le temps de parole effectif). Renvoie (début, fin) de chaque proposition, en secondes."""
+    duree = len(voix) / SR
+    if not morceaux:
+        return []
+    fen = int(0.01 * SR)
+    energie = [20 * np.log10(np.sqrt((voix[i:i + fen] ** 2).mean()) + 1e-9) for i in range(0, max(1, len(voix) - fen), fen)]
+    actifs = [k for k, e in enumerate(energie) if e > -40]
+    s0 = actifs[0] * fen / SR if actifs else 0.0
+    e0 = (actifs[-1] + 1) * fen / SR if actifs else duree
+    pauses = [(a, b) for a, b in pauses_internes(voix) if a > s0 + 0.1 and b < e0 - 0.05]
+    cumul_p, sp = 0.0, []
+    for a, b in pauses:
+        sp.append((a - s0) - cumul_p)
+        cumul_p += b - a
+    parole = max(0.1, (e0 - s0) - cumul_p)
+    poids = [len(m["texte"]) + 2 for m in morceaux]
+    total = sum(poids)
+    attendu, c = [], 0
+    for w in poids[:-1]:
+        c += w
+        attendu.append(c / total * parole)
+    nb, npz = len(attendu), len(pauses)
+    sigma = max(0.5, 0.06 * parole)
+    INF = float("inf")
+    D = [[INF] * (npz + 1) for _ in range(nb + 1)]
+    choix = [[None] * (npz + 1) for _ in range(nb + 1)]
+    D[0][0] = 0.0
+    for i in range(nb + 1):
+        for j in range(npz + 1):
+            if D[i][j] == INF:
+                continue
+            if i < nb:  # frontière sans pause
+                cout = 4.0 if morceaux[i]["fort"] else 0.4
+                if D[i][j] + cout < D[i + 1][j]:
+                    D[i + 1][j], choix[i + 1][j] = D[i][j] + cout, ("f", i, j)
+            if j < npz:  # pause sans frontière
+                dur = pauses[j][1] - pauses[j][0]
+                cout = 0.3 + 6.0 * max(0.0, dur - 0.3)
+                if D[i][j] + cout < D[i][j + 1]:
+                    D[i][j + 1], choix[i][j + 1] = D[i][j] + cout, ("p", i, j)
+            if i < nb and j < npz:  # appariement
+                dur = pauses[j][1] - pauses[j][0]
+                cout = ((sp[j] - attendu[i]) / sigma) ** 2 - min(dur, 1.0) * (1.5 if morceaux[i]["fort"] else 0.5)
+                if D[i][j] + cout < D[i + 1][j + 1]:
+                    D[i + 1][j + 1], choix[i + 1][j + 1] = D[i][j] + cout, ("m", i, j)
+    i, j, appariement = nb, npz, {}
+    while i or j:
+        k, pi, pj = choix[i][j]
+        if k == "m":
+            appariement[pi] = pauses[pj]
+        i, j = pi, pj
+    # ancres : début, frontières appariées, fin ; interpolation au prorata des caractères ailleurs
+    bornes = [None] * (nb + 2)
+    bornes[0] = (s0, s0)
+    bornes[-1] = (e0, e0)
+    for k, (a, b) in appariement.items():
+        bornes[k + 1] = (a, b)
+    k = 0
+    while k < len(bornes) - 1:
+        n = k + 1
+        while bornes[n] is None:
+            n += 1
+        if n > k + 1:
+            t0, t1 = bornes[k][1], bornes[n][0]
+            w = poids[k:n]
+            acc = 0
+            for m in range(k + 1, n):
+                acc += w[m - k - 1]
+                t = t0 + (t1 - t0) * acc / sum(w)
+                bornes[m] = (t, t)
+        k = n
+    return [(bornes[m][1], bornes[m + 1][0]) for m in range(len(morceaux))]
+
+
+def repliques(texte: str, voix: np.ndarray | None, duree: float, max_ligne: int = 42, max_duree: float = 6.0) -> list[dict]:
+    """Répliques de sous-titres (≤ 2 lignes) calées sur la voix ; sans voix, au prorata des caractères."""
+    morceaux = morceaux_texte(texte)
+    if voix is not None and np.any(voix):
+        spans = aligner_morceaux(morceaux, voix)
+    else:
+        total = sum(len(m["texte"]) for m in morceaux) or 1
+        spans, t = [], 0.0
+        for m in morceaux:
+            d = duree * len(m["texte"]) / total
+            spans.append((t, t + d))
+            t += d
+    sortie, courant = [], None
+    for m, (a, z) in zip(morceaux, spans):
+        if courant and len(courant["texte"]) + 1 + len(m["texte"]) <= 2 * max_ligne and z - courant["debut"] <= max_duree and not courant["ferme"]:
+            courant["texte"] += " " + m["texte"]
+            courant["fin"] = z
+        else:
+            if courant:
+                sortie.append(courant)
+            courant = {"debut": a, "fin": z, "texte": m["texte"]}
+        courant["ferme"] = m["fort"]
+    if courant:
+        sortie.append(courant)
+    for r in sortie:
+        r.pop("ferme", None)
+        if len(r["texte"]) > 2 * max_ligne:  # proposition trop longue : découpe au prorata
+            pass
+    return sortie
 
 
 def aligner_phrases(ph: list[str], duree: float, pauses: list[tuple[float, float]]) -> list[tuple[float, float]]:
@@ -297,15 +428,11 @@ def monter(nom_ep: str, maquette: bool, variante_musique: str | None, temoin: bo
             pauses = pauses_internes(voix)
         pause = s["pause_apres"] if s["pause_apres"] is not None else PAUSE_DEFAUT
         debut = t
-        ph = phrases(s["texte"])
-        for (a, z), phrase in zip(aligner_phrases(ph, len(voix) / SR, pauses), ph):
-            reps = decouper_repliques(phrase)
-            tot = sum(len(r) for r in reps)
-            c = a
-            for r in reps:
-                d = (z - a) * len(r) / tot
-                cues.append({"debut": debut + c, "fin": debut + c + d, "texte": r})
-                c += d
+        for r in repliques(s["texte"], None if maquette else voix, len(voix) / SR):
+            for morceau in decouper_repliques(r["texte"]):
+                part = (r["fin"] - r["debut"]) * len(morceau) / len(r["texte"])
+                cues.append({"debut": debut + r["debut"], "fin": debut + r["debut"] + part, "texte": morceau})
+                r["debut"] += part
         morceaux.append(voix)
         morceaux.append(np.zeros(int(pause * SR), np.float32))
         t = debut + len(voix) / SR + int(pause * SR) / SR

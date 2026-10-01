@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-09-30",
+  "mise_a_jour": "2026-10-01",
   "regles": [
     "Plafonds, pas objectifs de dépense. Aucun compteur n'est jamais remis à zéro.",
     "Publicité : 100 € au total toutes plateformes ; 50 € maximum facturables le premier jour, inclus dans les 100 €.",
@@ -10,18 +10,48 @@
   "publicite": {
     "plafond_total_eur": 100,
     "plafond_premier_jour_eur": 50,
-    "repartition_preferee_jour_1": {"youtube_media_eur": 30, "search_et_meta_ensemble_max_eur": 10, "marge_taxes_frais_eur": 10},
-    "campagnes_existantes_inspectees": false,
+    "repartition_preferee_jour_1": {
+      "youtube_media_eur": 30,
+      "search_et_meta_ensemble_max_eur": 10,
+      "marge_taxes_frais_eur": 10
+    },
+    "campagnes_existantes_inspectees": "partiellement (transmission de Codex, 01/10/2026) : Meta seulement ; Google Ads non inspecté",
     "depense_constatee_eur": null,
-    "engagements_constates_eur": null,
-    "statut": "non inspecté : Google Ads et Meta Ads ne sont pas accessibles depuis l'environnement cloud de cette session",
-    "lancements": []
+    "engagements_constates_eur": 50,
+    "statut": "Meta engagé (50 € réservés). Toute campagne YouTube doit tenir dans les 50 € restants, taxes et frais compris, après inspection de Google Ads.",
+    "lancements": [],
+    "engagements_constates": [
+      {
+        "plateforme": "Meta",
+        "campagne_id": "120249781441090097",
+        "ensemble_id": "120249781441100097",
+        "annonce_id": "120249781441080097",
+        "budget_media_total_eur": 40,
+        "reserve_taxes_frais_eur": 10,
+        "fin": "2026-10-04T23:59:00+02:00",
+        "statut_observe": "Traitement en cours (constat de Codex, 01/10/2026)",
+        "lancement": "2026-10-01",
+        "note": "Enveloppe de 50 € prise sur le plafond du premier jour, incluse dans les 100 €. Ne pas dupliquer."
+      }
+    ],
+    "reste_disponible_max_eur": 50,
+    "premier_jour": "consommé par le lancement Meta du 01/10/2026 (enveloppe 50 €)"
   },
   "production_livre_api": {
     "plafond_eur": 5,
-    "registres_sources": ["La_derniere_correction_production/depenses.json", "akeb-promotion/depenses_shorts.json", "akeb-promotion/budget_resume.json"],
-    "depense_constatee_eur": null,
-    "statut": "registres situés sur le PC de Rémi, non lisibles ici ; valeur à reprendre telle quelle, jamais réinitialisée"
+    "registres_sources": [
+      "La_derniere_correction_production/depenses.json",
+      "akeb-promotion/depenses_shorts.json",
+      "akeb-promotion/budget_resume.json"
+    ],
+    "depense_constatee_eur": 1.4340078125,
+    "statut": "1,434 € réservés sur 5 € ; ce plafond ne finance pas les documentaires",
+    "detail": {
+      "livre_reserve_eur": 1.4091390625,
+      "shorts_reserve_eur": 0.02486875,
+      "plafond_shorts_eur": 0.5
+    },
+    "source": "budget_resume.json transmis par Codex le 01/10/2026 (suivi local estimatif, pas une facture Google)"
   },
   "narration": {
     "enveloppe_demandee_eur": null,

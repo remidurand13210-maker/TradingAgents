@@ -22,7 +22,8 @@ Branche : `claude/akeb-youtube-channel-kvu47n` du dépôt `remidurand13210-maker
 Dans les réglages de l'environnement (menu de l'environnement cloud dans la barre de titre de la session, puis Modifier) :
 - **Accès réseau** : niveau complet, ou ajout des domaines de presse et de référence utilisés par le dossier ;
 - **Variable d'environnement** `CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION` = `800` ;
-- **Variable d'environnement** `GEMINI_API_KEY` (la clé n'est jamais collée dans le chat ni écrite dans un fichier suivi).
+- **Variable d'environnement** `GEMINI_API_KEY` (la clé n'est jamais collée dans le chat ni écrite dans un fichier suivi) ;
+- **Variables** `YOUTUBE_CLIENT_ID` et `YOUTUBE_CLIENT_SECRET` d'un identifiant OAuth de type « TV et appareils à saisie limitée », créé dans un projet Google Cloud de Rémi où « YouTube Data API v3 » est activée. Ensuite, dans la session : `python3 outils/youtube_api.py connecter`. Rémi saisit le code affiché sur google.com/device avec le compte propriétaire de la chaîne, puis on lance `chaine`, qui doit trouver `UCeY1bZMUcigbZX2VwJmln-Q`.
 
 Une **nouvelle session** prend ces réglages en compte. Lui dire : « Reprends la mission Akeb depuis akeb-youtube/MISSION_REPRISE.md. »
 
@@ -42,4 +43,5 @@ Une **nouvelle session** prend ces réglages en compte. Lui dire : « Reprends l
 8. **Après accord** : inscrire l'enveloppe dans `BUDGET.json › narration.enveloppe_accordee_eur` ; `verifier-modele` (gemini-3.8-flash-tts, sans substitution) ; `echantillon` ; transcription de contrôle (aucune consigne vocalisée) ; `produire` (cache, verrou, reprise après quota).
    Toute la narration publiée est faite par Gemini 3.8 (voix Algieba), à la demande de Rémi.
 9. **Montage final** : `montage.py <épisode>` puis `controle.py … --timeline … --voix …` ; miniatures (`identite.miniature`) ; chapitres mesurés dans les métadonnées.
-10. **Chaîne, publication, campagne** : navigateur connecté de Rémi (Antigravity) ; suivre `chaine/*.md` et `publicite/PLAN_100_EUROS.md` ; consigner chaque statut réel dans `PUBLICATIONS.csv` et `ETAT.md`.
+10. **Chaîne, publication, campagne** : imports privés par `outils/youtube_api.py envoyer` (si l'OAuth est configuré) ou par Studio sur le PC (Codex/Antigravity). La mise en public, les sous-titres et la miniature se font dans Studio si l'API les refuse. Publicité : 50 € déjà engagés sur Meta (ne pas dupliquer) ; au plus 50 € restants, taxes comprises, après inspection de Google Ads. Consigner chaque statut réel dans `PUBLICATIONS.csv` et `ETAT.md`.
+11. **Shorts** : faire faire par Codex le ré-export v2 décrit dans `exports/shorts/CONTROLE_SHORTS.md`, puis le recontrôler avec `outils/controle.py … --attendu 1080x1920`.
