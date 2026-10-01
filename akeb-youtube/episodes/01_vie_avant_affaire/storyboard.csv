@@ -1,0 +1,79 @@
+plan,segment,type,statut,texte,texte2,source,faits,poids,params
+P001,S01,texte,FAIT,"Une maison louée, quatre voitures, des enfants scolarisés dans le privé","Nantes, 2010-2011","20 Minutes, 26/04/2011 ; Le Parisien, 30/04/2011",2010-2011,1.2,
+P002,S01,texte,RECONSTRUCTION,Revenu déclaré rapporté : environ 4 000 euros par an,Selon la presse de 2011,"20 Minutes, 26/04/2011",avant avril 2011,1,
+P003,S01,question,,"Avant avril 2011, qu'est-ce qui est déjà en crise dans cette famille ?",,,,1,
+P004,-,titre,,"Avant 2011 : une vie, une façade, des fissures",De 1961 à la fin de 2010,,,,"{""numero"": ""01"", ""duree"": 3}"
+P005,-,avertissement,,,,,,,"{""duree"": 4}"
+P006,S02,frise,,De 1961 à avril 2011,,,,1,"{""jusqua"": 2011.3, ""focus"": [1961, 2011.3], ""curseur"": 1961.02, ""anim"": ""curseur""}"
+P007,S02,texte,,Documenté · raconté par des proches · écrit par lui-même,Trois registres,,,1,
+P008,S02,texte,,"Désigné par l'enquête comme principal suspect, Xavier Dupont de Ligonnès n'a jamais été jugé.",Présomption,,,1,
+P009,S03,chapitre,,"Versailles : une vieille famille, une foi très présente",,,,0.6,"{""numero"": ""1""}"
+P010,S03,date,FAIT,1961,Versailles,"RTL, 31/07/2025 ; Le Parisien, 22/04/2011",1961,1,"{""precision"": ""année ; jour et mois non retenus""}"
+P011,S03,carte,FAIT,"Versailles, 1961",,"RTL, 31/07/2025",1961,1,"{""points"": [{""lon"": 2.1204, ""lat"": 48.8049, ""label"": ""Versailles"", ""cote"": ""droite"", ""date"": ""1961""}], ""bbox"": [-5.5, 41.2, 9.8, 51.3], ""trajet"": false}"
+P012,S03,texte,TEMOIGNAGE,Vieille noblesse française selon RTL ; petite noblesse aveyronnaise selon Le Parisien,"Milieu social, pas fortune","RTL, 31/07/2025 ; Le Parisien, 30/04/2011",années 1960-1970,1,
+P013,S04,texte,TEMOIGNAGE,"Le père quitte le foyer : quand Xavier a dix ans selon RTL, l'année de sa terminale selon Le Parisien",Deux versions,"RTL, 31/07/2025 ; Le Parisien, 30/04/2011",années 1970,1,
+P014,S04,texte,FAIT,Sa mère fonde un groupe de prière : Philadelphie,"Des messages annonçant l'Apocalypse, selon la presse","Le Parisien, 29/05/2011 ; RTL, 31/07/2025",fin des années 1960,1.2,
+P015,S05,date,TEMOIGNAGE,Février 2008,Un texte attribué à Xavier,"Le Parisien, 15/04/2012",adolescence ; texte de 2008,1,"{""precision"": ""autoportrait rétrospectif publié en 2012""}"
+P016,S05,texte,TEMOIGNAGE,Une adolescence dominée par la religion et l'attente d'un retour imminent du Christ,Autoportrait écrit des décennies plus tard,"Le Parisien, 15/04/2012",adolescence,1.2,
+P017,S06,texte,,Une enfance ou une croyance ne prédit pas un crime.,,,,1.4,"{""anim"": ""fixe""}"
+P018,S06,texte,,"Comprendre une vie, pas y chercher un présage",,,,0.8,"{""anim"": ""fixe""}"
+P019,S07,date,TEMOIGNAGE,1977,"Le début d'une amitié, selon RTL","RTL, 14/10/2020",1977,1,"{""precision"": ""année rapportée par RTL""}"
+P020,S07,texte,TEMOIGNAGE,"Un adolescent plein d'humour, qui rêvait des États-Unis","Selon Bruno de Stabenrath, ami d'enfance","20 Minutes, 02/04/2021",années 1970,1,
+P021,S07,texte,TEMOIGNAGE,"Elvis, les Beach Boys","Des références partagées, selon Bruno de Stabenrath","20 Minutes, 02/04/2021",années 1970,0.8,
+P022,S08,document,,Les études : ce que disent les sources,"Saint-Exupéry, à Versailles : élève moyen (Le Parisien), médiocre (RTL) | Bac avec un an d'avance : écrit attribué à Xavier, 2006, non confirmé | École de commerce : passage rapporté, diplôme non établi | Aucun diplôme supérieur au bac : Nice-Matin","RTL, 31/07/2025 ; Le Parisien, 30/04/2011 et 15/04/2012 ; Nice-Matin, 19/04/2022",fin des années 1970,2,"{""anim"": ""revele""}"
+P023,S08,texte,,Aucun document scolaire lu ne tranche.,,,,0.7,
+P024,S09,chapitre,,"Des petits emplois, Agnès, l'Amérique",,,,0.6,"{""numero"": ""2""}"
+P025,S09,texte,TEMOIGNAGE,"Aix-en-Provence, puis l'ouest du Var : Toulon, La Seyne-sur-Mer","Selon Nice-Matin, d'après des récits et Society","Nice-Matin, 19/04/2022",à partir de 1981,1.3,
+P026,S09,date,TEMOIGNAGE,1984,"Obligations militaires brèves, puis un travail commercial depuis Draguignan","Nice-Matin, 19/04/2022",1984,0.8,"{""precision"": ""année rapportée, non vérifiée par registre""}"
+P027,S10,texte,FAIT,"Agnès, née Hodanger",,"Nice-Matin, 19/04/2022",,0.8,
+P028,S10,texte,TEMOIGNAGE,"Une rencontre à seize ans, selon un ami d'enfance","Après le bac, selon un autre article : versions divergentes","Le Parisien, 22/04/2011 et 30/04/2011",années 1970,1,
+P029,S10,date,TEMOIGNAGE,1982,"Fiançailles, puis rupture","Nice-Matin, 19/04/2022",1982,0.8,"{""precision"": ""selon Nice-Matin seul""}"
+P030,S11,date,TEMOIGNAGE,1990,Un long séjour aux États-Unis,"Le Parisien, 18/05/2011",1990,1,"{""precision"": ""selon un ami de longue date""}"
+P031,S11,texte,FAIT,1990 : naissance d'Arthur,Élevé par Xavier et Agnès,"Nice-Matin, 19/04/2022",1990,1,
+P032,S12,date,FAIT,1991,Draguignan : mariage,"Nice-Matin, 19/04/2022 ; RTL, 31/07/2025",1991,1,"{""precision"": ""11 septembre selon Nice-Matin ; acte non consulté""}"
+P033,S12,carte,FAIT,"Le mariage, 1991",,"Nice-Matin, 19/04/2022",1991,0.8,"{""points"": [{""lon"": 2.1204, ""lat"": 48.8049, ""label"": ""Versailles"", ""cote"": ""gauche"", ""date"": ""années 1970""}, {""lon"": 6.4646, ""lat"": 43.5366, ""label"": ""Draguignan"", ""cote"": ""droite"", ""date"": ""1991""}], ""bbox"": [-5.5, 41.2, 9.8, 51.3], ""trajet"": false}"
+P034,S12,document,,Quatre enfants,Arthur : 1990 | Thomas : 1992 | Anne : 1994 | Benoît : 1997,"Nice-Matin, 19/04/2022",1990-1997,1.2,
+P035,S13,chapitre,,Une famille en mouvement,,,,0.6,"{""numero"": ""3""}"
+P036,S13,carte,TEMOIGNAGE,Du Var à la région nantaise,"Étapes citées, sans calendrier complet","Nice-Matin, 19/04/2022 ; Le Parisien, 22/04/2011",années 1990-2000,1.6,"{""points"": [{""lon"": 6.4646, ""lat"": 43.5366, ""label"": ""Draguignan"", ""cote"": ""droite"", ""date"": ""1991""}, {""lon"": 6.6378, ""lat"": 43.4436, ""label"": ""Roquebrune-sur-Argens"", ""cote"": ""droite""}, {""lon"": -2.103, ""lat"": 47.115, ""label"": ""Pornic"", ""cote"": ""gauche""}, {""lon"": -1.5536, ""lat"": 47.2184, ""label"": ""Nantes"", ""cote"": ""gauche"", ""date"": ""fin des années 1990""}], ""bbox"": [-5.5, 41.2, 9.8, 51.3], ""trajet"": true}"
+P037,S13,texte,,"Arrivée à Nantes : fin des années 1990, selon Le Parisien",,"Le Parisien, 22/04/2011",,0.8,
+P038,S14,date,TEMOIGNAGE,Juin 1995,Sainte-Maxime : une réunion religieuse,"20 Minutes, 02/04/2021",juin 1995,1,"{""precision"": ""selon Bruno de Stabenrath""}"
+P039,S14,texte,TEMOIGNAGE,"Un miracle annoncé, qui ne se produit pas",Selon Bruno de Stabenrath,"20 Minutes, 02/04/2021",juin 1995,1,
+P040,S14,texte,TEMOIGNAGE,RTL : un épisode apocalyptique dans un château en Bretagne,Même épisode ? Non établi,"RTL, 31/07/2025",1995,0.9,
+P041,S15,date,TEMOIGNAGE,2002,"Neuf mois aux États-Unis, en famille","Le Parisien, 18/05/2011",2002,0.8,"{""precision"": ""selon un ami ; datation divergente""}"
+P042,S15,document,,"Un voyage américain, deux datations","Un ami : neuf mois en famille, en 2002 | Un autre reportage : un voyage en camping-car, fin des années 1990 | Deux voyages ou une erreur de date : non tranché","Le Parisien, 18/05/2011 ; Le Parisien, 30/04/2011",fin des années 1990 / 2002,1.6,"{""anim"": ""revele""}"
+P043,S16,carte,TEMOIGNAGE,"Miami : une société fondée, selon un ami",,"Le Parisien, 18/05/2011",2002,1,"{""points"": [{""lon"": -80.1918, ""lat"": 25.7617, ""label"": ""Miami"", ""cote"": ""droite"", ""date"": ""2002""}], ""bbox"": [-125.0, 24.0, -66.0, 50.0], ""trajet"": false}"
+P044,S16,document,TEMOIGNAGE,"Netsurf Concept, selon un ami","Fondée à Miami à la fin du séjour de 2002 | « Exactement la même société » que l'activité française | « Mais domiciliée aux États-Unis » | Témoignage, non vérifié sur registre","Le Parisien, 18/05/2011",2002,1.6,
+P045,S16,texte,TEMOIGNAGE,Prolonger aux États-Unis l'activité française,Selon un ami cité par Le Parisien,"Le Parisien, 18/05/2011",2002,0.8,
+P046,S17,chapitre,,Le travail : un réseau pour représentants,,,,0.6,"{""numero"": ""4""}"
+P047,S17,date,TEMOIGNAGE,1999,La Route des commerciaux,"Le Parisien, 22/04/2011 ; Le Parisien, 18/05/2011",1999,0.8,"{""precision"": ""1999 selon Le Parisien ; 2003 selon RTL et un autre article du Parisien""}"
+P048,S17,document,TEMOIGNAGE,"SELREF, selon Le Parisien",Depuis 2003 : gérant et unique employé | Société installée à Pornic | Hôtels et restaurants référencés dans des guides sur Internet,"Le Parisien, 22/04/2011",2003,1.6,
+P049,S18,citation,TEMOIGNAGE,Un réseau d'hôtels et de restaurants dans lesquels les représentants de commerce auraient droit à des avantages,"Un ancien imprimeur partenaire, propos rapportés par Le Parisien","Le Parisien, 27/04/2011",2003-2008,1.2,
+P050,S18,texte,TEMOIGNAGE,"Payé, oui. Un chiffre d'affaires qui décolle, non.",Selon ce partenaire,"Le Parisien, 27/04/2011",2003-2008,0.9,
+P051,S19,date,TEMOIGNAGE,À partir de 2003,"Les difficultés, selon un ami","Le Parisien, 18/05/2011",à partir de 2003,0.7,"{""precision"": ""période rapportée""}"
+P052,S19,texte,TEMOIGNAGE,"Six commerciaux embauchés, une réclamation de l'Urssaf de 40 000 euros",Selon un ami ; montant non vérifié sur pièce,"Le Parisien, 18/05/2011",à partir de 2003,1.4,
+P053,S20,document,,SELREF : les chiffres publiés,"Résultat net 2008 : 3 200 euros | Déficit antérieur cumulé : 13 000 euros | Plus de bilan publié ensuite, selon le journal","Le Parisien, 22/04/2011",2008,1.4,"{""anim"": ""revele""}"
+P054,S20,texte,TEMOIGNAGE,La Route des commerciaux semble ne plus être en activité,"Selon Le Parisien, avril 2011","Le Parisien, 22/04/2011",2011,1,
+P055,S21,texte,RECONSTRUCTION,Revenu déclaré : environ 4 000 euros par an,"Rapporté par la presse, avril 2011","20 Minutes, 26/04/2011",avant avril 2011,1,
+P056,S21,texte,RECONSTRUCTION,Un prêt de 50 000 euros consenti par une ancienne relation,"Rapporté, non vérifié","20 Minutes, 26/04/2011 ; Le Parisien, 30/04/2011",années 2000,1.2,
+P057,S22,date,TEMOIGNAGE,2006-2008,"Des textes attribués à Xavier, publiés en 2012","Le Parisien, 15/04/2012",2006-2008,1,"{""precision"": ""fichiers récupérés sur une sauvegarde en ligne, selon le journal""}"
+P058,S22,texte,TEMOIGNAGE,Décembre 2006 : 7 000 euros de dépenses mensuelles,"Estimation attribuée, pas un budget contrôlé","Le Parisien, 15/04/2012",décembre 2006,1.2,
+P059,S23,document,,Deux chiffres qui ne se soustraient pas,"Dépenses mensuelles estimées dans un texte attribué : 7 000 euros | Revenu déclaré rapporté : environ 4 000 euros par an | Héritage d'Agnès dilapidé, selon des plaintes qui lui sont attribuées : aucun montant | L'écart reste sans explication documentée","Le Parisien, 15/04/2012 ; 20 Minutes, 26/04/2011 ; Le Parisien, 30/04/2011",2006-2011,2.2,
+P060,S23,frise,,De 1961 à avril 2011,,,,0.8,"{""jusqua"": 2011.3, ""focus"": [1961, 2011.3], ""curseur"": 2008.0, ""anim"": ""curseur""}"
+P061,S24,chapitre,,Nantes : ce que voyaient les autres,,,,0.6,"{""numero"": ""5""}"
+P062,S24,citation,FAIT,Des Nantais croyants et discrets,Titre du Parisien,"Le Parisien, 22/04/2011",avril 2011,1,
+P063,S24,carte,FAIT,Nantes et Angers,,"Le Parisien, 22/04/2011",2010-2011,1,"{""points"": [{""lon"": -1.5536, ""lat"": 47.2184, ""label"": ""Nantes"", ""cote"": ""gauche"", ""date"": ""domicile familial""}, {""lon"": -0.5632, ""lat"": 47.4784, ""label"": ""Angers"", ""cote"": ""droite"", ""date"": ""études de Thomas""}], ""bbox"": [-3.0, 46.4, 0.5, 48.2], ""trajet"": false}"
+P064,S25,texte,TEMOIGNAGE,"Agnès : surveillante, de temps à autre, à Blanche-de-Castille","« Charmante, très conviviale », selon ses collègues","Le Parisien, 22/04/2011",2011,1.2,
+P065,S25,texte,TEMOIGNAGE,"Propos attribués à Agnès : un mari « cassant, trop rigide, peu affectif »",Blog cité par BFM ; authenticité et date non établies,"20 Minutes, 26/04/2011",2011,1.2,
+P066,S26,document,,En avril 2011,"Arthur, 20 ans : BTS en Vendée, emploi dans une pizzeria | Thomas, 18 ans : musicologie, université catholique de l'Ouest, à Angers | Anne, 16 ans : première scientifique, piano | Benoît, 13 ans : batterie | Anne et Benoît : la Perverie-Sacré-Cœur, à Nantes","Le Parisien, 22/04/2011",avril 2011,2.4,"{""anim"": ""revele""}"
+P067,S27,texte,,"Des vies en cours : des études, des amis, de la musique.",,,,1,"{""anim"": ""fixe""}"
+P068,S28,citation,TEMOIGNAGE,Agnès et les enfants suivaient Xavier les yeux fermés,"Entretien avec un ami d'enfance, titre du Parisien","Le Parisien, 22/04/2011",années 1990-2011,1.2,
+P069,S28,texte,TEMOIGNAGE,"Pas de problèmes d'argent, selon cet ami ; beaucoup de temps sur les routes de province, selon Bruno de Stabenrath",Deux regards d'amis,"Le Parisien, 22/04/2011 ; 20 Minutes, 02/04/2021",années 1990-2011,1.2,
+P070,S28,texte,,Une impression ne dit pas un compte ; une dette ne dit pas une famille.,,,,0.8,
+P071,S29,chapitre,,Fin 2010 : ce qui est déjà en crise,,,,0.6,"{""numero"": ""6""}"
+P072,S29,question,,"Avant avril 2011, qu'est-ce qui est déjà en crise ?",,,,0.8,
+P073,S29,document,,Avant 2011 : un bilan des sources,"L'argent : revenus déclarés faibles, prêt privé, dépenses estimées plus hautes (rapporté) | Le travail : rêve américain abandonné après la réclamation de l'Urssaf (selon un ami) ; SELREF sans croissance visible (témoignage, Le Parisien)","20 Minutes, 26/04/2011 ; Le Parisien, 27/04/2011, 18/05/2011 et 15/04/2012",2003-2010,1.8,"{""anim"": ""revele""}"
+P074,S30,document,,Avant 2011 : un bilan des sources (suite),"Le couple : des tensions, selon des propos attribués à Agnès, rapportés en 2011 | Les enfants : études et amitiés, selon les témoignages publiés | Un contexte, pas une preuve","20 Minutes, 26/04/2011 ; Le Parisien, 22/04/2011",avant 2011,1.6,"{""anim"": ""revele""}"
+P075,S30,texte,,"Recherché, désigné par l'enquête comme principal suspect, Xavier Dupont de Ligonnès n'a jamais été jugé.",Présomption,,,1,
+P076,S31,livre,FICTION,La dernière correction | À lire en e-book | ou à écouter en livre audio | Liens dans la description,,,,1,
+P077,S32,frise,,La suite de la frise : fin 2010,,,,1,"{""jusqua"": 2011.3, ""focus"": [1961, 2011.3], ""curseur"": 2010.95, ""anim"": ""curseur""}"
+P078,S32,sources,,Sources principales de cet épisode,"Le Parisien, 22/04, 27/04, 30/04, 18/05 et 29/05/2011 ; 15/04/2012 | 20 Minutes, 26/04/2011 et 02/04/2021 | Nice-Matin, 19/04/2022 | RTL, 14/10/2020 et 31/07/2025",,,1,
