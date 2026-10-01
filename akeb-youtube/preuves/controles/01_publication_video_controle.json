@@ -1,0 +1,41 @@
+{
+  "fichier": "exports/publication/01_vie_avant_affaire/video.mp4",
+  "verifie": [
+    "flux, codecs, résolution, cadence, durées",
+    "sonie intégrée EBU R128 et crête vraie",
+    "séquences noires ≥ 0,6 s ; silences de voix ≥ 2,5 s",
+    "sous-titres : chevauchements, vitesse de lecture, longueur des lignes (minutage théorique aligné sur les pauses)",
+    "planche de 22 images à relire (début, plans-clés, fin)"
+  ],
+  "alertes": [],
+  "video": {
+    "codec": "h264",
+    "taille": "1920x1080",
+    "fps": 30.0,
+    "pix_fmt": "yuv420p"
+  },
+  "audio": {
+    "codec": "aac",
+    "taux": "48000",
+    "canaux": 2
+  },
+  "duree_s": 608.7,
+  "duree_audio_s": 608.68,
+  "sonie_lufs": -16.0,
+  "crete_vraie_dbtp": -2.4,
+  "sequences_noires": [],
+  "silences_voix_sup_2_5s": [],
+  "sous_titres": {
+    "nb": 183,
+    "fin_derniere": 608.18,
+    "chevauchements": 0,
+    "trop_rapides_21cps": 21,
+    "lignes_trop_longues": 0
+  },
+  "planche": "preuves/controles/01_publication_video_planche.png",
+  "non_verifie": [
+    "écoute humaine intégrale",
+    "conformité texte/voix (transcription automatique non exécutée ici)"
+  ],
+  "conforme_technique": true
+}
