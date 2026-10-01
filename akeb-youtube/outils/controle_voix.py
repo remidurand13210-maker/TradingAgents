@@ -37,6 +37,14 @@ def normaliser(t: str) -> list[str]:
     return re.findall(r"[a-z0-9]+", t)
 
 
+def homophone(mot: str) -> str:
+    """Forme sonore grossière : les marques d'accord muettes du français ne s'entendent pas."""
+    for fin in ("aient", "ait", "ent", "es", "e", "s", "x"):
+        if mot.endswith(fin) and len(mot) > len(fin) + 1:
+            return mot[: -len(fin)] + ("ai" if fin in ("aient", "ait") else "")
+    return mot
+
+
 def transcrire(cfg: dict, wav: Path) -> tuple[str, float]:
     cle = ng.cle_api(cfg)
     corps = {"contents": [{"parts": [
@@ -54,8 +62,13 @@ def comparer(attendu: str, entendu: str) -> list[str]:
     a, e = normaliser(attendu), normaliser(entendu)
     ecarts = []
     for op, i1, i2, j1, j2 in difflib.SequenceMatcher(a=a, b=e, autojunk=False).get_opcodes():
-        if op == "replace" and all(x.isdigit() for x in a[i1:i2]):
-            continue  # nombres écrits en chiffres, entendus en lettres
+        if op == "replace" and any(c.isdigit() for x in a[i1:i2] for c in x):
+            continue  # nombres ou sigles en chiffres (M6, 2011), entendus en lettres
+        if "".join(a[i1:i2]) == "".join(e[j1:j2]):
+            continue  # simple découpage (net surf / netsurf)
+        if op == "replace" and i2 - i1 == j2 - j1 and all(
+                homophone(x) == homophone(y) for x, y in zip(a[i1:i2], e[j1:j2])):
+            continue  # homophones (accords muets : vue/vu, avaient/avait)
         if op != "equal":
             ecarts.append(f"{op}: attendu « {' '.join(a[i1:i2])} » / entendu « {' '.join(e[j1:j2])} »")
     return ecarts
