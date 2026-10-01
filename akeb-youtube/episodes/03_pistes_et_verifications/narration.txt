@@ -1,79 +1,70 @@
-# BROUILLON v0 — NE PAS NARRER AVANT VALIDATION
+# BROUILLON v1 — NE PAS NARRER AVANT VALIDATION
 # Épisode 3 — Après la disparition : les pistes et leurs vérifications
 # Texte à prononcer uniquement ; statuts, sources et lacunes dans script_annote.md.
 
-[S01] Le 2 juin 2026, en direct sur M6, un homme qui se présente comme prêtre affirme avoir reçu, en 2022, la confession de Xavier Dupont de Ligonnès. Dans la nuit, selon la chaîne, il reconnaît qu'il n'est pas prêtre. Ce même mois, selon Le Parisien, les signalements reçus depuis 2011 dépassent 1850. Une seule de ces pistes a-t-elle résisté à la vérification ?
+[S01] Le 2 juin 2026, en direct sur M6, un homme qui se présente comme prêtre affirme avoir reçu la confession de Xavier Dupont de Ligonnès. Dans la nuit, selon un responsable de l'émission, il reconnaît qu'il n'est pas prêtre. Ce même mois, selon Le Parisien, les enquêteurs ont reçu plus de 1 850 signalements depuis 2011. Une seule de ces pistes a-t-elle résisté à la vérification ?
 [pause 1.2]
 
-[S02] Le 21 avril 2011, à Nantes, les corps d'Agnès Dupont de Ligonnès et de ses quatre enfants, Arthur, Thomas, Anne et Benoît, sont découverts sous la terrasse de la maison familiale. Avant d'être une énigme, cette affaire, ce sont ces cinq vies. Le père de famille, Xavier Dupont de Ligonnès, est introuvable.
+[S02] Le 21 avril 2011, à Nantes, Agnès Dupont de Ligonnès et ses quatre enfants, Arthur, Thomas, Anne et Benoît, âgés de 13 à 20 ans, sont retrouvés morts sous la terrasse de la maison familiale. Avant d'être une énigme, cette affaire, ce sont ces cinq vies.
 [pause 1.5]
 
-# LACUNE : circonstances de la découverte du 21 avril 2011 (intervenants, déroulé, identification des victimes) — thème decouverte_enquete non couvert ; récit sobre, sans détail graphique.
+[S03] Le père, Xavier Dupont de Ligonnès, a été vu pour la dernière fois le 15 avril, dans le Var, s'éloignant à pied d'un hôtel de Roquebrune-sur-Argens. Le 10 mai 2011, le procureur de Nantes annonce qu'un mandat d'arrêt international a été délivré contre lui. Jusque-là, il n'était recherché que pour être entendu comme témoin.
 
-[S03] Sa dernière image connue date du 15 avril, à 16 heures 10 : filmé par la vidéosurveillance, il quitte à pied le parking d'un hôtel de Roquebrune-sur-Argens, dans le Var. Sa voiture y est repérée le 21 avril, ou dans la nuit du 21 au 22 selon les sources.
+[S04] Le procureur précise alors qu'il « reste naturellement toujours présumé innocent ». Il n'a jamais été jugé. Le même communiqué signale environ 330 signalements déjà reçus, dont aucun n'a été jugé fiable, et ajoute qu'aucun élément objectif ne permet de le situer à l'étranger.
 
-[S04] Le 23 avril, selon l'AFP, le portrait diffusé au public est celui de sa fiche d'inscription au club de tir, photographiée lors d'un reportage au stand. Le 10 mai 2011, un mandat d'arrêt international est émis. Recherché depuis, et désigné par l'enquête comme principal suspect, il n'a jamais été jugé.
+[S05] Les recherches se concentrent autour de Roquebrune. Le 29 avril, selon Le Parisien, chiens, plongeurs et CRS battent la campagne. Fin juin, selon le même journal, des spéléologues fouillent une trentaine de cavités. Nice-Matin, en 2020, décrira une tâche « quasiment impossible », tant les cavités sont nombreuses. Aucune de ces recherches n'aboutit.
 
-# LACUNE : premières recherches (avril-mai 2011) — dispositif d'enquête, perquisitions, auditions, diffusion de l'avis de recherche, coopération internationale ; thème decouverte_enquete non couvert.
+[S06] Les signalements, eux, s'accumulent. En avril 2013, Le Télégramme rapporte que plus de 700 ont été transmis et ont fait l'objet d'investigations. Cette même année, un hôtelier de Dieppe signale un client. Selon TF1 News, cité par Le Parisien, les prélèvements dans la chambre se révèlent négatifs. L'hôtelier, lui, dit à l'AFP avoir signalé un client parti sans payer, « point barre ».
 
-[S05] Autour de Roquebrune, les recherches se succèdent. Le 23 juin 2011, selon Le Parisien, des spéléologues fouillent une quarantaine de cavités naturelles. Nice-Matin évoque aussi des recherches dans les étangs, les bois et le massif du rocher de Roquebrune. Aucune ne donne de résultat, et le terrain, souligne le journal, en limite la portée.
+[S07] En 2015, des ossements découverts près de Fréjus ne sont pas les siens. En janvier 2018, un monastère du Var est fouillé, sans résultat. En décembre 2020, Nice-Matin compte plus de 900 signalements. Pour juger les pistes qui suivent, posons quatre questions : qu'affirme-t-on, qui l'affirme, qu'a-t-on contrôlé, et que sait-on publiquement du résultat ?
 
-[S06] Dès lors, l'affaire vit au rythme des signalements : des personnes, en France ou à l'étranger, croient l'avoir reconnu. En 2013, selon les décomptes repris par la presse, on en compte déjà plus de 700. Selon La Provence, des recherches ont même été menées, sans succès, dans plusieurs abbayes.
+[S08] Octobre 2019. Selon le récit publié par Le Parisien, quelques jours plus tôt, le bureau d'Interpol à Londres a transmis aux autorités françaises une information : Xavier Dupont de Ligonnès prendrait un vol Paris-Glasgow. À l'origine, d'après le même journal, une dénonciation anonyme.
 
-# LACUNE : pistes et signalements notables de 2011 à 2019 — pour chacun : information initiale, auteur, contrôle, résultat (thème pistes_2011_2019 non couvert).
+[S09] Le vendredi 11 octobre 2019, en début d'après-midi, la police écossaise interpelle un voyageur à sa descente d'avion à l'aéroport de Glasgow. Elle compare ses empreintes digitales avec celles, partielles, du fugitif. Selon des sources françaises citées par Le Parisien, les Écossais affirment : « c'est votre homme ».
 
-# LACUNE : Glasgow, octobre 2019 — information initiale, auteur, contrôle, résultat ; ne pas nommer l'homme innocent.
-
-[S07] En 2020, le compteur dépasse 900 ; en 2024, 1750. D'autres pistes ont jalonné ces années, et le parquet de Nantes le rappelait encore en juin 2026 : toutes les informations reçues sont vérifiées, « jusqu'ici sans succès ». Pour juger celles qui suivent, nous poserons quatre questions : qu'affirme-t-on, qui l'affirme, qu'a-t-on contrôlé, et qu'en sait-on publiquement ?
-
-[S08] Mars 2024, dans le Doubs. Selon le parquet de Besançon, cité par la presse, une personne croit reconnaître Xavier Dupont de Ligonnès le 9 mars, lors d'une veillée religieuse ; l'homme serait reparti le 11 au matin. Le 12 mars, un premier signalement parvient à la gendarmerie, et deux autres témoignages similaires suivront.
-
-[S09] Trois témoins, une même conviction : la piste prend du poids. Mais un témoignage, même sincère, n'est pas une identification. Selon la presse, un gobelet et des canettes sont prélevés, et l'ADN recueilli est comparé à celui de Xavier Dupont de Ligonnès.
-
-[S10] Le 15 avril 2024, le parquet de Nantes annonce le résultat : les deux profils ne correspondent pas. La piste est écartée, un peu plus d'un mois après le premier signalement. L'identité de l'homme aperçu n'a pas été rendue publique, et nous ne la chercherons pas.
-[pause 0.8]
-
-[S11] Le 25 mars 2026, le bureau du shérif du comté de Brewster, au Texas, publie sur Facebook un appel à informations sur Xavier Dupont de Ligonnès. Il y évoque une possible présence dans le comté en 2020, et diffuse des photos vieilles d'une quinzaine d'années.
-
-[S12] D'où vient cet appel ? Selon le shérif, d'une équipe de journalistes qui l'a sollicité ; parmi eux, un ancien enquêteur du dossier, Gilles Galloux, auteur d'un livre paru en février 2026 qui défend, selon la presse, la thèse d'une fuite aux États-Unis. D'après cette équipe, le fugitif aurait un jour cité ce comté parmi ses endroits préférés : une affirmation rapportée, pas une source judiciaire.
-
-[S13] Le 26 mars, le shérif publie une mise au point : aucune observation confirmée, ni dans le comté ni dans l'ouest du Texas, et aucun élément nouveau. À Nantes, le procureur Antoine Leroy indique que ni lui ni les enquêteurs n'avaient été informés de cet appel. Le 27 mars pourtant, un site d'information, Time France, titre encore sur « une nouvelle enquête ». Depuis, nous n'avons trouvé aucune suite publique à cet appel.
-
-# LACUNE : suites publiques de l'appel du comté de Brewster après le 27 mars 2026 — aucune trouvée au 01/10/2026 ; à revérifier avant validation.
-
-[S14] Début juin 2026, deux pistes surgissent à un jour d'intervalle. Le premier juin, Ouest-France publie une enquête sur un compte de forum baptisé « Epsilon » ; nous y reviendrons. Le lendemain, mardi 2 juin, M6 diffuse en première partie de soirée « Appel à témoins », présentée par Julien Courbet et consacrée en partie à l'affaire.
-
-[S15] En direct, un homme qui se présente comme prêtre affirme avoir recueilli en 2022, dans un monastère de l'Aude, la confession de Xavier Dupont de Ligonnès. Il donne des détails : un séjour de quatre jours, un projet de rejoindre Grasse. Il dit avoir été autorisé par l'évêque de Carcassonne à rompre le secret de la confession, et détenir une photo et un numéro de téléphone.
-
-[S16] Tout y est pour produire une apparence de certitude : un statut, une autorité invoquée, des détails précis, des pièces annoncées, et l'antenne d'une grande chaîne. Mais ce ne sont que des affirmations, et l'autorité invoquée va répondre.
-
-[S17] Le 3 juin, Monseigneur Bruno Valentin, évêque de Carcassonne et Narbonne, dément : il qualifie la séquence de mensongère et diffamatoire, dit n'avoir été contacté ni par l'appelant ni par la chaîne, et annonce avoir saisi l'Arcom. Selon M6, l'homme avait reconnu dans la nuit, auprès du rédacteur en chef de l'émission, qu'il n'était pas prêtre. Après une enquête interne lancée le soir même, la chaîne présente ses excuses « sans réserve » à l'évêque et reconnaît un faux témoignage.
-[pause 0.8]
-
-[S18] Le même jour, le procureur de Nantes annonce que le juge d'instruction fera vérifier les propos diffusés sur M6, ainsi que le compte « Epsilon ». Le 4 juin, selon franceinfo, le président de l'Arcom, Martin Ajdari, déclare que le régulateur va « se pencher sur la séquence ». Au premier octobre 2026, nous n'avons trouvé aucune décision publiée à ce sujet, ce qui ne signifie pas qu'aucun examen n'est en cours. L'identité de l'appelant n'est pas publique, et aucune poursuite le visant n'a, à notre connaissance, été annoncée.
-
-# LACUNE : décision éventuelle de l'Arcom et poursuites éventuelles contre l'auteur du faux témoignage — rien de public trouvé au 01/10/2026 ; contenu et calendrier des vérifications ordonnées par le juge d'instruction non publics.
-
-[S19] Le motif du prêtre, lui, n'avait rien de nouveau. Le 27 avril 2011, Le Parisien rapportait le témoignage d'un armurier de la région nantaise : un homme s'était présenté chez lui comme « prêtre tireur d'élite », et le journal y voyait le père de famille. Ce témoignage unique est public depuis quinze ans : il ne dit rien de l'identité de l'appelant de 2026.
+[S10] Le soir même, Le Parisien annonce l'arrestation, puis l'AFP, puis une grande partie de la presse. Le journal dit s'être appuyé sur cinq sources ; mais, de son propre aveu, toutes s'appuyaient sur des renseignements transmis par les policiers écossais. À 22 heures 40, une porte-parole écossaise ne confirme au journal qu'une interpellation, sans rien dire de l'identité.
 [pause 0.6]
 
-[S20] L'appel du faux prêtre a inspiré le ressort du roman d'Akeb, La dernière correction : dans le livre, l'homme qui appelle est le fugitif lui-même, un personnage inventé, avec une fin imaginée. Dans l'affaire réelle, aucune source n'établit ce lien, et le roman n'apporte aucune preuve. Il existe en e-book et en livre audio ; les deux liens sont dans la description. Revenons aux faits.
-[pause 0.8]
+[S11] Le samedi matin, la correspondance des empreintes n'est plus que « partielle », selon une source officielle écossaise. Puis, selon une source policière citée par Le Parisien, une comparaison ADN exclut qu'il s'agisse de Xavier Dupont de Ligonnès. À 13 heures 04, une dépêche de l'AFP corrige l'information ; en fin de journée, la police écossaise annonce que l'homme est relâché.
 
-[S21] Reste la piste du premier juin. Sur un forum catholique en ligne, un compte nommé « Epsilon » a été créé le 2 juillet 2010 ; il a publié environ 1169 messages, jusqu'en août 2017 selon le parquet. Ouest-France, qui revendique une enquête en sources ouvertes, relève des similitudes de style avec deux pseudonymes que les enquêteurs attribuent à Xavier Dupont de Ligonnès avant avril 2011, « Chevy » et « LIGO ».
-
-[S22] Ce forum n'est pas inconnu du dossier. Selon le parquet, Xavier Dupont de Ligonnès y utilisait d'autres pseudonymes jusqu'au 8 avril 2011 ; ce jour-là, selon Le Télégramme en 2013, un dernier message y était publié depuis une adresse IP nantaise. Epsilon, lui, existait déjà depuis neuf mois, et a continué d'écrire plus de six ans après.
-
-[S23] Un expert en stylométrie sollicité par Ouest-France, Claude Alain Roten, estime que « la piste est sérieuse ». Mais une ressemblance de style est un indice, pas une preuve d'identité : l'existence du compte est établie, pas son auteur. Selon Ouest-France, des enquêteurs spécialisés examineraient déjà l'adresse IP et les messages ; le parquet, lui, s'en tient à l'annonce de vérifications.
-
-[S24] Au premier octobre 2026, nous n'avons trouvé aucune conclusion publique sur l'auteur de ces messages : ni identification, ni classement. Pendant l'été, l'affaire est revenue à la télévision et dans la presse, sans élément d'enquête nouveau rendu public. Ce silence ne prouve rien, ni dans un sens ni dans l'autre.
+[S12] Cet homme était innocent. Nous ne dirons rien de plus sur lui. Le lundi 14 octobre, la police écossaise déclare n'avoir « jamais confirmé, ni en public ni en privé », son identité ; des sources françaises maintiennent le contraire. Le jeudi 17, le procureur de Nantes, Pierre Sennès, annonce une enquête pour violation du secret de l'instruction, confiée à l'IGPN, pour remonter à l'origine des fuites.
 [pause 1.0]
 
-# LACUNE : conclusions des vérifications sur le compte « Epsilon » et toute évolution postérieure au 30 septembre 2026 — non recherchées ou non publiques.
+[S13] En 2024, selon le parquet cité par franceinfo, le compteur dépasse 1 750 signalements. En mars, dans le Doubs, plusieurs personnes croient reconnaître le fugitif chez un visiteur d'une communauté religieuse proche de Besançon. Les gendarmes prélèvent des canettes qu'il a bues.
 
-[S25] Revenons à notre question : depuis 2011, une seule piste a-t-elle résisté à la vérification ? Parmi les quatre que notre dossier permet de suivre, aucune n'a été confirmée. Dans le Doubs, l'ADN a tranché ; au Texas, le shérif lui-même n'a confirmé aucune observation ; le faux prêtre a reconnu son mensonge, selon M6. Epsilon, enfin, n'est publiquement ni confirmé ni écarté.
+[S14] Le 15 avril 2024, le procureur de Nantes, Renaud Gaudeul, annonce le résultat : « Les deux profils ADN ne correspondent pas. » Un témoignage, même partagé par plusieurs personnes, n'est pas une identification. L'identité de ce visiteur n'a pas été rendue publique, et nous ne la chercherons pas.
 
-[S26] Chaque fois, l'apparence de certitude tenait à autre chose qu'une preuve : le nombre de témoins, un en-tête officiel, un titre religieux prononcé en direct, l'avis d'un expert. Et chaque fois, ce qui a départagé, c'est un contrôle : un test ADN, une mise au point, un démenti et un aveu ; pour Epsilon, rien encore de public. Le parquet de Nantes le dit en juin 2026 : l'enquête n'a pas permis de déterminer s'il est mort ou en fuite.
+[S15] Fin mars 2026, le bureau du shérif du comté de Brewster, au Texas, lance un appel sur Facebook. Selon franceinfo, Xavier Dupont de Ligonnès y est présenté comme ayant « possiblement été vu en 2020 ». Les photos diffusées ont une quinzaine d'années.
+
+[S16] D'où vient cet appel ? Selon la chaîne locale KOSA, le shérif a été contacté par une équipe privée de journalistes, comprenant un ancien enquêteur du dossier. Selon ce qui a été rapporté au shérif, le fugitif serait déjà venu dans ce comté et l'aurait décrit comme l'un de ses endroits préférés : une affirmation rapportée, pas une observation.
+
+[S17] À Nantes, le procureur Antoine Leroy déclare que ni le juge d'instruction, ni lui-même, ni les enquêteurs n'avaient été informés de cet appel. Et le 26 mars, selon KOSA, le shérif précise qu'il n'a ni élément nouveau, ni observation confirmée.
+
+[S18] Retour au 2 juin 2026. Dans « Appel à témoins », émission en direct présentée par Julien Courbet sur M6, un appelant se dit prêtre. Il affirme avoir entendu en 2022, dans un monastère de l'Aude, la confession de Xavier Dupont de Ligonnès, et parler avec l'accord de l'évêque de Carcassonne. Selon La Dépêche du Midi, il promet même d'envoyer une photo, qui ne viendra jamais.
+
+[S19] Un titre religieux, une autorité invoquée, une pièce annoncée, l'antenne d'une grande chaîne : tout produit une apparence de certitude. Mais l'autorité invoquée existe, et elle va répondre.
+
+[S20] Le 3 juin au matin, l'évêque de Carcassonne et Narbonne, Bruno Valentin, dément : « Jamais personne ne m'a contacté », écrit-il, ni l'appelant, ni M6. Selon La Dépêche, un prêtre du monastère cité affirme que personne n'y a souvenir d'un tel passage. Stan Vignon, de la rédaction de l'émission, raconte sur RTL que dans la nuit, l'homme a fini par lui avouer qu'il n'était pas prêtre.
+[pause 0.6]
+
+[S21] Le même jour, M6 reconnaît un faux témoignage et présente « sans réserve » ses excuses à l'évêque, qui saisit l'Arcom. Le 4 juin, son président, Martin Ajdari, confirme que le régulateur va « se pencher sur la séquence ». Au premier octobre 2026, nous n'avons trouvé ni décision publiée, ni poursuite annoncée contre l'appelant, dont l'identité n'est pas publique.
+[pause 0.8]
+
+[S22] Cet appel a inspiré le ressort du roman d'Akeb, La dernière correction : dans le livre, celui qui appelle, c'est le fugitif lui-même. Dans l'affaire réelle, aucune source n'établit ce lien ; le roman est une fiction et ne contient aucune preuve. On peut le lire en e-book ou l'écouter en livre audio : les deux liens sont sous cette vidéo. Revenons aux faits.
+[pause 0.8]
+
+[S23] La veille de l'émission, le premier juin, Ouest-France avait publié une enquête sur un compte d'un forum catholique en ligne, nommé « Epsilon ». Créé le 2 juillet 2010, il compte 1 169 messages et reste actif jusqu'en 2017, selon Le Parisien qui reprend cette enquête.
+
+[S24] Ouest-France relève des habitudes d'écriture communes avec « Chevy » et « LIGO », deux pseudonymes attribués à Xavier Dupont de Ligonnès. Selon le parquet, il fréquentait ce forum sous d'autres pseudonymes jusqu'au 8 avril 2011. Autre détail, rapporté par Ouest-France : une pause de 122 jours dans l'activité d'Epsilon, à partir du 15 avril 2011.
+
+[S25] Un expert en stylométrie sollicité par le journal, Claude Alain Roten, estime que « la piste est sérieuse ». Mais une ressemblance de style est un indice, pas une identification. Le 6 juillet, une analyse publiée par le site Control Investigation juge d'ailleurs que les comparaisons d'horaires ne permettent pas d'établir l'attribution.
+
+[S26] Le 3 juin, le procureur Antoine Leroy a annoncé que le juge d'instruction ferait vérifier ce compte, ainsi que les propos diffusés sur M6. Au premier octobre 2026, nous n'avons trouvé aucune conclusion publique sur l'auteur d'Epsilon : ni identification, ni mise hors de cause. Ce silence ne prouve rien, dans un sens ou dans l'autre.
+[pause 1.0]
+
+[S27] Revenons à notre question. Depuis 2011, une seule piste a-t-elle résisté à la vérification ? Parmi celles que nous avons suivies, aucune n'a été confirmée. À Glasgow comme dans le Doubs, l'ADN a tranché ; au Texas, le shérif n'a confirmé aucune observation ; le faux prêtre a reconnu son mensonge, selon l'émission. Epsilon, lui, n'est publiquement ni confirmé ni écarté.
+
+[S28] Chaque fois, l'apparence de certitude tenait à autre chose qu'une preuve : des empreintes partielles, plusieurs témoins, un en-tête officiel, un titre religieux, l'avis d'un expert. En juin 2026, le procureur de Nantes rappelait que les informations reçues avaient été vérifiées, « jusqu'ici sans succès ». Et, comme l'écrivait l'AFP en 2024, l'enquête n'a pas déterminé s'il est mort ou en fuite.
 [pause 1.2]
 
-[S27] C'est cette question que nous affronterons dans le prochain épisode : mort ou vivant ? Nous y comparerons les scénarios, leurs appuis et leurs objections, et nous dirons celui que nous retenons, et pourquoi.
+[S29] C'est la question du prochain épisode : mort ou vivant ? Nous y comparerons les scénarios, leurs appuis et leurs objections, et nous dirons celui qui nous paraît le plus plausible, et pourquoi.

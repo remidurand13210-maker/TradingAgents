@@ -1,547 +1,396 @@
-STATUT : BROUILLON v0 — non narrable
+STATUT : BROUILLON v1 — non narrable avant validation
 
 # Épisode 3 — Après la disparition : les pistes et leurs vérifications
 
 - **Titre de travail** : Après la disparition : les pistes et leurs vérifications
 - **Question de l'épisode** : Depuis 2011, une seule piste a-t-elle résisté à la vérification ?
-- **Longueur** : 1579 mots (décompte « split » de narration.txt), 27 segments, 84 plans (dont 3 cartons muets)
-- **Durée estimée** : 1579 ÷ 155 ≈ 10.2 min de narration, plus ≈ 13 s de cartons muets et 7.9 s de pauses
-- **Date de référence** : 1er octobre 2026 (rien n'a été recherché après le 30 septembre 2026)
-- **Matériau** : fichiers Bionic (LM Studio) non revérifiés, fusionnés dans `recherche/*.csv` sous la provenance `bionic_lmstudio_non_reverifie` ; voir `recherche/contre_verif/AUDIT_BIONIC.md`. Aucune source n'est « lu_integral ».
+- **Longueur** : 1544 mots (décompte « split » de narration.txt), 29 segments, 86 plans (dont 2 cartons muets)
+- **Durée estimée** : 1544 ÷ 155 ≈ 10.0 min de narration, plus 7 s de cartons muets et 8,7 s de pauses
+- **Date de référence** : 1er octobre 2026
+- **Matériau** : base Codex (`recherche/brut_codex/pistes_2011_2019.json`, `pistes_2020_2026.json`, `decouverte_enquete.json`) ; pages relues le 01/10/2026 (curl via le proxy ou WebFetch) ; aucune source `youtube_*`, aucun extrait de moteur, aucune donnée Bionic seule.
 
 ## Chapitres
 
-1. Avril 2011 : la découverte, puis la traque (à partir de S02)
-2. Quinze ans de signalements (à partir de S06)
-3. Doubs, 2024 : trois témoins, un test ADN (à partir de S08)
-4. Texas, 2026 : un appel venu de loin (à partir de S11)
-5. Juin 2026 : un faux prêtre en direct (à partir de S14)
-6. Epsilon : une piste encore ouverte (à partir de S21)
-7. Ce qui résiste à la vérification (à partir de S25)
+1. 2011 : la disparition, puis la traque (à partir de S02)
+2. Glasgow, 2019 : l'arrestation qui n'en était pas une (à partir de S08)
+3. 2024-2026 : témoins, shérif et prélèvements (à partir de S13)
+4. Juin 2026 : un faux prêtre en direct (à partir de S18)
+5. Epsilon : une piste encore ouverte (à partir de S23)
+6. Ce qui résiste à la vérification (à partir de S27)
 
-Ouverture : accroche S01 (cartons date, texte, question) → carton titre muet 3 s (P006) → carton avertissement muet 4 s (P007) → récit.
-
-## Règle de lecture appliquée
-
-- Affirmation directe seulement si au moins une source `lu_partiel` et aucun signalement de fragilité dans l'audit ; sinon attribution explicite (« selon… ») ou silence.
-- Éléments fragiles de l'audit présents dans ce brouillon : la thèse de Gilles Galloux (S12, attribuée, sans les « faux papiers dans le Var », ne porte aucune conclusion). Aucun autre (pas de courriel du 14/04, pas de La Seyne, pas de « Xavier Laurent », pas de décès de la mère, pas de Le Tensorer, pas de Le Monde du 21/06/2011, pas de modèle d'arme).
-- Particuliers jamais nommés ni localisés : homme du Doubs (ni commune, ni communauté, ni prénom d'emprunt), signalants, appelant de M6 (ni nom, ni pseudonyme d'antenne).
+Ouverture : accroche S01 (date, texte, question) → carton titre muet 3 s → carton avertissement muet 4 s → récit.
 
 ## Segments
 
 ### S01
 
-Le 2 juin 2026, en direct sur M6, un homme qui se présente comme prêtre affirme avoir reçu, en 2022, la confession de Xavier Dupont de Ligonnès. Dans la nuit, selon la chaîne, il reconnaît qu'il n'est pas prêtre. Ce même mois, selon Le Parisien, les signalements reçus depuis 2011 dépassent 1850. Une seule de ces pistes a-t-elle résisté à la vérification ?
+Le 2 juin 2026, en direct sur M6, un homme qui se présente comme prêtre affirme avoir reçu la confession de Xavier Dupont de Ligonnès. Dans la nuit, selon un responsable de l'émission, il reconnaît qu'il n'est pas prêtre. Ce même mois, selon Le Parisien, les enquêteurs ont reçu plus de 1 850 signalements depuis 2011. Une seule de ces pistes a-t-elle résisté à la vérification ?
 
-*(pause 1.2 s)*
-
-- **Statut** : FAIT (diffusion de l'émission ; aveu rapporté par M6 ; nombre de signalements daté) + TÉMOIGNAGE RAPPORTÉ (affirmation de l'appelant, reconnue fausse)
-- **Sources** : S086 Europe 1 avec AFP, 03/06/2026 — lu_partiel ; S087 Le Parisien, 03/06/2026 — extrait_moteur ; S095 Le Parisien, 02/06/2026 — lu_partiel
-- **Assertions** : A089, A090, A092, A101
-- **Provenance** : bionic_lmstudio_non_reverifie (pistes_2020_2026)
-- **Incertitude** : Faible pour la diffusion et l'aveu rapporté ; forte pour le contenu de l'appel (faux) ; moyenne pour le chiffre (périmètre de comptage non précisé).
-- **Visuels** : P001, P002, P003, P004, P005
-- **Note de prudence** : Accroche d'environ 24 s (décompte ci-dessous). 2022 est la date ALLÉGUÉE de la « confession », l'émission date du 2 juin 2026. L'aveu est attribué à la chaîne. L'appelant n'est pas nommé (identité non publique). Aucun élément fragile de l'audit n'est utilisé.
-- À REVÉRIFIER : Communiqué de M6 et propos du rédacteur en chef (Europe 1/AFP, lu intégralement) ; chiffre « plus de 1 850 » et sa date dans Le Parisien du 02/06/2026.
-- *Mots : 63*
+- **Statut** : TEMOIGNAGE (affirmations de l'appelant) / FAIT (décompte attribué)
+- **Sources** : S189 La Dépêche du Midi, 03/06/2026 — relu 01/10/2026 ; S187 Le Parisien, 03/06/2026 — relu 01/10/2026 ; S193 Le Parisien, 02/06/2026 — relu 01/10/2026
+- **Assertions** : A197, A198, A201
+- **Incertitude** : Faible : aveu de l'appelant rapporté par Stan Vignon (RTL, via La Dépêche) ; chiffre « plus de 1 850 » donné par Le Parisien et repris par RTL (S136) et Le Dauphiné (S194).
+- **Visuels** : P001 date, P002 texte, P003 texte, P004 texte, P005 question
+- **Note de prudence** : L'aveu est attribué (« selon un responsable de l'émission »). Ni nom ni pseudonyme d'antenne de l'appelant.
 
 ### S02
 
-Le 21 avril 2011, à Nantes, les corps d'Agnès Dupont de Ligonnès et de ses quatre enfants, Arthur, Thomas, Anne et Benoît, sont découverts sous la terrasse de la maison familiale. Avant d'être une énigme, cette affaire, ce sont ces cinq vies. Le père de famille, Xavier Dupont de Ligonnès, est introuvable.
-
-*(pause 1.5 s)*
+Le 21 avril 2011, à Nantes, Agnès Dupont de Ligonnès et ses quatre enfants, Arthur, Thomas, Anne et Benoît, âgés de 13 à 20 ans, sont retrouvés morts sous la terrasse de la maison familiale. Avant d'être une énigme, cette affaire, ce sont ces cinq vies.
 
 - **Statut** : FAIT
-- **Sources** : S059 Nice-Matin, 07/12/2020 — lu_partiel ; S061 La Dépêche du Midi, 25/10/2020 — extrait_moteur ; S058 Le Télégramme, 15/04/2013 — lu_partiel (prénoms, via CHRONOLOGIE) ; S067 20 Minutes, 22/04/2011 — lu_partiel (Anne, Benoît)
-- **Assertions** : CHRONOLOGIE.csv 2011-04-21 (sans identifiant A) ; prénoms : A066, A067, A069, CHRONOLOGIE 2011-04-03
-- **Provenance** : bionic_lmstudio_non_reverifie (avril_2011_apres, avril_2011_avant)
-- **Incertitude** : Faible.
-- **Visuels** : P008, P009, P010
-- **Note de prudence** : Victimes nommées comme des personnes, sans âge (l'âge d'Arthur manque au dossier), sans photo, sans détail graphique ni opératoire, sans rappel des dates de décès (épisode 2). Aucune promotion à proximité.
-- À REVÉRIFIER : Date et lieu de la découverte sur une page lue intégralement (presse d'avril 2011) ; graphie des prénoms.
-- *Mots : 52*
-
-> Emplacement réservé dans narration.txt : `# LACUNE : circonstances de la découverte du 21 avril 2011 (intervenants, déroulé, identification des victimes) — thème decouverte_enquete non couvert ; récit sobre, sans détail graphique.`
+- **Sources** : S136 RTL, 04/06/2026 — relu 01/10/2026 ; S126 Le Parisien, 23/06/2011 — relu 01/10/2026 (« âgés de 13 à 20 ans ») ; S121 La Dépêche du Midi (AFP), 10/05/2011 — relu 01/10/2026
+- **Assertions** : A135
+- **Incertitude** : Nulle sur la date, le lieu et les prénoms (plusieurs pages relues).
+- **Visuels** : P008 chapitre, P009 date, P010 texte
+- **Note de prudence** : Aucun détail sur les circonstances. Âges donnés en fourchette (« 13 à 20 ans ») : le bilan du Parisien du 03/04/2026 donne Arthur à 21 ans (voir DIVERGENCES).
 
 ### S03
 
-Sa dernière image connue date du 15 avril, à 16 heures 10 : filmé par la vidéosurveillance, il quitte à pied le parking d'un hôtel de Roquebrune-sur-Argens, dans le Var. Sa voiture y est repérée le 21 avril, ou dans la nuit du 21 au 22 selon les sources.
+Le père, Xavier Dupont de Ligonnès, a été vu pour la dernière fois le 15 avril, dans le Var, s'éloignant à pied d'un hôtel de Roquebrune-sur-Argens. Le 10 mai 2011, le procureur de Nantes annonce qu'un mandat d'arrêt international a été délivré contre lui. Jusque-là, il n'était recherché que pour être entendu comme témoin.
 
-- **Statut** : FAIT
-- **Sources** : S059 Nice-Matin, 07/12/2020 — lu_partiel ; S058 Le Télégramme, 15/04/2013 — lu_partiel ; S057 Le Parisien, 03/04/2026 — lu_partiel ; S061 La Dépêche du Midi, 25/10/2020 — extrait_moteur ; S062 Le Parisien, 22/04/2011 — extrait_moteur
-- **Assertions** : A054, A057
-- **Provenance** : bionic_lmstudio_non_reverifie (avril_2011_apres)
-- **Incertitude** : Faible pour la dernière image ; moyenne pour la date de repérage du véhicule (divergence de quelques heures).
-- **Visuels** : P011, P012, P013
-- **Note de prudence** : Divergence de datation dite à l'antenne. Aucune scène imaginée après 16 h 10 (consigne de l'épisode 2).
-- À REVÉRIFIER : Heure de 16 h 10 et date de repérage du véhicule sur pages lues intégralement.
-- *Mots : 49*
+- **Statut** : FAIT / RECONSTRUCTION (procureur)
+- **Sources** : S056 Le Parisien, 03/04/2026 — relu 01/10/2026 ; S126 Le Parisien, 23/06/2011 — relu 01/10/2026 ; S121 La Dépêche du Midi, 10/05/2011 — relu 01/10/2026 ; S122 Le Monde, 11/05/2011 — lu_integral (Codex, 01/10/2026)
+- **Assertions** : A140, A060
+- **Incertitude** : Faible.
+- **Visuels** : P011 carte, P012 date, P013 texte
+- **Note de prudence** : Heure exacte du départ non dite (16 h 10 ailleurs, « vers 16 heures » dans S056) pour ne pas trancher ; renvoi à l'épisode 2.
 
 ### S04
 
-Le 23 avril, selon l'AFP, le portrait diffusé au public est celui de sa fiche d'inscription au club de tir, photographiée lors d'un reportage au stand. Le 10 mai 2011, un mandat d'arrêt international est émis. Recherché depuis, et désigné par l'enquête comme principal suspect, il n'a jamais été jugé.
+Le procureur précise alors qu'il « reste naturellement toujours présumé innocent ». Il n'a jamais été jugé. Le même communiqué signale environ 330 signalements déjà reçus, dont aucun n'a été jugé fiable, et ajoute qu'aucun élément objectif ne permet de le situer à l'étranger.
 
-- **Statut** : FAIT
-- **Sources** : S056 AFP Making-of, 12/04/2016 — lu_partiel (premier paragraphe seulement) ; S064 La Libre Belgique (légende AFP), 15/04/2024 — extrait_moteur ; S057 Le Parisien, 03/04/2026 — lu_partiel ; S058 Le Télégramme, 15/04/2013 — lu_partiel
-- **Assertions** : A058 ; mandat : CHRONOLOGIE.csv 2011-05-10 (sans identifiant A)
-- **Provenance** : bionic_lmstudio_non_reverifie (avril_2011_apres)
-- **Incertitude** : Moyenne pour l'origine du portrait (making-of lu partiellement) ; faible pour le mandat.
-- **Visuels** : P014, P015, P016, P017
-- **Note de prudence** : Formule de présomption obligatoire. Détail moins connu n° 1 (origine du portrait), attribué à l'AFP.
-- À REVÉRIFIER : Récit complet du making-of AFP ; date du mandat d'arrêt international sur une source de mai 2011 ou judiciaire.
-- *Mots : 50*
-
-> Emplacement réservé dans narration.txt : `# LACUNE : premières recherches (avril-mai 2011) — dispositif d'enquête, perquisitions, auditions, diffusion de l'avis de recherche, coopération internationale ; thème decouverte_enquete non couvert.`
+- **Statut** : FAIT (communiqué cité)
+- **Sources** : S121 La Dépêche du Midi (AFP), 10/05/2011 — relu 01/10/2026
+- **Assertions** : A140
+- **Incertitude** : Faible : citation du communiqué Ronsin reproduite par l'AFP ; source unique pour le chiffre de 330.
+- **Visuels** : P014 citation, P015 texte, P016 frise
+- **Note de prudence** : Détail moins connu. Le chiffre de 330 est attribué au communiqué de mai 2011.
 
 ### S05
 
-Autour de Roquebrune, les recherches se succèdent. Le 23 juin 2011, selon Le Parisien, des spéléologues fouillent une quarantaine de cavités naturelles. Nice-Matin évoque aussi des recherches dans les étangs, les bois et le massif du rocher de Roquebrune. Aucune ne donne de résultat, et le terrain, souligne le journal, en limite la portée.
+Les recherches se concentrent autour de Roquebrune. Le 29 avril, selon Le Parisien, chiens, plongeurs et CRS battent la campagne. Fin juin, selon le même journal, des spéléologues fouillent une trentaine de cavités. Nice-Matin, en 2020, décrira une tâche « quasiment impossible », tant les cavités sont nombreuses. Aucune de ces recherches n'aboutit.
 
 - **Statut** : FAIT (attribué)
-- **Sources** : S057 Le Parisien, 03/04/2026 — lu_partiel ; S059 Nice-Matin, 07/12/2020 — lu_partiel ; S063 La Provence, 12/04/2026 — extrait_moteur
-- **Assertions** : A081 ; CHRONOLOGIE.csv 2011-06-23
-- **Provenance** : bionic_lmstudio_non_reverifie (avril_2011_apres, hypotheses_sort)
-- **Incertitude** : Faible.
-- **Visuels** : P018, P019, P020
-- **Note de prudence** : Le caractère non exhaustif des recherches est exposé sans conclure (la question du sort relève de l'épisode 4). Les recherches dans les étangs et le massif ne sont pas datées dans le dossier : elles ne sont pas placées en juin.
-- À REVÉRIFIER : « Une quarantaine » de cavités et date du 23 juin 2011 (une seule source, Le Parisien 2026) ; dates des autres recherches.
-- *Mots : 54*
+- **Sources** : S126 Le Parisien, 23/06/2011 — relu 01/10/2026 ; S217 Nice-Matin, 07/12/2020 — relu 01/10/2026 (passages affichés) ; S146 JDD, 11/06/2011 — lu_integral (Codex)
+- **Assertions** : A144, A145
+- **Incertitude** : Moyenne sur le nombre de cavités : « une trentaine » (Le Parisien 2011, conseiller technique André Roudeau) contre « une quarantaine » le 23 juin (Le Parisien 2026).
+- **Visuels** : P017 date, P018 texte, P019 texte, P020 citation
+- **Note de prudence** : On retient le chiffre contemporain, attribué, et « fin juin » (l'article mêle recherches du mercredi 22 et du jeudi 23).
 
 ### S06
 
-Dès lors, l'affaire vit au rythme des signalements : des personnes, en France ou à l'étranger, croient l'avoir reconnu. En 2013, selon les décomptes repris par la presse, on en compte déjà plus de 700. Selon La Provence, des recherches ont même été menées, sans succès, dans plusieurs abbayes.
+Les signalements, eux, s'accumulent. En avril 2013, Le Télégramme rapporte que plus de 700 ont été transmis et ont fait l'objet d'investigations. Cette même année, un hôtelier de Dieppe signale un client. Selon TF1 News, cité par Le Parisien, les prélèvements dans la chambre se révèlent négatifs. L'hôtelier, lui, dit à l'AFP avoir signalé un client parti sans payer, « point barre ».
 
-- **Statut** : FAIT (décompte daté) + FAIT attribué (abbayes, extrait seul)
-- **Sources** : S058 Le Télégramme, 15/04/2013 — lu_partiel ; S059 Nice-Matin, 07/12/2020 — lu_partiel ; S057 Le Parisien, 03/04/2026 — lu_partiel ; S063 La Provence, 12/04/2026 — extrait_moteur
-- **Assertions** : A082, A081
-- **Provenance** : bionic_lmstudio_non_reverifie (hypotheses_sort)
-- **Incertitude** : Moyenne (périmètres de comptage variables ; abbayes connues par fragments d'un article payant).
-- **Visuels** : P021, P022, P023
-- **Note de prudence** : Chaque chiffre est donné avec son année. Les abbayes ne sont ni nommées ni datées (absentes du dossier).
-- À REVÉRIFIER : Quel média donne quel chiffre (700 en 2013) ; abbayes : dates, lieux, source de premier rang.
-- *Mots : 49*
-
-> Emplacement réservé dans narration.txt : `# LACUNE : pistes et signalements notables de 2011 à 2019 — pour chacun : information initiale, auteur, contrôle, résultat (thème pistes_2011_2019 non couvert).`
-
-> Emplacement réservé dans narration.txt : `# LACUNE : Glasgow, octobre 2019 — information initiale, auteur, contrôle, résultat ; ne pas nommer l'homme innocent.`
+- **Statut** : FAIT (attribué) / TEMOIGNAGE (hôtelier)
+- **Sources** : S216 Le Télégramme, 15/04/2013 — relu 01/10/2026 ; S161 Le Parisien, 05/02/2013 — relu 01/10/2026
+- **Assertions** : A171, A172
+- **Incertitude** : Moyenne : le même article du Télégramme évoque plus loin « 800 signalements vérifiés » ; on garde « plus de 700 », chiffre de la phrase consacrée au bilan. Résultat ADN de Dieppe rapporté par TF1 News, non corroboré indépendamment (A171 nuance).
+- **Visuels** : P021 texte, P022 date, P023 texte, P024 citation
+- **Note de prudence** : L'hôtel n'est pas nommé ; le client non plus.
 
 ### S07
 
-En 2020, le compteur dépasse 900 ; en 2024, 1750. D'autres pistes ont jalonné ces années, et le parquet de Nantes le rappelait encore en juin 2026 : toutes les informations reçues sont vérifiées, « jusqu'ici sans succès ». Pour juger celles qui suivent, nous poserons quatre questions : qu'affirme-t-on, qui l'affirme, qu'a-t-on contrôlé, et qu'en sait-on publiquement ?
+En 2015, des ossements découverts près de Fréjus ne sont pas les siens. En janvier 2018, un monastère du Var est fouillé, sans résultat. En décembre 2020, Nice-Matin compte plus de 900 signalements. Pour juger les pistes qui suivent, posons quatre questions : qu'affirme-t-on, qui l'affirme, qu'a-t-on contrôlé, et que sait-on publiquement du résultat ?
 
-- **Statut** : FAIT (décomptes datés ; position du parquet) + méthode de la chaîne
-- **Sources** : S059 Nice-Matin, 07/12/2020 — lu_partiel ; S057 Le Parisien, 03/04/2026 — lu_partiel ; S083 franceinfo, 26/03/2026 — lu_partiel ; S092 ICI (Radio France), 03/06/2026 — lu_partiel ; S093 20 Minutes, 03/06/2026 — lu_partiel
-- **Assertions** : A082, A101, A100
-- **Provenance** : bionic_lmstudio_non_reverifie (hypotheses_sort, pistes_2020_2026)
-- **Incertitude** : Moyenne pour les chiffres ; faible pour la citation du parquet.
-- **Visuels** : P024, P025, P026
-- **Note de prudence** : « D'autres pistes ont jalonné ces années » est étayé par A082, A100 et S063 ; elles ne sont pas détaillées (lacune). Pas de promesse « nous y reviendrons », invérifiable à ce stade.
-- À REVÉRIFIER : Chiffre de 1 750 (date exacte, périmètre, auteur du décompte) ; citation exacte « jusqu'ici sans succès » (ICI, 03/06/2026).
-- *Mots : 59*
+- **Statut** : FAIT (attribué)
+- **Sources** : S056 Le Parisien, 03/04/2026 — relu 01/10/2026 ; S163 Hit West, 04/05/2015 — lu_integral (Codex) ; S167 Le Parisien, 09/01/2018 — lu_partiel (Codex) ; S217 Nice-Matin, 07/12/2020 — relu 01/10/2026
+- **Assertions** : A173, A174, A179
+- **Incertitude** : Faible pour 2015 et 2018 (deux sources chacun).
+- **Visuels** : P025 document, P026 document
+- **Note de prudence** : Monastère du Var : ni nom ni description du religieux écarté.
 
 ### S08
 
-Mars 2024, dans le Doubs. Selon le parquet de Besançon, cité par la presse, une personne croit reconnaître Xavier Dupont de Ligonnès le 9 mars, lors d'une veillée religieuse ; l'homme serait reparti le 11 au matin. Le 12 mars, un premier signalement parvient à la gendarmerie, et deux autres témoignages similaires suivront.
+Octobre 2019. Selon le récit publié par Le Parisien, quelques jours plus tôt, le bureau d'Interpol à Londres a transmis aux autorités françaises une information : Xavier Dupont de Ligonnès prendrait un vol Paris-Glasgow. À l'origine, d'après le même journal, une dénonciation anonyme.
 
-- **Statut** : TÉMOIGNAGE RAPPORTÉ (attribué au parquet de Besançon)
-- **Sources** : S081 Le Parisien, 15/04/2024 — extrait_moteur ; S082 Actu17, 04/04/2024 — extrait_moteur
-- **Assertions** : A084 ; CHRONOLOGIE.csv 2024-03-12
-- **Provenance** : bionic_lmstudio_non_reverifie (pistes_2020_2026)
-- **Incertitude** : Moyenne : déroulé connu uniquement par extraits de moteur.
-- **Visuels** : P027, P028, P029, P030
-- **Note de prudence** : Commune, communauté religieuse et prénom employé par l'homme volontairement omis (aucune localisation ni identification d'un particulier). Signalants non nommés. Aucune description physique.
-- À REVÉRIFIER : Dates du 9, 11 et 12 mars et nombre de témoins sur une page lue (dépêche AFP, L'Est Républicain).
-- *Mots : 53*
+- **Statut** : RECONSTRUCTION (récit de presse)
+- **Sources** : S172 Le Parisien, 12/10/2019 (16 h 30) — relu 01/10/2026 ; S171 Le Parisien, 12/10/2019 (12 h 51) — relu 01/10/2026 ; S178 Le Parisien, 17/10/2019 — relu 01/10/2026 ; S173 JDD, 13/10/2019 — lu_integral (Codex)
+- **Assertions** : A181
+- **Incertitude** : Moyenne : récit du Parisien sur sa propre chaîne d'information ; « dénonciation anonyme » dans S171 et S178, concordant avec le JDD (Codex).
+- **Visuels** : P027 chapitre, P028 frise, P029 texte
+- **Note de prudence** : Le passeport évoqué par la presse n'est pas mentionné : détail susceptible de rendre identifiable la personne interpellée.
 
 ### S09
 
-Trois témoins, une même conviction : la piste prend du poids. Mais un témoignage, même sincère, n'est pas une identification. Selon la presse, un gobelet et des canettes sont prélevés, et l'ADN recueilli est comparé à celui de Xavier Dupont de Ligonnès.
+Le vendredi 11 octobre 2019, en début d'après-midi, la police écossaise interpelle un voyageur à sa descente d'avion à l'aéroport de Glasgow. Elle compare ses empreintes digitales avec celles, partielles, du fugitif. Selon des sources françaises citées par Le Parisien, les Écossais affirment : « c'est votre homme ».
 
-- **Statut** : Analyse de la chaîne + FAIT attribué (prélèvements)
-- **Sources** : S081 Le Parisien, 15/04/2024 — extrait_moteur ; S080 Le Progrès (AFP), 15/04/2024 — lu_partiel
-- **Assertions** : A083, A084 (notes)
-- **Provenance** : bionic_lmstudio_non_reverifie (pistes_2020_2026)
-- **Incertitude** : Moyenne pour la nature des objets prélevés.
-- **Visuels** : P031, P032
-- **Note de prudence** : « La piste prend du poids » décrit la mécanique de l'apparence de certitude, pas un jugement sur les témoins.
-- À REVÉRIFIER : Objets prélevés (gobelet, canettes) sur une page lue.
-- *Mots : 42*
+- **Statut** : RECONSTRUCTION / TEMOIGNAGE (sources françaises)
+- **Sources** : S172 Le Parisien, 12/10/2019 — relu 01/10/2026 ; S171 — relu 01/10/2026
+- **Assertions** : A181, A182
+- **Incertitude** : Moyenne : la citation « c'est votre homme » est prêtée aux Écossais par des sources françaises ; la police écossaise l'a ensuite contestée (S12).
+- **Visuels** : P030 carte, P031 date, P032 texte, P033 citation
+- **Note de prudence** : « Un voyageur » : ni nom, ni âge, ni nationalité, ni profession, ni domicile, ni lien avec l'Écosse.
 
 ### S10
 
-Le 15 avril 2024, le parquet de Nantes annonce le résultat : les deux profils ne correspondent pas. La piste est écartée, un peu plus d'un mois après le premier signalement. L'identité de l'homme aperçu n'a pas été rendue publique, et nous ne la chercherons pas.
+Le soir même, Le Parisien annonce l'arrestation, puis l'AFP, puis une grande partie de la presse. Le journal dit s'être appuyé sur cinq sources ; mais, de son propre aveu, toutes s'appuyaient sur des renseignements transmis par les policiers écossais. À 22 heures 40, une porte-parole écossaise ne confirme au journal qu'une interpellation, sans rien dire de l'identité.
 
-*(pause 0.8 s)*
-
-- **Statut** : FAIT
-- **Sources** : S080 Le Progrès (AFP), 15/04/2024 — lu_partiel ; S081 Le Parisien, 15/04/2024 — extrait_moteur ; S082 Actu17, 04/04/2024 — extrait_moteur
-- **Assertions** : A083 ; CHRONOLOGIE.csv 2024-04-15
-- **Provenance** : bionic_lmstudio_non_reverifie (pistes_2020_2026)
-- **Incertitude** : Faible.
-- **Visuels** : P033, P034, P035
-- **Note de prudence** : « Un peu plus d'un mois » = du 12 mars au 15 avril 2024 (calcul de la chaîne). Lacune assumée : identité non publique.
-- À REVÉRIFIER : Citation exacte du procureur (Renaud Gaudeul selon la dépêche AFP) si elle est reprise à l'écran.
-- *Mots : 46*
+- **Statut** : FAIT (récit du journal sur lui-même)
+- **Sources** : S172 Le Parisien, 12/10/2019 — relu 01/10/2026 ; S178 Le Parisien, 17/10/2019 — relu 01/10/2026 ; S174 Euronews, 11/10/2019 — lu_integral (Codex)
+- **Assertions** : A182, A183, A184
+- **Incertitude** : Faible sur les heures (données par Le Parisien ; 21 h 01 = dépêche AFP selon lui).
+- **Visuels** : P034 document, P035 texte
+- **Note de prudence** : Détail moins connu : cinq sources mais une seule origine.
 
 ### S11
 
-Le 25 mars 2026, le bureau du shérif du comté de Brewster, au Texas, publie sur Facebook un appel à informations sur Xavier Dupont de Ligonnès. Il y évoque une possible présence dans le comté en 2020, et diffuse des photos vieilles d'une quinzaine d'années.
+Le samedi matin, la correspondance des empreintes n'est plus que « partielle », selon une source officielle écossaise. Puis, selon une source policière citée par Le Parisien, une comparaison ADN exclut qu'il s'agisse de Xavier Dupont de Ligonnès. À 13 heures 04, une dépêche de l'AFP corrige l'information ; en fin de journée, la police écossaise annonce que l'homme est relâché.
 
-- **Statut** : FAIT
-- **Sources** : S051 First Alert 7 (KOSA), 25/03/2026 — lu_partiel ; S083 franceinfo, 26/03/2026 — lu_partiel ; S084 La Dépêche du Midi, 27/03/2026 — extrait_moteur
-- **Assertions** : A085
-- **Provenance** : bionic_lmstudio_non_reverifie (pistes_2020_2026) ; S051 aussi claude_cloud_extraits_moteur_non_lus
-- **Incertitude** : Faible.
-- **Visuels** : P036, P037, P038
-- **Note de prudence** : Aucun élément de description (chien, apparence) n'est relayé : la vidéo ne relaie pas d'appel à identifier quelqu'un. Les photos de 1990 évoquées dans le thème jeunesse (A035, extraits seuls) ne sont pas utilisées ici.
-- À REVÉRIFIER : Texte original de la publication Facebook du bureau du shérif ; ancienneté des photos.
-- *Mots : 45*
+- **Statut** : RECONSTRUCTION / FAIT (démenti)
+- **Sources** : S171 Le Parisien, 12/10/2019 — relu 01/10/2026 ; S172 — relu 01/10/2026 ; S173 JDD, 13/10/2019 — lu_integral (Codex) ; S175 The Guardian, 12/10/2019 — lu_integral (Codex)
+- **Assertions** : A186, A187, A188
+- **Incertitude** : Faible sur le résultat (concordance Parisien, JDD, Guardian) ; heure de l'expertise elle-même inconnue (13 h 04 = dépêche).
+- **Visuels** : P036 date, P037 texte, P038 texte
+- **Note de prudence** : Démenti : comparaison ADN communiquée par la police écossaise le samedi 12/10/2019 ; correction AFP 13 h 04 ; communiqué de libération de la police écossaise en fin de journée. Le JDD (Codex) situe un communiqué d'exclusion vers 17 h.
 
 ### S12
 
-D'où vient cet appel ? Selon le shérif, d'une équipe de journalistes qui l'a sollicité ; parmi eux, un ancien enquêteur du dossier, Gilles Galloux, auteur d'un livre paru en février 2026 qui défend, selon la presse, la thèse d'une fuite aux États-Unis. D'après cette équipe, le fugitif aurait un jour cité ce comté parmi ses endroits préférés : une affirmation rapportée, pas une source judiciaire.
+Cet homme était innocent. Nous ne dirons rien de plus sur lui. Le lundi 14 octobre, la police écossaise déclare n'avoir « jamais confirmé, ni en public ni en privé », son identité ; des sources françaises maintiennent le contraire. Le jeudi 17, le procureur de Nantes, Pierre Sennès, annonce une enquête pour violation du secret de l'instruction, confiée à l'IGPN, pour remonter à l'origine des fuites.
 
-- **Statut** : RECONSTRUCTION (origine de l'appel, selon le shérif) + HYPOTHÈSE attribuée (thèse de Gilles Galloux) + TÉMOIGNAGE RAPPORTÉ (« endroits préférés »)
-- **Sources** : S051 First Alert 7, 25/03/2026 — lu_partiel ; S083 franceinfo, 26/03/2026 — lu_partiel ; S085 Time France, 27/03/2026 — extrait_moteur ; S078 Nice-Matin, 2026 — extrait_moteur ; S030 Wikipédia — extrait_moteur
-- **Assertions** : A088, A076
-- **Provenance** : bionic_lmstudio_non_reverifie (pistes_2020_2026, hypotheses_sort)
-- **Incertitude** : Moyenne.
-- **Visuels** : P039, P040
-- **Note de prudence** : Élément fragile de l'audit (thèse de Gilles Galloux) : seulement attribué, réduit à « fuite aux États-Unis », sans la piste des faux papiers ; il ne porte aucune conclusion. Le shérif n'est pas nommé (nom connu par extrait seulement).
-- À REVÉRIFIER : Formulation exacte du shérif sur l'équipe journalistique et sur les « endroits préférés » (traduction) ; titre et date du livre de Gilles Galloux (non lu).
-- *Mots : 66*
+- **Statut** : FAIT
+- **Sources** : S178 Le Parisien, 17/10/2019 — relu 01/10/2026 ; S176 JDD, 14/10/2019 — lu_integral (Codex) ; S177 Le Monde, 18/10/2019 — lu_integral (Codex ; payant à la relecture, HTTP 402)
+- **Assertions** : A189, A190
+- **Incertitude** : Moyenne : désaccord franco-écossais non tranché (A189 non_confirme). Saisine de l'IGPN datée du mardi 15 par Le Monde, annonce le jeudi 17 selon Le Parisien.
+- **Visuels** : P039 texte, P040 citation, P041 texte
+- **Note de prudence** : Aucune responsabilité attribuée. Aucun résultat de l'enquête IGPN connu (lacune). Phrase « Cet homme était innocent » : fondée sur l'exclusion ADN et la libération.
 
 ### S13
 
-Le 26 mars, le shérif publie une mise au point : aucune observation confirmée, ni dans le comté ni dans l'ouest du Texas, et aucun élément nouveau. À Nantes, le procureur Antoine Leroy indique que ni lui ni les enquêteurs n'avaient été informés de cet appel. Le 27 mars pourtant, un site d'information, Time France, titre encore sur « une nouvelle enquête ». Depuis, nous n'avons trouvé aucune suite publique à cet appel.
+En 2024, selon le parquet cité par franceinfo, le compteur dépasse 1 750 signalements. En mars, dans le Doubs, plusieurs personnes croient reconnaître le fugitif chez un visiteur d'une communauté religieuse proche de Besançon. Les gendarmes prélèvent des canettes qu'il a bues.
 
-- **Statut** : FAIT + constat de recherche
-- **Sources** : S051 First Alert 7, 25/03/2026 (mise à jour du 26/03) — lu_partiel ; S083 franceinfo, 26/03/2026 — lu_partiel ; S092 ICI (Radio France), 03/06/2026 — lu_partiel ; S085 Time France, 27/03/2026 — extrait_moteur
-- **Assertions** : A086, A087
-- **Provenance** : bionic_lmstudio_non_reverifie (pistes_2020_2026)
-- **Incertitude** : Faible pour la mise au point et la déclaration du parquet ; moyenne pour le titre de Time France (extrait).
-- **Visuels** : P041, P042, P043, P044, P045
-- **Note de prudence** : Détail moins connu n° 4 : le titre « nouvelle enquête » est postérieur à la mise au point. Pas d'accusation de dissimulation envers quiconque : constat de calendrier. Absence de suite publique ≠ preuve d'absence de suite.
-- À REVÉRIFIER : Date exacte de la mise à jour du shérif (26/03) ; titre et date de Time France ; absence de suite après mars 2026.
-- *Mots : 73*
-
-> Emplacement réservé dans narration.txt : `# LACUNE : suites publiques de l'appel du comté de Brewster après le 27 mars 2026 — aucune trouvée au 01/10/2026 ; à revérifier avant validation.`
+- **Statut** : FAIT (attribué) / TEMOIGNAGE
+- **Sources** : S234 franceinfo, 26/03/2026 — relu 01/10/2026 (WebFetch) ; S185 Le Progrès (AFP), 15/04/2024 — relu 01/10/2026 ; S222 La Libre Belgique (AFP), 15/04/2024 — relu 01/10/2026
+- **Assertions** : A192, A283
+- **Incertitude** : Faible (dépêche AFP lue sur deux supports, même origine).
+- **Visuels** : P042 chapitre, P043 texte, P044 carte, P045 texte
+- **Note de prudence** : Communauté religieuse non nommée ; ni commune ni description du visiteur. Les dates des 9, 11 et 12 mars (v0) sont retirées : non retrouvées sur page lue.
 
 ### S14
 
-Début juin 2026, deux pistes surgissent à un jour d'intervalle. Le premier juin, Ouest-France publie une enquête sur un compte de forum baptisé « Epsilon » ; nous y reviendrons. Le lendemain, mardi 2 juin, M6 diffuse en première partie de soirée « Appel à témoins », présentée par Julien Courbet et consacrée en partie à l'affaire.
+Le 15 avril 2024, le procureur de Nantes, Renaud Gaudeul, annonce le résultat : « Les deux profils ADN ne correspondent pas. » Un témoignage, même partagé par plusieurs personnes, n'est pas une identification. L'identité de ce visiteur n'a pas été rendue publique, et nous ne la chercherons pas.
 
-- **Statut** : FAIT
-- **Sources** : S094 Ouest-France, 01/06/2026 — lu_partiel ; S086 Europe 1 avec AFP, 03/06/2026 — lu_partiel ; S087 Le Parisien, 03/06/2026 — extrait_moteur
-- **Assertions** : A089 ; CHRONOLOGIE.csv 2026-06-01
-- **Provenance** : bionic_lmstudio_non_reverifie (pistes_2020_2026)
+- **Statut** : FAIT (déclaration du parquet)
+- **Sources** : S185 Le Progrès (AFP), 15/04/2024 — relu 01/10/2026 ; S222 La Libre Belgique, 15/04/2024 — relu 01/10/2026
+- **Assertions** : A192
 - **Incertitude** : Faible.
-- **Visuels** : P046, P047, P048, P049
-- **Note de prudence** : « Nous y reviendrons » renvoie au chapitre 6 de ce même épisode (promesse tenue).
-- À REVÉRIFIER : Néant de bloquant (date et intitulé corroborés par deux médias).
-- *Mots : 57*
+- **Visuels** : P046 citation, P047 texte
+- **Note de prudence** : Citation exacte vérifiée.
 
 ### S15
 
-En direct, un homme qui se présente comme prêtre affirme avoir recueilli en 2022, dans un monastère de l'Aude, la confession de Xavier Dupont de Ligonnès. Il donne des détails : un séjour de quatre jours, un projet de rejoindre Grasse. Il dit avoir été autorisé par l'évêque de Carcassonne à rompre le secret de la confession, et détenir une photo et un numéro de téléphone.
+Fin mars 2026, le bureau du shérif du comté de Brewster, au Texas, lance un appel sur Facebook. Selon franceinfo, Xavier Dupont de Ligonnès y est présenté comme ayant « possiblement été vu en 2020 ». Les photos diffusées ont une quinzaine d'années.
 
-- **Statut** : TÉMOIGNAGE RAPPORTÉ — affirmation de l'appelant, reconnue fausse ensuite
-- **Sources** : S086 Europe 1 avec AFP, 03/06/2026 — lu_partiel ; S087 Le Parisien, 03/06/2026 — extrait_moteur ; S098 L'Indépendant, 02/06/2026 — extrait_moteur
-- **Assertions** : A090
-- **Provenance** : bionic_lmstudio_non_reverifie (pistes_2020_2026)
-- **Incertitude** : Forte : contenu faux de l'aveu même de son auteur (selon M6).
-- **Visuels** : P050, P051
-- **Note de prudence** : Rapporté au discours indirect, jamais comme un élément de preuve. Le monastère (Plavilla dans deux sources) n'est pas nommé à l'antenne pour ne pas réassocier une communauté réelle à un faux témoignage ; à trancher en validation. Pseudonyme de l'appelant (« Père Marc » / « Frère Marc ») non repris.
-- À REVÉRIFIER : Liste exacte des affirmations faites à l'antenne (photo, numéro, autorisation de l'évêque, Grasse) sur une page lue intégralement.
-- *Mots : 66*
+- **Statut** : FAIT (appel) / TEMOIGNAGE (contenu de l'appel)
+- **Sources** : S234 franceinfo, 26/03/2026 — relu 01/10/2026 (WebFetch) ; S051 KOSA (First Alert 7), 25/03/2026, mis à jour 26/03/2026 — relu 01/10/2026 (WebFetch) ; S186 RTL Infos, 26/03/2026 — lu_integral (Codex)
+- **Assertions** : A193
+- **Incertitude** : Moyenne sur la date exacte de la publication Facebook : KOSA publie le 25/03 à 8 h 24 (heure du Texas) ; d'où « fin mars ».
+- **Visuels** : P048 date, P049 citation, P050 texte
+- **Note de prudence** : Le labrador noir cité par franceinfo n'est pas repris.
 
 ### S16
 
-Tout y est pour produire une apparence de certitude : un statut, une autorité invoquée, des détails précis, des pièces annoncées, et l'antenne d'une grande chaîne. Mais ce ne sont que des affirmations, et l'autorité invoquée va répondre.
+D'où vient cet appel ? Selon la chaîne locale KOSA, le shérif a été contacté par une équipe privée de journalistes, comprenant un ancien enquêteur du dossier. Selon ce qui a été rapporté au shérif, le fugitif serait déjà venu dans ce comté et l'aurait décrit comme l'un de ses endroits préférés : une affirmation rapportée, pas une observation.
 
-- **Statut** : Analyse de la chaîne (fil narratif)
-- **Sources** : S086 Europe 1 avec AFP, 03/06/2026 — lu_partiel
-- **Assertions** : A090
-- **Provenance** : bionic_lmstudio_non_reverifie (pistes_2020_2026)
-- **Incertitude** : Sans objet (analyse).
-- **Visuels** : P052
-- **Note de prudence** : Le segment ne dit pas comment l'appel a été vérifié en direct : le dossier ne le documente pas. La note Bionic selon laquelle « la photographie annoncée n'a pas été montrée à l'antenne » n'est PAS utilisée : source précise non identifiée.
-- À REVÉRIFIER : Si l'on veut ajouter que la photo n'a pas été montrée : identifier la source qui le dit.
-- *Mots : 38*
+- **Statut** : TEMOIGNAGE (rapporté par le shérif)
+- **Sources** : S051 KOSA — relu 01/10/2026 (WebFetch)
+- **Assertions** : A195
+- **Incertitude** : Moyenne : source unique (KOSA) ; nom de l'ancien enquêteur non donné par KOSA.
+- **Visuels** : P051 texte, P052 texte
+- **Note de prudence** : La v0 nommait Gilles Galloux : retiré, son appartenance à l'équipe n'est pas établie sur page lue.
 
 ### S17
 
-Le 3 juin, Monseigneur Bruno Valentin, évêque de Carcassonne et Narbonne, dément : il qualifie la séquence de mensongère et diffamatoire, dit n'avoir été contacté ni par l'appelant ni par la chaîne, et annonce avoir saisi l'Arcom. Selon M6, l'homme avait reconnu dans la nuit, auprès du rédacteur en chef de l'émission, qu'il n'était pas prêtre. Après une enquête interne lancée le soir même, la chaîne présente ses excuses « sans réserve » à l'évêque et reconnaît un faux témoignage.
+À Nantes, le procureur Antoine Leroy déclare que ni le juge d'instruction, ni lui-même, ni les enquêteurs n'avaient été informés de cet appel. Et le 26 mars, selon KOSA, le shérif précise qu'il n'a ni élément nouveau, ni observation confirmée.
 
-*(pause 0.8 s)*
-
-- **Statut** : FAIT
-- **Sources** : S089 cath.ch, 04/06/2026 — lu_partiel ; S086 Europe 1 avec AFP, 03/06/2026 — lu_partiel ; S090 franceinfo, 04/06/2026 — extrait_moteur ; S087 Le Parisien, 03/06/2026 — extrait_moteur ; S088 Le Parisien, 03/06/2026 — extrait_moteur
-- **Assertions** : A091, A092, A093
-- **Provenance** : bionic_lmstudio_non_reverifie (pistes_2020_2026)
+- **Statut** : FAIT (déclarations rapportées)
+- **Sources** : S234 franceinfo, 26/03/2026 — relu 01/10/2026 ; S186 RTL Infos — lu_integral (Codex) ; S051 KOSA, mise à jour du 26/03/2026 — relu 01/10/2026
+- **Assertions** : A194, A196
 - **Incertitude** : Faible.
-- **Visuels** : P053, P054, P055, P056
-- **Note de prudence** : L'aveu est attribué à M6 (consigne). L'ordre exact entre l'aveu nocturne et le démenti public n'est pas affirmé.
-- À REVÉRIFIER : Termes exacts du démenti de l'évêque (« mensongère », « diffamatoire ») et du communiqué de M6.
-- *Mots : 80*
+- **Visuels** : P053 texte, P054 texte, P055 frise
+- **Note de prudence** : Time France (extrait moteur en v0) retiré.
 
 ### S18
 
-Le même jour, le procureur de Nantes annonce que le juge d'instruction fera vérifier les propos diffusés sur M6, ainsi que le compte « Epsilon ». Le 4 juin, selon franceinfo, le président de l'Arcom, Martin Ajdari, déclare que le régulateur va « se pencher sur la séquence ». Au premier octobre 2026, nous n'avons trouvé aucune décision publiée à ce sujet, ce qui ne signifie pas qu'aucun examen n'est en cours. L'identité de l'appelant n'est pas publique, et aucune poursuite le visant n'a, à notre connaissance, été annoncée.
+Retour au 2 juin 2026. Dans « Appel à témoins », émission en direct présentée par Julien Courbet sur M6, un appelant se dit prêtre. Il affirme avoir entendu en 2022, dans un monastère de l'Aude, la confession de Xavier Dupont de Ligonnès, et parler avec l'accord de l'évêque de Carcassonne. Selon La Dépêche du Midi, il promet même d'envoyer une photo, qui ne viendra jamais.
 
-- **Statut** : FAIT (annonces) + constat de recherche (absence de décision publiée)
-- **Sources** : S093 20 Minutes, 03/06/2026 — lu_partiel ; S096 Ouest-France, 03/06/2026 — lu_partiel ; S097 Le Dauphiné Libéré, 04/06/2026 — extrait_moteur ; S090 franceinfo, 04/06/2026 — extrait_moteur ; S099 Arcom, liste des décisions — extrait_moteur
-- **Assertions** : A096, A094, A095, A102
-- **Provenance** : bionic_lmstudio_non_reverifie (pistes_2020_2026)
-- **Incertitude** : Faible pour l'annonce du parquet ; moyenne pour la déclaration de l'Arcom (extrait seul, donc attribuée) et pour le constat négatif.
-- **Visuels** : P057, P058, P059, P060
-- **Note de prudence** : Absence de décision publiée ≠ absence d'examen (dit à l'antenne). L'appelant n'est pas nommé et la chaîne ne cherche pas à l'identifier.
-- À REVÉRIFIER : Déclaration de Martin Ajdari (ICI Provence / franceinfo) sur page lue ; nouvelle consultation de la liste des décisions de l'Arcom à la date de publication ; éventuelles poursuites.
-- *Mots : 89*
-
-> Emplacement réservé dans narration.txt : `# LACUNE : décision éventuelle de l'Arcom et poursuites éventuelles contre l'auteur du faux témoignage — rien de public trouvé au 01/10/2026 ; contenu et calendrier des vérifications ordonnées par le juge d'instruction non publics.`
+- **Statut** : TEMOIGNAGE (affirmations de l'appelant)
+- **Sources** : S187 Le Parisien, 03/06/2026 — relu 01/10/2026 ; S189 La Dépêche du Midi, 03/06/2026 — relu 01/10/2026 ; S188 La Dépêche du Midi, 03/06/2026 — relu 01/10/2026
+- **Assertions** : A197, A198
+- **Incertitude** : Affirmations démenties (A198 contredit).
+- **Visuels** : P056 chapitre, P057 date, P058 texte, P059 texte
+- **Note de prudence** : Le monastère n'est pas nommé (communauté réelle exposée sans raison, selon l'évêque). Retirés de la v0 : « quatre jours », « Grasse », « numéro de téléphone » (non retrouvés sur page lue).
 
 ### S19
 
-Le motif du prêtre, lui, n'avait rien de nouveau. Le 27 avril 2011, Le Parisien rapportait le témoignage d'un armurier de la région nantaise : un homme s'était présenté chez lui comme « prêtre tireur d'élite », et le journal y voyait le père de famille. Ce témoignage unique est public depuis quinze ans : il ne dit rien de l'identité de l'appelant de 2026.
+Un titre religieux, une autorité invoquée, une pièce annoncée, l'antenne d'une grande chaîne : tout produit une apparence de certitude. Mais l'autorité invoquée existe, et elle va répondre.
 
-*(pause 0.6 s)*
-
-- **Statut** : TÉMOIGNAGE RAPPORTÉ (source unique)
-- **Sources** : S066 Le Parisien, 27/04/2011 — lu_partiel
-- **Assertions** : A063 ; CHRONOLOGIE.csv 2011-03
-- **Provenance** : bionic_lmstudio_non_reverifie (avril_2011_avant)
-- **Incertitude** : Moyenne : témoignage unique.
-- **Visuels** : P061, P062, P063
-- **Note de prudence** : Détail moins connu n° 3. Il montre que le décor du faux témoignage était disponible dans la presse ; il n'établit AUCUN lien entre l'appelant et le fugitif (dit à l'antenne). « Le journal y voyait le père de famille » repose sur le titre de l'article (« quand le père prétendait être… »).
-- À REVÉRIFIER : Lire l'article en entier : l'armurier a-t-il lui-même identifié l'homme, ou est-ce le journal qui fait le rapprochement ?
-- *Mots : 65*
+- **Statut** : Analyse de la chaîne
+- **Sources** : —
+- **Assertions** : —
+- **Incertitude** : —
+- **Visuels** : P060 document
+- **Note de prudence** : Phrase d'analyse, sans fait nouveau.
 
 ### S20
 
-L'appel du faux prêtre a inspiré le ressort du roman d'Akeb, La dernière correction : dans le livre, l'homme qui appelle est le fugitif lui-même, un personnage inventé, avec une fin imaginée. Dans l'affaire réelle, aucune source n'établit ce lien, et le roman n'apporte aucune preuve. Il existe en e-book et en livre audio ; les deux liens sont dans la description. Revenons aux faits.
+Le 3 juin au matin, l'évêque de Carcassonne et Narbonne, Bruno Valentin, dément : « Jamais personne ne m'a contacté », écrit-il, ni l'appelant, ni M6. Selon La Dépêche, un prêtre du monastère cité affirme que personne n'y a souvenir d'un tel passage. Stan Vignon, de la rédaction de l'émission, raconte sur RTL que dans la nuit, l'homme a fini par lui avouer qu'il n'était pas prêtre.
 
-*(pause 0.8 s)*
-
-- **Statut** : FICTION (promotion)
-- **Sources** : Synopsis du roman (hors dépôt, non cité) ; aucune source d'enquête
-- **Assertions** : Aucune
-- **Provenance** : Sans objet
-- **Incertitude** : Sans objet.
-- **Visuels** : P064, P065
-- **Note de prudence** : Promotion de l'épisode 3 : 63 mots hors signes de ponctuation isolés (≈ 24 s), dans la fourchette 40-65, placée après la séquence du faux prêtre, loin de l'évocation des victimes. E-book et livre audio à égalité, liens dans la description, ni pack ni offre gratuite. Résumé du roman : voir la section PROMOTION. Le roman n'est présenté ni comme une enquête ni comme une révélation.
-- À REVÉRIFIER : Titre exact et formats disponibles au moment de la publication ; liens de la description.
-- *Mots : 65*
+- **Statut** : FAIT (démenti) / TEMOIGNAGE
+- **Sources** : S187 Le Parisien, 03/06/2026 — relu 01/10/2026 ; S188 et S189 La Dépêche du Midi, 03/06/2026 — relu 01/10/2026
+- **Assertions** : A199, A201
+- **Incertitude** : Faible.
+- **Visuels** : P061 citation, P062 texte, P063 citation
+- **Note de prudence** : Fonction de Stan Vignon : « rédacteur de l'émission » (La Dépêche) ; Codex écrit « rédacteur en chef » : formulation neutre retenue.
 
 ### S21
 
-Reste la piste du premier juin. Sur un forum catholique en ligne, un compte nommé « Epsilon » a été créé le 2 juillet 2010 ; il a publié environ 1169 messages, jusqu'en août 2017 selon le parquet. Ouest-France, qui revendique une enquête en sources ouvertes, relève des similitudes de style avec deux pseudonymes que les enquêteurs attribuent à Xavier Dupont de Ligonnès avant avril 2011, « Chevy » et « LIGO ».
+Le même jour, M6 reconnaît un faux témoignage et présente « sans réserve » ses excuses à l'évêque, qui saisit l'Arcom. Le 4 juin, son président, Martin Ajdari, confirme que le régulateur va « se pencher sur la séquence ». Au premier octobre 2026, nous n'avons trouvé ni décision publiée, ni poursuite annoncée contre l'appelant, dont l'identité n'est pas publique.
 
-- **Statut** : FAIT (existence et caractéristiques du compte) + HYPOTHÈSE attribuée (similitudes, selon Ouest-France)
-- **Sources** : S094 Ouest-France, 01/06/2026 — lu_partiel (chapô et fragments) ; S095 Le Parisien, 02/06/2026 — lu_partiel ; S093 20 Minutes, 03/06/2026 — lu_partiel
-- **Assertions** : A097
-- **Provenance** : bionic_lmstudio_non_reverifie (pistes_2020_2026)
-- **Incertitude** : Moyenne.
-- **Visuels** : P066, P067, P068
-- **Note de prudence** : Existence établie, attribution NON établie. Le nom du forum (cite-catholique.org) est montré à l'écran, pas prononcé.
-- À REVÉRIFIER : Date de création, nombre de messages et date du dernier message sur l'article d'Ouest-France lu intégralement et sur le communiqué du parquet.
-- *Mots : 73*
+- **Statut** : FAIT
+- **Sources** : S187 Le Parisien, 03/06/2026 — relu 01/10/2026 ; S191 Le Parisien, 04/06/2026 — relu 01/10/2026 ; S205 Légifrance, décret du 18/01/2025 — lu_integral (Codex) ; S206 EJCAM, 05/06/2026 — lu_integral (Codex)
+- **Assertions** : A200, A202, A203
+- **Incertitude** : Absence de décision Arcom et de poursuite : constat de recherche Codex (lacunes pistes_2020_2026, recherches juillet-septembre 2026), complété par une recherche WebSearch le 01/10/2026 (aucune décision trouvée).
+- **Visuels** : P064 texte, P065 citation, P066 texte
+- **Note de prudence** : Plainte du diocèse seulement « envisagée » le 03/06 : non dite. Identité de l'appelant non publique.
 
 ### S22
 
-Ce forum n'est pas inconnu du dossier. Selon le parquet, Xavier Dupont de Ligonnès y utilisait d'autres pseudonymes jusqu'au 8 avril 2011 ; ce jour-là, selon Le Télégramme en 2013, un dernier message y était publié depuis une adresse IP nantaise. Epsilon, lui, existait déjà depuis neuf mois, et a continué d'écrire plus de six ans après.
+Cet appel a inspiré le ressort du roman d'Akeb, La dernière correction : dans le livre, celui qui appelle, c'est le fugitif lui-même. Dans l'affaire réelle, aucune source n'établit ce lien ; le roman est une fiction et ne contient aucune preuve. On peut le lire en e-book ou l'écouter en livre audio : les deux liens sont sous cette vidéo. Revenons aux faits.
 
-- **Statut** : FAIT (attribué au parquet et au Télégramme)
-- **Sources** : S093 20 Minutes, 03/06/2026 — lu_partiel ; S058 Le Télégramme, 15/04/2013 — lu_partiel
-- **Assertions** : A046, A097
-- **Provenance** : bionic_lmstudio_non_reverifie (avril_2011_apres, pistes_2020_2026)
-- **Incertitude** : Moyenne (A046 à source unique).
-- **Visuels** : P069, P070
-- **Note de prudence** : Détail moins connu n° 2. « Neuf mois » (2 juillet 2010 → 8 avril 2011) et « plus de six ans » (→ août 2017) sont des calculs de la chaîne. Aucune méthode de traçage n'est décrite.
-- À REVÉRIFIER : Formulation du parquet sur les pseudonymes utilisés jusqu'au 8 avril 2011 ; message du 8 avril 2011 (Le Télégramme, source unique).
-- *Mots : 57*
+- **Statut** : FICTION (promotion)
+- **Sources** : Aucune source d'enquête
+- **Assertions** : —
+- **Incertitude** : —
+- **Visuels** : P067 texte, P068 livre
+- **Note de prudence** : Promotion : 62 mots, différente des épisodes 2 et 4. Placée après le démenti, loin de l'évocation des victimes. Note : La Dépêche (S190, lu_integral Codex) rapporte au conditionnel que l'appelant aurait prétendu hors antenne être le fugitif ; non confirmé, non repris, pour ne pas laisser croire que le roman s'appuie sur un fait.
 
 ### S23
 
-Un expert en stylométrie sollicité par Ouest-France, Claude Alain Roten, estime que « la piste est sérieuse ». Mais une ressemblance de style est un indice, pas une preuve d'identité : l'existence du compte est établie, pas son auteur. Selon Ouest-France, des enquêteurs spécialisés examineraient déjà l'adresse IP et les messages ; le parquet, lui, s'en tient à l'annonce de vérifications.
+La veille de l'émission, le premier juin, Ouest-France avait publié une enquête sur un compte d'un forum catholique en ligne, nommé « Epsilon ». Créé le 2 juillet 2010, il compte 1 169 messages et reste actif jusqu'en 2017, selon Le Parisien qui reprend cette enquête.
 
-- **Statut** : HYPOTHÈSE (avis de l'expert) + RECONSTRUCTION (selon Ouest-France, au conditionnel) + FAIT (annonce du parquet)
-- **Sources** : S095 Le Parisien, 02/06/2026 — lu_partiel ; S094 Ouest-France, 01/06/2026 — lu_partiel ; S096 Ouest-France, 03/06/2026 — lu_partiel ; S093 20 Minutes, 03/06/2026 — lu_partiel ; S097 Le Dauphiné Libéré, 04/06/2026 — extrait_moteur
-- **Assertions** : A098, A099, A096
-- **Provenance** : bionic_lmstudio_non_reverifie (pistes_2020_2026)
-- **Incertitude** : Forte pour l'attribution ; moyenne pour l'examen de l'adresse IP (conditionnel, source non nommée).
-- **Visuels** : P071, P072, P073
-- **Note de prudence** : Stylométrie = indice, jamais preuve. Aucune comparaison de textes n'est montrée à l'écran.
-- À REVÉRIFIER : Citation exacte de Claude Alain Roten dans l'article d'Ouest-France (le dossier la tient du Parisien).
-- *Mots : 61*
+- **Statut** : TEMOIGNAGE (enquête de presse)
+- **Sources** : S193 Le Parisien, 02/06/2026 — relu 01/10/2026
+- **Assertions** : A204
+- **Incertitude** : Moyenne : Control Investigation (S195) compte 1 169 messages au profil mais 1 080 par la recherche.
+- **Visuels** : P069 chapitre, P070 date, P071 document
+- **Note de prudence** : Date de l'enquête Ouest-France (« ce lundi » = 01/06/2026) tirée de S193 ; l'article original n'a pas été ouvert.
 
 ### S24
 
-Au premier octobre 2026, nous n'avons trouvé aucune conclusion publique sur l'auteur de ces messages : ni identification, ni classement. Pendant l'été, l'affaire est revenue à la télévision et dans la presse, sans élément d'enquête nouveau rendu public. Ce silence ne prouve rien, ni dans un sens ni dans l'autre.
+Ouest-France relève des habitudes d'écriture communes avec « Chevy » et « LIGO », deux pseudonymes attribués à Xavier Dupont de Ligonnès. Selon le parquet, il fréquentait ce forum sous d'autres pseudonymes jusqu'au 8 avril 2011. Autre détail, rapporté par Ouest-France : une pause de 122 jours dans l'activité d'Epsilon, à partir du 15 avril 2011.
 
-*(pause 1.0 s)*
-
-- **Statut** : Constat de recherche (négatif, daté)
-- **Sources** : S100 Le Nouvel Obs, 29/07/2026 — extrait_moteur ; S101 Coulisses-TV, 05/07/2026 — extrait_moteur ; S099 Arcom — extrait_moteur
-- **Assertions** : A102
-- **Provenance** : bionic_lmstudio_non_reverifie (pistes_2020_2026)
-- **Incertitude** : Moyenne : constat négatif, non définitif.
-- **Visuels** : P074, P075
-- **Note de prudence** : Absence d'information publique ≠ absence d'avancée. Aucune recherche n'a porté sur la période postérieure au 30/09/2026.
-- À REVÉRIFIER : Refaire la recherche « Epsilon » à la date de publication réelle.
-- *Mots : 50*
-
-> Emplacement réservé dans narration.txt : `# LACUNE : conclusions des vérifications sur le compte « Epsilon » et toute évolution postérieure au 30 septembre 2026 — non recherchées ou non publiques.`
+- **Statut** : HYPOTHESE (Ouest-France) / RECONSTRUCTION (parquet)
+- **Sources** : S193 Le Parisien, 02/06/2026 — relu 01/10/2026 ; S136 RTL, 04/06/2026 — relu 01/10/2026 ; S194 Le Dauphiné Libéré, 04/06/2026 — relu 01/10/2026
+- **Assertions** : A205, A206
+- **Incertitude** : Moyenne : la pause de 122 jours est attribuée à Ouest-France par Le Dauphiné et aux enquêteurs par RTL ; on l'attribue à Ouest-France.
+- **Visuels** : P072 texte, P073 texte, P074 texte
+- **Note de prudence** : Le message du 8 avril 2011 depuis une IP nantaise (Le Télégramme 2013, relu) n'est pas dit pour alléger ; la formule du parquet suffit.
 
 ### S25
 
-Revenons à notre question : depuis 2011, une seule piste a-t-elle résisté à la vérification ? Parmi les quatre que notre dossier permet de suivre, aucune n'a été confirmée. Dans le Doubs, l'ADN a tranché ; au Texas, le shérif lui-même n'a confirmé aucune observation ; le faux prêtre a reconnu son mensonge, selon M6. Epsilon, enfin, n'est publiquement ni confirmé ni écarté.
+Un expert en stylométrie sollicité par le journal, Claude Alain Roten, estime que « la piste est sérieuse ». Mais une ressemblance de style est un indice, pas une identification. Le 6 juillet, une analyse publiée par le site Control Investigation juge d'ailleurs que les comparaisons d'horaires ne permettent pas d'établir l'attribution.
 
-- **Statut** : Synthèse (FAIT)
-- **Sources** : S080 — lu_partiel ; S051 — lu_partiel ; S086 — lu_partiel ; S093, S095 — lu_partiel
-- **Assertions** : A083, A086, A092, A097, A098, A102
-- **Provenance** : bionic_lmstudio_non_reverifie (pistes_2020_2026)
-- **Incertitude** : Faible pour les trois premières pistes ; Epsilon ouvert.
-- **Visuels** : P076, P077, P078
-- **Note de prudence** : Résolution de la question de l'épisode. « Quatre que notre dossier permet de suivre » : les pistes 2011-2019 (lacune) ne sont pas comptées.
-- À REVÉRIFIER : Néant de bloquant, sous réserve des vérifications des segments S08 à S24.
-- *Mots : 63*
+- **Statut** : HYPOTHESE
+- **Sources** : S193 Le Parisien, 02/06/2026 — relu 01/10/2026 ; S195 Control Investigation, 06/07/2026 — lu_integral (Codex ; domaine bloqué à la relecture)
+- **Assertions** : A205, A207
+- **Incertitude** : Interprétations opposées, aucune expertise judiciaire publique.
+- **Visuels** : P075 citation, P076 texte
+- **Note de prudence** : Détail moins connu : une analyse contraire publiée.
 
 ### S26
 
-Chaque fois, l'apparence de certitude tenait à autre chose qu'une preuve : le nombre de témoins, un en-tête officiel, un titre religieux prononcé en direct, l'avis d'un expert. Et chaque fois, ce qui a départagé, c'est un contrôle : un test ADN, une mise au point, un démenti et un aveu ; pour Epsilon, rien encore de public. Le parquet de Nantes le dit en juin 2026 : l'enquête n'a pas permis de déterminer s'il est mort ou en fuite.
+Le 3 juin, le procureur Antoine Leroy a annoncé que le juge d'instruction ferait vérifier ce compte, ainsi que les propos diffusés sur M6. Au premier octobre 2026, nous n'avons trouvé aucune conclusion publique sur l'auteur d'Epsilon : ni identification, ni mise hors de cause. Ce silence ne prouve rien, dans un sens ou dans l'autre.
 
-*(pause 1.2 s)*
-
-- **Statut** : Analyse de la chaîne + FAIT (position du parquet)
-- **Sources** : S092 ICI (Radio France), 03/06/2026 — lu_partiel ; S093 20 Minutes, 03/06/2026 — lu_partiel ; S083 franceinfo, 26/03/2026 — lu_partiel
-- **Assertions** : A100
-- **Provenance** : bionic_lmstudio_non_reverifie (pistes_2020_2026)
-- **Incertitude** : Faible pour la formule du parquet.
-- **Visuels** : P079, P080, P081, P082
-- **Note de prudence** : La formule du parquet est paraphrasée (pas de guillemets) ; elle ne tranche pas et ne doit pas être lue comme une conclusion.
-- À REVÉRIFIER : Formulation exacte du parquet en juin 2026.
-- *Mots : 80*
+- **Statut** : FAIT (annonce du parquet) / constat de recherche
+- **Sources** : S136 RTL, 04/06/2026 — relu 01/10/2026 ; S194 Le Dauphiné Libéré, 04/06/2026 — relu 01/10/2026 ; S137 Actu Forces de l'Ordre, 17/08/2026 et S196 Éditions Fractales, 02/09/2026 — lu_partiel (Codex)
+- **Assertions** : A153, A206, A208
+- **Incertitude** : Absence de conclusion publique : constat Codex au 01/10/2026.
+- **Visuels** : P077 texte, P078 texte
+- **Note de prudence** : Ne pas déduire de ce silence une identification ou une mise hors de cause.
 
 ### S27
 
-C'est cette question que nous affronterons dans le prochain épisode : mort ou vivant ? Nous y comparerons les scénarios, leurs appuis et leurs objections, et nous dirons celui que nous retenons, et pourquoi.
+Revenons à notre question. Depuis 2011, une seule piste a-t-elle résisté à la vérification ? Parmi celles que nous avons suivies, aucune n'a été confirmée. À Glasgow comme dans le Doubs, l'ADN a tranché ; au Texas, le shérif n'a confirmé aucune observation ; le faux prêtre a reconnu son mensonge, selon l'émission. Epsilon, lui, n'est publiquement ni confirmé ni écarté.
+
+- **Statut** : Synthèse
+- **Sources** : Voir S11, S14, S17, S20, S26
+- **Assertions** : A187, A192, A194, A201, A208
+- **Incertitude** : —
+- **Visuels** : P079 chapitre, P080 question, P081 document
+- **Note de prudence** : « selon l'émission » maintenu pour l'aveu.
+
+### S28
+
+Chaque fois, l'apparence de certitude tenait à autre chose qu'une preuve : des empreintes partielles, plusieurs témoins, un en-tête officiel, un titre religieux, l'avis d'un expert. En juin 2026, le procureur de Nantes rappelait que les informations reçues avaient été vérifiées, « jusqu'ici sans succès ». Et, comme l'écrivait l'AFP en 2024, l'enquête n'a pas déterminé s'il est mort ou en fuite.
+
+- **Statut** : FAIT (citations)
+- **Sources** : S193 Le Parisien, 02/06/2026 — relu 01/10/2026 ; S194 Le Dauphiné Libéré — relu 01/10/2026 ; S185 Le Progrès (AFP), 15/04/2024 — relu 01/10/2026
+- **Assertions** : A206
+- **Incertitude** : Faible.
+- **Visuels** : P082 citation, P083 texte, P084 frise
+- **Note de prudence** : Formule « mort ou en fuite » attribuée à l'AFP (2024).
+
+### S29
+
+C'est la question du prochain épisode : mort ou vivant ? Nous y comparerons les scénarios, leurs appuis et leurs objections, et nous dirons celui qui nous paraît le plus plausible, et pourquoi.
 
 - **Statut** : Transition
-- **Sources** : Aucune
-- **Assertions** : Aucune
-- **Provenance** : Sans objet
-- **Incertitude** : Sans objet.
-- **Visuels** : P083
-- **Note de prudence** : Une seule transition, sans révéler le scénario retenu à l'épisode 4.
-- À REVÉRIFIER : Titre définitif de l'épisode 4.
-- *Mots : 34*
+- **Sources** : —
+- **Assertions** : —
+- **Incertitude** : —
+- **Visuels** : P085 question, P086 sources
+- **Note de prudence** : Annonce sans révéler la position de l'épisode 4 ; formulation cohérente avec sa phrase définitive (« me paraît plus plausible »).
 
 ## DÉTAILS MOINS CONNUS UTILISÉS
 
-« Moins connu » ne veut pas dire « inédit » : aucun de ces éléments n'est une découverte de la chaîne.
-
-1. **Le portrait public du fugitif est la photo de sa fiche d'inscription au club de tir**, photographiée par l'AFP lors d'un reportage au stand, diffusée à partir du 23 avril 2011 (S04). Sources : S056 AFP Making-of, 12/04/2016 — lu_partiel (premier paragraphe) ; S064 légende AFP via La Libre Belgique — extrait_moteur. Assertion A058. Utilité : le visage de référence date de 2011 ; cela éclaire la fragilité des appels reposant sur des photos anciennes (Texas, S11).
-2. **Le forum d'« Epsilon » est celui où, selon le parquet, Xavier Dupont de Ligonnès utilisait d'autres pseudonymes jusqu'au 8 avril 2011**, jour d'un dernier message publié depuis une adresse IP nantaise selon Le Télégramme (2013) ; Epsilon existait depuis neuf mois et a continué plus de six ans (S22). Sources : S093 20 Minutes, 03/06/2026 — lu_partiel ; S058 Le Télégramme, 15/04/2013 — lu_partiel. Assertions A046, A097. Utilité : explique pourquoi la piste est prise au sérieux, sans établir l'attribution.
-3. **Le motif du « prêtre tireur d'élite » est public depuis le 27 avril 2011** (armurier de la région nantaise, Le Parisien) (S19). Source : S066 — lu_partiel. Assertion A063 (témoignage unique). Utilité : le décor du faux témoignage de 2026 était disponible dans la presse ; ce rappel ne dit rien de l'identité de l'appelant.
-4. **La mise au point du shérif (26 mars 2026) précède un titre qui parle encore d'« une nouvelle enquête » (27 mars)**, et le parquet de Nantes n'avait pas été informé de l'appel (S13). Sources : S051 — lu_partiel ; S083 — lu_partiel ; S085 Time France — extrait_moteur. Assertions A086, A087. Utilité : montre qu'une apparence de certitude peut survivre à un démenti officiel.
+1. **Mai 2011 : environ 330 signalements, aucun jugé fiable**, et « aucun élément objectif » pour le situer à l'étranger (communiqué Ronsin, La Dépêche du Midi/AFP, 10/05/2011, S121, relu). Utilité : dès le premier mois, le flux de signalements ne produit aucune trace.
+2. **Dieppe 2013 : l'hôtelier dit avoir signalé un impayé, pas le fugitif** (S161, relu). Utilité : une alerte locale change de sens en circulant.
+3. **Glasgow 2019 : cinq sources, une seule origine** (S172, S178, relus). Utilité : la multiplication des confirmations ne vaut pas vérification indépendante.
+4. **Epsilon : une analyse publiée conteste l'attribution** (Control Investigation, 06/07/2026, S195, Codex) et la pause de 122 jours à partir du 15/04/2011 (Ouest-France via S194, relu). Utilité : un même indice nourrit deux lectures.
 
 ## DIVERGENCES SIGNALÉES
 
-- **Date de repérage du véhicule** : 21 avril 2011 (Nice-Matin) ou nuit du 21 au 22 avril (La Dépêche du Midi, Le Parisien). Dite à l'antenne (S03) et à l'écran (P013).
-- **Portée de l'appel texan** : « nouvelle enquête », shérif « crouler sous les appels » (Time France, La Dépêche, extraits) contre « aucune observation confirmée, aucun élément nouveau » (shérif) et parquet de Nantes non informé. Traitement recommandé suivi : mise au point officielle d'abord, reprise médiatique ensuite comme effet de reprise (S13).
-- **Nombre de signalements** : plus de 700 (2013), plus de 900 (2020), plus de 1 750 (2024), plus de 1 850 (juin 2026), périmètres de comptage possiblement différents. Toujours donnés avec leur date, jamais additionnés (S01, S06, S07).
-- **Statut d'Epsilon** : « la piste est sérieuse » (expert en stylométrie, via Ouest-France / Le Parisien) contre attribution non établie et simples vérifications annoncées par le parquet. Dit à l'antenne (S23).
-- **Lieu cité par le faux témoin** : « monastère de Plavilla » (Le Parisien, L'Indépendant) ou « un monastère de l'Aude » (cath.ch). Retenu à l'antenne : « un monastère de l'Aude ». Choix éditorial à confirmer en validation.
-- **Nom donné au faux témoin** : « Père Marc » (Le Parisien, L'Indépendant, Europe 1) ou « Frère Marc » (cath.ch). Non repris à l'antenne.
-- Non utilisées ici (relèvent de l'épisode 2) : date du départ de Nantes (10 ou 12 avril 2011), objet emporté le 15 avril (housse ou sac à dos).
+- **Nombre de cavités, juin 2011** : « une trentaine » (Le Parisien, 23/06/2011) / « une quarantaine » le 23 juin (Le Parisien, 03/04/2026). Retenu : chiffre contemporain, attribué.
+- **Le Télégramme 2013** : « plus de 700 signalements » puis, plus bas, « 800 signalements vérifiés ». Retenu : 700, avec le média et la date.
+- **Âge d'Arthur** : « 13 à 20 ans » pour les enfants (presse 2011) ; Le Parisien du 03/04/2026 écrit Arthur, 21 ans. Fourchette 2011 retenue ; à harmoniser avec l'épisode 1 (raccord 20 ans).
+- **Glasgow** : sources françaises (empreintes concordantes, confirmations « à quatre reprises ») contre police écossaise (« jamais confirmé ») — non tranché. IGPN : saisine le 15/10 (Le Monde, Codex) / annonce le 17/10 (Le Parisien). Jour du premier communiqué écossais incohérent dans le JDD (Codex).
+- **Texas** : date de la publication Facebook (25/03 selon Codex ; KOSA publie le 25 à 8 h 24 et évoque un message du « jeudi soir ») → « fin mars ».
+- **Epsilon** : 1 169 messages (profil) / 1 080 (recherche) selon Control Investigation ; pause de 122 jours attribuée à Ouest-France (Le Dauphiné) ou aux enquêteurs (RTL).
+- **Fonction de Stan Vignon** : « rédacteur » (La Dépêche) / « rédacteur en chef » (Codex).
+- Non tranchées et non abordées ici : date de la mort du père (janvier ou février 2011), date du dîner avec Thomas (4 ou 5 avril).
 
 ## LACUNES
 
-Faits voulus mais absents (ou insuffisants) dans le dossier ; aucun texte n'a été inventé à leur place. L'emplacement est celui de la ligne `# LACUNE : …` dans narration.txt.
+- Portrait public (fiche du club de tir, diffusée à partir du 23/04/2011 selon une légende AFP) : NON confirmé sur page lue le 01/10/2026 (La Libre Belgique relue sans la légende ; Getty, NBC bloqués ; making-of AFP inaccessible). Retiré de la v1.
+- Glasgow : pas de communiqué original de Police Scotland, pas de rapport d'empreintes, pas de résultat de l'enquête IGPN.
+- Doubs : dates précises du signalement (9, 11, 12 mars dans la v0) non retrouvées sur page lue.
+- Arcom, plainte du diocèse, poursuites contre l'appelant, conclusions sur Epsilon : rien de public trouvé (recherche Codex jusqu'à fin septembre 2026) ; à refaire à la date de publication.
+- Résultat définitif des analyses de 2015 (ossements) et de la lettre de 2015 (non abordée).
 
-1. **Circonstances de la découverte du 21 avril 2011** (intervenants, déroulé, identification des victimes) — après S02. Thème `decouverte_enquete` non couvert.
-2. **Premières recherches d'avril-mai 2011** (dispositif d'enquête, perquisitions, auditions, diffusion de l'avis de recherche, coopération internationale) — après S04. Thème `decouverte_enquete` non couvert ; seuls le véhicule, le portrait, le mandat du 10 mai et les fouilles de juin sont documentés.
-3. **Pistes et signalements notables de 2011 à 2019** — entre S06 et S07. Thème `pistes_2011_2019` non couvert. L'épisode reste racontable : S06-S07 ne donnent que les décomptes datés et la position du parquet (« d'autres pistes ont jalonné ces années », étayé par A082, A100, S063), sans promettre d'y revenir.
-4. **Glasgow, octobre 2019** (information initiale, auteur, contrôle, résultat ; ne pas nommer l'homme innocent) — entre S06 et S07, à sa place chronologique. Le dossier n'en contient qu'une ligne de chronologie (CHRONOLOGIE.csv, 2019-10, S059, provenance hypotheses_sort) : insuffisant pour raconter la séquence ; rien n'en est dit à l'antenne.
-5. **Suites publiques de l'appel du comté de Brewster après mars 2026** — après S13. Aucune trouvée (aucun signalement confirmé, aucune clôture annoncée).
-6. **Décision de l'Arcom et éventuelles poursuites contre l'auteur du faux témoignage** — après S18. Aucune décision publiée trouvée au 01/10/2026 (constat non définitif) ; identité de l'appelant non publique ; aucune plainte, garde à vue ou poursuite trouvée.
-7. **Contenu et calendrier des vérifications ordonnées par le juge d'instruction** (compte « Epsilon », propos diffusés sur M6) — après S18 et S24. Non publics.
-8. **Conclusions sur « Epsilon » et toute évolution postérieure au 30 septembre 2026** — après S24. Non publiques ou non recherchées.
-9. **Article d'Ouest-France du 01/06/2026** : seuls le chapô et des fragments ont été lus (abonnement) — concerne S21 à S23.
-10. **Mention, venue du Figaro via cath.ch, selon laquelle le faux prêtre aurait ensuite prétendu être Xavier Dupont de Ligonnès lui-même** : seconde main (Le Figaro non ouvert). Volontairement non utilisée : elle ne doit pas être reprise sans lecture de la source, d'autant qu'elle pourrait être confondue avec le ressort du roman.
-11. **Photo « non montrée à l'antenne »** (note de l'assertion A090) : la source précise n'est pas identifiée ; non utilisée (S16).
-12. **Âges et portraits des victimes** : l'âge d'Arthur manque au dossier ; S02 nomme les victimes sans âges.
-
-## PROMOTION (épisode 3)
-
-- Placement : S20, juste après la séquence du faux prêtre et le rappel de 2011 (S19), loin de l'évocation des victimes (S02). Encadrée par une pause avant (0,6 s) et après (0,8 s).
-- Longueur : 63 mots hors signes de ponctuation isolés (65 au décompte « split »), ≈ 24 s, dans la fourchette 40-65 mots.
-- Contenu : l'appel du faux prêtre a inspiré le ressort du roman ; dans le roman, l'appelant est le fugitif (personnage inventé, fin imaginée) ; dans l'affaire réelle, aucune source n'établit ce lien ; le roman n'apporte aucune preuve ; e-book et livre audio à égalité, liens dans la description ; « Revenons aux faits ».
-- Le rappel de l'armurier (S19) précède la promotion comme fait autonome : il établit que le motif du prêtre était public dès 2011, et rien sur l'appelant.
-- Résumé du roman (une phrase, sans reprise du synopsis) : un homme disparu depuis quinze ans, qui vit sous un autre nom, appelle une émission en se faisant passer pour un prêtre.
-- Visuels : carton `livre` (statut FICTION) puis rappel « Un roman n'est pas une preuve » (FICTION).
-
-## À REVÉRIFIER (liste consolidée, sur pages lues)
-
-1. Communiqué de M6 et propos de Stan Vignon (aveu de la nuit du 2 au 3 juin) — Europe 1/AFP en entier.
-2. « Plus de 1 850 » signalements (Le Parisien, 02/06/2026) ; « plus de 1 750 » en 2024 (date exacte, auteur du décompte) ; « plus de 700 » (2013) et « plus de 900 » (2020) : quel média, quel périmètre.
-3. Date, lieu et formulation de la découverte du 21 avril 2011 ; graphie des prénoms des victimes.
-4. Heure de la dernière image (16 h 10) et date de repérage du véhicule.
-5. Making-of AFP complet (origine du portrait public).
-6. Mandat d'arrêt international du 10 mai 2011 (source de 2011 ou judiciaire).
-7. Fouilles du 23 juin 2011 (« une quarantaine » de cavités) et dates des autres recherches (étangs, bois, massif).
-8. Recherches dans « plusieurs abbayes » (La Provence, fragments d'un article payant) : dates, lieux, source de premier rang.
-9. Doubs : dates des 9, 11 et 12 mars 2024, nombre de témoins, objets prélevés (extraits seulement) ; citation du procureur de Nantes du 15 avril 2024.
-10. Texas : texte original de la publication du shérif et de sa mise à jour du 26 mars ; formulation sur l'équipe journalistique et les « endroits préférés » ; titre et date du livre de Gilles Galloux (non lu) ; titre de Time France du 27 mars ; absence de suite.
-11. Faux prêtre : liste exacte des affirmations faites à l'antenne ; termes du démenti de Mgr Valentin ; enquête interne de M6 ; décision de garder « un monastère de l'Aude » plutôt que le nom du lieu.
-12. Arcom : déclaration de Martin Ajdari (page lue) ; nouvelle consultation de la liste des décisions à la date de publication.
-13. Armurier (Le Parisien, 27/04/2011) : qui identifie l'homme au « père de famille », l'armurier ou le journal ?
-14. Epsilon : date de création, nombre de messages, dernier message (août 2017), citation de Claude Alain Roten, formulation du parquet sur les pseudonymes utilisés jusqu'au 8 avril 2011, examen de l'adresse IP (conditionnel d'Ouest-France).
-15. Formule du parquet de juin 2026 (« jusqu'ici sans succès » ; « mort ou en fuite »).
-16. Toute évolution entre le 1er octobre 2026 et la date réelle de publication (Epsilon, Arcom, poursuites, Texas).
-
-## SOURCES CITÉES (identifiant — média, date — niveau d'accès)
-
-- S051 — First Alert 7 (KOSA), 25/03/2026 — lu_partiel
-- S056 — AFP Making-of, 12/04/2016 — lu_partiel (premier paragraphe)
-- S057 — Le Parisien, 03/04/2026 — lu_partiel
-- S058 — Le Télégramme, 15/04/2013 — lu_partiel
-- S059 — Nice-Matin, 07/12/2020 — lu_partiel
-- S061 — La Dépêche du Midi, 25/10/2020 — extrait_moteur
-- S062 — Le Parisien, 22/04/2011 — extrait_moteur
-- S063 — La Provence, 12/04/2026 — extrait_moteur
-- S064 — La Libre Belgique (légende AFP), 15/04/2024 — extrait_moteur
-- S066 — Le Parisien, 27/04/2011 — lu_partiel
-- S067 — 20 Minutes, 22/04/2011 — lu_partiel
-- S030 — Wikipédia (fr) — extrait_moteur (repérage seulement)
-- S078 — Nice-Matin, 2026 — extrait_moteur
-- S080 — Le Progrès (AFP), 15/04/2024 — lu_partiel
-- S081 — Le Parisien, 15/04/2024 — extrait_moteur
-- S082 — Actu17, 04/04/2024 — extrait_moteur
-- S083 — franceinfo, 26/03/2026 — lu_partiel
-- S084 — La Dépêche du Midi, 27/03/2026 — extrait_moteur
-- S085 — Time France, 27/03/2026 — extrait_moteur
-- S086 — Europe 1 avec AFP, 03/06/2026 — lu_partiel
-- S087 — Le Parisien, 03/06/2026 — extrait_moteur
-- S088 — Le Parisien, 03/06/2026 — extrait_moteur
-- S089 — cath.ch, 04/06/2026 — lu_partiel
-- S090 — franceinfo, 04/06/2026 — extrait_moteur
-- S092 — ICI (Radio France), 03/06/2026 — lu_partiel
-- S093 — 20 Minutes, 03/06/2026 — lu_partiel
-- S094 — Ouest-France, 01/06/2026 — lu_partiel (chapô et fragments)
-- S095 — Le Parisien, 02/06/2026 — lu_partiel
-- S096 — Ouest-France, 03/06/2026 — lu_partiel
-- S097 — Le Dauphiné Libéré, 04/06/2026 — extrait_moteur
-- S098 — L'Indépendant, 02/06/2026 — extrait_moteur
-- S099 — Arcom, liste des décisions (consultée le 01/10/2026) — extrait_moteur
-- S100 — Le Nouvel Obs, 29/07/2026 — extrait_moteur
-- S101 — Coulisses-TV, 05/07/2026 — extrait_moteur
-
-Non utilisée : S091 (20 Minutes, 04/06/2026, cadre juridique des canulars) — sans poursuite connue, l'exposé des peines encourues n'apporte rien de vérifiable sur cette affaire.
+PHOTOS DE LIEUX SOUHAITÉES : rocher de Roquebrune-sur-Argens (paysage, sans personne) ; vue générale de l'aéroport de Glasgow (sans voyageur identifiable).
 
 ## TRANSITION VERS L'ÉPISODE SUIVANT
 
-S27 : « C'est cette question que nous affronterons dans le prochain épisode : mort ou vivant ? Nous y comparerons les scénarios, leurs appuis et leurs objections, et nous dirons celui que nous retenons, et pourquoi. »
+S29 : « C'est la question du prochain épisode : mort ou vivant ? Nous y comparerons les scénarios, leurs appuis et leurs objections, et nous dirons celui qui nous paraît le plus plausible, et pourquoi. » Appuyée sur S28 (l'enquête n'a pas déterminé s'il est mort ou en fuite). Cohérente avec la phrase définitive de l'épisode 4.
 
-Une seule transition, appuyée sur la formule du parquet (S26 : l'enquête n'a pas permis de déterminer s'il est mort ou en fuite). Elle annonce une prise de position sans en révéler le contenu, conformément au brief de l'épisode 4 (« Mort ou vivant ? Le scénario que nous retenons »).
+## RACCORDS UTILISÉS
+
+- Signalements : environ 330 (communiqué du parquet, 10/05/2011, La Dépêche/AFP) ; plus de 700 (Le Télégramme, avril 2013) ; plus de 900 (Nice-Matin, 07/12/2020) ; plus de 1 750 (parquet, 2024, cité par franceinfo le 26/03/2026) ; plus de 1 850 (Le Parisien, 02/06/2026).
+- Âges : « 13 à 20 ans » ; aucun âge individuel.
+- 15 avril 2011 : dernière trace, sans heure précise.
+- Mandat d'arrêt international : 10 mai 2011 (annonce du procureur Ronsin).
+
+## PRONONCIATION
+
+- Dupont de Ligonnès : « du-pon de li-go-nèss »
+- Roquebrune-sur-Argens : « rok-brune-sur-ar-jince »
+- Ronsin : « ron-sin » ; Gaudeul : « go-deul » ; Sennès : « sè-nèss »
+- Brewster : « brou-steur » ; KOSA : « ko-za » ou lettre à lettre « K-O-S-A » (à décider)
+- Glasgow : « glass-go »
+- Bruno Valentin ; Stan Vignon : « vi-gnon » ; Julien Courbet
+- Martin Ajdari : « aj-da-ri » ; Arcom : « ar-kom »
+- Claude Alain Roten : « ro-tène »
+- Epsilon ; Chevy : « ché-vi » ; LIGO : « li-go »
+- Control Investigation : prononciation anglaise
+- IGPN : lettre à lettre
+- Grivèlerie (citation) : « gri-vèl-ri »
