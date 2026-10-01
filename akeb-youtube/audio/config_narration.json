@@ -20,11 +20,11 @@
     "reference_empirique": "3 Shorts ≈ 157 mots : 0,02487 € réservés selon le registre local (estimation, pas une facture)"
   },
   "cle": {
-    "type": "env",
+    "type": "auto",
     "variable": "GEMINI_API_KEY",
     "service": "",
     "utilisateur": "",
-    "note": "Sur le PC de Rémi : type « keyring » avec le service déjà utilisé par produire_audio.py (à lire dans ce script, sans afficher la clé). Jamais de clé dans ce fichier."
+    "note": "Environnement cloud « Akeb - production YouTube » : identifiant API configuré dans les réglages, en-tête x-goog-api-key ajouté par le proxy après la sortie de la VM ; GEMINI_API_KEY doit rester ABSENTE du conteneur (mode proxy). « auto » : variable si présente, sinon proxy. Sur le PC de Rémi : « keyring ». Jamais de clé dans ce fichier."
   },
   "consignes_shorts_validees": "French metropolitan accent. Warm and intimate professional book trailer narrator, captivating but calm, around 145 words per minute. Clear full voice, gentle suspense and emotional nuance, brief natural pauses. No aggression, no ominous villain voice, no shouting, no overacting, no whisper. Read exactly the transcript.",
   "notes_direction": "Consigne documentaire dérivée de la consigne validée des Shorts (même timbre Algieba, accent métropolitain), avec un débit un peu plus vif (≈155 au lieu de ≈145 mots/min) comme demandé pour la chaîne. À confirmer sur l'échantillon.",

@@ -11,7 +11,7 @@ Garde-fous :
 
 Usage :
   python3 narration_gemini.py estimer                 # volumes et coût maximal, sans appel
-  python3 narration_gemini.py presence                # la clé est-elle injectée ? (oui/non, jamais la valeur)
+  python3 narration_gemini.py presence                # mode de clé (variable ou proxy), jamais la valeur
   python3 narration_gemini.py verifier-modele         # GET du modèle (gratuit, clé requise)
   python3 narration_gemini.py echantillon             # court échantillon de voix
   python3 narration_gemini.py produire [--episode 01] [--segment S12] [--forcer]
@@ -143,35 +143,71 @@ def journaliser(entree: dict) -> None:
 
 # ------------------------------------------------------------------ clé et API
 
-def cle_api(cfg: dict) -> str:
+def cle_api(cfg: dict) -> str | None:
+    """Renvoie la clé à placer dans l'en-tête, ou None en mode « proxy ».
+
+    Mode « proxy » (environnement cloud « Akeb - production YouTube ») : l'identifiant API est
+    configuré dans les réglages de l'environnement et le proxy Anthropic ajoute l'en-tête
+    x-goog-api-key APRÈS la sortie de la VM. La clé n'existe donc pas dans le conteneur :
+    on n'envoie AUCUN en-tête de clé (ni vide, ni factice) et on ne contourne pas le proxy.
+    Mode « auto » : variable d'environnement si elle existe, sinon proxy."""
     source = cfg.get("cle", {})
-    if source.get("type") == "keyring":
+    mode = source.get("type", "auto")
+    if mode == "proxy":
+        return None
+    if mode == "keyring":
         import keyring  # stockage chiffré du système (Windows : Gestionnaire d'identification)
         valeur = keyring.get_password(source["service"], source["utilisateur"])
-    else:
-        valeur = os.environ.get(source.get("variable", "GEMINI_API_KEY"))
-    if not valeur:
-        sys.exit("Clé Gemini introuvable dans le stockage configuré (aucune valeur affichée). "
-                 "Configurer audio/config_narration.json › cle, sans jamais coller la clé dans un fichier suivi.")
-    return valeur
+        if not valeur:
+            sys.exit("Clé Gemini introuvable dans le trousseau configuré (aucune valeur affichée).")
+        return valeur
+    valeur = os.environ.get(source.get("variable", "GEMINI_API_KEY"))
+    if valeur:
+        return valeur
+    if mode == "env":
+        sys.exit("Variable de clé absente (aucune valeur affichée). Dans l'environnement Akeb, utiliser le type « proxy » ou « auto ».")
+    return None  # auto sans variable : on s'en remet au proxy de l'environnement
 
 
-def requete(methode: str, url: str, cle: str, corps: dict | None = None, delai: int = 300) -> dict:
+def mode_cle(cfg: dict) -> str:
+    source = cfg.get("cle", {})
+    mode = source.get("type", "auto")
+    if mode == "auto":
+        return "variable" if os.environ.get(source.get("variable", "GEMINI_API_KEY")) else "proxy"
+    return mode
+
+
+def requete(methode: str, url: str, cle: str | None, corps: dict | None = None, delai: int = 300) -> dict:
     donnees = json.dumps(corps).encode("utf-8") if corps is not None else None
     req = urllib.request.Request(url, data=donnees, method=methode)
-    req.add_header("x-goog-api-key", cle)
+    if cle:  # en mode proxy, aucun en-tête de clé : le proxy l'ajoute
+        req.add_header("x-goog-api-key", cle)
     req.add_header("Content-Type", "application/json")
     with urllib.request.urlopen(req, timeout=delai) as r:
         return json.loads(r.read().decode("utf-8"))
 
 
 def verifier_modele(cfg: dict) -> dict:
+    """Test REST non génératif (GET du modèle) : gratuit, aucune synthèse."""
     cle = cle_api(cfg)
+    mode = mode_cle(cfg)
     try:
-        info = requete("GET", f"{API}/models/{cfg['modele']}", cle)
+        info = requete("GET", f"{API}/models/{cfg['modele']}", cle, delai=60)
     except urllib.error.HTTPError as e:
-        sys.exit(f"Modèle {cfg['modele']} non disponible pour ce compte (HTTP {e.code}). Aucun remplacement automatique.")
-    return {k: info.get(k) for k in ("name", "displayName", "version", "supportedGenerationMethods", "inputTokenLimit", "outputTokenLimit")}
+        try:
+            detail = json.loads(e.read().decode("utf-8")).get("error", {})
+        except Exception:  # noqa: BLE001
+            detail = {}
+        statut = detail.get("status", "")
+        if e.code in (400, 401, 403) and mode == "proxy":
+            sys.exit(f"Connexion Gemini non établie (HTTP {e.code} {statut}) : l'identifiant API n'est pas injecté par le proxy "
+                     "de cet environnement (identifiant non connecté, ou session ouverte dans un autre environnement).")
+        if e.code == 404:
+            sys.exit(f"Modèle {cfg['modele']} introuvable pour ce compte (HTTP 404). Aucun remplacement automatique.")
+        sys.exit(f"Vérification refusée (HTTP {e.code} {statut}). Aucun remplacement automatique.")
+    except urllib.error.URLError as e:
+        sys.exit(f"Hôte Gemini injoignable depuis cet environnement ({e.reason}).")
+    return {"mode_cle": mode, **{k: info.get(k) for k in ("name", "displayName", "version", "supportedGenerationMethods", "inputTokenLimit", "outputTokenLimit")}}
 
 
 def corps_requete(cfg: dict, texte: str) -> dict:
@@ -327,7 +363,9 @@ def main() -> None:
     if a.commande == "presence":
         source = cfg.get("cle", {})
         nom = source.get("variable", "GEMINI_API_KEY")
-        print(json.dumps({"variable": nom, "presente": bool(os.environ.get(nom))}, ensure_ascii=False))
+        print(json.dumps({"type_configure": source.get("type", "auto"), "mode_effectif": mode_cle(cfg),
+                          "variable": nom, "variable_presente": bool(os.environ.get(nom)),
+                          "note": "en mode proxy, la variable doit rester absente ; tester avec « verifier-modele »"}, ensure_ascii=False))
         return
     if a.commande == "estimer":
         print(json.dumps(cmd_estimer(cfg, a.episode), ensure_ascii=False, indent=2))

@@ -1,22 +1,23 @@
 # État de la mission — Les Mystères d'Akeb
 
-Mise à jour : 01/10/2026, après réception de la transmission de Codex.
+Mise à jour : 01/10/2026, après la transmission de Codex, les recherches Bionic et la création de l'environnement Akeb.
+Reprise dans l'environnement Akeb : voir `REPRISE_ENVIRONNEMENT_AKEB.md`.
 Statuts : préparé · généré · contrôlé · envoyé · soumis · publié · diffusé · **bloqué**.
 
 ## Synthèse
 
 | Bloc | Statut | Détail |
 |---|---|---|
-| Dossier documentaire | **bloqué** | Réseau cloud fermé à la presse et quota de recherches de la session épuisé. Seul `bio_jeunesse.json` existe (extraits de moteur). Recherches confiées à Antigravity et Codex (prompts dans le dépôt) ; rien de reçu à ce jour. Le retour DeepSeek/LM Studio n'est **pas** parvenu à cette session. |
-| Scripts des 4 épisodes + bande-annonce | **bloqué** (dépend du dossier) | Workflow d'écriture et de vérification prêt (`outils/workflows/ecriture_episodes.js`). Il démarre dès l'arrivée de la recherche. |
-| Narration Gemini 3.8 (Algieba) | **bloqué** | `GEMINI_API_KEY` absente de la session ; chiffrage impossible tant que les scripts n'existent pas. Configuration alignée sur la direction validée des Shorts. |
+| Dossier documentaire | partiel, à revérifier | 102 sources, 103 assertions, avec leur provenance : `bio_jeunesse` (extraits de moteur, session cloud) et 4 thèmes Bionic (LM Studio, 24 sources lues partiellement, non revérifiées ; voir `recherche/contre_verif/AUDIT_BIONIC.md`). Il manque : famille, travail et finances, découverte et enquête, pistes 2011-2019 (dont Glasgow), plateformes, emplacements. |
+| Scripts des 4 épisodes + bande-annonce | brouillons v0 en cours (épisodes 2, 3, 4) | Écrits à partir du seul dossier ; faits fragiles attribués ou omis ; non narrables avant `VALIDATION.md`. Épisode 1 et bande-annonce : en attente de la recherche manquante. |
+| Narration Gemini 3.8 (Algieba) | **bloqué** | Session actuelle sur l'environnement Default : test non génératif « 403 PERMISSION_DENIED », sans identifiant injecté. Environnement « Akeb - production YouTube » créé par Codex, mais l'identifiant API n'y est pas encore connecté. L'outil gère le mode proxy (clé ajoutée après la VM, `GEMINI_API_KEY` absente). Chiffrage après les scripts ; narration refusée sans `VALIDATION.md`. |
 | Outils de montage et de contrôle | contrôlé | Testés de bout en bout ; sous-titres désormais alignés par propositions sur les pauses réelles de la voix. |
 | Musique | généré | 3 nappes originales (`audio/musique/`, hors Git). |
 | Identité visuelle | contrôlé | Avatar 800×800 et bannière 2560×1440 prêts **à installer** sur la chaîne. |
 | Couverture exacte | généré | Reçue ; installée localement en `montage/assets/` (hors Git). |
 | Shorts 1 à 3 | contrôlé — **défaut** | Mention « THRILLER DE FICTION » dans la zone masquée par l'interface Shorts ; 24 i/s au lieu de 30. Sous-titres v2 alignés livrés. Ré-export v2 à faire par Codex (aucune nouvelle narration). Voir `exports/shorts/CONTROLE_SHORTS.md`. Non publiés. |
 | Chaîne YouTube | **configurée par Codex** | Les Mystères d'Akeb, `UCeY1bZMUcigbZX2VwJmln-Q`, @LesMysteresDAkeb ; imports privés par défaut. Avatar, bannière et playlists à installer. Non relue depuis le cloud. |
-| Accès YouTube depuis le cloud | préparé | `outils/youtube_api.py` (OAuth par code d'appareil, import privé idempotent). Il manque l'identifiant OAuth dans l'environnement. |
+| Accès YouTube depuis le cloud | non donné | Aucun OAuth YouTube n'a été donné au conteneur ; publication par le Studio local côté Codex. `outils/youtube_api.py` reste prêt si un accès est un jour accordé. |
 | Publicité | Meta **soumis** (« Traitement en cours ») | 40 € média jusqu'au 04/10 23 h 59 + 10 € de réserve, soit 50 € engagés sur 100 €. Google Ads non inspecté. Reste au plus 50 €, taxes comprises. |
 
 ## Dépenses
