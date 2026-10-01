@@ -1,0 +1,872 @@
+{
+  "sujet": "Débat public attribué sur le sort de Xavier Dupont de Ligonnès ; consultation au 1er octobre 2026",
+  "sources": [
+    {
+      "ref": "S-hypotheses_sort_codex-01",
+      "titre": "Entretien de Bruno de Stabenrath",
+      "url": "https://www.20minutes.fr/justice/3012459-20210402-affaire-xavier-dupont-ligonnes-prepare-tout-ca-mourir-convaincu-bruno-stabenrath-ami-fugitif",
+      "auteur_organisme": "Frédéric Brenon",
+      "media": "20 Minutes",
+      "date_publication": "2021-04-02",
+      "date_faits": "2021",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Entretien lu ; L’Ami impossible non lu."
+    },
+    {
+      "ref": "S-hypotheses_sort_codex-02",
+      "titre": "Entretien de l’ancien procureur Xavier Ronsin",
+      "url": "https://www.20minutes.fr/justice/3011519-20210401-affaire-xavier-dupont-ligonnes-page-blanche-laquelle-chacun-projette-fantasmes-estime-ancien-procureur-nantes",
+      "auteur_organisme": "Frédéric Brenon",
+      "media": "20 Minutes",
+      "date_publication": "2021-04-01",
+      "date_faits": "2011-2012;2021",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Il distingue sa position passée de l’analyse actuelle du dossier qu’il ne suit plus."
+    },
+    {
+      "ref": "S-hypotheses_sort_codex-03",
+      "titre": "Le suicide : hypothèse privilégiée par Ronsin en septembre 2011",
+      "url": "https://www.lepoint.fr/societe/le-suicide-de-dupont-de-ligonnes-hypothese-la-plus-probable-03-09-2011-1369530_23.php",
+      "auteur_organisme": "Reuters",
+      "media": "Le Point",
+      "date_publication": "2011-09-03",
+      "date_faits": "2011-09-03",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "agence",
+      "origine": "reprise:Reuters",
+      "notes": "Entretien contemporain ; aucune certitude de décès annoncée."
+    },
+    {
+      "ref": "S-hypotheses_sort_codex-04",
+      "titre": "Trois mois d’enquête et toujours aucune trace",
+      "url": "https://www.lemonde.fr/societe/article/2011/07/28/affaire-dupont-de-ligonnes-trois-mois-d-enquete-et-toujours-aucune-trace-du-pere-de-famille_1553690_3224.html",
+      "auteur_organisme": "Yves Bordenave",
+      "media": "Le Monde",
+      "date_publication": "2011-07-28",
+      "date_faits": "2011-07",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Interprétations de sources policières anonymes ; courriels originaux non lus."
+    },
+    {
+      "ref": "S-hypotheses_sort_codex-05",
+      "titre": "Quinze ans après : où en est l’enquête ?",
+      "url": "https://www.ladepeche.fr/2026/03/06/xavier-dupont-de-ligonnes-15-ans-apres-le-meurtre-de-sa-famille-et-sa-disparition-la-justice-penche-pour-le-suicide-ou-en-est-lenquete-13247807.php",
+      "auteur_organisme": "Sabrina El",
+      "media": "La Dépêche",
+      "date_publication": "2026-03-06",
+      "date_faits": "2013;2021;2026",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_regional",
+      "origine": "reprise:AFP",
+      "notes": "Citations Lamy de 2013 et Ronsin de 2021 ; titre actuel et propos anciens à distinguer."
+    },
+    {
+      "ref": "S-hypotheses_sort_codex-06",
+      "titre": "L’hypothèse qu’il est mort : entretien Jean-Paul Le Tensorer",
+      "url": "https://www.rtl.fr/actu/justice-faits-divers/xavier-dupont-de-ligonnes-pour-moi-l-hypothese-la-plus-probable-est-qu-il-est-mort-affirme-un-policier-7900144510",
+      "auteur_organisme": "RTL",
+      "media": "RTL",
+      "date_publication": "2022-04",
+      "date_faits": "2022-04",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Texte daté d’avril 2022 ; audio non écouté."
+    },
+    {
+      "ref": "S-hypotheses_sort_codex-07",
+      "titre": "Le policier en charge : je suis convaincu qu’il s’est suicidé",
+      "url": "https://www.europe1.fr/faits-divers/le-policier-en-charge-de-laffaire-xddl-je-suis-convaincu-quil-sest-suicide-3925319",
+      "auteur_organisme": "Europe 1",
+      "media": "Europe 1",
+      "date_publication": "2019-10-14",
+      "date_faits": "2019",
+      "date_consultation": "2026-10-01",
+      "acces": "inaccessible",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "403 ; aucune assertion fondée sur son extrait moteur."
+    },
+    {
+      "ref": "S-hypotheses_sort_codex-08",
+      "titre": "Xavier Dupont de Ligonnès s’est-il suicidé ?",
+      "url": "https://www.rtl.fr/actu/justice-faits-divers/xavier-dupont-de-ligonnes-s-est-il-suicide-7800809505",
+      "auteur_organisme": "Pascal Praud et Jean-Alphonse Richard ; Nicolas Barreiro",
+      "media": "RTL",
+      "date_publication": "2020-09-17",
+      "date_faits": "2020",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Texte du débat lu ; audio et livre non consultés."
+    },
+    {
+      "ref": "S-hypotheses_sort_codex-09",
+      "titre": "Anne-Sophie Martin défend une disparition organisée",
+      "url": "https://www.rtl.fr/actu/justice-faits-divers/pourquoi-organiser-ca-pour-se-suicider-15-ans-apres-l-affaire-xavier-dupont-de-ligonnes-la-journaliste-anne-sophie-martin-prone-une-disparition-orchestree-7900641709",
+      "auteur_organisme": "RTL, entretien Anne-Sophie Martin",
+      "media": "RTL",
+      "date_publication": "2026-06-02",
+      "date_faits": "2026-06-02",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Texte de l’entretien lu ; audio non écouté."
+    },
+    {
+      "ref": "S-hypotheses_sort_codex-10",
+      "titre": "L’affaire vue par un ancien enquêteur : Gilles Galloux",
+      "url": "https://www.leparisien.fr/faits-divers/je-crois-quil-ne-sest-pas-suicide-quil-est-vivant-laffaire-dupont-de-ligonnes-vue-par-un-ancien-enqueteur-19-02-2026-MYI6LDDWUFE4ZGM67KO5CLFOFI.php",
+      "auteur_organisme": "Damien Delseny",
+      "media": "Le Parisien",
+      "date_publication": "2026-02-19",
+      "date_faits": "2011;2026",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Début visible ; livre Xavier Dupont de Ligonnès. Un flic au cœur de l’affaire non lu."
+    },
+    {
+      "ref": "S-hypotheses_sort_codex-11",
+      "titre": "Gilles Galloux espère trouver une trace aux États-Unis",
+      "url": "https://www.rtl.fr/actu/justice-faits-divers/xavier-dupont-de-ligonnes-est-il-toujours-vivant-le-cyber-policier-qui-le-traque-depuis-2011-espere-encore-trouver-une-de-ses-traces-aux-etats-unis-7900603818",
+      "auteur_organisme": "RTL, entretien Gilles Galloux",
+      "media": "RTL",
+      "date_publication": "2026",
+      "date_faits": "2011;2026",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Jour de publication non affiché dans le texte ; audio non écouté ; enquête privée actuelle distincte de sa mission en 2011."
+    },
+    {
+      "ref": "S-hypotheses_sort_codex-12",
+      "titre": "Un enquêteur en cybercriminalité persuadé qu’il est vivant",
+      "url": "https://www.20minutes.fr/societe/4202606-20260220-xavier-dupont-ligonnes-enqueteur-cybercriminalite-persuade-vivant",
+      "auteur_organisme": "J. D.",
+      "media": "20 Minutes",
+      "date_publication": "2026-02-20",
+      "date_faits": "2026",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "reprise:Le Parisien/Paris Match",
+      "notes": "Reprise de Galloux : ne constitue pas une troisième origine indépendante."
+    },
+    {
+      "ref": "S-hypotheses_sort_codex-13",
+      "titre": "De nouvelles fouilles lancées",
+      "url": "https://www.leparisien.fr/archives/dupont-de-ligonnes-de-nouvelles-fouilles-lancees-25-11-2012-2352209.php",
+      "auteur_organisme": "Le Parisien, signature non affichée",
+      "media": "Le Parisien",
+      "date_publication": "2012-11-25",
+      "date_faits": "2012",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Sources anonymes d’enquête, pas de pièces bancaires consultées."
+    },
+    {
+      "ref": "S-hypotheses_sort_codex-14",
+      "titre": "Questions-réponses sur les éléments et les hypothèses de l’affaire",
+      "url": "https://www.leparisien.fr/faits-divers/direct-dupont-de-ligonnes-nouvelles-revelations-15-ans-apres-sa-disparition-pistes-des-enqueteurs-posez-nous-vos-questions-sur-cette-affaire-02-03-2026-ZEW4WMYKNZGPHIOV4GZLYKW3VE.php",
+      "auteur_organisme": "Damien Delseny et Manon Aublanc",
+      "media": "Le Parisien",
+      "date_publication": "2026-03-02",
+      "date_faits": "2011;2026",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Réponses visibles sélectionnées ; actualisation 4 mars ; aucun inventaire judiciaire consulté."
+    },
+    {
+      "ref": "S-hypotheses_sort_codex-15",
+      "titre": "Le frère d’Agnès s’exprime et appelle conditionnellement le suspect à se rendre",
+      "url": "https://www.leparisien.fr/faits-divers/jai-mis-15-ans-a-parler-le-beau-frere-de-xavier-dupont-de-ligonnes-sexprime-pour-la-premiere-fois-et-lappelle-a-se-rendre-11-04-2026-F7JUXC3PWZAW3G5BEUJ2HDI5RQ.php",
+      "auteur_organisme": "V. C., propos de C à vous / France 5",
+      "media": "Le Parisien",
+      "date_publication": "2026-04-11",
+      "date_faits": "2026-04-11",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "reprise:France 5",
+      "notes": "Texte lu ; émission complète non visionnée."
+    },
+    {
+      "ref": "S-hypotheses_sort_codex-16",
+      "titre": "Le beau-frère brise le silence",
+      "url": "https://www.tf1info.fr/justice-faits-divers/le-beau-frere-de-xavier-dupont-de-ligonnes-brise-le-silence-personne-ne-va-nous-rendre-ma-soeur-et-les-enfants-2435445.html",
+      "auteur_organisme": "J. V.",
+      "media": "TF1 Info",
+      "date_publication": "2026-04-11",
+      "date_faits": "2026-04-11",
+      "date_consultation": "2026-10-01",
+      "acces": "inaccessible",
+      "type": "media_national",
+      "origine": "reprise:France 5",
+      "notes": "403 ; aucun propos additionnel retenu."
+    },
+    {
+      "ref": "S-hypotheses_sort_codex-17",
+      "titre": "Affaire Ligonnès : cavale parfaite ou suicide ?",
+      "url": "https://www.lejdd.fr/societe/affaire-ligonnes-cavale-parfaite-ou-suicide-54046",
+      "auteur_organisme": "Marie Quenet",
+      "media": "Le Journal du dimanche",
+      "date_publication": "2011-06-11",
+      "date_faits": "2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Terrain et recherches décrits ; interprétations de sources judiciaires anonymes."
+    },
+    {
+      "ref": "S-hypotheses_sort_codex-18",
+      "titre": "Chronologie",
+      "url": "https://www.leparisien.fr/faits-divers/de-la-tuerie-a-l-arrestation-de-xavier-dupont-de-ligonnes-chronologie-d-une-mysterieuse-affaire-11-10-2019-8171469.php",
+      "auteur_organisme": "Le Parisien, signature non affichée",
+      "media": "Le Parisien",
+      "date_publication": "2019-10-11",
+      "date_faits": "2011-2019",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Archive antérieure au démenti de Glasgow."
+    },
+    {
+      "ref": "S-hypotheses_sort_codex-19",
+      "titre": "Premières analyses négatives sur des objets découverts dans le Var",
+      "url": "https://www.rtl.fr/actu/justice-faits-divers/xavier-dupont-de-ligonnes-l-adn-sur-les-effets-decouverts-pres-du-cadavre-n-est-pas-le-sien-7777531661",
+      "auteur_organisme": "RTL",
+      "media": "RTL",
+      "date_publication": "2015-05-01",
+      "date_faits": "2015-04-28;2015-05-01",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Résultats partiels : les objets et les restes ne sont pas le même prélèvement."
+    },
+    {
+      "ref": "S-hypotheses_sort_codex-20",
+      "titre": "Le procureur refuse tout crédit judiciaire à l’exfiltration alléguée",
+      "url": "https://www.ladepeche.fr/2024/03/22/xavier-dupont-de-ligonnes-rien-ne-permet-de-donner-judiciairement-du-credit-a-la-version-de-sa-soeur-estime-le-procureur-de-nantes-11842198.php",
+      "auteur_organisme": "Edwige Grolleau",
+      "media": "La Dépêche",
+      "date_publication": "2024-03-22",
+      "date_faits": "2024-03-22",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Communiqué Renaud Gaudeul rapporté ; livre de la sœur non lu."
+    },
+    {
+      "ref": "S-hypotheses_sort_codex-21",
+      "titre": "Bruno de Stabenrath, persuadé qu’il est vivant",
+      "url": "https://www.rtl.fr/actu/justice-faits-divers/xavier-dupont-de-ligonnes-qui-est-bruno-de-stabenrath-persuade-qu-il-est-vivant-7900017281",
+      "auteur_organisme": "RTL",
+      "media": "RTL",
+      "date_publication": "2021",
+      "date_faits": "2020;2021",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Entretien RTL résumé ; jour de publication non affiché ; audio non écouté."
+    },
+    {
+      "ref": "S-hypotheses_sort_codex-22",
+      "titre": "S’il est vivant, où pourrait-il se trouver ?",
+      "url": "https://www.rtl.fr/actu/justice-faits-divers/xavier-dupont-de-ligonnes-s-il-est-vivant-ou-pourrait-il-se-trouver-7900022204",
+      "auteur_organisme": "RTL, Bruno de Stabenrath dans Les Voix du Crime",
+      "media": "RTL",
+      "date_publication": "2021",
+      "date_faits": "2021",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Lieux envisagés par l’interviewé, sans authentification ; audio non écouté."
+    },
+    {
+      "ref": "S-hypotheses_sort_codex-23",
+      "titre": "Nouvelles fouilles dans le Var en mai 2013",
+      "url": "https://www.ledauphine.com/france-monde/2013/05/02/ffaire-dupont-de-ligonnes-de-nouvelles-fouilles-ont-debute-dans-le-var",
+      "auteur_organisme": "AFP",
+      "media": "Le Dauphiné Libéré",
+      "date_publication": "2013-05-02",
+      "date_faits": "2013-05-02",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "agence",
+      "origine": "AFP",
+      "notes": "Confirme une hypothèse de suicide ancienne, sans décès attesté à cette date."
+    },
+    {
+      "ref": "S-hypotheses_sort_codex-24",
+      "titre": "Une porte nue, fermée sur son mystère",
+      "url": "https://making-of.afp.com/une-porte-nue-fermee-sur-son-mystere",
+      "auteur_organisme": "AFP Making-of",
+      "media": "AFP Making-of",
+      "date_publication": "2013",
+      "date_faits": "2011;2013",
+      "date_consultation": "2026-10-01",
+      "acces": "inaccessible",
+      "type": "agence",
+      "origine": "AFP",
+      "notes": "Ouverture échouée ; aucune assertion issue de l’extrait moteur."
+    }
+  ],
+  "assertions": [
+    {
+      "ref": "A-hypotheses_sort_codex-01",
+      "assertion": "En septembre 2011, Ronsin privilégie le suicide sans certitude, invoquant finances, état d’esprit et absence de traces ; la fuite reste étudiée.",
+      "categorie": "HYPOTHESE",
+      "attribution": "Xavier Ronsin, procureur de Nantes, entretien Reuters",
+      "date_faits": "2011-09-03",
+      "lieu": "Nantes / Var",
+      "sources": [
+        "S-hypotheses_sort_codex-03",
+        "S-hypotheses_sort_codex-02"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "forte",
+      "centrale": true,
+      "notes": "Opinion ancienne, pas constat de décès.",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Deux entretiens attestent une position datée, pas un décès."
+      }
+    },
+    {
+      "ref": "A-hypotheses_sort_codex-02",
+      "assertion": "Ronsin, parti de Nantes en 2012, refuse en 2021 de donner une analyse actuelle de l’affaire.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Xavier Ronsin, ancien procureur",
+      "date_faits": "2021-04-01",
+      "lieu": "",
+      "sources": [
+        "S-hypotheses_sort_codex-02"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "L’entretien de 2011 date sa position.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Reuters confirme la position ancienne, sans renseigner une opinion actualisée de l’autorité saisie."
+      }
+    },
+    {
+      "ref": "A-hypotheses_sort_codex-03",
+      "assertion": "En juillet 2011, Le Monde rapporte que des enquêteurs interprètent des courriels comme des indices suicidaires, tout en conservant la fuite sous une autre identité parmi les possibilités.",
+      "categorie": "HYPOTHESE",
+      "attribution": "Sources policières anonymes citées par Yves Bordenave",
+      "date_faits": "2011-07",
+      "lieu": "Var",
+      "sources": [
+        "S-hypotheses_sort_codex-04"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "forte",
+      "centrale": true,
+      "notes": "Courriels originaux non consultés.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Reuters confirme une préférence du parquet pour le suicide, sans authentifier chaque courriel ni prouver un décès."
+      }
+    },
+    {
+      "ref": "A-hypotheses_sort_codex-04",
+      "assertion": "La Dépêche reprend en 2026 la conviction personnelle exprimée par Brigitte Lamy en mars 2013 en faveur d’un suicide ; elle liait une certitude à la découverte du corps.",
+      "categorie": "HYPOTHESE",
+      "attribution": "Brigitte Lamy, procureure de Nantes en 2013, propos AFP repris",
+      "date_faits": "2013-03",
+      "lieu": "Nantes",
+      "sources": [
+        "S-hypotheses_sort_codex-05",
+        "S-hypotheses_sort_codex-23"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "forte",
+      "centrale": true,
+      "notes": "Le titre de 2026 ne constitue pas une position nouvelle du parquet.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "La dépêche contemporaine de mai 2013 confirme l’hypothèse ancienne et l’absence de décès attesté, sans reproduire cette déclaration précise de mars."
+      }
+    },
+    {
+      "ref": "A-hypotheses_sort_codex-05",
+      "assertion": "En avril 2022, l’ancien responsable de la PJ de Rennes Jean-Paul Le Tensorer estime personnellement que le suspect est probablement mort ; il admet qu’aucune solution ne sera peut-être trouvée.",
+      "categorie": "HYPOTHESE",
+      "attribution": "Jean-Paul Le Tensorer, propos au micro de RTL",
+      "date_faits": "2022-04",
+      "lieu": "",
+      "sources": [
+        "S-hypotheses_sort_codex-06"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "forte",
+      "centrale": true,
+      "notes": "Aucun constat judiciaire de décès.",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "Une interview distincte de 2019 a été recherchée mais sa page Europe 1 est inaccessible ; attribution retenue seulement sur RTL."
+      }
+    },
+    {
+      "ref": "A-hypotheses_sort_codex-06",
+      "assertion": "Bruno de Stabenrath est convaincu en 2021 d’une survie : il interprète la préparation et les aptitudes relationnelles comme des moyens de recommencer ailleurs. Il évoque notamment l’Australie.",
+      "categorie": "HYPOTHESE",
+      "attribution": "Bruno de Stabenrath, ami de jeunesse et auteur",
+      "date_faits": "2021",
+      "lieu": "",
+      "sources": [
+        "S-hypotheses_sort_codex-01",
+        "S-hypotheses_sort_codex-21"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "forte",
+      "centrale": true,
+      "notes": "Deux entretiens, une conviction.",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "RTL confirme sa conviction ; aucune destination actuelle établie."
+      }
+    },
+    {
+      "ref": "A-hypotheses_sort_codex-07",
+      "assertion": "En 2020 puis en 2026, Anne-Sophie Martin défend l’idée d’une disparition anticipée : les courriers et l’organisation auraient fait gagner du temps. Elle juge en 2026 les États-Unis peu plausibles parce qu’il y est connu.",
+      "categorie": "HYPOTHESE",
+      "attribution": "Anne-Sophie Martin, journaliste et auteure du Disparu",
+      "date_faits": "2020;2026-06-02",
+      "lieu": "",
+      "sources": [
+        "S-hypotheses_sort_codex-08",
+        "S-hypotheses_sort_codex-09"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "forte",
+      "centrale": true,
+      "notes": "Entretiens textuels lus ; livre non lu.",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Deux entretiens distincts documentent la constance de son interprétation ; ils ne prouvent pas une survie ni une destination."
+      }
+    },
+    {
+      "ref": "A-hypotheses_sort_codex-08",
+      "assertion": "Gilles Galloux, désormais retraité, croit en 2026 à une survie et à une destination prévue avant le départ ; il poursuit personnellement une recherche de traces aux États-Unis.",
+      "categorie": "HYPOTHESE",
+      "attribution": "Gilles Galloux, ancien enquêteur de l’OCLCTIC",
+      "date_faits": "2026",
+      "lieu": "États-Unis envisagés",
+      "sources": [
+        "S-hypotheses_sort_codex-10",
+        "S-hypotheses_sort_codex-11"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "forte",
+      "centrale": true,
+      "notes": "Enquête privée actuelle ; reprise de 20 Minutes non indépendante.",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Les entretiens propres du Parisien et de RTL concordent sur sa position. La reprise de 20 Minutes n’ajoute pas une preuve indépendante."
+      }
+    },
+    {
+      "ref": "A-hypotheses_sort_codex-09",
+      "assertion": "Jean-Alphonse Richard imagine en 2020 soit un accueil dans un milieu religieux déjà fréquenté, soit une fuite en Amérique du Sud, en s’appuyant sur la langue et les relations qu’il lui attribue.",
+      "categorie": "HYPOTHESE",
+      "attribution": "Jean-Alphonse Richard, journaliste RTL",
+      "date_faits": "2020-09-17",
+      "lieu": "Localisation envisagée, non établie",
+      "sources": [
+        "S-hypotheses_sort_codex-08"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "forte",
+      "centrale": true,
+      "notes": "Aucune communauté ne doit être présentée comme complice.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Stabenrath envisage aussi l’Amérique latine dans un entretien distinct, sans apporter d’identification ; aucune corroboration factuelle d’un accueil trouvée."
+      }
+    },
+    {
+      "ref": "A-hypotheses_sort_codex-10",
+      "assertion": "Le frère d’Agnès affirme en avril 2026 sa conviction de la responsabilité du suspect. Son appel à se rendre est formulé pour le cas où celui-ci serait vivant.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Guillaume Abbas Hodanger, intervention publique dans C à vous",
+      "date_faits": "2026-04-11",
+      "lieu": "France 5",
+      "sources": [
+        "S-hypotheses_sort_codex-15"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Ne pas transformer un appel conditionnel en preuve de survie.",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "L’autre article recherché, TF1 Info, est inaccessible ; l’émission intégrale n’a pas été visionnée."
+      }
+    },
+    {
+      "ref": "A-hypotheses_sort_codex-11",
+      "assertion": "Le procureur Gaudeul refuse en mars 2024 tout crédit judiciaire à l’hypothèse d’une exfiltration de la famille défendue par la sœur du suspect.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Renaud Gaudeul, communiqué cité par La Dépêche",
+      "date_faits": "2024-03-22",
+      "lieu": "Nantes",
+      "sources": [
+        "S-hypotheses_sort_codex-20"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Livre non lu ; communiqué original non obtenu.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Le témoignage opposé du frère d’Agnès ne vérifie pas le contenu judiciaire."
+      }
+    },
+    {
+      "ref": "A-hypotheses_sort_codex-12",
+      "assertion": "En novembre 2012, Le Parisien rapporte qu’aucun compte bancaire caché n’a été découvert, et que le devenir de bijoux familiaux reste inexpliqué, sans vente établie.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Le Parisien, sources anonymes d’enquête",
+      "date_faits": "2012-11",
+      "lieu": "",
+      "sources": [
+        "S-hypotheses_sort_codex-13",
+        "S-hypotheses_sort_codex-03"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Résultat rapporté en 2012 ; pièces bancaires non lues.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Reuters confirme les difficultés financières, sans valider l’inventaire bancaire ni une réserve clandestine."
+      }
+    },
+    {
+      "ref": "A-hypotheses_sort_codex-13",
+      "assertion": "Selon les réponses du Parisien de mars 2026, la carabine .22 LR héritée et suspectée d’avoir servi n’a jamais été retrouvée.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Damien Delseny et Manon Aublanc",
+      "date_faits": "2026-03",
+      "lieu": "",
+      "sources": [
+        "S-hypotheses_sort_codex-14"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Aucun inventaire judiciaire actuel consulté.",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "Recherches françaises et anglaises sur arme, passeport et munitions : aucune communication indépendante actuelle obtenue confirmant cet inventaire."
+      }
+    },
+    {
+      "ref": "A-hypotheses_sort_codex-14",
+      "assertion": "Le Parisien envisage que le bagage aperçu au départ puisse contenir l’arme ; cette interprétation ne décrit pas un contenu constaté.",
+      "categorie": "HYPOTHESE",
+      "attribution": "Damien Delseny et Manon Aublanc, réponses aux lecteurs",
+      "date_faits": "2011-04-15",
+      "lieu": "Roquebrune-sur-Argens",
+      "sources": [
+        "S-hypotheses_sort_codex-14"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "forte",
+      "centrale": false,
+      "notes": "Bagage visible et inventaire sont deux questions distinctes."
+    },
+    {
+      "ref": "A-hypotheses_sort_codex-15",
+      "assertion": "Les reportages décrivent un terrain boisé et accidenté difficile à explorer et des cavités jusque-là non fouillées. Ces limites empêchent de traiter les recherches comme un examen exhaustif de la région.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Marie Quenet et sources d’enquête citées par Le Parisien",
+      "date_faits": "2011;2012",
+      "lieu": "Var",
+      "sources": [
+        "S-hypotheses_sort_codex-17",
+        "S-hypotheses_sort_codex-13"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Aucune superficie totale vérifiée.",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Reportages indépendants sur la difficulté du terrain et les nouveaux secteurs ; aucune conclusion sur le sort du suspect n’en découle."
+      }
+    },
+    {
+      "ref": "A-hypotheses_sort_codex-16",
+      "assertion": "RTL indique en 2022 que le dossier comporte des éléments de comparaison génétique et une empreinte digitale permettant des contrôles d’identité.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "RTL, moyens d’identification rapportés",
+      "date_faits": "2022-04",
+      "lieu": "",
+      "sources": [
+        "S-hypotheses_sort_codex-06"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Fiche technique et profils non consultés.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Le contrôle ADN d’objets dans le Var en 2015 confirme l’emploi de comparaisons génétiques ; il ne vérifie pas la composition complète du dossier de 2022."
+      }
+    },
+    {
+      "ref": "A-hypotheses_sort_codex-17",
+      "assertion": "En 2015, RTL distingue résultats ADN sur des objets et identification des restes, encore attendue.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "RTL, résultats préliminaires rapportés",
+      "date_faits": "2015-05-01",
+      "lieu": "Bagnols-en-Forêt",
+      "sources": [
+        "S-hypotheses_sort_codex-19"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": false,
+      "notes": "Un rapprochement ne vaut pas identification."
+    }
+  ],
+  "chronologie": [
+    {
+      "date": "2011-07-28",
+      "precision": "jour",
+      "evenement": "Le Monde rapporte une lecture suicidaire de courriels.",
+      "categorie": "HYPOTHESE",
+      "sources": [
+        "S-hypotheses_sort_codex-04"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2011-09-03",
+      "precision": "jour",
+      "evenement": "Ronsin privilégie le suicide, tout en maintenant l’hypothèse de fuite.",
+      "categorie": "HYPOTHESE",
+      "sources": [
+        "S-hypotheses_sort_codex-03"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2013-03",
+      "precision": "mois",
+      "evenement": "Conviction personnelle de Lamy reprise dans le bilan de 2026.",
+      "categorie": "HYPOTHESE",
+      "sources": [
+        "S-hypotheses_sort_codex-05"
+      ],
+      "note": "Ne pas la dater de 2026."
+    },
+    {
+      "date": "2020-09-17",
+      "precision": "jour",
+      "evenement": "Martin et Richard discutent préparation, fuite et accueil éventuel.",
+      "categorie": "HYPOTHESE",
+      "sources": [
+        "S-hypotheses_sort_codex-08"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2021-04-01",
+      "precision": "jour",
+      "evenement": "Ronsin refuse une analyse actualisée.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "sources": [
+        "S-hypotheses_sort_codex-02"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2021-04-02",
+      "precision": "jour",
+      "evenement": "Stabenrath expose sa conviction de survie.",
+      "categorie": "HYPOTHESE",
+      "sources": [
+        "S-hypotheses_sort_codex-01"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2022-04",
+      "precision": "mois",
+      "evenement": "Le Tensorer exprime une préférence pour un décès.",
+      "categorie": "HYPOTHESE",
+      "sources": [
+        "S-hypotheses_sort_codex-06"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2024-03-22",
+      "precision": "jour",
+      "evenement": "Gaudeul récuse le crédit judiciaire de l’exfiltration alléguée.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-hypotheses_sort_codex-20"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2026-02-19",
+      "precision": "jour",
+      "evenement": "Entretien Galloux : conviction de survie.",
+      "categorie": "HYPOTHESE",
+      "sources": [
+        "S-hypotheses_sort_codex-10"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2026-04-11",
+      "precision": "jour",
+      "evenement": "Le frère d’Agnès adresse un appel conditionnel à se rendre.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "sources": [
+        "S-hypotheses_sort_codex-15"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2026-06-02",
+      "precision": "jour",
+      "evenement": "Martin défend de nouveau une disparition anticipée.",
+      "categorie": "HYPOTHESE",
+      "sources": [
+        "S-hypotheses_sort_codex-09"
+      ],
+      "note": ""
+    }
+  ],
+  "details_moins_connus": [
+    {
+      "detail": "Galloux rappelle que l’office du cybercrime de Nanterre a participé en 2011 puis a été dessaisi en octobre.",
+      "interet_interpretation": "Une intervention policière à Nanterre ne signifie pas un transfert judiciaire au pôle des crimes non élucidés.",
+      "sources": [
+        "S-hypotheses_sort_codex-11"
+      ]
+    },
+    {
+      "detail": "Les destinations envisagées par Stabenrath dans l’entretien RTL sont multiples.",
+      "interet_interpretation": "Ce sont des possibilités évoquées par un proche ; leur multiplication n’ajoute pas des observations authentifiées.",
+      "sources": [
+        "S-hypotheses_sort_codex-22"
+      ]
+    },
+    {
+      "detail": "Les ouvrages cités sont connus ici par leurs entretiens ou présentations médiatiques.",
+      "interet_interpretation": "Ne pas attribuer au livre un contenu non lu ni transformer sa publication en validation de sa thèse.",
+      "sources": [
+        "S-hypotheses_sort_codex-08",
+        "S-hypotheses_sort_codex-10"
+      ]
+    }
+  ],
+  "contradictions": [
+    {
+      "sujet": "Date de la préférence pour le suicide exprimée par Ronsin",
+      "versions": [
+        {
+          "version": "3 septembre 2011 : entretien Reuters contemporain.",
+          "sources": [
+            "S-hypotheses_sort_codex-03"
+          ]
+        },
+        {
+          "version": "3 septembre 2012 : rétrospective de 2019.",
+          "sources": [
+            "S-hypotheses_sort_codex-18"
+          ]
+        }
+      ],
+      "traitement_recommande": "Retenir la date contemporaine ; signaler l’écart."
+    },
+    {
+      "sujet": "Interprétation des préparatifs",
+      "versions": [
+        {
+          "version": "Ronsin maintient en 2011 une préférence pour le suicide.",
+          "sources": [
+            "S-hypotheses_sort_codex-03"
+          ]
+        },
+        {
+          "version": "Stabenrath, Martin et Galloux interprètent l’anticipation comme un argument de survie.",
+          "sources": [
+            "S-hypotheses_sort_codex-01",
+            "S-hypotheses_sort_codex-09",
+            "S-hypotheses_sort_codex-11"
+          ]
+        }
+      ],
+      "traitement_recommande": "Présenter auteurs et dates : désaccord d’interprétation, sans constatation du sort."
+    },
+    {
+      "sujet": "Une destination américaine",
+      "versions": [
+        {
+          "version": "Galloux recherche personnellement des traces aux États-Unis.",
+          "sources": [
+            "S-hypotheses_sort_codex-11"
+          ]
+        },
+        {
+          "version": "Martin juge ce pays peu plausible en juin 2026 parce que le suspect y serait connu.",
+          "sources": [
+            "S-hypotheses_sort_codex-09"
+          ]
+        }
+      ],
+      "traitement_recommande": "Aucune localisation confirmée ne découle de ces deux positions."
+    }
+  ],
+  "lacunes": [
+    "Pas de preuve documentaire consultée établissant une survie ou un décès après la dernière trace authentifiée ; aucune probabilité chiffrée ajoutée.",
+    "Inventaire actuel de l’arme, du silencieux, des munitions, du passeport et du contenu du bagage non obtenu.",
+    "Origine, validité ou usage éventuel d’autres papiers d’identité non établi ; aucun scénario de faux documents ajouté.",
+    "Comptes, ressources disponibles après la disparition, vente éventuelle de bijoux et financements occultes non vérifiés par pièces.",
+    "Courriels, lettres et pièces d’enquête originaux non consultés ; interprétations attribuées aux personnes ou médias qui les décrivent.",
+    "Superficie réellement fouillée, liste complète des cavités et limites exactes des campagnes non documentées.",
+    "Livres L’Ami impossible, Le Disparu, Un flic au cœur de l’affaire et ouvrage de la sœur non lus ; seuls entretiens ou résumés ouverts utilisés.",
+    "Les textes consultés évoquent un accueil religieux et des destinations lointaines ; aucune source indépendante probante ne permet d’affirmer une vie discrète actuelle en France ou dans un pays proche.",
+    "Profils ADN, empreintes et rapports d’expertise non consultés ; une identification future exigerait un contrôle authentifié, pas un rapprochement visuel ou stylistique.",
+    "Les bilans d’août et le synopsis de septembre traités dans decouverte_enquete ne fournissent pas une nouvelle preuve indépendante sur son sort."
+  ],
+  "outil": "codex"
+}

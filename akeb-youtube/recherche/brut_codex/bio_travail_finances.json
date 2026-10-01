@@ -1,0 +1,1053 @@
+{
+  "sujet": "Activités professionnelles, sociétés et situation matérielle de Xavier Dupont de Ligonnès",
+  "sources": [
+    {
+      "ref": "S-bio_travail_finances_codex-01",
+      "titre": "Xavier Dupont de Ligonnès : une double vie troublante",
+      "url": "https://www.20minutes.fr/societe/713065-20110426-societe-xavier-dupont-ligonnes-double-vie-troublante",
+      "auteur_organisme": "Frédéric Brenon avec Matthieu Goar",
+      "media": "20 Minutes",
+      "date_publication": "2011-04-26",
+      "date_faits": "2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Reportage ; certains éléments concernant l’épouse sont explicitement repris de BFMTV."
+    },
+    {
+      "ref": "S-bio_travail_finances_codex-02",
+      "titre": "EN CRISE — Les carnets intimes de Xavier Dupont de Ligonnès",
+      "url": "https://www.lemonde.fr/big-browser/article/2012/04/16/en-crise-les-carnets-intimes-de-xavier-dupont-de-ligonnes_5987320_4832693.html",
+      "auteur_organisme": "La rédaction du Monde.fr",
+      "media": "Le Monde / Big Browser",
+      "date_publication": "2012-04-16",
+      "date_faits": "2006-2008",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "reprise:Le Parisien",
+      "notes": "Passage visible lu ; reprise du dossier du Parisien du 2012-04-15, ensuite lu via une version d’archive distincte."
+    },
+    {
+      "ref": "S-bio_travail_finances_codex-03",
+      "titre": "Pourquoi le Var est un département central dans la vie de Xavier Dupont de Ligonnès",
+      "url": "https://www.nicematin.com/faits-divers/pourquoi-le-var-est-un-departement-central-dans-la-vie-de-xavier-dupont-de-ligonnes-761383",
+      "auteur_organisme": "Eric Marmottans",
+      "media": "Nice-Matin / Var-Matin",
+      "date_publication": "2022-04-19",
+      "date_faits": "1981-2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Texte accessible lu ; actualisé au 2025-06-28. Plusieurs épisodes reposent sur des souvenirs et sur Society."
+    },
+    {
+      "ref": "S-bio_travail_finances_codex-04",
+      "titre": "Xavier de Ligonnès pensait décrocher le jackpot",
+      "url": "https://www.leparisien.fr/faits-divers/xavier-de-ligonnes-pensait-decrocher-le-jackpot-27-04-2011-1424472.php",
+      "auteur_organisme": "Le Parisien ; entretien avec un ancien imprimeur partenaire",
+      "media": "Le Parisien",
+      "date_publication": "2011-04-27",
+      "date_faits": "2003-2008",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Entretien lu. Le nom d’emprunt du particulier est omis."
+    },
+    {
+      "ref": "S-bio_travail_finances_codex-05",
+      "titre": "Xavier Dupont de Ligonnès, la trajectoire d’un touche-à-tout",
+      "url": "https://www.leparisien.fr/faits-divers/xavier-dupont-de-ligonnes-la-trajectoire-d-un-touche-a-tout-30-04-2011-1429205.php",
+      "auteur_organisme": "Le Parisien, auteur non affiché",
+      "media": "Le Parisien",
+      "date_publication": "2011-04-30",
+      "date_faits": "1961-2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Reportage biographique et paroles de proches. Plusieurs dates divergent des publications ultérieures."
+    },
+    {
+      "ref": "S-bio_travail_finances_codex-06",
+      "titre": "Des Nantais croyants et discrets",
+      "url": "https://www.leparisien.fr/archives/des-nantais-croyants-et-discrets-22-04-2011-1418225.php",
+      "auteur_organisme": "Le Parisien, auteur non affiché",
+      "media": "Le Parisien",
+      "date_publication": "2011-04-22",
+      "date_faits": "1990-2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Portrait contemporain ; tableaux comptables et pièces scolaires non joints."
+    },
+    {
+      "ref": "S-bio_travail_finances_codex-07",
+      "titre": "Tuerie de Nantes : le passé trouble de Xavier Dupont de Ligonnès",
+      "url": "https://www.lemonde.fr/societe/article/2011/04/25/tuerie-de-nantes-le-passe-trouble-de-xavier-dupont-de-ligonnes_1512496_3224.html",
+      "auteur_organisme": "Anne-Hélène Dorison",
+      "media": "Le Monde",
+      "date_publication": "2011-04-25",
+      "date_faits": "jeunesse ; 2003-2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Passages visibles lus, notamment données financières et propos d’enquêteurs anonymes ; pièces originales non jointes."
+    },
+    {
+      "ref": "S-bio_travail_finances_codex-08",
+      "titre": "Xavier Dupont de Ligonnès : qui se cache derrière l’homme le plus recherché de France ?",
+      "url": "https://www.rtl.fr/actu/justice-faits-divers/xavier-dupont-de-ligonnes-qui-se-cache-derriere-l-homme-le-plus-recherche-de-france-7900525431",
+      "auteur_organisme": "RTL, auteur non affiché",
+      "media": "RTL",
+      "date_publication": "",
+      "date_faits": "1961-2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Texte de présentation lu ; date non affichée dans la version accessible. Audio non écouté."
+    },
+    {
+      "ref": "S-bio_travail_finances_codex-09",
+      "titre": "Affaire Dupont de Ligonnès : expertise psychiatrique par contumace",
+      "url": "https://www.nonfiction.fr/article-12592-affaire-dupont-de-ligonnes-expertise-psychiatrique-par-contumace.htm",
+      "auteur_organisme": "Emmanuelle Bornet",
+      "media": "Nonfiction",
+      "date_publication": "2026-02-02",
+      "date_faits": "1961-2011 ; livre 2025",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "autre",
+      "origine": "propre",
+      "notes": "Recension partiellement lue de L’Enigme publique n°1 de Daniel Zagury ; livre non lu. Analyse sans examen clinique de XDDL."
+    },
+    {
+      "ref": "S-bio_travail_finances_codex-10",
+      "titre": "Xavier Dupont de Ligonnès, portraits en famille",
+      "url": "https://www.lemonde.fr/societe/article/2011/07/27/xavier-dupont-de-ligonnes-portraits-en-famille_1540118_3224.html",
+      "auteur_organisme": "Claire Ané",
+      "media": "Le Monde",
+      "date_publication": "2011-07-27",
+      "date_faits": "1961-2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Passages biographiques visibles lus ; actualisation affichée au 2019-10-14. Les messages privés rapportés ne sont pas les originaux."
+    },
+    {
+      "ref": "S-bio_travail_finances_codex-11",
+      "titre": "SELREF, société 448135863",
+      "url": "https://www.societe.com/societe/selref-448135863.html",
+      "auteur_organisme": "Societe.com, données publiques d’entreprises",
+      "media": "Societe.com",
+      "date_publication": "",
+      "date_faits": "2003-2015",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "autre",
+      "origine": "reprise:INSEE et RNE",
+      "notes": "Fiche visible lue ; données affichées mises à jour au 2026-09-29. Champs payants non consultés."
+    },
+    {
+      "ref": "S-bio_travail_finances_codex-12",
+      "titre": "SELREF — SIREN 448135863",
+      "url": "https://www.pappers.fr/entreprise/selref-448135863",
+      "auteur_organisme": "Pappers, données INSEE/RNE/BODACC",
+      "media": "Pappers",
+      "date_publication": "",
+      "date_faits": "2003-2015",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "autre",
+      "origine": "reprise:BODACC et RNE",
+      "notes": "Fiche et annonces visibles lues ; mise à jour affichée au 2026-09-29. Aucun compte annuel numérisé disponible."
+    },
+    {
+      "ref": "S-bio_travail_finances_codex-13",
+      "titre": "SELREF (Pornic) : bilan, statuts et annonces",
+      "url": "https://entreprises.lefigaro.fr/selref-44/entreprise-448135863",
+      "auteur_organisme": "Le Figaro Entreprises, annonces BODACC",
+      "media": "Le Figaro Entreprises",
+      "date_publication": "",
+      "date_faits": "2003-2015",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "autre",
+      "origine": "reprise:BODACC",
+      "notes": "Annonces judiciaires visibles lues ; ne constitue pas une seconde origine indépendante du BODACC."
+    },
+    {
+      "ref": "S-bio_travail_finances_codex-14",
+      "titre": "Attestation d’immatriculation au Registre national des entreprises — SELREF",
+      "url": "https://data.inpi.fr/export/companies?format=pdf&ids=%5B%22448135863%22%5D",
+      "auteur_organisme": "Institut national de la propriété industrielle",
+      "media": "INPI",
+      "date_publication": "2026-06-26",
+      "date_faits": "2003-2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "officiel",
+      "origine": "propre",
+      "notes": "Attestation PDF d’une page entièrement lue ; document daté du 2026-06-26, données mises à jour au 2024-02-22."
+    },
+    {
+      "ref": "S-bio_travail_finances_codex-15",
+      "titre": "Les carnets intimes de Xavier Dupont de Ligonnès dévoilés",
+      "url": "https://www.ladepeche.fr/article/2012/04/16/1332099-les-carnets-intimes-de-xavier-dupont-de-ligonnes-devoiles.html",
+      "auteur_organisme": "La Dépêche du Midi, auteur non affiché",
+      "media": "La Dépêche du Midi",
+      "date_publication": "2012-04-16",
+      "date_faits": "2006-2008",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_regional",
+      "origine": "reprise:Le Parisien",
+      "notes": "Reprise explicitement attribuée au Parisien ; ne corrobore pas indépendamment les documents d’origine."
+    },
+    {
+      "ref": "S-bio_travail_finances_codex-16",
+      "titre": "Xavier Dupont de Ligonnès : ses écrits personnels dévoilés",
+      "url": "https://www.aufeminin.com/societe/xavier-dupont-de-ligonnes-ses-ecrits-personnels-devoiles-s2715.html",
+      "auteur_organisme": "Paulina Jonquères d’Oriola",
+      "media": "aufeminin",
+      "date_publication": "2012-04-16",
+      "date_faits": "2006-2008",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "autre",
+      "origine": "reprise:Le Parisien",
+      "notes": "Texte lu ; reprise des mêmes notes. Aucun fichier original consulté."
+    },
+    {
+      "ref": "S-bio_travail_finances_codex-17",
+      "titre": "Les notes secrètes de Xavier Dupont de Ligonnès",
+      "url": "https://www.leparisien.fr/nantes-44000/les-notes-secretes-de-xavier-dupont-de-ligonnes-15-04-2012-1955632.php",
+      "auteur_organisme": "Le Parisien, auteur non vérifiable",
+      "media": "Le Parisien",
+      "date_publication": "2012-04-15",
+      "date_faits": "2006-2008",
+      "date_consultation": "2026-10-01",
+      "acces": "inaccessible",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Original identifié par les liens des reprises ; deux ouvertures échouées. Aucune lecture directe."
+    },
+    {
+      "ref": "S-bio_travail_finances_codex-18",
+      "titre": "Le dernier repas des Ligonnès",
+      "url": "https://www.lemonde.fr/societe/article/2011/04/29/le-dernier-repas-des-ligonnes_1514579_3224.html",
+      "auteur_organisme": "Patricia Jolly",
+      "media": "Le Monde",
+      "date_publication": "2011-04-29",
+      "date_faits": "2011-04",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Passages utiles lus ; profil professionnel attribué au compte Copains d’avant d’Agnès."
+    },
+    {
+      "ref": "S-bio_travail_finances_codex-19",
+      "titre": "Detail by Entity Name — NETSURF CONCEPT LLC",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?aggregateId=flal-l03000006776-8c40b155-7a7a-4e9c-aa31-7fd67f781f09&directionType=Initial&inquirytype=EntityName&listNameOrder=NETSURANCE+L130000345420&searchNameOrder=NETSURFCONCEPT+L030000067760&searchTerm=Netsurance+LLC",
+      "auteur_organisme": "Florida Department of State, Division of Corporations",
+      "media": "Sunbiz",
+      "date_publication": "",
+      "date_faits": "2003-02-21/2004-10-01",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "officiel",
+      "origine": "propre",
+      "notes": "Fiche officielle entièrement lue. Dates d’effet, dépôt et dissolution distinguées ; documents PDF liés non consultés."
+    },
+    {
+      "ref": "S-bio_travail_finances_codex-20",
+      "titre": "Le rêve américain brisé de Xavier Dupont de Ligonnès",
+      "url": "https://www.leparisien.fr/faits-divers/le-reve-americain-brise-de-xavier-de-ligonnes-18-05-2011-1454884.php",
+      "auteur_organisme": "Le Parisien, auteur non affiché ; ami de longue date sous prénom modifié",
+      "media": "Le Parisien",
+      "date_publication": "2011-05-18",
+      "date_faits": "1990-2003",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Reportage et témoignage lus ; actualisation affichée au 2020-07-27. Prénom d’emprunt du particulier omis."
+    },
+    {
+      "ref": "S-bio_travail_finances_codex-21",
+      "titre": "Xavier Dupont de Ligonnès, 15 ans après : ces lettres qui révèlent un homme à double visage",
+      "url": "https://www.lejdd.fr/Societe/xavier-dupont-de-ligonnes-15-ans-apres-ces-lettres-qui-revelent-un-homme-a-double-visage-172614",
+      "auteur_organisme": "Marianne Lecach",
+      "media": "Le Journal du Dimanche",
+      "date_publication": "2026-04-28",
+      "date_faits": "1990-2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Bilan des quinze ans entièrement lu dans sa version textuelle ; lettres et comptes originaux non joints. Interprétations psychologiques non adoptées."
+    },
+    {
+      "ref": "S-bio_travail_finances_codex-22",
+      "titre": "Ligonnès avait créé une entreprise aux USA",
+      "url": "https://www.europe1.fr/societe/Ligonnes-avait-cree-une-entreprise-aux-USA-564702",
+      "auteur_organisme": "Europe1.fr",
+      "media": "Europe 1",
+      "date_publication": "2011-05-11",
+      "date_faits": "2003",
+      "date_consultation": "2026-10-01",
+      "acces": "inaccessible",
+      "type": "media_national",
+      "origine": "reprise:Le Figaro",
+      "notes": "403 lors de l’ouverture ; extrait de recherche non utilisé comme preuve."
+    },
+    {
+      "ref": "S-bio_travail_finances_codex-23",
+      "titre": "Agnès et les enfants suivaient Xavier les yeux fermés",
+      "url": "https://www.leparisien.fr/archives/agnes-et-les-enfants-suivaient-xavier-les-yeux-fermes-22-04-2011-1418175.php",
+      "auteur_organisme": "Le Parisien ; ami d’enfance anonyme interrogé",
+      "media": "Le Parisien",
+      "date_publication": "2011-04-22",
+      "date_faits": "années 1970-2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Entretien avec un témoin dont les impressions ne constituent pas une connaissance exhaustive du foyer."
+    },
+    {
+      "ref": "S-bio_travail_finances_codex-24",
+      "titre": "Dans la tête de Xavier de Ligonnès",
+      "url": "https://www.leparisien.fr/archives/dans-la-tete-de-xavier-de-ligonnes-15-04-2012-1955100.php",
+      "auteur_organisme": "Le Parisien, auteur non affiché",
+      "media": "Le Parisien",
+      "date_publication": "2012-04-15",
+      "date_faits": "2006-2008",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Version d’archive du même dossier éditorial, entièrement lue. Le journal dit avoir examiné une cinquantaine de textes Word ; fichiers originaux non consultés par cette passe."
+    },
+    {
+      "ref": "S-bio_travail_finances_codex-25",
+      "titre": "Annonces commerciales BODACC : SELREF, SIREN 448135863",
+      "url": "https://bodacc-datadila.opendatasoft.com/api/explore/v2.1/catalog/datasets/annonces-commerciales/records?where=search%28%22448135863%22%29&limit=20",
+      "auteur_organisme": "DILA / greffes des tribunaux de commerce de Saint-Nazaire et Nantes",
+      "media": "BODACC / données ouvertes DILA",
+      "date_publication": "",
+      "date_faits": "2008-2015",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "officiel",
+      "origine": "propre",
+      "notes": "Réponse JSON officielle de sept notices entièrement lue par requête HTTP Python ; web.open échoue. Jugements et dates de parution distingués."
+    }
+  ],
+  "assertions": [
+    {
+      "ref": "A-bio_travail_finances_codex-01",
+      "assertion": "SELREF, SIREN 448135863, est une SARL immatriculée le 2 avril 2003, avec un établissement à Pornic.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Attestation officielle INPI ; fiches d’entreprises reprenant les registres",
+      "date_faits": "2003-04-02",
+      "lieu": "Pornic",
+      "sources": [
+        "S-bio_travail_finances_codex-14",
+        "S-bio_travail_finances_codex-12",
+        "S-bio_travail_finances_codex-11"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Les agrégateurs reproduisent une même origine administrative.",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Création recoupée dans l’attestation RNE ouverte et lue ; celle-ci est la preuve principale."
+      }
+    },
+    {
+      "ref": "A-bio_travail_finances_codex-02",
+      "assertion": "Xavier Dupont de Ligonnès est répertorié comme gérant de SELREF.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Fiches RNE et reportage du Parisien",
+      "date_faits": "2003-2011",
+      "lieu": "Pornic",
+      "sources": [
+        "S-bio_travail_finances_codex-12",
+        "S-bio_travail_finances_codex-11",
+        "S-bio_travail_finances_codex-06"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Le registre repris et le reportage concordent sur le dirigeant ; l’attestation INPI consultée ne détaille pas ce mandat."
+      }
+    },
+    {
+      "ref": "A-bio_travail_finances_codex-03",
+      "assertion": "Un ancien imprimeur partenaire décrit une activité réelle de réseau hôtelier pour représentants, financée par des adhésions.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Ancien partenaire interrogé par Le Parisien",
+      "date_faits": "2003-2008",
+      "lieu": "France",
+      "sources": [
+        "S-bio_travail_finances_codex-04"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Le nom de son interlocuteur privé est omis.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Le secteur touristique concorde avec les fiches d’entreprise ; tarifs et contrats du réseau ne sont pas consultés."
+      }
+    },
+    {
+      "ref": "A-bio_travail_finances_codex-04",
+      "assertion": "L’imprimeur assure avoir été payé, mais n’avoir pas vu le chiffre d’affaires progresser.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Ancien partenaire de SELREF",
+      "date_faits": "2003-2008",
+      "lieu": "France",
+      "sources": [
+        "S-bio_travail_finances_codex-04"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Il décrit ses propres relations commerciales, sans audit de tous les créanciers.",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "Recherche de corroboration dans les registres : pas de factures ni de comptes numérisés permettant de confirmer son bilan."
+      }
+    },
+    {
+      "ref": "A-bio_travail_finances_codex-05",
+      "assertion": "La Route des commerciaux apparaît avant SELREF : Le Parisien situe l’association en 1999.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Le Parisien, portrait de 2011 ; recension Nonfiction",
+      "date_faits": "1999-2003",
+      "lieu": "France",
+      "sources": [
+        "S-bio_travail_finances_codex-09",
+        "S-bio_travail_finances_codex-20"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Le registre confirme SELREF en 2003 ; il ne date pas la création du réseau ni de l’association. Les récits ne doivent pas être fusionnés."
+      }
+    },
+    {
+      "ref": "A-bio_travail_finances_codex-06",
+      "assertion": "Un proche décrit le projet Carte Crystal, des cartes prépayées et des dépenses engagées avant les inscriptions attendues.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Ami cité dans le reportage du Parisien",
+      "date_faits": "années 2000",
+      "lieu": "France",
+      "sources": [
+        "S-bio_travail_finances_codex-05"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": false,
+      "notes": "Résultats chiffrés et contrat du projet non consultés.",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "Pas de pièce indépendante lue sur ce modèle ; le bilan JDD de 2026 rapproche aussi Crystal d’un prêt privé."
+      }
+    },
+    {
+      "ref": "A-bio_travail_finances_codex-07",
+      "assertion": "Le registre de Floride porte NETSURF CONCEPT LLC, avec Xavier P Dupont de Ligonnes comme manager.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Florida Department of State, Division of Corporations",
+      "date_faits": "2003",
+      "lieu": "Miami, Floride",
+      "sources": [
+        "S-bio_travail_finances_codex-19"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Le siège administratif ne prouve pas un logement personnel ni une activité rentable.",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Fiche officielle ouverte et entièrement lue ; corroboration du nom par les reportages français."
+      }
+    },
+    {
+      "ref": "A-bio_travail_finances_codex-08",
+      "assertion": "Pour Netsurf, le registre distingue l’effet du 21 février 2003, le dépôt du 25 février et la dissolution administrative du 1er octobre 2004.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Registre officiel de Floride",
+      "date_faits": "2003-02-21/2004-10-01",
+      "lieu": "Floride",
+      "sources": [
+        "S-bio_travail_finances_codex-19"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Motif : absence de rapport annuel ; aucune conclusion automatique sur le chiffre d’affaires.",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Dates administratives lues directement ; ne pas confondre date d’effet et date de dépôt."
+      }
+    },
+    {
+      "ref": "A-bio_travail_finances_codex-09",
+      "assertion": "Un ami présente Netsurf comme la continuation américaine du réseau français, après un voyage familial en 2002.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Ami de longue date sous prénom modifié, interrogé par Le Parisien",
+      "date_faits": "2002-2003",
+      "lieu": "Miami / France",
+      "sources": [
+        "S-bio_travail_finances_codex-20"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Sunbiz confirme l’existence et le calendrier de la société ; il ne démontre pas son modèle commercial ni le récit complet du voyage."
+      }
+    },
+    {
+      "ref": "A-bio_travail_finances_codex-10",
+      "assertion": "Un ami attribue des difficultés à l’embauche de six commerciaux et à une réclamation Urssaf de 40 000 euros.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Ami cité par Le Parisien",
+      "date_faits": "à partir de 2003",
+      "lieu": "France",
+      "sources": [
+        "S-bio_travail_finances_codex-20",
+        "S-bio_travail_finances_codex-21"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "Recherche des comptes et des annonces : aucune notification Urssaf originale ou origine indépendante du montant n’a été lue."
+      }
+    },
+    {
+      "ref": "A-bio_travail_finances_codex-11",
+      "assertion": "Le Parisien rapporte un résultat net 2008 de 3 200 euros et un déficit antérieur cumulé de 13 000 euros.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Le Parisien présentant des données comptables de SELREF",
+      "date_faits": "2008",
+      "lieu": "Pornic",
+      "sources": [
+        "S-bio_travail_finances_codex-06"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Chiffres publiés, distincts d’un revenu personnel ; rapport comptable original non consulté.",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "Dépôts répertoriés ; comptes originaux indisponibles pour contrôler les montants."
+      }
+    },
+    {
+      "ref": "A-bio_travail_finances_codex-12",
+      "assertion": "Revenu déclaré rapporté : environ 4 000 euros par an.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Informations financières rapportées dans les enquêtes de presse de 2011",
+      "date_faits": "avant avril 2011",
+      "lieu": "France",
+      "sources": [
+        "S-bio_travail_finances_codex-07",
+        "S-bio_travail_finances_codex-01"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Concordance médiatique, mais une même origine d’enquête est possible : pas deux déclarations indépendamment vérifiées."
+      }
+    },
+    {
+      "ref": "A-bio_travail_finances_codex-13",
+      "assertion": "Prêt privé rapporté : 50 000 euros auprès d’une ancienne relation.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Révélation à la police rapportée par Le Monde ; reprises et bilans de presse",
+      "date_faits": "années 2000-2011",
+      "lieu": "région parisienne",
+      "sources": [
+        "S-bio_travail_finances_codex-07",
+        "S-bio_travail_finances_codex-01",
+        "S-bio_travail_finances_codex-09",
+        "S-bio_travail_finances_codex-21"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Sources concordantes sur le montant, apparemment issues de la même créance ; origine indépendante et calendrier exact non établis."
+      }
+    },
+    {
+      "ref": "A-bio_travail_finances_codex-14",
+      "assertion": "La presse rapporte une maison louée, quatre voitures et des enfants dans le privé, malgré les difficultés financières décrites.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Reportages propres de 20 Minutes et du Parisien",
+      "date_faits": "2010-2011",
+      "lieu": "Nantes",
+      "sources": [
+        "S-bio_travail_finances_codex-01",
+        "S-bio_travail_finances_codex-05"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Éléments matériels recoupés ; les revenus permettant de les financer restent incomplets."
+      }
+    },
+    {
+      "ref": "A-bio_travail_finances_codex-15",
+      "assertion": "Les écrits publiés en 2012 sont décrits comme des fichiers numériques de 2006 à 2008 récupérés sur une sauvegarde Free.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Le Parisien, qui indique avoir consulté les textes ; reprises par Le Monde, La Dépêche et aufeminin",
+      "date_faits": "2006-2008 ; publication 2012",
+      "lieu": "espace numérique Free",
+      "sources": [
+        "S-bio_travail_finances_codex-02",
+        "S-bio_travail_finances_codex-15",
+        "S-bio_travail_finances_codex-16",
+        "S-bio_travail_finances_codex-24"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Une cinquantaine de textes Word auraient été consultés par le journal ; fichiers originaux non consultés ici.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Une autre version d’archive du dossier du Parisien a été trouvée et lue intégralement. Elle confirme l’origine journalistique et le récit de récupération ; aucune pièce technique d’enquête n’est disponible."
+      }
+    },
+    {
+      "ref": "A-bio_travail_finances_codex-16",
+      "assertion": "Un texte de décembre 2006 lui attribue une estimation de 7 000 euros de dépenses mensuelles.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Extrait d’un texte attribué à Xavier, publié directement par Le Parisien et repris",
+      "date_faits": "2006-12",
+      "lieu": "internet",
+      "sources": [
+        "S-bio_travail_finances_codex-02",
+        "S-bio_travail_finances_codex-15",
+        "S-bio_travail_finances_codex-24"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Autoévaluation attribuée ; ce chiffre n’est pas un budget audité.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Dossier d’origine lu ; autoévaluation, sans contrôle comptable indépendant."
+      }
+    },
+    {
+      "ref": "A-bio_travail_finances_codex-17",
+      "assertion": "La fermeture de l’établissement SELREF est enregistrée au 16 avril 2011.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Attestation officielle INPI",
+      "date_faits": "2011-04-16",
+      "lieu": "Pornic",
+      "sources": [
+        "S-bio_travail_finances_codex-14",
+        "S-bio_travail_finances_codex-12",
+        "S-bio_travail_finances_codex-11"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Date administrative, distincte d’un dernier jour d’activité réelle.",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Concordance de l’attestation et des fiches reprenant les mêmes données."
+      }
+    },
+    {
+      "ref": "A-bio_travail_finances_codex-18",
+      "assertion": "SELREF est placée en liquidation le 4 janvier 2012 ; la clôture pour insuffisance d’actif intervient le 14 janvier 2015.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "DILA / tribunal de commerce de Saint-Nazaire",
+      "date_faits": "2012-01-04/2015-01-14",
+      "lieu": "tribunal de commerce de Saint-Nazaire",
+      "sources": [
+        "S-bio_travail_finances_codex-12",
+        "S-bio_travail_finances_codex-13",
+        "S-bio_travail_finances_codex-25"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Dates des jugements, issues des notices A201200091112 et A201500282165.",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Sept notices BODACC originales lues via l’API officielle ; les deux dates de jugement concordent avec les reprises."
+      }
+    },
+    {
+      "ref": "A-bio_travail_finances_codex-19",
+      "assertion": "Le Monde rapporte qu’Agnès présentait une rémunération de 300 euros mensuels pour son travail scolaire.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Profil public d’Agnès, rapporté par Patricia Jolly",
+      "date_faits": "2011",
+      "lieu": "Nantes",
+      "sources": [
+        "S-bio_travail_finances_codex-18"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": false,
+      "notes": "Salaire attribué à un profil, sans bulletin de paie.",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "Le travail scolaire est corroboré dans le thème famille ; le montant précis ne l’est pas."
+      }
+    },
+    {
+      "ref": "A-bio_travail_finances_codex-20",
+      "assertion": "Le JDD de 2026 avance 350 000 euros d’héritage pour Agnès et 300 000 euros investis dans un projet américain.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Marianne Lecach dans un bilan journalistique des quinze ans",
+      "date_faits": "années 2000",
+      "lieu": "France / États-Unis",
+      "sources": [
+        "S-bio_travail_finances_codex-21"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "forte",
+      "centrale": true,
+      "notes": "Aucune succession, transaction ou compte bancaire consulté.",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "Recherche de la situation successorale : les autres pages lues mentionnent un héritage utilisé, sans recoupement indépendant de ces deux chiffres."
+      }
+    }
+  ],
+  "chronologie": [
+    {
+      "date": "2003-02-21",
+      "precision": "jour",
+      "evenement": "Date d’effet de Netsurf Concept LLC.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": [
+        "S-bio_travail_finances_codex-19"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2003-02-25",
+      "precision": "jour",
+      "evenement": "Dépôt de Netsurf au registre de Floride.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": [
+        "S-bio_travail_finances_codex-19"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2003-04-02",
+      "precision": "jour",
+      "evenement": "Immatriculation de SELREF.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": [
+        "S-bio_travail_finances_codex-14"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2004-10-01",
+      "precision": "jour",
+      "evenement": "Dissolution administrative de Netsurf pour défaut de rapport annuel.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": [
+        "S-bio_travail_finances_codex-19"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2006-12",
+      "precision": "mois",
+      "evenement": "Texte attribué à Xavier détaillant ses griefs financiers.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "sources": [
+        "S-bio_travail_finances_codex-15"
+      ],
+      "note": "Document original non lu."
+    },
+    {
+      "date": "2009-04-16",
+      "precision": "jour",
+      "evenement": "Publication de l’avis de dépôt des comptes clos le 30 mars 2008.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": [
+        "S-bio_travail_finances_codex-12",
+        "S-bio_travail_finances_codex-25"
+      ],
+      "note": "Date de parution de l’avis ; jour du dépôt non fourni."
+    },
+    {
+      "date": "2011-04-16",
+      "precision": "jour",
+      "evenement": "Fermeture administrative de l’établissement SELREF.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": [
+        "S-bio_travail_finances_codex-14"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2012-01-04",
+      "precision": "jour",
+      "evenement": "Liquidation judiciaire de SELREF.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": [
+        "S-bio_travail_finances_codex-12",
+        "S-bio_travail_finances_codex-13",
+        "S-bio_travail_finances_codex-25"
+      ],
+      "note": "Date du jugement, confirmée dans l’API officielle."
+    },
+    {
+      "date": "2012-04-16",
+      "precision": "jour",
+      "evenement": "Reprises médiatiques des textes personnels révélés la veille par Le Parisien.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "sources": [
+        "S-bio_travail_finances_codex-15",
+        "S-bio_travail_finances_codex-16"
+      ],
+      "note": "Deux reprises, une origine documentaire."
+    },
+    {
+      "date": "2015-01-14",
+      "precision": "jour",
+      "evenement": "Clôture de la liquidation pour insuffisance d’actif.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": [
+        "S-bio_travail_finances_codex-12",
+        "S-bio_travail_finances_codex-13",
+        "S-bio_travail_finances_codex-25"
+      ],
+      "note": "Date du jugement, confirmée dans l’API officielle."
+    },
+    {
+      "date": "2026-04-28",
+      "precision": "jour",
+      "evenement": "Le JDD revient sur les lettres et les difficultés matérielles.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "sources": [
+        "S-bio_travail_finances_codex-21"
+      ],
+      "note": "Publication d’un bilan, pas nouvelles pièces originales examinées."
+    },
+    {
+      "date": "2012-04-15",
+      "precision": "jour",
+      "evenement": "Le Parisien publie des extraits des textes personnels attribués à Xavier.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "sources": [
+        "S-bio_travail_finances_codex-24"
+      ],
+      "note": "Dossier journalistique lu ; fichiers originaux absents."
+    }
+  ],
+  "details_moins_connus": [
+    {
+      "detail": "L’APE inscrit au RNE est 7990Z, lié aux services de réservation et activités connexes.",
+      "interet_interpretation": "Précise le secteur déclaré de SELREF, sans confondre toutes ses initiatives commerciales.",
+      "sources": [
+        "S-bio_travail_finances_codex-14"
+      ]
+    },
+    {
+      "detail": "Un partenaire atteste des paiements reçus malgré une croissance décevante.",
+      "interet_interpretation": "Évite de résumer toutes les relations commerciales à des impayés.",
+      "sources": [
+        "S-bio_travail_finances_codex-04"
+      ]
+    }
+  ],
+  "contradictions": [
+    {
+      "sujet": "Loyer mensuel",
+      "versions": [
+        {
+          "version": "1 400 euros dans le portrait du Monde.",
+          "sources": [
+            "S-bio_travail_finances_codex-10"
+          ]
+        },
+        {
+          "version": "1 600 euros dans le reportage d’avril du Monde.",
+          "sources": [
+            "S-bio_travail_finances_codex-07"
+          ]
+        }
+      ],
+      "traitement_recommande": "Bail non consulté : ne pas choisir un montant ni inventer une évolution chronologique."
+    },
+    {
+      "sujet": "Association, réseau et société",
+      "versions": [
+        {
+          "version": "Route des commerciaux située en 1999.",
+          "sources": [
+            "S-bio_travail_finances_codex-06",
+            "S-bio_travail_finances_codex-09",
+            "S-bio_travail_finances_codex-20"
+          ]
+        },
+        {
+          "version": "SELREF immatriculée en 2003.",
+          "sources": [
+            "S-bio_travail_finances_codex-14"
+          ]
+        }
+      ],
+      "traitement_recommande": "Distinguer les personnes morales et les marques. Ces dates ne sont contradictoires que si l’on assimile abusivement les structures."
+    },
+    {
+      "sujet": "Début de la gérance SELREF",
+      "versions": [
+        {
+          "version": "15 avril 2003 sur Pappers.",
+          "sources": [
+            "S-bio_travail_finances_codex-12"
+          ]
+        },
+        {
+          "version": "9 mars 2004 sur Societe.com.",
+          "sources": [
+            "S-bio_travail_finances_codex-11"
+          ]
+        }
+      ],
+      "traitement_recommande": "Signaler l’écart ; obtenir un historique RNE ou un acte de nomination avant de choisir."
+    },
+    {
+      "sujet": "Cessation réelle et fermeture administrative",
+      "versions": [
+        {
+          "version": "Activité arrêtée dès 2007 selon Le Monde, au conditionnel.",
+          "sources": [
+            "S-bio_travail_finances_codex-07"
+          ]
+        },
+        {
+          "version": "L’imprimeur décrit une collaboration jusqu’en 2008.",
+          "sources": [
+            "S-bio_travail_finances_codex-04"
+          ]
+        },
+        {
+          "version": "Établissement fermé administrativement le 16 avril 2011.",
+          "sources": [
+            "S-bio_travail_finances_codex-14"
+          ]
+        }
+      ],
+      "traitement_recommande": "Ces dates ne mesurent pas le même événement ; ne pas prendre la fermeture pour preuve d’activité commerciale continue."
+    },
+    {
+      "sujet": "Comptes publiés",
+      "versions": [
+        {
+          "version": "Le Parisien dit ne plus voir de bilans publiés depuis 2008.",
+          "sources": [
+            "S-bio_travail_finances_codex-06"
+          ]
+        },
+        {
+          "version": "Un avis de dépôt pour l’exercice clos en mars 2008 est publié le 16 avril 2009.",
+          "sources": [
+            "S-bio_travail_finances_codex-12",
+            "S-bio_travail_finances_codex-25"
+          ]
+        }
+      ],
+      "traitement_recommande": "Distinguer année d’exercice, dépôt et publication de l’avis ; cela ne prouve pas des comptes pour 2009."
+    },
+    {
+      "sujet": "Impression financière d’un proche et informations d’enquête",
+      "versions": [
+        {
+          "version": "Un ami d’enfance n’avait pas perçu de difficulté financière.",
+          "sources": [
+            "S-bio_travail_finances_codex-23"
+          ]
+        },
+        {
+          "version": "Faibles revenus et créance privée sont publiés en 2011.",
+          "sources": [
+            "S-bio_travail_finances_codex-07"
+          ]
+        }
+      ],
+      "traitement_recommande": "Une impression extérieure ne renseigne pas le bilan du foyer ; ne pas affirmer que tous ses proches connaissaient ses dettes."
+    },
+    {
+      "sujet": "Date de publication de la clôture 2015",
+      "versions": [
+        {
+          "version": "Champ dateparution API :2015-10-02 pour A201500282165.",
+          "sources": [
+            "S-bio_travail_finances_codex-25"
+          ]
+        },
+        {
+          "version": "Publication indiquée le 10/02/2015 dans les reprises.",
+          "sources": [
+            "S-bio_travail_finances_codex-12",
+            "S-bio_travail_finances_codex-13"
+          ]
+        }
+      ],
+      "traitement_recommande": "Ne pas arbitrer la date de parution sans PDF officiel ; la date du jugement retenue reste14 janvier 2015."
+    }
+  ],
+  "lacunes": [
+    "Comptes annuels originaux, déclarations fiscales, bilans 2010-2011 et relevés personnels non consultés.",
+    "Montants 3 200 euros et 13 000 euros issus du Parisien : absence de scan comptable permettant leur contrôle.",
+    "Contrat du prêt privé de 50 000 euros, échéances et décision judiciaire d’origine non consultés.",
+    "Avis Urssaf de 40 000 euros et documents d’emploi des six commerciaux non consultés.",
+    "Montants de succession et d’investissement cités par le JDD en 2026 non corroborés indépendamment.",
+    "Prêts familiaux signalés dans les portraits, sans inventaire complet des créanciers ni pièces bancaires.",
+    "Bail original absent ; contradiction 1 400 / 1 600 euros non résolue.",
+    "Recettes réelles de Netsurf et détail des projets informatiques/publicitaires non vérifiés ; seul le registre américain est lu.",
+    "Originaux des fichiers personnels, authentification technique et dossier de récupération absents ; le dossier journalistique du Parisien est lu via une autre version d’archive.",
+    "Livres complets de Bruno de Stabenrath, Daniel Zagury et des auteurs Society non lus : entretiens, recension ou extrait seulement.",
+    "Aucun bilan financier complet ne permet de chiffrer les ressources disponibles après la disparition ni de conclure à un mobile."
+  ],
+  "outil": "codex"
+}

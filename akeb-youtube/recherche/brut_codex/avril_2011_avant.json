@@ -1,0 +1,762 @@
+{
+  "sujet": "Décembre 2010 à la période des faits d'avril 2011 — seconde recherche indépendante pour Les Mystères d'Akeb",
+  "outil": "codex",
+  "sources": [
+    {
+      "ref": "S-avril_2011_avant_codex-01",
+      "titre": "Tuerie de Nantes : Le père s'entraînait régulièrement au tir avant le drame",
+      "url": "https://www.20minutes.fr/societe/712447-20110423-societe-tuerie-nantes-pere-entrainait-regulierement-tir-avant-drame",
+      "auteur_organisme": "E.M. / AFP",
+      "media": "20 Minutes",
+      "date_publication": "2011-04-23",
+      "date_faits": "2010-12/2011-04-01",
+      "date_consultation": "2026-10-01",
+      "acces": "inaccessible",
+      "type": "agence",
+      "origine": "AFP",
+      "notes": "Cache miss, puis échec d'ouverture du résultat. Extrait moteur exclu des assertions."
+    },
+    {
+      "ref": "S-avril_2011_avant_codex-02",
+      "titre": "Nantes : quand le père prétendait être « un prêtre tireur d'élite »",
+      "url": "https://www.leparisien.fr/faits-divers/nantes-quand-le-pere-pretendait-etre-un-pretre-tireur-d-elite-27-04-2011-1424471.php",
+      "auteur_organisme": "Le Parisien, auteur non indiqué",
+      "media": "Le Parisien",
+      "date_publication": "2011-04-27",
+      "date_faits": "2011-03",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Entretien avec l'armurier ; la mention d'un décès du père en février diverge des autres sources."
+    },
+    {
+      "ref": "S-avril_2011_avant_codex-03",
+      "titre": "Dupont de Ligonnès : Il n'y avait rien d'excessif dans leur foi",
+      "url": "https://www.20minutes.fr/societe/712093-20110422-societe-dupont-ligonnes-rien-excessif-foi",
+      "auteur_organisme": "Frédéric Brenon (métadonnée du résultat)",
+      "media": "20 Minutes",
+      "date_publication": "2011-04-22",
+      "date_faits": "2011-04",
+      "date_consultation": "2026-10-01",
+      "acces": "inaccessible",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Ouverture refusée par robots.txt. Aucun contenu du résultat moteur utilisé comme preuve."
+    },
+    {
+      "ref": "S-avril_2011_avant_codex-04",
+      "titre": "La nuit du meurtre, la découverte des corps, la dernière image du fugitif… Les grandes dates de l'affaire Dupont de Ligonnès",
+      "url": "https://www.leparisien.fr/faits-divers/la-nuit-du-meurtre-la-decouverte-des-corps-la-derniere-image-du-fugitif-les-grandes-dates-de-laffaire-dupont-de-ligonnes-03-04-2026-J27GNQSCXJGMNKNKA2O2LVG7KY.php",
+      "auteur_organisme": "Manon Aublanc",
+      "media": "Le Parisien",
+      "date_publication": "2026-04-03",
+      "date_faits": "2011-04",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Bilan rétrospectif ; ordre cinéma/restaurant et repas avec Thomas à confronter aux articles anciens."
+    },
+    {
+      "ref": "S-avril_2011_avant_codex-05",
+      "titre": "Xavier Dupont de Ligonnès assidu au stand de tir",
+      "url": "https://angers.maville.com/actu/actudet_-Xavier-Dupont-de-Ligonnes-assidu-au-stand-de-tir_-1777176_actu.Htm",
+      "auteur_organisme": "Jocelyne Rat / Ouest-France",
+      "media": "Ouest-France via Maville",
+      "date_publication": "2011-04-24",
+      "date_faits": "2010-12/2011-04-01",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_regional",
+      "origine": "reprise:Ouest-France",
+      "notes": "Interview d'Alain Neutre ; début en décembre et autonomie en février."
+    },
+    {
+      "ref": "S-avril_2011_avant_codex-06",
+      "titre": "La chronologie de l'affaire Dupont de Ligonnès en 15 dates",
+      "url": "https://edito.nicematin.com/omalval/XDDL/xddl.html",
+      "auteur_organisme": "Nice-Matin, signature non affichée",
+      "media": "Nice-Matin",
+      "date_publication": "",
+      "date_faits": "2011-04",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Chronologie ancienne ; date de publication non affichée, ne pas confondre avec date de collecte. non indiquée."
+    },
+    {
+      "ref": "S-avril_2011_avant_codex-07",
+      "titre": "Les dates clés de l'affaire",
+      "url": "https://www.leparisien.fr/archives/les-dates-cles-de-l-affaire-03-09-2011-1590618.php",
+      "auteur_organisme": "Le Parisien, auteur non indiqué",
+      "media": "Le Parisien",
+      "date_publication": "2011-09-03",
+      "date_faits": "2011-04",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Dîner près d'Angers le 4, retour à Nantes le lendemain."
+    },
+    {
+      "ref": "S-avril_2011_avant_codex-08",
+      "titre": "Nantes : la chronologie des derniers jours de la famille",
+      "url": "https://www.estrepublicain.fr/actualite/2011/04/22/nantes-la-chronologie-des-derniers-jours-de-la-famille",
+      "auteur_organisme": "L'Est Républicain / dépêche d'agence non explicitement signée",
+      "media": "L'Est Républicain",
+      "date_publication": "2011-04-22",
+      "date_faits": "2011-04",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_regional",
+      "origine": "reprise:agence non identifiée",
+      "notes": "Plusieurs mises à jour ; origine exacte non affichée, regroupée prudemment avec AFP pour compter les corroborations. Les versions internes divergent aussi."
+    },
+    {
+      "ref": "S-avril_2011_avant_codex-09",
+      "titre": "Les derniers jours de la famille",
+      "url": "https://www.estrepublicain.fr/actualite/2011/05/22/les-derniers-jours-de-la-famille",
+      "auteur_organisme": "L'Est Républicain, auteur non indiqué",
+      "media": "L'Est Républicain",
+      "date_publication": "2011-05-22",
+      "date_faits": "2011-02/2011-04",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Origine rédactionnelle non explicitée : ne suffit pas seule à compter une source indépendante supplémentaire."
+    },
+    {
+      "ref": "S-avril_2011_avant_codex-10",
+      "titre": "Quintuple meurtre de Nantes : recherches vaines, scénario machiavélique",
+      "url": "https://www.dna.fr/actualite/2011/04/23/quintuple-meurtre-de-nantes-recherches-vaines-scenario-machiavelique",
+      "auteur_organisme": "AFP, reprise non signée explicitement",
+      "media": "Dernières Nouvelles d'Alsace",
+      "date_publication": "2011-04-23",
+      "date_faits": "2011-02/2011-04",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "agence",
+      "origine": "AFP",
+      "notes": "Texte de dépêche avec entretiens attribués à l'AFP ; achats et informations précoces, encore provisoires."
+    },
+    {
+      "ref": "S-avril_2011_avant_codex-11",
+      "titre": "Affaire Dupont de Ligonnès : de la ruine financière au quintuple meurtre, le récit d'une chute vertigineuse",
+      "url": "https://www.nicematin.com/faits-divers/affaire-dupont-de-ligonnes-de-la-ruine-financiere-au-quintuple-meurtre-le-recit-d-une-chute-vertigineuse-10675691",
+      "auteur_organisme": "Eric Marmottans",
+      "media": "Nice-Matin / Var-Matin",
+      "date_publication": "2026-04-04",
+      "date_faits": "2011-01",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Article annoncé réservé aux abonnés ; seuls les passages retournés ont été lus."
+    },
+    {
+      "ref": "S-avril_2011_avant_codex-12",
+      "titre": "Avis de décès de Monsieur Bernard Dupont de Ligonnes",
+      "url": "https://www.libramemoria.com/defunts/dupont-de-ligonnes-bernard/61c50c9ade684735b6767c67a267a2a6",
+      "auteur_organisme": "Libra Memoria, données déclarées issues de l'INSEE",
+      "media": "Libra Memoria",
+      "date_publication": "2011-01-20",
+      "date_faits": "2011-01-20",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "autre",
+      "origine": "reprise:INSEE",
+      "notes": "Notice publique secondaire ; fichier INSEE original et acte de décès non consultés."
+    },
+    {
+      "ref": "S-avril_2011_avant_codex-13",
+      "titre": "De la tuerie à l'arrestation de Xavier Dupont de Ligonnès : chronologie d'une mystérieuse affaire",
+      "url": "https://www.leparisien.fr/faits-divers/de-la-tuerie-a-l-arrestation-de-xavier-dupont-de-ligonnes-chronologie-d-une-mysterieuse-affaire-11-10-2019-8171469.php",
+      "auteur_organisme": "Le Parisien",
+      "media": "Le Parisien",
+      "date_publication": "2019-10-11",
+      "date_faits": "2010-12/2011-04",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "reprise:Le Parisien",
+      "notes": "Sections historiques lues. Édit du 12/10/2019 : annonce d'arrestation devenue caduque ; ne pas utiliser cette annonce comme fait."
+    },
+    {
+      "ref": "S-avril_2011_avant_codex-14",
+      "titre": "Xavier Dupont de Ligonnès, un mythomane",
+      "url": "https://www.europe1.fr/faits-divers/Xavier-Dupont-de-Ligonnes-un-mythomane-314226",
+      "auteur_organisme": "Europe 1 / Pierre-Baptiste Vanzini (métadonnée moteur)",
+      "media": "Europe 1",
+      "date_publication": "2011-04-27",
+      "date_faits": "2011-03",
+      "date_consultation": "2026-10-01",
+      "acces": "inaccessible",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "403 ; aucun extrait moteur retenu comme corroboration."
+    },
+    {
+      "ref": "S-avril_2011_avant_codex-15",
+      "titre": "Nantes : le père avait acheté un silencieux",
+      "url": "https://www.europe1.fr/faits-divers/Nantes-le-pere-avait-achete-un-silencieux-314788",
+      "auteur_organisme": "Europe 1 avec agences (métadonnée moteur)",
+      "media": "Europe 1",
+      "date_publication": "2011-05-01",
+      "date_faits": "2011-03-12",
+      "date_consultation": "2026-10-01",
+      "acces": "inaccessible",
+      "type": "agence",
+      "origine": "reprise:agences",
+      "notes": "403 ; annonce du procureur non lue sur cette page."
+    }
+  ],
+  "assertions": [
+    {
+      "ref": "A-avril_2011_avant_codex-01",
+      "assertion": "Première venue au stand en décembre 2010, selon Alain Neutre.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Alain Neutre, président du club, interrogé par Jocelyne Rat",
+      "date_faits": "2010-12",
+      "lieu": "La Jonelière, Nantes",
+      "sources": [
+        "S-avril_2011_avant_codex-05"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Le récit du moniteur repris par Le Parisien situe aussi l'initiation en décembre ; deux reportages, sans document d'inscription consulté."
+      }
+    },
+    {
+      "ref": "A-avril_2011_avant_codex-02",
+      "assertion": "Licence datée du 2 février 2011 par L’Est Républicain.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Chronologie journalistique, document administratif non consulté",
+      "date_faits": "2011-02-02",
+      "lieu": "Nantes",
+      "sources": [
+        "S-avril_2011_avant_codex-09",
+        "S-avril_2011_avant_codex-05"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Ouest-France confirme l'autonomie en février, sans jour précis ; départ AFP/20 Minutes inaccessible."
+      }
+    },
+    {
+      "ref": "A-avril_2011_avant_codex-03",
+      "assertion": "Le décès du père est daté du 20 janvier 2011 par Nice-Matin et une notice déclarant reprendre l'INSEE.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Eric Marmottans ; Libra Memoria / INSEE",
+      "date_faits": "2011-01-20",
+      "lieu": "Levallois-Perret",
+      "sources": [
+        "S-avril_2011_avant_codex-11",
+        "S-avril_2011_avant_codex-12"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Acte original non lu ; lien familial donné par le reportage.",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Deux origines concordent ; la mention février du Parisien ancien est conservée en contradiction."
+      }
+    },
+    {
+      "ref": "A-avril_2011_avant_codex-04",
+      "assertion": "Carabine .22 LR récupérée après le décès paternel.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Éléments d'enquête rapportés par AFP/DNA et la presse",
+      "date_faits": "2011-01/2011-02",
+      "lieu": "",
+      "sources": [
+        "S-avril_2011_avant_codex-02",
+        "S-avril_2011_avant_codex-10",
+        "S-avril_2011_avant_codex-11"
+      ],
+      "nb_sources_independantes": 3,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Pratique de décembre antérieure à cet héritage.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Calibre et provenance concordent ; la date exacte de récupération n'est pas établie."
+      }
+    },
+    {
+      "ref": "A-avril_2011_avant_codex-05",
+      "assertion": "Alain Neutre : quatre visites fin mars, dernière le 1er avril.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Alain Neutre et responsables du stand via Ouest-France et AFP",
+      "date_faits": "2011-03/2011-04-01",
+      "lieu": "Nantes",
+      "sources": [
+        "S-avril_2011_avant_codex-05",
+        "S-avril_2011_avant_codex-10"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Ouest-France et dépêche AFP concordent sur fréquence et dernière date."
+      }
+    },
+    {
+      "ref": "A-avril_2011_avant_codex-06",
+      "assertion": "Initiation de deux fils, identifiés comme Thomas et Benoît par l’AFP.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Responsables du stand via Ouest-France ; dépêche AFP",
+      "date_faits": "2011-03",
+      "lieu": "Nantes",
+      "sources": [
+        "S-avril_2011_avant_codex-05",
+        "S-avril_2011_avant_codex-10"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "moyenne",
+      "centrale": false,
+      "notes": "Leur connaissance des faits reste inconnue.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Le reportage régional confirme deux fils sans les identifier ; les prénoms reposent ici sur l'AFP."
+      }
+    },
+    {
+      "ref": "A-avril_2011_avant_codex-07",
+      "assertion": "Achats de munitions et d’un silencieux datés du 12 mars.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Chronologie de L'Est Républicain ; éléments précoces d'enquête via AFP",
+      "date_faits": "2011-03-12",
+      "lieu": "Nantes",
+      "sources": [
+        "S-avril_2011_avant_codex-09",
+        "S-avril_2011_avant_codex-10"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Origine du tableau non précisée.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "La dépêche confirme ce jour pour les munitions ; la même date pour le silencieux reste à corroborer par une annonce du parquet lue."
+      }
+    },
+    {
+      "ref": "A-avril_2011_avant_codex-08",
+      "assertion": "Un armurier raconte qu'en mars XDDL s'est présenté comme prêtre et a demandé une arme de poing, sans en obtenir.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Armurier de la région nantaise interrogé par Le Parisien",
+      "date_faits": "2011-03",
+      "lieu": "Région nantaise",
+      "sources": [
+        "S-avril_2011_avant_codex-02"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Récit attribué au commerçant, pas identité ni qualité religieuse établies.",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "La reprise Europe 1 n'a pu être lue ; absence de corroboration indépendante accessible."
+      }
+    },
+    {
+      "ref": "A-avril_2011_avant_codex-09",
+      "assertion": "Ciment et outils : 1er avril ; chaux : 2 avril.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Chronologie de L'Est Républicain ; synthèse Nice-Matin",
+      "date_faits": "2011-04-01/2011-04-02",
+      "lieu": "Agglomération nantaise",
+      "sources": [
+        "S-avril_2011_avant_codex-09",
+        "S-avril_2011_avant_codex-06"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Achats rapportés.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "La synthèse régionale confirme les deux jours mais ne fournit pas les justificatifs ; indépendance documentaire inconnue."
+      }
+    },
+    {
+      "ref": "A-avril_2011_avant_codex-10",
+      "assertion": "Achats de sacs en toile de jute rapportés, sans date précise.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Éléments d'enquête rapportés par la dépêche AFP",
+      "date_faits": "2011-03/2011-04",
+      "lieu": "",
+      "sources": [
+        "S-avril_2011_avant_codex-10",
+        "S-avril_2011_avant_codex-08"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": false,
+      "notes": "",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "La chronologie EBRA reprend les mêmes achats, sans facture ni origine indépendante explicite."
+      }
+    },
+    {
+      "ref": "A-avril_2011_avant_codex-11",
+      "assertion": "Restaurant et cinéma avec trois enfants le 3 avril ; ordre divergent.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Chronologies journalistiques",
+      "date_faits": "2011-04-03",
+      "lieu": "Nantes",
+      "sources": [
+        "S-avril_2011_avant_codex-09",
+        "S-avril_2011_avant_codex-04"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Les activités concordent ; l'ordre varie et le message évoqué n'a pas été écouté."
+      }
+    },
+    {
+      "ref": "A-avril_2011_avant_codex-12",
+      "assertion": "Absences d’Anne et Benoît dès le 4 avril, justifiées par la maladie.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Olivier Bouissou, directeur de La Perverie, via presse de 2011",
+      "date_faits": "2011-04-04",
+      "lieu": "La Perverie, Nantes",
+      "sources": [
+        "S-avril_2011_avant_codex-08",
+        "S-avril_2011_avant_codex-06",
+        "S-avril_2011_avant_codex-10"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Chronologie régionale et dépêche concordent ; on rapporte l'explication reçue, sans affirmer une maladie réelle."
+      }
+    },
+    {
+      "ref": "A-avril_2011_avant_codex-13",
+      "assertion": "L’établissement expliquait encore aux camarades les absences par la maladie.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Olivier Bouissou via L'Est Républicain",
+      "date_faits": "2011-04",
+      "lieu": "Nantes",
+      "sources": [
+        "S-avril_2011_avant_codex-08"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": false,
+      "notes": "Information disponible alors, avant les résultats de l’enquête.",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "Article initial 20 Minutes bloqué ; pas d'autre compte rendu direct lu sur ce détail."
+      }
+    },
+    {
+      "ref": "A-avril_2011_avant_codex-14",
+      "assertion": "Chronologies anciennes : dîner père/Thomas près d’Angers le 4 avril.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Le Parisien 2011 ; chronologies EBRA et Nice-Matin",
+      "date_faits": "2011-04-04",
+      "lieu": "Avrillé, près d'Angers",
+      "sources": [
+        "S-avril_2011_avant_codex-07",
+        "S-avril_2011_avant_codex-09",
+        "S-avril_2011_avant_codex-06"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Plusieurs tableaux concordent mais provenance commune possible ; source originale du restaurant non lue."
+      }
+    },
+    {
+      "ref": "A-avril_2011_avant_codex-15",
+      "assertion": "Retour de Thomas à Nantes le 5 avril, demandé par son père.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Chronologies Le Parisien et L'Est Républicain",
+      "date_faits": "2011-04-05",
+      "lieu": "Angers / Nantes",
+      "sources": [
+        "S-avril_2011_avant_codex-07",
+        "S-avril_2011_avant_codex-09"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Les deux récits concordent ; ils ne donnent pas ici deux vérifications originales distinctes."
+      }
+    },
+    {
+      "ref": "A-avril_2011_avant_codex-16",
+      "assertion": "Décès reconstruits : nuit du 3 au 4 avril ; Thomas, nuit du 5 au 6.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Chronologie de L'Est Républicain attribuant des dates probables à l'enquête",
+      "date_faits": "2011-04-03/2011-04-06",
+      "lieu": "Nantes",
+      "sources": [
+        "S-avril_2011_avant_codex-09",
+        "S-avril_2011_avant_codex-06"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Dates probables.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Le tableau Nice-Matin conserve aussi une alternative pour Thomas : nuit du 4 au 5 ou suivante."
+      }
+    }
+  ],
+  "chronologie": [
+    {
+      "date": "2010-12",
+      "precision": "mois",
+      "evenement": "Début du tir rapporté par le président.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "sources": [
+        "S-avril_2011_avant_codex-05"
+      ],
+      "note": "Avant le décès du père."
+    },
+    {
+      "date": "2011-01-20",
+      "precision": "jour",
+      "evenement": "Décès du père rapporté par deux origines concordantes.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": [
+        "S-avril_2011_avant_codex-11",
+        "S-avril_2011_avant_codex-12"
+      ],
+      "note": "Acte original non consulté."
+    },
+    {
+      "date": "2011-02-02",
+      "precision": "jour",
+      "evenement": "Licence selon une chronologie journalistique.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-avril_2011_avant_codex-09"
+      ],
+      "note": "Jour non confirmé administrativement."
+    },
+    {
+      "date": "2011-03-12",
+      "precision": "jour",
+      "evenement": "Achats rapportés.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-avril_2011_avant_codex-09",
+        "S-avril_2011_avant_codex-10"
+      ],
+      "note": "Date du silencieux incertaine."
+    },
+    {
+      "date": "2011-04-01",
+      "precision": "jour",
+      "evenement": "Dernière séance rapportée au stand.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "sources": [
+        "S-avril_2011_avant_codex-05",
+        "S-avril_2011_avant_codex-10"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2011-04-01",
+      "precision": "jour",
+      "evenement": "Achats d'outils et de ciment rapportés.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-avril_2011_avant_codex-09"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2011-04-02",
+      "precision": "jour",
+      "evenement": "Achat de chaux rapporté.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-avril_2011_avant_codex-09"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2011-04-03",
+      "precision": "jour",
+      "evenement": "Sortie familiale rapportée.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-avril_2011_avant_codex-09"
+      ],
+      "note": "Ordre restaurant/cinéma incertain."
+    },
+    {
+      "date": "2011-04-04",
+      "precision": "jour",
+      "evenement": "Absences scolaires justifiées par maladie.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "sources": [
+        "S-avril_2011_avant_codex-08"
+      ],
+      "note": "Motif transmis, pas diagnostic."
+    },
+    {
+      "date": "2011-04-04",
+      "precision": "jour",
+      "evenement": "Repas père-fils près d'Angers selon les chronologies anciennes.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-avril_2011_avant_codex-07"
+      ],
+      "note": "Confronter au récit rétrospectif."
+    },
+    {
+      "date": "2011-04-05",
+      "precision": "jour",
+      "evenement": "Retour de Thomas à Nantes selon les articles.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-avril_2011_avant_codex-09"
+      ],
+      "note": ""
+    }
+  ],
+  "details_moins_connus": [
+    {
+      "detail": "La pratique du tir est rapportée avant la récupération de la carabine paternelle.",
+      "interet_interpretation": "Empêche de présenter l'héritage comme point de départ certain du tir.",
+      "sources": [
+        "S-avril_2011_avant_codex-05",
+        "S-avril_2011_avant_codex-11"
+      ]
+    },
+    {
+      "detail": "L’école disposait de justifications d’absence.",
+      "interet_interpretation": "Restituer son information au moment des faits.",
+      "sources": [
+        "S-avril_2011_avant_codex-08"
+      ]
+    }
+  ],
+  "contradictions": [
+    {
+      "sujet": "Décès du père : janvier ou février",
+      "versions": [
+        {
+          "version": "20 janvier 2011.",
+          "sources": [
+            "S-avril_2011_avant_codex-11",
+            "S-avril_2011_avant_codex-12"
+          ]
+        },
+        {
+          "version": "Février dans l'article ancien.",
+          "sources": [
+            "S-avril_2011_avant_codex-02"
+          ]
+        }
+      ],
+      "traitement_recommande": "Retenir le 20 janvier avec sa provenance ; signaler la divergence ancienne, sans déplacer le début du tir."
+    },
+    {
+      "sujet": "Repas avec Thomas : date, lieu, un ou deux repas ?",
+      "versions": [
+        {
+          "version": "Le 4 avril près d'Angers.",
+          "sources": [
+            "S-avril_2011_avant_codex-07",
+            "S-avril_2011_avant_codex-09",
+            "S-avril_2011_avant_codex-06"
+          ]
+        },
+        {
+          "version": "Le 5 avril après son retour à Nantes.",
+          "sources": [
+            "S-avril_2011_avant_codex-04"
+          ]
+        }
+      ],
+      "traitement_recommande": "Ne pas conclure à deux repas sans pièce complémentaire. Vérifier les témoignages et transactions originales."
+    },
+    {
+      "sujet": "Date probable du décès de Thomas",
+      "versions": [
+        {
+          "version": "Nuit du 5 au 6 dans le tableau de mai.",
+          "sources": [
+            "S-avril_2011_avant_codex-09"
+          ]
+        },
+        {
+          "version": "Nuit du 4 au 5 ou suivante.",
+          "sources": [
+            "S-avril_2011_avant_codex-06"
+          ]
+        },
+        {
+          "version": "Résumé de 2019 regroupant les cinq décès les 3-4 avril.",
+          "sources": [
+            "S-avril_2011_avant_codex-13"
+          ]
+        }
+      ],
+      "traitement_recommande": "Présenter l'évolution des reconstructions ; préserver l'incertitude concernant Thomas."
+    },
+    {
+      "sujet": "Ordre des activités du 3 avril",
+      "versions": [
+        {
+          "version": "Restaurant puis cinéma.",
+          "sources": [
+            "S-avril_2011_avant_codex-04"
+          ]
+        },
+        {
+          "version": "Message rapporté évoquant cinéma puis restaurant.",
+          "sources": [
+            "S-avril_2011_avant_codex-13"
+          ]
+        }
+      ],
+      "traitement_recommande": "Garder les deux activités sans imposer leur ordre ; message original non écouté."
+    }
+  ],
+  "lacunes": [
+    "Licence, factures, pièces balistiques, autopsies et procès-verbaux originaux non consultés.",
+    "Date précise de récupération de la carabine et justificatif d'héritage non établis ; éviter d'assimiler calibre concordant à identification de l'arme.",
+    "Départs AFP/20 Minutes et 20 Minutes/écoles inaccessibles ; extraits moteur exclus.",
+    "Date du silencieux à corroborer avec une communication du parquet effectivement lue ; sacs, achats de fin mars et nettoyage sans datation précise vérifiée.",
+    "Récit original du restaurateur d'Avrillé non ouvert ; nombre de repas et datation à résoudre.",
+    "Dernières activités de chaque enfant non exhaustives ; échanges téléphoniques originaux non écoutés.",
+    "Comptages indépendants conservateurs : les chronologies peuvent reprendre la même enquête sans le préciser."
+  ]
+}
