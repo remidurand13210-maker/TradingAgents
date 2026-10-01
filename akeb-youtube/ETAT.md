@@ -8,7 +8,7 @@ Statuts : préparé · généré · contrôlé · envoyé · soumis · publié �
 
 | Bloc | Statut | Détail |
 |---|---|---|
-| Dossier documentaire | partiel, à revérifier | 102 sources, 103 assertions, avec leur provenance : `bio_jeunesse` (extraits de moteur, session cloud) et 4 thèmes Bionic (LM Studio, 24 sources lues partiellement, non revérifiées ; voir `recherche/contre_verif/AUDIT_BIONIC.md`). Il manque : famille, travail et finances, découverte et enquête, pistes 2011-2019 (dont Glasgow), plateformes, emplacements. |
+| Dossier documentaire | **recherche Codex reçue** (11 dossiers, 143 sources lues intégralement) ; fusion faite : 250 sources, 285 assertions ; voir `recherche/AUDIT_CODEX.md`. Ancien état : partiel, à revérifier | 102 sources, 103 assertions, avec leur provenance : `bio_jeunesse` (extraits de moteur, session cloud) et 4 thèmes Bionic (LM Studio, 24 sources lues partiellement, non revérifiées ; voir `recherche/contre_verif/AUDIT_BIONIC.md`). Il manque : famille, travail et finances, découverte et enquête, pistes 2011-2019 (dont Glasgow), plateformes, emplacements. |
 | Scripts des 4 épisodes + bande-annonce | brouillons v0 écrits (épisodes 2, 3, 4) | Écrits à partir du seul dossier ; faits fragiles attribués ou omis ; non narrables avant `VALIDATION.md`. Épisode 1 et bande-annonce : en attente de la recherche manquante. |
 | Narration Gemini 3.8 (Algieba) | prêt, non lancé | Accès **vérifié dans l'environnement Akeb** (test non génératif réussi, aucun audio). Default reste sans identifiant. L'outil gère le mode proxy (clé ajoutée après la VM, `GEMINI_API_KEY` absente). Chiffrage après les scripts ; narration refusée sans `VALIDATION.md`. |
 | Outils de montage et de contrôle | contrôlé | Testés de bout en bout ; sous-titres alignés sur la voix réelle ; moteur d'animation local. Maquette de comparaison de 27,1 s (moteur Python ou HyperFrames) produite en vrai MP4 1080p : voir `montage/maquette_comparaison/COMPARAISON.md`. HyperFrames recommandé, à confirmer par Rémi. |
@@ -18,6 +18,7 @@ Statuts : préparé · généré · contrôlé · envoyé · soumis · publié �
 | Shorts 1 à 3 | contrôlé — **défaut** | Mention « THRILLER DE FICTION » dans la zone masquée par l'interface Shorts ; 24 i/s au lieu de 30. Sous-titres v2 alignés livrés. Ré-export v2 à faire par Codex (aucune nouvelle narration). Voir `exports/shorts/CONTROLE_SHORTS.md`. Non publiés. |
 | Chaîne YouTube | **configurée par Codex** | Les Mystères d'Akeb, `UCeY1bZMUcigbZX2VwJmln-Q`, @LesMysteresDAkeb ; imports privés par défaut. Avatar, bannière et playlists à installer. Non relue depuis le cloud. |
 | Accès YouTube depuis le cloud | non donné | Aucun OAuth YouTube n'a été donné au conteneur ; publication par le Studio local côté Codex. `outils/youtube_api.py` reste prêt si un accès est un jour accordé. |
+| Emplacements YouTube | préparé | 30 vidéos, 23 chaînes repérées par Codex (`publicite/EMPLACEMENTS_YOUTUBE.csv`) ; éligibilité publicitaire à contrôler dans Google Ads. |
 | Publicité | Meta **soumis** (« Traitement en cours ») | 40 € média jusqu'au 04/10 23 h 59 + 10 € de réserve, soit 50 € engagés sur 100 €. Google Ads non inspecté. Reste au plus 50 €, taxes comprises. |
 
 ## Dépenses
