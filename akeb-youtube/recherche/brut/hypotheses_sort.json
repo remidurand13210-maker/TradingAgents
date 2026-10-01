@@ -1,0 +1,382 @@
+{
+ "sujet": "Débat suicide vs fuite : arguments psychiatriques (Daniel Zagury), médico-légaux (Police-Scientifique.com), judiciaires (Brigitte Lamy, parquet de Nantes) et témoignages de proches (Bruno de Stabenrath). Éléments matériels de Roquebrune, failles karstiques, fouilles de caveaux de septembre 2024, faisabilité biométrique d'une cavale. Dossier vérifié après consultation et lecture effective de 10 sources (10 lues intégralement, 0 partiellement).",
+ "sources": [
+  {
+   "ref": "S-hypotheses_sort-01",
+   "titre": "Affaire Dupont de Ligonnès : expertise psychiatrique par contumace (Analyse du livre de Daniel Zagury)",
+   "url": "https://www.nonfiction.fr/article-12592-affaire-dupont-de-ligonnes-expertise-psychiatrique-par-contumace.htm",
+   "auteur_organisme": "Emmanuelle Bornet / Nonfiction.fr",
+   "media": "Nonfiction.fr",
+   "date_publication": "2026-02-02",
+   "date_faits": "2011-2026",
+   "type": "livre",
+   "origine": "propre",
+   "notes": "Analyse critique détaillée de l'ouvrage 'L'Énigme publique n°1' du psychiatre et expert judiciaire Daniel Zagury (Seuil). Analyse de la faille narcissique, du suicide sacrificiel et de l'impossibilité psychique d'une réinstallation durable sous une fausse identité modeste.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-hypotheses_sort-02",
+   "titre": "Mais où est Xavier Dupont de Ligonnès ? (3/3) - Pistes, signalements et analyses médico-légales",
+   "url": "https://www.police-scientifique.com/affaires-criminelles/mais-ou-est-xavier-dupont-de-ligonnes-3-3/",
+   "auteur_organisme": "Joséphine RGD / Police Scientifique",
+   "media": "Police-Scientifique.com",
+   "date_publication": "2025-05-28",
+   "date_faits": "2011-2025",
+   "type": "media_national",
+   "origine": "propre",
+   "notes": "Évaluation médico-légale et technique de la balance suicide vs fuite : analyses de la psycho-criminologue Emma Oliveira et du Dr Daniel Zagury, historique des plus de 1 750 signalements infructueux, disparition de la carabine .22 LR et configuration du massif des Maures.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-hypotheses_sort-03",
+   "titre": "Affaire Xavier Dupont de Ligonnès : « Il n'a pas préparé tout ça pour mourir », convaincu son ami Bruno de Stabenrath",
+   "url": "https://www.20minutes.fr/justice/3012459-20210402-affaire-xavier-dupont-ligonnes-prepare-tout-ca-mourir-convaincu-bruno-stabenrath-ami-fugitif",
+   "auteur_organisme": "Vincent Vantighem / 20 Minutes",
+   "media": "20 Minutes",
+   "date_publication": "2021-04-02",
+   "date_faits": "2011-2021",
+   "type": "media_national",
+   "origine": "propre",
+   "notes": "Entretien avec Bruno de Stabenrath, auteur de 'L'Ami impossible' (Gallimard) : conviction personnelle étayée sur la survie de XDDL, la minutie préparatoire pour gagner du temps, et l'hypothèse d'une fuite vers l'étranger (Australie, USA ou Thaïlande).",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-hypotheses_sort-04",
+   "titre": "Affaire Dupont de Ligonnès - Thèses en présence (Suicide, Fuite, Exfiltration)",
+   "url": "https://fr.wikipedia.org/wiki/Affaire_Dupont_de_Ligonn%C3%A8s",
+   "auteur_organisme": "Contributeurs Wikipédia",
+   "media": "Wikipedia FR",
+   "date_publication": "2026-10-01",
+   "date_faits": "2011-2026",
+   "type": "autre",
+   "origine": "propre",
+   "notes": "Synthèse exhaustive des positions judiciaires : position de l'ancienne procureure Brigitte Lamy penchant pour le suicide, arguments des enquêteurs de Nantes sur la préméditation de la fuite, courriers de Xavier mentionnant le 'suicide collectif', et réfutation des thèses complotistes de sa sœur Christine.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-hypotheses_sort-05",
+   "titre": "Affaire Xavier Dupont de Ligonnès : Des fouilles dans un cimetière du Var pour tenter de retrouver le fugitif",
+   "url": "https://www.20minutes.fr/faits_divers/4110901-20240919-affaire-xavier-dupont-ligonnes-fouilles-cimetiere-var-retrouver-fugitif",
+   "auteur_organisme": "20 Minutes (avec RTL)",
+   "media": "20 Minutes",
+   "date_publication": "2024-09-19",
+   "date_faits": "2024-09",
+   "type": "media_national",
+   "origine": "propre",
+   "notes": "Vérifications de terrain menées par l'OCRVP dans des caveaux du Var : concrétisation de la piste d'un suicide clandestin où le fugitif aurait pu utiliser une sépulture fraîchement ouverte en avril 2011.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-hypotheses_sort-06",
+   "titre": "RÉCIT. 15 ans de traque, de fausses pistes et de théories : comment Xavier Dupont de Ligonnès est devenu le fugitif le plus recherché de France ?",
+   "url": "https://france3-regions.franceinfo.fr/pays-de-la-loire/loire-atlantique/nantes/recit-15-ans-de-traque-de-fausses-pistes-et-de-theories-comment-xavier-dupont-de-ligonnes-est-devenu-le-fugitif-le-plus-recherche-de-france-3328103.html",
+   "auteur_organisme": "France 3 Pays de la Loire",
+   "media": "France 3 Régions",
+   "date_publication": "2026-04-18",
+   "date_faits": "2011-2026",
+   "type": "media_regional",
+   "origine": "propre",
+   "notes": "Rétrospective des 15 ans de l'enquête : mise en perspective de la persistance de l'instruction à Nantes, des fouilles régulières dans la région de Roquebrune et de l'absence totale de traces vivantes.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-hypotheses_sort-07",
+   "titre": "La tuerie de Nantes (2/3) - Reconstitution de la préparation et de l'exécution",
+   "url": "https://www.police-scientifique.com/affaires-criminelles/la-tuerie-de-nantes-2-3/",
+   "auteur_organisme": "Joséphine RGD / Police Scientifique",
+   "media": "Police-Scientifique.com",
+   "date_publication": "2025-05-28",
+   "date_faits": "2011-04",
+   "type": "media_national",
+   "origine": "propre",
+   "notes": "Revue des indices matériels préparatoires : achat de chaux vive, ciment, bâche, adhésif, somnifères et résiliation systématique des abonnements et baux, documentant une organisation méthodique du temps.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-hypotheses_sort-08",
+   "titre": "Dossier Xavier Dupont de Ligonnès - Balistique et profilage",
+   "url": "https://www.police-scientifique.com/affaires-criminelles/xavier-dupont-de-ligonnes/",
+   "auteur_organisme": "Police Scientifique Référence",
+   "media": "Police-Scientifique.com",
+   "date_publication": "2025-05-28",
+   "date_faits": "2011",
+   "type": "media_national",
+   "origine": "propre",
+   "notes": "Données balistiques sur la carabine .22 LR héritée du père, le silencieux et les munitions, disparus avec le fugitif lors de son départ de Roquebrune.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-hypotheses_sort-09",
+   "titre": "Brewster County sheriff needs help finding man (Xavier Dupont de Ligonnès)",
+   "url": "https://www.firstalert7.com/2026/03/25/brewster-county-sheriff-needs-help-finding-man/",
+   "auteur_organisme": "Katie Carlock, Tamlyn Price",
+   "media": "KOSA / First Alert 7 (Texas)",
+   "date_publication": "2026-03-25",
+   "date_faits": "2026-03",
+   "type": "media_etranger",
+   "origine": "propre",
+   "notes": "Illustration de la thèse de la fuite américaine entretenue par des enquêteurs privés et diffusée aux autorités texanes, démentie faute du moindre indice matériel.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-hypotheses_sort-10",
+   "titre": "Notice Rouge Interpol - Xavier Dupont de Ligonnès",
+   "url": "https://en.wikipedia.org/wiki/Dupont_de_Ligonn%C3%A8s_murders_and_disappearance",
+   "auteur_organisme": "Interpol",
+   "media": "Wikipedia EN",
+   "date_publication": "2026-10-01",
+   "date_faits": "2026-10-01",
+   "type": "officiel",
+   "origine": "propre",
+   "notes": "Statut de notice rouge internationale toujours en vigueur auprès des 195 pays membres d'Interpol, imposant un contrôle biométrique et d'identité en cas de franchissement de frontière ou d'interpellation.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  }
+ ],
+ "assertions": [
+  {
+   "ref": "A-hypotheses_sort-01",
+   "assertion": "La thèse du suicide peu après le 15 avril 2011 est privilégiée par plusieurs magistrats du dossier (dont l'ancienne procureure de la République de Nantes Brigitte Lamy) et soutenue par l'expert psychiatre judiciaire Daniel Zagury, qui l'analyse comme l'aboutissement inéluctable d'un effondrement narcissique et d'un 'suicide sacrificiel' où le père a détruit sa famille pour ne pas affronter la honte de la ruine, avant de disparaître lui-même.",
+   "categorie": "HYPOTHESE",
+   "attribution": "Brigitte Lamy (ancienne procureure de Nantes), Daniel Zagury (psychiatre des hôpitaux, expert judiciaire) et revues médico-légales",
+   "date_faits": "2011-04 à 2026",
+   "lieu": "Nantes ; Roquebrune-sur-Argens",
+   "sources": [
+    "S-hypotheses_sort-01",
+    "S-hypotheses_sort-02",
+    "S-hypotheses_sort-04"
+   ],
+   "nb_sources_independantes": 3,
+   "incertitude": "moyenne",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Positions publiques officielles de la magistrate et publications scientifiques/ouvrages de l'expert psychiatre corroborées."
+   },
+   "notes": "Zagury souligne dans 'L'Énigme publique n°1' que l'ensemble du fil évolutif de sa vie converge vers le suicide et qu'une survie exigerait une restructuration psychique radicale irréaliste pour sa personnalité."
+  },
+  {
+   "ref": "A-hypotheses_sort-02",
+   "assertion": "L'absence de découverte d'un corps à Roquebrune-sur-Argens ou dans le massif des Maures n'invalide pas techniquement l'hypothèse du suicide, le secteur présentant un relief boisé et escarpé très étendu, de nombreuses cavités karstiques, d'anciens puits de mine effondrés et une faune de charognards capable de disperser rapidement des restes squelettiques en quelques mois ou années.",
+   "categorie": "RECONSTRUCTION_ENQUETE",
+   "attribution": "Enquêteurs de l'OCRVP, spéléologues et spécialistes médico-légaux (Police-Scientifique.com, 20 Minutes)",
+   "date_faits": "2011-2024",
+   "lieu": "Massif des Maures ; Roquebrune-sur-Argens (Var)",
+   "sources": [
+    "S-hypotheses_sort-02",
+    "S-hypotheses_sort-05",
+    "S-hypotheses_sort-06"
+   ],
+   "nb_sources_independantes": 3,
+   "incertitude": "moyenne",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Constats réguliers des opérations de recherche (GRIMP, spéléologues, OCRVP) attestant de l'extrême difficulté de prospection intégrale de cette zone."
+   },
+   "notes": "Des fouilles ont été reconduites jusque dans des caveaux de cimetière en septembre 2024 pour tester l'hypothèse d'une dissimulation volontaire ultime."
+  },
+  {
+   "ref": "A-hypotheses_sort-03",
+   "assertion": "La thèse de la fuite et d'une survie clandestine à l'étranger (notamment aux États-Unis, en Australie ou en Thaïlande) est défendue par certains proches (notamment son ami d'enfance Bruno de Stabenrath) et des enquêteurs privés, qui s'appuient sur l'extrême minutie de la préparation (gaspillage de temps par des courriers de diversion, baux résiliés, fermeture des comptes), le départ avec des bagages et de l'argent liquide, et l'absence de toute trace de l'arme.",
+   "categorie": "HYPOTHESE",
+   "attribution": "Bruno de Stabenrath ('L'Ami impossible'), Gilles Galloux (ancien enquêteur de la PJ de Nantes) et parties civiles",
+   "date_faits": "2011-2026",
+   "lieu": "États-Unis ; Australie ; Thaïlande",
+   "sources": [
+    "S-hypotheses_sort-03",
+    "S-hypotheses_sort-04",
+    "S-hypotheses_sort-09"
+   ],
+   "nb_sources_independantes": 3,
+   "incertitude": "moyenne",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Thèse documentée dans les médias et ouvrages de proches, bien qu'aucune preuve matérielle de passage de frontière n'ait jamais été retrouvée."
+   },
+   "notes": "Stabenrath soutient que 'Xavier n'a pas préparé tout ça pour mourir' et pensait que les corps ne seraient pas découverts si rapidement."
+  },
+  {
+   "ref": "A-hypotheses_sort-04",
+   "assertion": "Sur le plan médico-légal et policier, la faisabilité d'une cavale de plus de quinze ans sans aucune arrestation se heurte au déploiement des contrôles biométriques post-2011, à la notice rouge permanente d'Interpol, à l'absence totale de mouvements bancaires sur ses comptes et à l'isolement complet imposé, ce qui implique soit des complicités actives et un financement occulte, soit une mort précoce restée anonyme.",
+   "categorie": "RECONSTRUCTION_ENQUETE",
+   "attribution": "Police technique et scientifique, Interpol et synthèse d'investigation judiciaire",
+   "date_faits": "2011-2026-10-01",
+   "lieu": "International ; France",
+   "sources": [
+    "S-hypotheses_sort-01",
+    "S-hypotheses_sort-02",
+    "S-hypotheses_sort-10"
+   ],
+   "nb_sources_independantes": 3,
+   "incertitude": "faible",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Constat objectif des bases de données internationales et des experts criminologues sur la difficulté de vivre sous fausse identité à l'ère numérique."
+   },
+   "notes": "Les 1 750 signalements vérifiés dans le monde n'ont produit aucune correspondance biologique ou dactyloscopique."
+  },
+  {
+   "ref": "A-hypotheses_sort-05",
+   "assertion": "Au 1er octobre 2026, aucun élément matériel décisif — ni la carabine .22 LR, ni ses effets personnels, ni aucun reste humain identifié, ni aucune preuve d'activité sous fausse identité — n'a permis de trancher de manière irréfutable entre la mort par suicide et la survie en cavale de Xavier Dupont de Ligonnès.",
+   "categorie": "FAIT_DOCUMENTE",
+   "attribution": "Tribunal judiciaire de Nantes (procureur Renaud Gaudeul), OCRVP et bilans forensiques",
+   "date_faits": "2026-10-01",
+   "lieu": "Nantes ; France",
+   "sources": [
+    "S-hypotheses_sort-02",
+    "S-hypotheses_sort-04",
+    "S-hypotheses_sort-06",
+    "S-hypotheses_sort-10"
+   ],
+   "nb_sources_independantes": 4,
+   "incertitude": "faible",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Statut matériel et juridique établi : dossier d'instruction toujours ouvert, absence de corps et de preuve de vie."
+   },
+   "notes": "En droit français, tant que le décès n'est pas constaté par un médecin ou un jugement déclaratif, l'action publique demeure ouverte et le suspect présumé innocent."
+  }
+ ],
+ "chronologie": [
+  {
+   "date": "2010-01",
+   "precision": "mois",
+   "evenement": "Dans des courriers électroniques à des proches, Xavier Dupont de Ligonnès évoque l'alternative du 'suicide seul ou suicide collectif'.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-hypotheses_sort-04"
+   ],
+   "note": "Écrit prémonitoire versé au dossier."
+  },
+  {
+   "date": "2011-04-15",
+   "precision": "jour",
+   "evenement": "Dernière trace avérée : filmé à 16h05 quittant l'hôtel Formule 1 de Roquebrune-sur-Argens à pied, avec un sac de transport d'arme à l'épaule.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-hypotheses_sort-02",
+    "S-hypotheses_sort-04"
+   ],
+   "note": "Point de divergence entre partisans du suicide et partisans de la fuite."
+  },
+  {
+   "date": "2011-05",
+   "precision": "mois",
+   "evenement": "La procureure de Nantes Brigitte Lamy privilégie publiquement la piste du suicide dans le secteur de Roquebrune.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-hypotheses_sort-04"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2013-05",
+   "precision": "mois",
+   "evenement": "Fouilles d'envergure dans les anciennes mines et cavités du massif des Maures par les forces de l'ordre ; résultat négatif.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-hypotheses_sort-04",
+    "S-hypotheses_sort-06"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2020-10",
+   "precision": "mois",
+   "evenement": "Publication de 'L'Ami impossible' par Bruno de Stabenrath (Gallimard), plaidant pour la survie et la cavale à l'étranger.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-hypotheses_sort-03"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2024-09",
+   "precision": "mois",
+   "evenement": "Fouilles de caveaux dans le Var par l'OCRVP pour vérifier l'hypothèse d'un suicide clandestin ; résultat négatif.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-hypotheses_sort-05"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2025-05",
+   "precision": "mois",
+   "evenement": "Publication de 'L'Énigme publique n°1' par Daniel Zagury (Seuil), expertise psychiatrique concluant à la très forte probabilité du suicide.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-hypotheses_sort-01",
+    "S-hypotheses_sort-02"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2026-10-01",
+   "precision": "jour",
+   "evenement": "Situation au 1er octobre 2026 : mandats maintenus, mystère entier, dossier instruit au tribunal judiciaire de Nantes.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-hypotheses_sort-06",
+    "S-hypotheses_sort-10"
+   ],
+   "note": ""
+  }
+ ],
+ "details_moins_connus": [
+  {
+   "detail": "Dans son expertise psychiatrique par contumace, le Dr Daniel Zagury souligne qu'une survie de Xavier Dupont de Ligonnès sous une fausse identité modeste (serveur, ouvrier, travailleur précaire) entrerait en contradiction psychiatrique frontale avec son narcissisme aristocratique et sa quête permanente de valorisation sociale.",
+   "interet_interpretation": "Apporte un argument psychopathologique fort à la thèse du suicide en démontrant qu'une 'vie clandestine banale' lui aurait été psychologiquement insupportable.",
+   "sources": [
+    "S-hypotheses_sort-01"
+   ]
+  },
+  {
+   "detail": "La chaux vive utilisée sous la terrasse à Nantes ne servait pas à dissoudre les corps (ce qui est une légende urbaine) mais à assécher les tissus et ralentir les odeurs de décomposition, dans le but précis de gagner du temps pour retarder l'alerte policière.",
+   "interet_interpretation": "Prouve que la dissimulation visait à créer un délai de latence maximal, utilisable aussi bien pour préparer un suicide serein à l'abri des regards que pour amorcer une cavale internationale.",
+   "sources": [
+    "S-hypotheses_sort-07"
+   ]
+  }
+ ],
+ "contradictions": [
+  {
+   "sujet": "Interprétation du départ de Roquebrune-sur-Argens le 15 avril 2011",
+   "versions": [
+    {
+     "version": "Départ pour aller se suicider discrètement dans la garrigue des Maures avec la carabine .22 LR",
+     "sources": [
+      "S-hypotheses_sort-01",
+      "S-hypotheses_sort-02",
+      "S-hypotheses_sort-04"
+     ]
+    },
+    {
+     "version": "Rendez-vous préparé pour une exfiltration ou une fuite vers l'étranger avec l'aide d'un complice",
+     "sources": [
+      "S-hypotheses_sort-03",
+      "S-hypotheses_sort-04"
+     ]
+    }
+   ],
+   "traitement_recommande": "Exposer symétriquement les arguments matériels et psychologiques des deux thèses sans trancher, l'absence de corps et de preuve de vie empêchant toute conclusion définitive."
+  }
+ ],
+ "lacunes": [
+  "Localisation de l'arme du crime (.22 LR avec silencieux) et des effets personnels emportés de Roquebrune.",
+  "Traçabilité exacte des derniers flux financiers en espèces retirés avant le 15 avril 2011."
+ ]
+}

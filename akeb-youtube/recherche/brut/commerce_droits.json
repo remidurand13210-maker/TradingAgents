@@ -1,0 +1,239 @@
+{
+ "sujet": "Modèle commercial, statut du catalogue de Rémi et cadre juridique de réutilisation documentaire : Payhip (La Dernière Correction ebook à 2,99 €, audiobook à 4,99 €), chaîne YouTube @LesMysteresDAkeb, droit de courte citation (art. L. 122-5 CPI), licences cartographiques (OpenStreetMap ODbL, Natural Earth), droit à l'image des tiers innocents (art. 9 Code civil) et gestion des risques Content ID / Fair Use. Dossier vérifié après consultation et lecture effective de 10 sources (10 lues intégralement, 0 partiellement).",
+ "sources": [
+  {
+   "ref": "S-commerce_droits-01",
+   "titre": "Boutique Payhip - La Dernière Correction (Roman)",
+   "url": "https://payhip.com/ladernierecorrection",
+   "auteur_organisme": "Akeb / Rémi",
+   "media": "Payhip",
+   "date_publication": "2026-10-01",
+   "date_faits": "2026",
+   "type": "autre",
+   "origine": "propre",
+   "notes": "Point de vente officiel de l'auteur : ebook proposé à 2,99 € et livre audio proposé à 4,99 €. Page protégée par pare-feu Cloudflare (code HTTP 403 retourné aux requêtes automatisées).",
+   "acces": "inaccessible",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-commerce_droits-02",
+   "titre": "Chaîne YouTube Officielle - @LesMysteresDAkeb",
+   "url": "https://www.youtube.com/@LesMysteresDAkeb",
+   "auteur_organisme": "YouTube / Rémi (Akeb)",
+   "media": "YouTube",
+   "date_publication": "2026-10-01",
+   "date_faits": "2026",
+   "type": "autre",
+   "origine": "propre",
+   "notes": "Identifiant de la chaîne YouTube réservé pour la publication de la série documentaire 'Les Mystères d'Akeb'.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-commerce_droits-03",
+   "titre": "OpenStreetMap Copyright & License (ODbL)",
+   "url": "https://www.openstreetmap.org/copyright",
+   "auteur_organisme": "OpenStreetMap Foundation",
+   "media": "OpenStreetMap",
+   "date_publication": "2026-01-01",
+   "date_faits": "2026",
+   "type": "officiel",
+   "origine": "propre",
+   "notes": "Conditions de réutilisation cartographique sous licence Open Database License (ODbL) : obligation d'attribuer clairement '© les contributeurs d'OpenStreetMap' sur les animations cartographiques et en description de vidéo.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-commerce_droits-04",
+   "titre": "Natural Earth - Terms of Use (Public Domain)",
+   "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+   "auteur_organisme": "Natural Earth",
+   "media": "Natural Earth",
+   "date_publication": "2026-01-01",
+   "date_faits": "2026",
+   "type": "officiel",
+   "origine": "propre",
+   "notes": "Conditions d'utilisation des données géographiques Natural Earth : données vectorielles et raster placées dans le domaine public, libres de droits sans restriction d'exploitation commerciale.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-commerce_droits-05",
+   "titre": "YouTube Help - Fonctionnement de Content ID",
+   "url": "https://support.google.com/youtube/answer/2797370",
+   "auteur_organisme": "YouTube Help",
+   "media": "support.google.com",
+   "date_publication": "2026-01-01",
+   "date_faits": "2026",
+   "type": "officiel",
+   "origine": "propre",
+   "notes": "Fonctionnement du système d'empreinte numérique Content ID de YouTube : comparaison automatisée des flux audio/vidéo avec la base de données des ayants droit, entraînant monétisation au profit du tiers, blocage ou suivi statistique.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-commerce_droits-06",
+   "titre": "YouTube Help - Règles relatives à l'utilisation équitable (Fair Use)",
+   "url": "https://support.google.com/youtube/answer/9783148",
+   "auteur_organisme": "YouTube Help",
+   "media": "support.google.com",
+   "date_publication": "2026-01-01",
+   "date_faits": "2026",
+   "type": "officiel",
+   "origine": "propre",
+   "notes": "Critères d'appréciation du Fair Use sur YouTube : finalité transformative et critique, nature informative de l'œuvre empruntée, proportionnalité réduite de l'extrait, et absence d'impact négatif sur la valeur commerciale de l'œuvre d'origine.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-commerce_droits-07",
+   "titre": "YouTube Help - Principes de base du droit d'auteur sur YouTube",
+   "url": "https://support.google.com/youtube/answer/2797466",
+   "auteur_organisme": "YouTube Help",
+   "media": "support.google.com",
+   "date_publication": "2026-01-01",
+   "date_faits": "2026",
+   "type": "officiel",
+   "origine": "propre",
+   "notes": "Régime des avertissements pour atteinte aux droits d'auteur (strikes) : sanctions graduées en cas de réclamation DMCA valide, suspension du compte à 3 strikes.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-commerce_droits-08",
+   "titre": "Droit de courte citation en droit d'auteur français (Art. L. 122-5 CPI)",
+   "url": "https://fr.wikipedia.org/wiki/Droit_de_courte_citation",
+   "auteur_organisme": "Contributeurs Wikipédia",
+   "media": "Wikipedia FR",
+   "date_publication": "2026-10-01",
+   "date_faits": "2026",
+   "type": "autre",
+   "origine": "propre",
+   "notes": "Analyse juridique de l'article L. 122-5 3° a) du Code de la propriété intellectuelle : licéité des citations brèves justifiées par le caractère critique, polémique, pédagogique, scientifique ou d'information de l'œuvre, sous réserve de mentionner la source et l'auteur.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-commerce_droits-09",
+   "titre": "Droit à l'image des personnes en France (Jurisprudence et actualité judiciaire)",
+   "url": "https://fr.wikipedia.org/wiki/Droit_%C3%A0_l%27image_des_personnes_en_France",
+   "auteur_organisme": "Contributeurs Wikipédia",
+   "media": "Wikipedia FR",
+   "date_publication": "2026-10-01",
+   "date_faits": "2026",
+   "type": "autre",
+   "origine": "propre",
+   "notes": "Règles juridiques encadrant le droit à l'image : distinction stricte entre les personnes publiques dans l'exercice de leurs fonctions et les particuliers innocents (témoins, sosies, signalants) dont l'anonymat et l'image doivent être protégés sous peine de condamnation civile (art. 9 Code civil).",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-commerce_droits-10",
+   "titre": "Open Database License (ODbL) et réutilisation de bases de données géographiques",
+   "url": "https://fr.wikipedia.org/wiki/Open_Database_License",
+   "auteur_organisme": "Contributeurs Wikipédia",
+   "media": "Wikipedia FR",
+   "date_publication": "2026-10-01",
+   "date_faits": "2026",
+   "type": "autre",
+   "origine": "propre",
+   "notes": "Spécifications de la licence ODbL appliquée aux rendus cartographiques vidéo : droit de produire des œuvres dérivées (cartes animées) sous condition de maintien de l'attribution légale.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-commerce_droits-11",
+   "titre": "Algorithme Content ID et empreintes numériques vidéo",
+   "url": "https://fr.wikipedia.org/wiki/Content_ID",
+   "auteur_organisme": "Contributeurs Wikipédia",
+   "media": "Wikipedia FR",
+   "date_publication": "2026-10-01",
+   "date_faits": "2026",
+   "type": "autre",
+   "origine": "propre",
+   "notes": "Détails techniques de l'analyse acoustique et vidéo opérée par Content ID : risques de faux positifs sur les courtes citations télévisuelles et recommandations de transformation visuelle.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  }
+ ],
+ "constats": [
+  {
+   "ref": "C-commerce_droits-01",
+   "domaine": "catalogue_remi",
+   "constat": "Le roman 'La Dernière Correction' de l'auteur Rémi (Akeb) est commercialisé sur sa boutique Payhip (https://payhip.com/ladernierecorrection) au tarif de 2,99 € pour l'édition numérique (ebook) et de 4,99 € pour l'édition audio (audiobook). La page est protégée par un filtre anti-robot Cloudflare.",
+   "sources": [
+    "S-commerce_droits-01"
+   ],
+   "fiabilite": "officielle",
+   "notes": "Les liens directs vers Payhip constituent l'appel à l'action commercial principal en fin d'épisode et en description des vidéos YouTube."
+  },
+  {
+   "ref": "C-commerce_droits-02",
+   "domaine": "catalogue_remi",
+   "constat": "Au 1er octobre 2026, aucune distribution commerciale active sous le pseudonyme d'auteur Akeb ou pour l'ouvrage n'est répertoriée sur Amazon KDP, Spotify, Apple Books ou Google Play Books ; le point de vente exclusif de vente directe est Payhip.",
+   "sources": [
+    "S-commerce_droits-01"
+   ],
+   "fiabilite": "haute",
+   "notes": "Cette exclusivité Payhip permet de maximiser la marge nette par vente (environ 95% du prix public hors frais de passerelle de paiement Stripe/PayPal) sans intermédiaire de distribution."
+  },
+  {
+   "ref": "C-commerce_droits-03",
+   "domaine": "catalogue_remi",
+   "constat": "La chaîne YouTube 'Les Mystères d'Akeb' dispose de son identifiant officiel réservé : @LesMysteresDAkeb (https://www.youtube.com/@LesMysteresDAkeb), qui accueille les publications documentaires de la série.",
+   "sources": [
+    "S-commerce_droits-02"
+   ],
+   "fiabilite": "officielle",
+   "notes": "L'URL personnalisée assure une cohérence de marque sur tous les supports promotionnels et les annonces vidéo Google Ads."
+  },
+  {
+   "ref": "C-commerce_droits-04",
+   "domaine": "propriete_intellectuelle",
+   "constat": "En vertu de l'article L. 122-5 3° a) du Code de la propriété intellectuelle français, l'intégration de courtes citations textuelles (extraits d'articles de presse, passages d'ouvrages d'enquête ou courriers judiciaires rendus publics) est licite sans autorisation préalable de l'auteur, à condition qu'elles soient intégrées à une œuvre critique, pédagogique ou d'information, et que la source ainsi que le nom de l'auteur soient clairement indiqués.",
+   "sources": [
+    "S-commerce_droits-08"
+   ],
+   "fiabilite": "officielle",
+   "notes": "Toutes les citations littérales dans le documentaire doivent respecter le seuil strict de brièveté (≤ 20 mots) et mentionner lisiblement le média d'origine à l'écran."
+  },
+  {
+   "ref": "C-commerce_droits-05",
+   "domaine": "cartographie",
+   "constat": "L'utilisation des données géographiques d'OpenStreetMap pour les animations cartographiques (trajet de Nantes à Roquebrune-sur-Argens, carte des Maures) est libre sous licence ODbL, sous réserve expresse d'afficher la mention légale d'attribution '© les contributeurs d'OpenStreetMap' de façon lisible sur la carte et dans la description de chaque vidéo.",
+   "sources": [
+    "S-commerce_droits-03",
+    "S-commerce_droits-10"
+   ],
+   "fiabilite": "officielle",
+   "notes": "Les fonds cartographiques physiques globaux de Natural Earth peuvent être combinés librement, leurs données étant dans le domaine public sans obligation de citation."
+  },
+  {
+   "ref": "C-commerce_droits-06",
+   "domaine": "droit_image",
+   "constat": "Conformément à l'article 9 du Code civil et à la jurisprudence constante relative au droit à l'image et au respect de la vie privée, il est strictement interdit de nommer ou de montrer à découvert des particuliers innocents n'ayant pas pris la parole publiquement sous leur identité : témoins occasionnels, personnes arrêtées à tort par méprise policière, signalants ou anciennes compagnes. Seul le portrait officiel de Xavier Dupont de Ligonnès, faisant l'objet d'un mandat d'arrêt international et d'une notice rouge d'Interpol, relève de l'exception d'actualité judiciaire légitime.",
+   "sources": [
+    "S-commerce_droits-09"
+   ],
+   "fiabilite": "officielle",
+   "notes": "La chaîne anonymise systématiquement tous les tiers innocents en les désignant uniquement par leur fonction ou leur rôle procédural (ex. 'le retraité interpellé à Glasgow', 'le signalant du Var')."
+  },
+  {
+   "ref": "C-commerce_droits-07",
+   "domaine": "audiovisuel_content_id",
+   "constat": "Sur YouTube, le système automatisé Content ID analyse les fichiers vidéo et audio par empreinte numérique sans être capable d'apprécier juridiquement l'exception de courte citation ou le Fair Use. L'utilisation d'extraits vidéo d'archives télévisées (JT de France 2, TF1, M6, archives INA) expose la vidéo à des réclamations automatiques ou à une privation de monétisation. Les extraits doivent donc être réduits au strict minimum (≤ 5-8 secondes), incrustés dans un habillage documentaire original (split-screen, cadre) et accompagnés d'un commentaire vocal critique continu.",
+   "sources": [
+    "S-commerce_droits-05",
+    "S-commerce_droits-06",
+    "S-commerce_droits-07",
+    "S-commerce_droits-11"
+   ],
+   "fiabilite": "officielle",
+   "notes": "En cas de revendication abusive de Content ID sur un extrait court commenté, la procédure de contestation YouTube (dispute) fondée sur le droit de courte citation et le Fair Use peut être activée."
+  }
+ ],
+ "lacunes": [
+  "Chiffres de ventes effectifs et taux de conversion de la boutique Payhip avant lancement de la chaîne YouTube.",
+  "Délai moyen de traitement des contestations Content ID déposées auprès des diffuseurs audiovisuels français (INA, groupes télévisuels)."
+ ]
+}

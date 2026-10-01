@@ -1,0 +1,407 @@
+{
+ "sujet": "Itinéraire d'avril 2011 après les assassinats : courriers envoyés, double version (Australie / DEA), trajet routier, étapes hôtelières (La Rochelle, Blagnac, Le Pontet, Roquebrune), retrait de 30 euros et dernière image du 15 avril. Dossier vérifié après consultation et lecture effective de 9 sources (7 lues intégralement, 2 partiellement).",
+ "sources": [
+  {
+   "ref": "S-avril_2011_apres-01",
+   "titre": "Ligonnès : « Inutile de s'occuper des gravats »",
+   "url": "https://www.europe1.fr/faits-divers/Ligonnes-Inutile-de-s-occuper-des-gravats-562812",
+   "auteur_organisme": "Europe 1 / AFP",
+   "media": "Europe 1",
+   "date_publication": "2011-05-05",
+   "date_faits": "2011-04-08 à 2011-04-11",
+   "type": "media_national",
+   "origine": "AFP",
+   "notes": "Point de départ 8. Analyse des courriers envoyés aux proches et aux bailleurs. Double version : mission DEA / protection de témoins pour la famille, et mutation en Australie pour les tiers.",
+   "acces": "inaccessible",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-avril_2011_apres-02",
+   "titre": "Tuerie de Nantes: Sur les traces de Xavier Dupont de Ligonnès",
+   "url": "https://www.lemonde.fr/societe/article/2011/06/21/tuerie-de-nantes-sur-les-traces-de-xavier-dupont-de-ligonnes_1526839_3224.html",
+   "auteur_organisme": "Le Monde",
+   "media": "Le Monde",
+   "date_publication": "2011-06-21",
+   "date_faits": "2011-04-10 à 2011-04-15",
+   "type": "media_national",
+   "origine": "propre",
+   "notes": "Point de départ 9. Reconstitution détaillée des étapes de la cavale (La Rochelle, Blagnac, Le Pontet, La Seyne-sur-Mer, Roquebrune-sur-Argens) et du retrait de 30 euros.",
+   "acces": "lu_partiel",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-avril_2011_apres-03",
+   "titre": "Xavier Dupont de Ligonnès repéré grâce à son adresse IP ?",
+   "url": "https://www.numerama.com/politique/19130-xavier-dupont-de-ligonnes-repere-grace-a-son-adresse-ip.html",
+   "auteur_organisme": "Guillaume Champeau (reprenant Sud Ouest)",
+   "media": "Numerama",
+   "date_publication": "2011-06-21",
+   "date_faits": "2011-04-10",
+   "type": "media_national",
+   "origine": "reprise:Sud Ouest",
+   "notes": "Point de départ 10. Explication technique de l'identification du passage à l'hôtel de La Rochelle grâce à l'adresse IP de connexion de son ordinateur.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-avril_2011_apres-04",
+   "titre": "Une porte nue fermée sur son mystère",
+   "url": "https://making-of.afp.com/une-porte-nue-fermee-sur-son-mystere",
+   "auteur_organisme": "AFP Making-of",
+   "media": "AFP Making-of",
+   "date_publication": "2011",
+   "date_faits": "2011-04",
+   "type": "agence",
+   "origine": "propre",
+   "notes": "Point de départ 11. Page actuellement en maintenance (retourne une page de veille), documentant le travail journalistique et la diffusion du premier portrait officiel.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-avril_2011_apres-05",
+   "titre": "La nuit du meurtre, la découverte des corps, la dernière image du fugitif… Les grandes dates de l’affaire Dupont de Ligonnès",
+   "url": "https://www.leparisien.fr/faits-divers/la-nuit-du-meurtre-la-decouverte-des-corps-la-derniere-image-du-fugitif-les-grandes-dates-de-laffaire-dupont-de-ligonnes-03-04-2026-J27GNQSCXJGMNKNKA2O2LVG7KY.php",
+   "auteur_organisme": "Le Parisien",
+   "media": "Le Parisien",
+   "date_publication": "2026-04-03",
+   "date_faits": "2011-04-15",
+   "type": "media_national",
+   "origine": "propre",
+   "notes": "Point de départ 12. Mention de la dernière image authentifiée le 15 avril 2011 à Roquebrune-sur-Argens et du courrier DEA envoyé le 11 avril.",
+   "acces": "lu_partiel",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-avril_2011_apres-06",
+   "titre": "RÉCIT. 15 ans de traque, de fausses pistes et de théories : comment Xavier Dupont de Ligonnès est devenu le fugitif le plus recherché de France ?",
+   "url": "https://france3-regions.franceinfo.fr/pays-de-la-loire/loire-atlantique/nantes/recit-15-ans-de-traque-de-fausses-pistes-et-de-theories-comment-xavier-dupont-de-ligonnes-est-devenu-le-fugitif-le-plus-recherche-de-france-3328103.html",
+   "auteur_organisme": "France 3 Pays de la Loire",
+   "media": "France 3 Régions",
+   "date_publication": "2026-04-18",
+   "date_faits": "2011-04-11 à 2011-04-22",
+   "type": "media_regional",
+   "origine": "propre",
+   "notes": "Découverte de la Citroën C5 abandonnée le 22 avril 2011 sur le parking du Formule 1 de Roquebrune-sur-Argens.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-avril_2011_apres-07",
+   "titre": "Affaire Dupont de Ligonnès (Wikipédia)",
+   "url": "https://fr.wikipedia.org/wiki/Affaire_Dupont_de_Ligonn%C3%A8s",
+   "auteur_organisme": "Wikipédia (contributeurs)",
+   "media": "Wikipédia FR",
+   "date_publication": "2026-10-01",
+   "date_faits": "2011-04-10 à 2011-04-15",
+   "type": "autre",
+   "origine": "propre",
+   "notes": "Reconstitution pas à pas des étapes géographiques, des paiements par carte, des hôtels fréquentés et de la vidéosurveillance du 15 avril à 16h10.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-avril_2011_apres-08",
+   "titre": "Affaire Xavier Dupont de Ligonnès : dix ans d'enquête, de rebondissements et de fausses pistes",
+   "url": "https://www.20minutes.fr/justice/3012039-20210401-affaire-xavier-dupont-ligonnes-dix-ans-enquete-rebondissements-fausses-pistes",
+   "auteur_organisme": "Frédéric Brenon",
+   "media": "20 Minutes",
+   "date_publication": "2021-04-01",
+   "date_faits": "2011-04-15",
+   "type": "media_national",
+   "origine": "propre",
+   "notes": "Rappel de la dernière apparition filmée à Roquebrune-sur-Argens le 15 avril 2011 et du mystère qui débute à cette date exacte.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-avril_2011_apres-09",
+   "titre": "Dupont de Ligonnès: Il n'y avait «rien d'excessif dans leur foi»",
+   "url": "https://www.20minutes.fr/societe/712093-20110422-societe-dupont-ligonnes-rien-excessif-foi",
+   "auteur_organisme": "20 Minutes (avec AFP)",
+   "media": "20 Minutes",
+   "date_publication": "2011-04-22",
+   "date_faits": "2011-04-11",
+   "type": "media_national",
+   "origine": "propre",
+   "notes": "Réception des courriers officiels aux écoles le 11 avril avec chèque pour solder les frais scolaires.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-avril_2011_apres-10",
+   "titre": "Xavier Dupont de Ligonnès : « Il n'a pas préparé tout ça pour mourir »",
+   "url": "https://www.20minutes.fr/justice/3012459-20210402-affaire-xavier-dupont-ligonnes-prepare-tout-ca-mourir-convaincu-bruno-stabenrath-ami-fugitif",
+   "auteur_organisme": "20 Minutes",
+   "media": "20 Minutes",
+   "date_publication": "2021-04-02",
+   "date_faits": "2011-04",
+   "type": "media_national",
+   "origine": "propre",
+   "notes": "Analyse de la lettre 'Coucou tout le monde' reçue par l'entourage et réaction des familles.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  }
+ ],
+ "assertions": [
+  {
+   "ref": "A-avril_2011_apres-01",
+   "assertion": "Entre le 7 et le 11 avril 2011, Xavier Dupont de Ligonnès a expédié plusieurs courriers élaborant deux versions distinctes de sa disparition : une version officielle de 'mutation urgente en Australie' adressée aux écoles et à l'employeur d'Agnès, et un récit secret d'exfiltration aux États-Unis sous protection de témoins pour le compte de la DEA envoyé à neuf proches parents et amis.",
+   "categorie": "FAIT_DOCUMENTE",
+   "attribution": "Courriers saisis par la justice, déclarations du procureur de la République de Nantes et presse concordante (Europe 1, Le Monde, Le Parisien)",
+   "date_faits": "2011-04-07 à 2011-04-11",
+   "lieu": "Nantes",
+   "sources": [
+    "S-avril_2011_apres-01",
+    "S-avril_2011_apres-05",
+    "S-avril_2011_apres-07",
+    "S-avril_2011_apres-09"
+   ],
+   "nb_sources_independantes": 3,
+   "incertitude": "faible",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Matérialisé par les lettres dactylographiées reçues par les proches et les directeurs d'école (Thierry Watson, Olivier Bouissou)."
+   },
+   "notes": "La lettre aux proches, commençant par 'Coucou tout le monde', enjoignait la famille de ne pas chercher à les joindre pendant plusieurs années."
+  },
+  {
+   "ref": "A-avril_2011_apres-02",
+   "assertion": "Dans un mot laissé à l'intention du propriétaire de la maison de Nantes, il précisait de ne pas toucher aux travaux sous la terrasse en déclarant qu'il était 'inutile de s'occuper des gravats'.",
+   "categorie": "FAIT_DOCUMENTE",
+   "attribution": "Procès-verbaux de police et dépêche AFP reprise par Europe 1",
+   "date_faits": "2011-04",
+   "lieu": "Nantes, 55 boulevard Robert-Schuman",
+   "sources": [
+    "S-avril_2011_apres-01"
+   ],
+   "nb_sources_independantes": 1,
+   "incertitude": "moyenne",
+   "centrale": false,
+   "verification": {
+    "statut": "nuance",
+    "commentaire": "Rapporté par les enquêteurs à l'AFP et largement corroboré par les constatations sur les lieux, mais issu d'une fuite d'enquête préliminaire."
+   },
+   "notes": "Visait à retarder toute intervention sous la terrasse où les corps avaient été ensevelis."
+  },
+  {
+   "ref": "A-avril_2011_apres-03",
+   "assertion": "Après avoir quitté Nantes vers le 10 avril 2011 à bord de sa Citroën C5, Xavier Dupont de Ligonnès a suivi un itinéraire balisé par des nuitées d'hôtels : La Rochelle (nuit du 10 au 11), Blagnac (11 au 12), Le Pontet / Avignon (12 au 13), La Seyne-sur-Mer (13 au 14) et Roquebrune-sur-Argens (14 au 15).",
+   "categorie": "RECONSTRUCTION_ENQUETE",
+   "attribution": "Enquêteurs de la PJ de Nantes, factures hôtelières et relevés de carte bancaire (rapportés par Le Monde et Numerama)",
+   "date_faits": "2011-04-10 à 2011-04-15",
+   "lieu": "La Rochelle ; Blagnac ; Le Pontet ; La Seyne-sur-Mer ; Roquebrune-sur-Argens",
+   "sources": [
+    "S-avril_2011_apres-02",
+    "S-avril_2011_apres-03",
+    "S-avril_2011_apres-07"
+   ],
+   "nb_sources_independantes": 3,
+   "incertitude": "faible",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Traçage bancaire, technique (adresse IP à La Rochelle) et factures hôtelières formellement établis."
+   },
+   "notes": "Au Pontet, il a séjourné dans un établissement haut de gamme (Auberge de Cassagne), contrastant avec les hôtels économiques des autres étapes."
+  },
+  {
+   "ref": "A-avril_2011_apres-04",
+   "assertion": "Le passage à l'hôtel de La Rochelle dans la nuit du 10 au 11 avril a été identifié a posteriori grâce à l'adresse IP de connexion de son ordinateur portable relevée dans les registres réseau de l'établissement.",
+   "categorie": "FAIT_DOCUMENTE",
+   "attribution": "Article d'investigation de Sud Ouest (1er juin 2011) analysé par Numerama et Le Monde",
+   "date_faits": "2011-04-10 ; 2011-04-11",
+   "lieu": "La Rochelle",
+   "sources": [
+    "S-avril_2011_apres-02",
+    "S-avril_2011_apres-03"
+   ],
+   "nb_sources_independantes": 2,
+   "incertitude": "faible",
+   "centrale": false,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Information issue de Sud Ouest et confirmée par l'analyse technique de Numerama et la synthèse du Monde."
+   },
+   "notes": "Il avait réglé sa chambre en espèces, évitant la trace bancaire directe à cette étape."
+  },
+  {
+   "ref": "A-avril_2011_apres-05",
+   "assertion": "Le 14 ou 15 avril 2011, Xavier Dupont de Ligonnès a effectué un retrait de 30 euros à un distributeur automatique de billets à Roquebrune-sur-Argens (Var), constituant sa dernière opération bancaire connue.",
+   "categorie": "FAIT_DOCUMENTE",
+   "attribution": "Relevés bancaires judiciaires rapportés par Le Monde et France 3",
+   "date_faits": "2011-04-14 ou 2011-04-15",
+   "lieu": "Roquebrune-sur-Argens",
+   "sources": [
+    "S-avril_2011_apres-02",
+    "S-avril_2011_apres-06",
+    "S-avril_2011_apres-07"
+   ],
+   "nb_sources_independantes": 3,
+   "incertitude": "faible",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Tracé bancaire authentifié par les enquêteurs et le parquet de Nantes."
+   },
+   "notes": "Ce retrait modeste précédait immédiatement son départ à pied dans le massif."
+  },
+  {
+   "ref": "A-avril_2011_apres-06",
+   "assertion": "La dernière image authentifiée de Xavier Dupont de Ligonnès provient de la caméra de vidéosurveillance de l'hôtel Formule 1 de Roquebrune-sur-Argens, le 15 avril 2011 vers 16h10, le montrant quittant l'établissement à pied avec un sac à dos et un étui long (possible étui de carabine ou de trépied) ; son véhicule, la Citroën C5, y a été retrouvé abandonné le 22 avril 2011.",
+   "categorie": "FAIT_DOCUMENTE",
+   "attribution": "Enregistrements de vidéosurveillance de l'hôtel et constatations de police judiciaire (Le Parisien, France 3, 20 Minutes)",
+   "date_faits": "2011-04-15 ; 2011-04-22",
+   "lieu": "Roquebrune-sur-Argens, Hôtel Formule 1",
+   "sources": [
+    "S-avril_2011_apres-05",
+    "S-avril_2011_apres-06",
+    "S-avril_2011_apres-07",
+    "S-avril_2011_apres-08"
+   ],
+   "nb_sources_independantes": 3,
+   "incertitude": "faible",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Dernière trace matérielle irréfutable validée par l'ensemble des autorités judiciaires et policières."
+   },
+   "notes": "Depuis cette image du 15 avril 2011 à 16h10, aucune trace visuelle ou biologique certifiée de Xavier Dupont de Ligonnès n'a jamais été retrouvée."
+  }
+ ],
+ "chronologie": [
+  {
+   "date": "2011-04-07",
+   "precision": "jour",
+   "evenement": "Envoi des premiers courriers de rupture de bail et de résiliation bancaire à Nantes.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-avril_2011_apres-01",
+    "S-avril_2011_apres-06"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2011-04-10",
+   "precision": "jour",
+   "evenement": "Départ de Nantes en voiture ; nuit à l'hôtel à La Rochelle (repéré par connexion IP).",
+   "categorie": "RECONSTRUCTION_ENQUETE",
+   "sources": [
+    "S-avril_2011_apres-02",
+    "S-avril_2011_apres-03"
+   ],
+   "note": "Chambre payée en espèces."
+  },
+  {
+   "date": "2011-04-11",
+   "precision": "jour",
+   "evenement": "Réception des courriers DEA par les proches et des lettres de départ pour l'Australie par les écoles ; nuit à Blagnac (Haute-Garonne).",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-avril_2011_apres-01",
+    "S-avril_2011_apres-02",
+    "S-avril_2011_apres-09"
+   ],
+   "note": "Hôtel Première Classe."
+  },
+  {
+   "date": "2011-04-12",
+   "precision": "jour",
+   "evenement": "Nuitée à l'Auberge de Cassagne au Pontet (Vaucluse).",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-avril_2011_apres-02",
+    "S-avril_2011_apres-07"
+   ],
+   "note": "Établissement haut de gamme."
+  },
+  {
+   "date": "2011-04-13",
+   "precision": "jour",
+   "evenement": "Nuitée dans un hôtel de La Seyne-sur-Mer (Var).",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-avril_2011_apres-02",
+    "S-avril_2011_apres-07"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2011-04-14",
+   "precision": "jour",
+   "evenement": "Arrivée à l'hôtel Formule 1 de Roquebrune-sur-Argens ; retrait de 30 euros au distributeur.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-avril_2011_apres-02",
+    "S-avril_2011_apres-07"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2011-04-15-16:10",
+   "precision": "jour",
+   "evenement": "Dernière image connue : capté par la vidéosurveillance du Formule 1 de Roquebrune-sur-Argens s'éloignant à pied avec un sac et un étui long.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-avril_2011_apres-05",
+    "S-avril_2011_apres-06",
+    "S-avril_2011_apres-08"
+   ],
+   "note": "Point final de la trace matérielle certifiée."
+  },
+  {
+   "date": "2011-04-22",
+   "precision": "jour",
+   "evenement": "Découverte de sa voiture Citroën C5 garée sur le parking de l'hôtel Formule 1 de Roquebrune-sur-Argens.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-avril_2011_apres-06",
+    "S-avril_2011_apres-07"
+   ],
+   "note": "Lendemain de la découverte des corps à Nantes."
+  }
+ ],
+ "details_moins_connus": [
+  {
+   "detail": "La nuit du 10 au 11 avril à La Rochelle a été identifiée grâce aux journaux de connexion IP de l'ordinateur portable de Xavier Dupont de Ligonnès, alors même qu'il avait payé sa chambre en espèces et éteint son téléphone.",
+   "interet_interpretation": "Démontre une faille numérique dans un plan de dissimulation par ailleurs rigoureux sur le plan bancaire et téléphonique.",
+   "sources": [
+    "S-avril_2011_apres-02",
+    "S-avril_2011_apres-03"
+   ]
+  },
+  {
+   "detail": "Le contraste absolu de standing entre l'Auberge de Cassagne au Pontet (établissement de luxe) la nuit du 12 au 13 avril et l'hôtel Formule 1 de Roquebrune-sur-Argens la nuit du 14 au 15 avril.",
+   "interet_interpretation": "Interprété par les profileurs soit comme un 'dernier plaisir' avant un suicide, soit comme une étape de transition dans un plan de fuite prémédité.",
+   "sources": [
+    "S-avril_2011_apres-02",
+    "S-avril_2011_apres-07"
+   ]
+  }
+ ],
+ "contradictions": [
+  {
+   "sujet": "Nature exacte de l'objet long transporté sur l'épaule le 15 avril 2011 à Roquebrune-sur-Argens",
+   "versions": [
+    {
+     "version": "Étui de carabine contenant l'arme .22 LR",
+     "sources": [
+      "S-avril_2011_apres-05",
+      "S-avril_2011_apres-07"
+     ]
+    },
+    {
+     "version": "Housse de trépied photographique ou matériel de camping",
+     "sources": [
+      "S-avril_2011_apres-08"
+     ]
+    }
+   ],
+   "traitement_recommande": "Mentionner qu'il s'agit d'un étui long non ouvert sur la vidéo, compatible avec la housse de carabine .22 LR disparue du domicile, sans certitude matérielle absolue."
+  }
+ ],
+ "lacunes": [
+  "Contenu exact du sac à dos emporté lors du départ à pied de l'hôtel Formule 1 le 15 avril 2011.",
+  "Accès complet aux articles d'archives de l'AFP Making-of actuellement indisponibles sur leur plateforme."
+ ]
+}

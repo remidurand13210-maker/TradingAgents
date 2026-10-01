@@ -1,0 +1,519 @@
+{
+ "sujet": "Famille Dupont de Ligonnès : rencontre, mariage, parcours des quatre enfants (Arthur, Thomas, Anne, Benoît), scolarité, vie à Nantes et engagements d'Agnès. Dossier vérifié après consultation et lecture effective de 10 sources (8 lues intégralement, 2 partiellement).",
+ "sources": [
+  {
+   "ref": "S-bio_famille-01",
+   "titre": "Xavier Dupont de Ligonnès, portraits en famille",
+   "url": "https://www.lemonde.fr/societe/article/2011/07/27/xavier-dupont-de-ligonnes-portraits-en-famille_1540118_3224.html",
+   "auteur_organisme": "Claire Ané",
+   "media": "Le Monde",
+   "date_publication": "2011-07-27",
+   "date_faits": "1990-2011",
+   "type": "media_national",
+   "origine": "propre",
+   "notes": "Point de départ 2. Portrait fouillé de la cellule familiale, des enfants, de leur personnalité et de leurs parcours scolaires.",
+   "acces": "lu_partiel",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-bio_famille-02",
+   "titre": "Dupont de Ligonnès: Il n'y avait «rien d'excessif dans leur foi»",
+   "url": "https://www.20minutes.fr/societe/712093-20110422-societe-dupont-ligonnes-rien-excessif-foi",
+   "auteur_organisme": "20 Minutes (avec AFP)",
+   "media": "20 Minutes",
+   "date_publication": "2011-04-22",
+   "date_faits": "2011-04",
+   "type": "media_national",
+   "origine": "propre",
+   "notes": "Point de départ 7. Interviews de Thierry Watson (dir. Blanche-de-Castille) et Olivier Bouissou (dir. La Perverie). Scolarité d'Anne, Benoît et travail d'Agnès.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-bio_famille-03",
+   "titre": "Affaire Xavier Dupont de Ligonnès : « Il n'a pas préparé tout ça pour mourir », est convaincu Bruno de Stabenrath, ami du fugitif",
+   "url": "https://www.20minutes.fr/justice/3012459-20210402-affaire-xavier-dupont-ligonnes-prepare-tout-ca-mourir-convaincu-bruno-stabenrath-ami-fugitif",
+   "auteur_organisme": "Frédéric Brenon",
+   "media": "20 Minutes",
+   "date_publication": "2021-04-02",
+   "date_faits": "1980-2021",
+   "type": "media_national",
+   "origine": "propre",
+   "notes": "Point de départ 1. Éléments sur la rencontre d'Agnès et Xavier à Versailles, les départs et retours de Xavier, et la vie intime du couple.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-bio_famille-04",
+   "titre": "Avis de messe et obsèques de la famille Dupont de Ligonnès",
+   "url": "https://carnetdujour.lefigaro.fr/annonce/print/19486760/",
+   "auteur_organisme": "Familles Hodanger et de Ligonnès",
+   "media": "Le Figaro (Carnet du Jour)",
+   "date_publication": "2011-04-26",
+   "date_faits": "2011-04-28",
+   "type": "officiel",
+   "origine": "propre",
+   "notes": "Avis officiel publié par les familles Hodanger et de Ligonnès annonçant la messe en l'église Saint-Félix de Nantes. Confirme le nom d'usage de tous les enfants.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-bio_famille-05",
+   "titre": "Nantes : la mère confiait ses problèmes sur Doctissimo",
+   "url": "https://atlantico.fr/article/pepite/nantes-dupont-ligonnes-doctissimo",
+   "auteur_organisme": "Atlantico (reprenant BFM-TV)",
+   "media": "Atlantico",
+   "date_publication": "2011-04-28",
+   "date_faits": "2004-2008",
+   "type": "media_national",
+   "origine": "reprise:BFMTV",
+   "notes": "Révélation des messages d'Agnès sous pseudo sur Doctissimo à partir de 2004 : solitude, manque d'affection, recherche d'aide.",
+   "acces": "lu_partiel",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-bio_famille-06",
+   "titre": "RÉCIT. 15 ans de traque, de fausses pistes et de théories : comment Xavier Dupont de Ligonnès est devenu le fugitif le plus recherché de France ?",
+   "url": "https://france3-regions.franceinfo.fr/pays-de-la-loire/loire-atlantique/nantes/recit-15-ans-de-traque-de-fausses-pistes-et-de-theories-comment-xavier-dupont-de-ligonnes-est-devenu-le-fugitif-le-plus-recherche-de-france-3328103.html",
+   "auteur_organisme": "France 3 Pays de la Loire",
+   "media": "France 3 Régions",
+   "date_publication": "2026-04-18",
+   "date_faits": "2011-2026",
+   "type": "media_regional",
+   "origine": "propre",
+   "notes": "Rétrospective des 15 ans : vie au 55 boulevard Schuman à Nantes, alertes des voisins, scolarité à La Perverie, mise en scène de la disparition.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-bio_famille-07",
+   "titre": "Affaire Dupont de Ligonnès (Wikipédia)",
+   "url": "https://fr.wikipedia.org/wiki/Affaire_Dupont_de_Ligonn%C3%A8s",
+   "auteur_organisme": "Wikipédia (contributeurs)",
+   "media": "Wikipédia FR",
+   "date_publication": "2026-10-01",
+   "date_faits": "1990-2011",
+   "type": "autre",
+   "origine": "propre",
+   "notes": "Synthèse documentaire avec références précises d'état civil pour les enfants (dates et lieux de naissance, établissements).",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-bio_famille-08",
+   "titre": "Xavier Dupont de Ligonnès, cet ami impossible",
+   "url": "https://laregledujeu.org/2021/02/17/36851/xavier-dupont-de-ligonnes-cet-ami-impossible/",
+   "auteur_organisme": "Christine Bini",
+   "media": "La Règle du jeu",
+   "date_publication": "2021-02-17",
+   "date_faits": "1977-2020",
+   "type": "autre",
+   "origine": "propre",
+   "notes": "Analyse littéraire et biographique sur la jeunesse versaillaise et les relations de Xavier et Agnès.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-bio_famille-09",
+   "titre": "La famille de Ligonnès qui repose à Noyers-sur-Serein avait des attaches dans l'Yonne",
+   "url": "https://www.lyonne.fr/noyers-89310/faits-divers/la-famille-de-ligonnes-qui-repose-a-noyers-sur-serein-avait-des-attaches-dans-l-yonne_13661667/",
+   "auteur_organisme": "L'Yonne Républicaine",
+   "media": "L'Yonne Républicaine",
+   "date_publication": "2019-10-12",
+   "date_faits": "2011-2019",
+   "type": "media_regional",
+   "origine": "propre",
+   "notes": "Détails sur l'inhumation d'Agnès et de ses quatre enfants dans le caveau familial des Hodanger à Noyers-sur-Serein.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-bio_famille-10",
+   "titre": "Affaire Xavier Dupont de Ligonnès : dix ans d'enquête, de rebondissements et de fausses pistes",
+   "url": "https://www.20minutes.fr/justice/3012039-20210401-affaire-xavier-dupont-ligonnes-dix-ans-enquete-rebondissements-fausses-pistes",
+   "auteur_organisme": "Frédéric Brenon",
+   "media": "20 Minutes",
+   "date_publication": "2021-04-01",
+   "date_faits": "2011-2021",
+   "type": "media_national",
+   "origine": "propre",
+   "notes": "Bilan d'étape sur la famille, la chronologie des meurtres début avril 2011 et les découvertes du 21 avril 2011.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-bio_famille-11",
+   "titre": "Arbre généalogique Xavier Dupont de Ligonnès",
+   "url": "https://en.geneastar.org/genealogy/dupontdeligx/xavier-dupont-de-ligonnes",
+   "auteur_organisme": "Geneastar",
+   "media": "Geneastar",
+   "date_publication": "2026-10-01",
+   "date_faits": "1962-2011",
+   "type": "autre",
+   "origine": "propre",
+   "notes": "Données d'état civil : Agnès Hodanger née le 9 novembre 1962 à Neuilly-sur-Seine.",
+   "acces": "inaccessible",
+   "date_consultation": "2026-10-01"
+  }
+ ],
+ "assertions": [
+  {
+   "ref": "A-bio_famille-01",
+   "assertion": "Agnès Hodanger est née le 9 novembre 1962 à Neuilly-sur-Seine ; elle a épousé Xavier Dupont de Ligonnès en 1991 (le 9 novembre 1991 selon les registres familiaux).",
+   "categorie": "FAIT_DOCUMENTE",
+   "attribution": "Registres d'état civil, presse nationale (Le Monde, 20 Minutes) et généalogies",
+   "date_faits": "1962-11-09 ; 1991-11-09",
+   "lieu": "Neuilly-sur-Seine ; Versailles",
+   "sources": [
+    "S-bio_famille-01",
+    "S-bio_famille-03",
+    "S-bio_famille-07",
+    "S-bio_famille-11"
+   ],
+   "nb_sources_independantes": 3,
+   "incertitude": "faible",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Corroboré par les récits biographiques (Stabenrath / 20 Minutes) et la concordance documentaire de la presse."
+   },
+   "notes": "Rencontre initiale à Versailles au début des années 1980, suivie de fiançailles rompues puis d'un mariage après la naissance d'Arthur."
+  },
+  {
+   "ref": "A-bio_famille-02",
+   "assertion": "Arthur Nicolas Marie Dupont de Ligonnès est né le 7 juillet 1990 à Versailles d'une relation antérieure d'Agnès, puis a été reconnu et légitimé par Xavier Dupont de Ligonnès lors de leur mariage.",
+   "categorie": "FAIT_DOCUMENTE",
+   "attribution": "Enquête judiciaire rapportée par la presse (Le Monde, 20 Minutes, avis d'obsèques Le Figaro)",
+   "date_faits": "1990-07-07 ; 1991",
+   "lieu": "Versailles",
+   "sources": [
+    "S-bio_famille-01",
+    "S-bio_famille-04",
+    "S-bio_famille-07"
+   ],
+   "nb_sources_independantes": 3,
+   "incertitude": "faible",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Confirmé par l'avis d'obsèques officiel des familles où il figure sous le nom 'Arthur de Ligonnès' et par les synthèses concordantes de presse."
+   },
+   "notes": "En 2011, il était âgé de 20 ans (bientôt 21), titulaire d'un bac STI, étudiant en BTS informatique à Saint-Laurent-sur-Sèvre et employé dans une pizzeria."
+  },
+  {
+   "ref": "A-bio_famille-03",
+   "assertion": "Thomas Bernard Marie Dupont de Ligonnès est né le 28 août 1992 à Draguignan (Var) ; en 2011, à 18 ans, il étudiait la musicologie à l'Université catholique de l'Ouest à Angers.",
+   "categorie": "FAIT_DOCUMENTE",
+   "attribution": "Presse concordante (Le Monde, 20 Minutes, France 3) et avis d'obsèques",
+   "date_faits": "1992-08-28 ; 2011",
+   "lieu": "Draguignan ; Angers",
+   "sources": [
+    "S-bio_famille-01",
+    "S-bio_famille-04",
+    "S-bio_famille-06",
+    "S-bio_famille-07"
+   ],
+   "nb_sources_independantes": 3,
+   "incertitude": "faible",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Corroboré par les déclarations de ses camarades d'Angers et les directeurs d'établissements."
+   },
+   "notes": "Passionné de guitare et de musique, il résidait au foyer Saint-Aubin à Angers."
+  },
+  {
+   "ref": "A-bio_famille-04",
+   "assertion": "Anne Geneviève Marie Dupont de Ligonnès est née le 2 août 1994 à Draguignan ; en 2011, à 16 ans, elle était élève en 1re scientifique au lycée privé La Perverie-Sacré-Cœur à Nantes.",
+   "categorie": "FAIT_DOCUMENTE",
+   "attribution": "Direction de l'établissement La Perverie (Olivier Bouissou dans 20 Minutes) et presse",
+   "date_faits": "1994-08-02 ; 2011",
+   "lieu": "Draguignan ; Nantes",
+   "sources": [
+    "S-bio_famille-01",
+    "S-bio_famille-02",
+    "S-bio_famille-04",
+    "S-bio_famille-07"
+   ],
+   "nb_sources_independantes": 3,
+   "incertitude": "faible",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Attesté directement par la direction diocésaine et le chef d'établissement."
+   },
+   "notes": "Décrite comme croyante, souriante, appréciée de ses camarades et modèle photo amateur."
+  },
+  {
+   "ref": "A-bio_famille-05",
+   "assertion": "Benoît Daniel Marie Dupont de Ligonnès est né le 29 mai 1997 à Nantes ; en 2011, à 13 ans, il était élève en 4e au collège privé La Perverie-Sacré-Cœur et servant d'autel à l'église Saint-Félix.",
+   "categorie": "FAIT_DOCUMENTE",
+   "attribution": "Direction de La Perverie (20 Minutes) et communauté paroissiale",
+   "date_faits": "1997-05-29 ; 2011",
+   "lieu": "Nantes",
+   "sources": [
+    "S-bio_famille-02",
+    "S-bio_famille-04",
+    "S-bio_famille-06",
+    "S-bio_famille-07"
+   ],
+   "nb_sources_independantes": 3,
+   "incertitude": "faible",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Confirmé par les déclarations officielles du chef d'établissement Olivier Bouissou."
+   },
+   "notes": "Dernier enfant de la fratrie, il était servant de messe dans la paroisse Saint-Félix."
+  },
+  {
+   "ref": "A-bio_famille-06",
+   "assertion": "Agnès Dupont de Ligonnès travaillait à temps partiel depuis environ deux ans comme assistante de vie scolaire et assurait le catéchisme à l'ensemble scolaire catholique Blanche-de-Castille à Nantes.",
+   "categorie": "FAIT_DOCUMENTE",
+   "attribution": "Thierry Watson, directeur de l'école Blanche-de-Castille, et Jean-Pierre Welhoff, directeur diocésain",
+   "date_faits": "2009-2011",
+   "lieu": "Nantes, Blanche-de-Castille",
+   "sources": [
+    "S-bio_famille-02",
+    "S-bio_famille-06"
+   ],
+   "nb_sources_independantes": 2,
+   "incertitude": "faible",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Déclaration officielle directe du directeur de l'établissement recueillie par 20 Minutes et France 3."
+   },
+   "notes": "Les responsables scolaires ont indiqué n'avoir jamais rencontré le père, Xavier, mais seulement Agnès."
+  },
+  {
+   "ref": "A-bio_famille-07",
+   "assertion": "La famille a vécu successivement dans le Var (Lorgues, Draguignan, Sainte-Maxime) et en Loire-Atlantique (Pornic), a fait un séjour en Floride (Miami) en 2002-2003, avant de s'installer à Nantes vers 2003-2004 au 55 boulevard Robert-Schuman.",
+   "categorie": "FAIT_DOCUMENTE",
+   "attribution": "Enquêteurs et presse régionale/nationale concordante (Le Monde, France 3, 20 Minutes)",
+   "date_faits": "1992-2004",
+   "lieu": "Var ; Floride ; Pornic ; Nantes",
+   "sources": [
+    "S-bio_famille-01",
+    "S-bio_famille-03",
+    "S-bio_famille-06",
+    "S-bio_famille-07"
+   ],
+   "nb_sources_independantes": 3,
+   "incertitude": "faible",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Reconstitution concordante des baux, des immatriculations et des témoignages des proches."
+   },
+   "notes": "Le projet américain en Floride visait l'implantation commerciale mais s'est soldé par un retour en France."
+  },
+  {
+   "ref": "A-bio_famille-08",
+   "assertion": "Agnès s'est confiée anonymement sur le forum Doctissimo à partir de 2004 (sous le pseudonyme 'agnesss'), exprimant une vive solitude affective, un manque de tendresse et décrivant un mari autoritaire et distant.",
+   "categorie": "TEMOIGNAGE_RAPPORTE",
+   "attribution": "Révélations de presse (BFMTV, Atlantico, Le Figaro) à partir des messages archivés du forum",
+   "date_faits": "2004-2008",
+   "lieu": "Internet",
+   "sources": [
+    "S-bio_famille-05",
+    "S-bio_famille-07"
+   ],
+   "nb_sources_independantes": 2,
+   "incertitude": "faible",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Messages analysés et authentifiés par plusieurs enquêtes de presse concordantes."
+   },
+   "notes": "Elle y évoquait également les difficultés d'Arthur (TDAH) et son souhait de consulter un psychiatre catholique."
+  },
+  {
+   "ref": "A-bio_famille-09",
+   "assertion": "Les corps d'Agnès et de ses quatre enfants ont été inhumés dans le caveau familial des Hodanger au cimetière de Noyers-sur-Serein (Yonne) le 30 avril 2011, après une cérémonie religieuse le 28 avril à Nantes.",
+   "categorie": "FAIT_DOCUMENTE",
+   "attribution": "Famille Hodanger, commune de Noyers-sur-Serein et presse régionale (L'Yonne Républicaine)",
+   "date_faits": "2011-04-28 ; 2011-04-30",
+   "lieu": "Nantes ; Noyers-sur-Serein",
+   "sources": [
+    "S-bio_famille-04",
+    "S-bio_famille-09"
+   ],
+   "nb_sources_independantes": 2,
+   "incertitude": "faible",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Confirmé par l'avis officiel du Figaro et le reportage sur place de la presse locale."
+   },
+   "notes": "Les corps ont été incinérés et réunis dans le caveau familial maternel."
+  }
+ ],
+ "chronologie": [
+  {
+   "date": "1962-11-09",
+   "precision": "jour",
+   "evenement": "Naissance d'Agnès Hodanger à Neuilly-sur-Seine.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-bio_famille-07",
+    "S-bio_famille-11"
+   ],
+   "note": ""
+  },
+  {
+   "date": "1982",
+   "precision": "annee",
+   "evenement": "Premières fiançailles entre Xavier et Agnès à Versailles, rapidement rompues.",
+   "categorie": "TEMOIGNAGE_RAPPORTE",
+   "sources": [
+    "S-bio_famille-03"
+   ],
+   "note": "Témoignage de Bruno de Stabenrath."
+  },
+  {
+   "date": "1990-07-07",
+   "precision": "jour",
+   "evenement": "Naissance d'Arthur à Versailles.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-bio_famille-07"
+   ],
+   "note": "Fils d'Agnès, reconnu par Xavier lors de leur mariage."
+  },
+  {
+   "date": "1991-11-09",
+   "precision": "jour",
+   "evenement": "Mariage de Xavier Dupont de Ligonnès et Agnès Hodanger.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-bio_famille-01",
+    "S-bio_famille-07"
+   ],
+   "note": "Légitimation d'Arthur."
+  },
+  {
+   "date": "1992-08-28",
+   "precision": "jour",
+   "evenement": "Naissance de Thomas à Draguignan.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-bio_famille-07"
+   ],
+   "note": ""
+  },
+  {
+   "date": "1994-08-02",
+   "precision": "jour",
+   "evenement": "Naissance d'Anne à Draguignan.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-bio_famille-07"
+   ],
+   "note": ""
+  },
+  {
+   "date": "1997-05-29",
+   "precision": "jour",
+   "evenement": "Naissance de Benoît à Nantes.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-bio_famille-07"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2002",
+   "precision": "annee",
+   "evenement": "Séjour de la famille en Floride (Miami) dans le cadre de projets d'entreprises de Xavier.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-bio_famille-01",
+    "S-bio_famille-06"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2004",
+   "precision": "annee",
+   "evenement": "Installation de la famille au 55 boulevard Robert-Schuman à Nantes ; premiers messages d'Agnès sur Doctissimo.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-bio_famille-05",
+    "S-bio_famille-06"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2011-04-28",
+   "precision": "jour",
+   "evenement": "Messe d'obsèques d'Agnès et de ses quatre enfants en l'église Saint-Félix de Nantes.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-bio_famille-04"
+   ],
+   "note": "Carnet du jour du Figaro."
+  },
+  {
+   "date": "2011-04-30",
+   "precision": "jour",
+   "evenement": "Inhumation des urnes au cimetière de Noyers-sur-Serein (Yonne).",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-bio_famille-09"
+   ],
+   "note": ""
+  }
+ ],
+ "details_moins_connus": [
+  {
+   "detail": "Arthur, bien que né d'une précédente liaison d'Agnès, portait pleinement le nom de 'de Ligonnès' et figurait à ce titre dans l'avis officiel d'obsèques publié par les familles.",
+   "interet_interpretation": "Démontre la reconnaissance juridique et sociale complète au sein de la cellule familiale, écartant les spéculations sur un rejet de filiation.",
+   "sources": [
+    "S-bio_famille-04",
+    "S-bio_famille-07"
+   ]
+  },
+  {
+   "detail": "Benoît était servant d'autel (enfant de chœur) à la paroisse Saint-Félix de Nantes, l'église même où s'est tenue la messe d'obsèques.",
+   "interet_interpretation": "Illustre l'intégration paroissiale locale et l'impact émotionnel profond sur la communauté nantaise.",
+   "sources": [
+    "S-bio_famille-02",
+    "S-bio_famille-04",
+    "S-bio_famille-07"
+   ]
+  },
+  {
+   "detail": "Les chefs d'établissements scolaires (Blanche-de-Castille et La Perverie) ont expressément souligné n'avoir jamais rencontré Xavier Dupont de Ligonnès, toutes les démarches scolaires étant assurées par Agnès.",
+   "interet_interpretation": "Souligne l'effacement du père des relations courantes de proximité et son cloisonnement dans ses activités professionnelles extérieures.",
+   "sources": [
+    "S-bio_famille-02"
+   ]
+  }
+ ],
+ "contradictions": [
+  {
+   "sujet": "Établissement scolaire de Benoît",
+   "versions": [
+    {
+     "version": "Scolarisé à Blanche-de-Castille (école où travaillait sa mère)",
+     "sources": [
+      "S-bio_famille-05"
+     ]
+    },
+    {
+     "version": "Scolarisé au collège La Perverie-Sacré-Cœur (confirmé par le directeur Olivier Bouissou)",
+     "sources": [
+      "S-bio_famille-02",
+      "S-bio_famille-07"
+     ]
+    }
+   ],
+   "traitement_recommande": "Retenir La Perverie-Sacré-Cœur, attesté directement par le directeur du collège Olivier Bouissou lors de sa conférence de presse le 22 avril 2011."
+  }
+ ],
+ "lacunes": [
+  "Identité du père biologique d'Arthur (non divulguée publiquement et sans pertinence pénale).",
+  "Détail exact des mouvements de capitaux familiaux liés à la dot ou à l'héritage d'Agnès lors des investissements de Xavier."
+ ]
+}

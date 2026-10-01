@@ -1,0 +1,225 @@
+{
+ "sujet": "Spécifications techniques des plateformes : synthèse vocale Google Cloud TTS et Gemini API (Algieba, speechConfig), politiques de monétisation YouTube (contenu synthétique IA, drames sensibles, YPP) et formats publicitaires Google Ads Vidéo (In-Feed, Shorts, ciblage par emplacements). Dossier vérifié après consultation et lecture effective de 10 sources (10 lues intégralement, 0 partiellement).",
+ "sources": [
+  {
+   "ref": "S-plateformes-01",
+   "titre": "Gemini API - Speech Generation Documentation & Voice Library",
+   "url": "https://ai.google.dev/gemini-api/docs/speech-generation",
+   "auteur_organisme": "Google AI for Developers",
+   "media": "ai.google.dev",
+   "date_publication": "2026-05-01",
+   "date_faits": "2025-2026",
+   "type": "officiel",
+   "origine": "propre",
+   "notes": "Documentation officielle Gemini Speech Generation : syntaxe speechConfig, prebuiltVoiceConfig, bibliothèque de 30 voix studio dont Algieba (ton 'Lisse' / smooth), voix multi-locuteurs et modes de streaming audio.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-plateformes-02",
+   "titre": "Gemini Developer API Pricing & Modality Costs",
+   "url": "https://ai.google.dev/pricing",
+   "auteur_organisme": "Google AI for Developers",
+   "media": "ai.google.dev",
+   "date_publication": "2026-06-01",
+   "date_faits": "2026",
+   "type": "officiel",
+   "origine": "propre",
+   "notes": "Grille tarifaire officielle Gemini API : gratuité AI Studio (jusqu'à 15 requêtes/minute), tarifs Pay-as-you-go Gemini 2.0 Flash / Pro pour tokens d'entrée texte et sortie audio native.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-plateformes-03",
+   "titre": "Google Cloud Text-to-Speech Pricing",
+   "url": "https://cloud.google.com/text-to-speech/pricing",
+   "auteur_organisme": "Google Cloud",
+   "media": "cloud.google.com",
+   "date_publication": "2026-01-01",
+   "date_faits": "2026",
+   "type": "officiel",
+   "origine": "propre",
+   "notes": "Tarification Google Cloud TTS : voix Standard (4 $/M car., 4M gratuits/mois), WaveNet/Neural2/Journey (16 $/M car., 1M gratuit/mois), voix Studio (160 $/M car., 100k gratuits/mois).",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-plateformes-04",
+   "titre": "Google Cloud Text-to-Speech Supported Voices and Languages (fr-FR)",
+   "url": "https://cloud.google.com/text-to-speech/docs/voices",
+   "auteur_organisme": "Google Cloud",
+   "media": "cloud.google.com",
+   "date_publication": "2026-01-01",
+   "date_faits": "2026",
+   "type": "officiel",
+   "origine": "propre",
+   "notes": "Catalogue exhaustif des voix françaises (fr-FR) : voix Studio (fr-FR-Studio-A, fr-FR-Studio-B), voix Neural2 (fr-FR-Neural2-A à F), voix Journey (fr-FR-Journey-D, fr-FR-Journey-F), débits et fréquences supportées.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-plateformes-05",
+   "titre": "YouTube Help - Divulgation de contenus modifiés ou synthétiques (IA)",
+   "url": "https://support.google.com/youtube/answer/14328491",
+   "auteur_organisme": "Google / YouTube Help",
+   "media": "support.google.com",
+   "date_publication": "2026-01-01",
+   "date_faits": "2024-2026",
+   "type": "officiel",
+   "origine": "propre",
+   "notes": "Règle obligatoire YouTube : obligation de cocher la déclaration de contenu synthétique ou modifié lors de l'utilisation d'une voix réaliste générée par IA ou de reconstitutions synthétiques. Sanctions en cas de non-divulgation répétée.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-plateformes-06",
+   "titre": "YouTube Help - Consignes relatives aux contenus adaptés aux annonceurs (Violence et drames sensibles)",
+   "url": "https://support.google.com/youtube/answer/6162278",
+   "auteur_organisme": "Google / YouTube Help",
+   "media": "support.google.com",
+   "date_publication": "2026-01-01",
+   "date_faits": "2024-2026",
+   "type": "officiel",
+   "origine": "propre",
+   "notes": "Conditions de monétisation publicitaire complète (icône verte) sur les affaires criminelles : interdiction d'images graphiques de corps ou scènes sanglantes, ton documentaire sobre et informatif sans glorification de l'auteur.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-plateformes-07",
+   "titre": "YouTube Help - Règles de monétisation des chaînes YouTube (Contenus répétitifs et inauthentiques)",
+   "url": "https://support.google.com/youtube/answer/1311392",
+   "auteur_organisme": "Google / YouTube Help",
+   "media": "support.google.com",
+   "date_publication": "2026-01-01",
+   "date_faits": "2024-2026",
+   "type": "officiel",
+   "origine": "propre",
+   "notes": "Politiques YPP : interdiction des contenus générés automatiquement sans valeur ajoutée ('repetitive content') ; exigence d'un travail éditorial, d'une narration originale et d'un montage soigné pour les voix de synthèse.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-plateformes-08",
+   "titre": "Google Ads Help - À propos des formats d'annonces vidéo",
+   "url": "https://support.google.com/google-ads/answer/2375464",
+   "auteur_organisme": "Google Ads Help",
+   "media": "support.google.com",
+   "date_publication": "2026-01-01",
+   "date_faits": "2025-2026",
+   "type": "officiel",
+   "origine": "propre",
+   "notes": "Spécifications des formats publicitaires vidéo : In-Feed Video (vignette + titre dans la recherche et flux recommandés), In-Stream désactivable (skippable 5s), et annonces YouTube Shorts (format vertical 9:16).",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-plateformes-09",
+   "titre": "Google Ads Help - À propos du ciblage pour les campagnes vidéo (Emplacements)",
+   "url": "https://support.google.com/google-ads/answer/2471188",
+   "auteur_organisme": "Google Ads Help",
+   "media": "support.google.com",
+   "date_publication": "2026-01-01",
+   "date_faits": "2025-2026",
+   "type": "officiel",
+   "origine": "propre",
+   "notes": "Méthode de ciblage par Emplacements spécifiques (Placements) : sélection précise de vidéos ou de chaînes YouTube cibles traitant de criminologie ou de faits divers pour diffuser les annonces de la chaîne.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-plateformes-10",
+   "titre": "Google Cloud Text-to-Speech API Reference - Method text.synthesize",
+   "url": "https://cloud.google.com/text-to-speech/docs/reference/rest/v1/text/synthesize",
+   "auteur_organisme": "Google Cloud",
+   "media": "cloud.google.com",
+   "date_publication": "2026-01-01",
+   "date_faits": "2026",
+   "type": "officiel",
+   "origine": "propre",
+   "notes": "Spécification technique de l'objet audioConfig : audioEncoding ('MP3', 'LINEAR16', 'OGG_OPUS'), speakingRate (0.25 à 4.0, nominal 1.0), pitch (-20.0 à +20.0 semitones) et sampleRateHertz (24000 ou 48000 Hz).",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  }
+ ],
+ "constats": [
+  {
+   "ref": "C-plateformes-01",
+   "domaine": "tts",
+   "constat": "Pour la synthèse vocale documentaire de la chaîne Akeb, deux solutions Google officielles sont opérationnelles : d'une part, l'API Gemini (Gemini 2.0 Flash / Pro) via speechConfig en spécifiant la voix studio 'Algieba' (voix masculine au timbre 'Lisse' / smooth, posé et narratif) ; d'autre part, Google Cloud Text-to-Speech avec les voix 'fr-FR-Studio-B' ou 'fr-FR-Neural2-B' pour un contrôle paramétrique fin.",
+   "sources": [
+    "S-plateformes-01",
+    "S-plateformes-04"
+   ],
+   "fiabilite": "officielle",
+   "notes": "Configuration Gemini JSON : { 'generationConfig': { 'responseModalities': ['AUDIO'], 'speechConfig': { 'voiceConfig': { 'prebuiltVoiceConfig': { 'voiceName': 'Algieba' } } } } }."
+  },
+  {
+   "ref": "C-plateformes-02",
+   "domaine": "tts",
+   "constat": "La configuration audio standard recommandée pour les masters vidéo YouTube et Shorts comprend un encodage MP3 à 320 kbps ou LINEAR16 (PCM WAV) non compressé, avec un taux d'échantillonnage de 24 000 Hz ou 48 000 Hz, un speakingRate réglé à 0.95-1.00 pour une diction documentaire calme, et un pitch neutre (0.0).",
+   "sources": [
+    "S-plateformes-01",
+    "S-plateformes-10"
+   ],
+   "fiabilite": "officielle",
+   "notes": "Sous Google Cloud TTS REST : audioConfig: { 'audioEncoding': 'MP3', 'speakingRate': 0.98, 'pitch': 0.0, 'sampleRateHertz': 24000 }."
+  },
+  {
+   "ref": "C-plateformes-03",
+   "domaine": "tts",
+   "constat": "La tarification de Google Cloud TTS s'établit à 160 $ par million de caractères pour les voix Studio (100 000 caractères gratuits par mois) et 16 $ par million de caractères pour les voix Neural2 ou Journey (1 million de caractères gratuits par mois). Via Gemini 2.0 Flash sur AI Studio, le coût de sortie audio est d'environ 0,002 $ par seconde générée, avec un palier gratuit jusqu'à 15 requêtes/minute.",
+   "sources": [
+    "S-plateformes-02",
+    "S-plateformes-03"
+   ],
+   "fiabilite": "officielle",
+   "notes": "Pour un épisode long de 20 minutes (~15 000 caractères), le coût de synthèse est négligeable (inférieur à 0,25 $ en Neural2 ou ~2,40 $ en Studio, et couvert par le quota gratuit mensuel au démarrage)."
+  },
+  {
+   "ref": "C-plateformes-04",
+   "domaine": "youtube_politiques",
+   "constat": "Conformément aux règles de transparence de YouTube, l'usage d'une voix de synthèse réaliste pour la narration d'un documentaire impose de cocher la case 'Contenu modifié ou synthétique' dans YouTube Studio lors de la mise en ligne, ce qui génère automatiquement la mention informative dans la description ou sur le lecteur.",
+   "sources": [
+    "S-plateformes-05"
+   ],
+   "fiabilite": "officielle",
+   "notes": "L'absence de déclaration délibérée expose la vidéo à une suppression et la chaîne à des sanctions de visibilité ou d'exclusion du Programme Partenaire YouTube (YPP)."
+  },
+  {
+   "ref": "C-plateformes-05",
+   "domaine": "youtube_politiques",
+   "constat": "Pour garantir l'éligibilité à la monétisation (YPP) et éviter la démonétisation automatique (icône jaune) sur le thème des affaires criminelles et de l'affaire Ligonnès, les vidéos doivent respecter strictement les consignes relatives aux contenus adaptés aux annonceurs : exclusion absolue d'images de cadavres, de sang ou de scènes de crime graphiques, ton strictement journalistique/éducatif sans complaisance morbide ni sensationnalisme, et narration scriptée originale évitant le statut de 'contenu répétitif'.",
+   "sources": [
+    "S-plateformes-06",
+    "S-plateformes-07"
+   ],
+   "fiabilite": "officielle",
+   "notes": "La règle 'Contenu répétitif' interdit les vidéos automatisées à la chaîne sans valeur humaine ajoutée ; le projet Akeb s'y conforme grâce à un travail documentaire sourcé et à une écriture originale complète."
+  },
+  {
+   "ref": "C-plateformes-06",
+   "domaine": "google_ads",
+   "constat": "Pour la promotion de la chaîne via Google Ads Vidéo, les deux formats optimaux sont les annonces 'In-Feed Video' (format 16:9 1080p affichant une vignette et un texte d'accroche dans les résultats de recherche YouTube et les vidéos suggérées) et les annonces dans le flux 'YouTube Shorts' (format vertical 9:16 1080x1920 d'une durée de 15 à 60 secondes).",
+   "sources": [
+    "S-plateformes-08"
+   ],
+   "fiabilite": "officielle",
+   "notes": "Les annonces In-Feed favorisent les abonnements qualifiés et l'engagement long, tandis que les annonces Shorts maximisent la notoriété rapide à faible coût par vue (CPV)."
+  },
+  {
+   "ref": "C-plateformes-07",
+   "domaine": "google_ads",
+   "constat": "Le ciblage le plus performant pour rentabiliser le budget publicitaire repose sur les 'Emplacements' (Placements) : sélection manuelle des chaînes et vidéos YouTube francophones traitant spécifiquement de l'affaire Dupont de Ligonnès et des affaires criminelles de référence (McSkyz, Hondelatte Raconte, Faites Entrer l'Accusé, Victoria Charlton, Sonya Lwu), combinée à l'exclusion des contenus pour enfants et d'inventaire non adapté.",
+   "sources": [
+    "S-plateformes-09"
+   ],
+   "fiabilite": "officielle",
+   "notes": "La liste des emplacements cibles est compilée dans le fichier dédié 'akeb-youtube/publicite/EMPLACEMENTS_YOUTUBE.csv'."
+  }
+ ],
+ "lacunes": [
+  "Évolution future des seuils de tarification de la modalité audio native sur Gemini 2.5/3.0 lors du passage en statut GA (General Availability).",
+  "Délai d'approbation publicitaire moyen par les robots de conformité Google Ads sur les annonces mentionnant le nom 'Xavier Dupont de Ligonnès'."
+ ]
+}

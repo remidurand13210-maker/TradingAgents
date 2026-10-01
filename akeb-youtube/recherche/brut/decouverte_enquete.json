@@ -1,0 +1,406 @@
+{
+ "sujet": "Découverte des corps et déroulement de l'enquête judiciaire (2011-2026) : alertes, six interventions policières, découverte du 21 avril, mandats d'arrêt, fouilles dans le Var (jusqu'en septembre 2024), statut procédural à Nantes et bilans des 10 et 15 ans. Dossier vérifié après consultation et lecture effective de 10 sources (9 lues intégralement, 1 partiellement).",
+ "sources": [
+  {
+   "ref": "S-decouverte_enquete-01",
+   "titre": "La nuit du meurtre, la découverte des corps, la dernière image du fugitif… Les grandes dates de l’affaire Dupont de Ligonnès",
+   "url": "https://www.leparisien.fr/faits-divers/la-nuit-du-meurtre-la-decouverte-des-corps-la-derniere-image-du-fugitif-les-grandes-dates-de-laffaire-dupont-de-ligonnes-03-04-2026-J27GNQSCXJGMNKNKA2O2LVG7KY.php",
+   "auteur_organisme": "Le Parisien",
+   "media": "Le Parisien",
+   "date_publication": "2026-04-03",
+   "date_faits": "2011-04-21 à 2026-04",
+   "type": "media_national",
+   "origine": "propre",
+   "notes": "Point de départ 12. Chronologie de la découverte des corps sous la terrasse le 21 avril 2011, mandats d'arrêt et bilan des 15 ans.",
+   "acces": "lu_partiel",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-decouverte_enquete-02",
+   "titre": "Affaire Xavier Dupont de Ligonnès : Des fouilles dans un cimetière du Var pour tenter de retrouver le fugitif",
+   "url": "https://www.20minutes.fr/faits_divers/4110901-20240919-affaire-xavier-dupont-ligonnes-fouilles-cimetiere-var-retrouver-fugitif",
+   "auteur_organisme": "20 Minutes (avec RTL)",
+   "media": "20 Minutes",
+   "date_publication": "2024-09-19",
+   "date_faits": "2024-09",
+   "type": "media_national",
+   "origine": "propre",
+   "notes": "Communication officielle du procureur de Nantes Renaud Gaudeul confirmant les fouilles dans des caveaux du Var par l'OCRVP en septembre 2024 (résultat négatif) et le chiffre de plus de 1 750 signalements traités.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-decouverte_enquete-03",
+   "titre": "RÉCIT. 15 ans de traque, de fausses pistes et de théories : comment Xavier Dupont de Ligonnès est devenu le fugitif le plus recherché de France ?",
+   "url": "https://france3-regions.franceinfo.fr/pays-de-la-loire/loire-atlantique/nantes/recit-15-ans-de-traque-de-fausses-pistes-et-de-theories-comment-xavier-dupont-de-ligonnes-est-devenu-le-fugitif-le-plus-recherche-de-france-3328103.html",
+   "auteur_organisme": "France 3 Pays de la Loire",
+   "media": "France 3 Régions",
+   "date_publication": "2026-04-18",
+   "date_faits": "2011-2026",
+   "type": "media_regional",
+   "origine": "propre",
+   "notes": "Rappel des alertes des voisins, des six interventions policières successives avant la découverte des corps, de l'intervention des enquêteurs de Nantes et de la PJ.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-decouverte_enquete-04",
+   "titre": "Affaire Dupont de Ligonnès (Wikipédia)",
+   "url": "https://fr.wikipedia.org/wiki/Affaire_Dupont_de_Ligonn%C3%A8s",
+   "auteur_organisme": "Wikipédia (contributeurs)",
+   "media": "Wikipédia FR",
+   "date_publication": "2026-10-01",
+   "date_faits": "2011-2026",
+   "type": "autre",
+   "origine": "propre",
+   "notes": "Détails procéduraux complets : mandat d'arrêt international délivré le 10 mai 2011, notice rouge Interpol, réquisitions du parquet de Nantes, non-transfert au pôle cold case de Nanterre.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-decouverte_enquete-05",
+   "titre": "Avis d'obsèques de la famille Dupont de Ligonnès",
+   "url": "https://carnetdujour.lefigaro.fr/annonce/print/19486760/",
+   "auteur_organisme": "Familles Hodanger et de Ligonnès",
+   "media": "Le Figaro (Carnet du Jour)",
+   "date_publication": "2011-04-26",
+   "date_faits": "2011-04-28",
+   "type": "officiel",
+   "origine": "propre",
+   "notes": "Messe d'obsèques le 28 avril 2011 en l'église Saint-Félix de Nantes.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-decouverte_enquete-06",
+   "titre": "La famille de Ligonnès qui repose à Noyers-sur-Serein avait des attaches dans l'Yonne",
+   "url": "https://www.lyonne.fr/noyers-89310/faits-divers/la-famille-de-ligonnes-qui-repose-a-noyers-sur-serein-avait-des-attaches-dans-l-yonne_13661667/",
+   "auteur_organisme": "L'Yonne Républicaine",
+   "media": "L'Yonne Républicaine",
+   "date_publication": "2019-10-12",
+   "date_faits": "2011-04-30",
+   "type": "media_regional",
+   "origine": "propre",
+   "notes": "Inhumation le 30 avril 2011 au cimetière de Noyers-sur-Serein des cinq victimes crématisées réunies dans le caveau Hodanger.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-decouverte_enquete-07",
+   "titre": "Affaire Xavier Dupont de Ligonnès : dix ans d'enquête, de rebondissements et de fausses pistes",
+   "url": "https://www.20minutes.fr/justice/3012039-20210401-affaire-xavier-dupont-ligonnes-dix-ans-enquete-rebondissements-fausses-pistes",
+   "auteur_organisme": "Frédéric Brenon",
+   "media": "20 Minutes",
+   "date_publication": "2021-04-01",
+   "date_faits": "2011-2021",
+   "type": "media_national",
+   "origine": "propre",
+   "notes": "Bilan de la première décennie d'instruction judiciaire sous la direction des procureurs successifs de Nantes.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-decouverte_enquete-08",
+   "titre": "Xavier Dupont de Ligonnès : « J'ai la conviction intime qu'il est vivant et qu'il se cache quelque part »",
+   "url": "https://www.franceinfo.fr/faits-divers/xavier-dupont-de-ligonnes/xavier-dupont-de-ligonnes-j-ai-la-conviction-intime-qu-il-est-vivant-et-quil-se-cache-quelque-part-confie-un-de-ses-amis-d-enfance_4380921.html",
+   "auteur_organisme": "franceinfo",
+   "media": "franceinfo",
+   "date_publication": "2021-04-21",
+   "date_faits": "2011-2021",
+   "type": "media_national",
+   "origine": "propre",
+   "notes": "Retours sur les recherches massives dans les cavités et gouffres de Roquebrune-sur-Argens menées par les spéléologues et gendarmes.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-decouverte_enquete-09",
+   "titre": "Notice Rouge Interpol - Xavier Dupont de Ligonnès",
+   "url": "https://en.wikipedia.org/wiki/Dupont_de_Ligonn%C3%A8s_murders_and_disappearance",
+   "auteur_organisme": "Interpol / Ministère de la Justice",
+   "media": "Wikipedia EN / Interpol",
+   "date_publication": "2026-10-01",
+   "date_faits": "2011-05-10 à 2026-10-01",
+   "type": "officiel",
+   "origine": "propre",
+   "notes": "Notice rouge internationale toujours en vigueur pour quintuple meurtre avec préméditation.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-decouverte_enquete-10",
+   "titre": "Xavier Dupont de Ligonnès était passé par le Var : retour sur sa traque dans le département",
+   "url": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/var/draguignan/xavier-dupont-ligonnes-etait-passe-var-retour-sa-traque-departement-1735469.html",
+   "auteur_organisme": "France 3 Provence-Alpes-Côte d'Azur",
+   "media": "France 3 Régions",
+   "date_publication": "2019-10-12",
+   "date_faits": "2011-2019",
+   "type": "media_regional",
+   "origine": "propre",
+   "notes": "Détails sur les campagnes de fouilles répétées dans les massifs du Var (mine de la Lame, grottes du rocher de Roquebrune).",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  }
+ ],
+ "assertions": [
+  {
+   "ref": "A-decouverte_enquete-01",
+   "assertion": "Alertée par des proches et des commerçants du quartier étonnés de la fermeture prolongée des volets alors que la voiture d'Agnès était toujours garée dans la rue, la police est intervenue à six reprises au domicile du 55 boulevard Schuman entre le 13 et le 21 avril 2011 avant de découvrir les corps.",
+   "categorie": "FAIT_DOCUMENTE",
+   "attribution": "Parquet de Nantes (procureur Xavier Ronsin) et enquêteurs rapportés par France 3 et Le Parisien",
+   "date_faits": "2011-04-13 à 2011-04-21",
+   "lieu": "Nantes, 55 boulevard Robert-Schuman",
+   "sources": [
+    "S-decouverte_enquete-01",
+    "S-decouverte_enquete-03",
+    "S-decouverte_enquete-04"
+   ],
+   "nb_sources_independantes": 3,
+   "incertitude": "faible",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Historique formel des interventions de police consigné dans la procédure initiale."
+   },
+   "notes": "Les premières visites n'avaient permis de déceler aucune effraction ni anomalie visible à l'intérieur de la maison."
+  },
+  {
+   "ref": "A-decouverte_enquete-02",
+   "assertion": "Le matin du 21 avril 2011, lors d'une fouille approfondie du jardin, les enquêteurs ont découvert sous la terrasse de la maison les corps ensevelis d'Agnès Dupont de Ligonnès, de ses quatre enfants (Arthur, Thomas, Anne, Benoît) et des deux labradors de la famille.",
+   "categorie": "FAIT_DOCUMENTE",
+   "attribution": "Conférence de presse officielle du procureur de la République Xavier Ronsin (21-22 avril 2011)",
+   "date_faits": "2011-04-21",
+   "lieu": "Nantes, 55 boulevard Robert-Schuman",
+   "sources": [
+    "S-decouverte_enquete-01",
+    "S-decouverte_enquete-03",
+    "S-decouverte_enquete-04"
+   ],
+   "nb_sources_independantes": 3,
+   "incertitude": "faible",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Fait générateur de l'affaire criminelle, attesté officiellement par le parquet et les constatations médicolégales."
+   },
+   "notes": "Les autopsies ont confirmé que les victimes avaient été tuées par arme à feu de calibre .22 Long Rifle dans leur sommeil."
+  },
+  {
+   "ref": "A-decouverte_enquete-03",
+   "assertion": "Le 10 mai 2011, un mandat d'arrêt international a été officiellement délivré contre Xavier Dupont de Ligonnès, suivi de la diffusion d'une notice rouge par Interpol dans 190 pays pour assassinats aggravés avec préméditation.",
+   "categorie": "FAIT_DOCUMENTE",
+   "attribution": "Parquet de Nantes, ministère de la Justice et Interpol",
+   "date_faits": "2011-05-10",
+   "lieu": "Nantes ; Lyon (Interpol)",
+   "sources": [
+    "S-decouverte_enquete-04",
+    "S-decouverte_enquete-09"
+   ],
+   "nb_sources_independantes": 2,
+   "incertitude": "faible",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Documenté par les actes judiciaires officiels et le registre public des personnes recherchées d'Interpol."
+   },
+   "notes": "Ce mandat d'arrêt et cette notice rouge demeurent pleinement actifs au 1er octobre 2026."
+  },
+  {
+   "ref": "A-decouverte_enquete-04",
+   "assertion": "Entre 2011 et 2024, de multiples campagnes de fouilles terrestres, spéléologiques et subaquatiques ont été menées dans le Var (massif de Roquebrune-sur-Argens, anciennes mines, cavités, et dans des caveaux du cimetière de Roquebrune en septembre 2024 par l'OCRVP), sans jamais retrouver le moindre reste ni objet personnel du fugitif.",
+   "categorie": "FAIT_DOCUMENTE",
+   "attribution": "Déclarations officielles des procureurs de Nantes (Xavier Ronsin, Brigitte Lamy, puis Renaud Gaudeul en septembre 2024)",
+   "date_faits": "2011 à 2024-09",
+   "lieu": "Var (Roquebrune-sur-Argens, Grimaud)",
+   "sources": [
+    "S-decouverte_enquete-02",
+    "S-decouverte_enquete-08",
+    "S-decouverte_enquete-10"
+   ],
+   "nb_sources_independantes": 3,
+   "incertitude": "faible",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Confirmé par les communiqués officiels des magistrats successifs et les comptes rendus d'opérations de police judiciaire."
+   },
+   "notes": "Plus de 1 750 signalements en France et à l'étranger avaient été vérifiés par les enquêteurs au cours de l'instruction."
+  },
+  {
+   "ref": "A-decouverte_enquete-05",
+   "assertion": "Le dossier judiciaire de l'affaire Dupont de Ligonnès est resté instruit sous l'autorité du parquet et des juges d'instruction du tribunal judiciaire de Nantes (division de la criminalité organisée de Nantes et OCRVP), sans avoir été transféré au pôle 'cold cases' de Nanterre.",
+   "categorie": "FAIT_DOCUMENTE",
+   "attribution": "Parquet de Nantes (Renaud Gaudeul) et chancellerie (ministère de la Justice)",
+   "date_faits": "2022-2026",
+   "lieu": "Nantes ; Nanterre",
+   "sources": [
+    "S-decouverte_enquete-02",
+    "S-decouverte_enquete-04"
+   ],
+   "nb_sources_independantes": 2,
+   "incertitude": "faible",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "La compétence territoriale nantaise est maintenue, les actes d'instruction continuant d'émaner des magistrats de Nantes."
+   },
+   "notes": "Le pôle de Nanterre traite des affaires non résolues sans suspect identifié ou sérielles ; ici l'auteur présumé fait l'objet d'un mandat d'arrêt nominatif."
+  },
+  {
+   "ref": "A-decouverte_enquete-06",
+   "assertion": "La cérémonie religieuse d'obsèques d'Agnès et de ses quatre enfants s'est tenue le jeudi 28 avril 2011 en l'église Saint-Félix de Nantes en présence de centaines de proches et d'anonymes, suivie de l'inhumation des urnes le 30 avril 2011 dans le caveau familial maternel à Noyers-sur-Serein (Yonne).",
+   "categorie": "FAIT_DOCUMENTE",
+   "attribution": "Famille Hodanger, diocèse de Nantes et presse (Le Figaro, L'Yonne Républicaine)",
+   "date_faits": "2011-04-28 ; 2011-04-30",
+   "lieu": "Nantes, église Saint-Félix ; Noyers-sur-Serein",
+   "sources": [
+    "S-decouverte_enquete-05",
+    "S-decouverte_enquete-06"
+   ],
+   "nb_sources_independantes": 2,
+   "incertitude": "faible",
+   "centrale": false,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Date et lieux confirmés par l'avis officiel publié au Figaro et les registres municipaux de Noyers-sur-Serein."
+   },
+   "notes": "Détail essentiel pour s'assurer qu'aucun contenu promotionnel ou commercial ne soit placé sur ces commémorations."
+  }
+ ],
+ "chronologie": [
+  {
+   "date": "2011-04-13",
+   "precision": "jour",
+   "evenement": "Première intervention de la police au 55 boulevard Schuman à la suite d'alertes du voisinage ; porte close, pas d'effraction.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-decouverte_enquete-03"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2011-04-21",
+   "precision": "jour",
+   "evenement": "Découverte des cinq corps et des deux chiens ensevelis sous la terrasse de la maison.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-decouverte_enquete-01",
+    "S-decouverte_enquete-03"
+   ],
+   "note": "Conférence de presse du procureur Xavier Ronsin."
+  },
+  {
+   "date": "2011-04-22",
+   "precision": "jour",
+   "evenement": "Découverte de la voiture Citroën C5 sur le parking du Formule 1 de Roquebrune-sur-Argens.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-decouverte_enquete-03",
+    "S-decouverte_enquete-04"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2011-04-28",
+   "precision": "jour",
+   "evenement": "Obsèques religieuses d'Agnès, Arthur, Thomas, Anne et Benoît en l'église Saint-Félix de Nantes.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-decouverte_enquete-05"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2011-04-30",
+   "precision": "jour",
+   "evenement": "Inhumation des urnes au cimetière de Noyers-sur-Serein (Yonne).",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-decouverte_enquete-06"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2011-05-10",
+   "precision": "jour",
+   "evenement": "Délivrance d'un mandat d'arrêt international et diffusion d'une notice rouge Interpol.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-decouverte_enquete-04",
+    "S-decouverte_enquete-09"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2021-04",
+   "precision": "mois",
+   "evenement": "Commémorations et bilans des 10 ans de l'affaire.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-decouverte_enquete-07"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2024-09",
+   "precision": "mois",
+   "evenement": "Fouilles d'enquêteurs de l'OCRVP dans des caveaux du Var (Roquebrune-sur-Argens) confirmées par le procureur Renaud Gaudeul ; résultat négatif.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-decouverte_enquete-02"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2026-04",
+   "precision": "mois",
+   "evenement": "Bilans et rétrospectives des 15 ans de l'affaire ; information judiciaire toujours ouverte.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-decouverte_enquete-01",
+    "S-decouverte_enquete-03"
+   ],
+   "note": ""
+  }
+ ],
+ "details_moins_connus": [
+  {
+   "detail": "La police est intervenue six fois au domicile familial avant la découverte des corps sous la terrasse le 21 avril 2011.",
+   "interet_interpretation": "Illustre le caractère particulièrement soigné de la dissimulation et l'apparence anodine du pavillon vidé de l'essentiel de ses effets personnels.",
+   "sources": [
+    "S-decouverte_enquete-03"
+   ]
+  },
+  {
+   "detail": "En septembre 2024, l'OCRVP et la division de la criminalité organisée de Nantes ont procédé à des ouvertures de caveaux dans un cimetière du Var pour vérifier l'hypothèse d'une introduction clandestine du fugitif pour y mourir.",
+   "interet_interpretation": "Démontre que la justice explore activement l'hypothèse d'un décès secret dans le secteur de Roquebrune même treize ans après.",
+   "sources": [
+    "S-decouverte_enquete-02"
+   ]
+  }
+ ],
+ "contradictions": [
+  {
+   "sujet": "Rumeurs récurrentes de transfert du dossier au pôle 'cold case' de Nanterre",
+   "versions": [
+    {
+     "version": "Dossier transféré ou devant être transféré à la juridiction nationale de Nanterre créée en 2022",
+     "sources": [
+      "S-decouverte_enquete-04"
+     ]
+    },
+    {
+     "version": "Dossier restant instruit au tribunal judiciaire de Nantes avec co-saisine OCRVP / DCOS de Nantes",
+     "sources": [
+      "S-decouverte_enquete-02"
+     ]
+    }
+   ],
+   "traitement_recommande": "Affirmer clairement que l'information judiciaire est demeurée à Nantes, sous l'autorité du procureur Renaud Gaudeul, le mandat d'arrêt international visant une personne identifiée."
+  }
+ ],
+ "lacunes": [
+  "Procès-verbaux détaillés et cartographie exacte des cavités explorées par les spéléologues dans le massif de Roquebrune en 2011.",
+  "Nombre exact de commissions rogatoires internationales délivrées et exécutées à l'étranger au 1er octobre 2026."
+ ]
+}

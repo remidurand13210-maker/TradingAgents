@@ -1,0 +1,607 @@
+{
+  "sujet": "Catalogue YouTube et archives officielles sur Xavier Dupont de Ligonnès : entretiens, enquête et traitement médiatique ; consultation au 1er octobre 2026",
+  "outil": "codex",
+  "sources": [
+    {
+      "ref": "S-youtube_archives_entretiens_codex-01",
+      "titre": "Affaire Dupont de Ligonnès : elle a enquêté pendant 15 ans…et raconte ce qu’elle a vu",
+      "url": "https://www.youtube.com/watch?v=g82Qa73OKrg",
+      "auteur_organisme": "TF1 INFO ; Intérieur Crime ; Guillaume Farde et Anne-Sophie Martin",
+      "media": "TF1 INFO / YouTube",
+      "date_publication": "2026-04-07",
+      "date_faits": "2011-2026 ; entretien publié en avril 2026",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Page ouverte dans le navigateur de l’agent principal ; description et JSON public YouTube lus par cet agent. Durée : 3988 secondes, soit 1:06:28, champ videoDetails.lengthSeconds ; microformat : 3989 secondes. Transcription française automatique entièrement lue : 1993 lignes, de 0:00 à 1:06:13. Export temporaire fourni : youtube-g82Qa73OKrg-834d7cfe-3fa8-4468-bfbb-d305522b9f53.txt ; aucun texte intégral copié dans le dépôt. Lecture du texte, audiovisuel non visionné et audio non écouté. Repères de la transcription : 01:25 Glasgow ; 08:04 courriers ; 10:29 lettre DEA ; 12:24 messages ; 20:39 découverte ; 30:10 tir ; 35:18 courriels ; 57:30 convictions. Croisements : avril_2011_avant A01/A02/A04/A07 ; avril_2011_apres A01/A03/A05/A13/A16/A18 ; pistes_2011_2019 A09/A17/A18 ; hypotheses_sort A07. Ces identifiants désignent les assertions des neuf JSON autorisés de brut_codex ; leurs sources restent à consulter pour une corroboration éditoriale définitive."
+    },
+    {
+      "ref": "S-youtube_archives_entretiens_codex-02",
+      "titre": "XAVIER DUPONT DE LIGONNÈS : L'ENQUÊTEUR QUI LE TRAQUE DEPUIS 15 ANS FAIT 3 RÉVÉLATIONS INCROYABLES !",
+      "url": "https://www.youtube.com/watch?v=FcjjKpvfW5M",
+      "auteur_organisme": "LEGEND ; Guillaume Pley ; Gilles Galloux ; Anne Tuffigo",
+      "media": "LEGEND / YouTube",
+      "date_publication": "2026-05-17",
+      "date_faits": "2011 ; enquête personnelle depuis 2024 ; entretien publié en mai 2026",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "temoignage_direct",
+      "origine": "propre",
+      "notes": "Page ouverte dans le navigateur de l’agent principal ; description et JSON public YouTube lus par cet agent. Durée HTML : 5298 secondes, soit 1:28:18 ; affichage navigateur communiqué : 1:28:17. Transcription française automatique entièrement lue : 2912 lignes, de 0:00 à 1:27:42. Export temporaire fourni : youtube-FcjjKpvfW5M-b580c5ff-aeb1-44b4-a22b-cfd5fb6338af.txt ; aucun texte intégral copié dans le dépôt. Lecture du texte, audiovisuel non visionné et audio non écouté. Repères : 05:02 rôle ; 17:43 mission ; 23:24 lettres ; 29:20 achats ; 49:56 courriels ; 57:23 médium ; 1:01:45 absence de preuve ; 1:19:55 démarche privée. Le titre promotionnel n’est pas une preuve. Croisements : hypotheses_sort A08 et détail Nanterre ; avril_2011_apres A03/A05/A13/A16/A17 ; decouverte_enquete A03/A18."
+    },
+    {
+      "ref": "S-youtube_archives_entretiens_codex-03",
+      "titre": "\"Xavier Dupont de Ligonnès: le mystère\": l'édition spéciale de BFMTV en intégralité",
+      "url": "https://www.youtube.com/watch?v=AdWNNlJdohc",
+      "auteur_organisme": "BFMTV ; Dominique Rizet ; présentatrice appelée Julie dans la transcription",
+      "media": "BFMTV / YouTube",
+      "date_publication": "2024-03-18",
+      "date_faits": "2011 ; débat publié en mars 2024",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Page ouverte et description développée par l’agent principal ; description et JSON public YouTube également lus par cet agent. Durée HTML : 7432 secondes, soit 2:03:52 ; affichage navigateur communiqué : 2:03:51. Transcription française automatique entièrement lue : 3615 lignes, de 0:00 à 2:03:49. Export temporaire fourni : youtube-AdWNNlJdohc-d44505d3-c0a6-4f31-a2b6-2173cb40922b.txt ; aucun texte intégral copié dans le dépôt. Lecture du texte, audiovisuel non visionné et audio non écouté. Participants identifiés : Christine Dupont de Ligonnès et Bertram de Verdun dans l’entretien ; Stéphane Goldenstein, avocat ; Isabelle Quintard, Laurent Valdiguié et Anne-Sophie Martin, journalistes ; Alain Vasquez, ancien chef de groupe de la brigade criminelle ; Bruno de Stabenrath ; psychologue appelée Johanna Rozenblum, orthographe à vérifier. Nom complet de Julie non confirmé. Repères : 03:38 présomption ; 11:36 Christine ; 13:26 identification ; 34:48 alerte ; 41:41 avocat ; 1:03:29 courriels ; 1:29:29 visites ; 1:41:29 conviction. Croisements : hypotheses_sort A11 ; decouverte_enquete A01/A02/A06/A18 ; avril_2011_apres A03 ; bio_travail_finances A01/A02."
+    },
+    {
+      "ref": "S-youtube_archives_entretiens_codex-04",
+      "titre": "20 heures : émission du 21 avril 2011",
+      "url": "https://www.ina.fr/ina-eclaire-actu/video/4443668001/20-heures-emission-du-21-avril-2011",
+      "auteur_organisme": "INA ; France 2 ; Marie Drucker ; Romuald Bonnant",
+      "media": "INA / France 2",
+      "date_publication": "2011-04-21",
+      "date_faits": "2011-04-21",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "officiel",
+      "origine": "propre",
+      "notes": "Notice et conducteur textuel ouverts et lus ; vidéo et audio non consultés. La date est celle de diffusion archivée, pas celle de mise en ligne INA. Durée du JT : 2126 secondes, soit 35:26. Horaires du conducteur, en horloge de diffusion et non en temps écoulé du lecteur : 20:00:13, sujet de 89 secondes ; 20:01:41, duplex de 40 secondes ; 20:32:02, duplex de 30 secondes. URL YouTube correspondante non trouvée. Croisement : decouverte_enquete A03/A04."
+    },
+    {
+      "ref": "S-youtube_archives_entretiens_codex-05",
+      "titre": "Portrait de la famille Dupont de Ligonnès",
+      "url": "https://www.ina.fr/ina-eclaire-actu/video/4443866001007/portrait-de-la-famille-dupont-de-ligonnes",
+      "auteur_organisme": "INA ; France 2 ; Anne-Charlotte Hinet et Éloïse Malet",
+      "media": "INA / France 2",
+      "date_publication": "2011-04-22",
+      "date_faits": "2011-04-22",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "officiel",
+      "origine": "propre",
+      "notes": "Notice descriptive ouverte et lue ; aucun visionnage ni transcription. Date de diffusion archivée. Durée : 124 secondes, soit 2:04. La notice annonce des témoignages de l’employeur d’Agnès, de voisins et d’une camarade d’un enfant ; les particuliers ne sont pas nommés ici. URL YouTube correspondante non trouvée. Croisements : bio_famille A09/A14/A15 et bio_travail_finances A14."
+    },
+    {
+      "ref": "S-youtube_archives_entretiens_codex-06",
+      "titre": "20 heures : émission du 24 avril 2011",
+      "url": "https://www.ina.fr/ina-eclaire-actu/video/4444631001/20-heures-emission-du-24-avril-2011",
+      "auteur_organisme": "INA ; France 2 ; Romuald Bonnant ; Xavier Ronsin annoncé dans la notice",
+      "media": "INA / France 2",
+      "date_publication": "2011-04-24",
+      "date_faits": "2011-04-24",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "officiel",
+      "origine": "propre",
+      "notes": "Notice et conducteur ouverts et lus ; audiovisuel non visionné. Date de diffusion archivée. JT : 1947 secondes, soit 32:27. Horloge de diffusion du conducteur : 20:04:36, duplex de 28 secondes ; 20:06:19, sujet itinéraire de 203 secondes. Le conducteur affiche aussi des horaires proches et chevauchants : ne pas les convertir en repères du lecteur sans contrôle. Participants annoncés : procureur Ronsin, directeur de collège, hôtelier et voisins. URL YouTube correspondante non trouvée. Croisements : decouverte_enquete A01/A03/A08 et avril_2011_apres A01/A06/A08/A15."
+    },
+    {
+      "ref": "S-youtube_archives_entretiens_codex-07",
+      "titre": "Chroniques criminelles — Affaire Dupont de Ligonnès : les secrets d’une enquête hors norme",
+      "url": "https://tf1pro.com/programmes/diffusion/2022-07-16-2255-chroniques-criminelles-affaire-dupont-de-ligonnes-les-secrets",
+      "auteur_organisme": "TF1 Production ; narration Jacques Pradel",
+      "media": "TF1 Pro / TFX",
+      "date_publication": "2022-07-16",
+      "date_faits": "Diffusion annoncée le 16 juillet 2022 à 22:55 ; faits de 2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "officiel",
+      "origine": "propre",
+      "notes": "Page de programme ouverte et description lue ; audiovisuel et transcription non consultés. Durée en secondes : inconnue, non indiquée sur la page lue. Intervenants annoncés : Stéphane Bouchet, Jean-Marc Bloch, Xavier Ronsin, un membre de la famille d’Agnès, Bruno de Stabenrath et témoins professionnels ou scolaires. URL YouTube correspondante non trouvée. Le programme renvoie aussi à l’enquête Society de 2020 ; aucun livre ou dossier Society intégral lu dans cette passe. Ne pas assimiler automatiquement cette version à un autre documentaire TF1 de 2026."
+    },
+    {
+      "ref": "S-youtube_archives_entretiens_codex-08",
+      "titre": "L’énigme Xavier Dupont de Ligonnès — Affaire suivante",
+      "url": "https://www.rmcplus.fr/video/episode/lenigme-xavier-dupont-de-ligonnes-1021061494476",
+      "auteur_organisme": "BFMTV ; Dominique Rizet et Pauline Revenaz",
+      "media": "RMC+ / BFMTV",
+      "date_publication": "2026-05-17",
+      "date_faits": "Diffusion annoncée le 17 mai 2026 à 13:00",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "officiel",
+      "origine": "propre",
+      "notes": "Page officielle ouverte et description lue ; aucune transcription ni lecture audiovisuelle. Durée affichée arrondie : 47 minutes, soit environ 2820 secondes, pas une durée exacte vérifiée. Invités annoncés pour XDDL : Gilles Galloux, Philippe Créhange, journaliste au Télégramme, et Stéphane Goldenstein. Disponibilité annoncée jusqu’au 17 novembre 2026. URL YouTube correspondante non trouvée. Les autres affaires traitées par l’émission ne sont pas imputées à ces entretiens XDDL."
+    },
+    {
+      "ref": "S-youtube_archives_entretiens_codex-09",
+      "titre": "Les fausses confessions de Xavier Dupont de Ligonnès — 28 minutes (05/06/2026)",
+      "url": "https://www.arte.tv/fr/videos/133608-002-A/les-fausses-confessions-de-xavier-dupont-de-ligonnes/",
+      "auteur_organisme": "ARTE ; chronique de Marjorie Adelson",
+      "media": "ARTE / 28 minutes",
+      "date_publication": "2026-06-05",
+      "date_faits": "2026-06-02 à 2026-06-05",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "officiel",
+      "origine": "propre",
+      "notes": "Page officielle ouverte et description lue ; vidéo et transcription non consultées. Durée affichée arrondie : 5 minutes, soit environ 300 secondes. Disponibilité annoncée jusqu’au 5 juin 2027. URL YouTube correspondante non trouvée. Croisements : pistes_2020_2026 A06/A07/A08/A09/A10 ; la notice ne remplace pas les déclarations de M6 et du parquet."
+    },
+    {
+      "ref": "S-youtube_archives_entretiens_codex-10",
+      "titre": "Episode 1 : Dans la tête de Dupont de Ligonnès — Ligne rouge",
+      "url": "https://www.rmcplus.fr/video/episode/episode-1-dans-la-tete-de-dupont-de-ligonnes-1020937321018",
+      "auteur_organisme": "BFMTV ; Isabelle Quintard, Nicolas Biaggioni et Élodie Noiret",
+      "media": "RMC+ / BFMTV",
+      "date_publication": "2026-01-23",
+      "date_faits": "Programme daté de 2021 ; diffusion affichée le 23 janvier 2026 à 20:00",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "officiel",
+      "origine": "propre",
+      "notes": "Page ouverte et description lue ; audiovisuel non visionné, transcription non consultée. Durée affichée arrondie : 22 minutes, soit environ 1320 secondes. La date récente est une diffusion affichée et ne prouve pas une nouvelle enquête. Disponibilité annoncée jusqu’au 15 avril 2027. URL YouTube correspondant à cette édition non vérifiée. Croisements : bio_jeunesse A13/A14/A15/A17 ; les cadrages psychologiques du synopsis sont des interprétations éditoriales. Les épisodes voisins proposés n’ont pas été ouverts dans cette passe."
+    },
+    {
+      "ref": "S-youtube_archives_entretiens_codex-11",
+      "titre": "L'Heure du Crime - L'affaire Dupont de Ligonnès : le dernier message | Intégrale",
+      "url": "https://www.youtube.com/watch?v=m0ZRdpbyq_s",
+      "auteur_organisme": "RTL ; Jean-Alphonse Richard",
+      "media": "RTL / YouTube",
+      "date_publication": "2026-02-20",
+      "date_faits": "Émission publiée en février 2026 ; faits de 2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Ouverture web initiale impossible ; HTML public YouTube ensuite obtenu par urllib.request avec User-Agent Mozilla/5.0, sans cookies ni compte. videoDetails et microformat lus, dont description complète. Durée videoDetails : 2876 secondes, soit 47:56 ; microformat : 2877 secondes. Date, chaîne, titre et URL canonique vérifiés dans ces données. Audio et transcription non consultés. La description annonce un policier auteur d’un livre défendant une survie, sans le nommer ; aucune identité d’intervenant déduite du seul contexte."
+    },
+    {
+      "ref": "S-youtube_archives_entretiens_codex-12",
+      "titre": "Affaire Dupont de Ligonnès : « J’ai trouvé la réponse à son énigme » (Gilles Galloux)",
+      "url": "https://www.youtube.com/watch?v=O901Pxl1aDw",
+      "auteur_organisme": "Europe 1 ; Pascal Praud ; Gilles Galloux nommé dans le titre",
+      "media": "Europe 1 / YouTube",
+      "date_publication": "2026-06-03",
+      "date_faits": "2026-06-03 ; réactions au programme M6",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "HTML public YouTube obtenu, puis titre, description, chaîne, date et URL canonique lus dans videoDetails et microformat, sans cookies ni compte. Durée : 930 secondes, soit 15:30. Les deux heures mentionnées dans la description concernent le format général de Pascal Praud, pas cette vidéo. Aucune transcription ni écoute. La formule du titre est conservée comme titre, pas comme découverte vérifiée. Croisement thématique : pistes_2020_2026 A06 à A10."
+    },
+    {
+      "ref": "S-youtube_archives_entretiens_codex-13",
+      "titre": "Le beau-frère de Xavier Dupont de Ligonnès témoigne - C à Vous l’intégrale - 11/04/2026",
+      "url": "https://www.youtube.com/watch?v=KL-zTSSly8M",
+      "auteur_organisme": "C à vous - France Télévisions ; Guillaume Abbas Hodanger annoncé",
+      "media": "France Télévisions / YouTube",
+      "date_publication": "2026-04-11",
+      "date_faits": "2026-04-11",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "HTML public YouTube obtenu et description complète lue dans videoDetails et microformat. Titre, chaîne, publication et URL canonique vérifiés. Durée de l’émission complète : 3123 secondes, soit 52:03 ; durée du seul entretien XDDL inconnue. La description annonce la prise de parole publique du frère d’Agnès. Le mot première relève de la présentation du diffuseur, pas d’un contrôle de toutes ses interventions antérieures. Aucune transcription ni lecture audiovisuelle. Croisement : hypotheses_sort A10."
+    },
+    {
+      "ref": "S-youtube_archives_entretiens_codex-14",
+      "titre": "Xavier Dupont de Ligonnès, l’enquête relancée ?",
+      "url": "https://www.youtube.com/watch?v=D8VW82MPR4I",
+      "auteur_organisme": "C à vous - France Télévisions ; Gilles Galloux invité annoncé",
+      "media": "France Télévisions / YouTube",
+      "date_publication": "2026-02-20",
+      "date_faits": "2026-02-20",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "HTML public YouTube obtenu ; videoDetails et microformat lus, avec description complète. Date, chaîne, titre et URL canonique vérifiés. Durée : 792 secondes, soit 13:12. La description nomme Galloux et annonce sa piste américaine ; elle ne confirme ni une localisation ni une reprise judiciaire du dossier. Aucune transcription ni lecture audiovisuelle. Croisement : hypotheses_sort A08."
+    },
+    {
+      "ref": "S-youtube_archives_entretiens_codex-15",
+      "titre": "Xavier Dupont de Ligonnès : l'enquête XXL",
+      "url": "https://www.youtube.com/watch?v=SJYuUck4fVs",
+      "auteur_organisme": "C dans l'air - France Télévisions ; reportage crédité à Julie Ricco, Anne Maquignon, Paul Géli, Stéphane Lopez et Benoît Thébaud",
+      "media": "France Télévisions / YouTube",
+      "date_publication": "2026-08-29",
+      "date_faits": "2026-08-29 ; rétrospective sur les enquêtes parallèles et erreurs médiatiques",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "HTML public YouTube obtenu ; titre, description complète, chaîne, date et URL canonique lus dans videoDetails et microformat. L’agent principal a aussi ouvert la page et constaté l’absence de transcription proposée. Durée videoDetails : 586 secondes, soit 9:46 ; microformat : 587 secondes. Le format générique de 65 minutes en description n’est pas la durée de ce reportage. Experts listés dans la présentation générale : Peggy Poletto, François Daoust, Jacques Dallest et Valentin Doyen ; leur prise de parole effective sur XDDL dans cet extrait n’est pas vérifiée. Aucune écoute ni vidéo visionnée. Croisement thématique : pistes_2020_2026 A06 à A11."
+    },
+    {
+      "ref": "S-youtube_archives_entretiens_codex-16",
+      "titre": "Dupont de Ligonnès, la série - Episode 3 : La thèse de la cavale",
+      "url": "https://www.youtube.com/watch?v=G_AmGHykBuI",
+      "auteur_organisme": "BFMTV",
+      "media": "BFMTV / YouTube",
+      "date_publication": "2021-04-19",
+      "date_faits": "2021-04-19 ; hypothèse sur la disparition de 2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "HTML public YouTube obtenu ; titre, description, date, chaîne et URL canonique lus dans videoDetails et microformat. Durée videoDetails : 1003 secondes, soit 16:43 ; microformat : 1004 secondes. Description brève au conditionnel ; aucun intervenant nommé. Pas de transcription ni visionnage. Ne pas assimiler automatiquement cet Episode 3 à l’Episode 3 proposé sur RMC+ dans une autre édition de Ligne rouge. Croisement thématique : hypotheses_sort."
+    },
+    {
+      "ref": "S-youtube_archives_entretiens_codex-17",
+      "titre": "Revivez l’affaire Xavier Dupont de Ligonnès à travers les archives de l’INA",
+      "url": "https://www.ina.fr/ina-eclaire-actu/revivez-l-affaire-xavier-dupont-de-ligonnes-a-travers-les-archives-de-l-ina",
+      "auteur_organisme": "INA",
+      "media": "INA",
+      "date_publication": "2019-10",
+      "date_faits": "2011-2019",
+      "date_consultation": "2026-10-01",
+      "acces": "inaccessible",
+      "type": "officiel",
+      "origine": "propre",
+      "notes": "Deux ouvertures en échec par délai dépassé. Titre et mois repérés au moteur ; aucune assertion tirée du contenu non lu. Les trois notices INA distinctes ci-dessus sont accessibles."
+    },
+    {
+      "ref": "S-youtube_archives_entretiens_codex-18",
+      "titre": "L’INTÉGRALE — Dupont de Ligonnès : le dernier message",
+      "url": "https://www.rtl.fr/programmes/l-heure-du-crime/7900604476-l-integrale-dupont-de-ligonnes-le-dernier-message",
+      "auteur_organisme": "RTL",
+      "media": "RTL",
+      "date_publication": "2026-02-20",
+      "date_faits": "2026-02",
+      "date_consultation": "2026-10-01",
+      "acces": "inaccessible",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Ouverture de cette page associée en échec cache miss. Métadonnées repérées au moteur, sans assertion de contenu. L’URL YouTube distincte S-youtube_archives_entretiens_codex-11 a ensuite été effectivement ouverte et sa description lue."
+    },
+    {
+      "ref": "S-youtube_archives_entretiens_codex-19",
+      "titre": "Histoires criminelles, l’enquête — L’affaire Dupont de Ligonnès : les secrets d’une affaire hors norme",
+      "url": "https://www.tf1.fr/lci/histoires-criminelles-lenquete/videos/histoires-criminelles-lenquete-laffaire-dupont-de-ligonnes-les-secrets-dune-affaire-hors-norme-96813086.html",
+      "auteur_organisme": "TF1+ / LCI",
+      "media": "TF1+",
+      "date_publication": "2026-06-04",
+      "date_faits": "Diffusion ou mise en ligne repérée en juin 2026",
+      "date_consultation": "2026-10-01",
+      "acces": "inaccessible",
+      "type": "officiel",
+      "origine": "propre",
+      "notes": "Page ouverte en échec HTTP 403. Titre et date issus du moteur ; durée de 57 minutes seulement indexée, non vérifiée sur page ouverte. Aucune assertion de contenu ; identité avec le programme de 2022 non établie."
+    },
+    {
+      "ref": "S-youtube_archives_entretiens_codex-20",
+      "titre": "Je crois qu’il est vivant : les révélations de Gilles Galloux sur la disparition de Xavier Dupont de Ligonnès",
+      "url": "https://www.europe1.fr/societe/je-crois-quil-est-vivant-les-revelations-de-gilles-galloux-sur-la-disparition-de-xavier-dupont-de-ligonnes-904005",
+      "auteur_organisme": "Europe 1",
+      "media": "Europe 1",
+      "date_publication": "2026-02",
+      "date_faits": "2026-02",
+      "date_consultation": "2026-10-01",
+      "acces": "inaccessible",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Page en échec HTTP 403. Titre et mois seulement indexés. Aucune assertion fondée sur ce contenu non lu ; ne pas confondre avec l’entretien YouTube de juin S-youtube_archives_entretiens_codex-12."
+    },
+    {
+      "ref": "S-youtube_archives_entretiens_codex-21",
+      "titre": "Mandat d’arrêt international contre Xavier de Ligonnès",
+      "url": "https://www.ladepeche.fr/article/2011/05/10/1078502-mandat-d-arret-international-contre-xavier-de-ligonnes.html",
+      "auteur_organisme": "AFP, communiqué de Xavier Ronsin rapporté",
+      "media": "La Dépêche",
+      "date_publication": "2011-05-10",
+      "date_faits": "2011-05-10",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "agence",
+      "origine": "AFP",
+      "notes": "Article intégralement ouvert et lu pour contrôler le vocabulaire juridique d’une notice INA. Mise à jour le 11 mai. Source de corroboration écrite, pas une vidéo supplémentaire. Croisement : decouverte_enquete A08."
+    }
+  ],
+  "assertions": [
+    {
+      "ref": "A-youtube_archives_entretiens_codex-01",
+      "assertion": "Anne-Sophie Martin défend une fuite organisée ; sa conviction ne localise pas XDDL.",
+      "categorie": "HYPOTHESE",
+      "attribution": "Anne-Sophie Martin, entretien TF1 INFO, à partir de 57:30",
+      "date_faits": "2026-04-07",
+      "lieu": "Entretien ; pays de fuite non établi",
+      "sources": ["S-youtube_archives_entretiens_codex-01"],
+      "nb_sources_independantes": 1,
+      "incertitude": "forte",
+      "centrale": false,
+      "notes": "Croisement avec hypotheses_sort A07, qui cite aussi ses entretiens RTL. Attestation de position publique, aucune confirmation de survie."
+    },
+    {
+      "ref": "A-youtube_archives_entretiens_codex-02",
+      "assertion": "Galloux distingue sa mission de 2011 de sa démarche privée ; il croit à une survie américaine sans preuve.",
+      "categorie": "HYPOTHESE",
+      "attribution": "Gilles Galloux, LEGEND, 05:02, 1:01:45 et 1:19:55",
+      "date_faits": "2011 ; 2024-2026",
+      "lieu": "Mission à Nanterre ; destination américaine supposée",
+      "sources": ["S-youtube_archives_entretiens_codex-02"],
+      "nb_sources_independantes": 1,
+      "incertitude": "forte",
+      "centrale": false,
+      "notes": "Croisement : hypotheses_sort A08 et détail Nanterre. Le statut professionnel passé ne donne pas à cette conviction la valeur d’un résultat judiciaire actuel."
+    },
+    {
+      "ref": "A-youtube_archives_entretiens_codex-03",
+      "assertion": "Christine défend une exfiltration familiale ; BFMTV confronte cette conviction à l’identification rapportée des victimes.",
+      "categorie": "HYPOTHESE",
+      "attribution": "Christine Dupont de Ligonnès ; entretien BFMTV à 11:36 et 13:26",
+      "date_faits": "2024-03-18",
+      "lieu": "Entretien ; États-Unis allégués",
+      "sources": ["S-youtube_archives_entretiens_codex-03"],
+      "nb_sources_independantes": 1,
+      "incertitude": "forte",
+      "centrale": false,
+      "notes": "Croisements : hypotheses_sort A11 ; decouverte_enquete A06. Magistrat seulement rapporté."
+    },
+    {
+      "ref": "A-youtube_archives_entretiens_codex-04",
+      "assertion": "Goldenstein exprime des réserves sur la thèse familiale tout en rappelant la présomption d’innocence.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Stéphane Goldenstein, avocat, BFMTV, 03:38 et 41:41",
+      "date_faits": "2024-03-18",
+      "lieu": "Plateau BFMTV",
+      "sources": ["S-youtube_archives_entretiens_codex-03"],
+      "nb_sources_independantes": 1,
+      "incertitude": "faible",
+      "centrale": false,
+      "notes": "Réserves, aucune décision judiciaire."
+    },
+    {
+      "ref": "A-youtube_archives_entretiens_codex-05",
+      "assertion": "Le conducteur INA du 21 avril présente d’abord une découverte de quatre corps, puis annonce un quintuple meurtre en fin de JT.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Description et conducteur INA de l’édition France 2 du 21 avril 2011",
+      "date_faits": "2011-04-21",
+      "lieu": "JT France 2 ; Nantes",
+      "sources": ["S-youtube_archives_entretiens_codex-04"],
+      "nb_sources_independantes": 1,
+      "incertitude": "faible",
+      "centrale": false,
+      "notes": "Évolution décrite par l’archive ; ne pas la transformer en décompte définitif erroné. Vidéo non visionnée. Croisement : decouverte_enquete A03/A04."
+    }
+  ],
+  "chronologie": [
+    {
+      "date": "2011-04-21",
+      "precision": "jour",
+      "evenement": "France 2 diffuse le JT conservé dans la notice INA.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": ["S-youtube_archives_entretiens_codex-04"],
+      "note": "Date bibliographique de diffusion ; contenu audiovisuel non visionné."
+    },
+    {
+      "date": "2011-04-22",
+      "precision": "jour",
+      "evenement": "Diffusion du portrait familial archivé par l’INA.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": ["S-youtube_archives_entretiens_codex-05"],
+      "note": "Notice seule lue."
+    },
+    {
+      "date": "2011-04-24",
+      "precision": "jour",
+      "evenement": "France 2 diffuse le JT dont la notice annonce un sujet sur l’itinéraire.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": ["S-youtube_archives_entretiens_codex-06"],
+      "note": "Date de diffusion ; aucun propos de Ronsin cité sans écoute."
+    },
+    {
+      "date": "2021-04-19",
+      "precision": "jour",
+      "evenement": "BFMTV publie sur YouTube La thèse de la cavale.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": ["S-youtube_archives_entretiens_codex-16"],
+      "note": "Publication vérifiée dans microformat YouTube."
+    },
+    {
+      "date": "2024-03-18",
+      "precision": "jour",
+      "evenement": "Publication YouTube de l’édition spéciale BFMTV.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": ["S-youtube_archives_entretiens_codex-03"],
+      "note": "Date de publication, pas état actuel de la procédure."
+    },
+    {
+      "date": "2026-02-20",
+      "precision": "jour",
+      "evenement": "RTL et C à vous publient les deux vidéos recensées.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": ["S-youtube_archives_entretiens_codex-11", "S-youtube_archives_entretiens_codex-14"],
+      "note": "Métadonnées de publication lues ; entretiens non transcrits dans cette passe."
+    },
+    {
+      "date": "2026-04-07",
+      "precision": "jour",
+      "evenement": "Publication de l’entretien TF1 INFO avec Anne-Sophie Martin.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": ["S-youtube_archives_entretiens_codex-01"],
+      "note": "Transcription entièrement lue."
+    },
+    {
+      "date": "2026-04-11",
+      "precision": "jour",
+      "evenement": "Publication de l’émission C à vous annonçant Guillaume Abbas Hodanger.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": ["S-youtube_archives_entretiens_codex-13"],
+      "note": "Description lue ; repère du segment restant à établir."
+    },
+    {
+      "date": "2026-05-17",
+      "precision": "jour",
+      "evenement": "LEGEND publie son entretien ; RMC+ affiche la diffusion de son émission distincte.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": ["S-youtube_archives_entretiens_codex-02", "S-youtube_archives_entretiens_codex-08"],
+      "note": "Deux programmes distincts ; entretien LEGEND intégralement lu."
+    },
+    {
+      "date": "2026-06-03",
+      "precision": "jour",
+      "evenement": "Publication de la vidéo Europe 1 avec Galloux nommé dans le titre.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": ["S-youtube_archives_entretiens_codex-12"],
+      "note": "Description lue, contenu parlé non consulté."
+    },
+    {
+      "date": "2026-06-05",
+      "precision": "jour",
+      "evenement": "ARTE affiche la chronique de 28 minutes sur les fausses confessions.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": ["S-youtube_archives_entretiens_codex-09"],
+      "note": "Notice seule lue."
+    },
+    {
+      "date": "2026-08-29",
+      "precision": "jour",
+      "evenement": "C dans l’air publie L’enquête XXL.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": ["S-youtube_archives_entretiens_codex-15"],
+      "note": "Description et durée de l’extrait lues ; aucune conclusion nouvelle de la justice établie par cette publication."
+    }
+  ],
+  "details_moins_connus": [
+    {
+      "detail": "TF1 : Martin sépare documents rapportés, reconstitutions et convictions. Les archives de Glasgow servent à examiner l’emballement journalistique.",
+      "interet_interpretation": "Prioritaire pour les épisodes 2 à 4 ; vérifier les dates hésitantes et les scènes explicitement imaginées.",
+      "sources": ["S-youtube_archives_entretiens_codex-01"]
+    },
+    {
+      "detail": "LEGEND juxtapose le récit professionnel de Galloux et les intuitions d’une médium.",
+      "interet_interpretation": "Repérer la frontière enquête/conviction ; aucune intuition ne corrobore une localisation ni une complicité.",
+      "sources": ["S-youtube_archives_entretiens_codex-02"]
+    },
+    {
+      "detail": "BFMTV alterne famille et plateau. Certains locuteurs restent incertains.",
+      "interet_interpretation": "Épisode 4 : distinguer les rôles.",
+      "sources": ["S-youtube_archives_entretiens_codex-03"]
+    },
+    {
+      "detail": "Le JT INA du 21 avril conserve la progression de l’annonce au cours d’une même édition.",
+      "interet_interpretation": "Archive contemporaine prioritaire pour dater ce que le public apprend. Les horaires fournis ne sont pas les timecodes du lecteur.",
+      "sources": ["S-youtube_archives_entretiens_codex-04"]
+    },
+    {
+      "detail": "La notice du portrait familial INA annonce des témoignages contemporains sur Agnès et les enfants.",
+      "interet_interpretation": "Piste pour présenter les victimes dans l’épisode 1 ; contenu et identité des prises de parole à contrôler à l’écoute.",
+      "sources": ["S-youtube_archives_entretiens_codex-05"]
+    },
+    {
+      "detail": "Le conducteur INA du 24 avril annonce un sujet réunissant chronologie, itinéraire et procureur Ronsin.",
+      "interet_interpretation": "Archive contemporaine à consulter avant une reconstitution de l’épisode 2. Éviter d’emprunter sans contrôle le vocabulaire juridique du conducteur.",
+      "sources": ["S-youtube_archives_entretiens_codex-06"]
+    },
+    {
+      "detail": "La page TF1 Pro de 2022 annonce journalistes, ancien policier, procureur et proches dans un documentaire long.",
+      "interet_interpretation": "Bon candidat pour comparer des récits d’origine différente ; les intervenants annoncés ne permettent pas de présumer leurs paroles précises.",
+      "sources": ["S-youtube_archives_entretiens_codex-07"]
+    },
+    {
+      "detail": "Affaire suivante annonce Galloux, Créhange et Goldenstein dans un même rendez-vous de mai 2026.",
+      "interet_interpretation": "Comparer enquête journalistique, témoignage d’ancien policier et défense ; description seule, propos effectifs non vérifiés.",
+      "sources": ["S-youtube_archives_entretiens_codex-08"]
+    },
+    {
+      "detail": "La notice ARTE annonce une chronique sur le faux témoignage de l’émission M6.",
+      "interet_interpretation": "Candidat court sur la fabrication d’une fausse piste pour l’épisode 3 ; corroborer par les déclarations primaires déjà repérées dans pistes_2020_2026.",
+      "sources": ["S-youtube_archives_entretiens_codex-09"]
+    },
+    {
+      "detail": "La fiche RMC+ de Dans la tête de Dupont de Ligonnès porte un millésime 2021 et une diffusion affichée en 2026.",
+      "interet_interpretation": "Éviter de présenter une rediffusion comme une révélation récente ; synopsis psychologique à traiter comme cadrage éditorial.",
+      "sources": ["S-youtube_archives_entretiens_codex-10"]
+    },
+    {
+      "detail": "RTL propose une émission de près de 48 minutes autour du dernier message et de la position d’un policier auteur.",
+      "interet_interpretation": "Candidat à transcrire pour contrôler les documents et l’identité de l’invité ; aucune parole précise tirée du seul titre.",
+      "sources": ["S-youtube_archives_entretiens_codex-11"]
+    },
+    {
+      "detail": "Europe 1 présente un extrait de 15:30 dans le contexte des fausses révélations M6.",
+      "interet_interpretation": "Candidat à transcrire pour dater la réaction de Galloux ; la promesse du titre ne valide pas une énigme résolue.",
+      "sources": ["S-youtube_archives_entretiens_codex-12"]
+    },
+    {
+      "detail": "C à vous annonce publiquement Guillaume Abbas Hodanger, frère d’Agnès, dans une émission qui traite aussi d’autres sujets.",
+      "interet_interpretation": "Perspective familiale utile à l’épisode 1 et au débat sur le sort de XDDL ; repérer le début et la fin du segment avant exploitation.",
+      "sources": ["S-youtube_archives_entretiens_codex-13"]
+    },
+    {
+      "detail": "La description C à vous de février annonce Galloux et sa piste américaine.",
+      "interet_interpretation": "Comparer ses formulations publiques avant le signalement texan de mars ; ni le titre ni la description ne prouvent une relance judiciaire.",
+      "sources": ["S-youtube_archives_entretiens_codex-14"]
+    },
+    {
+      "detail": "La description de C dans l’air d’août porte sur les enquêtes parallèles, la fascination et les erreurs médiatiques.",
+      "interet_interpretation": "Candidat récent pour contextualiser l’épisode 3 ; ne pas attribuer aux experts listés des propos qui n’ont pas été lus ou entendus.",
+      "sources": ["S-youtube_archives_entretiens_codex-15"]
+    },
+    {
+      "detail": "La courte description BFMTV de 2021 présente une cavale à l’étranger au conditionnel.",
+      "interet_interpretation": "Candidat à transcrire pour comprendre les arguments et leurs auteurs ; ne pas transformer le synopsis en conclusion d’enquête.",
+      "sources": ["S-youtube_archives_entretiens_codex-16"]
+    }
+  ],
+  "contradictions": [
+    {
+      "sujet": "Date d’expédition des lettres",
+      "versions": [
+        {
+          "version": "Galloux : 9 avril, vers 23:24.",
+          "sources": ["S-youtube_archives_entretiens_codex-02"]
+        },
+        {
+          "version": "Christine : 8 avril ; réception le 11, vers 12:40.",
+          "sources": ["S-youtube_archives_entretiens_codex-03"]
+        }
+      ],
+      "traitement_recommande": "Contrôler l’enveloppe ; avril_2011_apres A03 retient le 8."
+    },
+    {
+      "sujet": "Réaction des amis aux courriels",
+      "versions": [
+        {
+          "version": "Christine : propos non pris au sérieux, 23:37.",
+          "sources": ["S-youtube_archives_entretiens_codex-03"]
+        },
+        {
+          "version": "Martin : inquiétude et appels, 35:18 et 1:03:29.",
+          "sources": ["S-youtube_archives_entretiens_codex-01", "S-youtube_archives_entretiens_codex-03"]
+        }
+      ],
+      "traitement_recommande": "Comparer témoignages originaux et temporalités."
+    },
+    {
+      "sujet": "Vocabulaire du mandat dans une archive de 2011",
+      "versions": [
+        {
+          "version": "Le conducteur INA du 24 avril parle d’un mandat d’arrêt international déjà lancé.",
+          "sources": ["S-youtube_archives_entretiens_codex-06"]
+        },
+        {
+          "version": "L’AFP rapporte le 10 mai un changement de statut : mandat d’arrêt, après une recherche pour l’entendre comme témoin.",
+          "sources": ["S-youtube_archives_entretiens_codex-21"]
+        }
+      ],
+      "traitement_recommande": "Retenir la distinction datée du communiqué rapporté, corroborant decouverte_enquete A07/A08 ; une notice d’archive ne suffit pas à avancer la date du mandat d’arrêt."
+    }
+  ],
+  "lacunes": [
+    "Les trois transcriptions ont été intégralement lues en français automatique ; aucun des programmes n’a été visionné ou écouté. Vérifier noms, dates, locuteurs et horodatages avant toute citation ou montage.",
+    "TF1 : vérifier les visites des 15/19/20 avril, l’alerte parquet hésitante du 16/17 et les écarts chaux/âges.",
+    "LEGEND : vérifier mission du 29 avril, déclenchement des fouilles par achats bancaires et diffusion initiale du véhicule vers l’Italie.",
+    "BFMTV : vérifier l’alerte parquet prétendument du 12 avril et le débat procédural sur les visites ; aucun procès-verbal consulté ici.",
+    "La prétendue substitution des victimes et l’exfiltration ne sont étayées par aucune pièce consultée. Croisement contradictoire : hypotheses_sort A11 et decouverte_enquete A06.",
+    "Les propos BFMTV de 2024 sur Nanterre et l’absence de procès ne permettent pas d’affirmer le statut judiciaire au 1er octobre 2026. Voir les limites datées de decouverte_enquete A18/A20/A21.",
+    "Le rapprochement des récits de Martin de 2024 et 2026 atteste une position d’une même personne, pas deux sources indépendantes. Même règle pour les différentes interviews de Galloux.",
+    "Description seule pour treize sources : aucune assertion factuelle sur leurs paroles précises. Les croisements avec les neuf JSON sont des repères documentaires autorisés, pas une nouvelle lecture intégrale des sources de ces dossiers.",
+    "Pas de lien YouTube vérifié pour les notices INA, ARTE, TF1 Pro et RMC+ ; les URL officielles accessibles sont fournies. Pas d’équivalence supposée entre différentes éditions ou rediffusions.",
+    "Aucune URL YouTube contemporaine de Glasgow 2019 ou des fouilles du Var effectivement ouverte dans ce lot. Les recherches françaises et anglaises ont orienté surtout vers des articles et des rétrospectives ; les archives insérées dans TF1 ne remplacent pas leurs éditions originales complètes.",
+    "Pas d’entretien YouTube directement identifié et lu de Ronsin, Lamy ou Leroy dans ce lot. Ronsin est annoncé par des notices ; le procureur est rapporté dans le plateau BFMTV.",
+    "Aucun épisode de Faites entrer l’accusé spécifiquement consacré à XDDL confirmé sur une page ouverte ; les dossiers voisins ne sont pas présentés comme un épisode XDDL.",
+    "Titre et date des quatre pages inaccessibles sont seulement indexés ; aucune assertion n’en découle. Aucun contenu moteur isolé ne fonde les cinq assertions.",
+    "Pour le reportage C dans l’air du 29 août 2026, description lue mais aucune transcription disponible dans l’interface examinée ; aucun résultat judiciaire récent déduit du synopsis."
+  ]
+}

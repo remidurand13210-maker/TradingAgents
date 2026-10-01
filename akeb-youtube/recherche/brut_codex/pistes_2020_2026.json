@@ -351,6 +351,34 @@
       "type": "officiel",
       "origine": "propre",
       "notes": "Corps complet lu; institution accueillante désigne Martin Ajdari comme président."
+    },
+    {
+      "ref": "S-pistes_2020_2026_codex-26",
+      "titre": "Affaire Dupont de Ligonnès : l’énigme du compte Epsilon, actif jusqu’en 2017 sur un forum religieux",
+      "url": "https://www.youtube.com/watch?v=U7MtfH3TUpY",
+      "auteur_organisme": "Ouest-France ; Arnaud Vajdic et Claude-Alain Roten",
+      "media": "Ouest-France",
+      "date_publication": "2026-06-02",
+      "date_faits": "2011-2026",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Durée 592 s affichée ou obtenue dans la page publique. Page et description ouvertes dans le navigateur ; transcription française automatique lue intégralement, 0:00–9:41. Audio et images non visionnés. HTML : 593 s, lecteur : 592 s. Enquête originale, distincte des reprises. Repères : 1:36 méthode ; 3:25 stylométrie ; 5:44 rapprochement biblique ; 7:34 limites ; 8:00 imitation possible."
+    },
+    {
+      "ref": "S-pistes_2020_2026_codex-27",
+      "titre": "Affaire Dupont de Ligonnès sur M6 : \"Tout paraissait fumeux\" (Gilles Galloux)",
+      "url": "https://www.youtube.com/watch?v=yCzsRDKpObo",
+      "auteur_organisme": "Europe 1 ; Thomas Isle ; Gilles Galloux",
+      "media": "Europe 1",
+      "date_publication": "2026-06-03",
+      "date_faits": "2011-2026",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Durée 1063 s affichée ou obtenue dans la page publique. Page et description ouvertes ; transcription française automatique lue intégralement, 0:00–17:41. Audio et images non visionnés. HTML : 1064 s. Repères : 2:35 coulisses M6 ; 7:56 contestation Epsilon ; 13:01 origine Texas ; 16:48 limites de sa piste aérienne. Même intervenant que LEGEND : aucun nouveau témoin indépendant."
     }
   ],
   "assertions": [
@@ -607,20 +635,21 @@
       "ref": "A-pistes_2020_2026_codex-14",
       "assertion": "Le rapprochement repose sur des habitudes d'écriture, références bibliques et interlocuteurs communs, selon Ouest-France; ce sont des indices interprétés.",
       "categorie": "HYPOTHESE",
-      "attribution": "Ouest-France et expert sollicité, repris par Le Parisien",
+      "attribution": "Ouest-France : Arnaud Vajdic et Claude-Alain Roten ; reprise par Le Parisien",
       "date_faits": "2026-06",
       "lieu": "Cité Catholique",
       "sources": [
         "S-pistes_2020_2026_codex-10",
-        "S-pistes_2020_2026_codex-12"
+        "S-pistes_2020_2026_codex-12",
+        "S-pistes_2020_2026_codex-26"
       ],
       "nb_sources_independantes": 1,
       "incertitude": "forte",
       "centrale": true,
-      "notes": "Aucune identité formellement établie dans cet article.",
+      "notes": "Vidéo originale consultée, 1:36–7:59 ; absence d’identification formelle explicitée. Ne pas compter la reprise du Parisien comme une nouvelle origine.",
       "verification": {
         "statut": "nuance",
-        "commentaire": "Analyse indépendante S-12 insiste sur hypothèses alternatives et contradiction possible d'horaires, sans accéder aux données judiciaires."
+        "commentaire": "La vidéo originale confirme le contenu attribué au journal et expose ses réserves ; Galloux conteste la piste dans la source S-pistes_2020_2026_codex-27. Corpus complet, journaux IP et résultat judiciaire non consultés."
       }
     },
     {
@@ -732,6 +761,25 @@
       "incertitude": "moyenne",
       "centrale": false,
       "notes": "Épisode non visionné; conviction personnelle, aucune avancée d'enquête déduite."
+    },
+    {
+      "ref": "A-pistes_2020_2026_codex-21",
+      "assertion": "Galloux conteste l’attribution d’Epsilon à XDDL et affirme que ce compte utilisait une adresse IP sans lien avec celles qu’il avait étudiées.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Gilles Galloux, ancien enquêteur, interrogé sur Europe 1",
+      "date_faits": "2026-06-03",
+      "lieu": "Entretien Europe 1",
+      "sources": [
+        "S-pistes_2020_2026_codex-27"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "7:56–9:08. Déclaration personnelle ; les fichiers techniques ne sont pas accessibles dans l’entretien.",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "Aucun journal IP ni résultat officiel ouvert ne permet de vérifier cette exclusion ; conserver la contradiction avec Ouest-France."
+      }
     }
   ],
   "chronologie": [
@@ -955,13 +1003,31 @@
         }
       ],
       "traitement_recommande": "Séparer date d'annonce rapportée (3 juin) et publication (4 juin); source judiciaire directe manquante."
+    },
+    {
+      "sujet": "Attribution Epsilon : comparaison de textes et contestation IP",
+      "versions": [
+        {
+          "version": "Ouest-France présente des rapprochements sans identification formelle.",
+          "sources": [
+            "S-pistes_2020_2026_codex-26"
+          ]
+        },
+        {
+          "version": "Galloux rejette la piste sur la base de ses travaux antérieurs, sans publier ici les données.",
+          "sources": [
+            "S-pistes_2020_2026_codex-27"
+          ]
+        }
+      ],
+      "traitement_recommande": "Attribuer les deux analyses ; ne pas transformer la comparaison de styles ni la contestation IP en conclusion judiciaire."
     }
   ],
   "lacunes": [
     "Les deux points de départ Europe 1 concernant M6 et l'évêque sont inaccessibles; les assertions utilisent des pages de remplacement lues.",
     "Pas de communiqué original directement consulté du parquet ni du shérif; déclarations rapportées et correctement attribuées.",
-    "L'enquête originale Ouest-France sur Epsilon n'a pas pu être ouverte; présentation de ses résultats via Le Parisien, sans compter les reprises comme indépendantes.",
-    "Entretien contradictoire de Gilles Galloux sur Europe 1 repéré mais inaccessible; aucune conclusion technique sur les IP retenue de cet extrait.",
+    "L’article original Ouest-France reste non ouvert ; sa présentation vidéo est maintenant consultée dans S-pistes_2020_2026_codex-26. Corpus complet et documents privés cités non lus.",
+    "L’article Europe 1 sur les IP reste inaccessible ; la transcription de l’entretien vidéo est maintenant lue dans S-pistes_2020_2026_codex-27. Les journaux IP ne sont pas joints.",
     "Pas de conclusion judiciaire ultérieure Epsilon trouvée après recherches explicites Epsilon conclusions, Dupont de Ligonnès juillet 2026, août 2026 et septembre 2026, avec variantes Ligonnes et requêtes anglaises.",
     "Plainte du diocèse seulement envisagée le 3 juin. Aucun dépôt, poursuite, jugement ni sanction Arcom établi dans les pages lues malgré recherche faux prêtre plainte et variantes mensuelles juillet à septembre.",
     "Bilans août/septembre secondaires: aucune source nouvelle ou pièce judiciaire fournie; ne garantissent pas l'exhaustivité de l'état procédural au 1er octobre.",

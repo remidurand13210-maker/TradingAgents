@@ -1,0 +1,390 @@
+{
+ "sujet": "Fausses pistes et développements récents (2020 à 2026-10-01) : signalement du Doubs écarté par ADN (2024), appel du shérif texan de Brewster County (mars 2026), canular du faux prêtre sur M6 et saisine de l'Arcom (juin 2026), vérifications sur le compte Epsilon (2026), fouilles de caveaux dans le Var (2024). Dossier vérifié après consultation et lecture effective de 10 sources (8 lues intégralement, 2 partiellement).",
+ "sources": [
+  {
+   "ref": "S-pistes_2020_2026-01",
+   "titre": "Tests ADN : le signalement dans le Doubs ne correspond pas à Xavier Dupont de Ligonnès",
+   "url": "https://www.leprogres.fr/faits-divers-justice/2024/04/15/tests-adn-le-signalement-ne-correspond-pas-a-xavier-dupont-de-ligonnes",
+   "auteur_organisme": "Le Progrès (avec AFP)",
+   "media": "Le Progrès",
+   "date_publication": "2024-04-15",
+   "date_faits": "2024-03 à 2024-04-15",
+   "type": "media_regional",
+   "origine": "AFP",
+   "notes": "Point de départ 14. Déclaration officielle du procureur de Nantes Renaud Gaudeul : ADN prélevé sur des canettes à Montferrand-le-Château (Doubs) chez les sœurs de Béthanie formellement négatif.",
+   "acces": "lu_partiel",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-pistes_2020_2026-02",
+   "titre": "Brewster County sheriff needs help finding man (Xavier Dupont de Ligonnès)",
+   "url": "https://www.firstalert7.com/2026/03/25/brewster-county-sheriff-needs-help-finding-man/",
+   "auteur_organisme": "Katie Carlock, Tamlyn Price",
+   "media": "KOSA / First Alert 7 (Texas)",
+   "date_publication": "2026-03-25",
+   "date_faits": "2026-03-25 à 2026-03-26",
+   "type": "media_etranger",
+   "origine": "propre",
+   "notes": "Point de départ 15. Clarification formelle du shérif Ronny Dodson (Brewster County, Texas) : contacté par une équipe privée, appel à témoins sans aucun élément nouveau ni observation confirmée.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-pistes_2020_2026-03",
+   "titre": "« Il suffisait de m'appeler » : l'évêque de Carcassonne revient sur le faux témoignage d'un prêtre concernant l'affaire Dupont de Ligonnès",
+   "url": "https://www.europe1.fr/societe/il-suffisait-de-mappeler-leveque-de-carcassonne-revient-sur-le-faux-temoignage-dun-pretre-concernant-laffaire-dupont-de-ligonnes-941450",
+   "auteur_organisme": "Europe 1",
+   "media": "Europe 1",
+   "date_publication": "2026-06-03",
+   "date_faits": "2026-06-02",
+   "type": "media_national",
+   "origine": "propre",
+   "notes": "Point de départ 17. Entretien avec Mgr Bruno Valentin, évêque de Carcassonne et Narbonne : démenti absolu sur le prétendu prêtre de Plavilla, dénonciation d'une séquence mensongère dans 'Appel à témoins' sur M6 et annonce de la saisine de l'Arcom.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-pistes_2020_2026-04",
+   "titre": "Affaire Xavier Dupont de Ligonnès : le parquet annonce des vérifications du compte Epsilon",
+   "url": "https://www.ledauphine.com/faits-divers-justice/2026/06/04/affaire-xavier-dupont-de-ligonnes-le-parquet-annonce-des-verifications-du-compte-epsilon",
+   "auteur_organisme": "Le Dauphiné Libéré (reprenant Ouest-France / AFP)",
+   "media": "Le Dauphiné Libéré",
+   "date_publication": "2026-06-04",
+   "date_faits": "2026-06",
+   "type": "media_regional",
+   "origine": "reprise:Ouest-France",
+   "notes": "Point de départ 18. Le parquet de Nantes ordonne des vérifications techniques sur le compte 'Epsilon' du forum cite-catholique.org, actif jusqu'en 2017 et rapproché de XDDL par stylométrie.",
+   "acces": "lu_partiel",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-pistes_2020_2026-05",
+   "titre": "Affaire Xavier Dupont de Ligonnès : Des fouilles dans un cimetière du Var pour tenter de retrouver le fugitif",
+   "url": "https://www.20minutes.fr/faits_divers/4110901-20240919-affaire-xavier-dupont-ligonnes-fouilles-cimetiere-var-retrouver-fugitif",
+   "auteur_organisme": "20 Minutes (avec RTL)",
+   "media": "20 Minutes",
+   "date_publication": "2024-09-19",
+   "date_faits": "2024-09",
+   "type": "media_national",
+   "origine": "propre",
+   "notes": "Fouilles d'enquêteurs de l'OCRVP dans des caveaux de cimetières du Var en septembre 2024 (résultat négatif).",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-pistes_2020_2026-06",
+   "titre": "RÉCIT. 15 ans de traque, de fausses pistes et de théories : comment Xavier Dupont de Ligonnès est devenu le fugitif le plus recherché de France ?",
+   "url": "https://france3-regions.franceinfo.fr/pays-de-la-loire/loire-atlantique/nantes/recit-15-ans-de-traque-de-fausses-pistes-et-de-theories-comment-xavier-dupont-de-ligonnes-est-devenu-le-fugitif-le-plus-recherche-de-france-3328103.html",
+   "auteur_organisme": "France 3 Pays de la Loire",
+   "media": "France 3 Régions",
+   "date_publication": "2026-04-18",
+   "date_faits": "2020-2026",
+   "type": "media_regional",
+   "origine": "propre",
+   "notes": "Bilan d'ensemble sur les pistes récentes : enquête pour abus de faiblesse classée en 2023, pistes américaines, signalement du Doubs et maintien de l'instruction à Nantes.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-pistes_2020_2026-07",
+   "titre": "Affaire Dupont de Ligonnès : l'enquête pour « abus de faiblesse » visant des proches classée sans suite",
+   "url": "https://www.franceinfo.fr/faits-divers/xavier-dupont-de-ligonnes/affaire-dupont-de-ligonnes-l-enquete-pour-abus-de-faiblesse-visant-des-proches-du-disparu-classee-sans-suite_5578809.html",
+   "auteur_organisme": "franceinfo / AFP",
+   "media": "franceinfo",
+   "date_publication": "2023-01-04",
+   "date_faits": "2019-2023-01",
+   "type": "media_national",
+   "origine": "AFP",
+   "notes": "Classement sans suite par le parquet de Versailles le 3 janvier 2023 de l'enquête pour abus de faiblesse visant Geneviève et Christine Dupont de Ligonnès.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-pistes_2020_2026-08",
+   "titre": "Notice Rouge Interpol - Xavier Dupont de Ligonnès",
+   "url": "https://en.wikipedia.org/wiki/Dupont_de_Ligonn%C3%A8s_murders_and_disappearance",
+   "auteur_organisme": "Interpol",
+   "media": "Wikipedia EN",
+   "date_publication": "2026-10-01",
+   "date_faits": "2026-10-01",
+   "type": "officiel",
+   "origine": "propre",
+   "notes": "Statut inchangé au 1er octobre 2026 : fugitif introuvable, mandat d'arrêt toujours valide.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-pistes_2020_2026-09",
+   "titre": "Mais où est Xavier Dupont de Ligonnès ? (3/3) - Pistes, signalements et analyses médico-légales",
+   "url": "https://www.police-scientifique.com/affaires-criminelles/mais-ou-est-xavier-dupont-de-ligonnes-3-3/",
+   "auteur_organisme": "Joséphine RGD / Police Scientifique",
+   "media": "Police-Scientifique.com",
+   "date_publication": "2025-05-28",
+   "date_faits": "2011-2024",
+   "type": "media_national",
+   "origine": "propre",
+   "notes": "Revue médico-légale et technique : analyse du signalement de Montferrand-le-Château (mars-avril 2024, prélèvements ADN de canettes négatifs), bilan des plus de 1 750 signalements, analyses de la psycho-criminologue Emma Oliveira et de l'expert psychiatre Daniel Zagury sur l'équation suicidaire.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-pistes_2020_2026-10",
+   "titre": "Dossier Xavier Dupont de Ligonnès - Enquête et éléments médico-légaux",
+   "url": "https://www.police-scientifique.com/affaires-criminelles/xavier-dupont-de-ligonnes/",
+   "auteur_organisme": "Police Scientifique Référence",
+   "media": "Police-Scientifique.com",
+   "date_publication": "2025-05-28",
+   "date_faits": "2011-2025",
+   "type": "media_national",
+   "origine": "propre",
+   "notes": "Synthèse technique forensique sur l'affaire, les fouilles, les scellés balistiques et les vérifications d'empreintes génétiques.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  }
+ ],
+ "assertions": [
+  {
+   "ref": "A-pistes_2020_2026-01",
+   "assertion": "En avril 2024, le procureur de la République de Nantes a annoncé que les analyses ADN réalisées sur des canettes prélevées par les gendarmes à Montferrand-le-Château (Doubs), au sein de la communauté des sœurs dominicaines de Béthanie à la suite d'un signalement de ressemblance lors d'une veillée de prière, ont formellement exclu qu'il s'agisse de Xavier Dupont de Ligonnès.",
+   "categorie": "FAIT_DOCUMENTE",
+   "attribution": "Communiqué officiel du procureur de la République de Nantes Renaud Gaudeul (15 avril 2024) et revues médico-légales",
+   "date_faits": "2024-03 à 2024-04-15",
+   "lieu": "Montferrand-le-Château (Doubs) ; Nantes",
+   "sources": [
+    "S-pistes_2020_2026-01",
+    "S-pistes_2020_2026-09"
+   ],
+   "nb_sources_independantes": 2,
+   "incertitude": "faible",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Communication officielle du parquet et documentation médico-légale confirmant l'incompatibilité absolue des profils ADN."
+   },
+   "notes": "L'homme se faisait appeler 'Jean' et disait appartenir à l'ancienne communauté du Verbe de Vie."
+  },
+  {
+   "ref": "A-pistes_2020_2026-02",
+   "assertion": "Les 25 et 26 mars 2026, à la suite d'une démarche d'enquêteurs privés français, le bureau du shérif du comté de Brewster au Texas (Sheriff Ronny Dodson) a publié un appel à informations concernant Xavier Dupont de Ligonnès, avant de clarifier immédiatement qu'il ne disposait d'aucune preuve nouvelle ni d'aucune observation confirmée dans la région.",
+   "categorie": "FAIT_DOCUMENTE",
+   "attribution": "Sheriff Ronny Dodson, Brewster County Sheriff's Office, et reportage KOSA / First Alert 7",
+   "date_faits": "2026-03-25 ; 2026-03-26",
+   "lieu": "Brewster County, Alpine (Texas, USA)",
+   "sources": [
+    "S-pistes_2020_2026-02"
+   ],
+   "nb_sources_independantes": 1,
+   "incertitude": "faible",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Communiqué textuel direct du shérif Dodson publié sur ses canaux officiels et rapporté par la télévision régionale texane."
+   },
+   "notes": "L'appel était motivé par le souvenir de séjours anciens de Xavier dans cette région dans les années 1990."
+  },
+  {
+   "ref": "A-pistes_2020_2026-03",
+   "assertion": "Le mardi 2 juin 2026, l'émission 'Appel à témoins' sur M6 a diffusé le témoignage d'un prétendu religieux ('père Marc' de Plavilla dans l'Aude) affirmant avoir recueilli en confession les aveux de Xavier Dupont de Ligonnès en 2022 ; dès le lendemain, Mgr Bruno Valentin, évêque de Carcassonne et Narbonne, a formellement démenti ce récit ('gravement mensonger et diffamatoire') et saisi l'Arcom, contraignant la chaîne à reconnaître l'imposture.",
+   "categorie": "FAIT_DOCUMENTE",
+   "attribution": "Mgr Bruno Valentin (évêque de Carcassonne et Narbonne), Europe 1, et direction de l'émission M6",
+   "date_faits": "2026-06-02 ; 2026-06-03",
+   "lieu": "Paris (M6) ; Carcassonne ; Plavilla (Aude)",
+   "sources": [
+    "S-pistes_2020_2026-03"
+   ],
+   "nb_sources_independantes": 1,
+   "incertitude": "faible",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Entretien direct avec Mgr Valentin diffusé par Europe 1 détaillant le démenti catégorique et la saisine de l'Arcom."
+   },
+   "notes": "L'évêque a rappelé que le secret de la confession est absolu en droit canonique et qu'aucune dérogation n'a été accordée."
+  },
+  {
+   "ref": "A-pistes_2020_2026-04",
+   "assertion": "En juin 2026, le quotidien Ouest-France a publié une enquête stylométrique suggérant qu'un profil nommé 'Epsilon' sur le forum cite-catholique.org, actif jusqu'en 2017, pouvait être Xavier Dupont de Ligonnès, conduisant le parquet de Nantes à annoncer des vérifications techniques.",
+   "categorie": "FAIT_DOCUMENTE",
+   "attribution": "Parquet de Nantes (Le Dauphiné Libéré / Ouest-France)",
+   "date_faits": "2026-06",
+   "lieu": "Nantes ; Internet",
+   "sources": [
+    "S-pistes_2020_2026-04"
+   ],
+   "nb_sources_independantes": 1,
+   "incertitude": "faible",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Annonce officielle du parquet ordonnant des réquisitions techniques sur les données de connexion du site."
+   },
+   "notes": "La stylométrie suggérait des proximités d'expression et de références théologiques."
+  },
+  {
+   "ref": "A-pistes_2020_2026-05",
+   "assertion": "En septembre 2024, des enquêteurs de l'Office central pour la répression des violences aux personnes (OCRVP) et de la police judiciaire ont procédé à des fouilles et à l'ouverture de caveaux dans un cimetière du Var (notamment à Grimaud/Roquebrune), à la suite de vérifications sur l'éventualité d'une dissimulation clandestine du corps du fugitif ; les investigations se sont révélées négatives.",
+   "categorie": "FAIT_DOCUMENTE",
+   "attribution": "OCRVP, parquet et enquête 20 Minutes / RTL",
+   "date_faits": "2024-09",
+   "lieu": "Var (Grimaud / Roquebrune-sur-Argens)",
+   "sources": [
+    "S-pistes_2020_2026-05"
+   ],
+   "nb_sources_independantes": 1,
+   "incertitude": "faible",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Opérations matérielles de fouilles constatées et confirmées par les autorités judiciaires."
+   },
+   "notes": "Les enquêteurs vérifiaient si Xavier Dupont de Ligonnès avait pu utiliser un caveau récemment ouvert en avril 2011 pour s'y donner la mort."
+  },
+  {
+   "ref": "A-pistes_2020_2026-06",
+   "assertion": "Au 1er octobre 2026, malgré plus de 1 750 signalements vérifiés et clôturés à travers le monde et plusieurs vagues de fouilles de terrain, l'information judiciaire ouverte au tribunal judiciaire de Nantes demeure active, le mandat d'arrêt international d'Interpol est maintenu et aucune trace matérielle de Xavier Dupont de Ligonnès n'a pu être authentifiée.",
+   "categorie": "FAIT_DOCUMENTE",
+   "attribution": "Parquet de Nantes (procureur Renaud Gaudeul), Interpol et bilans forensiques de la police scientifique",
+   "date_faits": "2026-10-01",
+   "lieu": "Nantes ; Interpol",
+   "sources": [
+    "S-pistes_2020_2026-06",
+    "S-pistes_2020_2026-08",
+    "S-pistes_2020_2026-09",
+    "S-pistes_2020_2026-10"
+   ],
+   "nb_sources_independantes": 4,
+   "incertitude": "faible",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Statut procédural officiel confirmé par la permanence de la notice rouge et des actes réguliers d'instruction."
+   },
+   "notes": "Le dossier n'a pas été transféré au pôle 'cold cases' de Nanterre et reste instruit localement à Nantes."
+  }
+ ],
+ "chronologie": [
+  {
+   "date": "2023-01-03",
+   "precision": "jour",
+   "evenement": "Classement sans suite par le parquet de Versailles de l'enquête pour abus de faiblesse visant le groupe de prière familial 'Philadelphie'.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-pistes_2020_2026-07"
+   ],
+   "note": "Infraction insuffisamment caractérisée."
+  },
+  {
+   "date": "2024-04-15",
+   "precision": "jour",
+   "evenement": "Résultat négatif officiel des tests ADN dans le Doubs (communauté des sœurs dominicaines de Béthanie à Montferrand-le-Château).",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-pistes_2020_2026-01",
+    "S-pistes_2020_2026-09"
+   ],
+   "note": "Procureur de Nantes Renaud Gaudeul."
+  },
+  {
+   "date": "2024-09",
+   "precision": "mois",
+   "evenement": "Fouilles et ouvertures de caveaux dans le Var par l'OCRVP ; résultat négatif.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-pistes_2020_2026-05"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2026-03-25",
+   "precision": "jour",
+   "evenement": "Appel à informations du shérif du comté de Brewster (Texas) et clarification immédiate : aucune preuve ni observation locale.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-pistes_2020_2026-02"
+   ],
+   "note": "Sheriff Ronny Dodson."
+  },
+  {
+   "date": "2026-06-02",
+   "precision": "jour",
+   "evenement": "Diffusion en direct sur M6 de l'émission 'Appel à témoins' avec l'imposteur du 'faux prêtre'.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-pistes_2020_2026-03"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2026-06-03",
+   "precision": "jour",
+   "evenement": "Démenti de Mgr Valentin (Carcassonne), saisine de l'Arcom et excuses officielles de M6.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-pistes_2020_2026-03"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2026-06-04",
+   "precision": "jour",
+   "evenement": "Le parquet de Nantes ordonne des vérifications sur la piste stylométrique du compte 'Epsilon' (Ouest-France).",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-pistes_2020_2026-04"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2026-10-01",
+   "precision": "jour",
+   "evenement": "Situation au 1er octobre 2026 : mandats d'arrêt maintenus, plus de 1 750 signalements clôturés négativement, dossier instruit à Nantes.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-pistes_2020_2026-06",
+    "S-pistes_2020_2026-08",
+    "S-pistes_2020_2026-09"
+   ],
+   "note": ""
+  }
+ ],
+ "details_moins_connus": [
+  {
+   "detail": "Dans les fouilles de septembre 2024 dans le Var, l'OCRVP s'est spécifiquement concentré sur des caveaux de cimetières où des inhumations avaient eu lieu dans les jours précédant la disparition d'avril 2011, évaluant l'hypothèse technique d'une intrusion clandestine pour s'y suicider.",
+   "interet_interpretation": "Démontre la minutie médico-légale des enquêteurs pour fermer toutes les hypothèses de suicide introuvable.",
+   "sources": [
+    "S-pistes_2020_2026-05"
+   ]
+  },
+  {
+   "detail": "Pour valider une identification formelle d'empreintes digitales en France, le protocole médico-légal exige au minimum 12 minuties (points caractéristiques de concordance) sans aucune discordance, ce qui avait fait défaut lors de la fausse alerte de Glasgow en 2019.",
+   "interet_interpretation": "Explique pourquoi les approximations visuelles des signalements échouent systématiquement devant la police technique et scientifique.",
+   "sources": [
+    "S-pistes_2020_2026-09"
+   ]
+  }
+ ],
+ "contradictions": [
+  {
+   "sujet": "Portée réelle de l'appel à témoins du shérif de Brewster County en mars 2026",
+   "versions": [
+    {
+     "version": "Recherches actives lancées par les autorités locales américaines sur la foi d'une présence récente de Xavier Dupont de Ligonnès au Texas",
+     "sources": [
+      "S-pistes_2020_2026-02"
+     ]
+    },
+    {
+     "version": "Simple relais de courtoisie à la suite d'un démarchage par des enquêteurs privés français, sans aucun élément nouveau ni observation confirmée",
+     "sources": [
+      "S-pistes_2020_2026-02"
+     ]
+    }
+   ],
+   "traitement_recommande": "Retenir la clarification textuelle du shérif Dodson : aucune présence confirmée, aucune preuve matérielle nouvelle."
+  }
+ ],
+ "lacunes": [
+  "Identité judiciaire exacte de l'affabulateur de l'émission de M6 de juin 2026.",
+  "Détail des vérifications techniques menées par les services de police sur les logs de connexion du forum cite-catholique.org."
+ ]
+}

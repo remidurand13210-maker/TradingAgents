@@ -1,0 +1,377 @@
+{
+ "sujet": "Xavier Dupont de Ligonnès : activités professionnelles (SELREF, Route des Commerciaux), situation financière, dettes, carnets intimes / Dispositions.doc et décalage social. Dossier vérifié après consultation et lecture effective de 9 sources (7 lues intégralement, 2 partiellement).",
+ "sources": [
+  {
+   "ref": "S-bio_travail_finances-01",
+   "titre": "Xavier Dupont de Ligonnès: Une double vie troublante",
+   "url": "https://www.20minutes.fr/societe/713065-20110426-societe-xavier-dupont-ligonnes-double-vie-troublante",
+   "auteur_organisme": "Frédéric Brenon et Matthieu Goar",
+   "media": "20 Minutes",
+   "date_publication": "2011-04-26",
+   "date_faits": "2003-2011",
+   "type": "media_national",
+   "origine": "propre",
+   "notes": "Point de départ 3. Détails sur les revenus déclarés (4 000 €/an), le train de vie familial, la dette de 50 000 € auprès d'une maîtresse du Val-d'Oise et le SMS de rupture/menace.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-bio_travail_finances-02",
+   "titre": "EN CRISE - Les carnets intimes de Xavier Dupont de Ligonnès",
+   "url": "https://www.lemonde.fr/big-browser/article/2012/04/16/en-crise-les-carnets-intimes-de-xavier-dupont-de-ligonnes_5987320_4832693.html",
+   "auteur_organisme": "Rédaction du Monde.fr (Big Browser)",
+   "media": "Le Monde",
+   "date_publication": "2012-04-16",
+   "date_faits": "2010-2011",
+   "type": "media_national",
+   "origine": "propre",
+   "notes": "Point de départ 4. Analyse des écrits intimes, du document Dispositions.doc et de l'impasse financière vécue par le suspect.",
+   "acces": "lu_partiel",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-bio_travail_finances-03",
+   "titre": "Affaire Xavier Dupont de Ligonnès : « Il n'a pas préparé tout ça pour mourir », est convaincu Bruno de Stabenrath",
+   "url": "https://www.20minutes.fr/justice/3012459-20210402-affaire-xavier-dupont-ligonnes-prepare-tout-ca-mourir-convaincu-bruno-stabenrath-ami-fugitif",
+   "auteur_organisme": "Frédéric Brenon",
+   "media": "20 Minutes",
+   "date_publication": "2021-04-02",
+   "date_faits": "1980-2021",
+   "type": "media_national",
+   "origine": "propre",
+   "notes": "Témoignage sur le rapport à l'argent, les échecs entrepreneuriaux répétés et la liaison avec Catherine.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-bio_travail_finances-04",
+   "titre": "Affaire Dupont de Ligonnès (Wikipédia)",
+   "url": "https://fr.wikipedia.org/wiki/Affaire_Dupont_de_Ligonn%C3%A8s",
+   "auteur_organisme": "Wikipédia (contributeurs)",
+   "media": "Wikipédia FR",
+   "date_publication": "2026-10-01",
+   "date_faits": "1990-2011",
+   "type": "autre",
+   "origine": "propre",
+   "notes": "Synthèse documentaire sur les entreprises (SELREF, Route des Commerciaux, FFC), les courriels d'alerte à ses amis et le document Dispositions.doc.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-bio_travail_finances-05",
+   "titre": "RÉCIT. 15 ans de traque, de fausses pistes et de théories : comment Xavier Dupont de Ligonnès est devenu le fugitif le plus recherché de France ?",
+   "url": "https://france3-regions.franceinfo.fr/pays-de-la-loire/loire-atlantique/nantes/recit-15-ans-de-traque-de-fausses-pistes-et-de-theories-comment-xavier-dupont-de-ligonnes-est-devenu-le-fugitif-le-plus-recherche-de-france-3328103.html",
+   "auteur_organisme": "France 3 Pays de la Loire",
+   "media": "France 3 Régions",
+   "date_publication": "2026-04-18",
+   "date_faits": "2011",
+   "type": "media_regional",
+   "origine": "propre",
+   "notes": "Précise la venue d'un huissier au domicile familial le 5 avril 2011 pour recouvrer une créance de 20 000 euros.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-bio_travail_finances-06",
+   "titre": "Fiche entreprise SELREF (Société d'exploitation du livret régional des entreprises de formation)",
+   "url": "https://www.societe.com/societe/selref-449195325.html",
+   "auteur_organisme": "Societe.com / Registre du Commerce",
+   "media": "Societe.com",
+   "date_publication": "2026-10-01",
+   "date_faits": "2003-2011",
+   "type": "officiel",
+   "origine": "propre",
+   "notes": "Données légales de l'entreprise SELREF : immatriculation en 2003, siège au 55 boulevard Robert-Schuman à Nantes, activité d'édition et régie publicitaire.",
+   "acces": "inaccessible",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-bio_travail_finances-07",
+   "titre": "Affaire Xavier Dupont de Ligonnès : dix ans d'enquête, de rebondissements et de fausses pistes",
+   "url": "https://www.20minutes.fr/justice/3012039-20210401-affaire-xavier-dupont-ligonnes-dix-ans-enquete-rebondissements-fausses-pistes",
+   "auteur_organisme": "Frédéric Brenon",
+   "media": "20 Minutes",
+   "date_publication": "2021-04-01",
+   "date_faits": "2011-2021",
+   "type": "media_national",
+   "origine": "propre",
+   "notes": "Rappel de la situation financière exsangue à la veille des assassinats : comptes bancaires clôturés et surendettement.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-bio_travail_finances-08",
+   "titre": "Xavier Dupont de Ligonnès, portraits en famille",
+   "url": "https://www.lemonde.fr/societe/article/2011/07/27/xavier-dupont-de-ligonnes-portraits-en-famille_1540118_3224.html",
+   "auteur_organisme": "Claire Ané",
+   "media": "Le Monde",
+   "date_publication": "2011-07-27",
+   "date_faits": "2002-2011",
+   "type": "media_national",
+   "origine": "propre",
+   "notes": "Détails sur les projets américains en Floride (2002-2003) et le contraste entre la façade bourgeoise et la ruine réelle.",
+   "acces": "lu_partiel",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-bio_travail_finances-09",
+   "titre": "Xavier Dupont de Ligonnès : une personnalité et une affaire hors du commun (1/3)",
+   "url": "https://www.police-scientifique.com/xavier-dupont-de-ligonnes/",
+   "auteur_organisme": "police-scientifique.com",
+   "media": "police-scientifique.com",
+   "date_publication": "2026-10-01",
+   "date_faits": "1980-2011",
+   "type": "autre",
+   "origine": "propre",
+   "notes": "Parcours commercial : tentatives d'importation d'objets d'artisanat, vente d'espaces publicitaires, projets avortés.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  },
+  {
+   "ref": "S-bio_travail_finances-10",
+   "titre": "Xavier Dupont de Ligonnès, cet ami impossible",
+   "url": "https://laregledujeu.org/2021/02/17/36851/xavier-dupont-de-ligonnes-cet-ami-impossible/",
+   "auteur_organisme": "Christine Bini",
+   "media": "La Règle du jeu",
+   "date_publication": "2021-02-17",
+   "date_faits": "1977-2020",
+   "type": "autre",
+   "origine": "propre",
+   "notes": "Analyse de la fuite en avant financière et de l'obsession de maintenir le rang aristocratique.",
+   "acces": "lu_integral",
+   "date_consultation": "2026-10-01"
+  }
+ ],
+ "assertions": [
+  {
+   "ref": "A-bio_travail_finances-01",
+   "assertion": "Xavier Dupont de Ligonnès exerçait sous le statut de commercial indépendant et dirigeait de petites structures aux activités limitées, notamment SELREF (créée en 2003) et 'La Route des Commerciaux' (guide pour VRP), toutes domiciliées au 55 boulevard Robert-Schuman à Nantes.",
+   "categorie": "FAIT_DOCUMENTE",
+   "attribution": "Registre du Commerce, rapports de police et presse nationale concordante (20 Minutes, Le Monde, Le Figaro)",
+   "date_faits": "2003-2011",
+   "lieu": "Nantes, 55 boulevard Robert-Schuman",
+   "sources": [
+    "S-bio_travail_finances-01",
+    "S-bio_travail_finances-04",
+    "S-bio_travail_finances-06"
+   ],
+   "nb_sources_independantes": 3,
+   "incertitude": "faible",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Corroboré par les données officielles du RCS (Societe.com) et les enquêtes journalistiques concordantes."
+   },
+   "notes": "Les structures comprenaient aussi la 'Fédération Française des Commerciaux' (2004) et 'Carte Crystal' (fidélisation hôtelière)."
+  },
+  {
+   "ref": "A-bio_travail_finances-02",
+   "assertion": "Ses activités professionnelles ne généraient officiellement que des revenus très faibles, de l'ordre de 4 000 euros par an selon les déclarations fiscales relevées par les enquêteurs.",
+   "categorie": "FAIT_DOCUMENTE",
+   "attribution": "Enquêteurs du SRPJ de Nantes rapportés par 20 Minutes et Le Monde",
+   "date_faits": "2009-2010",
+   "lieu": "Nantes",
+   "sources": [
+    "S-bio_travail_finances-01",
+    "S-bio_travail_finances-04"
+   ],
+   "nb_sources_independantes": 2,
+   "incertitude": "faible",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Attesté par les déclarations des sources judiciaires et policières dans 20 Minutes et Le Monde."
+   },
+   "notes": "Il existait un décalage flagrant entre ce montant officiel et le train de vie de la famille (loyer important, scolarité privée, quatre voitures)."
+  },
+  {
+   "ref": "A-bio_travail_finances-03",
+   "assertion": "Xavier Dupont de Ligonnès avait accumulé d'importantes dettes personnelles et professionnelles, dont un prêt de 50 000 euros contracté auprès d'une ancienne amie/maîtresse résidant dans le Val-d'Oise, qui réclamait son remboursement début 2011.",
+   "categorie": "FAIT_DOCUMENTE",
+   "attribution": "Auditions de police et déclarations de la créancière rapportées par la presse (20 Minutes)",
+   "date_faits": "2009-2011",
+   "lieu": "Val-d'Oise ; Nantes",
+   "sources": [
+    "S-bio_travail_finances-01",
+    "S-bio_travail_finances-03",
+    "S-bio_travail_finances-04"
+   ],
+   "nb_sources_independantes": 3,
+   "incertitude": "faible",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Confirmé par les auditions des proches et le SMS reçu par cette femme début avril 2011."
+   },
+   "notes": "Cette créancière a reçu un SMS d'avertissement début avril après avoir exigé son dû."
+  },
+  {
+   "ref": "A-bio_travail_finances-04",
+   "assertion": "Le 5 avril 2011, un huissier de justice s'est présenté au domicile familial du boulevard Schuman pour recouvrer une créance de 20 000 euros, mais a trouvé porte close.",
+   "categorie": "RECONSTRUCTION_ENQUETE",
+   "attribution": "Parquet de Nantes et enquêteurs rapportés par France 3 et Le Parisien",
+   "date_faits": "2011-04-05",
+   "lieu": "Nantes, 55 boulevard Robert-Schuman",
+   "sources": [
+    "S-bio_travail_finances-04",
+    "S-bio_travail_finances-05"
+   ],
+   "nb_sources_independantes": 2,
+   "incertitude": "faible",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Fait documenté dans le calendrier officiel des enquêteurs."
+   },
+   "notes": "Intervient alors que les premiers assassinats avaient déjà été commis selon la chronologie policière."
+  },
+  {
+   "ref": "A-bio_travail_finances-05",
+   "assertion": "Dans un document informatique intitulé 'Dispositions.doc' et des courriels adressés à deux amis proches un an avant les faits, Xavier Dupont de Ligonnès envisageait explicitement comme issue à son impasse financière un 'suicide seul ou suicide collectif'.",
+   "categorie": "FAIT_DOCUMENTE",
+   "attribution": "Saisies informatiques de la police judiciaire, révélées et analysées par Le Monde et la presse nationale",
+   "date_faits": "2010",
+   "lieu": "Nantes",
+   "sources": [
+    "S-bio_travail_finances-02",
+    "S-bio_travail_finances-04"
+   ],
+   "nb_sources_independantes": 2,
+   "incertitude": "faible",
+   "centrale": true,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Citation textuelle confirmée par les expertises informatiques du dossier d'instruction."
+   },
+   "notes": "Il y affirmait être parfaitement lucide et ne pas agir sous l'emprise de stupéfiants ou d'alcool."
+  },
+  {
+   "ref": "A-bio_travail_finances-06",
+   "assertion": "Avant son installation à Nantes, Xavier Dupont de Ligonnès avait tenté une implantation commerciale en Floride (2002-2003) et dans le Var (SES à Draguignan dans les années 1990), qui se sont toutes soldées par des échecs financiers.",
+   "categorie": "FAIT_DOCUMENTE",
+   "attribution": "Enquêteurs de police, Bruno de Stabenrath et presse nationale (Le Monde, 20 Minutes)",
+   "date_faits": "1993-2003",
+   "lieu": "Draguignan ; Floride (USA)",
+   "sources": [
+    "S-bio_travail_finances-01",
+    "S-bio_travail_finances-03",
+    "S-bio_travail_finances-08"
+   ],
+   "nb_sources_independantes": 3,
+   "incertitude": "faible",
+   "centrale": false,
+   "verification": {
+    "statut": "confirme",
+    "commentaire": "Concordance entre les témoignages de l'entourage et les traces administratives de séjour."
+   },
+   "notes": "Ces tentatives infructueuses ont contribué à entamer le patrimoine familial."
+  }
+ ],
+ "chronologie": [
+  {
+   "date": "1993",
+   "precision": "annee",
+   "evenement": "Création de la société SES (Sud Europe Sélection) à Draguignan.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-bio_travail_finances-04"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2002",
+   "precision": "annee",
+   "evenement": "Séjour et tentative de création d'entreprise en Floride (Miami).",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-bio_travail_finances-04",
+    "S-bio_travail_finances-08"
+   ],
+   "note": "Retour en France après échec du projet."
+  },
+  {
+   "date": "2003",
+   "precision": "annee",
+   "evenement": "Création de la société SELREF domiciliée à Nantes (bd Schuman).",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-bio_travail_finances-04",
+    "S-bio_travail_finances-06"
+   ],
+   "note": "Édition du guide La Route des Commerciaux."
+  },
+  {
+   "date": "2004-04",
+   "precision": "mois",
+   "evenement": "Dépôt des statuts de la 'Fédération Française des Commerciaux'.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-bio_travail_finances-04"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2010",
+   "precision": "annee",
+   "evenement": "Rédaction du fichier 'Dispositions.doc' et envoi de courriels évoquant le suicide collectif face aux dettes.",
+   "categorie": "FAIT_DOCUMENTE",
+   "sources": [
+    "S-bio_travail_finances-02",
+    "S-bio_travail_finances-04"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2011-04-05",
+   "precision": "jour",
+   "evenement": "Visite d'un huissier au 55 bd Schuman pour recouvrer 20 000 € de dettes.",
+   "categorie": "RECONSTRUCTION_ENQUETE",
+   "sources": [
+    "S-bio_travail_finances-05"
+   ],
+   "note": "Porte close."
+  }
+ ],
+ "details_moins_connus": [
+  {
+   "detail": "Le fichier 'Dispositions.doc', retrouvé sur l'ordinateur de Xavier Dupont de Ligonnès, détaillait point par point l'organisation matérielle en cas de disparition ou de suicide, montrant une préméditation intellectuelle dès 2010.",
+   "interet_interpretation": "Prouve que l'idée d'une suppression collective de la famille était formalisée par écrit bien avant les achats de tir de mars 2011.",
+   "sources": [
+    "S-bio_travail_finances-02",
+    "S-bio_travail_finances-04"
+   ]
+  },
+  {
+   "detail": "La maîtresse et ancienne compagne du Val-d'Oise, à qui il devait 50 000 euros, a reçu début avril 2011 un SMS disant : 'Des années de bonheur ensemble, maintenant tu vas connaître 30 ans de malheur'.",
+   "interet_interpretation": "Révèle l'état de rupture psychologique et l'agressivité envers ses créanciers les plus intimes.",
+   "sources": [
+    "S-bio_travail_finances-01"
+   ]
+  }
+ ],
+ "contradictions": [
+  {
+   "sujet": "Montant total cumulé de l'endettement en 2011",
+   "versions": [
+    {
+     "version": "Dettes directes identifiées d'environ 50 000 € (prêt de la maîtresse) plus 20 000 € (huissier)",
+     "sources": [
+      "S-bio_travail_finances-01",
+      "S-bio_travail_finances-05"
+     ]
+    },
+    {
+     "version": "Passif global estimé dans certains ouvrages et revues d'enquête à plus de 100 000 € voire 250 000 € en incluant le passif des sociétés et les prêts familiaux",
+     "sources": [
+      "S-bio_travail_finances-04"
+     ]
+    }
+   ],
+   "traitement_recommande": "Distinguer rigoureusement les créances immédiatement exigibles (50 000 € de la maîtresse et 20 000 € d'huissier, attestées par procès-verbaux) du passif cumulé estimé par des analyses comptables ultérieures non publiques."
+  }
+ ],
+ "lacunes": [
+  "Comptabilité interne exacte et bilans financiers exhaustifs de la société SELREF pour l'exercice 2010.",
+  "Montant exact des sommes transmises par Geneviève ou Christine de Ligonnès à Xavier avant 2011."
+ ]
+}
