@@ -233,7 +233,37 @@ def ecrire_wav(chemin: Path, pcm: bytes, taux: int) -> float:
     return len(pcm) / 2 / taux
 
 
+def synthese_interactions(cfg: dict, cle: str | None, texte: str) -> tuple[bytes, int, dict]:
+    """API Interactions (documentation Gemini 3.8 TTS) : le texte est lu MOT POUR MOT ; le style passe
+    dans une annotation speech_metadata, jamais dans le texte (sinon la consigne est lue à voix haute)."""
+    corps = {"model": cfg["modele"],
+             "input": [{"type": "user_input", "content": [{"type": "text", "text": texte,
+                         "annotations": [{"type": "speech_metadata", "style": cfg["consignes"]}]}]}],
+             "response_format": {"type": "audio"},
+             "generation_config": {"speech_config": [{"voice": cfg["voix"]}]}}
+    rep = requete("POST", f"{API}/interactions", cle, corps)
+    audio = [c for st in rep.get("steps", []) if st.get("type") == "model_output"
+             for c in st.get("content", []) if c.get("type") == "audio"]
+    brut = base64.b64decode(audio[-1]["data"])
+    if brut[:4] == b"RIFF":
+        import io
+        with wave.open(io.BytesIO(brut)) as w:
+            taux, pcm = w.getframerate(), w.readframes(w.getnframes())
+    else:
+        taux, pcm = 24000, brut
+    u = rep.get("usage") or rep.get("usageMetadata") or {}
+    usage = {"promptTokenCount": u.get("total_input_tokens", u.get("promptTokenCount", 0)),
+             "candidatesTokenCount": u.get("total_output_tokens", u.get("candidatesTokenCount", 0)), "brut": u}
+    if not usage["candidatesTokenCount"]:  # usage absent : estimation prudente sur la durée réelle
+        usage["candidatesTokenCount"] = int(len(pcm) / 2 / taux * cfg["tarifs"]["tokens_audio_par_seconde"]) + 1
+        usage["promptTokenCount"] = usage["promptTokenCount"] or tokens_texte(texte) + tokens_texte(cfg["consignes"])
+        usage["estime"] = True
+    return pcm, taux, usage
+
+
 def synthese(cfg: dict, cle: str, texte: str) -> tuple[bytes, int, dict]:
+    if cfg["mode_consignes"] == "interactions":
+        return synthese_interactions(cfg, cle, texte)
     url = f"{API}/models/{cfg['modele']}:generateContent"
     rep = requete("POST", url, cle, corps_requete(cfg, texte))
     part = rep["candidates"][0]["content"]["parts"][0]["inlineData"]
