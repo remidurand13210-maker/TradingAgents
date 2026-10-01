@@ -9,9 +9,9 @@ Statuts : préparé · généré · contrôlé · envoyé · soumis · publié �
 | Bloc | Statut | Détail |
 |---|---|---|
 | Dossier documentaire | partiel, à revérifier | 102 sources, 103 assertions, avec leur provenance : `bio_jeunesse` (extraits de moteur, session cloud) et 4 thèmes Bionic (LM Studio, 24 sources lues partiellement, non revérifiées ; voir `recherche/contre_verif/AUDIT_BIONIC.md`). Il manque : famille, travail et finances, découverte et enquête, pistes 2011-2019 (dont Glasgow), plateformes, emplacements. |
-| Scripts des 4 épisodes + bande-annonce | brouillons v0 en cours (épisodes 2, 3, 4) | Écrits à partir du seul dossier ; faits fragiles attribués ou omis ; non narrables avant `VALIDATION.md`. Épisode 1 et bande-annonce : en attente de la recherche manquante. |
-| Narration Gemini 3.8 (Algieba) | **bloqué** | Session actuelle sur l'environnement Default : test non génératif « 403 PERMISSION_DENIED », sans identifiant injecté. Environnement « Akeb - production YouTube » créé par Codex, mais l'identifiant API n'y est pas encore connecté. L'outil gère le mode proxy (clé ajoutée après la VM, `GEMINI_API_KEY` absente). Chiffrage après les scripts ; narration refusée sans `VALIDATION.md`. |
-| Outils de montage et de contrôle | contrôlé | Testés de bout en bout ; sous-titres désormais alignés par propositions sur les pauses réelles de la voix. |
+| Scripts des 4 épisodes + bande-annonce | brouillons v0 écrits (épisodes 2, 3, 4) | Écrits à partir du seul dossier ; faits fragiles attribués ou omis ; non narrables avant `VALIDATION.md`. Épisode 1 et bande-annonce : en attente de la recherche manquante. |
+| Narration Gemini 3.8 (Algieba) | prêt, non lancé | Accès **vérifié dans l'environnement Akeb** (test non génératif réussi, aucun audio). Default reste sans identifiant. L'outil gère le mode proxy (clé ajoutée après la VM, `GEMINI_API_KEY` absente). Chiffrage après les scripts ; narration refusée sans `VALIDATION.md`. |
+| Outils de montage et de contrôle | contrôlé | Testés de bout en bout ; sous-titres alignés sur la voix réelle ; moteur d'animation local. Maquette de comparaison de 27,1 s (moteur Python ou HyperFrames) produite en vrai MP4 1080p : voir `montage/maquette_comparaison/COMPARAISON.md`. HyperFrames recommandé, à confirmer par Rémi. |
 | Musique | généré | 3 nappes originales (`audio/musique/`, hors Git). |
 | Identité visuelle | contrôlé | Avatar 800×800 et bannière 2560×1440 prêts **à installer** sur la chaîne. |
 | Couverture exacte | généré | Reçue ; installée localement en `montage/assets/` (hors Git). |

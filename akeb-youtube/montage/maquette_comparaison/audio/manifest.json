@@ -1,0 +1,35 @@
+{
+ "_note": "Voix Gemini/Algieba du Short 3, déjà produite (aucun nouvel appel), découpée aux pauses mesurées.",
+ "segments": {
+  "maquette_comparaison/S01": {
+   "wav": "montage/maquette_comparaison/audio/S01.wav",
+   "statut": "genere",
+   "duree_s": 3.1
+  },
+  "maquette_comparaison/S02": {
+   "wav": "montage/maquette_comparaison/audio/S02.wav",
+   "statut": "genere",
+   "duree_s": 7.15
+  },
+  "maquette_comparaison/S03": {
+   "wav": "montage/maquette_comparaison/audio/S03.wav",
+   "statut": "genere",
+   "duree_s": 2.31
+  },
+  "maquette_comparaison/S04": {
+   "wav": "montage/maquette_comparaison/audio/S04.wav",
+   "statut": "genere",
+   "duree_s": 4.91
+  },
+  "maquette_comparaison/S05": {
+   "wav": "montage/maquette_comparaison/audio/S05.wav",
+   "statut": "genere",
+   "duree_s": 3.01
+  },
+  "maquette_comparaison/S06": {
+   "wav": "montage/maquette_comparaison/audio/S06.wav",
+   "statut": "genere",
+   "duree_s": 3.12
+  }
+ }
+}

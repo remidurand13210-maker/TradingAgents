@@ -1,7 +1,7 @@
 # Point de reprise — passage dans l'environnement « Akeb - production YouTube »
 
 Préparé le 01/10/2026 dans la session cloud actuelle, qui tourne sur l'environnement **Default**. Rien n'a été détruit.
-**Aucune connexion Gemini n'est établie à ce jour** : le test non génératif renvoie « 403 PERMISSION_DENIED » sur Default, ce qui est normal sans identifiant injecté.
+**Accès Gemini vérifié dans l'environnement Akeb** (session_01EaidoXE4psibiFYZg9VgPc) : `verifier-modele` a terminé avec le code 0 et une réponse 2xx, et la fiche `models/gemini-3.8-flash-tts` est arrivée par le proxy, sans audio généré. Default reste sans identifiant (403, normal).
 
 ## 1. Ce qui est déjà dans le dépôt (branche `claude/akeb-youtube-channel-kvu47n`)
 
@@ -53,6 +53,16 @@ python3 outils/narration_gemini.py verifier-modele    # test REST non générati
 5. Lire le tarif officiel du modèle, renseigner `audio/config_narration.json › tarifs`, lancer `narration_gemini.py estimer` et envoyer **une seule** demande d'enveloppe à Rémi.
 6. Après accord : échantillon de voix, contrôle, narration segmentée, montage, contrôles, miniatures, chapitres mesurés.
 7. **Publication** : par le Studio local, côté Codex (aucun OAuth YouTube n'a été donné au conteneur). Les fichiers à importer sont préparés et consignés dans `PUBLICATIONS.csv`.
+
+## 4 bis. Synchronisation avec l'environnement Akeb
+
+1. `git fetch origin claude/akeb-youtube-channel-kvu47n && git checkout claude/akeb-youtube-channel-kvu47n && git pull`. Dernier commit à attendre : voir le message de clôture de la session Default.
+2. Joindre de nouveau l'archive de Codex et la décompresser dans `/home/user/akeb-transmission/`. Recopier les couvertures dans `akeb-youtube/montage/assets/`.
+3. `pip install pillow numpy scipy soundfile pyloudnorm`. Puis, pour l'option HyperFrames :
+   `mkdir -p /home/user/akeb-hf && cd /home/user/akeb-hf && npm init -y && PUPPETEER_SKIP_DOWNLOAD=1 npm i hyperframes@0.8.99 gsap@3 && npx hyperframes telemetry disable`.
+   Ensuite, exporter `HYPERFRAMES_BROWSER_PATH` vers le Chromium headless préinstallé (`/opt/pw-browsers/chromium_headless_shell-*/chrome-linux/headless_shell`), puis lancer `npx hyperframes doctor`.
+4. Régénérer les nappes (`outils/musique.py`) et les éléments de maquette (`python3 montage/maquette_comparaison/preparer.py`).
+5. Un seul environnement écrit à la fois sur la branche : avant d'y travailler, la session Akeb fait un `git pull`, et la session Default s'arrête.
 
 ## 5. Budgets (inchangés)
 

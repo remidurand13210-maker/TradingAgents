@@ -1,0 +1,10 @@
+plan,segment,type,statut,texte,texte2,source,faits,poids,params
+P00,-,titre,,Les Mystères d'Akeb,"Disparitions, récits et zones d'ombre",,,1,"{""numero"": ""—"", ""duree"": 2.0}"
+P01,S01,frise,FAIT,Trois énigmes jamais résolues,,,,1,"{""bornes"": [1860, 1985], ""curseur"": 1975, ""curseur_depart"": 1862, ""evenements"": [{""annee"": 1872.92, ""label"": ""Mary Celeste (1872)"", ""statut"": ""FAIT"", ""haut"": true}, {""annee"": 1900.95, ""label"": ""Îles Flannan (1900)"", ""statut"": ""FAIT"", ""haut"": false}, {""annee"": 1971.9, ""label"": ""D. B. Cooper (1971)"", ""statut"": ""FAIT"", ""haut"": true}]}"
+P02,S02,carte,FICTION,Trajectoire imaginaire,,Roman de fiction,,1.4,"{""points"": [{""lon"": 2.3522, ""lat"": 48.8566, ""label"": ""Avant""}, {""lon"": -0.5792, ""lat"": 44.8378, ""label"": ""Une autre ville ?""}], ""bbox"": [-5.5, 41.2, 9.8, 51.3], ""trajet"": true}"
+P03,S02,texte,FICTION,Une autre ville. Un autre nom. Une femme qui ne sait rien.,LA DERNIÈRE CORRECTION — ROMAN,,,1,
+P04,S03,question,,Jusqu'au mot de trop.,FICTION,,,1,
+P05,S04,photo,FICTION,Couverture,,,,1,"{""visuel"": ""montage/assets/couverture_akeb_audio.png"", ""credit"": ""Couverture : La dernière correction, Akeb"", ""mouvement"": ""zoom_avant"", ""amplitude"": 0.06}"
+P06,S05,livre,,"À lire en e-book : EPUB + PDF, 2,99 € | À écouter en livre audio : MP3 + M4B, 4,99 € | payhip.com/ladernierecorrection",,,,1,
+P07,S06,question,,"Et vous, auriez-vous reconnu le mensonge ?",THRILLER DE FICTION,,,1,
+P08,-,titre,,Les Mystères d'Akeb,@LesMysteresDAkeb,,,1,"{""numero"": ""—"", ""duree"": 1.5}"

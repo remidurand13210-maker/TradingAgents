@@ -143,8 +143,8 @@ def anim_photo(chemin: Path, n: int, mouvement: str = "zoom_avant", amplitude: f
             tw = f.getlength(credit)
             d.rectangle([W - tw - 44, H - 52, W - 16, H - 16], fill=(14, 17, 22))
             d.text((W - 30, H - 34), credit, font=f, fill=I.DISCRET, anchor="rm")
-        if statut:
-            I.etiquette(d, 40, 60, statut)
+        if statut:  # en bas à gauche : ne masque ni le titre d'une couverture ni le filigrane
+            I.etiquette(d, 40, H - 96, statut)
         yield bandeau(img, texte_bandeau, (120, 90, 30), droite=True)
 
 

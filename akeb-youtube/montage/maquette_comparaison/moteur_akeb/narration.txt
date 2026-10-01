@@ -1,0 +1,13 @@
+# Maquette technique de comparaison — voix existante du Short 3 (Gemini, Algieba), aucun nouvel appel
+[S01] Vous connaissez ces affaires qui restent sans réponse.
+[pause 0]
+[S02] Mais imaginez la suite : une autre ville, un autre nom, une femme qui ne sait rien.
+[pause 0]
+[S03] Jusqu'au mot de trop.
+[pause 0]
+[S04] La dernière correction, d'Akeb, invente ce que personne ne peut affirmer.
+[pause 0]
+[S05] Un thriller de fiction à lire ou à écouter.
+[pause 0]
+[S06] Et vous, auriez-vous reconnu le mensonge ?
+[pause 0]

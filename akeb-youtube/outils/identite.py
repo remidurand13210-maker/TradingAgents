@@ -159,7 +159,8 @@ def filigrane(d: ImageDraw.ImageDraw, w: int, h: int) -> None:
 def carton_titre(numero: str, titre: str, sous_titre: str = "", w=1920, h=1080) -> Image.Image:
     img = fond(w, h)
     d = ImageDraw.Draw(img)
-    d.text((w / 2, h * 0.30), f"ÉPISODE {numero}", font=police("semibold", 34), fill=ACCENT, anchor="mm")
+    if numero and numero not in ("—", "-"):
+        d.text((w / 2, h * 0.30), f"ÉPISODE {numero}", font=police("semibold", 34), fill=ACCENT, anchor="mm")
     fnt, lignes = ajuster(typo_fr(titre), "bold", 92, w - 360, 3)
     y = h * 0.44
     for l in lignes:
@@ -336,7 +337,8 @@ def carton_frise(evenements: list[dict], focus: tuple[int, int] | None = None, t
         d.rectangle([X(focus[0]), ya - 250, X(focus[1]), ya + 250], fill=(26, 31, 40))
     d.line([(x0, ya), (x1, ya)], fill=TRAIT, width=4)
     if a1 - a0 > 8:
-        for dec in range(1960, 2031, 10):
+        pas = 10 if a1 - a0 <= 80 else 20
+        for dec in range(int(a0 // pas * pas), int(a1) + 1, pas):
             if a0 <= dec <= a1:
                 d.line([(X(dec), ya - 10), (X(dec), ya + 10)], fill=DISCRET, width=2)
                 d.text((X(dec), ya + 34), str(dec), font=police("regular", 26), fill=DISCRET, anchor="mm")

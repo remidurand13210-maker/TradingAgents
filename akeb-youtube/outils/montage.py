@@ -89,11 +89,13 @@ def blocs(storyboard: list[dict], segments: list[dict]) -> list[dict]:
 ANIM_DEFAUT = {"titre": "revele", "chapitre": "revele", "date": "revele", "question": "revele", "citation": "revele",
                "texte": "revele", "sources": "revele", "livre": "revele", "avertissement": "revele", "document": "revele_lent",
                "frise": "curseur", "carte": "trace", "photo": "kenburns"}
-VERSION_ANIM = 2
+VERSION_ANIM = 3
 
 
 def evenements_frise(p: dict) -> list[dict]:
     """Frise large : jalons généraux. Frise zoomée (bornes) : jalons détaillés de la période, sans doublon."""
+    if p.get("evenements"):  # jalons propres au plan (maquettes, autres dossiers)
+        return p["evenements"]
     evs = [e for e in frise_commune() if e["annee"] <= p.get("jusqua", 2100)]
     if p.get("bornes"):
         a0, a1 = p["bornes"]
@@ -452,15 +454,19 @@ def fmt_chap(t: float) -> str:
 
 # ------------------------------------------------------------------ principal
 
-def monter(nom_ep: str, maquette: bool, variante_musique: str | None, temoin: bool = False) -> dict:
-    ep = RACINE / "episodes" / nom_ep
+def monter(nom_ep: str, maquette: bool, variante_musique: str | None, temoin: bool = False,
+           dossier: Path | None = None, manifest_chemin: Path | None = None, bandeau_force: str | None = None) -> dict:
+    """dossier / manifest_chemin / bandeau_force : maquettes hors épisodes (comparaisons techniques)."""
+    ep = dossier or (RACINE / "episodes" / nom_ep)
     numero = nom_ep[:2]
     segments = {s["id"]: s for s in lire_segments(ep)}
     sb = lire_storyboard(ep)
     seq = blocs(sb, list(segments.values()))
-    manifest = charger_json(RACINE / "audio" / ("manifest_temoin.json" if temoin else "manifest.json"), {"segments": {}})["segments"]
+    manifest = charger_json(manifest_chemin or (RACINE / "audio" / ("manifest_temoin.json" if temoin else "manifest.json")), {"segments": {}})["segments"]
     suffixe = "_maquette" if maquette else ("_temoin" if temoin else "")
     bandeau = "MAQUETTE — NARRATION NON GÉNÉRÉE" if maquette else ("MAQUETTE — VOIX TÉMOIN, NON PUBLIABLE" if temoin else "")
+    if bandeau_force is not None:
+        bandeau = bandeau_force
     rendu = RACINE / "montage" / "rendu" / (nom_ep + suffixe)
     (rendu / "plans").mkdir(parents=True, exist_ok=True)
     (rendu / "clips").mkdir(parents=True, exist_ok=True)
@@ -598,5 +604,10 @@ if __name__ == "__main__":
     ap.add_argument("--maquette", action="store_true")
     ap.add_argument("--temoin", action="store_true", help="voix témoin locale (audio/manifest_temoin.json)")
     ap.add_argument("--musique")
+    ap.add_argument("--dossier", help="dossier de storyboard hors episodes/ (maquettes techniques)")
+    ap.add_argument("--manifest", help="manifeste audio à utiliser")
+    ap.add_argument("--bandeau", help="bandeau à imprimer sur chaque image")
     a = ap.parse_args()
-    print(json.dumps(monter(a.episode, a.maquette, a.musique, a.temoin), ensure_ascii=False, indent=2))
+    print(json.dumps(monter(a.episode, a.maquette, a.musique, a.temoin,
+                            Path(a.dossier).resolve() if a.dossier else None,
+                            Path(a.manifest).resolve() if a.manifest else None, a.bandeau), ensure_ascii=False, indent=2))

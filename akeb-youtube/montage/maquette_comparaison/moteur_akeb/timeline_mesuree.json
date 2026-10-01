@@ -1,0 +1,95 @@
+{
+ "episode": "maquette_comparaison",
+ "maquette": false,
+ "voix_temoin": false,
+ "duree_s": 27.1,
+ "musique": "enquete",
+ "plans": [
+  {
+   "plan": "P00",
+   "segment": "-",
+   "type": "titre",
+   "anim": "revele",
+   "debut": 0.0,
+   "fin": 2.0,
+   "png": "montage/rendu/maquette_comparaison/plans/P00_89c663ba10316a5f.png"
+  },
+  {
+   "plan": "P01",
+   "segment": "S01",
+   "type": "frise",
+   "anim": "curseur",
+   "debut": 2.0,
+   "fin": 5.1,
+   "png": "montage/rendu/maquette_comparaison/plans/P01_d8be6eab69ab0d87.png"
+  },
+  {
+   "plan": "P02",
+   "segment": "S02",
+   "type": "carte",
+   "anim": "trace",
+   "debut": 5.1,
+   "fin": 9.271,
+   "png": "montage/rendu/maquette_comparaison/plans/P02_bd6e8f8d00d934f1.png"
+  },
+  {
+   "plan": "P03",
+   "segment": "S02",
+   "type": "texte",
+   "anim": "revele",
+   "debut": 9.271,
+   "fin": 12.25,
+   "png": "montage/rendu/maquette_comparaison/plans/P03_056ee37d72775c0d.png"
+  },
+  {
+   "plan": "P04",
+   "segment": "S03",
+   "type": "question",
+   "anim": "revele",
+   "debut": 12.25,
+   "fin": 14.56,
+   "png": "montage/rendu/maquette_comparaison/plans/P04_de8d0fbb190e15c6.png"
+  },
+  {
+   "plan": "P05",
+   "segment": "S04",
+   "type": "photo",
+   "anim": "kenburns",
+   "debut": 14.56,
+   "fin": 19.47,
+   "png": "montage/rendu/maquette_comparaison/plans/P05_4dad6fafde636225.png"
+  },
+  {
+   "plan": "P06",
+   "segment": "S05",
+   "type": "livre",
+   "anim": "revele",
+   "debut": 19.47,
+   "fin": 22.48,
+   "png": "montage/rendu/maquette_comparaison/plans/P06_d9b2864476d94d18.png"
+  },
+  {
+   "plan": "P07",
+   "segment": "S06",
+   "type": "question",
+   "anim": "revele",
+   "debut": 22.48,
+   "fin": 25.6,
+   "png": "montage/rendu/maquette_comparaison/plans/P07_64b0227411139ae4.png"
+  },
+  {
+   "plan": "P08",
+   "segment": "-",
+   "type": "titre",
+   "anim": "revele",
+   "debut": 25.6,
+   "fin": 27.1,
+   "png": "montage/rendu/maquette_comparaison/plans/P08_460e01df7f54fd39.png"
+  }
+ ],
+ "chapitres": [
+  "00:00 Introduction"
+ ],
+ "chapitres_trop_courts": [],
+ "nb_sous_titres": 7
+}

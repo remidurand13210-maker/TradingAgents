@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Maquette technique — Les Mystères d'Akeb (HyperFrames)</title>
+<style>
+  @font-face { font-family: "SSP"; src: url("assets/SourceSansPro-Regular.ttf"); font-weight: 400; }
+  @font-face { font-family: "SSP"; src: url("assets/SourceSansPro-Light.ttf"); font-weight: 300; }
+  @font-face { font-family: "SSP"; src: url("assets/SourceSansPro-Semibold.ttf"); font-weight: 600; }
+  @font-face { font-family: "SSP"; src: url("assets/SourceSansPro-Bold.ttf"); font-weight: 700; }
+  @font-face { font-family: "SSP"; src: url("assets/SourceSansPro-Black.ttf"); font-weight: 900; }
+  @font-face { font-family: "LSerif"; src: url("assets/LiberationSerif-Bold.ttf"); font-weight: 700; }
+  @font-face { font-family: "LSerif"; src: url("assets/LiberationSerif-Italic.ttf"); font-style: italic; }
+  :root { --fond:#0E1116; --texte:#EDE8E0; --discret:#8C929C; --accent:#C8963E; --trait:#3C424C;
+          --fait:#568A7C; --fiction:#A85454; }
+  html, body { margin:0; padding:0; background:var(--fond); }
+  #root { position:relative; width:1920px; height:1080px; overflow:hidden; background:url("assets/fond.png");
+          font-family:"SSP", sans-serif; color:var(--texte); }
+  .clip { position:absolute; inset:0; }
+  .centre { display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; }
+  .filigrane { position:absolute; top:44px; right:60px; font:600 22px "SSP"; color:#5C626C; letter-spacing:1px; }
+  .maquette { position:absolute; top:0; left:0; padding:10px 16px; background:#962828; font:700 24px "SSP"; color:#fff; z-index:20; }
+  .chip { display:inline-block; border:2px solid; border-radius:6px; padding:6px 18px; font:700 26px "SSP"; letter-spacing:.5px; }
+  .chip.fait { color:var(--fait); border-color:var(--fait); }
+  .chip.fiction { color:var(--fiction); border-color:var(--fiction); }
+  .filet { height:3px; background:var(--accent); width:120px; transform-origin:center; }
+  .grand { font:900 118px "SSP"; letter-spacing:2px; }
+  .lettre { display:inline-block; }
+  .soustitre { font:300 52px "SSP"; color:var(--discret); margin-top:22px; }
+  .titre-scene { position:absolute; left:160px; top:118px; font:600 44px "SSP"; color:var(--accent); }
+  .axe { position:absolute; left:160px; top:600px; width:1600px; height:4px; background:var(--trait); transform-origin:left center; }
+  .tick { position:absolute; top:590px; width:2px; height:24px; background:var(--discret); }
+  .annee { position:absolute; top:628px; font:400 26px "SSP"; color:var(--discret); transform:translateX(-50%); }
+  .jalon { position:absolute; width:20px; height:20px; border-radius:50%; background:var(--fait); top:592px; margin-left:-10px; }
+  .tige { position:absolute; width:2px; background:var(--fait); margin-left:-1px; }
+  .etiq { position:absolute; font:600 30px "SSP"; transform:translateX(-50%); white-space:nowrap; }
+  .curseur { position:absolute; top:650px; width:0; height:0; border-left:16px solid transparent; border-right:16px solid transparent;
+             border-bottom:26px solid var(--accent); margin-left:-16px; }
+  .carte-fond { position:absolute; inset:0; background:url("assets/carte_fond.png"); transform-origin:50% 45%; }
+  .bande-titre { position:absolute; left:0; top:0; width:100%; height:150px; background:var(--fond); }
+  .titre-carte { position:absolute; left:120px; top:52px; font:600 46px "SSP"; }
+  .point { position:absolute; width:24px; height:24px; border-radius:50%; background:var(--accent); border:3px solid var(--fond); margin:-15px 0 0 -15px; }
+  .nom-point { position:absolute; font:600 34px "SSP"; white-space:nowrap; }
+  .revele { position:absolute; overflow:hidden; }
+  .phrase { font:700 78px "SSP"; max-width:1500px; line-height:1.25; }
+  .mot { display:inline-block; }
+  .surtitre { font:600 34px "SSP"; color:var(--accent); letter-spacing:3px; margin-bottom:34px; }
+  .question { font:700 88px "SSP"; max-width:1500px; line-height:1.2; }
+  .couv { position:absolute; inset:0; background:url("assets/couverture_akeb_audio.png") center/cover; transform-origin:55% 45%; }
+  .credit { position:absolute; right:30px; bottom:26px; background:var(--fond); padding:8px 16px; font:400 22px "SSP"; color:var(--discret); }
+  .livre-couv { position:absolute; left:190px; top:135px; width:540px; height:810px; background:url("assets/couverture_akeb.png") center/cover;
+                box-shadow:0 30px 80px rgba(0,0,0,.6); }
+  .livre-bloc { position:absolute; left:860px; top:150px; width:900px; text-align:center; }
+  .fiction-titre { font:700 40px "SSP"; color:var(--fiction); letter-spacing:2px; }
+  .livre-titre { font:700 84px "LSerif"; margin-top:40px; }
+  .livre-auteur { font:italic 48px "LSerif"; color:var(--discret); margin-top:10px; }
+  .ligne-livre { font:400 42px "SSP"; margin-top:34px; }
+  .ligne-livre b { color:var(--accent); font-weight:600; }
+  .mention { position:absolute; left:860px; width:900px; top:950px; text-align:center; font:400 32px "SSP"; color:var(--discret); font-style:italic; }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="root" data-width="1920" data-height="1080">
+  <div class="maquette">MAQUETTE TECHNIQUE — HYPERFRAMES (HTML/GSAP)</div>
+  <div class="filigrane">LES MYSTÈRES D'AKEB</div>
+
+  <!-- A. Ouverture 0–2 s -->
+  <div id="sA" class="clip centre" data-start="0" data-duration="2.1">
+    <div class="filet" id="aFilet"></div>
+    <div class="grand" id="aTitre" style="margin-top:40px"></div>
+    <div class="soustitre" id="aSous">Disparitions, récits et zones d'ombre</div>
+  </div>
+
+  <!-- B. Frise 2–5,1 s -->
+  <div id="sB" class="clip" data-start="2.0" data-duration="3.15">
+    <div class="titre-scene" id="bTitre">Trois énigmes jamais résolues</div>
+    <div style="position:absolute;left:160px;top:200px" id="bChip"><span class="chip fait">FAIT DOCUMENTÉ</span></div>
+    <div class="axe" id="bAxe"></div>
+    <div id="bTicks"></div>
+    <div id="bJalons"></div>
+    <div class="curseur" id="bCurseur" style="left:185.6px"></div>
+  </div>
+
+  <!-- C. Carte de fiction 5,1–9,27 s -->
+  <div id="sC" class="clip" data-start="5.1" data-duration="4.22">
+    <div class="carte-fond" id="cFond"></div>
+    <svg width="1920" height="1080" style="position:absolute;inset:0">
+      <defs><clipPath id="cClip"><rect id="cRect" x="0" y="0" width="1920" height="0"/></clipPath></defs>
+      <line x1="970.2" y1="369" x2="821.7" y2="663.5" stroke="#C8963E" stroke-width="5" stroke-linecap="round" clip-path="url(#cClip)"/>
+    </svg>
+    <div id="cTrace" style="position:absolute;left:0;top:369px;width:1920px;height:0"></div>
+    <div class="point" id="cP1" style="left:970.2px;top:369px"></div>
+    <div class="nom-point" id="cN1" style="left:998px;top:350px">Avant</div>
+    <div class="point" id="cP2" style="left:821.7px;top:663.5px"></div>
+    <div class="nom-point" id="cN2" style="left:850px;top:645px">Une autre ville ?</div>
+    <div class="bande-titre"></div>
+    <div class="titre-carte" id="cTitre">Trajectoire imaginaire&nbsp;&nbsp;<span class="chip fiction" style="font-size:24px;vertical-align:6px">FICTION</span></div>
+  </div>
+
+  <!-- D. Phrase de fiction 9,27–12,25 s -->
+  <div id="sD" class="clip centre" data-start="9.27" data-duration="3.03">
+    <div class="surtitre" id="dSur">LA DERNIÈRE CORRECTION — ROMAN</div>
+    <div class="phrase" id="dPhrase"></div>
+    <div style="margin-top:46px" id="dChip"><span class="chip fiction">FICTION</span></div>
+  </div>
+
+  <!-- E. Question 12,25–14,56 s -->
+  <div id="sE" class="clip centre" data-start="12.25" data-duration="2.36">
+    <div class="surtitre" id="eSur">FICTION</div>
+    <div class="question" id="eQ">Jusqu'au mot de trop.</div>
+  </div>
+
+  <!-- F. Couverture 14,56–19,47 s -->
+  <div id="sF" class="clip" data-start="14.56" data-duration="4.96">
+    <div class="couv" id="fCouv"></div>
+    <div style="position:absolute;left:40px;top:70px"><span class="chip fiction" style="background:rgba(14,17,22,.85)">FICTION</span></div>
+    <div class="credit">Couverture : La dernière correction, Akeb</div>
+  </div>
+
+  <!-- G. Le livre 19,47–22,48 s -->
+  <div id="sG" class="clip" data-start="19.47" data-duration="3.06">
+    <div class="livre-couv" id="gCouv"></div>
+    <div class="livre-bloc">
+      <div class="fiction-titre" id="gFic">THRILLER DE FICTION</div>
+      <div class="livre-titre" id="gTitre">La dernière correction</div>
+      <div class="livre-auteur" id="gAut">un roman d'Akeb</div>
+      <div class="ligne-livre" id="gL1"><b>À lire</b> en e-book : EPUB + PDF, 2,99 €</div>
+      <div class="ligne-livre" id="gL2"><b>À écouter</b> en livre audio : MP3 + M4B, 4,99 €</div>
+      <div class="ligne-livre" id="gL3" style="color:var(--discret)">payhip.com/ladernierecorrection</div>
+    </div>
+    <div class="mention">Personnages inventés · fin imaginée</div>
+  </div>
+
+  <!-- H. Question finale 22,48–25,6 s -->
+  <div id="sH" class="clip centre" data-start="22.48" data-duration="3.17">
+    <div class="surtitre" id="hSur">THRILLER DE FICTION</div>
+    <div class="question" id="hQ"></div>
+  </div>
+
+  <!-- I. Fin 25,6–27,1 s -->
+  <div id="sI" class="clip centre" data-start="25.6" data-duration="1.5">
+    <div class="filet" id="iFilet"></div>
+    <div class="grand" style="font-size:96px;margin-top:36px" id="iTitre">Les Mystères d'Akeb</div>
+    <div class="soustitre" id="iSous">@LesMysteresDAkeb</div>
+  </div>
+
+  <!-- Audio : voix existante du Short 3 (Gemini, Algieba) + nappe originale -->
+  <audio id="voix" src="assets/voix.wav" data-start="2.0" data-duration="23.6" data-volume="1"></audio>
+  <audio id="nappe" src="assets/nappe.wav" data-start="0" data-duration="27.1" data-volume="0.14" data-fade-in="1.5" data-fade-out="2"></audio>
+</div>
+
+<script src="assets/gsap.min.js"></script>
+<script>
+  // Découpe en lettres ou en mots (éléments animables individuellement)
+  function decouper(id, texte, classe) {
+    const el = document.getElementById(id);
+    const morceaux = classe === "lettre" ? Array.from(texte) : texte.split(" ");
+    // mots séparés par une espace normale ; ponctuation haute précédée d'une espace insécable (typographie française)
+    el.innerHTML = morceaux.map(m => m === " " ? "&nbsp;" : `<span class="${classe}">${m}</span>`).join(classe === "mot" ? " " : "")
+      .replace(/ <span class="mot">([?!:;»])<\/span>/g, '&nbsp;<span class="mot">$1</span>');
+    return el.querySelectorAll("." + classe);
+  }
+  const lettres = decouper("aTitre", "LES MYSTÈRES D'AKEB", "lettre");
+  const motsD = decouper("dPhrase", "Une autre ville. Un autre nom. Une femme qui ne sait rien.", "mot");
+  const motsH = decouper("hQ", "Et vous, auriez-vous reconnu le mensonge ?", "mot");
+
+  // Frise : graduations et jalons (géométrie identique au moteur Python)
+  const ticks = [["1860",160],["1880",416],["1900",672],["1920",928],["1940",1184],["1960",1440],["1980",1696]];
+  document.getElementById("bTicks").innerHTML = ticks.map(([a,x]) =>
+    `<div class="tick" style="left:${x}px"></div><div class="annee" style="left:${x}px">${a}</div>`).join("");
+  const jalons = [["Mary Celeste (1872)",325.4,true],["Îles Flannan (1900)",684.2,false],["D. B. Cooper (1971)",1592.3,true]];
+  document.getElementById("bJalons").innerHTML = jalons.map(([l,x,haut],i) =>
+    `<div class="tige" id="bT${i}" style="left:${x}px;top:${haut?532:612}px;height:70px"></div>` +
+    `<div class="jalon" id="bJ${i}" style="left:${x}px"></div>` +
+    `<div class="etiq" id="bE${i}" style="left:${x}px;top:${haut?480:690}px">${l}</div>`).join("");
+
+  const tl = gsap.timeline({ paused: true });
+  const doux = "power2.out";
+  // A — ouverture
+  tl.fromTo("#aFilet", { scaleX: 0 }, { scaleX: 1, duration: 0.8, ease: doux }, 0.1);
+  tl.fromTo(lettres, { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.5, stagger: 0.035, ease: doux }, 0.2);
+  tl.fromTo("#aSous", { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.6, ease: doux }, 0.9);
+  tl.to("#sA", { opacity: 0, duration: 0.3 }, 1.8);
+  // B — frise : axe, graduations, curseur, jalons au passage du curseur
+  tl.fromTo("#bTitre", { opacity: 0, x: -30 }, { opacity: 1, x: 0, duration: 0.5, ease: doux }, 2.05);
+  tl.fromTo("#bChip", { opacity: 0 }, { opacity: 1, duration: 0.4 }, 2.2);
+  tl.fromTo("#bAxe", { scaleX: 0 }, { scaleX: 1, duration: 0.9, ease: "power1.inOut" }, 2.1);
+  tl.fromTo("#bTicks", { opacity: 0 }, { opacity: 1, duration: 0.5 }, 2.6);
+  tl.fromTo("#bCurseur", { x: 0 }, { x: 1632 - 185.6, duration: 2.3, ease: "power1.inOut" }, 2.4);
+  [[325.4,0],[684.2,1],[1592.3,2]].forEach(([x,i]) => {
+    const t = 2.4 + 2.3 * ((x - 185.6) / (1632 - 185.6)) * 0.85;
+    tl.fromTo(`#bJ${i}`, { scale: 0 }, { scale: 1, duration: 0.35, ease: "back.out(2)" }, t);
+    tl.fromTo(`#bT${i}`, { scaleY: 0 }, { scaleY: 1, duration: 0.3, ease: doux }, t + 0.05);
+    tl.fromTo(`#bE${i}`, { opacity: 0, y: i === 1 ? -10 : 10 }, { opacity: 1, y: 0, duration: 0.4, ease: doux }, t + 0.1);
+  });
+  tl.to("#sB", { opacity: 0, duration: 0.25 }, 4.9);
+  // C — carte : léger zoom, tracé qui se dessine, étapes qui s'allument
+  tl.fromTo("#cFond", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: doux }, 5.1);
+  tl.fromTo("#cFond", { scale: 1.0 }, { scale: 1.03, duration: 4.2, ease: "none" }, 5.1);
+  tl.fromTo("#cTitre", { opacity: 0, y: -12 }, { opacity: 1, y: 0, duration: 0.5, ease: doux }, 5.2);
+  tl.fromTo("#cP1", { scale: 0 }, { scale: 1, duration: 0.35, ease: "back.out(2)" }, 5.5);
+  tl.fromTo("#cN1", { opacity: 0, x: -10 }, { opacity: 1, x: 0, duration: 0.4 }, 5.6);
+  tl.fromTo("#cRect", { attr: { height: 369 } }, { attr: { height: 672 }, duration: 1.8, ease: "power1.inOut" }, 5.9);
+  tl.fromTo("#cP2", { scale: 0 }, { scale: 1, duration: 0.35, ease: "back.out(2)" }, 7.6);
+  tl.fromTo("#cN2", { opacity: 0, x: -10 }, { opacity: 1, x: 0, duration: 0.4 }, 7.7);
+  tl.to("#sC", { opacity: 0, duration: 0.25 }, 9.05);
+  // D — phrase mot à mot
+  tl.fromTo("#dSur", { opacity: 0 }, { opacity: 1, duration: 0.4 }, 9.3);
+  tl.fromTo(motsD, { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.35, stagger: 0.17, ease: doux }, 9.35);
+  tl.fromTo("#dChip", { opacity: 0 }, { opacity: 1, duration: 0.4 }, 10.6);
+  tl.to("#sD", { opacity: 0, duration: 0.25 }, 12.0);
+  // E — question
+  tl.fromTo("#eSur", { opacity: 0 }, { opacity: 1, duration: 0.4 }, 12.3);
+  tl.fromTo("#eQ", { opacity: 0, scale: 0.94 }, { opacity: 1, scale: 1, duration: 0.7, ease: doux }, 12.35);
+  tl.to("#sE", { opacity: 0, duration: 0.25 }, 14.33);
+  // F — couverture, mouvement de caméra sobre
+  tl.fromTo("#fCouv", { opacity: 0 }, { opacity: 1, duration: 0.6, ease: doux }, 14.56);
+  tl.fromTo("#fCouv", { scale: 1.0 }, { scale: 1.07, duration: 4.9, ease: "none" }, 14.56);
+  tl.to("#sF", { opacity: 0, duration: 0.25 }, 19.25);
+  // G — le livre
+  tl.fromTo("#gCouv", { opacity: 0, x: -60 }, { opacity: 1, x: 0, duration: 0.6, ease: doux }, 19.5);
+  tl.fromTo(["#gFic", "#gTitre", "#gAut", "#gL1", "#gL2", "#gL3"], { opacity: 0, y: 18 },
+            { opacity: 1, y: 0, duration: 0.4, stagger: 0.18, ease: doux }, 19.6);
+  tl.to("#sG", { opacity: 0, duration: 0.25 }, 22.25);
+  // H — question finale
+  tl.fromTo("#hSur", { opacity: 0 }, { opacity: 1, duration: 0.4 }, 22.5);
+  tl.fromTo(motsH, { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.35, stagger: 0.14, ease: doux }, 22.55);
+  tl.to("#sH", { opacity: 0, duration: 0.25 }, 25.38);
+  // I — fin
+  tl.fromTo("#iFilet", { scaleX: 0 }, { scaleX: 1, duration: 0.6, ease: doux }, 25.65);
+  tl.fromTo(["#iTitre", "#iSous"], { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.5, stagger: 0.2, ease: doux }, 25.7);
+
+  window.__timelines = window.__timelines || {};
+  window.__timelines["root"] = tl;
+</script>
+</body>
+</html>
