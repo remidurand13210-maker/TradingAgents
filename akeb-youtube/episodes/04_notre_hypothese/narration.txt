@@ -1,0 +1,95 @@
+# BROUILLON v0 — NE PAS NARRER AVANT VALIDATION
+# Épisode 04 — Mort ou vivant ? Le scénario que nous retenons
+# Sources, assertions et points À REVÉRIFIER : voir script_annote.md. Analyse de fond : ANALYSE_SCENARIOS.md.
+
+# ACCROCHE
+[S01] Le 15 avril 2011, à seize heures dix, une caméra de vidéosurveillance filme Xavier Dupont de Ligonnès qui quitte à pied le parking d'un hôtel de Roquebrune-sur-Argens, dans le Var. Sa voiture reste sur place. C'est la dernière image vérifiée. Plus de quinze ans après, que peut-on raisonnablement penser de son sort : est-il mort, ou vivant quelque part ?
+[pause 1.2]
+
+# CHAPITRE 1 — Ce qui est établi
+[S02] Avant de choisir un scénario, rappelons ce qui est établi. L'enquête désigne Xavier Dupont de Ligonnès comme le principal suspect de la mort de sa femme, Agnès, et de leurs quatre enfants, Arthur, Thomas, Anne et Benoît. Il est recherché sous mandat d'arrêt international depuis le 10 mai 2011. Il n'a jamais été jugé.
+
+[S03] Le 11 avril 2011, des courriers qui lui sont attribués arrivent à leurs destinataires. L'employeur d'Agnès et les établissements scolaires y lisent l'annonce d'une mutation urgente en Australie. Les proches reçoivent un autre récit : un départ subit de la famille vers les États-Unis, dans un lieu secret, sous la protection des services antidrogue américains. Deux versions incompatibles.
+
+[S04] Entre le 10 et le 15 avril, il dort dans plusieurs hôtels, de la région de La Rochelle jusqu'au Var. Le 14 au soir, une caméra l'enregistre à son hôtel de Roquebrune-sur-Argens. Le lendemain, il en repart à pied avec, selon Nice-Matin, une housse de costume, et selon Le Télégramme, un sac à dos.
+
+[S05] Ensuite, plus aucune trace vérifiée. En juin 2011, des spéléologues fouillent une quarantaine de cavités naturelles de la région ; des plongeurs sondent les étangs, des équipes explorent les bois et le massif voisin. Sans résultat. Selon Nice-Matin et Le Parisien, ces recherches ont été limitées par le terrain.
+# LACUNE : étendue exacte des zones fouillées en 2011 et zones non couvertes, non détaillées dans le dossier.
+
+[S06] Depuis, les signalements s'accumulent : plus de sept cents en 2013, environ mille sept cent cinquante en 2024. Le parquet de Nantes les vérifie, « jusqu'ici sans succès ». Sa formule, répétée en juin 2026 : l'enquête n'a pas permis de déterminer s'il était mort ou en fuite.
+[pause 1.0]
+
+[S07] En avril 2026, selon La Dépêche du Midi et RTL, le frère d'Agnès a appelé publiquement son beau-frère à se rendre, en souhaitant que l'affaire se referme pour pouvoir faire son deuil. Derrière la question de ce sort, il y a aussi cette attente.
+
+[S08] Dès septembre 2011, selon Le Monde, le procureur de Nantes jugeait le suicide plus probable, tout en rappelant qu'il y avait « toujours eu deux hypothèses : un suicide quelques jours après ou une fuite particulièrement bien préparée ». J'examine ces deux pistes, puis une troisième, avant d'en retenir une.
+# LACUNE : nom du procureur de la République de Nantes en septembre 2011, absent du dossier.
+
+# CHAPITRE 2 — Scénario A : un décès après la disparition
+[S09] Premier scénario : il serait mort après le 15 avril 2011. En 2013, la procureure de Nantes, Brigitte Lamy, penchait pour un suicide sans exclure la fuite, avec cette réserve : « c'est une conviction mais on en sera sûr le jour où on découvrira son corps ».
+
+[S10] En 2019, selon une notice encyclopédique qui cite la presse, Jean-Paul Le Tensorer, ancien directeur interrégional de la police judiciaire pour l'Ouest, se disait lui aussi convaincu d'un suicide. Il décrivait un homme acculé financièrement, et le coût d'une nouvelle identité durable. Je n'ai pas retrouvé la source d'origine de ces propos.
+# LACUNE : source de premier rang des propos de Jean-Paul Le Tensorer (seule une notice encyclopédique, vue en extrait).
+
+[S11] Ce scénario a des appuis concrets. Après la dernière image, aucune trace authentifiée, malgré un portrait diffusé dès le 23 avril 2011 et un mandat international. Et les pistes de survie les plus précises ont échoué : en 2019, l'arrestation annoncée en Écosse visait un homme sans aucun lien avec l'affaire ; en 2024, l'ADN prélevé après un signalement dans le Doubs ne correspondait pas au sien.
+
+[S12] Mais il a une faiblesse majeure : aucun corps, aucun reste identifié. Le décès n'est pas plus démontré que la fuite. Rien, dans les sources, n'établit même qu'il portait une arme en quittant l'hôtel. Et ce scénario doit expliquer tant de soin mis à construire des récits de départ. Comme le demande la journaliste Anne-Sophie Martin : « Pourquoi organiser ça pour se suicider ? »
+# LACUNE : devenir de l'arme et contenu de la housse ou du sac, inconnus.
+[pause 1.0]
+
+# CHAPITRE 3 — Scénario B : une fuite durable à l'étranger
+[S13] Deuxième scénario : une fuite préparée, puis une vie durable à l'étranger, sous une autre identité. Bruno de Stabenrath, son ami d'adolescence, en est convaincu. En 2021, dans 20 Minutes, il le décrivait polyglotte, capable de modifier son apparence et de se construire un nouvel environnement à l'étranger : « Il n'a pas préparé tout ça pour mourir ».
+
+[S14] Gilles Galloux, ancien enquêteur qui a participé à la traque en 2011, va plus loin. Dans un livre paru en février 2026, il défend une fuite aux États-Unis grâce à de faux papiers obtenus dans le Var, et voit dans la dernière image une mise en scène. Je n'ai pas lu ce livre : je rapporte sa thèse d'après la presse.
+# LACUNE : livre de Gilles Galloux non lu ; article de La Montagne inaccessible.
+
+[S15] Deux anciens policiers, donc, et deux convictions opposées. Ce scénario s'appuie aussi sur son passé, tel que le racontent des proches : selon un ami de voyage et selon Bruno de Stabenrath, il avait parcouru quarante-huit États américains. Et d'après Gilles Galloux, cité par un journal local texan, des photos de 1990, que je n'ai pas vues, le montrent à Alpine et à Fort Davis, au Texas.
+
+[S16] En mars 2026, le shérif du comté de Brewster, dans la région d'Alpine, lance un appel à informations : il aurait possiblement été vu dans le comté en 2020. Le lendemain, le même shérif précise qu'aucune observation n'est confirmée, et qu'il n'a aucun élément nouveau. Le procureur de Nantes, lui, dit ne pas avoir été informé de cet appel.
+
+[S17] Ce détail compte : selon le shérif, l'appel est né de la sollicitation d'une équipe de journalistes dont faisait partie Gilles Galloux. Ce n'est donc pas une confirmation indépendante de sa thèse, mais son prolongement. La sœur de Xavier Dupont de Ligonnès défend elle aussi un exil américain ; mais elle affirme que les corps retrouvés à Nantes ne sont pas ceux d'Agnès et des enfants, une thèse que la famille d'Agnès et le parquet rejettent.
+
+[S18] Les objections sont lourdes. En quinze ans, aucune trace authentifiée à l'étranger. Une vie durable hors de France suppose des papiers, de l'argent, des frontières franchies malgré un mandat international, peut-être une aide. Hormis la thèse de Gilles Galloux sur les faux papiers, aucune source du dossier n'établit l'un de ces éléments. Et en avril 2011, les États-Unis apparaissent dans un récit de départ qui coexistait avec une version australienne.
+# LACUNE : aucune information publique sur un passeport, de faux papiers ou des moyens de paiement après le 15 avril 2011.
+[pause 1.0]
+
+# CHAPITRE 4 — Scénario C : une vie discrète, plus proche
+[S19] Troisième scénario, moins souvent formulé : une disparition organisée, sans traversée de l'Atlantique, puis une vie discrète, plus proche. Sur RTL, en juin 2026, Anne-Sophie Martin défend une disparition « orchestrée, organisée, anticipée », tout en écartant la piste américaine. Dans ce que j'ai pu consulter, elle ne dit pas où elle le situe.
+# LACUNE : livre d'Anne-Sophie Martin non lu ; lieu où elle situe le disparu non documenté.
+
+[S20] Ce scénario a des appuis indirects. Selon La Provence, les enquêteurs ont exploré sans succès plusieurs abbayes. Et le premier juin 2026, Ouest-France a révélé un compte nommé Epsilon, actif jusqu'en 2017 sur un forum catholique, dont le style rappelle celui des comptes attribués à Xavier Dupont de Ligonnès avant 2011. Le parquet de Nantes a annoncé des vérifications.
+
+[S21] Mais ce compte a été créé en juillet 2010, avant la disparition : son existence ne prouve rien tant que ses messages ultérieurs ne lui sont pas attribués. Au premier octobre 2026, je n'ai trouvé aucun résultat public. Quant aux signalements en France, les plus médiatisés ont échoué, jusqu'à cet homme présenté comme prêtre sur M6, qui a reconnu ensuite ne pas l'être.
+# LACUNE : résultats des vérifications ordonnées sur le compte Epsilon, non publics au 1er octobre 2026.
+
+[S22] Surtout, vivre quinze ans à proximité, avec un visage diffusé dès 2011 et plus d'un millier de signalements, suppose une fausse identité ou une protection durable. Aucune source n'en documente. Quant à d'éventuelles complicités, la question reste ouverte : je ne l'écarte pas, mais le dossier ne permet rien d'affirmer.
+# LACUNE : complicités éventuelles, aucun élément public dans les sources consultées.
+[pause 1.0]
+
+# CHAPITRE 5 — Le scénario que je retiens
+[S23] Alors, si je dois retenir un scénario, je privilégie le premier : un décès survenu après la disparition d'avril 2011. Je ne peux ni le dater, ni désigner un lieu, ni dire comment. Aucun élément cité ici n'établit définitivement ce sort, et la position officielle reste la même : l'enquête n'a pas déterminé s'il était mort ou en fuite.
+[pause 1.2]
+
+[S24] Je ne m'appuie pas sur l'avis des procureurs : des convictions ne sont pas des preuves, et deux anciens policiers se contredisent. J'ai trois raisons. La première tient à la forme du silence. Depuis quinze ans, tout est en place pour trouver une trace : un mandat international, un portrait public, environ mille sept cent cinquante signalements vérifiés dès 2024, des comparaisons d'ADN. Rien d'authentifié.
+
+[S25] Ce silence ne prouve pas la mort. Mais il ne pèse pas de la même façon des deux côtés. Un homme vivant doit échapper à toute identification, chaque jour, pendant des années. Des restes, eux, peuvent rester introuvables sans que personne n'agisse.
+
+[S26] Deuxième raison : le nombre de conditions. Une survie durable, au loin ou tout près, exige à la fois une identité de rechange, de l'argent, un abri, peut-être des complices ; le dossier n'en établit aucune. Le décès n'en exige qu'une : que les restes n'aient pas été retrouvés, ce que les limites documentées des recherches rendent possible.
+
+[S27] Troisième raison : la préparation documentée s'arrête au 15 avril. Courriers, nuits d'hôtel, voiture laissée sur un parking : tout cela peut servir une fuite, mais aussi, simplement, gagner du temps. Rien de ce que j'ai pu consulter ne montre une préparation de l'après. Et une préparation de départ ne prouve pas quinze ans de survie.
+# LACUNE : opérations bancaires après le 15 avril 2011 non documentées (seuls le retrait de 30 euros et les hôtels le sont).
+[pause 1.0]
+
+# CHAPITRE 6 — Ce qui me ferait changer d'avis
+[S28] Voici la meilleure objection à ma propre conclusion. Le silence vaut dans les deux sens : si quinze ans sans trace pèsent contre la survie, quinze ans sans corps pèsent contre le décès. Et un seul complice suffirait à expliquer les papiers, l'argent et le silence. Sur ce point, le dossier ne permet de rien exclure.
+
+[S29] Ce qui me ferait changer d'avis est précis : une trace authentifiée postérieure au 15 avril 2011. Une correspondance d'ADN ou d'empreintes, un document d'identité contrôlé, ou des messages postés après 2011, comme ceux du compte Epsilon, que les enquêteurs lui attribueraient formellement. À l'inverse, des restes identifiés confirmeraient ce scénario.
+[pause 1.0]
+
+# PROMOTION DU ROMAN (40 à 65 mots)
+[S30] Cette incertitude laisse un vide. Dans La dernière correction, Akeb a choisi de l'explorer par la fiction : un homme qui avait disparu commet l'erreur de reprendre la parole. C'est un roman, avec des personnages inventés et une fin imaginée ; il ne résout pas l'affaire réelle. À lire en e-book ou à écouter en livre audio : les liens sont dans la description.
+
+# FIN
+[S31] Ce scénario reste révisable. Si vous relevez une erreur factuelle, signalez-la en commentaire avec sa source : les corrections seront regroupées dans un commentaire épinglé. Et une question pour la discussion : les deux courriers d'avril 2011 racontent deux départs différents. Selon vous, décrivent-ils un projet pour la suite, ou seulement un moyen de gagner du temps ?
+[pause 1.0]
+
+[S32] Ici s'achève notre saison consacrée à l'affaire Dupont de Ligonnès. La chaîne continuera d'explorer d'autres disparitions et d'autres zones d'ombre, avec la même méthode : des faits sourcés, des hypothèses présentées comme telles, et la fiction toujours nommée comme fiction. Merci de nous avoir suivis.

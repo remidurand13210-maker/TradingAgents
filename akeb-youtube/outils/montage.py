@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import os
 import hashlib
 import json
 import math
@@ -26,6 +27,7 @@ from PIL import ImageDraw
 from scipy.signal import resample_poly
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import animation as A  # noqa: E402
 import identite as I  # noqa: E402
 from narration_gemini import charger_json, lire_segments  # noqa: E402
 
@@ -84,6 +86,61 @@ def blocs(storyboard: list[dict], segments: list[dict]) -> list[dict]:
 
 # ------------------------------------------------------------------ visuels
 
+ANIM_DEFAUT = {"titre": "revele", "chapitre": "revele", "date": "revele", "question": "revele", "citation": "revele",
+               "texte": "revele", "sources": "revele", "livre": "revele", "avertissement": "revele", "document": "revele_lent",
+               "frise": "curseur", "carte": "trace", "photo": "kenburns"}
+VERSION_ANIM = 2
+
+
+def evenements_frise(p: dict) -> list[dict]:
+    """Frise large : jalons généraux. Frise zoomée (bornes) : jalons détaillés de la période, sans doublon."""
+    evs = [e for e in frise_commune() if e["annee"] <= p.get("jusqua", 2100)]
+    if p.get("bornes"):
+        a0, a1 = p["bornes"]
+        details = [e for e in evs if e.get("detail") and a0 <= e["annee"] <= a1]
+        return details or [e for e in evs if a0 <= e["annee"] <= a1]
+    return [e for e in evs if not e.get("detail")]
+
+
+def images_plan(plan: dict, png: Path, n: int):
+    """Générateur d'images animées du plan (rendu local)."""
+    p, t = plan["params"], plan["type"]
+    anim = p.get("anim") or ANIM_DEFAUT.get(t, "fixe")
+    if anim == "fixe":
+        return A.anim_fixe(png, n)
+    if anim == "revele":
+        return A.anim_revele(png, n)
+    if anim == "revele_lent":
+        return A.anim_revele(png, n, etalement=0.55, amplitude=0.015)
+    if anim == "curseur" and t == "frise":
+        cible = p.get("curseur") or p.get("jusqua", 2026.8)
+        bornes = tuple(p["bornes"]) if p.get("bornes") else None
+        depart = p.get("curseur_depart") or (bornes[0] if bornes else (p["focus"][0] if p.get("focus") else cible - 5))
+        evs = evenements_frise(p)
+
+        def rendu(x: float):
+            c = depart + (cible - depart) * A.lisse(x / 0.75)
+            return I.carton_frise([e for e in evs if e["annee"] <= c + 1e-6], tuple(p["focus"]) if p.get("focus") else None,
+                                  plan.get("texte", ""), c, bornes)
+        return A.anim_par_image(rendu, n, amplitude=0.0)
+    if anim == "trace" and t == "carte":
+        def rendu(x: float):
+            return I.carton_carte(p["points"], tuple(p["bbox"]), plan.get("texte", ""), p.get("trajet", False),
+                                  plan.get("source", ""), plan.get("faits", ""), plan.get("statut", "").strip(), A.lisse(x / 0.75))
+        return A.anim_par_image(rendu, n, amplitude=0.02)
+    if anim == "kenburns" and t == "photo":
+        return A.anim_photo(RACINE / p["visuel"], n, p.get("mouvement", "zoom_avant"), p.get("amplitude", 0.05),
+                            p.get("credit", ""), plan.get("statut", "").strip(), p.get("bandeau", ""))
+    return A.anim_revele(png, n)
+
+
+def _rendre_clip(tache: tuple) -> str:
+    plan, png, n, clip, fin, fout, marque = tache
+    if not Path(clip).exists():
+        A.encoder(images_plan(plan, Path(png), n), n, Path(clip), fin, fout, marque)
+    return clip
+
+
 def frise_commune() -> list[dict]:
     return charger_json(RACINE / "episodes" / "frise_commune.json", {"evenements": []})["evenements"]
 
@@ -112,14 +169,16 @@ def rendre_plan(plan: dict, numero_ep: str, bandeau: str, dossier: Path) -> Path
     elif t == "document":
         img = I.carton_document(texte, [x.strip() for x in texte2.split("|") if x.strip()], src)
     elif t == "frise":
-        evs = [e for e in frise_commune() if e["annee"] <= p.get("jusqua", 2100) and (not p.get("details") or e.get("detail"))] \
-            if p.get("bornes") else [e for e in frise_commune() if e["annee"] <= p.get("jusqua", 2100) and not e.get("detail")]
+        evs = evenements_frise(p)
         img = I.carton_frise(evs, tuple(p["focus"]) if p.get("focus") else None, texte, p.get("curseur"), tuple(p["bornes"]) if p.get("bornes") else None)
     elif t == "carte":
         img = I.carton_carte(p["points"], tuple(p["bbox"]), texte, p.get("trajet", False), src, faits, statut)
     elif t == "livre":
         cov = RACINE / "montage" / "assets" / "couverture_akeb.png"
         img = I.carton_livre(cov if cov.exists() else None, [x.strip() for x in texte.split("|") if x.strip()])
+    elif t == "photo":
+        img = next(A.anim_photo(RACINE / p["visuel"], 1, p.get("mouvement", "zoom_avant"), p.get("amplitude", 0.05),
+                                p.get("credit", ""), statut, p.get("bandeau", "")))
     elif t == "sources":
         img = I.carton_sources(texte or "Sources principales", [x.strip() for x in texte2.split("|") if x.strip()])
     else:  # "texte" par défaut
@@ -450,18 +509,23 @@ def monter(nom_ep: str, maquette: bool, variante_musique: str | None, temoin: bo
             d = (bloc["fin"] - bloc["debut"]) * p["poids"] / poids
             plans_minutes.append({"plan": p, "debut": c, "fin": c + d})
             c += d
-    clips = []
+    clips, taches = [], []
+    coupe_franche = lambda a, b: a is not None and b is not None and a["segment"] == b["segment"] and a["segment"] not in ("", "-")
     for i, pm in enumerate(plans_minutes):
         f0, f1 = round(pm["debut"] * FPS), round(pm["fin"] * FPS)
-        png = rendre_plan(pm["plan"], numero, bandeau, rendu / "plans")
-        clip = rendu / "clips" / f"{i:03d}_{png.stem}_{f1 - f0}.mp4"
-        if not clip.exists():
-            precedent = plans_minutes[i - 1]["plan"] if i else None
-            suivant = plans_minutes[i + 1]["plan"] if i + 1 < len(plans_minutes) else None
-            coupe_franche = lambda a, b: a is not None and b is not None and a["segment"] == b["segment"] and a["segment"] not in ("", "-")
-            encoder_plan(png, f1 - f0, clip, not coupe_franche(precedent, pm["plan"]), not coupe_franche(pm["plan"], suivant))
+        png = rendre_plan(pm["plan"], numero, "", rendu / "plans")  # bandeau ajouté image par image
+        anim = pm["plan"]["params"].get("anim") or ANIM_DEFAUT.get(pm["plan"]["type"], "fixe")
+        clip = rendu / "clips" / f"{i:03d}_{png.stem}_{anim}_v{VERSION_ANIM}_{f1 - f0}.mp4"
+        precedent = plans_minutes[i - 1]["plan"] if i else None
+        suivant = plans_minutes[i + 1]["plan"] if i + 1 < len(plans_minutes) else None
+        taches.append((pm["plan"], str(png), f1 - f0, str(clip), not coupe_franche(precedent, pm["plan"]),
+                       not coupe_franche(pm["plan"], suivant), bandeau))
         clips.append(clip)
         pm["png"] = str(png.relative_to(RACINE))
+        pm["anim"] = anim
+    from multiprocessing import Pool
+    with Pool(max(1, min(3, (os.cpu_count() or 2) - 1))) as pool:
+        pool.map(_rendre_clip, taches)
     liste = rendu / "concat.txt"
     liste.write_text("".join(f"file '{c.resolve()}'\n" for c in clips), encoding="utf-8")
     video_seule = rendu / "video_seule.mp4"
@@ -520,7 +584,7 @@ def monter(nom_ep: str, maquette: bool, variante_musique: str | None, temoin: bo
     courts = [chapitres[i][1] for i in range(len(chapitres) - 1) if chapitres[i + 1][0] - chapitres[i][0] < 10]
 
     tl = {"episode": nom_ep, "maquette": maquette, "voix_temoin": temoin, "duree_s": round(total, 2), "musique": variante,
-          "plans": [{"plan": pm["plan"]["plan"], "segment": pm["plan"]["segment"], "type": pm["plan"]["type"],
+          "plans": [{"plan": pm["plan"]["plan"], "segment": pm["plan"]["segment"], "type": pm["plan"]["type"], "anim": pm.get("anim"),
                      "debut": round(pm["debut"], 3), "fin": round(pm["fin"], 3), "png": pm["png"]} for pm in plans_minutes],
           "chapitres": chap_txt.splitlines(), "chapitres_trop_courts": courts, "nb_sous_titres": len(cues)}
     (RACINE / "montage" / f"{base}_timeline.json").write_text(json.dumps(tl, ensure_ascii=False, indent=1), encoding="utf-8")

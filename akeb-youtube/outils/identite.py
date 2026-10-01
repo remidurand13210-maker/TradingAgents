@@ -387,7 +387,7 @@ def _pays() -> dict:
         return json.load(f)
 
 
-def carton_carte(points: list[dict], bbox: tuple[float, float, float, float], titre: str = "", trajet: bool = False, source: str = "", faits: str = "", statut: str = "", w=1920, h=1080) -> Image.Image:
+def carton_carte(points: list[dict], bbox: tuple[float, float, float, float], titre: str = "", trajet: bool = False, source: str = "", faits: str = "", statut: str = "", progression: float | None = None, w=1920, h=1080) -> Image.Image:
     """Carte schématique. bbox = (lon_min, lat_min, lon_max, lat_max).
     points : [{"lon":..,"lat":..,"label":..,"date":..,"cote":"droite|gauche"}]
     Fond : Natural Earth (domaine public)."""
@@ -417,11 +417,19 @@ def carton_carte(points: list[dict], bbox: tuple[float, float, float, float], ti
                 continue
             pts = [P(x, y) for x, y in anneau]
             d.polygon(pts, fill=(30, 36, 45) if focus else (21, 25, 32), outline=(78, 86, 98) if focus else (45, 50, 58))
+    # progression (0→1) : le trajet se dessine et les étapes s'allument une à une
+    etapes = (len(points) - 1) * progression if progression is not None else len(points)
     if trajet and len(points) > 1:
-        for a, b in zip(points, points[1:]):
-            d.line([P(a["lon"], a["lat"]), P(b["lon"], b["lat"])], fill=ACCENT, width=4)
+        for k, (a, b) in enumerate(zip(points, points[1:])):
+            part = min(1.0, max(0.0, etapes - k))
+            if part <= 0:
+                break
+            pa, pb = P(a["lon"], a["lat"]), P(b["lon"], b["lat"])
+            d.line([pa, (pa[0] + (pb[0] - pa[0]) * part, pa[1] + (pb[1] - pa[1]) * part)], fill=ACCENT, width=4)
     fnt, fdate = police("semibold", 34), police("regular", 26)
     for i, p in enumerate(points):
+        if progression is not None and i > etapes + 1e-6:
+            continue
         x, y = P(p["lon"], p["lat"])
         r = 11
         d.ellipse([x - r, y - r, x + r, y + r], fill=ACCENT if trajet or i == len(points) - 1 else TEXTE, outline=FOND, width=3)
@@ -431,11 +439,13 @@ def carton_carte(points: list[dict], bbox: tuple[float, float, float, float], ti
         d.text((ax, y + 4), typo_fr(p["label"]), font=fnt, fill=TEXTE, anchor=anc)
         if p.get("date"):
             d.text((ax, y + 38), typo_fr(p["date"]), font=fdate, fill=DISCRET, anchor=anc)
+    x_etiquette = 120
     if titre:
         d.rectangle([0, 0, w, 150], fill=FOND)
         d.text((120, 95), typo_fr(titre), font=police("semibold", 46), fill=TEXTE, anchor="ls")
+        x_etiquette = 120 + police("semibold", 46).getlength(typo_fr(titre)) + 40
     if statut:
-        etiquette(d, w - 120 - 520, 60, statut)
+        etiquette(d, int(x_etiquette), 62 if titre else 60, statut)
     filigrane(d, w, h)
     d.text((w - 120, h - 118), "Carte schématique · fond Natural Earth (domaine public)", font=police("regular", 22), fill=(96, 102, 112), anchor="rs")
     ligne_source(d, w, h, source, faits)

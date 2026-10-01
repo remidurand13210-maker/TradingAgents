@@ -1,0 +1,85 @@
+plan,segment,type,statut,texte,texte2,source,faits,poids,params
+P001,S01,date,FAIT,2 juin 2026,En direct sur M6 · « Appel à témoins »,"Europe 1 (AFP), 03/06/2026",02/06/2026,1,"{""precision"": ""jour""}"
+P002,S01,texte,TEMOIGNAGE,"Un homme se présentant comme prêtre affirme avoir reçu, en 2022, la confession de Xavier Dupont de Ligonnès.",Affirmation de l'appelant,"Le Parisien, 03/06/2026",02/06/2026,1.2,
+P003,S01,texte,FAIT,"Dans la nuit, il reconnaît qu'il n'est pas prêtre.",Selon M6,"Europe 1 (AFP), 03/06/2026",nuit du 02 au 03/06/2026,0.8,
+P004,S01,texte,FAIT,Plus de 1 850 signalements reçus depuis 2011,Décompte en juin 2026,"Le Parisien, 02/06/2026",2011-2026,0.7,
+P005,S01,question,,"Depuis 2011, une seule piste a-t-elle résisté à la vérification ?",LA QUESTION,,,1.1,
+P006,-,titre,,Après la disparition,Les pistes et leurs vérifications,,,1,"{""numero"": ""03"", ""duree"": 3}"
+P007,-,avertissement,,,,,,1,"{""duree"": 4}"
+P008,S02,chapitre,,"Avril 2011 : la découverte, puis la traque",,,,0.6,"{""numero"": ""1""}"
+P009,S02,date,FAIT,21 avril 2011,Nantes,"Nice-Matin, 07/12/2020",21/04/2011,1.2,"{""precision"": ""jour""}"
+P010,S02,texte,,"Agnès, Arthur, Thomas, Anne, Benoît.",En mémoire,,,1.6,
+P011,S03,carte,FAIT,"Nantes et le Var, avril 2011",,"Le Télégramme, 15/04/2013",15-21/04/2011,1.2,"{""points"": [{""lon"": -1.5536, ""lat"": 47.2184, ""label"": ""Nantes"", ""date"": ""corps découverts le 21/04/2011"", ""cote"": ""droite""}, {""lon"": 6.6378, ""lat"": 43.4436, ""label"": ""Roquebrune-sur-Argens"", ""date"": ""dernière image le 15/04/2011"", ""cote"": ""gauche""}], ""bbox"": [-5.5, 41.2, 9.8, 51.3], ""trajet"": false}"
+P012,S03,texte,FAIT,"15 avril 2011, 16 h 10 : dernière image connue, à pied, sur le parking d'un hôtel.",Vidéosurveillance,"Nice-Matin, 07/12/2020",15/04/2011,1,
+P013,S03,texte,FAIT,"Sa voiture est repérée le 21 avril, ou dans la nuit du 21 au 22.",Datation divergente selon les sources,"Nice-Matin, 07/12/2020 ; La Dépêche du Midi, 25/10/2020",21-22/04/2011,1,
+P014,S04,texte,FAIT,Le portrait diffusé au public : la photo de sa fiche d'inscription au club de tir.,Selon l'AFP,"AFP Making-of, 12/04/2016",23/04/2011,1.2,
+P015,S04,date,FAIT,10 mai 2011,Mandat d'arrêt international,"Le Télégramme, 15/04/2013",10/05/2011,0.9,"{""precision"": ""jour""}"
+P016,S04,frise,,La frise de l'affaire,,,,0.9,"{""jusqua"": 2011.4, ""focus"": [2011.29, 2011.4], ""curseur"": 2011.36}"
+P017,S04,texte,FAIT,"Recherché depuis 2011, désigné par l'enquête comme principal suspect. Jamais jugé.",Présomption d'innocence,"Le Télégramme, 15/04/2013",depuis 2011,0.9,
+P018,S05,date,FAIT,23 juin 2011,Région de Roquebrune-sur-Argens (Var),"Le Parisien, 03/04/2026",23/06/2011,0.8,"{""precision"": ""jour""}"
+P019,S05,texte,FAIT,Une quarantaine de cavités naturelles fouillées par des spéléologues.,Selon Le Parisien,"Le Parisien, 03/04/2026",23/06/2011,1,
+P020,S05,texte,FAIT,"Étangs, bois, massif du rocher de Roquebrune : aucun résultat. Des recherches limitées par le terrain.",Selon Nice-Matin,"Nice-Matin, 07/12/2020",2011 (dates non précisées),1.2,
+P021,S06,chapitre,,Quinze ans de signalements,,,,0.6,"{""numero"": ""2""}"
+P022,S06,texte,FAIT,Plus de 700 signalements,En 2013,"Le Télégramme, 15/04/2013",2011-2013,1,
+P023,S06,texte,FAIT,Des recherches menées sans succès dans plusieurs abbayes.,Selon La Provence,"La Provence, 12/04/2026",dates non précisées,1,
+P024,S07,texte,FAIT,Plus de 900 signalements en 2020 · plus de 1 750 en 2024,"Chiffres datés, périmètres variables","Nice-Matin, 07/12/2020 ; Le Parisien, 03/04/2026",2020 ; 2024,1,
+P025,S07,citation,FAIT,jusqu'ici sans succès,"Parquet de Nantes, à propos des informations reçues depuis 2011","ICI (Radio France), 03/06/2026",juin 2026,1,
+P026,S07,document,,Quatre questions pour chaque piste,Qu'affirme-t-on ? | Qui l'affirme ? | Qu'a-t-on contrôlé ? | Qu'en sait-on publiquement ?,"Synthèse de la chaîne, 01/10/2026",,1.3,
+P027,S08,chapitre,,"Doubs, 2024 : trois témoins, un test ADN",,,,0.6,"{""numero"": ""3""}"
+P028,S08,frise,,La frise de l'affaire,,,,0.9,"{""jusqua"": 2024.3, ""focus"": [2011.3, 2026.8], ""curseur"": 2024.28}"
+P029,S08,date,TEMOIGNAGE,9 mars 2024,Doubs,"Le Parisien, 15/04/2024",09/03/2024,0.8,"{""precision"": ""jour""}"
+P030,S08,texte,TEMOIGNAGE,Une personne croit le reconnaître lors d'une veillée religieuse ; deux autres témoignages suivront.,Selon le parquet de Besançon,"Actu17, 04/04/2024",09-12/03/2024,1.3,
+P031,S09,texte,,"Un témoignage, même sincère, n'est pas une identification.",,,,1,
+P032,S09,texte,FAIT,"Prélèvements (un gobelet, des canettes) et comparaison ADN.",Selon la presse,"Le Parisien, 15/04/2024",mars-avril 2024,1,
+P033,S10,date,FAIT,15 avril 2024,Parquet de Nantes,"Le Progrès (AFP), 15/04/2024",15/04/2024,0.7,"{""precision"": ""jour""}"
+P034,S10,texte,FAIT,Les profils ADN ne correspondent pas : la piste est écartée.,Parquet de Nantes,"Le Progrès (AFP), 15/04/2024",15/04/2024,0.9,
+P035,S10,document,,Piste 1 · Doubs (2024),"Information initiale : un homme cru reconnu lors d'une veillée, le 9 mars 2024 | Auteur : trois signalants, des particuliers (non nommés) | Contrôle : prélèvements et comparaison ADN | Résultat : profils différents, piste écartée (parquet de Nantes, 15/04/2024)","Le Progrès (AFP), 15/04/2024",,1.4,
+P036,S11,chapitre,,"Texas, 2026 : un appel venu de loin",,,,0.6,"{""numero"": ""4""}"
+P037,S11,carte,FAIT,"Comté de Brewster, Texas",,"First Alert 7, 25/03/2026",25/03/2026,1.2,"{""points"": [{""lon"": -103.661, ""lat"": 30.3585, ""label"": ""Alpine · comté de Brewster"", ""date"": ""appel du 25/03/2026"", ""cote"": ""droite"", ""pays"": ""United States of America""}], ""bbox"": [-107.0, 25.5, -93.0, 36.8], ""trajet"": false}"
+P038,S11,texte,FAIT,Appel à informations du bureau du shérif : une « possible » présence en 2020 ; des photos vieilles d'une quinzaine d'années.,Publication Facebook du 25 mars 2026,"First Alert 7, 25/03/2026",25/03/2026,1.2,
+P039,S12,texte,RECONSTRUCTION,"À l'origine : une équipe de journalistes, avec l'ancien enquêteur Gilles Galloux.",Selon le shérif,"franceinfo, 26/03/2026",mars 2026,1.2,
+P040,S12,texte,TEMOIGNAGE,"Le comté, parmi ses endroits préférés ? Une affirmation rapportée, pas une source judiciaire.","Selon l'équipe journalistique, via le shérif","First Alert 7, 25/03/2026",affirmation non datée,1,
+P041,S13,date,FAIT,26 mars 2026,Mise au point du shérif,"First Alert 7, 25/03/2026 (mise à jour)",26/03/2026,0.7,"{""precision"": ""jour""}"
+P042,S13,texte,FAIT,"Aucune observation confirmée, ni dans le comté ni dans l'ouest du Texas. Aucun élément nouveau.",Bureau du shérif du comté de Brewster,"First Alert 7, 25/03/2026 (mise à jour)",26/03/2026,1,
+P043,S13,texte,FAIT,Ni le procureur ni les enquêteurs n'avaient été informés de cet appel.,"Antoine Leroy, procureur de la République de Nantes","franceinfo, 26/03/2026",26/03/2026,1,
+P044,S13,texte,FAIT,27 mars : un titre parle encore d'« une nouvelle enquête ».,Titre de Time France,"Time France, 27/03/2026",27/03/2026,0.7,
+P045,S13,document,,Piste 2 · Texas (2026),"Information initiale : une possible présence dans le comté en 2020 | Auteur : le bureau du shérif de Brewster, sollicité par une équipe de journalistes | Contrôle : mise au point du shérif (26/03/2026) ; parquet de Nantes non informé | Résultat : aucune observation confirmée ; aucune suite publique trouvée au 01/10/2026","First Alert 7, 25/03/2026 ; franceinfo, 26/03/2026",,1.4,
+P046,S14,chapitre,,Juin 2026 : un faux prêtre en direct,,,,0.6,"{""numero"": ""5""}"
+P047,S14,frise,,La frise de l'affaire,,,,0.9,"{""jusqua"": 2026.5, ""focus"": [2011.3, 2026.8], ""curseur"": 2026.42}"
+P048,S14,date,FAIT,1er juin 2026,Ouest-France révèle le compte « Epsilon »,"Ouest-France, 01/06/2026",01/06/2026,0.8,"{""precision"": ""jour""}"
+P049,S14,date,FAIT,2 juin 2026,"M6 · « Appel à témoins », présentée par Julien Courbet","Europe 1 (AFP), 03/06/2026",02/06/2026,1,"{""precision"": ""jour""}"
+P050,S15,texte,TEMOIGNAGE,"Une « confession » alléguée en 2022, dans un monastère de l'Aude.","Affirmation de l'appelant, reconnue fausse ensuite","Le Parisien, 03/06/2026",02/06/2026 (faits allégués : 2022),1,
+P051,S15,texte,TEMOIGNAGE,"Quatre jours, un projet de rejoindre Grasse, une autorisation de l'évêque, une photo, un numéro de téléphone.",Ce que l'appelant affirmait à l'antenne,"L'Indépendant, 02/06/2026",02/06/2026,1.3,
+P052,S16,document,,Les ingrédients d'une apparence de certitude,Un statut | Une autorité invoquée | Des détails précis | Des pièces annoncées | L'antenne d'une grande chaîne,"Synthèse de la chaîne, 01/10/2026",,1,
+P053,S17,date,FAIT,3 juin 2026,Démenti de l'évêque de Carcassonne et Narbonne,"cath.ch, 04/06/2026",03/06/2026,0.8,"{""precision"": ""jour""}"
+P054,S17,texte,FAIT,Mgr Bruno Valentin : une séquence mensongère et diffamatoire ; contacté ni par l'appelant ni par M6 ; saisine de l'Arcom.,Démenti de l'évêque,"cath.ch, 04/06/2026",03/06/2026,1.3,
+P055,S17,texte,FAIT,"Dans la nuit du 2 au 3 juin, l'appelant reconnaît qu'il n'est pas prêtre.",Selon M6 et le rédacteur en chef de l'émission,"Europe 1 (AFP), 03/06/2026",02-03/06/2026,1,
+P056,S17,texte,FAIT,M6 présente ses excuses « sans réserve » à l'évêque et reconnaît un faux témoignage.,Communiqué de M6,"Europe 1 (AFP), 03/06/2026",03/06/2026,1,
+P057,S18,texte,FAIT,Le juge d'instruction fera vérifier les propos diffusés sur M6 et le compte « Epsilon ».,"Parquet de Nantes, 3 juin 2026","20 Minutes, 03/06/2026",03/06/2026,1,
+P058,S18,citation,FAIT,se pencher sur la séquence,"Martin Ajdari, président de l'Arcom (selon franceinfo)","franceinfo, 04/06/2026",04/06/2026,0.9,
+P059,S18,texte,FAIT,Au 1er octobre 2026 : aucune décision publiée de l'Arcom sur cette séquence. Absence de décision publiée n'est pas absence d'examen.,Constat de recherche,"Arcom (liste des décisions), 01/10/2026",01/10/2026,1,
+P060,S18,document,,Piste 3 · Le faux prêtre (2026),"Information initiale : une confession alléguée en 2022, dans un monastère de l'Aude | Auteur : un appelant se disant prêtre, en direct sur M6 le 02/06/2026 ; identité non publique | Contrôle : démenti de l'évêque ; enquête interne de M6 ; vérifications annoncées par le parquet | Résultat : faux témoignage reconnu (selon M6) ; Arcom : aucune décision publiée au 01/10/2026","Europe 1 (AFP), 03/06/2026 ; cath.ch, 04/06/2026",,1.5,
+P061,S19,date,TEMOIGNAGE,27 avril 2011,Le Parisien · témoignage d'un armurier nantais,"Le Parisien, 27/04/2011",mars 2011 (date approximative),0.8,"{""precision"": ""jour""}"
+P062,S19,citation,TEMOIGNAGE,prêtre tireur d'élite,"Ce qu'un homme disait être, selon un armurier de la région nantaise (témoignage unique)","Le Parisien, 27/04/2011",mars 2011,1.2,
+P063,S19,texte,,Un motif public depuis 2011. Il ne dit rien de l'identité de l'appelant de 2026.,,,,1,
+P064,S20,livre,FICTION,"Inspiré par l'appel du faux prêtre (2026) | Dans le roman, c'est un fugitif inventé qui appelle | Dans l'affaire réelle, ce lien n'est pas établi | E-book ou livre audio · liens dans la description",,,,2,
+P065,S20,texte,FICTION,Un roman n'est pas une preuve. Revenons aux faits.,Fiction,,,0.6,
+P066,S21,chapitre,,Epsilon : une piste encore ouverte,,,,0.6,"{""numero"": ""6""}"
+P067,S21,texte,FAIT,Compte « Epsilon » · créé le 2 juillet 2010 · environ 1 169 messages · actif jusqu'en août 2017,Forum cite-catholique.org,"Le Parisien, 02/06/2026 ; 20 Minutes, 03/06/2026",2010-2017,1.3,
+P068,S21,texte,HYPOTHESE,"Des similitudes de style avec « Chevy » et « LIGO », pseudonymes que les enquêteurs attribuent à Xavier Dupont de Ligonnès avant avril 2011.",Selon Ouest-France (enquête en sources ouvertes),"Ouest-France, 01/06/2026",2009-2017,1.4,
+P069,S22,date,FAIT,8 avril 2011,"Dernier message sur le forum, depuis une adresse IP nantaise","Le Télégramme, 15/04/2013",08/04/2011,1,"{""precision"": ""jour""}"
+P070,S22,texte,FAIT,"Epsilon : créé neuf mois avant la disparition, actif plus de six ans après.","Calcul de la chaîne, d'après les dates publiées","20 Minutes, 03/06/2026",02/07/2010 - août 2017,1,
+P071,S23,citation,HYPOTHESE,la piste est sérieuse,"Claude Alain Roten, expert en stylométrie sollicité par Ouest-France","Le Parisien, 02/06/2026",juin 2026,1,
+P072,S23,texte,,"Une ressemblance de style est un indice, pas une preuve d'identité. Compte : existence établie. Auteur : non établi.",,,,1.2,
+P073,S23,texte,RECONSTRUCTION,Adresse IP et messages examinés par des enquêteurs spécialisés ?,"Selon Ouest-France, au conditionnel ; non confirmé par le parquet","Ouest-France, 03/06/2026",juin 2026,0.9,
+P074,S24,texte,FAIT,Au 1er octobre 2026 : aucune conclusion publique sur l'auteur des messages.,Constat de recherche,"Constat de recherche, 01/10/2026",01/10/2026,1,
+P075,S24,document,,Piste 4 · Epsilon (2026),Information initiale : un compte de forum actif de 2010 à 2017 | Auteur : enquête d'Ouest-France (01/06/2026) ; avis d'un expert en stylométrie | Contrôle : vérifications annoncées par le parquet de Nantes (03/06/2026) | Résultat : aucune conclusion publique au 01/10/2026 ; attribution non établie,"Ouest-France, 01/06/2026 ; 20 Minutes, 03/06/2026",,1.4,
+P076,S25,chapitre,,Ce qui résiste à la vérification,,,,0.6,"{""numero"": ""7""}"
+P077,S25,question,,"Depuis 2011, une seule piste a-t-elle résisté à la vérification ?",LA QUESTION,,,0.9,
+P078,S25,document,,"Quatre pistes, quatre vérifications (au 1er octobre 2026)","Doubs, 2024 : ADN négatif, piste écartée | Texas, 2026 : aucune observation confirmée, selon le shérif | Faux prêtre, 2026 : faux témoignage reconnu, selon M6 | Epsilon, 2026 : vérifications annoncées, aucune conclusion publique","Synthèse de la chaîne, 01/10/2026",,2,
+P079,S26,texte,,L'apparence de certitude : le nombre de témoins · un en-tête officiel · un titre religieux en direct · l'avis d'un expert,,,,1,
+P080,S26,texte,,"Ce qui a départagé : un test ADN · une mise au point · un démenti et un aveu · pour Epsilon, rien de public",,,,1,
+P081,S26,texte,FAIT,L'enquête n'a pas permis de déterminer s'il est mort ou en fuite.,"Parquet de Nantes, juin 2026","ICI (Radio France), 03/06/2026",juin 2026,1,
+P082,S26,frise,,La frise de l'affaire,,,,0.9,"{""jusqua"": 2026.8, ""focus"": [2011.3, 2026.8], ""curseur"": 2026.75}"
+P083,S27,texte,,Mort ou vivant ? Le scénario que nous retenons,Prochain épisode,,,1,
+P084,-,sources,,"Sources principales (brouillon v0, à revérifier)","Le Progrès (AFP), 15/04/2024 | First Alert 7 (KOSA), 25/03/2026 | franceinfo, 26/03/2026 et 04/06/2026 | Europe 1 (AFP), 03/06/2026 | cath.ch, 04/06/2026 | 20 Minutes, 03/06/2026 | Ouest-France, 01/06/2026 et 03/06/2026 | Le Parisien, 27/04/2011, 02/06/2026 et 03/04/2026 | Le Télégramme, 15/04/2013 | Nice-Matin, 07/12/2020 | ICI (Radio France), 03/06/2026 | AFP Making-of, 12/04/2016",,,1,"{""duree"": 6}"

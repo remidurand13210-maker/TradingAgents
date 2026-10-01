@@ -1,0 +1,82 @@
+plan,segment,type,statut,texte,texte2,source,faits,poids,params
+P001,S01,date,FAIT,"15 avril 2011, 16 h 10",Roquebrune-sur-Argens (Var),"Nice-Matin, 07/12/2020",15/04/2011,1,"{""precision"": ""heure""}"
+P002,S01,texte,FAIT,Il quitte à pied le parking de l'hôtel. Sa voiture reste sur place. C'est la dernière image vérifiée.,DERNIER POINT VÉRIFIÉ,"Le Télégramme, 15/04/2013",15/04/2011,1.2,
+P003,S01,question,,"Mort, ou vivant quelque part ?",LA QUESTION,,,1,
+P004,-,titre,,Mort ou vivant ?,Le scénario que nous retenons,,,1,"{""numero"": ""04"", ""duree"": 3}"
+P005,-,avertissement,,"Brouillon v0 : sources partiellement lues. Faits, témoignages, reconstitutions et hypothèses sont signalés à l'écran.",,,,1,"{""duree"": 4}"
+P006,S02,chapitre,,Ce qui est établi,,,,0.6,"{""numero"": ""1""}"
+P007,S02,texte,FAIT,Désigné par l'enquête comme principal suspect de la mort de sa femme et de leurs quatre enfants. Jamais jugé.,PRÉSOMPTION D'INNOCENCE,"Le Parisien, 03/04/2026",avril 2011,1.2,
+P008,S02,date,FAIT,10 mai 2011,Mandat d'arrêt international,"Le Télégramme, 15/04/2013",10/05/2011,0.8,"{""precision"": ""jour""}"
+P009,S03,date,FAIT,11 avril 2011,Les courriers arrivent à leurs destinataires,"Le Télégramme, 15/04/2013",11/04/2011,0.8,"{""precision"": ""jour""}"
+P010,S03,document,FAIT,"Deux récits de départ, selon le destinataire","Employeur d'Agnès et établissements scolaires : mutation urgente en Australie | Proches : départ secret vers les États-Unis, sous la protection des services antidrogue américains | Courriers attribués à Xavier Dupont de Ligonnès","Europe 1, 05/05/2011 ; Le Parisien, 03/04/2026",11/04/2011,1.6,
+P011,S04,carte,FAIT,Du départ de Nantes au dernier point vérifié,,"Le Télégramme, 15/04/2013",10-15/04/2011,1.2,"{""points"": [{""lon"": -1.5536, ""lat"": 47.2184, ""label"": ""Nantes"", ""date"": ""10 avril 2011 : départ"", ""cote"": ""gauche""}, {""lon"": 6.6378, ""lat"": 43.4436, ""label"": ""Roquebrune-sur-Argens"", ""date"": ""15 avril 2011 : dernière image"", ""cote"": ""droite""}], ""bbox"": [-5.5, 41.2, 9.8, 51.3], ""trajet"": false}"
+P012,S04,texte,FAIT,"Ce qu'il emporte : une housse de costume selon Nice-Matin, un sac à dos selon Le Télégramme.",SOURCES DIVERGENTES,"Nice-Matin, 07/12/2020 ; Le Télégramme, 15/04/2013",15/04/2011,1,
+P013,S05,date,FAIT,Juin 2011,Région de Roquebrune-sur-Argens,"Le Parisien, 03/04/2026",juin 2011,0.8,"{""precision"": ""mois""}"
+P014,S05,texte,FAIT,"Une quarantaine de cavités fouillées, étangs sondés, bois et massif explorés : aucun résultat.",LES RECHERCHES DE 2011,"Le Parisien, 03/04/2026",juin 2011,1.2,
+P015,S05,texte,FAIT,Des recherches limitées par le terrain.,SELON NICE-MATIN ET LE PARISIEN,"Nice-Matin, 07/12/2020",2011,0.8,
+P016,S06,frise,,Quinze ans de vérifications,,,,1.2,"{""jusqua"": 2026.8, ""focus"": [2011.3, 2026.8], ""curseur"": 2026.75}"
+P017,S06,texte,FAIT,"Signalements vérifiés : plus de 700 en 2013, environ 1 750 en 2024. « Jusqu'ici sans succès ».",PARQUET DE NANTES,"franceinfo, 26/03/2026",2013-2024,1,
+P018,S06,texte,FAIT,L'enquête n'a pas permis de déterminer s'il était mort ou en fuite.,POSITION OFFICIELLE DU PARQUET,"ICI (Radio France), 03/06/2026",03/06/2026,1,
+P019,S07,date,TEMOIGNAGE,11 avril 2026,Le frère d'Agnès prend la parole,"La Dépêche du Midi, 11/04/2026",11/04/2026,0.8,"{""precision"": ""jour""}"
+P020,S07,texte,TEMOIGNAGE,"Il appelle son beau-frère à se rendre et souhaite que l'affaire se referme, pour pouvoir faire son deuil.",SELON LA DÉPÊCHE DU MIDI ET RTL,"RTL, 11/04/2026",11/04/2026,1.2,
+P021,S08,date,FAIT,3 septembre 2011,Parquet de Nantes,"Le Monde, 03/09/2011",03/09/2011,0.7,"{""precision"": ""jour""}"
+P022,S08,citation,FAIT,Toujours eu deux hypothèses : un suicide quelques jours après ou une fuite particulièrement bien préparée,"Le procureur de la République de Nantes, cité par Le Monde","Le Monde, 03/09/2011",03/09/2011,1.4,
+P023,S08,texte,HYPOTHESE,"A. Un décès après la disparition · B. Une fuite durable à l'étranger · C. Une vie discrète, plus proche",TROIS SCÉNARIOS EXAMINÉS,,,1,
+P024,S09,chapitre,,Scénario A : un décès après la disparition,,,,0.6,"{""numero"": ""2""}"
+P025,S09,citation,HYPOTHESE,C'est une conviction mais on en sera sûr le jour où on découvrira son corps,"Brigitte Lamy, alors procureure de la République de Nantes","Le Télégramme, 15/04/2013",avril 2013,1.4,
+P026,S10,texte,HYPOTHESE,"Jean-Paul Le Tensorer, ancien directeur interrégional de la police judiciaire pour l'Ouest, se dit convaincu d'un suicide.","POSITION CONNUE PAR UNE NOTICE ENCYCLOPÉDIQUE, SOURCE D'ORIGINE À RETROUVER","Wikipédia (fr), consultée le 01/10/2026",2019,1,
+P027,S10,texte,HYPOTHESE,Ses arguments rapportés : un homme acculé financièrement ; le coût d'une nouvelle identité durable.,"LE TENSORER, 2019","Wikipédia (fr), consultée le 01/10/2026",2019,1,
+P028,S11,texte,FAIT,Depuis le 15 avril 2011 : aucune trace authentifiée.,CE QUI APPUIE LE SCÉNARIO A,"ICI (Radio France), 03/06/2026",2011-2026,1,
+P029,S11,texte,FAIT,Octobre 2019 : l'arrestation annoncée en Écosse visait un homme sans lien avec l'affaire.,PISTE ÉCARTÉE,"Nice-Matin, 07/12/2020",octobre 2019,1,
+P030,S11,date,FAIT,15 avril 2024,Doubs : l'ADN ne correspond pas,"Le Progrès, 15/04/2024",15/04/2024,1,"{""precision"": ""jour""}"
+P031,S12,texte,FAIT,"Aucun corps, aucun reste identifié. Rien n'établit qu'il portait une arme en quittant l'hôtel.",CE QUI S'Y OPPOSE,"Le Parisien, 03/04/2026 ; Nice-Matin, 07/12/2020",2011-2026,1,
+P032,S12,citation,HYPOTHESE,Pourquoi organiser ça pour se suicider ?,"Anne-Sophie Martin, journaliste, sur RTL","RTL, 02/06/2026",02/06/2026,0.8,
+P033,S12,document,HYPOTHESE,Scénario A : un décès après la disparition,"Appuis : aucune trace authentifiée depuis le 15 avril 2011 ; pistes de survie vérifiées sans succès | Objections : aucun corps ni reste identifié ; des préparatifs méthodiques | Suppose : des restes jamais retrouvés, en un lieu inconnu | Confirmerait : des restes identifiés par ADN | Infirmerait : une trace authentifiée après avril 2011","Les Mystères d'Akeb, 01/10/2026",2011-2026,1.8,
+P034,S13,chapitre,,Scénario B : une fuite durable à l'étranger,,,,0.6,"{""numero"": ""3""}"
+P035,S13,texte,HYPOTHESE,"Bruno de Stabenrath, ami d'adolescence : polyglotte, capable de modifier son apparence et de se construire un nouvel environnement à l'étranger.",SA CONVICTION EN 2021,"20 Minutes, 02/04/2021",avril 2021,1.2,
+P036,S13,citation,HYPOTHESE,Il n'a pas préparé tout ça pour mourir,"Bruno de Stabenrath, ami d'adolescence, dans 20 Minutes","20 Minutes, 02/04/2021",avril 2021,0.9,
+P037,S14,date,HYPOTHESE,Février 2026,"Parution du livre de Gilles Galloux, ancien enquêteur","Nice-Matin, 2026 (date à préciser)",février 2026,0.8,"{""precision"": ""mois""}"
+P038,S14,texte,HYPOTHESE,"Selon Gilles Galloux : une fuite aux États-Unis, de faux papiers obtenus dans le Var, une dernière image mise en scène.","SA THÈSE, D'APRÈS LA PRESSE (LIVRE NON LU)","Nice-Matin, 2026 (date à préciser)",février 2026,1.4,
+P039,S15,document,HYPOTHESE,"Deux anciens policiers, deux convictions","Jean-Paul Le Tensorer, 2019 : un suicide (position connue par une notice encyclopédique) | Gilles Galloux, 2026 : une fuite aux États-Unis (livre non lu, thèse rapportée par la presse)","Les Mystères d'Akeb, 01/10/2026",2019-2026,1.3,
+P040,S15,texte,TEMOIGNAGE,"Quarante-huit États américains parcourus, selon un ami de voyage et Bruno de Stabenrath.","SON PASSÉ, SELON DES PROCHES","Europe 1, 2018 (date à préciser)",années 1980-1990,1,
+P041,S15,texte,TEMOIGNAGE,"Photos de 1990 à Alpine et Fort Davis (Texas), selon Gilles Galloux. Photos non vues.",SELON UN JOURNAL LOCAL TEXAN,"Big Bend Sentinel, 01/04/2026",1990,1,
+P042,S16,date,FAIT,25 mars 2026,Comté de Brewster (Texas) : appel à informations,"First Alert 7, 25/03/2026",25/03/2026,0.9,"{""precision"": ""jour""}"
+P043,S16,texte,FAIT,"Le lendemain, le shérif : aucune observation confirmée, aucun élément nouveau.",MISE AU POINT,"First Alert 7, 25/03/2026",26/03/2026,1,
+P044,S16,texte,FAIT,Le procureur de Nantes n'avait pas été informé de cet appel.,PARQUET DE NANTES,"franceinfo, 26/03/2026",26/03/2026,0.9,
+P045,S17,texte,RECONSTRUCTION,À l'origine de l'appel : une équipe de journalistes incluant Gilles Galloux. Ce n'est pas une confirmation indépendante.,À NOTER,"franceinfo, 26/03/2026",mars 2026,1.2,
+P046,S17,texte,HYPOTHESE,"La sœur du suspect (livre, 2024) : exil américain et contestation de l'identité des victimes. Thèse rejetée par la famille d'Agnès et par le parquet.",THÈSE CONTESTÉE,"Le Parisien, 03/04/2026",mars 2024,1.3,
+P047,S18,texte,FAIT,En quinze ans : aucune trace authentifiée à l'étranger.,CE QUI S'Y OPPOSE,"ICI (Radio France), 03/06/2026",2011-2026,0.9,
+P048,S18,document,HYPOTHESE,Scénario B : une fuite durable à l'étranger,"Appuis : une préparation documentée ; une familiarité ancienne avec les États-Unis ; aucun corps retrouvé | Objections : aucune trace authentifiée à l'étranger ; un appel texan sans confirmation et non indépendant | Suppose : faux papiers, argent, frontières franchies sous mandat, peut-être une aide (rien de documenté) | Renforcerait : empreinte, ADN ou document authentifié hors de France | Affaiblirait : des restes identifiés","Les Mystères d'Akeb, 01/10/2026",2011-2026,2,
+P049,S19,chapitre,,"Scénario C : une vie discrète, plus proche",,,,0.6,"{""numero"": ""4""}"
+P050,S19,citation,HYPOTHESE,"Disparition orchestrée, organisée, anticipée","Anne-Sophie Martin, journaliste, sur RTL","RTL, 02/06/2026",02/06/2026,1,
+P051,S19,texte,HYPOTHESE,Elle écarte la piste américaine. Où le situe-t-elle ? Les sources consultées ne le précisent pas.,ANNE-SOPHIE MARTIN,"RTL, 02/06/2026",02/06/2026,1,
+P052,S20,texte,FAIT,Plusieurs abbayes explorées sans succès par les enquêteurs.,SELON LA PROVENCE,"La Provence, 12/04/2026",date non précisée,0.9,
+P053,S20,date,FAIT,1er juin 2026,Ouest-France révèle le compte « Epsilon »,"Ouest-France, 01/06/2026",01/06/2026,0.8,"{""precision"": ""jour""}"
+P054,S20,texte,FAIT,"Epsilon : un forum catholique, des messages jusqu'en 2017, un style proche des comptes attribués au suspect avant 2011. Vérifications annoncées.",UNE PISTE OUVERTE,"20 Minutes, 03/06/2026",2010-2017,1.2,
+P055,S21,texte,FAIT,"Compte créé le 2 juillet 2010, avant la disparition. Attribution non établie.",CE QUE CELA NE PROUVE PAS,"Le Parisien, 02/06/2026",02/07/2010,1,
+P056,S21,texte,,Au 1er octobre 2026 : aucun résultat public des vérifications.,"CONSTAT DE RECHERCHE, NON DÉFINITIF","Les Mystères d'Akeb, 01/10/2026",01/10/2026,0.9,
+P057,S21,texte,FAIT,"Juin 2026, sur M6 : un homme présenté comme prêtre affirme l'avoir confessé, puis reconnaît ne pas être prêtre.",FAUX TÉMOIGNAGE,"Europe 1, 03/06/2026",02-03/06/2026,1,
+P058,S22,texte,HYPOTHESE,Quinze ans à proximité sans identification confirmée : fausse identité ou protection durable ? Aucune source n'en documente.,CE QUI S'Y OPPOSE,,,1,
+P059,S22,document,HYPOTHESE,"Scénario C : une vie discrète, plus proche","Appuis : des abbayes explorées par les enquêteurs ; la piste Epsilon en cours de vérification | Objections : les signalements vérifiés en France ont échoué ; un visage diffusé dès 2011 | Suppose : fausse identité ou protection durable, peut-être des complices (rien de documenté) | Renforcerait : des messages postérieurs à 2011 formellement attribués ; un ADN concordant | Affaiblirait : des restes identifiés ; la piste Epsilon écartée","Les Mystères d'Akeb, 01/10/2026",2011-2026,2,
+P060,S23,chapitre,,Le scénario que je retiens,,,,0.6,"{""numero"": ""5""}"
+P061,S23,texte,HYPOTHESE,Je privilégie un décès survenu après la disparition d'avril 2011.,NOTRE HYPOTHÈSE,,,1.2,
+P062,S23,texte,HYPOTHESE,"Ni date, ni lieu, ni circonstances. Position officielle : l'enquête n'a pas déterminé s'il était mort ou en fuite.",CE QUE JE NE PEUX PAS DIRE,"ICI (Radio France), 03/06/2026",03/06/2026,1.2,
+P063,S24,texte,HYPOTHESE,Des convictions ne sont pas des preuves.,MÉTHODE,,,0.7,
+P064,S24,frise,,Quinze ans sans trace authentifiée,,,,1.2,"{""jusqua"": 2026.8, ""focus"": [2011.3, 2026.8], ""curseur"": 2026.75}"
+P065,S24,texte,HYPOTHESE,"Raison 1, la forme du silence : mandat, portrait public, environ 1 750 signalements vérifiés dès 2024, comparaisons d'ADN. Rien d'authentifié.",TROIS RAISONS,"franceinfo, 26/03/2026",2011-2026,1.2,
+P066,S25,texte,HYPOTHESE,"Un homme vivant doit échapper à toute identification, chaque jour. Des restes peuvent rester introuvables sans que personne n'agisse.",DEUX SILENCES QUI NE PÈSENT PAS PAREIL,,,1.2,
+P067,S25,texte,HYPOTHESE,L'absence de preuve de survie n'est pas une preuve de décès.,GARDE-FOU,,,0.8,
+P068,S26,texte,HYPOTHESE,Raison 2 : le nombre de conditions.,TROIS RAISONS,,,0.6,
+P069,S26,document,HYPOTHESE,Ce que chaque scénario doit supposer,"A, décès : des restes non retrouvés | B, fuite à l'étranger : faux papiers, argent, frontières franchies sous mandat, peut-être une aide | C, vie discrète plus proche : fausse identité ou protection durable, aucun contrôle concluant | Pour B et C, aucune de ces conditions n'est documentée","Les Mystères d'Akeb, 01/10/2026",,1.6,
+P070,S27,texte,HYPOTHESE,Raison 3 : la préparation documentée s'arrête au 15 avril 2011.,TROIS RAISONS,,,1,
+P071,S27,texte,HYPOTHESE,Une préparation de départ ne prouve pas quinze ans de survie.,GARDE-FOU,,,1,
+P072,S28,chapitre,,Ce qui me ferait changer d'avis,,,,0.6,"{""numero"": ""6""}"
+P073,S28,texte,HYPOTHESE,"Quinze ans sans corps pèsent contre le décès. Et un seul complice suffirait à expliquer papiers, argent et silence.",LA MEILLEURE OBJECTION,,,1.3,
+P074,S28,texte,HYPOTHESE,"Une aide extérieure ? Le dossier ne permet ni de l'établir, ni de l'exclure.",QUESTION OUVERTE,,,0.9,
+P075,S29,document,HYPOTHESE,Ce qui changerait l'analyse,"Une correspondance d'ADN ou d'empreintes postérieure au 15 avril 2011 | Un document d'identité contrôlé et authentifié | Des messages postés après 2011, comme ceux du compte Epsilon, formellement attribués par les enquêteurs | À l'inverse : des restes identifiés confirmeraient le décès","Les Mystères d'Akeb, 01/10/2026",,1.6,
+P076,S30,livre,FICTION,"Un roman d'Akeb | Personnages inventés, fin imaginée | Il ne résout pas l'affaire réelle",,,,1.2,
+P077,S30,livre,FICTION,À lire en e-book | ou à écouter en livre audio | Liens dans la description,,,,0.8,
+P078,S31,texte,,"Une erreur factuelle ? Signalez-la en commentaire, avec sa source. Les corrections sont regroupées dans le commentaire épinglé.",CORRECTIONS,,,1,
+P079,S31,question,,"Les courriers d'avril 2011 : un projet pour la suite, ou un moyen de gagner du temps ?",À VOUS,,,1.2,
+P080,S32,sources,,Sources principales (brouillon v0),"Le Monde, 03/09/2011 | Le Télégramme, 15/04/2013 | Nice-Matin, 07/12/2020 | 20 Minutes, 02/04/2021 | Le Progrès, 15/04/2024 | First Alert 7, 25/03/2026 | franceinfo, 26/03/2026 | Le Parisien, 03/04/2026 | Ouest-France, 01/06/2026 | RTL, 02/06/2026 | ICI (Radio France), 03/06/2026 | Europe 1, 05/05/2011 et 03/06/2026",,,1,
+P081,S32,texte,,"D'autres disparitions, d'autres zones d'ombre. La même méthode.",LES MYSTÈRES D'AKEB,,,1,
