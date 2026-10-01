@@ -1,88 +1,91 @@
-# BROUILLON v0 — NE PAS NARRER AVANT VALIDATION
+# BROUILLON v1 — NE PAS NARRER AVANT VALIDATION
 # Épisode 02 — Avril 2011 : les jours qui changent tout
-# Lignes « # » ignorées par les outils. Annotations et sources : script_annote.md.
+# Lignes « # » ignorées par les outils. Annotations et sources : script_annote.md ; vérification phrase par phrase : VERIFICATION_V1.md.
 
-[S01] Le 11 avril 2011, des courriers arrivent chez l'employeur d'Agnès Dupont de Ligonnès et dans les établissements scolaires de ses enfants : la famille part en Australie, pour une mutation urgente. Le même jour, neuf proches reçoivent une autre lettre : la famille part aux États-Unis, sous protection. Alors, en avril 2011, qui savait vraiment quoi ?
+[S01] Le 11 avril 2011, à Nantes, deux établissements reçoivent un courrier : le collège-lycée des deux plus jeunes enfants Dupont de Ligonnès, et l'établissement où travaille leur mère, Agnès. La famille, dit ce courrier, part en Australie. Le même jour, des proches reçoivent une tout autre lettre : elle parle des États-Unis et d'une protection américaine. Alors, en avril 2011, qui savait vraiment quoi ?
 [pause 1.2]
 # (carton titre muet 3 s, puis carton avertissement muet 4 s)
 
-# — Chapitre 1 : Avant avril : le tir, le deuil, les achats
-[S02] Pour répondre, il faut remonter de quelques mois, et tenir trois registres bien séparés : ce qui a été observé à l'époque, ce que des témoins ont raconté ensuite, et ce que l'enquête a reconstitué après coup. Xavier Dupont de Ligonnès est désigné par l'enquête comme le principal suspect ; il n'a jamais été jugé.
+# — Chapitre 1 : Avant avril : le club, le deuil, les achats
+[S02] Pour répondre, il faut remonter de quelques mois, et séparer trois registres : ce qui a été observé à l'époque, ce que des témoins ont raconté ensuite, et ce que l'enquête a reconstitué après coup. Le père, Xavier Dupont de Ligonnès, est soupçonné par l'enquête et visé depuis mai 2011 par un mandat d'arrêt international. Il n'a jamais été jugé.
 
-[S03] Décembre 2010, à Nantes. Xavier Dupont de Ligonnès commence à s'initier au tir dans un club. Le 2 février 2011, il obtient sa licence. Selon une dépêche de l'Agence France-Presse reprise par 20 Minutes, il s'y entraîne régulièrement, jusque dans la semaine qui précède les faits.
+[S03] Décembre 2010, à Nantes. Selon les responsables de son club de tir, interrogés par Ouest-France, c'est à ce moment qu'il commence à fréquenter le stand. En février, il y tire de façon autonome ; une chronologie publiée par L'Est Républicain date sa licence du 2 février 2011.
 
-[S04] Entre-temps, son père meurt : en janvier 2011 selon plusieurs sources, en février selon Le Parisien. La date exacte reste donc à confirmer. Mais sur un point, les sources concordent : l'initiation au tir commence en décembre, avant ce décès.
+[S04] Entre-temps, son père meurt. La date varie selon les sources : le 20 janvier 2011, d'après une notice de décès qui reprend les données de l'Insee ; en février, selon un article du Parisien d'avril 2011. Nous ne trancherons pas. Un point, en revanche, ne dépend pas de cette date : le tir a commencé en décembre, avant ce décès.
 
-[S05] En février, selon un moniteur du stand cité par 20 Minutes, il apporte au club une carabine. Le Parisien la décrit comme héritée de son père. L'héritage ne peut donc pas expliquer le début de cette pratique : il survient alors qu'elle a déjà commencé. Simple question de calendrier, mais elle compte pour l'interprétation.
+[S05] Après cette mort, il récupère une carabine qui avait appartenu à son père : c'est ce que rapportent Le Parisien et une dépêche de l'Agence France-Presse. L'héritage ne peut donc pas expliquer le début de cette pratique. Simple question de calendrier, mais elle compte pour l'interprétation.
 
-[S06] En mars se place un témoignage que, parmi nos sources, seul Le Parisien rapporte. Un armurier de la région nantaise raconte avoir reçu ce père de famille, qui se présentait comme « prêtre tireur d'élite » et voulait acquérir une arme de poing. Faute d'autorisation, il serait reparti sans arme ; le commerçant l'avait pris pour un mythomane.
+[S06] En mars se place un témoignage que, parmi nos sources, seul Le Parisien rapporte. Un armurier de la région nantaise raconte avoir reçu cet homme, qui se présentait comme « un prêtre tireur d'élite » et demandait une arme de poing. Il serait reparti sans en obtenir. Rien d'autre, dans notre dossier, ne vient corroborer ce récit.
 
-[S07] Le 12 mars, il achète dans une armurerie de Nantes un silencieux et des munitions. Depuis ce mois de mars, d'après le moniteur, il vient aussi au stand avec ses fils. Pris un par un, ces éléments sont épars ; c'est l'enquête qui, plus tard, les a mis bout à bout.
+[S07] Le 12 mars, selon la dépêche de l'AFP et L'Est Républicain, il achète des munitions ; L'Est Républicain mentionne aussi, à cette date, un silencieux. Fin mars, selon le club, il vient quatre fois au stand, et deux de ses fils y sont initiés : l'AFP les identifie comme Thomas et Benoît. Sa dernière séance date du premier avril.
 
-[S08] Début avril, les achats changent de nature. Le premier avril, des outils de jardinage. Le 2 avril, des sacs de chaux, dans plusieurs magasins. Nous nous en tenons volontairement aux dates et aux catégories. Ces achats sont connus par les chronologies publiées ensuite, à partir des éléments de l'enquête.
+[S08] Ce même premier avril, puis le lendemain, les achats changent de nature : du ciment et des outils, puis de la chaux, selon la chronologie de L'Est Républicain, que l'on retrouve aussi chez Nice-Matin. Nous nous en tenons volontairement aux dates et aux catégories. Pris un par un, ces éléments sont épars ; c'est l'enquête qui, plus tard, les a mis bout à bout.
 
 # — Chapitre 2 : Début avril : les jours de la famille
-# LACUNE : âge et situation d'Arthur ; profession d'Agnès, nom et lieu de son employeur : absents du dossier (thème bio_famille non traité).
-[S09] Arrêtons-nous sur celles et ceux que ces jours concernent. Agnès, son épouse. Leurs quatre enfants : Arthur, Thomas, Anne et Benoît. Thomas, 18 ans, étudie la musicologie à Angers ; Anne, 16 ans, et Benoît, 13 ans, sont élèves d'un collège-lycée nantais. Ce sont des personnes, et nous ne décrirons rien de ce qu'ils ont subi.
+[S09] Arrêtons-nous sur celles et ceux que ces jours concernent. Agnès, née Hodanger, travaille à temps partiel dans un établissement scolaire, Blanche-de-Castille. Une collègue, citée par Le Parisien, se souvient de l'estime qu'on lui portait.
 
-[S10] Le 3 avril, Agnès et son mari partagent un repas au restaurant, en périphérie de Nantes, avec trois de leurs enfants. Selon la chronologie publiée par Le Télégramme, c'est leur dernier repas connu ensemble. Ce qui suit n'est connu que par la reconstitution de l'enquête.
+[S10] Le couple a quatre enfants. Arthur, l'aîné, a 20 ans selon Le Parisien d'avril 2011, qui le décrit préparant un BTS en Vendée et travaillant dans une pizzeria. Xavier n'était pas son père biologique ; il l'a élevé avec Agnès. Thomas, 18 ans, étudie la musicologie à Angers.
 
-[S11] L'enquête, qui désigne Xavier Dupont de Ligonnès comme principal suspect, retient la nuit du 3 au 4 avril comme date probable de la mort d'Agnès, d'Arthur, d'Anne et de Benoît. Le mot est celui du procureur de Nantes : une date probable, pas une certitude.
+[S11] Anne, 16 ans, est en première scientifique et joue du piano, selon Le Parisien ; Benoît, 13 ans, joue de la batterie. Tous deux sont élèves d'un collège-lycée nantais, la Perverie. Ce sont des personnes, pas des personnages : nous ne décrirons rien de ce qu'ils ont subi.
+
+[S12] Le 3 avril, le couple sort avec trois des enfants : un restaurant et une séance de cinéma, dans un ordre qui varie selon les chronologies. C'est la dernière sortie familiale rapportée. Ce qui suit n'est connu que par la reconstitution de l'enquête.
+
+[S13] D'après la chronologie publiée par L'Est Républicain en mai 2011, l'enquête retient la nuit du 3 au 4 avril comme date probable de la mort d'Agnès, d'Arthur, d'Anne et de Benoît. Une date probable, pas une certitude.
 [pause 1.0]
 
-[S12] Cette date ne serait d'ailleurs pas fixée au jour près : c'est ce qu'aurait indiqué le procureur de Nantes, selon des propos que nous n'avons lus, à ce stade, que dans une synthèse encyclopédique. Par la même voie, on apprend que des voisins, cités à l'époque par RTL, disaient avoir aperçu Agnès le 5 avril, puis le 7. Nous le signalons sans pouvoir le vérifier.
+[S14] Le 4 avril, le collège-lycée est averti de l'absence d'Anne et de Benoît, pour cause de maladie. C'est l'explication que l'établissement a reçue, telle que la presse la rapportait à l'époque ; rien de plus.
 
-[S13] Le 4 avril, le collège-lycée d'Anne et de Benoît est averti de leur absence, pour cause de maladie. Selon 20 Minutes, les responsables des deux établissements scolaires concernés n'avaient d'ailleurs jamais rencontré le père. Leur interlocutrice, c'était Agnès.
-# LACUNE : nom du second établissement scolaire et enfant concerné ; auteur et mode de l'avertissement d'absence du 4 avril : absents du dossier.
+[S15] Thomas, lui, est à Angers. Selon les chronologies de 2011, son père dîne avec lui près d'Angers le 4 avril, puis, le 5, lui demande de rentrer à Nantes. Une chronologie du Parisien, en 2026, place ce repas le 5, après son retour. Un repas ou deux, le 4 ou le 5 : les sources divergent, et nous ne trancherons pas.
 
-[S14] Thomas, lui, est à Angers. Selon la reconstitution de l'enquête, son père l'appelle, et Thomas rentre à Nantes. Ils dînent ensemble au restaurant, puis le jeune homme repart avec lui. C'est dans la nuit qui suit que l'enquête situe sa mort.
-
-[S15] Mais de quelle nuit s'agit-il ? Le dîner a lieu le 4 avril selon la chronologie publiée par Le Télégramme en 2013 ; le 5 avril selon des reconstitutions plus récentes, dont celle du Parisien en 2026. Les sources divergent, et nous ne trancherons pas.
+[S16] La date retenue pour la mort de Thomas suit cette incertitude : la nuit du 5 au 6 avril dans le tableau de L'Est Républicain ; la nuit du 4 au 5, ou la suivante, dans celui de Nice-Matin.
 [pause 0.8]
 
-# — Chapitre 3 : Les courriers : deux récits pour un départ
-[S16] Le 8 avril, selon la même chronologie du Télégramme, des courriers partent. Ils n'arriveront que le 11, trois jours plus tard. Et ils ne racontent pas tous la même histoire.
+# — Chapitre 3 : Les courriers : un départ, deux versions
+[S17] Le Parisien, qui a interrogé son patron, rapporte un courriel daté du 8 avril : Xavier Dupont de Ligonnès y annonce à ce patron son départ pour l'Australie. Le même jour, selon plusieurs chronologies, une lettre part vers des proches. Elle arrive le 11, en même temps que les courriers adressés aux établissements.
 
-[S17] Premier récit, pour l'employeur d'Agnès et pour les établissements scolaires : une mutation professionnelle urgente, en Australie. Second récit, pour les proches : selon les extraits diffusés par RTL et repris par l'Agence France-Presse, une lettre reçue par neuf d'entre eux annonce un départ subit de la famille pour les États-Unis, vers un lieu secret. En cause, des menaces liées à des activités pour les services antidrogue américains, et une protection de témoins.
+[S18] Les établissements lisent un départ pour l'Australie. Les proches lisent une autre histoire, dont l'Agence France-Presse a repris des extraits révélés par RTL : un départ secret vers les États-Unis, sous la protection des services antidrogue américains. Selon un avocat interrogé par l'AFP, neuf proches ont reçu cette lettre.
 
-[S18] Cette lettre, que les sources présentent comme attribuée à Xavier Dupont de Ligonnès, contient aussi une consigne : ne pas « s'occuper des gravats » sous la terrasse. Mettons maintenant les deux versions côte à côte.
+[S19] Et la lettre contient une consigne : faire croire, autour d'eux, à la version australienne. Selon ces extraits, les deux récits ne s'ignorent donc pas : l'un est présenté aux proches comme la couverture de l'autre.
 
-[S19] Dans les deux cas, un départ soudain de toute la famille. Mais la destination, le motif et le degré de secret changent selon le destinataire. Ce n'est pas une divergence entre journalistes : ce sont deux récits distincts, adressés à deux cercles distincts.
-
-[S20] Le 9 avril, le club de tir reçoit à son tour une explication, la plus brève. Selon le moniteur cité par 20 Minutes, Xavier Dupont de Ligonnès prévient que ses fils ne viendront pas au rendez-vous prévu, sans donner de raison. Pris isolément, ce détail n'établit rien.
+[S20] Mettons-les côte à côte. Pour les établissements et le patron : l'Australie. Pour neuf proches : les États-Unis, sous protection, avec la consigne de parler d'Australie. Ce que raconte cette lettre, attribuée à Xavier Dupont de Ligonnès, aucune de nos sources ne l'établit : c'est un récit, pas un fait.
 
 # — Chapitre 4 : Du 10 au 15 avril : la route
-[S21] Le 10 avril, il quitte Nantes. Il passe la nuit dans un hôtel de Puilboreau, près de La Rochelle, et règle la chambre en espèces. Dix ans plus tard, interrogé par la station de Radio France à La Rochelle, le gérant se souvenait d'un client « calme et discret ».
-# LACUNE : coordonnées de Puilboreau (ou de La Rochelle) absentes de outils/donnees/lieux.json : la première nuit n'est placée sur aucune carte.
+[S21] Selon la plupart des chronologies, quand ces courriers arrivent, il a déjà quitté Nantes. Selon Le Monde, repris par le site Numerama en juin 2011, une trace informatique révélée par Sud Ouest le situe près de La Rochelle dans la nuit du 10 au 11 avril. Numerama soulignait lui-même que le mécanisme décrit restait ambigu.
+# Puilboreau et La Seyne-sur-Mer : absents de outils/donnees/lieux.json, donc non placés sur les cartes.
 
-[S22] Cette première étape n'a été établie qu'après coup. Selon Sud-Ouest, repris par le site Numerama en juin 2011, c'est une trace informatique qui a permis de la situer. Une chronologie du Parisien, en 2026, le fait même partir le 12 avril ; les autres sources, plus nombreuses, retiennent le 10.
+[S22] En 2021, le site Planet, qui s'appuie notamment sur un livre d'enquête, précise la commune : Puilboreau. À l'inverse, la chronologie du Parisien de 2026 ne le fait partir que le 12 avril. Là encore, nous signalons l'écart sans le combler.
 
-[S23] Le 11 avril, les courriers arrivent. Le collège-lycée apprend la déscolarisation d'Anne et de Benoît, l'employeur d'Agnès reçoit l'annonce australienne, et neuf proches la lettre américaine. À leur réception, il a quitté Nantes depuis la veille. Ce soir-là, il dort à Blagnac, près de Toulouse.
+[S23] Le 11 avril au soir, il dort à Blagnac, près de Toulouse. Le 12, au Pontet, près d'Avignon. Selon la directrice de l'hôtel, interrogée par l'AFP, il s'y présente sous le nom de « Xavier Laurent » ; selon Nice-Matin et 20 Minutes, la nuit est réglée avec la carte bancaire d'Agnès.
 
-[S24] Selon La Dépêche du Midi, il s'enregistre dans un hôtel de chaîne sous le nom de « Xavier Ligonne », et paie par carte bancaire. La nuit suivante, le 12, il dort au Pontet, dans le Vaucluse, près d'Avignon. Pour cette étape, le nom donné à l'hôtel et la somme réglée restent à vérifier.
+[S24] La nuit du 13 au 14 avril reste la moins documentée. En septembre 2011, Le Parisien la disait inconnue ; des récits ultérieurs, dont celui de Planet, la situent à La Seyne-sur-Mer, dans le Var.
 
-[S25] Le 13, selon Nice-Matin, seul à le rapporter parmi nos sources, il aurait dormi à La Seyne-sur-Mer, dans le Var, avant de revenir sur ses pas vers Roquebrune-sur-Argens. Ce même 13 avril, à Nantes, selon des chronologies de presse, des voisins inquiets de voir les volets fermés alertent la police.
-# LACUNE : coordonnées de La Seyne-sur-Mer absentes de lieux.json : étape non placée sur la carte (elle est de toute façon fragile).
+[S25] Le 14 avril, à Roquebrune-sur-Argens, dans le Var, il retire 30 euros à un distributeur, puis passe la nuit à l'hôtel Formule 1 de la commune. Rien dans notre dossier ne permet de prêter à ce retrait une intention particulière.
 
-[S26] Le 14 avril, il est à Roquebrune-sur-Argens, dans le Var. Il retire 30 euros à un distributeur automatique. Le soir, il dort à l'hôtel Formule 1 de la commune, où une caméra de vidéosurveillance l'enregistre.
+[S26] Le 15 avril, selon 20 Minutes, il quitte l'hôtel en voiture le matin, revient vers 16 heures, puis repart à pied. Une chronologie du Parisien de septembre 2011 situait, elle, le départ dans la matinée. Ce qu'il porte, un sac ou une housse selon les récits, ne dit rien, à lui seul, de son contenu.
 
-[S27] Ce retrait de 30 euros, replaçons-le parmi les autres opérations connues : une nuit payée en espèces, une autre par carte bancaire, puis ce retrait. Selon Le Monde, cité par Numerama, il avait aussi fermé un compte bancaire et coupé son téléphone portable. Rien dans notre dossier ne permet de prêter à ce retrait une intention particulière.
-# LACUNE : opérations bancaires autres que le retrait de 30 euros et les paiements d'hôtel : non documentées par une source ouverte.
-
-[S28] Le 14 avril au soir, à vingt heures trente-deux, il aurait envoyé à un ami un courriel en se faisant passer pour les services antidrogue américains, évoquant un « nettoyage final » des moyens de communication de la famille. C'est ce qu'écrit Nice-Matin, qui reprend le magazine Society. Une source unique, que nous n'avons pas pu remonter : à vérifier.
-
-[S29] Le 15 avril 2011, à seize heures dix, la vidéosurveillance de l'hôtel le filme quittant à pied le parking. Sa voiture, une Citroën C5, reste sur place. Ce qu'il emporte n'est pas décrit de la même manière : une large pochette, ou housse de costume, selon Nice-Matin ; un sac à dos, selon Le Télégramme. Aucune source de notre dossier ne dit ce qu'il y avait à l'intérieur.
-[pause 1.0]
-# LACUNE : contenu de la housse ou du sac emporté le 15 avril : aucune information publique dans le dossier.
-
-[S30] C'est la dernière trace authentifiée. Après seize heures dix, ce 15 avril, notre dossier ne contient plus aucune observation vérifiée. Nous nous arrêtons donc ici, sans rien imaginer de la suite.
+[S27] C'est la dernière trace connue dans les bilans que nous avons lus. Les signalements ultérieurs, dont RTL faisait encore le point en juin 2026, ne la prolongent pas : aucune preuve définitive n'a été annoncée. Nous ne racontons rien au-delà.
 [pause 1.2]
 
-[S31] Au-delà de ce point, les sources se taisent. Ce vide, Akeb a choisi de l'explorer par la fiction dans La dernière correction : un homme qui avait disparu y commet l'erreur de reprendre la parole. C'est un roman, aux personnages inventés et à la fin imaginée. Il existe en e-book et en livre audio ; les deux liens sont dans la description. Revenons aux faits.
+# — Chapitre 5 : Le 21 avril, puis le mandat
+[S28] Pendant ce temps, à Nantes, le silence de la famille inquiète. Selon la chronologie publiée par Le Parisien en 2026, un voisin donne l'alerte dès le 13 avril, et la police se rend une première fois au domicile.
 
-# — Chapitre 5 : Qui savait quoi ?
-[S32] Alors, en avril 2011, qui savait quoi ? Le collège-lycée a d'abord entendu parler de maladie, puis de mutation ; l'employeur, d'une mutation en Australie ; neuf proches, de menaces, de services américains et de protection de témoins. Le club de tir, lui, a seulement appris une absence sans raison, et un hôtelier a vu passer un client discret.
+[S29] Le 21 avril, selon RTL, les policiers reviennent pour la cinquième fois. Ce jour-là, Agnès et ses quatre enfants sont retrouvés morts dans la maison familiale.
+[pause 1.5]
 
-[S33] Les courriers reçus par l'école et par l'employeur concordaient entre eux ; celui des proches, non. Achats, nuits d'hôtel, retrait, images de vidéosurveillance : tout cela n'a été assemblé qu'après coup, par l'enquête. Voilà la réponse que permettent les sources : sur le moment, aucun de ces interlocuteurs n'avait l'ensemble du tableau.
+[S30] Un détail, moins connu, éclaire la journée. Le procureur de Nantes, Xavier Ronsin, avait convoqué la presse ce jour-là pour lancer un appel à témoins sur la disparition de la famille. Apprenant la découverte d'un premier corps, il a maintenu son point presse : c'est ce qu'il a raconté en 2021 à 20 Minutes, dont un journaliste était présent.
 
-[S34] Le prochain épisode reprend là où celui-ci s'arrête. Après la disparition : la découverte, les recherches, puis des années de pistes et de signalements. Pour chacune, nous verrons qui a affirmé quoi, et ce que les vérifications en ont laissé.
+[S31] Le 22 avril, une information judiciaire est ouverte contre X pour assassinats, selon un communiqué du parquet cité par l'AFP. Le 23 avril, selon une légende de l'AFP, une photo est rendue publique : son portrait, tel qu'il figure sur sa fiche d'inscription au club de tir.
+
+[S32] Dans un premier temps, la recherche internationale vise à l'entendre comme témoin. Le 26 avril, selon un communiqué du procureur cité par Le Monde, une diffusion Interpol de type notice bleue est demandée : selon Interpol, ce type d'avis sert à recueillir des renseignements sur une personne, notamment sur l'endroit où elle se trouve.
+
+[S33] Le 10 mai 2011, le parquet annonce un mandat d'arrêt international. Son statut change : il n'est plus recherché comme témoin, il est visé par un mandat. À ne pas confondre avec une notice rouge d'Interpol, qui demande de localiser une personne et de l'arrêter provisoirement, sans être, elle-même, un mandat d'arrêt.
+[pause 1.0]
+
+# — Chapitre 6 : Qui savait quoi ?
+[S34] Revenons à notre question : en avril 2011, qui savait quoi ? Le collège-lycée a entendu parler de maladie, puis d'Australie ; l'employeur d'Agnès et le patron de Xavier, d'Australie. Neuf proches ont lu une histoire de protection américaine, avec la consigne de parler d'Australie. Le club de tir, lui, l'avait vu pour la dernière fois le premier avril.
+
+[S35] Les versions ne concordaient qu'en apparence : selon la lettre aux proches, l'Australie servait de couverture. Achats, nuits d'hôtel, retrait, déplacements : tout cela n'a été assemblé qu'après coup, par l'enquête. Voilà la réponse que permettent nos sources : sur le moment, aucun de ces interlocuteurs n'avait l'ensemble du tableau.
+
+[S36] Un mot sur un autre travail. Akeb a écrit un roman, La dernière correction, qui imagine ce qui arrive à un homme disparu le jour où il reprend la parole. C'est une fiction : des personnages inventés, une fin imaginée, rien qui éclaire l'enquête réelle. Le livre existe en e-book et en livre audio ; les deux liens sont dans la description.
+
+[S37] Le prochain épisode part de ce mandat d'arrêt du 10 mai 2011. Viendront les fouilles dans le Var, puis des années de signalements. Pour chacun, nous verrons qui a affirmé quoi, et ce que les vérifications en ont laissé.
