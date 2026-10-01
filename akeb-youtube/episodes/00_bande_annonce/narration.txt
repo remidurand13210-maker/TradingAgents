@@ -1,0 +1,20 @@
+# BROUILLON v1 — NE PAS NARRER AVANT VALIDATION
+# Épisode 00 — Bande-annonce de la saison 1
+# Lignes « # » ignorées par les outils. Annotations et sources : script_annote.md ; vérification : VERIFICATION_V1.md.
+
+[S01] Nantes, le 21 avril 2011. Agnès Dupont de Ligonnès et ses quatre enfants sont retrouvés morts à leur domicile. Le père a disparu. Où est-il ?
+[pause 1.0]
+# (carton titre muet 3 s)
+
+[S02] Sa dernière trace connue date du 15 avril, à Roquebrune-sur-Argens, dans le Var. Le 10 mai, le parquet de Nantes annonce un mandat d'arrêt international. Désigné par l'enquête comme principal suspect, Xavier Dupont de Ligonnès n'a jamais été jugé.
+
+[S03] Saison 1 : quatre épisodes pour reprendre ce dossier depuis le début. D'abord, la vie de la famille avant l'affaire. Puis avril 2011, les jours qui changent tout.
+
+[S04] Ensuite, quinze ans de pistes et de vérifications : des fouilles, des signalements, et en octobre 2019, une interpellation à Glasgow présentée à tort comme la sienne, avant qu'un test ADN établisse que ce n'était pas lui.
+
+[S05] Enfin, notre hypothèse sur ce qu'il est devenu : argumentée, et présentée pour ce qu'elle est.
+
+[S06] Notre méthode : des sources lues, datées, citées. Et une séparation nette entre ce qui est établi, ce que des témoins rapportent, et ce qui reste une hypothèse.
+[pause 0.8]
+
+[S07] Est-il mort ? Est-il vivant ? Ce que l'on sait, et ce que l'on ignore encore.

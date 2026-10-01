@@ -1,0 +1,20 @@
+plan,segment,type,statut,texte,texte2,source,faits,poids,params
+P001,S01,date,FAIT,21 avril 2011,"Nantes, domicile familial","20 Minutes, 03/04/2018 ; La Dépêche (AFP), 10/05/2011",21 avril 2011,1,"{""precision"": ""découverte d'Agnès et de ses quatre enfants""}"
+P002,S01,texte,FAIT,Agnès · Arthur · Thomas · Anne · Benoît,"Des personnes, pas un décor","20 Minutes, 03/04/2018 ; Le Dauphiné libéré, 20/04/2026",avril 2011,1,"{""anim"": ""fixe""}"
+P003,S01,question,,Où est-il ?,,,,0.6,
+P004,-,titre,,Les Mystères d'Akeb,Saison 1 · Bande-annonce,,,,"{""numero"": ""00"", ""duree"": 3}"
+P005,S02,carte,FAIT,Du Var à Nantes : avril 2011,,"La Dépêche (AFP), 10/05/2011 ; Le Dauphiné libéré, 20/04/2026",15 et 21 avril 2011,1.2,"{""points"": [{""lon"": -1.5536, ""lat"": 47.2184, ""label"": ""Nantes"", ""date"": ""21 avril 2011 : découverte"", ""cote"": ""gauche""}, {""lon"": 6.6378, ""lat"": 43.4436, ""label"": ""Roquebrune-sur-Argens"", ""date"": ""15 avril 2011 : dernière trace connue"", ""cote"": ""droite""}], ""bbox"": [-5.5, 41.2, 9.8, 51.3], ""trajet"": false, ""anim"": ""revele""}"
+P006,S02,date,FAIT,10 mai 2011,"Nantes, parquet","La Dépêche (AFP), 10/05/2011 ; Le Dauphiné libéré, 20/04/2026",10 mai 2011,1,"{""precision"": ""annonce d'un mandat d'arrêt international""}"
+P007,S02,texte,FAIT,"Désigné par l'enquête comme principal suspect, il n'a jamais été jugé.",Présomption d'innocence,"Le Dauphiné libéré, 20/04/2026",2011-2026,1,
+P008,S03,texte,,Saison 1 : 4 épisodes,Les Mystères d'Akeb,,,0.8,
+P009,S03,texte,,"Avant 2011 : une vie, une façade, des fissures",Épisode 1,,,1,
+P010,S03,texte,,Avril 2011 : les jours qui changent tout,Épisode 2,,,1,
+P011,S04,texte,,Après la disparition : les pistes et leurs vérifications,Épisode 3,"La Dépêche (AFP), 10/05/2011 ; Le Dauphiné libéré, 20/04/2026",2011-2026,1,
+P012,S04,frise,,De 2011 à 2026,,,,1.2,"{""jusqua"": 2026.75, ""focus"": [2011, 2026.75], ""curseur"": 2019.78, ""anim"": ""curseur""}"
+P013,S04,date,FAIT,11 et 12 octobre 2019,"Glasgow : interpellation, puis exclusion par test ADN","Le Parisien, 12/10/2019 ; 20 Minutes, 03/04/2018",11-12 octobre 2019,1,"{""precision"": ""aucune identité de la personne interpellée""}"
+P014,S05,texte,,Mort ou en fuite ?,Épisode 4,,,1,
+P015,S06,texte,,Sources lues · datées · citées,Notre méthode,,,1,
+P016,S06,texte,,Établi · Témoignage rapporté · Hypothèse,Trois registres séparés,,,1,
+P017,S07,question,,Est-il mort ? Est-il vivant ?,,,,1,
+P018,-,sources,,Sources de cette bande-annonce,"La Dépêche (AFP), 10/05/2011 | 20 Minutes, 03/04/2018 | Le Parisien, 12/10/2019 | Le Dauphiné libéré, 20/04/2026",,,,"{""duree"": 4}"
+P019,-,texte,,Saison 1 — 4 épisodes,Les Mystères d'Akeb,,,,"{""duree"": 4}"
