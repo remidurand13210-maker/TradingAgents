@@ -1,0 +1,548 @@
+{
+  "sujet": "Affaire XDDL — apports des vidéos YouTube pour les quatre épisodes des Mystères d'Akeb ; repérage au 1er octobre 2026",
+  "outil": "codex",
+  "sources": [
+    {
+      "ref": "S-youtube_apports_codex-01",
+      "titre": "Affaire Dupont de Ligonnès : l’énigme du compte Epsilon, actif jusqu’en 2017 sur un forum religieux",
+      "url": "https://www.youtube.com/watch?v=U7MtfH3TUpY",
+      "auteur_organisme": "Ouest-France ; Arnaud Vajdic et Claude-Alain Roten",
+      "media": "Ouest-France",
+      "date_publication": "2026-06-02",
+      "date_faits": "2011-2026",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Durée 592 s affichée ou obtenue dans la page publique. Page et description ouvertes dans le navigateur ; transcription française automatique lue intégralement, 0:00–9:41. Audio et images non visionnés. HTML : 593 s, lecteur : 592 s. Enquête originale, distincte des reprises. Repères : 1:36 méthode ; 3:25 stylométrie ; 5:44 rapprochement biblique ; 7:34 limites ; 8:00 imitation possible."
+    },
+    {
+      "ref": "S-youtube_apports_codex-02",
+      "titre": "Affaire Dupont de Ligonnès : l'histoire de celle dont on ne parle plus",
+      "url": "https://www.youtube.com/watch?v=KOf4qgq1XHw",
+      "auteur_organisme": "Ouest-France ; Arnaud Vajdic",
+      "media": "Ouest-France",
+      "date_publication": "2026-08-02",
+      "date_faits": "2011-2026",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Durée 948 s affichée ou obtenue dans la page publique. Page et description ouvertes ; transcription française automatique lue intégralement, 0:01–15:36. Audio et images non visionnés. HTML : 949 s. Repères : 1:25 enfance ; 4:24 quotidien ; 6:12 travail ; 7:59 tableau financier ; 10:26 amie ; 14:00 choix du récit. Erreur manifeste de sous-titrage à 1:53 : année incompatible avec les âges donnés, à vérifier."
+    },
+    {
+      "ref": "S-youtube_apports_codex-03",
+      "titre": "Xavier Dupont de Ligonnès : le shérif à sa recherche s'explique｜TF1 INFO",
+      "url": "https://www.youtube.com/watch?v=L-DBCx5Yb9w",
+      "auteur_organisme": "TF1 INFO / LCI",
+      "media": "TF1 INFO / LCI",
+      "date_publication": "2026-03-27",
+      "date_faits": "2011-2026",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Durée 42 s affichée ou obtenue dans la page publique. Page et description ouvertes ; transcription française automatique lue intégralement, 0:00–0:38. Audio et images non visionnés. À 0:22, explication attribuée au shérif. Le titre et la présentation initiale doivent être confrontés à la mise au point du 26 mars publiée par KOSA."
+    },
+    {
+      "ref": "S-youtube_apports_codex-04",
+      "titre": "Xavier Dupont de Ligonnès Caché dans le désert du Texas ?",
+      "url": "https://www.youtube.com/watch?v=P6WaBUTONCg",
+      "auteur_organisme": "franceinfo",
+      "media": "franceinfo",
+      "date_publication": "2026-03-27",
+      "date_faits": "2011-2026",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Durée 104 s affichée ou obtenue dans la page publique. Page et description ouvertes ; totalité du texte français exporté lue, mais lacunes importantes : 0:13–0:40, 0:51–1:08, 1:16–1:24. Interventions en anglais non transcrites dans ce fichier ; contenu audiovisuel non visionné. Accès classé partiel. Repère exploitable : 1:24 origine de l'appel."
+    },
+    {
+      "ref": "S-youtube_apports_codex-05",
+      "titre": "Dupont de Ligonnès : M6, piégée par le faux témoignage d'un prétendu prêtre, présente ses « excuses »",
+      "url": "https://www.youtube.com/watch?v=vNE0Rx2w9sk",
+      "auteur_organisme": "Europe 1 ; reportage de Maylène Trémolet",
+      "media": "Europe 1",
+      "date_publication": "2026-06-03",
+      "date_faits": "2011-2026",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Durée 108 s affichée ou obtenue dans la page publique. Page et description ouvertes ; transcription française automatique lue intégralement, 0:00–1:46. Audio et images non visionnés. Repères : 0:38 démenti ; 1:13 Arcom ; 1:31 réaction de Courbet et excuses de M6. Ne pas confondre cette édition avec le montage voisin S-06."
+    },
+    {
+      "ref": "S-youtube_apports_codex-06",
+      "titre": "Affaire Dupont de Ligonnès : l'évêque de Carcassonne dément les propos d'un prétendu prêtre sur M6",
+      "url": "https://www.youtube.com/watch?v=YcUTQJajaLs",
+      "auteur_organisme": "Europe 1 ; Maylène Trémolet ; Bruno Valentin",
+      "media": "Europe 1",
+      "date_publication": "2026-06-03",
+      "date_faits": "2011-2026",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Durée 98 s affichée ou obtenue dans la page publique. Page et description ouvertes ; transcription française automatique lue intégralement, 0:00–1:36. Audio et images non visionnés. Repères : 0:43 propos de l'évêque ; 0:56 communauté ; 1:17 critique des vérifications. Même reportage et mêmes extraits que S-05 : une origine pour ce démenti."
+    },
+    {
+      "ref": "S-youtube_apports_codex-07",
+      "titre": "Affaire Dupont de Ligonnès sur M6 : \"Tout paraissait fumeux\" (Gilles Galloux)",
+      "url": "https://www.youtube.com/watch?v=yCzsRDKpObo",
+      "auteur_organisme": "Europe 1 ; Thomas Isle ; Gilles Galloux",
+      "media": "Europe 1",
+      "date_publication": "2026-06-03",
+      "date_faits": "2011-2026",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Durée 1063 s affichée ou obtenue dans la page publique. Page et description ouvertes ; transcription française automatique lue intégralement, 0:00–17:41. Audio et images non visionnés. HTML : 1064 s. Repères : 2:35 coulisses M6 ; 7:56 contestation Epsilon ; 13:01 origine Texas ; 16:48 limites de sa piste aérienne. Même intervenant que LEGEND : aucun nouveau témoin indépendant."
+    },
+    {
+      "ref": "S-youtube_apports_codex-08",
+      "titre": "UPDATE: Brewster County sheriff seeking information on French murder suspect",
+      "url": "https://www.firstalert7.com/2026/03/25/brewster-county-sheriff-needs-help-finding-man/",
+      "auteur_organisme": "Katie Carlock ; Tamlyn Price",
+      "media": "KOSA / First Alert 7",
+      "date_publication": "2026-03-25",
+      "date_faits": "2011-2026",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_etranger",
+      "origine": "propre",
+      "notes": "Durée 0 s (sans objet : article). Article intégralement ouvert et lu ; mise à jour 26 mars 2026. Reproduit la clarification du Sheriff's Office ; communiqué Facebook original non ouvert. Source associée pour contrôler les vidéos françaises, sans compter comme observation confirmée."
+    },
+    {
+      "ref": "S-youtube_apports_codex-09",
+      "titre": "Affaire Dupont de Ligonnès : elle a enquêté pendant 15 ans…et raconte ce qu’elle a vu",
+      "url": "https://www.youtube.com/watch?v=g82Qa73OKrg",
+      "auteur_organisme": "TF1 INFO ; Guillaume Farde ; Anne-Sophie Martin",
+      "media": "TF1 INFO",
+      "date_publication": "2026-04-07",
+      "date_faits": "2011-2026",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Durée 3988 s affichée ou obtenue dans la page publique. Page et description ouvertes par root ; transcription intégralement lue par l'agent enquete_hypotheses. Audio et images non visionnés. Analyse détaillée dans youtube_archives_entretiens_codex.json. Priorité épisodes 2–3 ; départ utile 8:04, puis 50:15."
+    },
+    {
+      "ref": "S-youtube_apports_codex-10",
+      "titre": "XAVIER DUPONT DE LIGONNÈS : L'ENQUÊTEUR QUI LE TRAQUE DEPUIS 15 ANS FAIT 3 RÉVÉLATIONS INCROYABLES !",
+      "url": "https://www.youtube.com/watch?v=FcjjKpvfW5M",
+      "auteur_organisme": "LEGEND ; Gilles Galloux ; Anne Tuffigo",
+      "media": "LEGEND",
+      "date_publication": "2026-05-17",
+      "date_faits": "2011-2026",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "temoignage_direct",
+      "origine": "propre",
+      "notes": "Durée 5297 s affichée ou obtenue dans la page publique. Page et description ouvertes par root ; transcription intégralement lue par l'agent enquete_hypotheses. HTML : 5298 s. Audio et images non visionnés. Analyse détaillée dans youtube_archives_entretiens_codex.json. Repères à consulter : 5:02, 17:43, 57:23."
+    },
+    {
+      "ref": "S-youtube_apports_codex-11",
+      "titre": "XAVIER DUPONT DE LIGONNÈS : SECTE, FUITE AUX USA, CAVALE… LES RÉVÉLATIONS DE SON MEILLEUR AMI",
+      "url": "https://www.youtube.com/watch?v=RHxku3l8DwE",
+      "auteur_organisme": "LEGEND ; Lola Fillon ; Bruno de Stabenrath",
+      "media": "LEGEND",
+      "date_publication": "2026-04-14",
+      "date_faits": "2011-2026",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "temoignage_direct",
+      "origine": "propre",
+      "notes": "Durée 2209 s affichée ou obtenue dans la page publique. Page et description ouvertes par root ; transcription intégralement lue par l'agent biographies. HTML : 2210 s. Audio et images non visionnés. Analyse détaillée dans youtube_documentaires_biographies_codex.json. Priorité souvenirs : 5:05 ; interprétations : 10:18 et 27:43."
+    },
+    {
+      "ref": "S-youtube_apports_codex-12",
+      "titre": "XAVIER DUPONT DE LIGONNÈS, l'homme qui a horrifié la France (#HVF)",
+      "url": "https://www.youtube.com/watch?v=C4SDWURJwb4",
+      "auteur_organisme": "McSkyz",
+      "media": "McSkyz",
+      "date_publication": "2025-06-20",
+      "date_faits": "2011-2026",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "documentaire",
+      "origine": "propre",
+      "notes": "Durée 8342 s affichée ou obtenue dans la page publique. Page et description ouvertes par root ; transcription intégralement lue par l'agent biographies. HTML : 8343 s. Audio et images non visionnés. Analyse dans youtube_documentaires_biographies_codex.json. Repères de structure : 24:40, 1:01:46, 1:37:15. Les illustrations n'ont pas été examinées."
+    },
+    {
+      "ref": "S-youtube_apports_codex-13",
+      "titre": "Xavier Dupont de Ligonnès : dans la tête du suspect",
+      "url": "https://www.youtube.com/watch?v=4MQ4_oEbXOo",
+      "auteur_organisme": "Canal Crime ; Ionut Teianu",
+      "media": "Canal Crime",
+      "date_publication": "2022-04-26",
+      "date_faits": "2011-2026",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "documentaire",
+      "origine": "propre",
+      "notes": "Durée 4970 s affichée ou obtenue dans la page publique. Page ouverte par root ; description et identification du film consultées par l'agent biographies ; transcription intégralement lue par celui-ci. Audio et images non visionnés. Docufiction d'Ionut Teianu, diffusé initialement en 2018 selon RTL. Analyse dans youtube_documentaires_biographies_codex.json ; début 0:26 à traiter comme reconstitution."
+    },
+    {
+      "ref": "S-youtube_apports_codex-14",
+      "titre": "\"Xavier Dupont de Ligonnès: le mystère\": l’édition spéciale de BFMTV en intégralité",
+      "url": "https://www.youtube.com/watch?v=AdWNNlJdohc",
+      "auteur_organisme": "BFMTV",
+      "media": "BFMTV",
+      "date_publication": "2024-03-18",
+      "date_faits": "2011-2026",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Durée 7431 s affichée ou obtenue dans la page publique. Page et description ouvertes par root ; transcription intégralement lue par l'agent enquete_hypotheses, jusqu'à 2:03:49. HTML : 7432 s. Audio et images non visionnés ; positions de la sœur à distinguer des pièces judiciaires. Le procureur est cité par des intervenants, sans prise de parole directement identifiable dans ce texte."
+    },
+    {
+      "ref": "S-youtube_apports_codex-15",
+      "titre": "Xavier Dupont de Ligonnès : l'enquête XXL",
+      "url": "https://www.youtube.com/watch?v=SJYuUck4fVs",
+      "auteur_organisme": "France Télévisions ; Julie Ricco, Anne Maquignon, Paul Géli, Stéphane Lopez, Benoît Thébaud",
+      "media": "C dans l'air / France Télévisions",
+      "date_publication": "2026-08-29",
+      "date_faits": "2011-2026",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Durée 586 s affichée ou obtenue dans la page publique. Page et description intégralement ouvertes et lues dans le navigateur ; aucune transcription obtenue après chargement et développement de la description. Vidéo non visionnée. HTML : 587 s. La liste des experts est celle de l'émission ; leur prise de parole dans ce clip n'est pas vérifiée."
+    }
+  ],
+  "assertions": [
+    {
+      "ref": "A-youtube_apports_codex-01",
+      "assertion": "Ouest-France décrit des rapprochements de style, de références bibliques et d'interlocuteurs entre Epsilon et les comptes connus de XDDL ; le journaliste précise qu'il ne dispose pas d'identification formelle.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Arnaud Vajdic dans son enquête vidéo",
+      "date_faits": "2026-06-02",
+      "lieu": "",
+      "sources": [
+        "S-youtube_apports_codex-01"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "1:36–7:59. Nouvelle source originale accessible pour la piste déjà relatée dans pistes_2020_2026.json. La méthode et ses résultats sont rapportés, sans audit du corpus.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "La vidéo explicite elle-même sa limite ; la contradiction Galloux figure en A-02. Aucun résultat officiel supplémentaire obtenu."
+      }
+    },
+    {
+      "ref": "A-youtube_apports_codex-02",
+      "assertion": "Galloux conteste l'attribution d'Epsilon en invoquant ses travaux de 2011 et des adresses IP différentes ; aucune pièce technique n'est accessible dans cet entretien.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Gilles Galloux, ancien enquêteur, intervenant à titre personnel",
+      "date_faits": "2026-06-03",
+      "lieu": "",
+      "sources": [
+        "S-youtube_apports_codex-07"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "7:56–9:08. Parole contradictoire enfin consultable ; pas une décision du parquet. Comparer les deux méthodes.",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "Journaux IP et conclusions judiciaires non consultés ; sa déclaration ne clôt pas à elle seule la piste."
+      }
+    },
+    {
+      "ref": "A-youtube_apports_codex-03",
+      "assertion": "Le portrait d'Agnès rassemble ses activités professionnelles et familiales, des courriels présentés par le journaliste et le souvenir d'une amie.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Arnaud Vajdic et une amie d'Agnès interviewée par Ouest-France",
+      "date_faits": "2026-08-02",
+      "lieu": "",
+      "sources": [
+        "S-youtube_apports_codex-02"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "4:24–6:49 et 10:26–11:42. Matière nouvelle utile pour l'épisode 1 ; écrits originaux et dossier judiciaire non joints. Écarter les détails intimes non nécessaires.",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "Le travail scolaire figure déjà dans bio_famille.json ; les métiers antérieurs et l'aide à l'activité commerciale demandent une source indépendante."
+      }
+    },
+    {
+      "ref": "A-youtube_apports_codex-04",
+      "assertion": "La vidéo TF1 présente une observation alléguée au Texas avant de diffuser une explication du shérif sur l'objectif de son appel.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Présentation TF1 et propos traduits attribués au shérif",
+      "date_faits": "2026-03-27",
+      "lieu": "",
+      "sources": [
+        "S-youtube_apports_codex-03"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "0:00–0:38. Le conditionnel de la présentation ne doit pas devenir une observation authentifiée.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "La clarification publiée par KOSA ne fait état d'aucun élément nouveau ni d'observation confirmée."
+      }
+    },
+    {
+      "ref": "A-youtube_apports_codex-05",
+      "assertion": "KOSA reproduit une clarification selon laquelle l'appel du shérif suit la visite d'une équipe privée ; le média indique qu'aucune observation n'est confirmée dans le comté ou l'ouest du Texas.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Brewster County Sheriff's Office, communiqué reproduit par KOSA ; rédaction KOSA",
+      "date_faits": "2026-03-26",
+      "lieu": "",
+      "sources": [
+        "S-youtube_apports_codex-08"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "À confronter aux clips français ; le site du média a été lu, le post original n'a pas été ouvert.",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "À 13:01–13:46 de son entretien Europe 1, Galloux décrit également la visite de l'équipe. Il s'agit d'un accord sur l'origine de l'appel, pas d'une localisation."
+      }
+    },
+    {
+      "ref": "A-youtube_apports_codex-06",
+      "assertion": "Le texte français de franceinfo attribue l'origine de l'appel au shérif à la rencontre avec un policier français retraité.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Narration de franceinfo",
+      "date_faits": "2026-03-27",
+      "lieu": "",
+      "sources": [
+        "S-youtube_apports_codex-04"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": false,
+      "notes": "1:24–1:34. Les interventions anglaises manquent dans la transcription exportée ; ne pas les restituer à partir de ce texte."
+    },
+    {
+      "ref": "A-youtube_apports_codex-07",
+      "assertion": "Europe 1 diffuse le démenti de Bruno Valentin et rapporte la saisine de l'Arcom, puis les excuses de M6 dans une édition ultérieure.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Bruno Valentin et reportage de Maylène Trémolet",
+      "date_faits": "2026-06-03",
+      "lieu": "",
+      "sources": [
+        "S-youtube_apports_codex-05",
+        "S-youtube_apports_codex-06"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "S-06 : 0:43–1:26 ; S-05 : 1:13–1:41. Deux montages d'une même origine. Aucune sanction ni poursuite établie ici.",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Les extraits attribués à l'évêque sont lisibles dans les deux montages ; ils ne constituent qu'une origine indépendante."
+      }
+    },
+    {
+      "ref": "A-youtube_apports_codex-08",
+      "assertion": "Galloux raconte les vérifications insuffisantes autour du témoignage diffusé sur M6 et décrit l'origine de son déplacement privé au Texas.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Gilles Galloux sur Europe 1",
+      "date_faits": "2026-06-03",
+      "lieu": "",
+      "sources": [
+        "S-youtube_apports_codex-07"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": false,
+      "notes": "2:35–5:31 ; 13:01–14:37. Utile pour montrer comment une piste médiatique se forme. Souvenirs du plateau et investigations privées à attribuer."
+    },
+    {
+      "ref": "A-youtube_apports_codex-09",
+      "assertion": "Dans le portrait d'Agnès, le journaliste interprète des écrits conjugaux et financiers comme des manifestations d'emprise ; la conclusion sur le mobile reste son analyse.",
+      "categorie": "HYPOTHESE",
+      "attribution": "Arnaud Vajdic",
+      "date_faits": "2026-08-02",
+      "lieu": "",
+      "sources": [
+        "S-youtube_apports_codex-02"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "forte",
+      "centrale": false,
+      "notes": "7:59–8:39 et 14:26–14:54. Attribution indispensable ; ni diagnostic clinique ni mobile définitivement établi."
+    },
+    {
+      "ref": "A-youtube_apports_codex-10",
+      "assertion": "L'expert interrogé par Ouest-France demande de tester l'hypothèse d'une imitation avant de trancher l'identité de l'auteur d'Epsilon.",
+      "categorie": "HYPOTHESE",
+      "attribution": "Claude-Alain Roten",
+      "date_faits": "2026-06-02",
+      "lieu": "",
+      "sources": [
+        "S-youtube_apports_codex-01"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": false,
+      "notes": "8:00–8:21. Conserver ce passage de réserve avec toute présentation de ses arguments."
+    }
+  ],
+  "chronologie": [
+    {
+      "date": "2026-03-27",
+      "precision": "jour",
+      "evenement": "Publication des clips TF1 et franceinfo sur l'appel texan.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": [
+        "S-youtube_apports_codex-03",
+        "S-youtube_apports_codex-04"
+      ],
+      "note": "Date de mise en ligne YouTube, non date d'une observation confirmée."
+    },
+    {
+      "date": "2026-06-02",
+      "precision": "jour",
+      "evenement": "Publication de la vidéo originale Ouest-France consacrée à Epsilon.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": [
+        "S-youtube_apports_codex-01"
+      ],
+      "note": "La description et les sous-titres n'établissent pas l'identité du compte."
+    },
+    {
+      "date": "2026-06-03",
+      "precision": "jour",
+      "evenement": "Publications Europe 1 du démenti, des excuses de M6 et de l'entretien Galloux.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": [
+        "S-youtube_apports_codex-05",
+        "S-youtube_apports_codex-06",
+        "S-youtube_apports_codex-07"
+      ],
+      "note": "Dates YouTube vérifiées ; la date de mise en ligne n'est pas toujours la première diffusion."
+    },
+    {
+      "date": "2026-08-02",
+      "precision": "jour",
+      "evenement": "Publication du portrait vidéo d'Agnès par Ouest-France.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": [
+        "S-youtube_apports_codex-02"
+      ],
+      "note": "Apport éditorial biographique ; aucune avancée judiciaire annoncée par cette seule publication."
+    },
+    {
+      "date": "2026-08-29",
+      "precision": "jour",
+      "evenement": "Publication du clip C dans l'air consacré à la fascination et aux enquêtes parallèles.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": [
+        "S-youtube_apports_codex-15"
+      ],
+      "note": "Métadonnées et description lues, pas de transcription ni de visionnage du clip."
+    }
+  ],
+  "details_moins_connus": [
+    {
+      "detail": "Épisode 1 : commencer par le portrait d'Agnès et les souvenirs de Bruno.",
+      "interet_interpretation": "Repères prioritaires : Agnès 4:24 et 6:12 ; Bruno 5:05. Garder les convictions religieuses ou de survie attribuées.",
+      "sources": [
+        "S-youtube_apports_codex-02",
+        "S-youtube_apports_codex-11"
+      ]
+    },
+    {
+      "detail": "Épisode 2 : privilégier l'entretien Martin ; utiliser les reconstitutions après contrôle.",
+      "interet_interpretation": "Martin 8:04 et 10:29 ; Canal Crime 0:26 relève de la fiction. Les pensées prêtées à XDDL ne deviennent pas des faits.",
+      "sources": [
+        "S-youtube_apports_codex-09",
+        "S-youtube_apports_codex-13"
+      ]
+    },
+    {
+      "detail": "Épisode 3 : associer chaque piste aux vérifications et aux démentis qui la suivent.",
+      "interet_interpretation": "Epsilon 7:34 avec Galloux 7:56 ; Texas avec KOSA ; M6 avec l'évêque et les excuses. Croiser les acteurs plutôt que compter les reprises.",
+      "sources": [
+        "S-youtube_apports_codex-01",
+        "S-youtube_apports_codex-03",
+        "S-youtube_apports_codex-05",
+        "S-youtube_apports_codex-06",
+        "S-youtube_apports_codex-07",
+        "S-youtube_apports_codex-08"
+      ]
+    },
+    {
+      "detail": "Épisode 4 : confronter les positions des proches et des enquêteurs.",
+      "interet_interpretation": "Lire les fiches TF1, LEGEND et BFMTV dans les catalogues associés ; séparer souvenir, enquête ancienne, recherche privée et conviction.",
+      "sources": [
+        "S-youtube_apports_codex-09",
+        "S-youtube_apports_codex-10",
+        "S-youtube_apports_codex-11",
+        "S-youtube_apports_codex-14"
+      ]
+    },
+    {
+      "detail": "McSkyz et Canal Crime offrent des exemples de construction narrative.",
+      "interet_interpretation": "Structure et rythme sont des pistes de travail ; dialogues, diagnostics et intentions doivent conserver leur qualification.",
+      "sources": [
+        "S-youtube_apports_codex-12",
+        "S-youtube_apports_codex-13"
+      ]
+    }
+  ],
+  "contradictions": [
+    {
+      "sujet": "Attribution du compte Epsilon",
+      "versions": [
+        {
+          "version": "Ouest-France expose un faisceau de rapprochements tout en conservant une réserve.",
+          "sources": [
+            "S-youtube_apports_codex-01"
+          ]
+        },
+        {
+          "version": "Galloux rejette ce rapprochement et invoque une analyse IP antérieure.",
+          "sources": [
+            "S-youtube_apports_codex-07"
+          ]
+        }
+      ],
+      "traitement_recommande": "Présenter les méthodes et leur provenance ; attendre les données vérifiables et une conclusion officielle."
+    },
+    {
+      "sujet": "Portée de l'appel texan",
+      "versions": [
+        {
+          "version": "Des clips français évoquent une observation alléguée ou une nouvelle piste.",
+          "sources": [
+            "S-youtube_apports_codex-03",
+            "S-youtube_apports_codex-04"
+          ]
+        },
+        {
+          "version": "KOSA reproduit la précision : aucun élément nouveau, aucune observation confirmée.",
+          "sources": [
+            "S-youtube_apports_codex-08"
+          ]
+        }
+      ],
+      "traitement_recommande": "Inclure la clarification datée ; ne pas déduire une présence au Texas d'un appel à informations."
+    }
+  ],
+  "lacunes": [
+    "Repérage large en français et en anglais, sans garantie d'exhaustivité de toutes les vidéos YouTube, republications ou suppressions.",
+    "Les transcriptions ont été lues ; les images, la mise en scène, la musique et l'audio ne sont pas analysés. Aucun média audiovisuel n'a été téléchargé.",
+    "Les noms, dates et montants des sous-titres automatiques peuvent être erronés ; contrôler toute information retenue dans une pièce ou une source indépendante.",
+    "La transcription française de franceinfo omet plusieurs interventions anglaises ; classement lu_partiel malgré lecture complète du texte disponible.",
+    "Le clip C dans l'air d'août n'a pas fourni de transcription ; sa description ne prouve pas ce que chacun des experts y déclare.",
+    "Les sources associées demeurent distinctes des pages YouTube : la lecture de KOSA ne vaut pas lecture d'une vidéo du média.",
+    "L'identité d'Epsilon, les corpus de stylométrie et les journaux IP ne sont pas vérifiés par ces vidéos.",
+    "Les comptes, héritages, courriels et pièces judiciaires évoqués dans le portrait d'Agnès demandent une consultation originale et indépendante avant réutilisation factuelle.",
+    "La date de mise en ligne d'une vidéo ne se confond pas avec la date du témoignage ou la diffusion initiale ; différences de durée d'une seconde consignées.",
+    "Les entretiens répétés de Galloux ou Bruno ne multiplient pas les témoins indépendants ; les deux clips Europe 1 du démenti ont la même origine.",
+    "Aucune conclusion nouvelle du parquet au 1er octobre 2026 ne peut être déduite de ce repérage."
+  ]
+}

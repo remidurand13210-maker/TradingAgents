@@ -1,0 +1,908 @@
+{
+  "sujet": "Agnès et les enfants Dupont de Ligonnès : parcours familial jusqu’en avril 2011",
+  "sources": [
+    {
+      "ref": "S-bio_famille_codex-01",
+      "titre": "Xavier Dupont de Ligonnès, portraits en famille",
+      "url": "https://www.lemonde.fr/societe/article/2011/07/27/xavier-dupont-de-ligonnes-portraits-en-famille_1540118_3224.html",
+      "auteur_organisme": "Claire Ané",
+      "media": "Le Monde",
+      "date_publication": "2011-07-27",
+      "date_faits": "1961-2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Passages biographiques visibles lus ; actualisation affichée au 2019-10-14. Les messages privés rapportés ne sont pas les originaux."
+    },
+    {
+      "ref": "S-bio_famille_codex-02",
+      "titre": "Pourquoi le Var est un département central dans la vie de Xavier Dupont de Ligonnès",
+      "url": "https://www.nicematin.com/faits-divers/pourquoi-le-var-est-un-departement-central-dans-la-vie-de-xavier-dupont-de-ligonnes-761383",
+      "auteur_organisme": "Eric Marmottans",
+      "media": "Nice-Matin / Var-Matin",
+      "date_publication": "2022-04-19",
+      "date_faits": "1981-2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Texte accessible lu ; actualisé au 2025-06-28. Plusieurs épisodes reposent sur des souvenirs et sur Society."
+    },
+    {
+      "ref": "S-bio_famille_codex-03",
+      "titre": "Des Nantais croyants et discrets",
+      "url": "https://www.leparisien.fr/archives/des-nantais-croyants-et-discrets-22-04-2011-1418225.php",
+      "auteur_organisme": "Le Parisien, auteur non affiché",
+      "media": "Le Parisien",
+      "date_publication": "2011-04-22",
+      "date_faits": "1990-2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Portrait contemporain ; tableaux comptables et pièces scolaires non joints."
+    },
+    {
+      "ref": "S-bio_famille_codex-04",
+      "titre": "Xavier Dupont de Ligonnès, la trajectoire d’un touche-à-tout",
+      "url": "https://www.leparisien.fr/faits-divers/xavier-dupont-de-ligonnes-la-trajectoire-d-un-touche-a-tout-30-04-2011-1429205.php",
+      "auteur_organisme": "Le Parisien, auteur non affiché",
+      "media": "Le Parisien",
+      "date_publication": "2011-04-30",
+      "date_faits": "1961-2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Reportage biographique et paroles de proches. Plusieurs dates divergent des publications ultérieures."
+    },
+    {
+      "ref": "S-bio_famille_codex-05",
+      "titre": "Nantes : les camarades d’Anne et Benoît bouleversés",
+      "url": "https://www.leparisien.fr/loire-atlantique-44/nantes-les-camarades-d-anne-et-benoit-bouleverses-22-04-2011-1418959.php",
+      "auteur_organisme": "Le Parisien, auteur non affiché",
+      "media": "Le Parisien",
+      "date_publication": "2011-04-22",
+      "date_faits": "2011-04",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Déclarations de responsables scolaires ; distinguer leurs fonctions institutionnelles des souvenirs des camarades."
+    },
+    {
+      "ref": "S-bio_famille_codex-06",
+      "titre": "Le dernier repas des Ligonnès",
+      "url": "https://www.lemonde.fr/societe/article/2011/04/29/le-dernier-repas-des-ligonnes_1514579_3224.html",
+      "auteur_organisme": "Patricia Jolly",
+      "media": "Le Monde",
+      "date_publication": "2011-04-29",
+      "date_faits": "2011-04",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Passages utiles lus ; profil professionnel attribué au compte Copains d’avant d’Agnès."
+    },
+    {
+      "ref": "S-bio_famille_codex-07",
+      "titre": "Xavier Dupont de Ligonnès : une double vie troublante",
+      "url": "https://www.20minutes.fr/societe/713065-20110426-societe-xavier-dupont-ligonnes-double-vie-troublante",
+      "auteur_organisme": "Frédéric Brenon avec Matthieu Goar",
+      "media": "20 Minutes",
+      "date_publication": "2011-04-26",
+      "date_faits": "2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Reportage ; certains éléments concernant l’épouse sont explicitement repris de BFMTV."
+    },
+    {
+      "ref": "S-bio_famille_codex-08",
+      "titre": "Xavier Dupont de Ligonnès : qui se cache derrière l’homme le plus recherché de France ?",
+      "url": "https://www.rtl.fr/actu/justice-faits-divers/xavier-dupont-de-ligonnes-qui-se-cache-derriere-l-homme-le-plus-recherche-de-france-7900525431",
+      "auteur_organisme": "RTL, auteur non affiché",
+      "media": "RTL",
+      "date_publication": "",
+      "date_faits": "1961-2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Texte de présentation lu ; date non affichée dans la version accessible. Audio non écouté."
+    },
+    {
+      "ref": "S-bio_famille_codex-09",
+      "titre": "Agnès et les enfants suivaient Xavier les yeux fermés",
+      "url": "https://www.leparisien.fr/archives/agnes-et-les-enfants-suivaient-xavier-les-yeux-fermes-22-04-2011-1418175.php",
+      "auteur_organisme": "Le Parisien ; ami d’enfance anonyme interrogé",
+      "media": "Le Parisien",
+      "date_publication": "2011-04-22",
+      "date_faits": "années 1970-2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Entretien avec un témoin dont les impressions ne constituent pas une connaissance exhaustive du foyer."
+    },
+    {
+      "ref": "S-bio_famille_codex-10",
+      "titre": "13h15, le samedi / 13h15, le dimanche : Le disparu, les deux derniers épisodes",
+      "url": "https://www.francetvpro.fr/contenu-de-presse/313703",
+      "auteur_organisme": "France Télévisions",
+      "media": "FranceTV Pro",
+      "date_publication": "2020-06-11",
+      "date_faits": "jeunesse et vie familiale ; diffusion 2020-06-13/14",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "officiel",
+      "origine": "propre",
+      "notes": "Communiqué de programmation lu. Documentaire non visionné ; information limitée à son descriptif."
+    },
+    {
+      "ref": "S-bio_famille_codex-11",
+      "titre": "Xavier Dupont de Ligonnès. L’enquête — extrait éditeur",
+      "url": "https://actualitte.com/PDF/dupont-ligonnes-enquete-so-lonely-marabout-extrait.pdf",
+      "auteur_organisme": "Pierre Boisson, Maxime Chamoux, Sylvain Gouverneur, Thibault Raisse",
+      "media": "Society / Marabout",
+      "date_publication": "2020",
+      "date_faits": "1961-2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "livre",
+      "origine": "propre",
+      "notes": "Extrait PDF de neuf pages consulté, notamment l’arbre familial ; livre complet non lu."
+    },
+    {
+      "ref": "S-bio_famille_codex-12",
+      "titre": "Affaire Xavier Dupont de Ligonnès : lettre à un ami d’enfance",
+      "url": "https://laregledujeu.org/2013/02/20/12381/affaire-xavier-dupont-de-ligonnes-lettre-a-un-ami-d%E2%80%99enfance/",
+      "auteur_organisme": "Bruno de Stabenrath",
+      "media": "La Règle du jeu",
+      "date_publication": "2013-02-20",
+      "date_faits": "1976-2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "temoignage_direct",
+      "origine": "propre",
+      "notes": "Lettre publique de première main lue ; commentaires des lecteurs exclus."
+    },
+    {
+      "ref": "S-bio_famille_codex-13",
+      "titre": "Affaire Xavier Dupont de Ligonnès : Il n’a pas préparé tout ça pour mourir, est convaincu Bruno de Stabenrath, ami du fugitif",
+      "url": "https://www.20minutes.fr/justice/3012459-20210402-affaire-xavier-dupont-ligonnes-prepare-tout-ca-mourir-convaincu-bruno-stabenrath-ami-fugitif",
+      "auteur_organisme": "Frédéric Brenon ; entretien avec Bruno de Stabenrath",
+      "media": "20 Minutes",
+      "date_publication": "2021-04-02",
+      "date_faits": "jeunesse ; 1995 ; conviction en 2021",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Entretien visible lu pour les souvenirs ; actualisé au 2021-04-05."
+    },
+    {
+      "ref": "S-bio_famille_codex-14",
+      "titre": "Arnaud Wajdzik : articles du journaliste de Ouest-France, biographie, photo",
+      "url": "https://www.ouest-france.fr/redaction/arnaud-wajdzik/",
+      "auteur_organisme": "Ouest-France / Arnaud Wajdzik",
+      "media": "Ouest-France",
+      "date_publication": "",
+      "date_faits": "2026-07-07/10",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Catalogue public lu : quatre épisodes sur Agnès, datés du 7 au 10 juillet 2026. Il ne donne pas leurs résultats d’enquête."
+    },
+    {
+      "ref": "S-bio_famille_codex-15",
+      "titre": "Dupont de Ligonnès : une vieille famille française dans le deuil",
+      "url": "https://www.lejdd.fr/societe/dupont-de-ligonnes-une-vieille-famille-francaise-dans-le-deuil-92866",
+      "auteur_organisme": "Marie Quenet",
+      "media": "Le Journal du Dimanche",
+      "date_publication": "2011-04-30",
+      "date_faits": "1961-2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Reportage accessible lu ; actualisation technique affichée au 2023-06-06."
+    },
+    {
+      "ref": "S-bio_famille_codex-16",
+      "titre": "Portrait. Xavier Dupont de Ligonnès : un homme endetté qui menait une double vie",
+      "url": "https://www.ledauphine.com/france-monde/2019/10/11/xavier-dupont-de-ligonnes-un-homme-endette-qui-menait-une-double-vie",
+      "auteur_organisme": "Le Dauphiné Libéré, auteur non affiché",
+      "media": "Le Dauphiné Libéré",
+      "date_publication": "2024-03-09",
+      "date_faits": "1961-2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Passages biographiques lus. Date visible 2024-03-09, actualisation 2025-04-28 ; l’URL porte 2019. Origine détaillée non indiquée."
+    },
+    {
+      "ref": "S-bio_famille_codex-17",
+      "titre": "Dupont de Ligonnès : Il n’y avait rien d’excessif dans leur foi",
+      "url": "https://www.20minutes.fr/societe/712093-20110422-societe-dupont-ligonnes-rien-excessif-foi",
+      "auteur_organisme": "20 Minutes, auteur non vérifiable",
+      "media": "20 Minutes",
+      "date_publication": "2011-04-22",
+      "date_faits": "2011-04",
+      "date_consultation": "2026-10-01",
+      "acces": "inaccessible",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Point de départ demandé : ouvert à plusieurs reprises sans texte exploitable. Aucun fait tiré des extraits du moteur."
+    },
+    {
+      "ref": "S-bio_famille_codex-18",
+      "titre": "Affaire Xavier Dupont de Ligonnès : Agnès, l’histoire d’une femme amoureuse",
+      "url": "https://www.ouest-france.fr/pays-de-la-loire/loire-atlantique/affaire-xavier-dupont-de-ligonnes-agnes-l-histoire-d-une-femme-amoureuse-637f5e18-ec6a-11e9-8726-a2ce6187bf03",
+      "auteur_organisme": "Ouest-France, auteur non vérifiable",
+      "media": "Ouest-France",
+      "date_publication": "",
+      "date_faits": "",
+      "date_consultation": "2026-10-01",
+      "acces": "inaccessible",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Ouverture échouée ; contenu non utilisé."
+    },
+    {
+      "ref": "S-bio_famille_codex-19",
+      "titre": "Enquête. Elle avait Xavier dans la peau : la véritable histoire d’Agnès Dupont de Ligonnès, épisode 1",
+      "url": "https://www.ouest-france.fr/faits-divers/affaire-de-ligonnes/enquete-elle-avait-xavier-dans-la-peau-la-veritable-histoire-dagnes-dupont-de-ligonnes-episode-1-ca3ad68a-68a2-11f1-99fc-6db54956824f",
+      "auteur_organisme": "Arnaud Wajdzik",
+      "media": "Ouest-France",
+      "date_publication": "2026-07-07",
+      "date_faits": "vie d’Agnès ; publication 2026",
+      "date_consultation": "2026-10-01",
+      "acces": "inaccessible",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Lien du catalogue de l’auteur effectivement ouvert, sans texte exploitable. Seule l’existence de la publication est retenue."
+    },
+    {
+      "ref": "S-bio_famille_codex-20",
+      "titre": "Enquête. Seule devant son écran : la véritable histoire d’Agnès Dupont de Ligonnès, épisode 2",
+      "url": "https://www.ouest-france.fr/faits-divers/affaire-de-ligonnes/enquete-seule-devant-son-ecran-la-veritable-histoire-dagnes-dupont-de-ligonnes-episode-2-cc2f466c-6af8-11f1-a3cf-41dac410473f",
+      "auteur_organisme": "Arnaud Wajdzik",
+      "media": "Ouest-France",
+      "date_publication": "2026-07-08",
+      "date_faits": "vie d’Agnès ; publication 2026",
+      "date_consultation": "2026-10-01",
+      "acces": "inaccessible",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Lien du catalogue de l’auteur effectivement ouvert, sans texte exploitable. Seule l’existence de la publication est retenue."
+    },
+    {
+      "ref": "S-bio_famille_codex-21",
+      "titre": "Enquête. Tu es allé trop loin : la véritable histoire d’Agnès Dupont de Ligonnès, épisode 3",
+      "url": "https://www.ouest-france.fr/faits-divers/affaire-de-ligonnes/enquete-tu-es-alle-trop-loin-la-veritable-histoire-dagnes-dupont-de-ligonnes-episode-3-b8aa3608-6e2f-11f1-971c-5aa54f866c16",
+      "auteur_organisme": "Arnaud Wajdzik",
+      "media": "Ouest-France",
+      "date_publication": "2026-07-09",
+      "date_faits": "vie d’Agnès ; publication 2026",
+      "date_consultation": "2026-10-01",
+      "acces": "inaccessible",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Lien du catalogue de l’auteur effectivement ouvert, sans texte exploitable. Seule l’existence de la publication est retenue."
+    },
+    {
+      "ref": "S-bio_famille_codex-22",
+      "titre": "Enquête. Bientôt les vacances : la véritable histoire d’Agnès Dupont de Ligonnès, épisode 4",
+      "url": "https://www.ouest-france.fr/faits-divers/affaire-de-ligonnes/enquete-bientot-les-vacances-la-veritable-histoire-dagnes-dupont-de-ligonnes-episode-4-4eaf2cde-6e3b-11f1-971c-5aa54f866c16",
+      "auteur_organisme": "Arnaud Wajdzik",
+      "media": "Ouest-France",
+      "date_publication": "2026-07-10",
+      "date_faits": "vie d’Agnès ; publication 2026",
+      "date_consultation": "2026-10-01",
+      "acces": "inaccessible",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Lien du catalogue de l’auteur effectivement ouvert, sans texte exploitable. Seule l’existence de la publication est retenue."
+    },
+    {
+      "ref": "S-bio_famille_codex-23",
+      "titre": "Le rêve américain brisé de Xavier Dupont de Ligonnès",
+      "url": "https://www.leparisien.fr/faits-divers/le-reve-americain-brise-de-xavier-de-ligonnes-18-05-2011-1454884.php",
+      "auteur_organisme": "Le Parisien, auteur non affiché ; ami de longue date sous prénom modifié",
+      "media": "Le Parisien",
+      "date_publication": "2011-05-18",
+      "date_faits": "1990-2003",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Reportage et témoignage lus ; actualisation affichée au 2020-07-27. Prénom d’emprunt du particulier omis."
+    }
+  ],
+  "assertions": [
+    {
+      "ref": "A-bio_famille_codex-01",
+      "assertion": "Agnès portait le nom de naissance Hodanger.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Nice-Matin et arbre familial Society",
+      "date_faits": "avant 1991",
+      "lieu": "Versailles / Var",
+      "sources": [
+        "S-bio_famille_codex-02",
+        "S-bio_famille_codex-11"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Deux documents éditoriaux concordent ; aucun acte d’état civil consulté."
+      }
+    },
+    {
+      "ref": "A-bio_famille_codex-02",
+      "assertion": "Un ami d’enfance situe leur rencontre à Versailles vers seize ans ; une autre biographie parle de dix-huit ans.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Ami anonyme interrogé par Le Parisien ; portrait du Dauphiné",
+      "date_faits": "années 1970",
+      "lieu": "Versailles",
+      "sources": [
+        "S-bio_famille_codex-09",
+        "S-bio_famille_codex-16"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "L’âge de la première rencontre reste discuté.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Recherche complémentaire dans les portraits : le lieu concorde, les âges divergent."
+      }
+    },
+    {
+      "ref": "A-bio_famille_codex-03",
+      "assertion": "Le mariage est situé en 1991 ; Nice-Matin précise le 11 septembre à Draguignan.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Nice-Matin, RTL et recension du parcours familial par Society",
+      "date_faits": "1991",
+      "lieu": "Draguignan",
+      "sources": [
+        "S-bio_famille_codex-02",
+        "S-bio_famille_codex-08"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Les recherches sur l’union corroborent 1991, mais aucun registre civil ni second reportage indépendant confirmant le jour n’a été lu."
+      }
+    },
+    {
+      "ref": "A-bio_famille_codex-04",
+      "assertion": "Arthur est né en 1990 ; Thomas en 1992, Anne en 1994 et Benoît en 1997.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Society et Nice-Matin",
+      "date_faits": "1990-1997",
+      "lieu": "France",
+      "sources": [
+        "S-bio_famille_codex-02",
+        "S-bio_famille_codex-11"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Dates précises de naissance non retenues.",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Concordance des deux publications ; les âges contemporains sont compatibles."
+      }
+    },
+    {
+      "ref": "A-bio_famille_codex-05",
+      "assertion": "Avril 2011 : Arthur 20 ans, Thomas 18, Anne 16, Benoît 13.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Le Parisien et extrait Society",
+      "date_faits": "2011-04",
+      "lieu": "Nantes / Angers",
+      "sources": [
+        "S-bio_famille_codex-03",
+        "S-bio_famille_codex-11",
+        "S-bio_famille_codex-05"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Le reportage scolaire confirme également les âges d’Anne et de Benoît."
+      }
+    },
+    {
+      "ref": "A-bio_famille_codex-06",
+      "assertion": "Arthur n’était pas le fils biologique de Xavier, qui l’a élevé avec Agnès.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Portrait de Claire Ané et récit de Nice-Matin",
+      "date_faits": "1990-2011",
+      "lieu": "Versailles puis domiciles familiaux",
+      "sources": [
+        "S-bio_famille_codex-01",
+        "S-bio_famille_codex-02"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "La nature juridique de la filiation n’est pas fixée par ces seuls articles.",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Concordance sur l’absence de lien biologique ; aucun père biologique privé n’est nommé."
+      }
+    },
+    {
+      "ref": "A-bio_famille_codex-07",
+      "assertion": "Agnès indiquait avoir vécu à Draguignan, Lorgues, Sainte-Maxime, Vaison-la-Romaine, Pornic puis Nantes.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Profil public d’Agnès, rapporté par Le Monde",
+      "date_faits": "années 1990-2011",
+      "lieu": "Var / Vaucluse / Loire-Atlantique",
+      "sources": [
+        "S-bio_famille_codex-06"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Parcours général recoupé ; calendrier de chaque logement non établi."
+      }
+    },
+    {
+      "ref": "A-bio_famille_codex-08",
+      "assertion": "Un ami situe un voyage familial de neuf mois en camping-car aux États-Unis en 2002 ; un autre reportage le place à la fin des années 1990.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Ami de longue date du Parisien ; autres proches et descriptif France Télévisions",
+      "date_faits": "fin des années 1990 / 2002",
+      "lieu": "États-Unis",
+      "sources": [
+        "S-bio_famille_codex-04",
+        "S-bio_famille_codex-09",
+        "S-bio_famille_codex-10",
+        "S-bio_famille_codex-23"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Recherche ciblée du projet américain : le reportage de mai 2011 précise 2002 et neuf mois ; l’antériorité du récit du camping-car reste divergente."
+      }
+    },
+    {
+      "ref": "A-bio_famille_codex-09",
+      "assertion": "Agnès travaillait à temps partiel à Blanche-de-Castille et participait à la catéchèse.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Responsable scolaire interrogé par Le Parisien ; profil professionnel rapporté par Le Monde",
+      "date_faits": "2011",
+      "lieu": "Nantes",
+      "sources": [
+        "S-bio_famille_codex-05",
+        "S-bio_famille_codex-06"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Les titres assistante de vie scolaire et surveillante varient selon les articles.",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "La fonction scolaire est confirmée par l’établissement ; le descriptif précis repose aussi sur son profil public rapporté."
+      }
+    },
+    {
+      "ref": "A-bio_famille_codex-10",
+      "assertion": "Arthur préparait un BTS en Vendée et travaillait dans une pizzeria.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Employeur et entourage interrogés par Le Parisien",
+      "date_faits": "2011",
+      "lieu": "Vendée / Nantes",
+      "sources": [
+        "S-bio_famille_codex-03"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": false,
+      "notes": "Son employeur le décrit comme fiable.",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "Pas de dossier scolaire ni de contrat original lu."
+      }
+    },
+    {
+      "ref": "A-bio_famille_codex-11",
+      "assertion": "Thomas étudiait la musicologie à l’université catholique d’Angers.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Le Parisien et Le Monde",
+      "date_faits": "2011",
+      "lieu": "Angers",
+      "sources": [
+        "S-bio_famille_codex-03",
+        "S-bio_famille_codex-06"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Deux reportages concordants ; inscription originale non consultée."
+      }
+    },
+    {
+      "ref": "A-bio_famille_codex-12",
+      "assertion": "Anne était en première scientifique ; elle et Benoît fréquentaient la Perverie-Sacré-Cœur.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Le Parisien, reportage auprès de l’établissement",
+      "date_faits": "2011",
+      "lieu": "Nantes",
+      "sources": [
+        "S-bio_famille_codex-03",
+        "S-bio_famille_codex-05"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": false,
+      "notes": "Reportages du même journal ; niveau scolaire indiqué par son portrait et établissement confirmé par le directeur.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Établissement confirmé par son directeur ; niveau rapporté dans le portrait."
+      }
+    },
+    {
+      "ref": "A-bio_famille_codex-13",
+      "assertion": "La musique occupait une place dans leur vie : Anne jouait du piano et Benoît de la batterie, selon leurs portraits.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Entourage rapporté par Le Parisien ; extrait Society pour la batterie",
+      "date_faits": "2011",
+      "lieu": "Nantes",
+      "sources": [
+        "S-bio_famille_codex-03",
+        "S-bio_famille_codex-11"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "moyenne",
+      "centrale": false,
+      "notes": "Activités présentées sans déduire leur personnalité.",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Batterie recoupée ; piano sans seconde origine lue."
+      }
+    },
+    {
+      "ref": "A-bio_famille_codex-14",
+      "assertion": "Le directeur de la Perverie évoque de nombreux amis pour Anne et Benoît ; une collègue se souvient de l’estime portée à Agnès.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Directeur de la Perverie et personnel de Blanche-de-Castille cités par Le Parisien",
+      "date_faits": "2011-04",
+      "lieu": "Nantes",
+      "sources": [
+        "S-bio_famille_codex-05"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": false,
+      "notes": "Témoignages situés, sans portrait psychologique global.",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "Ces impressions ne sont pas des données exhaustives sur leur vie relationnelle."
+      }
+    },
+    {
+      "ref": "A-bio_famille_codex-15",
+      "assertion": "Un ami d’enfance décrivait une famille très attachée à Xavier ; Bruno de Stabenrath rapporte aussi ses longues absences.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Ami anonyme du Parisien ; Bruno de Stabenrath interrogé par 20 Minutes",
+      "date_faits": "années 1990-2011",
+      "lieu": "France",
+      "sources": [
+        "S-bio_famille_codex-09",
+        "S-bio_famille_codex-13"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "moyenne",
+      "centrale": false,
+      "notes": "",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Les témoignages décrivent l’attachement familial et une disponibilité inégale, compatibles sans être identiques."
+      }
+    },
+    {
+      "ref": "A-bio_famille_codex-16",
+      "assertion": "Le Monde attribue à Agnès des messages de 2002 et 2004 sur des difficultés financières et conjugales.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Claire Ané rapportant des écrits attribués à Agnès",
+      "date_faits": "2002-2004",
+      "lieu": "internet",
+      "sources": [
+        "S-bio_famille_codex-01",
+        "S-bio_famille_codex-07"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "D’autres articles signalent ces écrits, sans fournir ici une chaîne d’authentification indépendante. Leur auteur et leur contexte doivent rester attribués."
+      }
+    },
+    {
+      "ref": "A-bio_famille_codex-17",
+      "assertion": "Ouest-France a publié quatre épisodes sur Agnès du 7 au 10 juillet 2026, signés Arnaud Wajdzik.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Catalogue éditorial d’Ouest-France, page publique de l’auteur Arnaud Wajdzik",
+      "date_faits": "2026-07-07/10",
+      "lieu": "Ouest-France",
+      "sources": [
+        "S-bio_famille_codex-14"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "faible",
+      "centrale": false,
+      "notes": "Les quatre articles liés sont inaccessibles dans cette passe.",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Métadonnées du catalogue seulement ; contenu des quatre articles inaccessible."
+      }
+    }
+  ],
+  "chronologie": [
+    {
+      "date": "1982",
+      "precision": "annee",
+      "evenement": "Fiançailles rapportées, suivies d’une rupture.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "sources": [
+        "S-bio_famille_codex-02"
+      ],
+      "note": "Récit rétrospectif ; preuve cérémonielle non consultée."
+    },
+    {
+      "date": "1990",
+      "precision": "annee",
+      "evenement": "Naissance d’Arthur.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": [
+        "S-bio_famille_codex-11"
+      ],
+      "note": "Année recoupée par Nice-Matin dans l’assertion correspondante."
+    },
+    {
+      "date": "1991",
+      "precision": "annee",
+      "evenement": "Mariage avec Agnès.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": [
+        "S-bio_famille_codex-08"
+      ],
+      "note": "Jour et lieu précis conservés comme indication de Nice-Matin."
+    },
+    {
+      "date": "1992",
+      "precision": "annee",
+      "evenement": "Naissance de Thomas.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": [
+        "S-bio_famille_codex-11"
+      ],
+      "note": ""
+    },
+    {
+      "date": "1994",
+      "precision": "annee",
+      "evenement": "Naissance d’Anne.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": [
+        "S-bio_famille_codex-11"
+      ],
+      "note": ""
+    },
+    {
+      "date": "1997",
+      "precision": "annee",
+      "evenement": "Naissance de Benoît.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": [
+        "S-bio_famille_codex-11"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2026-07-07",
+      "precision": "jour",
+      "evenement": "Début de la série journalistique d’Ouest-France consacrée à Agnès.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "sources": [
+        "S-bio_famille_codex-14"
+      ],
+      "note": "Catalogue consulté ; article non lu."
+    },
+    {
+      "date": "2026-07-10",
+      "precision": "jour",
+      "evenement": "Quatrième épisode de la série.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "sources": [
+        "S-bio_famille_codex-14"
+      ],
+      "note": "Publication, sans nouveau fait policier vérifié dans ce corpus."
+    },
+    {
+      "date": "2002",
+      "precision": "annee",
+      "evenement": "Séjour américain familial de neuf mois rapporté par un ami.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "sources": [
+        "S-bio_famille_codex-23"
+      ],
+      "note": ""
+    }
+  ],
+  "details_moins_connus": [
+    {
+      "detail": "Une photographie d’archives situe le couple au Byblos en 1982.",
+      "interet_interpretation": "Documente une période antérieure au mariage sans nécessiter de reconstitution visuelle inventée.",
+      "sources": [
+        "S-bio_famille_codex-02"
+      ]
+    },
+    {
+      "detail": "La batterie de Benoît apparaît aussi dans l’extrait du livre d’enquête.",
+      "interet_interpretation": "Donne une activité concrète au plus jeune enfant.",
+      "sources": [
+        "S-bio_famille_codex-11"
+      ]
+    },
+    {
+      "detail": "Nice-Matin ajoute Roquebrune-sur-Argens aux domiciles familiaux.",
+      "interet_interpretation": "Étape supplémentaire, sans date précise.",
+      "sources": [
+        "S-bio_famille_codex-02"
+      ]
+    }
+  ],
+  "contradictions": [
+    {
+      "sujet": "Année et date de l’union",
+      "versions": [
+        {
+          "version": "Mariage en 1991 ; Nice-Matin indique le 11 septembre à Draguignan.",
+          "sources": [
+            "S-bio_famille_codex-02",
+            "S-bio_famille_codex-08"
+          ]
+        },
+        {
+          "version": "Le Parisien situe les retrouvailles avec Agnès en 1992.",
+          "sources": [
+            "S-bio_famille_codex-04",
+            "S-bio_famille_codex-23"
+          ]
+        }
+      ],
+      "traitement_recommande": "Retenir 1991 pour le mariage, expliquer l’incompatibilité des retrouvailles datées de 1992 ; vérifier l’acte avant d’imprimer un jour exact."
+    },
+    {
+      "sujet": "Âge lors de la rencontre",
+      "versions": [
+        {
+          "version": "Seize ans selon un ami d’enfance.",
+          "sources": [
+            "S-bio_famille_codex-09"
+          ]
+        },
+        {
+          "version": "Dix-huit ans dans le portrait du Dauphiné.",
+          "sources": [
+            "S-bio_famille_codex-16"
+          ]
+        }
+      ],
+      "traitement_recommande": "Écrire rencontre à Versailles pendant la jeunesse ; ne pas choisir un âge sans document supplémentaire."
+    },
+    {
+      "sujet": "Filiation juridique d’Arthur",
+      "versions": [
+        {
+          "version": "Le Monde emploie le verbe reconnaître.",
+          "sources": [
+            "S-bio_famille_codex-01"
+          ]
+        },
+        {
+          "version": "Society et la lettre de Bruno parlent d’adoption.",
+          "sources": [
+            "S-bio_famille_codex-11",
+            "S-bio_famille_codex-12"
+          ]
+        }
+      ],
+      "traitement_recommande": "Distinguer filiation biologique, rôle familial et acte juridique ; aucun acte de reconnaissance ou jugement d’adoption lu."
+    },
+    {
+      "sujet": "Arrivée à Nantes",
+      "versions": [
+        {
+          "version": "Fin des années 1990.",
+          "sources": [
+            "S-bio_famille_codex-03"
+          ]
+        },
+        {
+          "version": "Environ neuf ans avant le portrait de 2011, soit vers 2002.",
+          "sources": [
+            "S-bio_famille_codex-01"
+          ]
+        }
+      ],
+      "traitement_recommande": "Ne pas fixer l’année ; distinguer Pornic, arrivée dans la région et domicile nantais."
+    },
+    {
+      "sujet": "Âge d’Agnès en avril 2011",
+      "versions": [
+        {
+          "version": "Quarante-neuf ans.",
+          "sources": [
+            "S-bio_famille_codex-03"
+          ]
+        },
+        {
+          "version": "Quarante-huit ans.",
+          "sources": [
+            "S-bio_famille_codex-06"
+          ]
+        }
+      ],
+      "traitement_recommande": "Préférer une vérification d’état civil ; mentionner la divergence si l’âge est utilisé. L’arbre Society donne 1962."
+    },
+    {
+      "sujet": "Date du voyage familial en camping-car",
+      "versions": [
+        {
+          "version": "Fin des années 1990.",
+          "sources": [
+            "S-bio_famille_codex-04"
+          ]
+        },
+        {
+          "version": "Neuf mois en 2002.",
+          "sources": [
+            "S-bio_famille_codex-23"
+          ]
+        }
+      ],
+      "traitement_recommande": "Ne pas confondre les voyages solitaires et familiaux ; vérifier s’il s’agit de deux voyages différents ou d’une erreur de datation."
+    }
+  ],
+  "lacunes": [
+    "Acte de mariage non consulté : jour exact et lieu civil restent à confirmer indépendamment.",
+    "Acte de naissance d’Arthur, reconnaissance ou jugement d’adoption non consultés ; aucune spéculation sur un père biologique privé.",
+    "Dates précises de naissance des enfants non vérifiées par état civil ; seules les années recoupées sont retenues.",
+    "Chronologie de chaque logement et année d’arrivée à Nantes incomplètes ; périodes américaines datées par témoignages, sans pièces de voyage.",
+    "Pièces scolaires, contrats d’Agnès et des enfants non consultés.",
+    "Messages originaux attribués à Agnès et chaîne d’authentification absents ; extraits médiatiques seulement.",
+    "Point de départ 20 Minutes sur la foi inaccessible ; son extrait de moteur n’a pas servi de preuve.",
+    "Quatre épisodes Ouest-France de juillet 2026 inaccessibles : leur existence est vérifiée, leur contenu ne peut être synthétisé.",
+    "Aucune information biographique nouvelle et fiable d’août ou septembre 2026 établie dans les pages ouvertes de cette passe."
+  ],
+  "outil": "codex"
+}

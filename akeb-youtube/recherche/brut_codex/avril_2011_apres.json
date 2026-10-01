@@ -1,0 +1,916 @@
+{
+  "sujet": "Courriers, déplacements et dernières traces en avril 2011 — seconde recherche indépendante pour Les Mystères d'Akeb",
+  "outil": "codex",
+  "sources": [
+    {
+      "titre": "Ligonnès : Inutile de s’occuper des gravats",
+      "url": "https://www.europe1.fr/faits-divers/Ligonnes-Inutile-de-s-occuper-des-gravats-562812",
+      "auteur_organisme": "Europe 1 avec AFP",
+      "media": "Europe 1",
+      "date_publication": "2011-05-05",
+      "date_faits": "2011-04",
+      "acces": "lu_integral",
+      "type": "agence",
+      "origine": "AFP",
+      "notes": "Extraits de lettre initialement révélés par RTL ; origine secondaire commune.",
+      "ref": "S-avril_2011_apres_codex-01",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "titre": "Tuerie de Nantes : sur les traces de Xavier Dupont de Ligonnès",
+      "url": "https://www.lemonde.fr/societe/article/2011/06/21/tuerie-de-nantes-sur-les-traces-de-xavier-dupont-de-ligonnes_1526839_3224.html",
+      "auteur_organisme": "Le Monde",
+      "media": "Le Monde",
+      "date_publication": "2011-06-21",
+      "date_faits": "2011-04",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Passages lus malgré bloc d'abonnement ; nombreuses attributions à d'autres médias.",
+      "ref": "S-avril_2011_apres_codex-02",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "titre": "Xavier Dupont de Ligonnès repéré grâce à son adresse IP ?",
+      "url": "https://www.numerama.com/politique/19130-xavier-dupont-de-ligonnes-repere-grace-a-son-adresse-ip.html",
+      "auteur_organisme": "Guillaume Champeau",
+      "media": "Numerama",
+      "date_publication": "2011-06-21",
+      "date_faits": "2011-04-10/2011-04-11",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "reprise:Sud Ouest",
+      "notes": "Reprise via Le Monde ; analyse de l'ambiguïté journalistique, pas rapport informatique judiciaire.",
+      "ref": "S-avril_2011_apres_codex-03",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "titre": "Une porte nue, fermée sur son mystère",
+      "url": "https://making-of.afp.com/une-porte-nue-fermee-sur-son-mystere",
+      "auteur_organisme": "Alexandra Turcat / AFP",
+      "media": "AFP Making-of",
+      "date_publication": "2013-04-03",
+      "date_faits": "2011-04",
+      "acces": "inaccessible",
+      "type": "agence",
+      "origine": "AFP",
+      "notes": "403/cache miss ; variantes légitimes et lien du profil également bloqués. Date/signature confirmées par profil accessible, contenu du moteur exclu.",
+      "ref": "S-avril_2011_apres_codex-04",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "ref": "S-avril_2011_apres_codex-05",
+      "titre": "La nuit du meurtre, la découverte des corps, la dernière image du fugitif… Les grandes dates de l'affaire Dupont de Ligonnès",
+      "url": "https://www.leparisien.fr/faits-divers/la-nuit-du-meurtre-la-decouverte-des-corps-la-derniere-image-du-fugitif-les-grandes-dates-de-laffaire-dupont-de-ligonnes-03-04-2026-J27GNQSCXJGMNKNKA2O2LVG7KY.php",
+      "auteur_organisme": "Manon Aublanc",
+      "media": "Le Parisien",
+      "date_publication": "2026-04-03",
+      "date_faits": "2011-04",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Bilan rétrospectif ; départ daté du 12 à confronter aux étapes antérieures."
+    },
+    {
+      "ref": "S-avril_2011_apres_codex-06",
+      "titre": "La chronologie de l'affaire Dupont de Ligonnès en 15 dates",
+      "url": "https://edito.nicematin.com/omalval/XDDL/xddl.html",
+      "auteur_organisme": "Nice-Matin, signature non affichée",
+      "media": "Nice-Matin",
+      "date_publication": "",
+      "date_faits": "2011-04",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Étapes hôtelières et retour au parking ; publication non datée. non indiquée."
+    },
+    {
+      "ref": "S-avril_2011_apres_codex-07",
+      "titre": "Les dates clés de l'affaire",
+      "url": "https://www.leparisien.fr/archives/les-dates-cles-de-l-affaire-03-09-2011-1590618.php",
+      "auteur_organisme": "Le Parisien, auteur non indiqué",
+      "media": "Le Parisien",
+      "date_publication": "2011-09-03",
+      "date_faits": "2011-04",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Chronologie ancienne ; départ final décrit le matin."
+    },
+    {
+      "ref": "S-avril_2011_apres_codex-08",
+      "titre": "Nantes : la chronologie des derniers jours de la famille",
+      "url": "https://www.estrepublicain.fr/actualite/2011/04/22/nantes-la-chronologie-des-derniers-jours-de-la-famille",
+      "auteur_organisme": "L'Est Républicain / dépêche d'agence non explicitement signée",
+      "media": "L'Est Républicain",
+      "date_publication": "2011-04-22",
+      "date_faits": "2011-04",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_regional",
+      "origine": "reprise:agence non identifiée",
+      "notes": "Chronologie et annonces initiales partiellement lues ; divergence interne 21/22 pour le véhicule."
+    },
+    {
+      "ref": "S-avril_2011_apres_codex-09",
+      "titre": "Les derniers jours de la famille",
+      "url": "https://www.estrepublicain.fr/actualite/2011/05/22/les-derniers-jours-de-la-famille",
+      "auteur_organisme": "L'Est Républicain, auteur non indiqué",
+      "media": "L'Est Républicain",
+      "date_publication": "2011-05-22",
+      "date_faits": "2011-02/2011-04",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Réception de courriers le 11 ; dates d'hôtels. Provenance précise non explicitée."
+    },
+    {
+      "ref": "S-avril_2011_apres_codex-10",
+      "titre": "Quintuple meurtre de Nantes : recherches vaines, scénario machiavélique",
+      "url": "https://www.dna.fr/actualite/2011/04/23/quintuple-meurtre-de-nantes-recherches-vaines-scenario-machiavelique",
+      "auteur_organisme": "AFP, reprise non signée explicitement",
+      "media": "Dernières Nouvelles d'Alsace",
+      "date_publication": "2011-04-23",
+      "date_faits": "2011-02/2011-04",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "agence",
+      "origine": "AFP",
+      "notes": "Dépêche AFP ; témoignage de la directrice de l'Auberge de Cassagne."
+    },
+    {
+      "titre": "L'e-mail d'adieu à son patron de Xavier Dupont de Ligonnès",
+      "url": "https://www.leparisien.fr/faits-divers/l-e-mail-d-adieu-a-son-patron-de-xavier-dupont-de-ligonnes-21-05-2011-1459845.php",
+      "auteur_organisme": "Le Parisien, auteur non affiché",
+      "media": "Le Parisien",
+      "date_publication": "2011-05-21",
+      "date_faits": "2011-04-08",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Entretien avec le patron de Sphinx Marketing Conseil ; message rapporté, original non consulté.",
+      "ref": "S-avril_2011_apres_codex-11",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "ref": "S-avril_2011_apres_codex-12",
+      "titre": "De la tuerie à l'arrestation de Xavier Dupont de Ligonnès : chronologie d'une mystérieuse affaire",
+      "url": "https://www.leparisien.fr/faits-divers/de-la-tuerie-a-l-arrestation-de-xavier-dupont-de-ligonnes-chronologie-d-une-mysterieuse-affaire-11-10-2019-8171469.php",
+      "auteur_organisme": "Le Parisien",
+      "media": "Le Parisien",
+      "date_publication": "2019-10-11",
+      "date_faits": "2010-12/2011-04",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "reprise:Le Parisien",
+      "notes": "Sections historiques lues ; annonce d'arrestation explicitement corrigée par un édit."
+    },
+    {
+      "titre": "Affaire Xavier Dupont de Ligonnès : témoignages, vidéo, piste américaine… Ce qu’il faut retenir de l’émission Appel à témoins",
+      "url": "https://www.rtl.fr/actu/justice-faits-divers/affaire-xavier-dupont-de-ligonnes-temoignages-video-piste-americaine-ce-qu-il-faut-retenir-de-l-emission-appel-a-temoins-7900641996",
+      "auteur_organisme": "RTL",
+      "media": "RTL",
+      "date_publication": "2026-06-02",
+      "date_faits": "2011-04 / 2026-06-02",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "reprise:M6",
+      "notes": "Compte rendu d'émission : signalements ultérieurs, aucune preuve définitive annoncée ; émission non visionnée. L'en-tête indique une publication et une mise à jour le 2 juin à 23 h 58, mais le corps mentionne un communiqué du 3 juin ; cette mise à jour du corps n'est pas datée.",
+      "ref": "S-avril_2011_apres_codex-13",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "titre": "Xavier Dupont de Ligonnès : ce que signifient les six étapes de sa cavale",
+      "url": "https://www.planet.fr/xavier-dupont-de-ligonnes-xavier-dupont-de-ligonnes-ce-que-signifient-les-six-etapes-de-sa-cavale.2231067.814467.html",
+      "auteur_organisme": "Rédaction Planet",
+      "media": "Planet",
+      "date_publication": "2021-07-20",
+      "date_faits": "2011-04",
+      "acces": "lu_integral",
+      "type": "autre",
+      "origine": "reprise:Guy Hugnet et médias",
+      "notes": "Puilboreau et La Seyne rapportés ; livre cité mais non lu. Interprétation de pèlerinage non retenue comme fait.",
+      "ref": "S-avril_2011_apres_codex-14",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "titre": "Xavier Dupont de Ligonnès",
+      "url": "https://www.dailymotion.com/video/xa5mxba",
+      "auteur_organisme": "La Provence",
+      "media": "La Provence via Dailymotion",
+      "date_publication": "2026",
+      "date_faits": "2011-04",
+      "acces": "lu_partiel",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Transcription textuelle affichée lue (00:00–03:25), vidéo non regardée. Erreurs de transcription des lieux ; ne pas citer littéralement. 2026 (date exacte non affichée).",
+      "ref": "S-avril_2011_apres_codex-15",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "titre": "Alexandra Turcat — profil et liste des articles Making-of",
+      "url": "https://making-of.afp.com/alexandra-turcat",
+      "auteur_organisme": "AFP",
+      "media": "AFP Making-of",
+      "date_publication": "",
+      "date_faits": "2011 / 2013",
+      "acces": "lu_integral",
+      "type": "agence",
+      "origine": "AFP",
+      "notes": "Confirme date et autrice de l'article bloqué, sans le passage sur l'origine du portrait. non indiquée (notice d'article du 2013-04-03).",
+      "ref": "S-avril_2011_apres_codex-16",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "titre": "Cinq ans après, l'affaire Dupont de Ligonnès en dix dates",
+      "url": "https://www.europe1.fr/faits-divers/cinq-ans-apres-laffaire-dupont-de-ligonnes-en-dix-dates-2725336",
+      "auteur_organisme": "Europe 1",
+      "media": "Europe 1",
+      "date_publication": "2016-04",
+      "date_faits": "2011-04",
+      "acces": "inaccessible",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "403 ; aucun extrait retenu comme preuve. 2016-04 (métadonnée moteur).",
+      "ref": "S-avril_2011_apres_codex-17",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "titre": "Xavier Dupont de Ligonnès : 10 ans déjà",
+      "url": "https://soirmag.lesoir.be/365988/article/2021-04-14/xavier-dupont-de-ligonnes-10-ans-deja",
+      "auteur_organisme": "Rodrigue Jamin (métadonnée moteur)",
+      "media": "Soirmag / Le Soir",
+      "date_publication": "2021-04-14",
+      "date_faits": "2011-04-15",
+      "acces": "inaccessible",
+      "type": "media_etranger",
+      "origine": "propre",
+      "notes": "Échec d'ouverture, délai dépassé ; image/sac du résultat moteur non utilisé.",
+      "ref": "S-avril_2011_apres_codex-18",
+      "date_consultation": "2026-10-01"
+    },
+    {
+      "titre": "Retour sur la tuerie de Nantes et sa cavale en 15 dates",
+      "url": "https://www.20minutes.fr/societe/2198403-20180109-video-affaire-dupont-ligonnes-15-dates-cles-comprendre-tuerie-nantes",
+      "auteur_organisme": "Frédéric Brenon",
+      "media": "20 Minutes",
+      "date_publication": "2018-04-03",
+      "date_faits": "2011-04",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Texte historique lu ; vidéo non visionnée. Mise à jour 23/10/2019 et rectificatif : le passage d'arrestation initial est faux.",
+      "ref": "S-avril_2011_apres_codex-19",
+      "date_consultation": "2026-10-01"
+    }
+  ],
+  "assertions": [
+    {
+      "ref": "A-avril_2011_apres_codex-01",
+      "assertion": "École des cadets et employeur d’Agnès : courriers reçus le 11 avril, annonçant l’Australie.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Responsables des établissements cités dans la presse",
+      "date_faits": "2011-04-11",
+      "lieu": "Nantes",
+      "sources": [
+        "S-avril_2011_apres_codex-08",
+        "S-avril_2011_apres_codex-09",
+        "S-avril_2011_apres_codex-10"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Récits concordants, possibles reprises de la même dépêche ; pas trois origines originales présumées."
+      }
+    },
+    {
+      "ref": "A-avril_2011_apres_codex-02",
+      "assertion": "Un e-mail daté du 8 avril annonce l'Australie à Sphinx Marketing Conseil.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Olivier Verdet, patron, via Le Parisien",
+      "date_faits": "2011-04-08",
+      "lieu": "Versailles / Nantes",
+      "sources": [
+        "S-avril_2011_apres_codex-11"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "Original non consulté ; la chronologie du même journal est une reprise, pas corroboration indépendante."
+      }
+    },
+    {
+      "ref": "A-avril_2011_apres_codex-03",
+      "assertion": "Lettre aux proches : expédition datée du 8 avril, réception située le 11.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Chronologies 20 Minutes, Nice-Matin et EBRA",
+      "date_faits": "2011-04-08/2011-04-11",
+      "lieu": "France",
+      "sources": [
+        "S-avril_2011_apres_codex-19",
+        "S-avril_2011_apres_codex-06",
+        "S-avril_2011_apres_codex-09"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Expédition et réception sont deux événements ; pièces postales manquantes."
+      }
+    },
+    {
+      "ref": "A-avril_2011_apres_codex-04",
+      "assertion": "Neuf destinataires proches, selon l’avocat interrogé par l’AFP.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Stéphane Goldenstein via AFP",
+      "date_faits": "2011-04",
+      "lieu": "France",
+      "sources": [
+        "S-avril_2011_apres_codex-01",
+        "S-avril_2011_apres_codex-09"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "La chronologie reprend ce nombre, sans liste ni vérification indépendante."
+      }
+    },
+    {
+      "ref": "A-avril_2011_apres_codex-05",
+      "assertion": "La lettre invoque protection américaine et DEA, mais demande de faire croire à l’Australie.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Auteur de la lettre attribuée à XDDL ; extraits RTL repris par AFP",
+      "date_faits": "2011-04",
+      "lieu": "",
+      "sources": [
+        "S-avril_2011_apres_codex-01",
+        "S-avril_2011_apres_codex-10"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Récit épistolaire, pas une exfiltration établie.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Les reprises concordent sur les versions, pas sur leur véracité."
+      }
+    },
+    {
+      "ref": "A-avril_2011_apres_codex-06",
+      "assertion": "Nuit au Pontet du 12 au 13 avril.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Parquet et directrice de l'hôtel via presse",
+      "date_faits": "2011-04-12/2011-04-13",
+      "lieu": "Auberge de Cassagne, Le Pontet",
+      "sources": [
+        "S-avril_2011_apres_codex-10",
+        "S-avril_2011_apres_codex-06",
+        "S-avril_2011_apres_codex-08"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Dépêche avec entretien de la directrice et chronologie régionale concordantes ; relevés originaux absents."
+      }
+    },
+    {
+      "ref": "A-avril_2011_apres_codex-07",
+      "assertion": "Directrice : nom Xavier Laurent, adresse nantaise, motif professionnel.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Sylvie Boucher à l'AFP",
+      "date_faits": "2011-04-12",
+      "lieu": "Le Pontet",
+      "sources": [
+        "S-avril_2011_apres_codex-10"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Témoignage sur le séjour.",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "Même propos repris ailleurs ; aucune fiche client directement lue."
+      }
+    },
+    {
+      "ref": "A-avril_2011_apres_codex-08",
+      "assertion": "Nuit à Blagnac du 11 au 12 avril.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Chronologies et bilan de voyage",
+      "date_faits": "2011-04-11/2011-04-12",
+      "lieu": "Hôtel Première Classe, Blagnac",
+      "sources": [
+        "S-avril_2011_apres_codex-06",
+        "S-avril_2011_apres_codex-07",
+        "S-avril_2011_apres_codex-14"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Les récits concordent, mais dépendance possible ; facture non lue."
+      }
+    },
+    {
+      "ref": "A-avril_2011_apres_codex-09",
+      "assertion": "Le passage à La Rochelle est attribué à une trace IP révélée par Sud Ouest.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Sud Ouest via Le Monde et Numerama",
+      "date_faits": "2011-04-10/2011-04-11",
+      "lieu": "Région de La Rochelle",
+      "sources": [
+        "S-avril_2011_apres_codex-02",
+        "S-avril_2011_apres_codex-03"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "Article original du 1er juin non récupéré malgré clics et recherches françaises/anglaises ; deux reprises, une origine."
+      }
+    },
+    {
+      "ref": "A-avril_2011_apres_codex-10",
+      "assertion": "Numerama souligne que le mécanisme de traçage décrit reste ambigu.",
+      "categorie": "HYPOTHESE",
+      "attribution": "Guillaume Champeau",
+      "date_faits": "2011-06-21",
+      "lieu": "",
+      "sources": [
+        "S-avril_2011_apres_codex-03"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": false,
+      "notes": "",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "Aucun rapport technique judiciaire lu ; les scénarios du journaliste ne valent pas méthode démontrée."
+      }
+    },
+    {
+      "ref": "A-avril_2011_apres_codex-11",
+      "assertion": "Puilboreau est indiqué comme première étape dans le récit secondaire de Planet.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Planet, citant notamment Guy Hugnet",
+      "date_faits": "2011-04-10",
+      "lieu": "Puilboreau, près de La Rochelle",
+      "sources": [
+        "S-avril_2011_apres_codex-14"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": false,
+      "notes": "Livre cité non lu.",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "Localisation précise non confirmée par l'article original de Sud Ouest."
+      }
+    },
+    {
+      "ref": "A-avril_2011_apres_codex-12",
+      "assertion": "Une étape à La Seyne-sur-Mer est rapportée ultérieurement ; les bilans de 2011 laissent cette nuit inconnue.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Planet et transcription La Provence ; chronologie Le Parisien 2011",
+      "date_faits": "2011-04-13/2011-04-14",
+      "lieu": "La Seyne-sur-Mer",
+      "sources": [
+        "S-avril_2011_apres_codex-14",
+        "S-avril_2011_apres_codex-15",
+        "S-avril_2011_apres_codex-07"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Différence de date de publication possible ; aucune facture consultée."
+      }
+    },
+    {
+      "ref": "A-avril_2011_apres_codex-13",
+      "assertion": "Retrait de 30 euros le 14 avril à Roquebrune-sur-Argens ; image au distributeur.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Reconstitution des traces via presse",
+      "date_faits": "2011-04-14",
+      "lieu": "Roquebrune-sur-Argens",
+      "sources": [
+        "S-avril_2011_apres_codex-19",
+        "S-avril_2011_apres_codex-08",
+        "S-avril_2011_apres_codex-06"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Chronologies et annonces de 2011 concordent sur jour, lieu et montant."
+      }
+    },
+    {
+      "ref": "A-avril_2011_apres_codex-14",
+      "assertion": "Le Monde rapporte un total de 1 000 euros retirés pendant ce trajet.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Le Monde",
+      "date_faits": "2011-04",
+      "lieu": "",
+      "sources": [
+        "S-avril_2011_apres_codex-02"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": false,
+      "notes": "",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "Relevés et autre source indépendante non consultés."
+      }
+    },
+    {
+      "ref": "A-avril_2011_apres_codex-15",
+      "assertion": "Nuit au Formule 1 du 14 au 15 avril.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Parcours rapporté par les chronologies",
+      "date_faits": "2011-04-14/2011-04-15",
+      "lieu": "Roquebrune-sur-Argens",
+      "sources": [
+        "S-avril_2011_apres_codex-08",
+        "S-avril_2011_apres_codex-06",
+        "S-avril_2011_apres_codex-19"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Annonces précoces et récits rétrospectifs concordent."
+      }
+    },
+    {
+      "ref": "A-avril_2011_apres_codex-16",
+      "assertion": "20 Minutes : sortie matinale en voiture, retour vers 16 heures, puis départ à pied.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Frédéric Brenon ; reconstitution journalistique",
+      "date_faits": "2011-04-15",
+      "lieu": "Hôtel Formule 1, Roquebrune-sur-Argens",
+      "sources": [
+        "S-avril_2011_apres_codex-19",
+        "S-avril_2011_apres_codex-06",
+        "S-avril_2011_apres_codex-15"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "La transcription La Provence situe le retour à 16 h 10 ; vidéo originale non visionnée."
+      }
+    },
+    {
+      "ref": "A-avril_2011_apres_codex-17",
+      "assertion": "Le sac ou la housse porté ne permet pas, à lui seul, d'établir son contenu.",
+      "categorie": "HYPOTHESE",
+      "attribution": "Possibilité évoquée par 20 Minutes et Planet",
+      "date_faits": "2011-04-15",
+      "lieu": "Roquebrune-sur-Argens",
+      "sources": [
+        "S-avril_2011_apres_codex-19",
+        "S-avril_2011_apres_codex-14"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "forte",
+      "centrale": true,
+      "notes": "Un sac visible et une arme emportée sont deux propositions différentes.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Possibilité de carabine avancée dans les articles ; contenu non observé dans une pièce judiciaire."
+      }
+    },
+    {
+      "ref": "A-avril_2011_apres_codex-18",
+      "assertion": "Dernière trace connue dans les bilans lus : 15 avril.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Bilans régionaux et nationaux",
+      "date_faits": "2011-04-15",
+      "lieu": "Roquebrune-sur-Argens",
+      "sources": [
+        "S-avril_2011_apres_codex-06",
+        "S-avril_2011_apres_codex-15",
+        "S-avril_2011_apres_codex-13"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "RTL décrit les signalements après cette date sans preuve définitive ; ils ne prolongent pas la chronologie authentifiée."
+      }
+    },
+    {
+      "ref": "A-avril_2011_apres_codex-19",
+      "assertion": "C5 retrouvée à Roquebrune : 21 ou 22 avril selon les publications.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Annonces initiales et chronologies",
+      "date_faits": "2011-04-21/2011-04-22",
+      "lieu": "Parking proche du Formule 1",
+      "sources": [
+        "S-avril_2011_apres_codex-08",
+        "S-avril_2011_apres_codex-12",
+        "S-avril_2011_apres_codex-15"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "La source EBRA du 22 contient elle-même les deux formulations."
+      }
+    },
+    {
+      "ref": "A-avril_2011_apres_codex-20",
+      "assertion": "Le texte AFP de 2013 est signé Alexandra Turcat, mais son passage sur le portrait n'a pas pu être lu.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Notice bibliographique AFP directement ouverte",
+      "date_faits": "2013-04-03",
+      "lieu": "Nantes",
+      "sources": [
+        "S-avril_2011_apres_codex-16"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "faible",
+      "centrale": false,
+      "notes": "Aucun récit sur cette origine tiré de l'extrait du moteur.",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "L'existence et la date de l'article sont constatées ; l'origine du portrait reste non vérifiée."
+      }
+    }
+  ],
+  "chronologie": [
+    {
+      "date": "2011-04-08",
+      "precision": "jour",
+      "evenement": "Message au patron selon son témoignage.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "sources": [
+        "S-avril_2011_apres_codex-11"
+      ],
+      "note": "Original non lu."
+    },
+    {
+      "date": "2011-04-08",
+      "precision": "jour",
+      "evenement": "Expédition de la lettre selon le tableau.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-avril_2011_apres_codex-19"
+      ],
+      "note": "À distinguer de réception."
+    },
+    {
+      "date": "2011-04-11",
+      "precision": "jour",
+      "evenement": "Courriers reçus par les établissements.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "sources": [
+        "S-avril_2011_apres_codex-08"
+      ],
+      "note": "Australie invoquée."
+    },
+    {
+      "date": "2011-04-11",
+      "precision": "jour",
+      "evenement": "Courrier reçu par les proches.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "sources": [
+        "S-avril_2011_apres_codex-09"
+      ],
+      "note": "Neuf destinataires rapportés."
+    },
+    {
+      "date": "2011-04-10",
+      "precision": "approx",
+      "evenement": "Étape rochelaise rapportée.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-avril_2011_apres_codex-03"
+      ],
+      "note": "Nuit du 10 au 11 ; original Sud Ouest manquant."
+    },
+    {
+      "date": "2011-04-11",
+      "precision": "jour",
+      "evenement": "Nuit à Blagnac.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-avril_2011_apres_codex-06"
+      ],
+      "note": "Jusqu'au 12."
+    },
+    {
+      "date": "2011-04-12",
+      "precision": "jour",
+      "evenement": "Séjour au Pontet.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-avril_2011_apres_codex-10"
+      ],
+      "note": "Jusqu'au 13."
+    },
+    {
+      "date": "2011-04-13",
+      "precision": "jour",
+      "evenement": "La Seyne rapportée par récits ultérieurs.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-avril_2011_apres_codex-14"
+      ],
+      "note": "Nuit non localisée par les articles de 2011."
+    },
+    {
+      "date": "2011-04-14",
+      "precision": "jour",
+      "evenement": "Retrait bancaire dans le Var.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-avril_2011_apres_codex-08"
+      ],
+      "note": "Trente euros."
+    },
+    {
+      "date": "2011-04-15",
+      "precision": "jour",
+      "evenement": "Retour au parking, puis départ à pied.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-avril_2011_apres_codex-15"
+      ],
+      "note": "Vers 16 h 10 selon transcription ; original non vu."
+    },
+    {
+      "date": "2011-04-21",
+      "precision": "approx",
+      "evenement": "C5 localisée.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-avril_2011_apres_codex-08"
+      ],
+      "note": "21 ou 22 avril."
+    }
+  ],
+  "details_moins_connus": [
+    {
+      "detail": "Les reprises de la trace IP citent Sud Ouest par l'intermédiaire du Monde.",
+      "interet_interpretation": "Deux publications ne donnent pas deux confirmations originales.",
+      "sources": [
+        "S-avril_2011_apres_codex-03"
+      ]
+    },
+    {
+      "detail": "Une première sortie en voiture est distinguée du départ final à pied.",
+      "interet_interpretation": "Évite de fusionner deux moments du 15 avril.",
+      "sources": [
+        "S-avril_2011_apres_codex-19"
+      ]
+    }
+  ],
+  "contradictions": [
+    {
+      "sujet": "Départ de Nantes / première étape",
+      "versions": [
+        {
+          "version": "Départ placé le 12 et première nuit au Pontet.",
+          "sources": [
+            "S-avril_2011_apres_codex-05"
+          ]
+        },
+        {
+          "version": "Étapes antérieures à La Rochelle puis Blagnac.",
+          "sources": [
+            "S-avril_2011_apres_codex-06",
+            "S-avril_2011_apres_codex-07",
+            "S-avril_2011_apres_codex-03"
+          ]
+        }
+      ],
+      "traitement_recommande": "Présenter les étapes documentées sans rendre compatibles artificiellement des résumés divergents."
+    },
+    {
+      "sujet": "Sortie finale de l'hôtel",
+      "versions": [
+        {
+          "version": "Matin dans la chronologie de septembre 2011.",
+          "sources": [
+            "S-avril_2011_apres_codex-07"
+          ]
+        },
+        {
+          "version": "Retour vers 16 h puis départ à pied dans les récits ultérieurs.",
+          "sources": [
+            "S-avril_2011_apres_codex-06",
+            "S-avril_2011_apres_codex-19",
+            "S-avril_2011_apres_codex-15"
+          ]
+        }
+      ],
+      "traitement_recommande": "Distinguer sortie matinale et retour ; ne pas prétendre avoir regardé l'enregistrement."
+    },
+    {
+      "sujet": "Carte utilisée au Pontet",
+      "versions": [
+        {
+          "version": "Nuitée réglée par carte d'Agnès.",
+          "sources": [
+            "S-avril_2011_apres_codex-06"
+          ]
+        },
+        {
+          "version": "Nuitée carte d'Agnès, repas et petit-déjeuner carte au nom de Xavier.",
+          "sources": [
+            "S-avril_2011_apres_codex-19"
+          ]
+        }
+      ],
+      "traitement_recommande": "Ces précisions peuvent être compatibles ; ne pas confondre les opérations, relevés originaux absents."
+    },
+    {
+      "sujet": "Nuit du 13 au 14",
+      "versions": [
+        {
+          "version": "Non localisée dans l'article de 2011.",
+          "sources": [
+            "S-avril_2011_apres_codex-07"
+          ]
+        },
+        {
+          "version": "Étape à La Seyne dans les bilans ultérieurs.",
+          "sources": [
+            "S-avril_2011_apres_codex-14",
+            "S-avril_2011_apres_codex-15"
+          ]
+        }
+      ],
+      "traitement_recommande": "Possible progression de l'enquête ; conserver dates des publications."
+    },
+    {
+      "sujet": "Jour de localisation de la voiture",
+      "versions": [
+        {
+          "version": "21 avril dans le tableau initial et bilans.",
+          "sources": [
+            "S-avril_2011_apres_codex-08",
+            "S-avril_2011_apres_codex-12",
+            "S-avril_2011_apres_codex-15"
+          ]
+        },
+        {
+          "version": "Vendredi 22 dans une autre mise à jour de la même page.",
+          "sources": [
+            "S-avril_2011_apres_codex-08"
+          ]
+        }
+      ],
+      "traitement_recommande": "Garder la plage 21–22 ; distinguer repérage, confirmation et annonce sans leur inventer d'heures."
+    }
+  ],
+  "lacunes": [
+    "Original des lettres, courriels, SMS et listes de destinataires non consultés ; dates d'envoi/réception incomplètes.",
+    "Messages envoyés depuis les téléphones de la famille après les décès seulement rapportés ; auteurs et heures exactes non vérifiés.",
+    "Article Sud Ouest du 1er juin 2011 non récupéré malgré recherches et clics depuis deux reprises ; une origine pour la trace IP.",
+    "Mécanisme informatique exact, factures d'hôtels et relevés bancaires non consultés ; total des opérations incomplet.",
+    "Nuit du 13 au 14 donnée comme inconnue en 2011 puis localisée ultérieurement dans des récits ; justificatif original absent.",
+    "Vidéosurveillance originale non visionnée. Heure précise et nature du sac doivent rester attribuées ; aucune scène ajoutée après le 15 avril.",
+    "Origine du portrait public non vérifiée : article AFP Making-of inaccessible, même via profil et ancien lien. Sa notice n'établit pas le contenu du passage recherché.",
+    "Signalements ultérieurs décrits par RTL ne sont pas des traces authentifiées ; ils n'étendent pas la dernière trace.",
+    "Jour de découverte du véhicule divergent entre 21 et 22 avril ; accès aux pièces originales nécessaire pour trancher."
+  ]
+}

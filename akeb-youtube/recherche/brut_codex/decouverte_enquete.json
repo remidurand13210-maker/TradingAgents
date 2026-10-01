@@ -1,0 +1,1146 @@
+{
+  "sujet": "Découverte, recherches et procédure dans l’affaire Xavier Dupont de Ligonnès ; consultation au 1er octobre 2026",
+  "sources": [
+    {
+      "ref": "S-decouverte_enquete_codex-01",
+      "titre": "Les grandes dates de l’affaire Dupont de Ligonnès",
+      "url": "https://www.leparisien.fr/faits-divers/la-nuit-du-meurtre-la-decouverte-des-corps-la-derniere-image-du-fugitif-les-grandes-dates-de-laffaire-dupont-de-ligonnes-03-04-2026-J27GNQSCXJGMNKNKA2O2LVG7KY.php",
+      "auteur_organisme": "Manon Aublanc",
+      "media": "Le Parisien",
+      "date_publication": "2026-04-03",
+      "date_faits": "2011-2026",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Chronologie visible consultée ; confrontée aux publications contemporaines."
+    },
+    {
+      "ref": "S-decouverte_enquete_codex-02",
+      "titre": "Chronologie de l’affaire",
+      "url": "https://www.leparisien.fr/faits-divers/de-la-tuerie-a-l-arrestation-de-xavier-dupont-de-ligonnes-chronologie-d-une-mysterieuse-affaire-11-10-2019-8171469.php",
+      "auteur_organisme": "Le Parisien, signature non affichée",
+      "media": "Le Parisien",
+      "date_publication": "2019-10-11",
+      "date_faits": "2011-2019",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Archive non corrigée."
+    },
+    {
+      "ref": "S-decouverte_enquete_codex-03",
+      "titre": "Xavier Dupont de Ligonnès va réapparaître, estime l’avocat de sa mère",
+      "url": "https://www.rtl.fr/actu/justice-faits-divers/xavier-dupont-de-ligonnes-il-va-reapparaitre-7900016865",
+      "auteur_organisme": "RTL",
+      "media": "RTL",
+      "date_publication": "2021-04-06",
+      "date_faits": "2011-04",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Texte lu, audio non écouté. Le texte donne par erreur Olivier au procureur Ronsin."
+    },
+    {
+      "ref": "S-decouverte_enquete_codex-04",
+      "titre": "Vous souvenez-vous ? Le 21 avril 2011, le début de l’affaire",
+      "url": "https://www.20minutes.fr/faits_divers/3251603-20220329-20-minutes-20-ans-souvenez-21-avril-2011-debut-affaire-dupont-ligonnes",
+      "auteur_organisme": "Frédéric Brenon",
+      "media": "20 Minutes",
+      "date_publication": "2022-03-29",
+      "date_faits": "2011-04-21;2011-04-28",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Souvenir d’un journaliste présent au point presse et aux obsèques."
+    },
+    {
+      "ref": "S-decouverte_enquete_codex-05",
+      "titre": "Une page blanche sur laquelle chacun projette ses fantasmes, estime l’ancien procureur",
+      "url": "https://www.20minutes.fr/justice/3011519-20210401-affaire-xavier-dupont-ligonnes-page-blanche-laquelle-chacun-projette-fantasmes-estime-ancien-procureur-nantes",
+      "auteur_organisme": "Frédéric Brenon, entretien Xavier Ronsin",
+      "media": "20 Minutes",
+      "date_publication": "2021-04-01",
+      "date_faits": "2011;2021",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Ancien procureur, plus chargé du dossier depuis 2012."
+    },
+    {
+      "ref": "S-decouverte_enquete_codex-06",
+      "titre": "Xavier Dupont de Ligonnès recherché par Interpol",
+      "url": "https://www.lemonde.fr/societe/article/2011/04/27/xavier-dupont-de-ligonnes-recherche-par-interpol_1513433_3224.html",
+      "auteur_organisme": "Patricia Jolly",
+      "media": "Le Monde",
+      "date_publication": "2011-04-27",
+      "date_faits": "2011-04-26",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Communiqué Ronsin cité ; document original non consulté."
+    },
+    {
+      "ref": "S-decouverte_enquete_codex-07",
+      "titre": "Mandat d’arrêt international contre Xavier de Ligonnès",
+      "url": "https://www.ladepeche.fr/article/2011/05/10/1078502-mandat-d-arret-international-contre-xavier-de-ligonnes.html",
+      "auteur_organisme": "AFP",
+      "media": "La Dépêche",
+      "date_publication": "2011-05-10",
+      "date_faits": "2011-04-22;2011-05-10",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "agence",
+      "origine": "AFP",
+      "notes": "Communiqué du parquet cité ; mise à jour 11 mai."
+    },
+    {
+      "ref": "S-decouverte_enquete_codex-08",
+      "titre": "Un mandat d’arrêt international a été délivré",
+      "url": "https://www.lemonde.fr/societe/article/2011/05/11/un-mandat-d-arret-international-a-ete-delivre-contre-xavier-dupont-de-ligonnes_1520231_3224.html",
+      "auteur_organisme": "Le Monde",
+      "media": "Le Monde",
+      "date_publication": "2011-05-11",
+      "date_faits": "2011-05-10",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Bref article visible intégralement."
+    },
+    {
+      "ref": "S-decouverte_enquete_codex-09",
+      "titre": "Tuerie de Nantes : les témoignages poignants des amis des victimes",
+      "url": "https://www.leparisien.fr/loire-atlantique-44/tuerie-de-nantes-les-temoignages-poignants-des-amis-des-victimes-28-04-2011-1426754.php",
+      "auteur_organisme": "Signature non affichée",
+      "media": "Le Parisien",
+      "date_publication": "2011-04-28",
+      "date_faits": "2011-04-28",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Origine du texte non indiquée ; indépendance non présumée pour les citations communes."
+    },
+    {
+      "ref": "S-decouverte_enquete_codex-10",
+      "titre": "Yonne : ultime hommage à Agnès et ses quatre enfants",
+      "url": "https://www.leparisien.fr/loire-atlantique-44/yonne-ultime-hommage-a-agnes-dupont-de-ligonnes-et-ses-quatre-enfants-30-04-2011-1430010.php",
+      "auteur_organisme": "AFP, reprise sans signature",
+      "media": "Le Parisien",
+      "date_publication": "2011-04-30",
+      "date_faits": "2011-04-29;2011-04-30",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "agence",
+      "origine": "AFP",
+      "notes": "Passages identiques à la dépêche AFP affichée par La Dépêche ; une seule origine."
+    },
+    {
+      "ref": "S-decouverte_enquete_codex-11",
+      "titre": "Dernier hommage sobre à Agnès et ses quatre enfants",
+      "url": "https://www.ladepeche.fr/article/2011/04/30/1071658-dernier-hommage-sobre-agnes-ligonnes-quatre-enfants.html",
+      "auteur_organisme": "AFP",
+      "media": "La Dépêche",
+      "date_publication": "2011-04-30",
+      "date_faits": "2011-04-30",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "agence",
+      "origine": "AFP",
+      "notes": "Début de la dépêche lu ; confirme l’origine commune avec S-10."
+    },
+    {
+      "ref": "S-decouverte_enquete_codex-12",
+      "titre": "Nouvelles fouilles prévues mardi dans le Var",
+      "url": "https://www.leparisien.fr/loire-atlantique-44/affaire-ligonnes-nouvelles-fouilles-prevues-mardi-dans-le-var-23-06-2011-1505320.php",
+      "auteur_organisme": "Signature non affichée",
+      "media": "Le Parisien",
+      "date_publication": "2011-06-23",
+      "date_faits": "2011-06-23;2011-06-28",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Origine non précisée ; bilan de matinée et opération suivante annoncée."
+    },
+    {
+      "ref": "S-decouverte_enquete_codex-13",
+      "titre": "Fouilles spéléologiques sans résultat dans le Var",
+      "url": "https://www.lepoint.fr/societe/affaire-ligonnes-fouilles-speleologiques-sans-resultat-dans-le-var-23-06-2011-1345361_23.php",
+      "auteur_organisme": "Reuters",
+      "media": "Le Point",
+      "date_publication": "2011-06-23",
+      "date_faits": "2011-06-23",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "agence",
+      "origine": "reprise:Reuters",
+      "notes": "Titre et légende visibles ; corps de dépêche absent. Ne fournit aucun détail supplémentaire."
+    },
+    {
+      "ref": "S-decouverte_enquete_codex-14",
+      "titre": "Nouvelle phase de recherches dans le Var",
+      "url": "https://www.lemonde.fr/societe/article/2011/06/28/nouvelle-phase-de-recherches-dans-le-var-dans-l-affaire-dupont-de-ligonnes_1541823_3224.html",
+      "auteur_organisme": "Patricia Jolly",
+      "media": "Le Monde",
+      "date_publication": "2011-06-28",
+      "date_faits": "2011-06-28",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Communiqué Ronsin cité ; pas de bilan final dans cet article."
+    },
+    {
+      "ref": "S-decouverte_enquete_codex-15",
+      "titre": "De nouvelles fouilles lancées",
+      "url": "https://www.leparisien.fr/archives/dupont-de-ligonnes-de-nouvelles-fouilles-lancees-25-11-2012-2352209.php",
+      "auteur_organisme": "Le Parisien, signature non affichée",
+      "media": "Le Parisien",
+      "date_publication": "2012-11-25",
+      "date_faits": "2012-11",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Annonce de repérages et recherches, pas de résultat final."
+    },
+    {
+      "ref": "S-decouverte_enquete_codex-16",
+      "titre": "De nouvelles fouilles dans le Var",
+      "url": "https://www.ladepeche.fr/article/2013/05/02/1618178-dupont-de-ligonnes-de-nouvelles-fouilles-dans-le-var.html",
+      "auteur_organisme": "La Dépêche.fr",
+      "media": "La Dépêche",
+      "date_publication": "2013-05-02",
+      "date_faits": "2013-05-02",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "agence",
+      "origine": "AFP",
+      "notes": "Origine AFP confirmée par la même dépêche du Dauphiné du 2 mai 2013 ; une seule origine."
+    },
+    {
+      "ref": "S-decouverte_enquete_codex-17",
+      "titre": "Rien ne permet de donner judiciairement du crédit à la version de sa sœur",
+      "url": "https://www.ladepeche.fr/2024/03/22/xavier-dupont-de-ligonnes-rien-ne-permet-de-donner-judiciairement-du-credit-a-la-version-de-sa-soeur-estime-le-procureur-de-nantes-11842198.php",
+      "auteur_organisme": "Edwige Grolleau",
+      "media": "La Dépêche",
+      "date_publication": "2024-03-22",
+      "date_faits": "2024-03-22",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Communiqué du procureur Renaud Gaudeul rapporté ; texte original non obtenu."
+    },
+    {
+      "ref": "S-decouverte_enquete_codex-18",
+      "titre": "Dix ans après : un jour ou l’autre, s’il est en vie, un signalement sera le bon",
+      "url": "https://www.lemonde.fr/societe/article/2021/04/03/xavier-dupont-de-ligonnes-disparu-depuis-dix-ans-un-jour-ou-l-autre-s-il-est-en-vie-un-signalement-sera-le-bon_6075473_3224.html",
+      "auteur_organisme": "Anne-Hélène Dorison et Simon Piel",
+      "media": "Le Monde",
+      "date_publication": "2021-04-03",
+      "date_faits": "2021",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Passage visible ; actualisation en septembre."
+    },
+    {
+      "ref": "S-decouverte_enquete_codex-19",
+      "titre": "Quinze ans après : où en est l’enquête ?",
+      "url": "https://www.ladepeche.fr/2026/03/06/xavier-dupont-de-ligonnes-15-ans-apres-le-meurtre-de-sa-famille-et-sa-disparition-la-justice-penche-pour-le-suicide-ou-en-est-lenquete-13247807.php",
+      "auteur_organisme": "Sabrina El",
+      "media": "La Dépêche",
+      "date_publication": "2026-03-06",
+      "date_faits": "2013;2021;2026",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_regional",
+      "origine": "reprise:AFP",
+      "notes": "Opinions Lamy 2013 et Ronsin 2021 reprises d’AFP ; ne pas les dater de 2026."
+    },
+    {
+      "ref": "S-decouverte_enquete_codex-20",
+      "titre": "Quinze ans de mystère et une affaire devenue culte",
+      "url": "https://www.ledauphine.com/faits-divers-justice/2026/04/20/xavier-dupont-de-ligonnes-15-ans-de-mystere-et-une-affaire-devenue-culte",
+      "auteur_organisme": "Aurélien Poivret",
+      "media": "Le Dauphiné Libéré",
+      "date_publication": "2026-04-20",
+      "date_faits": "2026-04",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Texte lu, vidéo non visionnée ; mise à jour 23 avril 2026."
+    },
+    {
+      "ref": "S-decouverte_enquete_codex-21",
+      "titre": "Nouvelles révélations quinze ans après : les réponses à vos questions",
+      "url": "https://www.leparisien.fr/faits-divers/direct-dupont-de-ligonnes-nouvelles-revelations-15-ans-apres-sa-disparition-pistes-des-enqueteurs-posez-nous-vos-questions-sur-cette-affaire-02-03-2026-ZEW4WMYKNZGPHIOV4GZLYKW3VE.php",
+      "auteur_organisme": "Damien Delseny et Manon Aublanc",
+      "media": "Le Parisien",
+      "date_publication": "2026-03-02",
+      "date_faits": "2011;2024;2026",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Réponses visibles sélectionnées ; actualisation 4 mars."
+    },
+    {
+      "ref": "S-decouverte_enquete_codex-22",
+      "titre": "Epsilon : les enquêteurs vont lancer des vérifications",
+      "url": "https://www.rtl.fr/actu/justice-faits-divers/xavier-dupont-de-ligonnes-a-t-il-continue-a-poster-sur-un-forum-catholique-jusqu-en-2017-les-enqueteurs-vont-lancer-des-verifications-7900642764",
+      "auteur_organisme": "RTL",
+      "media": "RTL",
+      "date_publication": "2026-06-04",
+      "date_faits": "2026-06-03",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Communiqué Antoine Leroy rapporté ; pas de conclusion d’identification."
+    },
+    {
+      "ref": "S-decouverte_enquete_codex-23",
+      "titre": "Où en est réellement l’enquête en 2026 ?",
+      "url": "https://actuforcesdelordre.fr/2026/08/17/xavier-dupont-de-ligonnes-reste-introuvable-depuis-15-ans-ou-en-est-reellement-lenquete-en-2026-et-quelles-pistes-sont-encore-etudiees/",
+      "auteur_organisme": "Damien",
+      "media": "Actu Forces de l’Ordre",
+      "date_publication": "2026-08-17",
+      "date_faits": "2026",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "autre",
+      "origine": "reprise:RTL/Le Dauphiné/Le Parisien",
+      "notes": "Média non institutionnel ; bilan dérivé, pas une communication nouvelle du parquet."
+    },
+    {
+      "ref": "S-decouverte_enquete_codex-24",
+      "titre": "De Ligonnès / Romand : quand deux faits divers s’entremêlent (1/2)",
+      "url": "https://www.m6.fr/enquetes-criminelles-p_986/de-ligonnes-romand-quand-deux-faits-divers-sentremelent-1-2-c_13194458",
+      "auteur_organisme": "M6",
+      "media": "M6+",
+      "date_publication": "2026-09",
+      "date_faits": "2020;2026-09",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "officiel",
+      "origine": "propre",
+      "notes": "Synopsis lu ; vidéo non visionnée. Page : diffusé le 09/09/2026 ; titre moteur : 24/09/2026."
+    },
+    {
+      "ref": "S-decouverte_enquete_codex-25",
+      "titre": "À propos des notices rouges",
+      "url": "https://www.interpol.int/fr/Notre-action/Notices/Notices-rouges",
+      "auteur_organisme": "INTERPOL",
+      "media": "INTERPOL",
+      "date_publication": "",
+      "date_faits": "",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "officiel",
+      "origine": "propre",
+      "notes": "Page générale ; ne confirme pas une notice individuelle XDDL."
+    },
+    {
+      "ref": "S-decouverte_enquete_codex-26",
+      "titre": "À propos des notices",
+      "url": "https://www.interpol.int/fr/Notre-action/Notices/A-propos-des-notices",
+      "auteur_organisme": "INTERPOL",
+      "media": "INTERPOL",
+      "date_publication": "",
+      "date_faits": "",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "officiel",
+      "origine": "propre",
+      "notes": "Définitions officielles et distinction entre notices publiques et réservées aux policiers."
+    },
+    {
+      "ref": "S-decouverte_enquete_codex-27",
+      "titre": "Nouvelles fouilles dans l’affaire Ligonnès",
+      "url": "https://www.europe1.fr/faits-divers/Nouvelles-fouilles-dans-l-affaire-Ligonnes-529870",
+      "auteur_organisme": "Europe 1, reprise Nice-Matin",
+      "media": "Europe 1",
+      "date_publication": "2013-04-10",
+      "date_faits": "2013",
+      "date_consultation": "2026-10-01",
+      "acces": "inaccessible",
+      "type": "media_national",
+      "origine": "reprise:Nice-Matin",
+      "notes": "403 ; aucune assertion tirée de l’extrait moteur."
+    },
+    {
+      "ref": "S-decouverte_enquete_codex-28",
+      "titre": "Affaire Ligonnès : les recherches restent vaines",
+      "url": "https://www.europe1.fr/societe/Affaire-Ligonnes-les-recherches-restent-vaines-322464",
+      "auteur_organisme": "Pierre de Cossette avec AFP",
+      "media": "Europe 1",
+      "date_publication": "2011-06-23",
+      "date_faits": "2011-06-23",
+      "date_consultation": "2026-10-01",
+      "acces": "inaccessible",
+      "type": "media_national",
+      "origine": "AFP",
+      "notes": "Échec d’ouverture ; aucun fait tiré de l’extrait."
+    },
+    {
+      "ref": "S-decouverte_enquete_codex-29",
+      "titre": "Les obsèques, édition Nantes du 29 avril 2011",
+      "url": "https://pdf.20mn.fr/2011/quotidien/20110429_NAN.pdf",
+      "auteur_organisme": "20 Minutes",
+      "media": "20 Minutes",
+      "date_publication": "2011-04-29",
+      "date_faits": "2011-04-28",
+      "date_consultation": "2026-10-01",
+      "acces": "inaccessible",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "PDF non récupéré ; remplacé par reportage contemporain et souvenir du journaliste."
+    },
+    {
+      "ref": "S-decouverte_enquete_codex-30",
+      "titre": "L’ADN sur les effets découverts près du corps n’est pas le sien",
+      "url": "https://www.rtl.fr/actu/justice-faits-divers/xavier-dupont-de-ligonnes-l-adn-sur-les-effets-decouverts-pres-du-cadavre-n-est-pas-le-sien-7777531661",
+      "auteur_organisme": "RTL",
+      "media": "RTL",
+      "date_publication": "2015-05-01",
+      "date_faits": "2015-04-28;2015-05-01",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Premières analyses sur des objets ; confirmation sur les restes encore attendue à cette date."
+    },
+    {
+      "ref": "S-decouverte_enquete_codex-31",
+      "titre": "Une recherche dans un monastère infructueuse",
+      "url": "https://lemans.maville.com/actu/actudet_-affaire-dupont-de-ligonnes-une-recherche-dans-un-monastere-infructueuse_54135-3356561_actu.Htm",
+      "auteur_organisme": "Ouest-France",
+      "media": "Maville / Ouest-France",
+      "date_publication": "2018-01-09",
+      "date_faits": "2018-01-09",
+      "date_consultation": "2026-10-01",
+      "acces": "inaccessible",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Ouverture en échec ; aucune assertion tirée du seul extrait moteur."
+    },
+    {
+      "ref": "S-decouverte_enquete_codex-32",
+      "titre": "Affaire Ligonnès : cavale parfaite ou suicide ?",
+      "url": "https://www.lejdd.fr/societe/affaire-ligonnes-cavale-parfaite-ou-suicide-54046",
+      "auteur_organisme": "Marie Quenet",
+      "media": "Le Journal du dimanche",
+      "date_publication": "2011-06-11",
+      "date_faits": "2011-04-29;2011-06",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Reportage propre ; actualisation technique du site en 2023."
+    }
+  ],
+  "assertions": [
+    {
+      "ref": "A-decouverte_enquete_codex-01",
+      "assertion": "La chronologie de 2026 situe une alerte de voisins et une première visite de police au 13 avril 2011.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Le Parisien, chronologie Manon Aublanc",
+      "date_faits": "2011-04-13",
+      "lieu": "Nantes",
+      "sources": [
+        "S-decouverte_enquete_codex-01"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Chronologie rétrospective.",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "La chronologie 2019 concorde sur l’alerte, sans fournir une origine indépendante."
+      }
+    },
+    {
+      "ref": "A-decouverte_enquete_codex-02",
+      "assertion": "RTL décrit le 21 avril comme la cinquième visite policière au domicile, après l’inquiétude suscitée par le silence familial.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Rédaction RTL, récit rétrospectif",
+      "date_faits": "2011-04-21",
+      "lieu": "Nantes",
+      "sources": [
+        "S-decouverte_enquete_codex-03"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Le nombre des visites est rapporté.",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "Recherches dans les chronologies contemporaines et rétrospectives : aucune série complète indépendante de dates consultable."
+      }
+    },
+    {
+      "ref": "A-decouverte_enquete_codex-03",
+      "assertion": "Les cinq victimes sont découvertes le 21 avril 2011 au domicile familial nantais.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Reportage Frédéric Brenon ; Xavier Ronsin interrogé ; communiqué du parquet cité par AFP",
+      "date_faits": "2011-04-21",
+      "lieu": "Nantes",
+      "sources": [
+        "S-decouverte_enquete_codex-04",
+        "S-decouverte_enquete_codex-05",
+        "S-decouverte_enquete_codex-07"
+      ],
+      "nb_sources_independantes": 3,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Découverte et autopsies ne doivent pas être confondues."
+    },
+    {
+      "ref": "A-decouverte_enquete_codex-04",
+      "assertion": "Le 21 avril, Ronsin maintient son point presse après avoir appris la découverte d’un premier corps.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Xavier Ronsin, ancien procureur de Nantes",
+      "date_faits": "2011-04-21",
+      "lieu": "Palais de justice de Nantes",
+      "sources": [
+        "S-decouverte_enquete_codex-04",
+        "S-decouverte_enquete_codex-05"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Confirmation par le journaliste présent.",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Souvenir du magistrat confronté au récit du journaliste."
+      }
+    },
+    {
+      "ref": "A-decouverte_enquete_codex-05",
+      "assertion": "Le communiqué du 10 mai, cité par AFP, donne le 22 avril pour l’ouverture de l’information judiciaire contre X pour assassinats.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Xavier Ronsin, communiqué rapporté par AFP",
+      "date_faits": "2011-04-22",
+      "lieu": "Nantes",
+      "sources": [
+        "S-decouverte_enquete_codex-07"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Texte judiciaire original non consulté.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Le Monde confirme le mandat ultérieur, sans redonner cette date précise d’ouverture."
+      }
+    },
+    {
+      "ref": "A-decouverte_enquete_codex-06",
+      "assertion": "Dans les réponses du Parisien de 2026, le procureur Gaudeul est cité expliquant que les identifications des victimes ont reposé sur l’ADN et les examens médico-légaux.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Renaud Gaudeul, propos de 2024 rapportés par Le Parisien",
+      "date_faits": "2011;2024",
+      "lieu": "Nantes",
+      "sources": [
+        "S-decouverte_enquete_codex-21"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Aucun rapport d’expertise consulté.",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "Recherche du communiqué et des rapports originaux : aucune corroboration indépendante complète des modalités obtenue."
+      }
+    },
+    {
+      "ref": "A-decouverte_enquete_codex-07",
+      "assertion": "Le 26 avril 2011, une diffusion Interpol qualifiée de notice bleue est ordonnée, selon le communiqué Ronsin cité par Le Monde.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Xavier Ronsin, procureur, communiqué cité par Patricia Jolly",
+      "date_faits": "2011-04-26",
+      "lieu": "Nantes / international",
+      "sources": [
+        "S-decouverte_enquete_codex-06"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "État historique daté.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Les définitions officielles d’Interpol confirment le rôle d’information de la notice bleue ; aucune fiche individuelle contemporaine n’a été obtenue."
+      }
+    },
+    {
+      "ref": "A-decouverte_enquete_codex-08",
+      "assertion": "Le parquet annonce le 10 mai 2011 un mandat d’arrêt international, distinct de la recherche internationale antérieure pour entendre le suspect comme témoin.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Xavier Ronsin, communiqué du parquet cité par AFP et Le Monde",
+      "date_faits": "2011-05-10",
+      "lieu": "Nantes / international",
+      "sources": [
+        "S-decouverte_enquete_codex-07",
+        "S-decouverte_enquete_codex-08"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Le mandat judiciaire original n’a pas été consulté.",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Deux publications contemporaines concordent sur la date et le changement de statut ; leur information reste une attribution au parquet."
+      }
+    },
+    {
+      "ref": "A-decouverte_enquete_codex-09",
+      "assertion": "Pour Interpol, une notice rouge demande localisation et arrestation provisoire ; elle n’est pas elle-même un mandat d’arrêt international. La notice bleue vise des renseignements d’identité, de localisation ou d’activité.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "INTERPOL, définitions officielles",
+      "date_faits": "",
+      "lieu": "International",
+      "sources": [
+        "S-decouverte_enquete_codex-25",
+        "S-decouverte_enquete_codex-26"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Définitions générales, pas la couleur actuelle de la notice XDDL.",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Deux pages officielles concordantes ; elles ne permettent pas de vérifier le dossier individuel."
+      }
+    },
+    {
+      "ref": "A-decouverte_enquete_codex-10",
+      "assertion": "Les obsèques d’Agnès et de ses quatre enfants ont lieu le 28 avril 2011 à l’église Saint-Félix de Nantes.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Reportage contemporain Le Parisien et Frédéric Brenon, journaliste présent",
+      "date_faits": "2011-04-28",
+      "lieu": "Église Saint-Félix, Nantes",
+      "sources": [
+        "S-decouverte_enquete_codex-09",
+        "S-decouverte_enquete_codex-04"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Dates utiles au récit, sans description intime."
+    },
+    {
+      "ref": "A-decouverte_enquete_codex-11",
+      "assertion": "Le 30 avril, les urnes des victimes sont déposées à Noyers-sur-Serein.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "AFP et chronologie Le Parisien",
+      "date_faits": "2011-04-30",
+      "lieu": "Noyers-sur-Serein, Yonne",
+      "sources": [
+        "S-decouverte_enquete_codex-10",
+        "S-decouverte_enquete_codex-11",
+        "S-decouverte_enquete_codex-02"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "AFP reprise, une origine.",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Reportage contemporain et rétrospective concordent."
+      }
+    },
+    {
+      "ref": "A-decouverte_enquete_codex-12",
+      "assertion": "Les recherches du 29 avril 2011 autour de Roquebrune-sur-Argens mobilisent environ 130 personnes, chiens et hélicoptère ; elles sont rapportées infructueuses.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "AFP et reportage Marie Quenet du JDD",
+      "date_faits": "2011-04-29",
+      "lieu": "Roquebrune-sur-Argens, Var",
+      "sources": [
+        "S-decouverte_enquete_codex-10",
+        "S-decouverte_enquete_codex-32"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Bilan contemporain AFP.",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Le reportage indépendant du JDD du 11 juin confirme le dispositif et l’absence de résultat."
+      }
+    },
+    {
+      "ref": "A-decouverte_enquete_codex-13",
+      "assertion": "Le 23 juin, le repérage spéléologique se concentre notamment sur une trentaine de cavités, dans un rayon annoncé de 12 à 15 kilomètres ; aucun élément n’est signalé en fin de matinée.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Le Parisien, notamment André Roudeau du Spéléo-Secours du Var",
+      "date_faits": "2011-06-23",
+      "lieu": "Haut-Var",
+      "sources": [
+        "S-decouverte_enquete_codex-12",
+        "S-decouverte_enquete_codex-13"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Le titre Reuters accessible donne également un résultat négatif, sans détails.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Le bilan Reuters visible est compatible ; l’article du 28 juin décrit la poursuite des recherches. Ce comptage n’est pas celui de toute la région."
+      }
+    },
+    {
+      "ref": "A-decouverte_enquete_codex-14",
+      "assertion": "Le 28 juin, une opération ordonnée par le juge associe CRS, spécialistes des terrains périlleux, pompiers, PJ de Toulon, chiens et hélicoptère. Le parquet maintient alors décès et fuite comme hypothèses.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Xavier Ronsin, communiqué rapporté par Patricia Jolly",
+      "date_faits": "2011-06-28",
+      "lieu": "Roquebrune-sur-Argens et environs, Var",
+      "sources": [
+        "S-decouverte_enquete_codex-14"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Bilan final absent.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "L’annonce du 23 juin confirme l’opération prévue. Sa réalisation est rapportée par Le Monde ; aucun bilan officiel complet obtenu."
+      }
+    },
+    {
+      "ref": "A-decouverte_enquete_codex-15",
+      "assertion": "En novembre 2012, Le Parisien annonce des repérages dans des grottes et mines jusque-là non explorées.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Le Parisien, sources d’enquête anonymes",
+      "date_faits": "2012-11",
+      "lieu": "Roquebrune-sur-Argens / Draguignan / Lorgues",
+      "sources": [
+        "S-decouverte_enquete_codex-15"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Projet, pas bilan exhaustif.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Mai 2013 confirme des fouilles ultérieures, sans établir chacun des secteurs annoncés."
+      }
+    },
+    {
+      "ref": "A-decouverte_enquete_codex-16",
+      "assertion": "Le 2 mai 2013, une cinquantaine de policiers, gendarmes et pompiers fouillent des cavités du massif des Maures sous l’autorité du juge Robert Tchalian.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "La Dépêche et chronologie Le Parisien",
+      "date_faits": "2013-05-02",
+      "lieu": "Entre La Garde-Freinet et secteur du massif des Maures, Var",
+      "sources": [
+        "S-decouverte_enquete_codex-16"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Opération en cours ; bilan final non obtenu.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Le Dauphiné reprend la même dépêche AFP : confirmation de l’origine, pas corroboration indépendante."
+      }
+    },
+    {
+      "ref": "A-decouverte_enquete_codex-17",
+      "assertion": "Le 1er mai 2015, RTL rapporte que l’ADN d’objets trouvés près de restes à Bagnols-en-Forêt ne correspond pas à XDDL ; les analyses sur les restes sont encore en cours dans cet article.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "RTL, premières expertises de laboratoire rapportées",
+      "date_faits": "2015-05-01",
+      "lieu": "Bagnols-en-Forêt, Var",
+      "sources": [
+        "S-decouverte_enquete_codex-30"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": false,
+      "notes": "Résultat partiel daté, pas une confirmation définitive du laboratoire."
+    },
+    {
+      "ref": "A-decouverte_enquete_codex-18",
+      "assertion": "Le 22 mars 2024, Gaudeul situe l’instruction à Nantes et dément un transfert au pôle de Nanterre.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Renaud Gaudeul, communiqué cité par La Dépêche",
+      "date_faits": "2024-03-22",
+      "lieu": "Nantes",
+      "sources": [
+        "S-decouverte_enquete_codex-17"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "État daté de 2024.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Avril puis juin 2026 confirment un traitement nantais, sans certifier le statut au 1er octobre."
+      }
+    },
+    {
+      "ref": "A-decouverte_enquete_codex-19",
+      "assertion": "En 2021, Le Monde situe l’instruction à Nantes, sans procès par défaut annoncé.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Anne-Hélène Dorison et Simon Piel",
+      "date_faits": "2021",
+      "lieu": "Nantes",
+      "sources": [
+        "S-decouverte_enquete_codex-18"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "faible",
+      "centrale": false,
+      "notes": "Situation datée de 2021.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "État daté, sans extrapolation actuelle."
+      }
+    },
+    {
+      "ref": "A-decouverte_enquete_codex-20",
+      "assertion": "Le bilan d’avril 2026 du Dauphiné indique une information judiciaire toujours ouverte à Nantes ; Antoine Leroy décline les commentaires particuliers sur le dossier.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Aurélien Poivret ; procureur Antoine Leroy cité",
+      "date_faits": "2026-04",
+      "lieu": "Tribunal judiciaire de Nantes",
+      "sources": [
+        "S-decouverte_enquete_codex-20"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Information publique la plus récente sur le siège judiciaire, complétée en juin.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Le communiqué de juin situe encore le traitement à Nantes, sans document judiciaire primaire consulté."
+      }
+    },
+    {
+      "ref": "A-decouverte_enquete_codex-21",
+      "assertion": "Le 3 juin 2026, Antoine Leroy annonce que le juge d’instruction fera vérifier le compte Epsilon et les informations diffusées sur M6, comme les signalements antérieurs.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Antoine Leroy, communiqué rapporté par RTL",
+      "date_faits": "2026-06-03",
+      "lieu": "Nantes",
+      "sources": [
+        "S-decouverte_enquete_codex-22"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Une vérification annoncée ne constitue pas une identification.",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "Recherche de communications institutionnelles et de publications juillet-septembre : pas de texte primaire obtenu ni de conclusion ultérieure indépendante trouvée dans ce thème."
+      }
+    }
+  ],
+  "chronologie": [
+    {
+      "date": "2011-04-13",
+      "precision": "jour",
+      "evenement": "Alerte de voisins, selon les chronologies rétrospectives.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-decouverte_enquete_codex-01"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2011-04-21",
+      "precision": "jour",
+      "evenement": "Découverte des cinq victimes et point presse du procureur.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": [
+        "S-decouverte_enquete_codex-04",
+        "S-decouverte_enquete_codex-05",
+        "S-decouverte_enquete_codex-07"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2011-04-22",
+      "precision": "jour",
+      "evenement": "Ouverture d’une information judiciaire contre X pour assassinats.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-decouverte_enquete_codex-07"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2011-04-26",
+      "precision": "jour",
+      "evenement": "Diffusion d’une notice bleue Interpol annoncée.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-decouverte_enquete_codex-06"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2011-04-28",
+      "precision": "jour",
+      "evenement": "Obsèques à Saint-Félix de Nantes.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": [
+        "S-decouverte_enquete_codex-09",
+        "S-decouverte_enquete_codex-04"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2011-04-29",
+      "precision": "jour",
+      "evenement": "Recherches dans le Var, rapportées infructueuses.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-decouverte_enquete_codex-10"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2011-04-30",
+      "precision": "jour",
+      "evenement": "Cérémonie et dépôt des urnes à Noyers-sur-Serein.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": [
+        "S-decouverte_enquete_codex-10"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2011-05-10",
+      "precision": "jour",
+      "evenement": "Annonce d’un mandat d’arrêt international.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-decouverte_enquete_codex-07",
+        "S-decouverte_enquete_codex-08"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2011-06-23",
+      "precision": "jour",
+      "evenement": "Repérages et recherches spéléologiques dans le Haut-Var.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-decouverte_enquete_codex-12"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2011-06-28",
+      "precision": "jour",
+      "evenement": "Nouvelle opération terrestre ordonnée par le juge.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-decouverte_enquete_codex-14"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2012-11",
+      "precision": "mois",
+      "evenement": "Annonce de repérages dans des cavités difficiles d’accès.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-decouverte_enquete_codex-15"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2013-05-02",
+      "precision": "jour",
+      "evenement": "Fouilles de cavités du massif des Maures.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-decouverte_enquete_codex-16"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2015-05-01",
+      "precision": "jour",
+      "evenement": "Premier résultat ADN négatif sur des objets à Bagnols-en-Forêt.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-decouverte_enquete_codex-30"
+      ],
+      "note": "Analyses sur les restes encore attendues dans cet article."
+    },
+    {
+      "date": "2021-04",
+      "precision": "mois",
+      "evenement": "Bilans médiatiques des dix ans.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": [
+        "S-decouverte_enquete_codex-18"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2024-03-22",
+      "precision": "jour",
+      "evenement": "Le procureur situe explicitement le dossier à Nantes.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-decouverte_enquete_codex-17"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2026-04",
+      "precision": "mois",
+      "evenement": "Bilan des quinze ans : instruction nantaise encore décrite ouverte.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-decouverte_enquete_codex-20"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2026-06-03",
+      "precision": "jour",
+      "evenement": "Vérifications de nouvelles informations annoncées par le parquet.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-decouverte_enquete_codex-22"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2026-08-17",
+      "precision": "jour",
+      "evenement": "Publication d’un bilan dérivé des informations de juin.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "sources": [
+        "S-decouverte_enquete_codex-23"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2026-09",
+      "precision": "mois",
+      "evenement": "Synopsis M6+ d’un documentaire rétrospectif.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": [
+        "S-decouverte_enquete_codex-24"
+      ],
+      "note": "Date de diffusion affichée et titre moteur divergent."
+    }
+  ],
+  "details_moins_connus": [
+    {
+      "detail": "La conférence du 21 avril avait été organisée avant la découverte, pour solliciter des témoignages sur les disparitions.",
+      "interet_interpretation": "Explique l’enchaînement public sans prêter au parquet une connaissance anticipée des découvertes.",
+      "sources": [
+        "S-decouverte_enquete_codex-04"
+      ]
+    },
+    {
+      "detail": "La plupart des notices Interpol ne sont pas publiques.",
+      "interet_interpretation": "L’absence de fiche publique ne permet pas de conclure à l’absence de notice.",
+      "sources": [
+        "S-decouverte_enquete_codex-26"
+      ]
+    },
+    {
+      "detail": "La page M6+ consultée le 1er octobre 2026 affiche une diffusion en septembre et un synopsis évoquant Fontgombault en novembre 2020.",
+      "interet_interpretation": "Vidéo non vue ; le synopsis ne valide aucun nouvel acte ou résultat d’enquête.",
+      "sources": [
+        "S-decouverte_enquete_codex-24"
+      ]
+    },
+    {
+      "detail": "Le 17 août 2026, Actu Forces de l’Ordre publie un bilan reprenant des articles de juin.",
+      "interet_interpretation": "Publication éditoriale dérivée ; aucun nouveau résultat judiciaire identifiable.",
+      "sources": [
+        "S-decouverte_enquete_codex-23"
+      ]
+    }
+  ],
+  "contradictions": [
+    {
+      "sujet": "Date d’ouverture de l’enquête pour disparition inquiétante",
+      "versions": [
+        {
+          "version": "19 avril dans la chronologie de 2026.",
+          "sources": [
+            "S-decouverte_enquete_codex-01"
+          ]
+        },
+        {
+          "version": "20 avril dans la chronologie de 2019.",
+          "sources": [
+            "S-decouverte_enquete_codex-02"
+          ]
+        }
+      ],
+      "traitement_recommande": "Conserver 19-20 avril comme divergence ; distinguer l’information judiciaire du 22 avril."
+    },
+    {
+      "sujet": "Couleur de la notice Interpol actuelle",
+      "versions": [
+        {
+          "version": "Notice bleue dans le communiqué de 2011 et le bilan de mars 2026.",
+          "sources": [
+            "S-decouverte_enquete_codex-06",
+            "S-decouverte_enquete_codex-19"
+          ]
+        },
+        {
+          "version": "Notice rouge dans le bilan du Monde de 2021.",
+          "sources": [
+            "S-decouverte_enquete_codex-18"
+          ]
+        }
+      ],
+      "traitement_recommande": "Ne pas inventer une transition ni fixer la couleur actuelle ; vérifier auprès de l’autorité émettrice. Le mandat d’arrêt est une autre pièce."
+    },
+    {
+      "sujet": "Date de diffusion du programme M6+ consulté en septembre",
+      "versions": [
+        {
+          "version": "La page affiche 09/09/2026.",
+          "sources": [
+            "S-decouverte_enquete_codex-24"
+          ]
+        },
+        {
+          "version": "Le titre de moteur affiche 24/09/2026.",
+          "sources": [
+            "S-decouverte_enquete_codex-24"
+          ]
+        }
+      ],
+      "traitement_recommande": "La page du diffuseur est la source principale ; conserver la discordance et ne pas prétendre avoir vu le programme."
+    }
+  ],
+  "lacunes": [
+    "Chronologie complète des cinq visites de police et procès-verbaux non obtenus.",
+    "Rapports d’identification et d’autopsie non consultés ; identification rapportée via des citations du parquet.",
+    "Mandat judiciaire et fiche individuelle Interpol non obtenus ; couleur actuelle non confirmée.",
+    "Bilans finaux, périmètres exhaustifs et superficies des campagnes de fouilles, notamment celle du 2 mai 2013, non obtenus.",
+    "Résultat final des analyses de 2015 non contrôlé dans ce thème ; l’article RTL consulté décrit un stade préliminaire.",
+    "Page du monastère de 2018 inaccessible ; les autres pistes et contrôles doivent être traités dans les thèmes dédiés.",
+    "Pas de confirmation judiciaire primaire du statut exact au 2026-10-01, d’un éventuel transfert postérieur à juin, ni d’une clôture ; aucune absence de transfert déduite.",
+    "Recherches explicites en français et en anglais, notamment juillet-août-septembre 2026 et Nanterre : le bilan d’août est dérivé, le programme de septembre rétrospectif, aucun nouveau résultat institutionnel indépendant obtenu."
+  ],
+  "outil": "codex"
+}

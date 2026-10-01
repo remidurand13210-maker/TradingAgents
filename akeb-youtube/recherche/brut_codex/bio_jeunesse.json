@@ -1,0 +1,825 @@
+{
+  "sujet": "Naissance, enfance et jeunesse de Xavier Dupont de Ligonnès : sources et limites",
+  "sources": [
+    {
+      "ref": "S-bio_jeunesse_codex-01",
+      "titre": "Dupont de Ligonnès : une vieille famille française dans le deuil",
+      "url": "https://www.lejdd.fr/societe/dupont-de-ligonnes-une-vieille-famille-francaise-dans-le-deuil-92866",
+      "auteur_organisme": "Marie Quenet",
+      "media": "Le Journal du Dimanche",
+      "date_publication": "2011-04-30",
+      "date_faits": "1961-2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Reportage accessible lu ; actualisation technique affichée au 2023-06-06."
+    },
+    {
+      "ref": "S-bio_jeunesse_codex-02",
+      "titre": "Xavier Dupont de Ligonnès : qui se cache derrière l’homme le plus recherché de France ?",
+      "url": "https://www.rtl.fr/actu/justice-faits-divers/xavier-dupont-de-ligonnes-qui-se-cache-derriere-l-homme-le-plus-recherche-de-france-7900525431",
+      "auteur_organisme": "RTL, auteur non affiché",
+      "media": "RTL",
+      "date_publication": "",
+      "date_faits": "1961-2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Texte de présentation lu ; date non affichée dans la version accessible. Audio non écouté."
+    },
+    {
+      "ref": "S-bio_jeunesse_codex-03",
+      "titre": "Affaire Xavier Dupont de Ligonnès : lettre à un ami d’enfance",
+      "url": "https://laregledujeu.org/2013/02/20/12381/affaire-xavier-dupont-de-ligonnes-lettre-a-un-ami-d%E2%80%99enfance/",
+      "auteur_organisme": "Bruno de Stabenrath",
+      "media": "La Règle du jeu",
+      "date_publication": "2013-02-20",
+      "date_faits": "1976-2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "temoignage_direct",
+      "origine": "propre",
+      "notes": "Lettre publique de première main lue ; commentaires des lecteurs exclus."
+    },
+    {
+      "ref": "S-bio_jeunesse_codex-04",
+      "titre": "Dupont de Ligonnès : Jusqu’à la veille des crimes, c’était quelqu’un de bien, dit son ami",
+      "url": "https://www.rtl.fr/actu/justice-faits-divers/dupont-de-ligonnes-jusqu-a-la-veille-des-crimes-c-etait-quelqu-un-de-bien-dit-son-ami-7800869325",
+      "auteur_organisme": "Yves Calvi ; édité par Sarah Ugolini",
+      "media": "RTL",
+      "date_publication": "2020-10-14",
+      "date_faits": "1977-2011 ; livre 2020",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Texte de l’entretien lu ; audio et vidéo non consultés. L’Ami impossible non lu."
+    },
+    {
+      "ref": "S-bio_jeunesse_codex-05",
+      "titre": "Xavier Dupont de Ligonnès, la trajectoire d’un touche-à-tout",
+      "url": "https://www.leparisien.fr/faits-divers/xavier-dupont-de-ligonnes-la-trajectoire-d-un-touche-a-tout-30-04-2011-1429205.php",
+      "auteur_organisme": "Le Parisien, auteur non affiché",
+      "media": "Le Parisien",
+      "date_publication": "2011-04-30",
+      "date_faits": "1961-2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Reportage biographique et paroles de proches. Plusieurs dates divergent des publications ultérieures."
+    },
+    {
+      "ref": "S-bio_jeunesse_codex-06",
+      "titre": "Xavier Dupont de Ligonnès, portraits en famille",
+      "url": "https://www.lemonde.fr/societe/article/2011/07/27/xavier-dupont-de-ligonnes-portraits-en-famille_1540118_3224.html",
+      "auteur_organisme": "Claire Ané",
+      "media": "Le Monde",
+      "date_publication": "2011-07-27",
+      "date_faits": "1961-2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Passages biographiques visibles lus ; actualisation affichée au 2019-10-14. Les messages privés rapportés ne sont pas les originaux."
+    },
+    {
+      "ref": "S-bio_jeunesse_codex-07",
+      "titre": "Affaire Xavier Dupont de Ligonnès : Il n’a pas préparé tout ça pour mourir, est convaincu Bruno de Stabenrath, ami du fugitif",
+      "url": "https://www.20minutes.fr/justice/3012459-20210402-affaire-xavier-dupont-ligonnes-prepare-tout-ca-mourir-convaincu-bruno-stabenrath-ami-fugitif",
+      "auteur_organisme": "Frédéric Brenon ; entretien avec Bruno de Stabenrath",
+      "media": "20 Minutes",
+      "date_publication": "2021-04-02",
+      "date_faits": "jeunesse ; 1995 ; conviction en 2021",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Entretien visible lu pour les souvenirs ; actualisé au 2021-04-05."
+    },
+    {
+      "ref": "S-bio_jeunesse_codex-08",
+      "titre": "Pourquoi le Var est un département central dans la vie de Xavier Dupont de Ligonnès",
+      "url": "https://www.nicematin.com/faits-divers/pourquoi-le-var-est-un-departement-central-dans-la-vie-de-xavier-dupont-de-ligonnes-761383",
+      "auteur_organisme": "Eric Marmottans",
+      "media": "Nice-Matin / Var-Matin",
+      "date_publication": "2022-04-19",
+      "date_faits": "1981-2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Texte accessible lu ; actualisé au 2025-06-28. Plusieurs épisodes reposent sur des souvenirs et sur Society."
+    },
+    {
+      "ref": "S-bio_jeunesse_codex-09",
+      "titre": "Affaire Dupont de Ligonnès : expertise psychiatrique par contumace",
+      "url": "https://www.nonfiction.fr/article-12592-affaire-dupont-de-ligonnes-expertise-psychiatrique-par-contumace.htm",
+      "auteur_organisme": "Emmanuelle Bornet",
+      "media": "Nonfiction",
+      "date_publication": "2026-02-02",
+      "date_faits": "1961-2011 ; livre 2025",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "autre",
+      "origine": "propre",
+      "notes": "Recension partiellement lue de L’Enigme publique n°1 de Daniel Zagury ; livre non lu. Analyse sans examen clinique de XDDL."
+    },
+    {
+      "ref": "S-bio_jeunesse_codex-10",
+      "titre": "Tuerie de Nantes : le passé trouble de Xavier Dupont de Ligonnès",
+      "url": "https://www.lemonde.fr/societe/article/2011/04/25/tuerie-de-nantes-le-passe-trouble-de-xavier-dupont-de-ligonnes_1512496_3224.html",
+      "auteur_organisme": "Anne-Hélène Dorison",
+      "media": "Le Monde",
+      "date_publication": "2011-04-25",
+      "date_faits": "jeunesse ; 2003-2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Passages visibles lus, notamment données financières et propos d’enquêteurs anonymes ; pièces originales non jointes."
+    },
+    {
+      "ref": "S-bio_jeunesse_codex-11",
+      "titre": "Portrait. Xavier Dupont de Ligonnès : un homme endetté qui menait une double vie",
+      "url": "https://www.ledauphine.com/france-monde/2019/10/11/xavier-dupont-de-ligonnes-un-homme-endette-qui-menait-une-double-vie",
+      "auteur_organisme": "Le Dauphiné Libéré, auteur non affiché",
+      "media": "Le Dauphiné Libéré",
+      "date_publication": "2024-03-09",
+      "date_faits": "1961-2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Passages biographiques lus. Date visible 2024-03-09, actualisation 2025-04-28 ; l’URL porte 2019. Origine détaillée non indiquée."
+    },
+    {
+      "ref": "S-bio_jeunesse_codex-12",
+      "titre": "La piste sectaire également explorée",
+      "url": "https://www.leparisien.fr/archives/la-piste-sectaire-egalement-exploree-29-05-2011-1471575.php",
+      "auteur_organisme": "Le Parisien, auteur non affiché",
+      "media": "Le Parisien",
+      "date_publication": "2011-05-29",
+      "date_faits": "fin des années 1960-2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Article court lu ; propos d’un enquêteur anonyme et témoignages sur le groupe familial."
+    },
+    {
+      "ref": "S-bio_jeunesse_codex-13",
+      "titre": "La famille Dupont de Ligonnès visée par une enquête pour des soupçons de dérive sectaire",
+      "url": "https://www.leparisien.fr/faits-divers/la-famille-dupont-de-ligonnes-visee-par-une-enquete-pour-des-soupcons-de-derive-sectaire-23-01-2020-8242929.php",
+      "auteur_organisme": "Jean-Michel Décugis, Vincent Gautronneau, Jérémie Pham Lê",
+      "media": "Le Parisien",
+      "date_publication": "2020-01-23",
+      "date_faits": "années 1970 ; 2019-2020",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Passages sur l’histoire du groupe et l’ouverture d’enquête lus ; accusations et réponse de l’avocat distinguées."
+    },
+    {
+      "ref": "S-bio_jeunesse_codex-14",
+      "titre": "13h15, le samedi / 13h15, le dimanche : Le disparu, les deux derniers épisodes",
+      "url": "https://www.francetvpro.fr/contenu-de-presse/313703",
+      "auteur_organisme": "France Télévisions",
+      "media": "FranceTV Pro",
+      "date_publication": "2020-06-11",
+      "date_faits": "jeunesse et vie familiale ; diffusion 2020-06-13/14",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "officiel",
+      "origine": "propre",
+      "notes": "Communiqué de programmation lu. Documentaire non visionné ; information limitée à son descriptif."
+    },
+    {
+      "ref": "S-bio_jeunesse_codex-15",
+      "titre": "Xavier Dupont de Ligonnès. L’enquête — extrait éditeur",
+      "url": "https://actualitte.com/PDF/dupont-ligonnes-enquete-so-lonely-marabout-extrait.pdf",
+      "auteur_organisme": "Pierre Boisson, Maxime Chamoux, Sylvain Gouverneur, Thibault Raisse",
+      "media": "Society / Marabout",
+      "date_publication": "2020",
+      "date_faits": "1961-2011",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "livre",
+      "origine": "propre",
+      "notes": "Extrait PDF de neuf pages consulté, notamment l’arbre familial ; livre complet non lu."
+    },
+    {
+      "ref": "S-bio_jeunesse_codex-16",
+      "titre": "SELREF — SIREN 448135863",
+      "url": "https://www.pappers.fr/entreprise/selref-448135863",
+      "auteur_organisme": "Pappers, données INSEE/RNE/BODACC",
+      "media": "Pappers",
+      "date_publication": "",
+      "date_faits": "2003-2015",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "autre",
+      "origine": "reprise:BODACC et RNE",
+      "notes": "Fiche et annonces visibles lues ; mise à jour affichée au 2026-09-29. Aucun compte annuel numérisé disponible."
+    },
+    {
+      "ref": "S-bio_jeunesse_codex-17",
+      "titre": "Les carnets intimes de Xavier Dupont de Ligonnès dévoilés",
+      "url": "https://www.ladepeche.fr/article/2012/04/16/1332099-les-carnets-intimes-de-xavier-dupont-de-ligonnes-devoiles.html",
+      "auteur_organisme": "La Dépêche du Midi, auteur non affiché",
+      "media": "La Dépêche du Midi",
+      "date_publication": "2012-04-16",
+      "date_faits": "2006-2008",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_regional",
+      "origine": "reprise:Le Parisien",
+      "notes": "Reprise explicitement attribuée au Parisien ; ne corrobore pas indépendamment les documents d’origine."
+    },
+    {
+      "ref": "S-bio_jeunesse_codex-18",
+      "titre": "Dans la tête de Xavier de Ligonnès",
+      "url": "https://www.leparisien.fr/archives/dans-la-tete-de-xavier-de-ligonnes-15-04-2012-1955100.php",
+      "auteur_organisme": "Le Parisien, auteur non affiché",
+      "media": "Le Parisien",
+      "date_publication": "2012-04-15",
+      "date_faits": "2006-2008",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Version d’archive du même dossier éditorial, entièrement lue. Le journal dit avoir examiné une cinquantaine de textes Word ; fichiers originaux non consultés par cette passe."
+    },
+    {
+      "ref": "S-bio_jeunesse_codex-19",
+      "titre": "Le rêve américain brisé de Xavier Dupont de Ligonnès",
+      "url": "https://www.leparisien.fr/faits-divers/le-reve-americain-brise-de-xavier-de-ligonnes-18-05-2011-1454884.php",
+      "auteur_organisme": "Le Parisien, auteur non affiché ; ami de longue date sous prénom modifié",
+      "media": "Le Parisien",
+      "date_publication": "2011-05-18",
+      "date_faits": "1990-2003",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Reportage et témoignage lus ; actualisation affichée au 2020-07-27. Prénom d’emprunt du particulier omis."
+    }
+  ],
+  "assertions": [
+    {
+      "ref": "A-bio_jeunesse_codex-01",
+      "assertion": "Xavier est né à Versailles en janvier 1961.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "JDD ; mois de naissance dans le registre repris par Pappers",
+      "date_faits": "1961-01",
+      "lieu": "Versailles",
+      "sources": [
+        "S-bio_jeunesse_codex-01",
+        "S-bio_jeunesse_codex-16",
+        "S-bio_jeunesse_codex-09"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Jour exact non confirmé.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Lieu et année recoupés ; le mois est indiqué par la fiche du dirigeant et la recension, sans acte de naissance lu."
+      }
+    },
+    {
+      "ref": "A-bio_jeunesse_codex-02",
+      "assertion": "Ses parents sont Geneviève Maître et Hubert Dupont de Ligonnès ; sa fratrie comprend Véronique et Christine.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "JDD et arbre familial Society",
+      "date_faits": "années 1960-1970",
+      "lieu": "Versailles",
+      "sources": [
+        "S-bio_jeunesse_codex-01",
+        "S-bio_jeunesse_codex-15"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Le père est aussi appelé Bernard-Hubert.",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Identités et fratrie concordantes ; prénom paternel usuel variable."
+      }
+    },
+    {
+      "ref": "A-bio_jeunesse_codex-03",
+      "assertion": "Il grandit dans une famille de vieille noblesse française.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "JDD et RTL",
+      "date_faits": "années 1960-1970",
+      "lieu": "Versailles",
+      "sources": [
+        "S-bio_jeunesse_codex-01",
+        "S-bio_jeunesse_codex-02"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Milieu social, sans en déduire la fortune réelle.",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Les portraits concordent ; aucune causalité criminelle supposée."
+      }
+    },
+    {
+      "ref": "A-bio_jeunesse_codex-04",
+      "assertion": "Les récits situent le départ du père pendant l’enfance de Xavier, vers dix ans.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Proches et biographies rapportés par JDD et RTL",
+      "date_faits": "vers 1971",
+      "lieu": "Versailles",
+      "sources": [
+        "S-bio_jeunesse_codex-01",
+        "S-bio_jeunesse_codex-02"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Date civile de séparation absente.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Concordance approximative ; séparation familiale et divorce peuvent différer."
+      }
+    },
+    {
+      "ref": "A-bio_jeunesse_codex-05",
+      "assertion": "Bruno de Stabenrath se souvient de leur scolarité commune à Saint-Exupéry, à Versailles.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Bruno de Stabenrath",
+      "date_faits": "années 1970",
+      "lieu": "Versailles",
+      "sources": [
+        "S-bio_jeunesse_codex-03",
+        "S-bio_jeunesse_codex-05"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Un même témoin dans deux publications.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Même souvenir dans deux publications ; scolarité non vérifiée par une origine indépendante."
+      }
+    },
+    {
+      "ref": "A-bio_jeunesse_codex-06",
+      "assertion": "Bruno décrit un adolescent drôle, amateur de musique américaine et attiré par les États-Unis.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Bruno de Stabenrath",
+      "date_faits": "années 1970",
+      "lieu": "Versailles / Paris",
+      "sources": [
+        "S-bio_jeunesse_codex-03",
+        "S-bio_jeunesse_codex-07"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Récits concordants du même ami, sans constituer deux témoins indépendants."
+      }
+    },
+    {
+      "ref": "A-bio_jeunesse_codex-07",
+      "assertion": "Dans sa lettre publique, Bruno date leur rencontre de septembre 1976 ; RTL indique 1977.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Bruno de Stabenrath, lettre puis entretien",
+      "date_faits": "1976-1977",
+      "lieu": "Versailles",
+      "sources": [
+        "S-bio_jeunesse_codex-03",
+        "S-bio_jeunesse_codex-04"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Décalage conservé.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Deux expressions d’un même souvenir ; pas de document scolaire daté."
+      }
+    },
+    {
+      "ref": "A-bio_jeunesse_codex-08",
+      "assertion": "Un passage en école de commerce après le baccalauréat est rapporté par plusieurs biographies.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Le Parisien et RTL",
+      "date_faits": "fin des années 1970",
+      "lieu": "région parisienne",
+      "sources": [
+        "S-bio_jeunesse_codex-05",
+        "S-bio_jeunesse_codex-02"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "École et diplôme supérieur non établis.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Passage recoupé ; achèvement de la formation non confirmé."
+      }
+    },
+    {
+      "ref": "A-bio_jeunesse_codex-09",
+      "assertion": "La recension du livre de Daniel Zagury mentionne ensuite des études de droit à Assas.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Emmanuelle Bornet résumant Daniel Zagury",
+      "date_faits": "fin des années 1970 / début 1980",
+      "lieu": "Paris",
+      "sources": [
+        "S-bio_jeunesse_codex-09"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "forte",
+      "centrale": true,
+      "notes": "Livre complet et inscription non lus.",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "Recherche ciblée Assas : aucune seconde source indépendante ouverte confirmant ce cursus."
+      }
+    },
+    {
+      "ref": "A-bio_jeunesse_codex-10",
+      "assertion": "Des obligations militaires brèves en 1984 sont rapportées par Nice-Matin.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Nice-Matin, récit biographique",
+      "date_faits": "1984",
+      "lieu": "France",
+      "sources": [
+        "S-bio_jeunesse_codex-08",
+        "S-bio_jeunesse_codex-10"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Possibilité recoupée ; année 1984, unité, durée et statut non confirmés par registre."
+      }
+    },
+    {
+      "ref": "A-bio_jeunesse_codex-11",
+      "assertion": "Nice-Matin situe de petits emplois à Aix, Toulon et La Seyne, puis un travail commercial dans le Var.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Nice-Matin, d’après récits et enquête Society",
+      "date_faits": "années 1980",
+      "lieu": "Aix-en-Provence / Var",
+      "sources": [
+        "S-bio_jeunesse_codex-08"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "Recherches biographiques concordantes sur l’instabilité ; employeurs et contrats initiaux non lus."
+      }
+    },
+    {
+      "ref": "A-bio_jeunesse_codex-12",
+      "assertion": "Un ami situe un long séjour américain en 1990, avant le mariage.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Ami de longue date du Parisien",
+      "date_faits": "1990",
+      "lieu": "États-Unis",
+      "sources": [
+        "S-bio_jeunesse_codex-19",
+        "S-bio_jeunesse_codex-14"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Le descriptif France Télévisions confirme une tentative américaine de jeunesse, sans calendrier."
+      }
+    },
+    {
+      "ref": "A-bio_jeunesse_codex-13",
+      "assertion": "Sa mère animait un groupe religieux appelé Philadelphie, décrit comme porteur de prédictions apocalyptiques.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "JDD, RTL et enquêtes du Parisien",
+      "date_faits": "années 1960-1990",
+      "lieu": "Versailles puis autres lieux",
+      "sources": [
+        "S-bio_jeunesse_codex-01",
+        "S-bio_jeunesse_codex-02",
+        "S-bio_jeunesse_codex-12",
+        "S-bio_jeunesse_codex-13"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Dates de fondation divergentes.",
+      "verification": {
+        "statut": "confirme",
+        "commentaire": "Existence et rôle maternel recoupés ; qualification juridique de secte non présumée."
+      }
+    },
+    {
+      "ref": "A-bio_jeunesse_codex-14",
+      "assertion": "Un texte attribué à Xavier décrit une adolescence dominée par la religion et l’attente d’un retour imminent du Christ.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Xavier, texte de février 2008 publié par Le Parisien",
+      "date_faits": "adolescence ; écrit 2008-02",
+      "lieu": "internet",
+      "sources": [
+        "S-bio_jeunesse_codex-18",
+        "S-bio_jeunesse_codex-17"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Autoportrait rétrospectif, fichier original absent.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Dossier journalistique d’origine lu ; reprise La Dépêche non indépendante."
+      }
+    },
+    {
+      "ref": "A-bio_jeunesse_codex-15",
+      "assertion": "Bruno rapporte une réunion religieuse à Sainte-Maxime en juin 1995, dont la promesse de miracle ne se réalise pas.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Bruno de Stabenrath interrogé par 20 Minutes",
+      "date_faits": "1995-06",
+      "lieu": "Sainte-Maxime",
+      "sources": [
+        "S-bio_jeunesse_codex-07"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "RTL situe un épisode apocalyptique ailleurs ; leur identité n’est pas établie."
+      }
+    },
+    {
+      "ref": "A-bio_jeunesse_codex-16",
+      "assertion": "Dans un écrit publié, Xavier affirme avoir obtenu le bac avec un an d’avance.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Xavier, texte de décembre 2006 publié par Le Parisien",
+      "date_faits": "fin des années 1970 ; écrit 2006-12",
+      "lieu": "internet",
+      "sources": [
+        "S-bio_jeunesse_codex-18",
+        "S-bio_jeunesse_codex-09"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": false,
+      "notes": "Déclaration personnelle reprise dans une recension.",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "Pas de résultat d’examen lu ; possible origine commune des récits."
+      }
+    },
+    {
+      "ref": "A-bio_jeunesse_codex-17",
+      "assertion": "Les interprétations de Daniel Zagury sur la personnalité de Xavier sont rétrospectives et sans entretien clinique avec lui.",
+      "categorie": "HYPOTHESE",
+      "attribution": "Daniel Zagury, selon la recension Nonfiction",
+      "date_faits": "livre 2025 ; recension 2026",
+      "lieu": "analyse d’auteur",
+      "sources": [
+        "S-bio_jeunesse_codex-09"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "forte",
+      "centrale": false,
+      "notes": "Livre non lu ; aucune évaluation clinique adoptée.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "La recension présente explicitement une expertise par contumace."
+      }
+    }
+  ],
+  "chronologie": [
+    {
+      "date": "1961-01",
+      "precision": "mois",
+      "evenement": "Naissance à Versailles.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": [
+        "S-bio_jeunesse_codex-01",
+        "S-bio_jeunesse_codex-16"
+      ],
+      "note": "Jour exact non retenu."
+    },
+    {
+      "date": "1976-09",
+      "precision": "mois",
+      "evenement": "Rencontre avec Bruno, selon sa lettre.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "sources": [
+        "S-bio_jeunesse_codex-03"
+      ],
+      "note": "RTL mentionne 1977."
+    },
+    {
+      "date": "1984",
+      "precision": "annee",
+      "evenement": "Obligations militaires brièvement rapportées.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "sources": [
+        "S-bio_jeunesse_codex-08"
+      ],
+      "note": "Année non corroborée par registre."
+    },
+    {
+      "date": "1990",
+      "precision": "annee",
+      "evenement": "Long séjour aux États-Unis rapporté par un ami.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "sources": [
+        "S-bio_jeunesse_codex-19"
+      ],
+      "note": ""
+    },
+    {
+      "date": "1995-06",
+      "precision": "mois",
+      "evenement": "Réunion de Sainte-Maxime racontée par Bruno.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "sources": [
+        "S-bio_jeunesse_codex-07"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2008-02",
+      "precision": "mois",
+      "evenement": "Autoportrait écrit de l’adolescence religieuse, publié ensuite.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "sources": [
+        "S-bio_jeunesse_codex-18"
+      ],
+      "note": "Date attribuée dans le dossier de presse."
+    }
+  ],
+  "details_moins_connus": [
+    {
+      "detail": "Bruno et Xavier partageaient des références à Elvis et aux Beach Boys.",
+      "interet_interpretation": "Souvenir d’ami sur leurs goûts, sans diagnostic de caractère.",
+      "sources": [
+        "S-bio_jeunesse_codex-03"
+      ]
+    }
+  ],
+  "contradictions": [
+    {
+      "sujet": "Résultats scolaires",
+      "versions": [
+        {
+          "version": "Élève moyen dans plusieurs portraits.",
+          "sources": [
+            "S-bio_jeunesse_codex-02",
+            "S-bio_jeunesse_codex-11",
+            "S-bio_jeunesse_codex-05"
+          ]
+        },
+        {
+          "version": "Élève plutôt doué selon un enquêteur cité par Le Monde.",
+          "sources": [
+            "S-bio_jeunesse_codex-10"
+          ]
+        },
+        {
+          "version": "Bon élève et bac anticipé dans la recension de Zagury.",
+          "sources": [
+            "S-bio_jeunesse_codex-09"
+          ]
+        }
+      ],
+      "traitement_recommande": "Présenter ces appréciations comme attribuées ; résultats scolaires non consultés."
+    },
+    {
+      "sujet": "Études et diplômes",
+      "versions": [
+        {
+          "version": "École de commerce après le bac ; formule diplôme en poche ambiguë.",
+          "sources": [
+            "S-bio_jeunesse_codex-05"
+          ]
+        },
+        {
+          "version": "Aucun diplôme supérieur au bac selon Nice-Matin.",
+          "sources": [
+            "S-bio_jeunesse_codex-08"
+          ]
+        },
+        {
+          "version": "Passage par Assas selon la recension de Zagury.",
+          "sources": [
+            "S-bio_jeunesse_codex-09"
+          ]
+        }
+      ],
+      "traitement_recommande": "Ne pas transformer une fréquentation d’école en diplôme obtenu ; l’inscription à Assas reste non confirmée."
+    },
+    {
+      "sujet": "Début de l’amitié avec Bruno",
+      "versions": [
+        {
+          "version": "Septembre 1976 dans sa lettre.",
+          "sources": [
+            "S-bio_jeunesse_codex-03"
+          ]
+        },
+        {
+          "version": "1977 dans le texte RTL de 2020.",
+          "sources": [
+            "S-bio_jeunesse_codex-04"
+          ]
+        }
+      ],
+      "traitement_recommande": "Conserver le décalage ; même témoin, sans arbitrage documentaire."
+    },
+    {
+      "sujet": "Fondation du groupe maternel",
+      "versions": [
+        {
+          "version": "Fin des années 1960 dans Le Parisien 2011.",
+          "sources": [
+            "S-bio_jeunesse_codex-12"
+          ]
+        },
+        {
+          "version": "Années 1970 dans Le Parisien 2020.",
+          "sources": [
+            "S-bio_jeunesse_codex-13"
+          ]
+        }
+      ],
+      "traitement_recommande": "Éviter une année précise avant consultation d’archives propres au groupe."
+    },
+    {
+      "sujet": "Lieu de l’épisode prophétique de1995",
+      "versions": [
+        {
+          "version": "Sainte-Maxime, juin 1995, dans le récit de Bruno.",
+          "sources": [
+            "S-bio_jeunesse_codex-07"
+          ]
+        },
+        {
+          "version": "Château en Bretagne dans la biographie RTL.",
+          "sources": [
+            "S-bio_jeunesse_codex-02"
+          ]
+        }
+      ],
+      "traitement_recommande": "Ne pas supposer qu’il s’agit d’une unique réunion ; événements et sources primaires à vérifier."
+    },
+    {
+      "sujet": "Profession du père",
+      "versions": [
+        {
+          "version": "Ingénieur aéronautique.",
+          "sources": [
+            "S-bio_jeunesse_codex-01",
+            "S-bio_jeunesse_codex-09"
+          ]
+        },
+        {
+          "version": "Ingénieur en physique nucléaire dans le portrait du Monde.",
+          "sources": [
+            "S-bio_jeunesse_codex-06"
+          ]
+        }
+      ],
+      "traitement_recommande": "Omettre la spécialité précise faute de pièce professionnelle ; le métier n’est pas une explication du crime."
+    }
+  ],
+  "lacunes": [
+    "Jour exact de naissance non confirmé : aucune notice officielle de police ou acte de naissance effectivement lu.",
+    "Date exacte du départ paternel, du divorce et profession précise du père non fixées.",
+    "École de commerce, diplôme supérieur et inscription à Assas non vérifiés par documents universitaires.",
+    "Année du bac et avance scolaire non vérifiées par résultat officiel.",
+    "Service militaire : aucune fiche individuelle, unité ou durée lue ; date 1984 reste rapportée.",
+    "Premiers employeurs, dates des contrats et licenciement évoqué par Nice-Matin non contrôlés par pièces.",
+    "Voyage américain de 1990 et autres déplacements antérieurs au mariage datés par témoignages, sans passeport ou réservation.",
+    "Date de création et archives propres à Philadelphie non consultées ; prophéties attribuées à des récits de proches ou écrits publiés.",
+    "Possible pluralité des réunions religieuses de 1995 non résolue.",
+    "Origines des reprises biographiques parfois indéterminées ; un même témoin ou dossier ne compte pas plusieurs fois.",
+    "Souvenirs de Bruno séparés de sa conviction personnelle sur une survie, qui ne documente pas la jeunesse.",
+    "Livres complets, documentaire Le disparu et fichiers personnels originaux non lus : seuls extrait, recension, descriptif ou dossier de presse ont été utilisés.",
+    "Aucune causalité prédictive entre enfance, religion et crime n’est établie dans ce fichier."
+  ],
+  "outil": "codex"
+}

@@ -1,0 +1,972 @@
+{
+  "sujet": "Pistes publiques de 2020 au 2026-10-01 : information initiale, contrôle et résultat accessible",
+  "outil": "codex",
+  "sources": [
+    {
+      "ref": "S-pistes_2020_2026_codex-01",
+      "titre": "Xavier Dupont de Ligonnès signalé dans le Doubs : l'ADN ne correspond pas",
+      "url": "https://www.leprogres.fr/faits-divers-justice/2024/04/15/tests-adn-le-signalement-ne-correspond-pas-a-xavier-dupont-de-ligonnes",
+      "auteur_organisme": "La rédaction avec AFP",
+      "media": "Le Progrès",
+      "date_publication": "2024-04-15",
+      "date_faits": "2024-03 / 2024-04-15",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_regional",
+      "origine": "AFP",
+      "notes": "Corps complet lu; déclaration du parquet reproduite. Une origine AFP."
+    },
+    {
+      "ref": "S-pistes_2020_2026_codex-02",
+      "titre": "UPDATE: Brewster County sheriff seeking information on French murder suspect",
+      "url": "https://www.firstalert7.com/2026/03/25/brewster-county-sheriff-needs-help-finding-man/",
+      "auteur_organisme": "Katie Carlock et Tamlyn Price",
+      "media": "KOSA / First Alert 7",
+      "date_publication": "2026-03-25",
+      "date_faits": "2026-03-25 / 2026-03-26",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_etranger",
+      "origine": "propre",
+      "notes": "Corps complet lu, comprenant clarification du shérif: pas de nouvelle preuve ni observation confirmée. 2026-03-25 (mise à jour 2026-03-26)."
+    },
+    {
+      "ref": "S-pistes_2020_2026_codex-03",
+      "titre": "Dupont de Ligonnès au Texas ? La justice française tombe des nues",
+      "url": "https://infos.rtl.lu/news/monde/dupont-de-ligonnes-au-texas-la-justice-francaise-tombe-des-nues-1585197284",
+      "auteur_organisme": "RTL Infos avec AFP",
+      "media": "RTL Infos",
+      "date_publication": "2026-03-26",
+      "date_faits": "2020 (observation alléguée) / 2026-03",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_etranger",
+      "origine": "AFP",
+      "notes": "Corps complet lu; appel initial et réaction du procureur. La clarification ultérieure est dans S-02."
+    },
+    {
+      "ref": "S-pistes_2020_2026_codex-04",
+      "titre": "Affaire Xavier Dupont de Ligonnès : 5 minutes pour comprendre comment M6 s'est fait berner par un faux prêtre",
+      "url": "https://www.leparisien.fr/culture-loisirs/tv/affaire-xavier-dupont-de-ligonnes-5-minutes-pour-comprendre-comment-m6-sest-fait-berner-par-un-faux-pretre-03-06-2026-RUBI65PY4BG55L2LIWKI352KH4.php",
+      "auteur_organisme": "Ludovic Galtier-Lloret",
+      "media": "Le Parisien",
+      "date_publication": "2026-06-03",
+      "date_faits": "2026-06-02 / 2026-06-03",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Corps complet lu; communiqué M6 reçu par le journal, saisine Arcom et plainte seulement envisagée."
+    },
+    {
+      "ref": "S-pistes_2020_2026_codex-05",
+      "titre": "Un faux prêtre aurait témoigné pendant l'émission, l'évêque de Carcassonne saisit l'Arcom",
+      "url": "https://www.ladepeche.fr/2026/06/03/affaire-xavier-dupont-de-ligonnes-sur-m6-il-ny-a-pas-de-pere-marc-un-faux-pretre-aurait-temoigne-pendant-lemission-leveque-de-carcassonne-saisit-13400762.php",
+      "auteur_organisme": "Philippe Salvador",
+      "media": "La Dépêche du Midi",
+      "date_publication": "2026-06-03",
+      "date_faits": "2026-06-02 / 2026-06-03",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Corps complet lu; appel propre au monastère, démenti de l'évêque; passage Arcom renvoie à BFMTV."
+    },
+    {
+      "ref": "S-pistes_2020_2026_codex-06",
+      "titre": "Julien Courbet revient sur le témoignage du faux prêtre dans son émission et assume",
+      "url": "https://www.ladepeche.fr/2026/06/03/affaire-xavier-dupont-de-ligonnes-je-sais-que-je-vais-men-prendre-plein-la-gueule-julien-courbet-revient-sur-le-temoignage-du-faux-pretre-dans-son-13401087.php",
+      "auteur_organisme": "La rédaction",
+      "media": "La Dépêche du Midi",
+      "date_publication": "2026-06-03",
+      "date_faits": "2026-06-03",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_regional",
+      "origine": "reprise:RTL",
+      "notes": "Corps complet lu; propos de Courbet et Stan Vignon sur RTL. Démenti local reprend le travail S-05."
+    },
+    {
+      "ref": "S-pistes_2020_2026_codex-07",
+      "titre": "Après avoir trompé M6 en direct, le faux prêtre a affirmé hors antenne qu'il était XDDL",
+      "url": "https://www.ladepeche.fr/2026/06/03/affaire-xavier-dupont-de-ligonnes-apres-avoir-trompe-m6-en-direct-le-faux-pere-marc-a-affirme-hors-antenne-quil-etait-xddl-13401652.php",
+      "auteur_organisme": "La rédaction",
+      "media": "La Dépêche du Midi",
+      "date_publication": "2026-06-03",
+      "date_faits": "2026-06-03",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_regional",
+      "origine": "reprise:Le Figaro",
+      "notes": "Corps complet lu; prétention supplémentaire rapportée au conditionnel, non confirmée par M6; pas une identification."
+    },
+    {
+      "ref": "S-pistes_2020_2026_codex-08",
+      "titre": "Affaire Xavier Dupont de Ligonnès : l'Arcom va se pencher sur la séquence diffusée sur M6",
+      "url": "https://www.leparisien.fr/culture-loisirs/tv/affaire-xavier-dupont-de-ligonnes-larcom-va-se-pencher-sur-la-sequence-diffusee-sur-m-6-confirme-son-president-04-06-2026-NMZE6NKH6RDSTAMESU7RQTKNGQ.php",
+      "auteur_organisme": "Marianne Chenou",
+      "media": "Le Parisien",
+      "date_publication": "2026-06-04",
+      "date_faits": "2026-06-04",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "reprise:Ici Provence",
+      "notes": "Passage de tête lu; interview du président de l'Arcom attribuée à Ici Provence. Pas de décision finale observée."
+    },
+    {
+      "ref": "S-pistes_2020_2026_codex-09",
+      "titre": "Après le faux témoignage, l'Arcom va juger si M6 a manqué à ses obligations",
+      "url": "https://programmetv.ouest-france.fr/chaines/programme-tv-m6-118/on-peut-etre-choque-apres-le-faux-temoignage-sur-de-ligonnes-larcom-va-juger-si-m6-a-manque-a-ses-obligations-14db231a-5ff8-11f1-9999-e3952a64b830",
+      "auteur_organisme": "Maxime Fettweis",
+      "media": "Ouest-France / Programme TV",
+      "date_publication": "2026-06-04",
+      "date_faits": "2026-06-04",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_regional",
+      "origine": "reprise:Ici Provence",
+      "notes": "Passage visible avant abonnement lu; divergence du nom du président avec S-08, consignée."
+    },
+    {
+      "ref": "S-pistes_2020_2026_codex-10",
+      "titre": "Epsilon, le mystérieux utilisateur d'un forum religieux resté actif jusqu'en 2017",
+      "url": "https://www.leparisien.fr/faits-divers/affaire-xavier-dupont-de-ligonnes-epsilon-le-mysterieux-utilisateur-dun-forum-religieux-reste-actif-jusquen-2017-02-06-2026-V5FU5WV24ZB2PGQIVBA4BMCKUQ.php",
+      "auteur_organisme": "Manon Aublanc",
+      "media": "Le Parisien",
+      "date_publication": "2026-06-02",
+      "date_faits": "2010-07 / 2017 / 2026-06",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "reprise:Ouest-France",
+      "notes": "Passages sur compte, méthode, rapprochements et prudence lus; reprise Ouest-France, avec réponse propre du parquet."
+    },
+    {
+      "ref": "S-pistes_2020_2026_codex-11",
+      "titre": "Affaire Xavier Dupont de Ligonnès : le parquet va vérifier des messages sur un forum catholique",
+      "url": "https://www.ledauphine.com/faits-divers-justice/2026/06/04/affaire-xavier-dupont-de-ligonnes-le-parquet-annonce-des-verifications-du-compte-epsilon",
+      "auteur_organisme": "La rédaction",
+      "media": "Le Dauphiné Libéré",
+      "date_publication": "2026-06-04",
+      "date_faits": "2026-06-03 / 2017-08",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_regional",
+      "origine": "reprise:Ouest-France",
+      "notes": "Corps complet lu; déclaration du procureur reproduite, hypothèses numériques reprises d'Ouest-France."
+    },
+    {
+      "ref": "S-pistes_2020_2026_codex-12",
+      "titre": "Did XDDL use the Epsilon username? What this hypothesis tells us about investigative method",
+      "url": "https://control-investigation.fr/en/publications/xddl-a-t-il-utilise-le-pseudo-epsilon-ce-que-cette-hypothese-dit-de-la-methode-d-enquete/",
+      "auteur_organisme": "Artus Huot de Saint-Albin",
+      "media": "Control Investigation",
+      "date_publication": "2026-07-06",
+      "date_faits": "2026-07-06 / 2011-04-06 / 2011-04-07",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "autre",
+      "origine": "propre",
+      "notes": "Analyse méthodologique privée intégralement lue; reprises Ouest-France/Society distinguées de comparaison personnelle d'horaires."
+    },
+    {
+      "ref": "S-pistes_2020_2026_codex-13",
+      "titre": "Xavier Dupont de Ligonnès reste introuvable depuis 15 ans : où en est réellement l'enquête en 2026 ?",
+      "url": "https://actuforcesdelordre.fr/2026/08/17/xavier-dupont-de-ligonnes-reste-introuvable-depuis-15-ans-ou-en-est-reellement-lenquete-en-2026-et-quelles-pistes-sont-encore-etudiees/",
+      "auteur_organisme": "Damien",
+      "media": "Actu Forces de l'Ordre",
+      "date_publication": "2026-08-17",
+      "date_faits": "2026-08",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "autre",
+      "origine": "reprise:RTL/Le Dauphiné/Le Parisien",
+      "notes": "Bilan et liste des sources lus. Site secondaire, distinct d'un service officiel; reprend surtout juin, aucune conclusion judiciaire nouvelle fournie."
+    },
+    {
+      "ref": "S-pistes_2020_2026_codex-14",
+      "titre": "Xavier Dupont de Ligonnès : Epsilon, le compte actif jusqu'en 2017 qui relance l'enquête",
+      "url": "https://editionsfractales.com/2026/09/02/xavier-dupont-de-ligonnes-epsilon-le-compte-actif-jusquen-2017-qui-relance-lenquete/",
+      "auteur_organisme": "Éditions Fractales",
+      "media": "Éditions Fractales",
+      "date_publication": "2026-09-02",
+      "date_faits": "2026-09",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "autre",
+      "origine": "reprise:Le Dauphiné/RTL/KOSA",
+      "notes": "Passages de suivi lus; synthèse secondaire sans nouvelle pièce judiciaire. Ne pas compter comme corroboration indépendante des sources de juin."
+    },
+    {
+      "ref": "S-pistes_2020_2026_codex-15",
+      "titre": "Dupont de Ligonnès : un témoignage transmis aux enquêteurs après la diffusion d'une série Netflix",
+      "url": "https://www.ladepeche.fr/2020/07/21/dupont-de-ligonnes-un-nouveau-temoignage-interessant-transmis-aux-enqueteurs-apres-la-diffusion-dune-serie-netflix-8988476.php",
+      "auteur_organisme": "La rédaction",
+      "media": "La Dépêche du Midi",
+      "date_publication": "2020-07-21",
+      "date_faits": "2020-07",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_regional",
+      "origine": "reprise:Variety",
+      "notes": "Corps complet lu; propos de la productrice, pas résultat de contrôle policier."
+    },
+    {
+      "ref": "S-pistes_2020_2026_codex-16",
+      "titre": "Affaire Xavier Dupont de Ligonnès : Quinze ans d'enquête, de rebondissements et de fausses pistes",
+      "url": "https://www.20minutes.fr/justice/3012039-20210401-affaire-xavier-dupont-ligonnes-dix-ans-enquete-rebondissements-fausses-pistes",
+      "auteur_organisme": "20 Minutes",
+      "media": "20 Minutes",
+      "date_publication": "2021-04-01",
+      "date_faits": "2020-07",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Section Netflix lue: témoignages transmis mais non confirmés à la date du bilan; pas un état exhaustif d'octobre 2026. 2021-04-01 (titre ultérieurement actualisé, date de mise à jour non établie)."
+    },
+    {
+      "ref": "S-pistes_2020_2026_codex-17",
+      "titre": "Traque de Xavier Dupont de Ligonnès : le parquet dément des rumeurs sur un signalement en Asie",
+      "url": "https://www.ledauphine.com/faits-divers-justice/2025/04/28/traque-de-xavier-dupont-de-ligonnes-le-parquet-dement-des-rumeurs-sur-un-signalement-en-asie",
+      "auteur_organisme": "La rédaction avec AFP",
+      "media": "Le Dauphiné Libéré",
+      "date_publication": "2025-04-28",
+      "date_faits": "2025-03-18 / 2025-04-28",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_regional",
+      "origine": "AFP",
+      "notes": "Corps complet lu; le procureur signale l'absence d'élément factuel vérifiable transmis aux autorités."
+    },
+    {
+      "ref": "S-pistes_2020_2026_codex-18",
+      "titre": "13h15 le dimanche du 5 juillet 2026 : quel sommaire et quel reportage aujourd'hui ?",
+      "url": "https://www.feminactu.com/2026/07/13h15-le-dimanche-du-5-juillet-2026-quel-sommaire-et-quel-reportage-aujourdhui/",
+      "auteur_organisme": "Christian Bouillet",
+      "media": "Femin Actu",
+      "date_publication": "2026-07-05",
+      "date_faits": "2026-07-05",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "autre",
+      "origine": "reprise:France Télévisions",
+      "notes": "Annonce de programme lue; épisode audiovisuel non visionné. Aucun fait d'enquête déduit du sommaire."
+    },
+    {
+      "ref": "S-pistes_2020_2026_codex-19",
+      "titre": "Un ami raconte la vie de famille heureuse avant le drame",
+      "url": "https://www.closermag.fr/vecu/faits_divers/xavier-dupont-de-ligonnes-un-homme-tres-attentionne-avec-ses-enfants-un-ami-raconte-la-vie-de-famille-heureuse-avant-le-drame-3646120",
+      "auteur_organisme": "Yassine Labouiri",
+      "media": "Closer",
+      "date_publication": "2026-07-05",
+      "date_faits": "2026-07-05",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "media_national",
+      "origine": "reprise:France 2",
+      "notes": "Corps complet lu; conviction d'un proche dans 13h15, sans indice nouveau annoncé; témoin désigné par son rôle."
+    },
+    {
+      "ref": "S-pistes_2020_2026_codex-20",
+      "titre": "M6 piégée par le faux témoignage d'un prétendu prêtre présente ses excuses",
+      "url": "https://www.europe1.fr/medias-tele/affaire-dupont-de-ligonnes-m6-piegee-par-le-faux-temoignage-dun-pretendu-pretre-presente-ses-excuses-941471",
+      "auteur_organisme": "Europe 1 avec AFP (repérage utilisateur)",
+      "media": "Europe 1",
+      "date_publication": "2026-06-03",
+      "date_faits": "2026-06",
+      "date_consultation": "2026-10-01",
+      "acces": "inaccessible",
+      "type": "media_national",
+      "origine": "AFP",
+      "notes": "Ouverture tentée, erreur 403; aucune assertion fondée sur ce seul résultat. 2026-06-03 (repérage utilisateur)."
+    },
+    {
+      "ref": "S-pistes_2020_2026_codex-21",
+      "titre": "L'évêque de Carcassonne revient sur le faux témoignage d'un prêtre",
+      "url": "https://www.europe1.fr/societe/il-suffisait-de-mappeler-leveque-de-carcassonne-revient-sur-le-faux-temoignage-dun-pretre-concernant-laffaire-dupont-de-ligonnes-941450",
+      "auteur_organisme": "Europe 1 (repérage utilisateur)",
+      "media": "Europe 1",
+      "date_publication": "2026-06-03",
+      "date_faits": "2026-06",
+      "date_consultation": "2026-10-01",
+      "acces": "inaccessible",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Ouverture tentée, erreur; démenti documenté ailleurs dans les pages lues. 2026-06-03 (repérage utilisateur)."
+    },
+    {
+      "ref": "S-pistes_2020_2026_codex-22",
+      "titre": "Gilles Galloux conteste le rapprochement du compte Epsilon avec XDDL",
+      "url": "https://www.europe1.fr/faits-divers/epsilon-na-jamais-utilise-une-seule-des-adresses-ip-de-xavier-dupont-de-ligonnes-pour-gilles-galloux-lenquete-de-ouest-france-sur-xddl-est-bidon-941366",
+      "auteur_organisme": "Marina Sgard (métadonnées moteur)",
+      "media": "Europe 1",
+      "date_publication": "2026-06-03",
+      "date_faits": "2026-06-03",
+      "date_consultation": "2026-10-01",
+      "acces": "inaccessible",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Ouverture tentée, 403; extrait moteur seulement orientant la corroboration, aucun résultat technique validé. 2026-06-03 (métadonnées moteur)."
+    },
+    {
+      "ref": "S-pistes_2020_2026_codex-23",
+      "titre": "Appel à témoins : grille M6 de la semaine 23",
+      "url": "https://pro.m6.fr/m6/grille/2026-23.pdf",
+      "auteur_organisme": "M6",
+      "media": "M6 Pro",
+      "date_publication": "",
+      "date_faits": "2026-06-02",
+      "date_consultation": "2026-10-01",
+      "acces": "inaccessible",
+      "type": "officiel",
+      "origine": "propre",
+      "notes": "PDF officiel repéré puis ouverture en erreur; date/présentation corroborées dans articles ouverts."
+    },
+    {
+      "ref": "S-pistes_2020_2026_codex-24",
+      "titre": "Décret du 18 janvier 2025 portant nomination du président de l'Arcom - M. AJDARI (Martin)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050999703",
+      "auteur_organisme": "Présidence de la République / Journal officiel",
+      "media": "Légifrance",
+      "date_publication": "2025-01-19",
+      "date_faits": "2025-01-18 / effet 2025-02-02",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "officiel",
+      "origine": "propre",
+      "notes": "Texte intégral du décret lu; nomination de Martin Ajdari."
+    },
+    {
+      "ref": "S-pistes_2020_2026_codex-25",
+      "titre": "L'Arcom à la rencontre des futurs journalistes de l'EJCAM",
+      "url": "https://ejcam.univ-amu.fr/fr/actualites/larcom-rencontre-futurs-journalistes-de-lejcam",
+      "auteur_organisme": "EJCAM / Aix-Marseille Université",
+      "media": "EJCAM",
+      "date_publication": "2026-06-05",
+      "date_faits": "2026-06 (date exacte de visite non donnée)",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_integral",
+      "type": "officiel",
+      "origine": "propre",
+      "notes": "Corps complet lu; institution accueillante désigne Martin Ajdari comme président."
+    }
+  ],
+  "assertions": [
+    {
+      "ref": "A-pistes_2020_2026_codex-01",
+      "assertion": "Le signalement de mars 2024 à Montferrand-le-Château a été exclu: le profil ADN prélevé ne correspond pas à XDDL.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Renaud Gaudeul, procureur de Nantes, cité par AFP",
+      "date_faits": "2024-04-15",
+      "lieu": "Doubs",
+      "sources": [
+        "S-pistes_2020_2026_codex-01"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Résultat attribué au parquet via média; pas pièce d'expertise consultée.",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "Recherche La Dépêche/Le Parisien/TF1: reprises de la même origine AFP, sans corroboration indépendante obtenue; déclaration du parquet correctement rapportée."
+      }
+    },
+    {
+      "ref": "A-pistes_2020_2026_codex-02",
+      "assertion": "L'appel texan évoquait une observation possible en 2020 d'un homme accompagné d'un labrador noir.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Bureau du shérif de Brewster County, cité par AFP",
+      "date_faits": "2020 / 2026-03",
+      "lieu": "Brewster County, Texas",
+      "sources": [
+        "S-pistes_2020_2026_codex-03",
+        "S-pistes_2020_2026_codex-02"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "forte",
+      "centrale": true,
+      "notes": "Observation alléguée, pas identification.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "La clarification de KOSA S-02 précise qu'aucune observation n'est confirmée."
+      }
+    },
+    {
+      "ref": "A-pistes_2020_2026_codex-03",
+      "assertion": "Dans la clarification publiée le 26 mars, le shérif indique ne disposer d'aucun nouvel élément ni observation confirmée dans Brewster County ou l'ouest du Texas.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Bureau du shérif, déclaration reproduite par KOSA",
+      "date_faits": "2026-03-26",
+      "lieu": "Texas",
+      "sources": [
+        "S-pistes_2020_2026_codex-02",
+        "S-pistes_2020_2026_codex-03"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Texte du shérif retranscrit par un média local; page officielle Facebook non consultée.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "S-03 documente l'appel initial, sans corroborer la clarification S-02; une déclaration locale rapportée, pas un résultat scientifique."
+      }
+    },
+    {
+      "ref": "A-pistes_2020_2026_codex-04",
+      "assertion": "La démarche texane suit le contact d'une équipe privée comprenant un ancien enquêteur du dossier, selon le shérif.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Shérif Dodson via KOSA",
+      "date_faits": "2026-03",
+      "lieu": "Brewster County",
+      "sources": [
+        "S-pistes_2020_2026_codex-02"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": false,
+      "notes": "Ce contexte ne constitue pas une opération judiciaire française."
+    },
+    {
+      "ref": "A-pistes_2020_2026_codex-05",
+      "assertion": "Le procureur Antoine Leroy déclare le 26 mars que ni lui, ni le juge, ni les enquêteurs français n'avaient été informés de l'appel texan.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Antoine Leroy, cité par AFP",
+      "date_faits": "2026-03-26",
+      "lieu": "Nantes",
+      "sources": [
+        "S-pistes_2020_2026_codex-03",
+        "S-pistes_2020_2026_codex-13",
+        "S-pistes_2020_2026_codex-14"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "État de l'information du parquet à cette date.",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "S-13/S-14 reprennent la déclaration AFP S-03; recherche indépendante effectuée, sans nouvelle origine."
+      }
+    },
+    {
+      "ref": "A-pistes_2020_2026_codex-06",
+      "assertion": "Appel à témoins, présenté par Julien Courbet sur M6 le 2 juin 2026, a diffusé l'appel d'un homme se présentant comme prêtre.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Le Parisien et La Dépêche",
+      "date_faits": "2026-06-02",
+      "lieu": "M6",
+      "sources": [
+        "S-pistes_2020_2026_codex-04",
+        "S-pistes_2020_2026_codex-05"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Programme audiovisuel non visionné; articles concordants."
+    },
+    {
+      "ref": "A-pistes_2020_2026_codex-07",
+      "assertion": "L'appelant prétendait avoir entendu en 2022, dans un monastère de Plavilla, XDDL avouer le meurtre de sa famille.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Appelant prétendu prêtre, récit relaté par les médias",
+      "date_faits": "2022 alléguée / 2026-06-02",
+      "lieu": "Plavilla, Aude",
+      "sources": [
+        "S-pistes_2020_2026_codex-04",
+        "S-pistes_2020_2026_codex-05"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "forte",
+      "centrale": true,
+      "notes": "Allégation démentie; ne prouve ni présence ni survie.",
+      "verification": {
+        "statut": "contredit",
+        "commentaire": "Monastère interrogé directement par La Dépêche et démenti de l'évêque; M6 reconnaît un faux témoignage."
+      }
+    },
+    {
+      "ref": "A-pistes_2020_2026_codex-08",
+      "assertion": "Bruno Valentin dément toute autorisation ou contact préalable; le monastère interrogé par La Dépêche récuse le récit.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Évêque de Carcassonne et Narbonne; religieux du monastère",
+      "date_faits": "2026-06-03",
+      "lieu": "Carcassonne / Plavilla",
+      "sources": [
+        "S-pistes_2020_2026_codex-05",
+        "S-pistes_2020_2026_codex-04"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Démentis distincts du récit initial.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "S-04 reprend le démenti épiscopal; le contact propre avec le monastère est S-05. Même autorité pour le premier propos, aucune preuve judiciaire consultée."
+      }
+    },
+    {
+      "ref": "A-pistes_2020_2026_codex-09",
+      "assertion": "M6 annonce le 3 juin avoir établi le caractère faux du témoignage et présente ses excuses à l'évêque.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "M6, communiqué transmis au Parisien",
+      "date_faits": "2026-06-03",
+      "lieu": "M6",
+      "sources": [
+        "S-pistes_2020_2026_codex-04",
+        "S-pistes_2020_2026_codex-06"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Déclaration de la chaîne, pas jugement.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "S-06 rapporte la réaction de l'équipe sur RTL, sans authentifier séparément le communiqué; autres reprises AFP bloquées. Propos de M6 rapportés, pas établissement judiciaire."
+      }
+    },
+    {
+      "ref": "A-pistes_2020_2026_codex-10",
+      "assertion": "Stan Vignon rapporte sur RTL que l'appelant lui a finalement admis ne pas être prêtre.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Stan Vignon, rédacteur en chef de l'émission, cité par La Dépêche",
+      "date_faits": "2026-06-03",
+      "lieu": "RTL",
+      "sources": [
+        "S-pistes_2020_2026_codex-06",
+        "S-pistes_2020_2026_codex-07"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Aveu hors antenne rapporté par l'équipe.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "S-07 relate une prétention supplémentaire non confirmée; aucune identification de cet appelant ni procédure judiciaire déduite."
+      }
+    },
+    {
+      "ref": "A-pistes_2020_2026_codex-11",
+      "assertion": "L'évêque annonce saisir l'Arcom; son président annonce le 4 juin l'examen de la séquence.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Bruno Valentin; Martin Ajdari, président de l'Arcom interrogé par Ici Provence",
+      "date_faits": "2026-06-03 / 2026-06-04",
+      "lieu": "France",
+      "sources": [
+        "S-pistes_2020_2026_codex-05",
+        "S-pistes_2020_2026_codex-08",
+        "S-pistes_2020_2026_codex-09",
+        "S-pistes_2020_2026_codex-24",
+        "S-pistes_2020_2026_codex-25"
+      ],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Saisine et examen sans sanction. S-24/S-25 vérifient uniquement le nom du président, pas sa décision sur M6."
+    },
+    {
+      "ref": "A-pistes_2020_2026_codex-12",
+      "assertion": "Au 3 juin, l'avocat du diocèse envisage un dépôt de plainte, selon Le Parisien.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Le Parisien, citant la position du diocèse",
+      "date_faits": "2026-06-03",
+      "lieu": "Carcassonne",
+      "sources": [
+        "S-pistes_2020_2026_codex-04"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Ne pas transformer une réflexion en plainte déposée.",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "Recherche explicite faux prêtre plainte, puis variantes juillet/août/septembre: aucun dépôt ni décision judiciaire confirmé dans les pages lisibles."
+      }
+    },
+    {
+      "ref": "A-pistes_2020_2026_codex-13",
+      "assertion": "Selon l'enquête Ouest-France reprise par Le Parisien, Epsilon est un compte de Cité Catholique créé le 2 juillet 2010, avec 1169 messages jusqu'en 2017.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Enquête Ouest-France relatée par Manon Aublanc",
+      "date_faits": "2010-07-02 / 2017",
+      "lieu": "Forum Cité Catholique",
+      "sources": [
+        "S-pistes_2020_2026_codex-10",
+        "S-pistes_2020_2026_codex-12"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Compte existant ne signifie pas identité de XDDL.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Control Investigation S-12 observe 1169 au profil mais 1080 via recherche; différences de corpus à expliciter."
+      }
+    },
+    {
+      "ref": "A-pistes_2020_2026_codex-14",
+      "assertion": "Le rapprochement repose sur des habitudes d'écriture, références bibliques et interlocuteurs communs, selon Ouest-France; ce sont des indices interprétés.",
+      "categorie": "HYPOTHESE",
+      "attribution": "Ouest-France et expert sollicité, repris par Le Parisien",
+      "date_faits": "2026-06",
+      "lieu": "Cité Catholique",
+      "sources": [
+        "S-pistes_2020_2026_codex-10",
+        "S-pistes_2020_2026_codex-12"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "forte",
+      "centrale": true,
+      "notes": "Aucune identité formellement établie dans cet article.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "Analyse indépendante S-12 insiste sur hypothèses alternatives et contradiction possible d'horaires, sans accéder aux données judiciaires."
+      }
+    },
+    {
+      "ref": "A-pistes_2020_2026_codex-15",
+      "assertion": "Le parquet annonce que le juge fera vérifier la piste d'un utilisateur actif jusqu'en août 2017 aux formulations proches de celles attribuées à XDDL.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Antoine Leroy, déclaration reproduite par Le Dauphiné",
+      "date_faits": "2026-06-03 (annonce relatée le 04)",
+      "lieu": "Nantes",
+      "sources": [
+        "S-pistes_2020_2026_codex-11",
+        "S-pistes_2020_2026_codex-10"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Annonce de vérifications; aucun résultat annoncé.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "S-10 rapporte aussi une réponse du même procureur; deux comptes rendus de la même autorité, sans corroboration indépendante ni résultat technique."
+      }
+    },
+    {
+      "ref": "A-pistes_2020_2026_codex-16",
+      "assertion": "Dans son analyse du 6 juillet, Artus Huot de Saint-Albin estime que les comparaisons d’horaires ne permettent pas d’établir l’attribution d’Epsilon à XDDL.",
+      "categorie": "HYPOTHESE",
+      "attribution": "Artus Huot de Saint-Albin, interprétation publiée sur Control Investigation",
+      "date_faits": "2026-07-06",
+      "lieu": "Internet",
+      "sources": [
+        "S-pistes_2020_2026_codex-12"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "forte",
+      "centrale": false,
+      "notes": "Interprétation privée des horaires, sans validation scientifique ou judiciaire. L’existence de la publication ne valide pas son raisonnement."
+    },
+    {
+      "ref": "A-pistes_2020_2026_codex-17",
+      "assertion": "Les bilans secondaires du 17 août et du 2 septembre indiquent qu'aucune identification officielle d'Epsilon n'est annoncée dans leurs sources.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Actu Forces de l'Ordre; Éditions Fractales",
+      "date_faits": "2026-08-17 / 2026-09-02",
+      "lieu": "Internet",
+      "sources": [
+        "S-pistes_2020_2026_codex-13",
+        "S-pistes_2020_2026_codex-14"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Deux synthèses reprennent largement les mêmes médias de juin; absence dans ce corpus n'établit pas absence universelle.",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "Recherches Epsilon conclusions et mois juillet/août/septembre: aucun communiqué conclusif lisible retrouvé."
+      }
+    },
+    {
+      "ref": "A-pistes_2020_2026_codex-18",
+      "assertion": "En juillet 2020, la productrice d'Unsolved Mysteries dit avoir transmis aux enquêteurs une photo et un signalement à Chicago.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Terry Dunn Meurer, entretien Variety repris par La Dépêche",
+      "date_faits": "2020-07",
+      "lieu": "Chicago",
+      "sources": [
+        "S-pistes_2020_2026_codex-15",
+        "S-pistes_2020_2026_codex-16"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Signalement de ressemblance; aucune localisation authentifiée.",
+      "verification": {
+        "statut": "nuance",
+        "commentaire": "20 Minutes S-16 rapporte ultérieurement que les témoignages issus de Netflix n'ont pas été confirmés à la date de son bilan."
+      }
+    },
+    {
+      "ref": "A-pistes_2020_2026_codex-19",
+      "assertion": "Le parquet indique le 28 avril 2025 qu'aucun élément factuel vérifiable transmis aux autorités ne prouve les rumeurs de localisation diffusées depuis mars.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Antoine Leroy, cité par AFP",
+      "date_faits": "2025-04-28",
+      "lieu": "Nantes / localisation alléguée en Asie",
+      "sources": [
+        "S-pistes_2020_2026_codex-17"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Ne pas identifier l'homme photographié.",
+      "verification": {
+        "statut": "non_confirme",
+        "commentaire": "Recherche indépendante: reprises du démenti AFP, sans nouvelle origine; la déclaration rapportée est distincte d'une expertise consultée."
+      }
+    },
+    {
+      "ref": "A-pistes_2020_2026_codex-20",
+      "assertion": "Le 5 juillet 2026, des articles annoncent une série 13h15 de France 2 et rapportent la conviction de survie d'un ancien compagnon de séjour américain.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Femin Actu, Closer et proche interrogé par France 2",
+      "date_faits": "2026-07-05",
+      "lieu": "France 2",
+      "sources": [
+        "S-pistes_2020_2026_codex-18",
+        "S-pistes_2020_2026_codex-19"
+      ],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": false,
+      "notes": "Épisode non visionné; conviction personnelle, aucune avancée d'enquête déduite."
+    }
+  ],
+  "chronologie": [
+    {
+      "date": "2020-07",
+      "precision": "mois",
+      "evenement": "Netflix suscite un signalement de ressemblance à Chicago.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "sources": [
+        "S-pistes_2020_2026_codex-15"
+      ],
+      "note": "Résultat individuel non public dans le corpus."
+    },
+    {
+      "date": "2024-03",
+      "precision": "mois",
+      "evenement": "Visiteur signalé dans une communauté religieuse du Doubs.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "sources": [
+        "S-pistes_2020_2026_codex-01"
+      ],
+      "note": "Personne privée non nommée."
+    },
+    {
+      "date": "2024-04-15",
+      "precision": "jour",
+      "evenement": "Parquet annonce l'exclusion ADN du signalement du Doubs.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-pistes_2020_2026_codex-01"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2025-04-28",
+      "precision": "jour",
+      "evenement": "Parquet dément une localisation étayée par les rumeurs numériques.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-pistes_2020_2026_codex-17"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2026-03-25",
+      "precision": "jour",
+      "evenement": "Appel public du shérif texan rapporté par KOSA.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-pistes_2020_2026_codex-02"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2026-03-26",
+      "precision": "jour",
+      "evenement": "Clarification: aucun nouveau renseignement ni observation confirmée.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-pistes_2020_2026_codex-02"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2026-06-02",
+      "precision": "jour",
+      "evenement": "M6 diffuse le récit du prétendu prêtre.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "sources": [
+        "S-pistes_2020_2026_codex-05"
+      ],
+      "note": "Année 2022 alléguée puis démentie."
+    },
+    {
+      "date": "2026-06-03",
+      "precision": "jour",
+      "evenement": "Démentis locaux; M6 reconnaît le faux témoignage.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "sources": [
+        "S-pistes_2020_2026_codex-05",
+        "S-pistes_2020_2026_codex-04"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2026-06-03",
+      "precision": "jour",
+      "evenement": "Vérifications Epsilon annoncées par le parquet.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": [
+        "S-pistes_2020_2026_codex-11"
+      ],
+      "note": "Article publié le 4 parle de mercredi."
+    },
+    {
+      "date": "2026-06-04",
+      "precision": "jour",
+      "evenement": "Examen Arcom annoncé à la radio.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "sources": [
+        "S-pistes_2020_2026_codex-08"
+      ],
+      "note": ""
+    },
+    {
+      "date": "2026-07-05",
+      "precision": "jour",
+      "evenement": "Articles sur 13h15 et conviction d'un proche.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "sources": [
+        "S-pistes_2020_2026_codex-18",
+        "S-pistes_2020_2026_codex-19"
+      ],
+      "note": "Diffusion non visionnée."
+    },
+    {
+      "date": "2026-07-06",
+      "precision": "jour",
+      "evenement": "Une analyse privée juge l’attribution d’Epsilon hypothétique.",
+      "categorie": "HYPOTHESE",
+      "sources": [
+        "S-pistes_2020_2026_codex-12"
+      ],
+      "note": "Interprétation de l’auteur, sans résultat policier."
+    },
+    {
+      "date": "2026-08-17",
+      "precision": "jour",
+      "evenement": "Bilan secondaire sans identification nouvelle annoncée.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "sources": [
+        "S-pistes_2020_2026_codex-13"
+      ],
+      "note": "Reprise des annonces de juin."
+    },
+    {
+      "date": "2026-09-02",
+      "precision": "jour",
+      "evenement": "Synthèse secondaire Epsilon sans conclusion judiciaire nouvelle.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "sources": [
+        "S-pistes_2020_2026_codex-14"
+      ],
+      "note": "Ne constitue pas avancée officielle."
+    }
+  ],
+  "details_moins_connus": [
+    {
+      "detail": "Un appel public policier peut viser à obtenir des informations sans observation confirmée.",
+      "interet_interpretation": "Le Texas illustre la différence entre lancer un appel et disposer d'une nouvelle preuve.",
+      "sources": [
+        "S-pistes_2020_2026_codex-02"
+      ]
+    },
+    {
+      "detail": "L'analyse du 6 juillet distingue le total du profil Epsilon de celui renvoyé par la recherche de messages.",
+      "interet_interpretation": "Préciser le corpus avant de comparer les textes; pas une identification.",
+      "sources": [
+        "S-pistes_2020_2026_codex-12"
+      ]
+    }
+  ],
+  "contradictions": [
+    {
+      "sujet": "Appel texan et présence de XDDL",
+      "versions": [
+        {
+          "version": "Appel initial: possible observation en 2020.",
+          "sources": [
+            "S-pistes_2020_2026_codex-03"
+          ]
+        },
+        {
+          "version": "Clarification: aucun nouvel élément ni observation confirmée.",
+          "sources": [
+            "S-pistes_2020_2026_codex-02"
+          ]
+        }
+      ],
+      "traitement_recommande": "Présenter l'appel puis sa limitation officielle rapportée; pas une preuve de présence."
+    },
+    {
+      "sujet": "Nom du président de l'Arcom dans deux comptes rendus de la même interview",
+      "versions": [
+        {
+          "version": "Le Parisien donne Martin Ajdari.",
+          "sources": [
+            "S-pistes_2020_2026_codex-08"
+          ]
+        },
+        {
+          "version": "Ouest-France donne David Aussilou dans le passage visible.",
+          "sources": [
+            "S-pistes_2020_2026_codex-09"
+          ]
+        },
+        {
+          "version": "Le décret nomme Martin Ajdari; l'EJCAM l'identifie comme président le 5 juin 2026.",
+          "sources": [
+            "S-pistes_2020_2026_codex-24",
+            "S-pistes_2020_2026_codex-25"
+          ]
+        }
+      ],
+      "traitement_recommande": "Divergence résolue par le décret et l'institution du 5 juin: Martin Ajdari. Aucune conclusion sur une sanction M6 déduite de ces pages."
+    },
+    {
+      "sujet": "Date de l'annonce du parquet sur Epsilon",
+      "versions": [
+        {
+          "version": "Le Dauphiné du 4 juin mentionne une annonce mercredi, donc le 3.",
+          "sources": [
+            "S-pistes_2020_2026_codex-11"
+          ]
+        },
+        {
+          "version": "Éditions Fractales associe la confirmation au 4 juin.",
+          "sources": [
+            "S-pistes_2020_2026_codex-14"
+          ]
+        }
+      ],
+      "traitement_recommande": "Séparer date d'annonce rapportée (3 juin) et publication (4 juin); source judiciaire directe manquante."
+    }
+  ],
+  "lacunes": [
+    "Les deux points de départ Europe 1 concernant M6 et l'évêque sont inaccessibles; les assertions utilisent des pages de remplacement lues.",
+    "Pas de communiqué original directement consulté du parquet ni du shérif; déclarations rapportées et correctement attribuées.",
+    "L'enquête originale Ouest-France sur Epsilon n'a pas pu être ouverte; présentation de ses résultats via Le Parisien, sans compter les reprises comme indépendantes.",
+    "Entretien contradictoire de Gilles Galloux sur Europe 1 repéré mais inaccessible; aucune conclusion technique sur les IP retenue de cet extrait.",
+    "Pas de conclusion judiciaire ultérieure Epsilon trouvée après recherches explicites Epsilon conclusions, Dupont de Ligonnès juillet 2026, août 2026 et septembre 2026, avec variantes Ligonnes et requêtes anglaises.",
+    "Plainte du diocèse seulement envisagée le 3 juin. Aucun dépôt, poursuite, jugement ni sanction Arcom établi dans les pages lues malgré recherche faux prêtre plainte et variantes mensuelles juillet à septembre.",
+    "Bilans août/septembre secondaires: aucune source nouvelle ou pièce judiciaire fournie; ne garantissent pas l'exhaustivité de l'état procédural au 1er octobre.",
+    "Les émissions M6, France 2 et Netflix n'ont pas été visionnées; uniquement leurs contenus rapportés ou sommaires lus.",
+    "Pas de résultat officiel individuel retrouvé pour le signalement Chicago de 2020; 20 Minutes constate globalement des témoignages non confirmés à la date de son bilan.",
+    "Recensement ciblé sur les pistes importantes documentées, sans compilation de ressemblances ni prétention d'exhaustivité de tous les signalements 2020-2026."
+  ]
+}
