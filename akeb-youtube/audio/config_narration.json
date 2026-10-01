@@ -1,9 +1,9 @@
 {
   "modele": "gemini-3.8-flash-tts",
-  "voix": "Algieba",
+  "voix": "fr-fr-podcaster-8",
   "mode_consignes": "interactions",
   "marqueur_texte": "TRANSCRIPT:",
-  "consignes": "French metropolitan accent; warm, close and lively documentary narrator with calm authority, around 155 words per minute; slower on dates, names and numbers; short breath after questions; quotations read soberly without imitation; no drama, no whisper, no shouting",
+  "consignes": "natural, warm and engaging young podcast host telling a true story, lively and dynamic but never dramatic, around 160 words per minute; slightly slower on dates, names and numbers; short breath after questions; quotations read soberly",
   "texte_echantillon": "Ici, Les Mystères d'Akeb. Le 15 avril 2011, à Roquebrune-sur-Argens, Xavier Dupont de Ligonnès est filmé pour la dernière fois. Agnès, née Hodanger, et leurs enfants, Arthur, Thomas, Anne et Benoît, vivaient à Nantes. De Puilboreau à La Seyne-sur-Mer, de Draguignan à Pornic, de Blagnac au Pontet, puis de Glasgow au comté de Brewster, au Texas : quinze ans de pistes, que nous reprenons dans l'ordre, en séparant ce qui est établi de ce qui est supposé.",
   "prononciations": {
     "Puilboreau": "Puilborô",
@@ -91,5 +91,7 @@
   "reference_timbre": [
     "Shorts/01_il_aurait_du_se_taire_voix.wav (transmission Codex, ≈140 mots/min mesurés)"
   ],
-  "note_mode_consignes": "01/10/2026 : en mode « prompt », gemini-3.8-flash-tts lisait la consigne anglaise à voix haute (détecté par outils/controle_voix.py). La documentation Gemini 3.8 TTS impose le texte comme transcription verbatim et le style dans speech_metadata (API Interactions)."
+  "note_mode_consignes": "01/10/2026 : en mode « prompt », gemini-3.8-flash-tts lisait la consigne anglaise à voix haute (détecté par outils/controle_voix.py). La documentation Gemini 3.8 TTS impose le texte comme transcription verbatim et le style dans speech_metadata (API Interactions).",
+  "voix_precedente": "Algieba (écartée par Rémi le 01/10/2026 : pas assez naturelle, jeune, dynamique)",
+  "voix_description": "Bibliothèque Gemini fr-FR : homme, 28 ans, animateur de podcast parisien, voix chaleureuse et engageante (choix de Rémi, 01/10/2026)"
 }
