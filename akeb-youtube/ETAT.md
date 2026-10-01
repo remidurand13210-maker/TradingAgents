@@ -2,6 +2,7 @@
 
 Mise à jour : 01/10/2026, après la transmission de Codex, les recherches Bionic et la création de l'environnement Akeb.
 Reprise dans l'environnement Akeb : voir `REPRISE_ENVIRONNEMENT_AKEB.md`.
+**Passage de relais (01/10/2026)** : la révision v1 est confiée à la session de l'environnement Akeb. La session Default n'écrit plus sur la branche.
 Statuts : préparé · généré · contrôlé · envoyé · soumis · publié · diffusé · **bloqué**.
 
 ## Synthèse
@@ -11,7 +12,7 @@ Statuts : préparé · généré · contrôlé · envoyé · soumis · publié �
 | Dossier documentaire | **recherche Codex reçue** (11 dossiers, 143 sources lues intégralement) ; fusion faite : 250 sources, 285 assertions ; voir `recherche/AUDIT_CODEX.md`. Ancien état : partiel, à revérifier | 102 sources, 103 assertions, avec leur provenance : `bio_jeunesse` (extraits de moteur, session cloud) et 4 thèmes Bionic (LM Studio, 24 sources lues partiellement, non revérifiées ; voir `recherche/contre_verif/AUDIT_BIONIC.md`). Il manque : famille, travail et finances, découverte et enquête, pistes 2011-2019 (dont Glasgow), plateformes, emplacements. |
 | Scripts des 4 épisodes + bande-annonce | brouillons v0 écrits (épisodes 2, 3, 4) | Écrits à partir du seul dossier ; faits fragiles attribués ou omis ; non narrables avant `VALIDATION.md`. Épisode 1 et bande-annonce : en attente de la recherche manquante. |
 | Narration Gemini 3.8 (Algieba) | prêt, non lancé | Accès **vérifié dans l'environnement Akeb** (test non génératif réussi, aucun audio). Default reste sans identifiant. L'outil gère le mode proxy (clé ajoutée après la VM, `GEMINI_API_KEY` absente). Chiffrage après les scripts ; narration refusée sans `VALIDATION.md`. |
-| Outils de montage et de contrôle | contrôlé | Testés de bout en bout ; sous-titres alignés sur la voix réelle ; moteur d'animation local. Maquette de comparaison de 27,1 s (moteur Python ou HyperFrames) produite en vrai MP4 1080p : voir `montage/maquette_comparaison/COMPARAISON.md`. HyperFrames recommandé, à confirmer par Rémi. |
+| Outils de montage et de contrôle | contrôlé | Testés de bout en bout ; sous-titres alignés sur la voix réelle ; moteur d'animation local. Maquette de comparaison de 27,1 s (moteur Python ou HyperFrames) produite en vrai MP4 1080p : voir `montage/maquette_comparaison/COMPARAISON.md`. **HyperFrames validé par Rémi le 01/10/2026** pour le rendu animé (gabarits pilotés par les storyboards) ; le moteur Python reste en secours. |
 | Musique | généré | 3 nappes originales (`audio/musique/`, hors Git). |
 | Identité visuelle | contrôlé | Avatar 800×800 et bannière 2560×1440 prêts **à installer** sur la chaîne. |
 | Couverture exacte | généré | Reçue ; installée localement en `montage/assets/` (hors Git). |

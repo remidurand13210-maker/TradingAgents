@@ -49,4 +49,4 @@ Contrôles effectués :
 - Le moteur Python reste en secours ; il produit déjà les épisodes complets.
 - Claude Design reste facultatif : Rémi peut s'en servir pour explorer l'habillage (titres, miniatures). La production n'en dépend pas, puisque les exports passent par l'interface.
 
-**À confirmer par Rémi** après visionnage de `comparaison_cote_a_cote.mp4`. S'il préfère le rendu du moteur Python, rien n'est perdu.
+**Décision de Rémi (01/10/2026) : HyperFrames validé.**
