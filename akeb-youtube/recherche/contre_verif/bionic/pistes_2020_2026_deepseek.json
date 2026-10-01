@@ -1,0 +1,804 @@
+{
+  "sujet": "pistes_2020_2026",
+  "outil": "bionic-agent (LM Studio Bionic) — second regard indépendant, recherche web propre",
+  "note_meta": {
+    "avertissement": "Ce fichier n'a PAS été produit par DeepSeek. Il a été produit par l'agent Bionic avec sa propre recherche web, à la place du prompt DeepSeek resté sans réponse. Le champ 'outil' est donc volontairement différent de la valeur 'deepseek' prévue par le schéma : si le vérificateur attend strictement un second regard DeepSeek, ce fichier doit être re-généré. Il reste utilisable comme contre-vérification indépendante au même titre.",
+    "regle_appliquee": "Seules des pages réellement ouvertes (accès 'lu_integral'/'lu_partiel') ou dont le contenu a été vu via un extrait de moteur de recherche (acces 'extrait_moteur', signalé comme tel) sont citées. Aucune URL n'a été reconstruite. Aucune information de mémoire.",
+    "methode": "Recherches web du 2026-10-01 : 'Dupont de Ligonnès septembre 2026', 'août 2026', 'juillet 2026', 'compte Epsilon conclusions', 'faux prêtre plainte', 'Brewster County', 'Doubs ADN 2024', puis extraction du contenu des pages clés."
+  },
+  "sources": [
+    {
+      "ref": "S-pistes_2020_2026-D01",
+      "titre": "Enquête. Xavier Dupont de Ligonnès signalé dans le Doubs : l'ADN ne correspond pas",
+      "url": "https://www.leprogres.fr/faits-divers-justice/2024/04/15/tests-adn-le-signalement-ne-correspond-pas-a-xavier-dupont-de-ligonnes",
+      "auteur_organisme": "La rédaction avec AFP",
+      "media": "Le Progrès",
+      "date_publication": "2024-04-15",
+      "date_faits": "2024-04-15",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_regional",
+      "origine": "AFP",
+      "notes": "Page chargée mais article partiellement accessible (bandeau compte). Les citations du procureur Renaud Gaudeul sont reprises de l'AFP."
+    },
+    {
+      "ref": "S-pistes_2020_2026-D02",
+      "titre": "Affaire Dupont de Ligonnès : le résultat du test ADN après un signalement dans le Doubs est négatif",
+      "url": "https://www.leparisien.fr/faits-divers/affaire-dupont-de-ligonnes-le-resultat-du-test-adn-apres-un-signalement-dans-le-doubs-est-negatif-15-04-2024-LV5BGEPYLFDADB4FMS2QITFF7Q.php",
+      "auteur_organisme": "Le Parisien",
+      "media": "Le Parisien",
+      "date_publication": "2024-04-15",
+      "date_faits": "2024-04-15",
+      "date_consultation": "2026-10-01",
+      "acces": "extrait_moteur",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Contenu lu via extrait de moteur de recherche (non ouvert intégralement). Détaille le nombre de signalants (trois) et la chronologie du prélèvement."
+    },
+    {
+      "ref": "S-pistes_2020_2026-D03",
+      "titre": "Xavier Dupont de Ligonnès : des vérifications et des tests ADN après un signalement dans le Doubs",
+      "url": "https://actu17.fr/faits-divers/xavier-dupont-de-ligonnes-des-verifications-et-des-tests-adn-apres-un-signalement-dans-le-doubs.html",
+      "auteur_organisme": "Actu17",
+      "media": "Actu17",
+      "date_publication": "2024-04-04",
+      "date_faits": "2024-03-09",
+      "date_consultation": "2026-10-01",
+      "acces": "extrait_moteur",
+      "type": "autre",
+      "origine": "propre",
+      "notes": "Cite le procureur de Besançon Étienne Manteaux et L'Est Républicain. Non ouvert intégralement."
+    },
+    {
+      "ref": "S-pistes_2020_2026-D04",
+      "titre": "Affaire Xavier Dupont de Ligonnès : un appel à témoins lancé au Texas, le parquet de Nantes regrette de ne pas en avoir été informé",
+      "url": "https://www.franceinfo.fr/faits-divers/xavier-dupont-de-ligonnes/affaire-dupont-de-ligonnes-un-appel-a-temoins-lance-au-texas-le-parquet-de-nantes-regrette-de-ne-pas-en-avoir-ete-informe_7895918.html",
+      "auteur_organisme": "franceinfo",
+      "media": "franceinfo",
+      "date_publication": "2026-03-26",
+      "date_faits": "2026-03-25",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Reprend la déclaration du procureur de Nantes Antoine Leroy et les éléments de l'appel à témoins texan."
+    },
+    {
+      "ref": "S-pistes_2020_2026-D05",
+      "titre": "UPDATE: Brewster County sheriff seeking information on French murder suspect",
+      "url": "https://www.firstalert7.com/2026/03/25/brewster-county-sheriff-needs-help-finding-man/",
+      "auteur_organisme": "Katie Carlock, Tamlyn Price (KOSA / First Alert 7)",
+      "media": "First Alert 7 (KOSA, Odessa, Texas)",
+      "date_publication": "2026-03-25",
+      "date_faits": "2026-03-25",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_etranger",
+      "origine": "propre",
+      "notes": "Reproduit le texte de la publication Facebook du bureau du shérif (mise à jour du 26 mars incluse). Point de départ 15 du prompt."
+    },
+    {
+      "ref": "S-pistes_2020_2026-D06",
+      "titre": "\"J'ai reçu tellement d'appels\" : le shérif à l'origine de l'appel à témoins contre Xavier Dupont de Ligonnès croule sous les témoignages",
+      "url": "https://www.ladepeche.fr/2026/03/27/jai-recu-tellement-dappels-le-sherif-a-lorigine-de-lappel-a-temoins-contre-xavier-dupont-de-ligonnes-croule-sous-les-temoignages-13295701.php",
+      "auteur_organisme": "La Dépêche du Midi",
+      "media": "La Dépêche du Midi",
+      "date_publication": "2026-03-27",
+      "date_faits": "2026-03-25",
+      "date_consultation": "2026-10-01",
+      "acces": "extrait_moteur",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Titre et résumé lus en moteur de recherche ; article non ouvert."
+    },
+    {
+      "ref": "S-pistes_2020_2026-D07",
+      "titre": "Affaire Xavier Dupont de Ligonnès : une nouvelle enquête pour localiser le Français disparu",
+      "url": "https://www.timefrance.fr/evenement/affaire-xavier-dupont-de-ligonnes-un-nouvelle-enquete-pour-localiser-le-francais-disparu",
+      "auteur_organisme": "Valentin Gasselin, Time France",
+      "media": "Time France",
+      "date_publication": "2026-03-27",
+      "date_faits": "2026-03-25",
+      "date_consultation": "2026-10-01",
+      "acces": "extrait_moteur",
+      "type": "autre",
+      "origine": "propre",
+      "notes": "Source secondaire ; rapporte les propos du shérif Ronny Dodson au Télégramme et la piste de l'ancien enquêteur Gilles Galloux. À confronter à une source de premier rang."
+    },
+    {
+      "ref": "S-pistes_2020_2026-D08",
+      "titre": "Affaire Dupont de Ligonnès : M6, piégée par le faux témoignage d'un prétendu prêtre, présente ses « excuses »",
+      "url": "https://www.europe1.fr/medias-tele/affaire-dupont-de-ligonnes-m6-piegee-par-le-faux-temoignage-dun-pretendu-pretre-presente-ses-excuses-941471",
+      "auteur_organisme": "Europe 1 avec AFP",
+      "media": "Europe 1",
+      "date_publication": "2026-06-03",
+      "date_faits": "2026-06-02",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "AFP",
+      "notes": "Point de départ 16 du prompt. Donne le communiqué M6 et l'aveu recueilli par Stan Vignon, rédacteur en chef."
+    },
+    {
+      "ref": "S-pistes_2020_2026-D09",
+      "titre": "« Il était vraiment désemparé » : sur M 6, un prétendu prêtre affirme avoir confessé Dupont de Ligonnès en 2022",
+      "url": "https://www.leparisien.fr/culture-loisirs/tv/il-prendrait-beaucoup-de-risque-a-dire-nimporte-quoi-sur-m6-un-pretre-affirme-avoir-confesse-dupont-de-ligonnes-en-2022-03-06-2026-3BGZ3CVGUJAJFOT3L77D33OQQI.php",
+      "auteur_organisme": "Ludovic Galtier-Lloret, Le Parisien",
+      "media": "Le Parisien",
+      "date_publication": "2026-06-03",
+      "date_faits": "2026-06-02",
+      "date_consultation": "2026-10-01",
+      "acces": "extrait_moteur",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Extrait long lu en moteur de recherche : contenu de l'émission, lieu (monastère de Plavilla, Aude), quatre jours, départ vers Grasse, standard saturé."
+    },
+    {
+      "ref": "S-pistes_2020_2026-D10",
+      "titre": "Affaire Dupont de Ligonnès : M6 présente ses excuses « sans réserve » à l'évêque de Carcassonne",
+      "url": "https://www.leparisien.fr/culture-loisirs/tv/affaire-dupont-de-ligonnes-m6-presente-ses-excuses-sans-reserve-a-leveque-de-carcassonne-03-06-2026-UXEATRYMQVFR5HAUXDPMLNPXHE.php",
+      "auteur_organisme": "Le Parisien",
+      "media": "Le Parisien",
+      "date_publication": "2026-06-03",
+      "date_faits": "2026-06-03",
+      "date_consultation": "2026-10-01",
+      "acces": "extrait_moteur",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Titre et chapô lus en moteur de recherche."
+    },
+    {
+      "ref": "S-pistes_2020_2026-D11",
+      "titre": "Affaire Dupont de Ligonnès : M6 piégée par un faux prêtre",
+      "url": "https://cath.ch/newsf/affaire-dupont-de-ligonnes-m6-piegee-par-un-faux-pretre",
+      "auteur_organisme": "Raphaël Zbinden, cath.ch (Centre catholique des médias)",
+      "media": "cath.ch",
+      "date_publication": "2026-06-04",
+      "date_faits": "2026-06-02",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_etranger",
+      "origine": "reprise:La Croix / Le Figaro",
+      "notes": "Article lu en grande partie via l'extrait de moteur de recherche. Rapporte le démenti de Mgr Bruno Valentin, la saisine de l'Arcom, et cite La Croix et Le Figaro (non ouverts)."
+    },
+    {
+      "ref": "S-pistes_2020_2026-D12",
+      "titre": "Faux témoignage sur Dupont de Ligonnès : l'Arcom \"va se pencher sur la séquence\" pour savoir \"dans quelle mesure M6 a manqué à ses obligations\"",
+      "url": "https://www.franceinfo.fr/faits-divers/xavier-dupont-de-ligonnes/faux-temoignage-sur-dupont-de-ligonnes-l-arcom-va-se-pencher-sur-la-sequence-pour-savoir-dans-quelle-mesure-m6-a-manque-a-ses-obligations_8044205.html",
+      "auteur_organisme": "franceinfo",
+      "media": "franceinfo",
+      "date_publication": "2026-06-04",
+      "date_faits": "2026-06-04",
+      "date_consultation": "2026-10-01",
+      "acces": "extrait_moteur",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Déclaration du président de l'Arcom Martin Ajdari, reprise aussi par ICI Provence / Radio France."
+    },
+    {
+      "ref": "S-pistes_2020_2026-D13",
+      "titre": "Dupont de Ligonnès : Que risquent les auteurs de canulars téléphoniques, dont le faux prêtre sur M6 ?",
+      "url": "https://www.20minutes.fr/justice/4227144-20260604-dupont-lignonnes-risquent-auteurs-canulars-telephoniques-dont-faux-pretre-m6",
+      "auteur_organisme": "Annabelle Rochet, 20 Minutes",
+      "media": "20 Minutes",
+      "date_publication": "2026-06-04",
+      "date_faits": "2026-06-04",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Cadre juridique : article 434-26 du Code pénal (6 mois et 7 500 euros), article 27 de la loi de 1881 (45 000 euros), dénonciation calomnieuse, témoignage mensonger sous serment. Professeure citée : Anne-Blandine Caire."
+    },
+    {
+      "ref": "S-pistes_2020_2026-D14",
+      "titre": "Affaire Dupont de Ligonnès : le parquet de Nantes vérifie depuis 15 ans toutes les informations \"jusqu'ici sans succès\"",
+      "url": "https://www.ici.fr/pays-de-la-loire/loire-atlantique-44/nantes/affaire-dupont-de-ligonnes-le-parquet-de-nantes-verifie-depuis-15-ans-toutes-les-informations-jusqu-ici-sans-succes-7788298",
+      "auteur_organisme": "Anne Bertrand, ICI Loire Océan (Radio France)",
+      "media": "ICI (Radio France)",
+      "date_publication": "2026-06-03",
+      "date_faits": "2026-06-03",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Mises au point du procureur Antoine Leroy ; rappelle aussi la mise au point de 2025 après les affirmations de l'influenceur Aqababe."
+    },
+    {
+      "ref": "S-pistes_2020_2026-D15",
+      "titre": "Affaire Dupont de Ligonnès : Le procureur de Nantes ordonne de nouvelles vérifications sur le mystérieux « Epsilon »",
+      "url": "https://www.20minutes.fr/faits_divers/4227019-20260603-affaire-dupont-ligonnes-procureur-ordonne-nouvelles-verifications",
+      "auteur_organisme": "20 Minutes",
+      "media": "20 Minutes",
+      "date_publication": "2026-06-03",
+      "date_faits": "2026-06-03",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Reprend le communiqué du procureur Antoine Leroy ; précise qu'Epsilon postait sur cite-catholique.org jusqu'en août 2017 et qu'XDDL utilisait d'autres pseudonymes jusqu'au 8 avril 2011."
+    },
+    {
+      "ref": "S-pistes_2020_2026-D16",
+      "titre": "ENQUÊTE. Affaire Xavier Dupont de Ligonnès : l'énigme du compte Epsilon, actif jusqu'en 2017 sur un forum religieux",
+      "url": "https://www.ouest-france.fr/faits-divers/affaire-de-ligonnes/enquete-affaire-xavier-dupont-de-ligonnes-lenigme-du-compte-epsilon-actif-jusquen-2017-sur-un-forum-religieux-3828b8e4-5d25-11f1-b3f0-aacb0ffa8bfb",
+      "auteur_organisme": "Arnaud Wajdzik, Ouest-France",
+      "media": "Ouest-France",
+      "date_publication": "2026-06-01",
+      "date_faits": "2010-2017",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Enquête à l'origine de la piste ; méthode OSINT revendiquée. Article largement inaccessible (abonnement) : seuls le chapô et des fragments ont été lus."
+    },
+    {
+      "ref": "S-pistes_2020_2026-D17",
+      "titre": "Affaire Xavier Dupont de Ligonnès : « Epsilon », le mystérieux utilisateur d'un forum religieux resté actif jusqu'en 2017",
+      "url": "https://www.leparisien.fr/faits-divers/affaire-xavier-dupont-de-ligonnes-epsilon-le-mysterieux-utilisateur-dun-forum-religieux-reste-actif-jusquen-2017-02-06-2026-V5FU5WV24ZB2PGQIVBA4BMCKUQ.php",
+      "auteur_organisme": "Le Parisien",
+      "media": "Le Parisien",
+      "date_publication": "2026-06-02",
+      "date_faits": "2010-2017",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Synthèse des révélations d'Ouest-France : compte créé le 2 juillet 2010, 1 169 messages, expert en stylométrie Claude Alain Roten (« la piste est sérieuse »), 1 850 signalements."
+    },
+    {
+      "ref": "S-pistes_2020_2026-D18",
+      "titre": "Affaire Xavier Dupont de Ligonnès : le parquet de Nantes annonce que des enquêteurs vont vérifier le compte Epsilon",
+      "url": "https://www.ouest-france.fr/faits-divers/affaire-de-ligonnes/affaire-xavier-dupont-de-ligonnes-le-parquet-de-nantes-annonce-que-des-enqueteurs-vont-verifier-le-compte-epsilon-531664ca-5f47-11f1-9999-e3952a64b830",
+      "auteur_organisme": "Ouest-France",
+      "media": "Ouest-France",
+      "date_publication": "2026-06-03",
+      "date_faits": "2026-06-03",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Selon Ouest-France, des enquêteurs spécialisés examineraient déjà l'adresse IP et les messages d'Epsilon (actif entre 2010 et 2017)."
+    },
+    {
+      "ref": "S-pistes_2020_2026-D19",
+      "titre": "Affaire Xavier Dupont de Ligonnès : le parquet annonce des vérifications du compte Epsilon",
+      "url": "https://www.ledauphine.com/faits-divers-justice/2026/06/04/affaire-xavier-dupont-de-ligonnes-le-parquet-annonce-des-verifications-du-compte-epsilon",
+      "auteur_organisme": "Le Dauphiné Libéré",
+      "media": "Le Dauphiné Libéré",
+      "date_publication": "2026-06-04",
+      "date_faits": "2026-06-03",
+      "date_consultation": "2026-10-01",
+      "acces": "extrait_moteur",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Point de départ 18 du prompt. Titre et résumé lus en moteur de recherche."
+    },
+    {
+      "ref": "S-pistes_2020_2026-D20",
+      "titre": "Affaire Xavier Dupont de Ligonnès : \"Il était vraiment dans un état dépressif...\" Sur M6, un prêtre audois affirme que le suspect lui a confessé le meurtre de sa famille en 2022",
+      "url": "https://www.lindependant.fr/2026/06/02/affaire-xavier-dupont-de-ligonnes-il-etait-vraiment-dans-un-etat-depressif-sur-m6-un-pretre-audois-affirme-que-le-suspect-lui-a-confesse-le-meurtre-de-13400131.php",
+      "auteur_organisme": "Antoine Castellet, L'Indépendant",
+      "media": "L'Indépendant",
+      "date_publication": "2026-06-02",
+      "date_faits": "2026-06-02",
+      "date_consultation": "2026-10-01",
+      "acces": "extrait_moteur",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Détaille le témoignage tel que diffusé (15 minutes de pleurs, tenue, projet de rejoindre Grasse). Lu via extrait de moteur de recherche."
+    },
+    {
+      "ref": "S-pistes_2020_2026-D21",
+      "titre": "Les décisions (liste des décisions de l'Arcom)",
+      "url": "https://www.arcom.fr/se-documenter/espace-juridique/decisions",
+      "auteur_organisme": "Arcom",
+      "media": "Arcom",
+      "date_publication": "",
+      "date_faits": "2026-09-24",
+      "date_consultation": "2026-10-01",
+      "acces": "extrait_moteur",
+      "type": "officiel",
+      "origine": "propre",
+      "notes": "Liste consultée via moteur de recherche : aucune décision relative à la séquence de l'émission « Appel à témoins » du 2 juin 2026 n'apparaît dans les résultats, la décision la plus récente listée étant du 24 septembre 2026. Constat négatif, non définitif."
+    },
+    {
+      "ref": "S-pistes_2020_2026-D22",
+      "titre": "L'affaire Dupont de Ligonnès, l'enquête de tous les fantasmes qui nargue la société de la transparence",
+      "url": "https://www.nouvelobs.com/faits-divers/20260729.OBS117044/l-affaire-dupont-de-ligonnes-l-enquete-de-tous-les-fantasmes-qui-nargue-la-societe-de-la-transparence.html",
+      "auteur_organisme": "Emmanuelle Anizon, Le Nouvel Obs",
+      "media": "Le Nouvel Obs",
+      "date_publication": "2026-07-29",
+      "date_faits": "2026-07-29",
+      "date_consultation": "2026-10-01",
+      "acces": "extrait_moteur",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Récit de série estivale, article payant : seuls titre, chapô et premières lignes ont été lus. Atteste d'une reprise médiatique en juillet 2026, pas d'une évolution d'enquête."
+    },
+    {
+      "ref": "S-pistes_2020_2026-D23",
+      "titre": "\"13h15 le dimanche\" : Le disparu, retour sur l'affaire Xavier Dupont de Ligonnès ce 5 juillet 2026 sur France 2",
+      "url": "https://www.coulisses-tv.fr/index.php/magazines/item/54615-13h15-le-dimanche-le-disparu,-retour-sur-l-affaire-xavier-dupont-de-ligonnes-ce-5-juillet-2026-sur-france-2",
+      "auteur_organisme": "Coulisses-TV",
+      "media": "Coulisses-TV",
+      "date_publication": "2026-07-05",
+      "date_faits": "2026-07-05",
+      "date_consultation": "2026-10-01",
+      "acces": "extrait_moteur",
+      "type": "autre",
+      "origine": "propre",
+      "notes": "Annonce de programme ; source de second rang, à ne pas utiliser seule."
+    },
+    {
+      "ref": "S-pistes_2020_2026-D24",
+      "titre": "Elle était convaincue de l'innocence de son fils, la mère de Xavier Dupont de Ligonnès s'est éteinte à l'âge de 96 ans",
+      "url": "https://www.ladepeche.fr/2026/03/29/elle-etait-convaincue-de-linnocence-de-son-fils-la-mere-de-xavier-dupont-de-ligonnes-sest-eteinte-a-lage-de-96-ans-13299089.php",
+      "auteur_organisme": "La Dépêche du Midi",
+      "media": "La Dépêche du Midi",
+      "date_publication": "2026-03-29",
+      "date_faits": "2026-03",
+      "date_consultation": "2026-10-01",
+      "acces": "extrait_moteur",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Seul le titre a été vu (lien listé dans un article connexe de La Dépêche). Date précise du décès non établie ici."
+    }
+  ],
+  "assertions": [
+    {
+      "ref": "A-pistes_2020_2026-D01",
+      "assertion": "L'ADN prélevé après le signalement du Doubs (mars 2024) a été comparé à celui de Xavier Dupont de Ligonnès : les deux profils ne correspondent pas.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Parquet de Nantes, procureur de la République Renaud Gaudeul",
+      "date_faits": "2024-04-15",
+      "lieu": "Nantes / Montferrand-le-Château (Doubs)",
+      "sources": ["S-pistes_2020_2026-D01", "S-pistes_2020_2026-D02", "S-pistes_2020_2026-D03"],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Dépêche AFP reprise massivement ; les citations sont identiques d'un média à l'autre (origine AFP)."
+    },
+    {
+      "ref": "A-pistes_2020_2026-D02",
+      "assertion": "Le signalement du Doubs repose sur une personne ayant cru reconnaître le fugitif le 9 mars 2024 lors d'une veillée des sœurs de Béthanie à Montferrand-le-Château, puis sur deux autres témoignages similaires ; l'homme, se présentant comme « Jean », serait reparti le 11 mars au matin.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Parquet de Besançon (procureur Étienne Manteaux) et dépêche AFP",
+      "date_faits": "2024-03-09",
+      "lieu": "Montferrand-le-Château (Doubs)",
+      "sources": ["S-pistes_2020_2026-D02", "S-pistes_2020_2026-D03"],
+      "nb_sources_independantes": 2,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Un gobelet / des canettes ont été prélevés pour analyse. Aucune autre personne n'a corroboré le témoignage initial selon le parquet de Besançon."
+    },
+    {
+      "ref": "A-pistes_2020_2026-D03",
+      "assertion": "Le bureau du shérif du comté de Brewster (Texas) a publié le 25 mars 2026 un appel à informations sur Xavier Dupont de Ligonnès, avec des photographies vieilles d'environ quinze ans, en indiquant qu'il aurait « possiblement été vu en 2020 » dans le comté, accompagné d'un labrador noir.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Brewster County Sheriff's Office",
+      "date_faits": "2026-03-25",
+      "lieu": "Comté de Brewster, Texas (États-Unis)",
+      "sources": ["S-pistes_2020_2026-D05", "S-pistes_2020_2026-D04", "S-pistes_2020_2026-D06"],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Publication faite sur la page Facebook du bureau du shérif, puis relayée par des médias français et internationaux."
+    },
+    {
+      "ref": "A-pistes_2020_2026-D04",
+      "assertion": "Le shérif du comté de Brewster a précisé qu'aucune observation de Xavier Dupont de Ligonnès n'a été confirmée dans le comté ni dans l'ouest du Texas, et qu'il n'y avait, à ce stade, aucun nouvel élément ni information nouvelle.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Brewster County Sheriff's Office",
+      "date_faits": "2026-03-26",
+      "lieu": "Comté de Brewster, Texas",
+      "sources": ["S-pistes_2020_2026-D05"],
+      "nb_sources_independantes": 1,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Mise à jour publiée par le bureau du shérif lui-même, reprise mot pour mot par le média local."
+    },
+    {
+      "ref": "A-pistes_2020_2026-D05",
+      "assertion": "Le procureur de la République de Nantes, Antoine Leroy, a déclaré que ni lui ni les enquêteurs n'avaient été informés de cet appel à témoins d'un service de police texan.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Antoine Leroy, procureur de la République de Nantes",
+      "date_faits": "2026-03-26",
+      "lieu": "Nantes",
+      "sources": ["S-pistes_2020_2026-D04", "S-pistes_2020_2026-D14"],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Même déclaration reprise par franceinfo et par ICI (Radio France)."
+    },
+    {
+      "ref": "A-pistes_2020_2026-D06",
+      "assertion": "L'appel à informations texan a été déclenché par la sollicitation du shérif par une équipe journalistique d'investigation incluant un ancien enquêteur du dossier, Gilles Galloux, auteur d'un livre paru en février 2026 ; Xavier Dupont de Ligonnès aurait déclaré par le passé que le comté de Brewster était l'un de ses endroits préférés.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Brewster County Sheriff's Office ; Gilles Galloux ; presse",
+      "date_faits": "2026-03-23",
+      "lieu": "Texas / France",
+      "sources": ["S-pistes_2020_2026-D05", "S-pistes_2020_2026-D04", "S-pistes_2020_2026-D07"],
+      "nb_sources_independantes": 2,
+      "incertitude": "moyenne",
+      "centrale": false,
+      "notes": "L'origine « favorite place » est rapportée par le shérif sur la base de l'entretien avec l'équipe journalistique ; elle n'est pas documentée par une source judiciaire."
+    },
+    {
+      "ref": "A-pistes_2020_2026-D07",
+      "assertion": "L'émission « Appel à témoins », présentée par Julien Courbet, a été diffusée sur M6 le mardi 2 juin 2026 en première partie de soirée et était consacrée en partie à l'affaire Dupont de Ligonnès.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "M6",
+      "date_faits": "2026-06-02",
+      "lieu": "France",
+      "sources": ["S-pistes_2020_2026-D08", "S-pistes_2020_2026-D09"],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Nom de l'émission et du présentateur corroborés par plusieurs médias."
+    },
+    {
+      "ref": "A-pistes_2020_2026-D08",
+      "assertion": "En direct, un homme se présentant comme un prêtre a affirmé avoir recueilli en 2022, au monastère de Plavilla (Aude), la confession de Xavier Dupont de Ligonnès, qui serait resté quatre jours et lui aurait dit vouloir rejoindre Grasse ; il affirmait avoir été autorisé par l'évêque de Carcassonne à rompre le secret de la confession et détenir une photographie et un numéro de téléphone.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "L'appelant lui-même (identité publique non établie)",
+      "date_faits": "2026-06-02",
+      "lieu": "Plavilla (Aude) — faits allégués en 2022",
+      "sources": ["S-pistes_2020_2026-D08", "S-pistes_2020_2026-D09", "S-pistes_2020_2026-D20"],
+      "nb_sources_independantes": 3,
+      "incertitude": "forte",
+      "centrale": true,
+      "notes": "Témoignage ensuite reconnu faux par son auteur ; la photographie annoncée n'a pas été montrée à l'antenne. Ne pas présenter comme un élément de preuve."
+    },
+    {
+      "ref": "A-pistes_2020_2026-D09",
+      "assertion": "Mgr Bruno Valentin, évêque de Carcassonne et Narbonne, a démenti le témoignage dès le 3 juin 2026, qualifiant la séquence de mensongère et diffamatoire, indiquant n'avoir été contacté ni par l'appelant ni par M6, et a annoncé avoir saisi l'Arcom.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Mgr Bruno Valentin, évêque de Carcassonne et Narbonne",
+      "date_faits": "2026-06-03",
+      "lieu": "Carcassonne / Plavilla (Aude)",
+      "sources": ["S-pistes_2020_2026-D11", "S-pistes_2020_2026-D12", "S-pistes_2020_2026-D08"],
+      "nb_sources_independantes": 3,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Le démenti inclut l'absence de tout « Frère Marc » dans le monastère cité (mention rapportée par cath.ch)."
+    },
+    {
+      "ref": "A-pistes_2020_2026-D10",
+      "assertion": "L'appelant a reconnu, dans la nuit du 2 au 3 juin 2026, auprès du rédacteur en chef de l'émission, qu'il n'était pas prêtre.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "M6 / Stan Vignon, rédacteur en chef d'« Appel à témoins »",
+      "date_faits": "2026-06-03",
+      "lieu": "France",
+      "sources": ["S-pistes_2020_2026-D08", "S-pistes_2020_2026-D09"],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "L'aveu est rapporté par la chaîne et par le rédacteur en chef ; l'identité de l'homme n'est pas rendue publique."
+    },
+    {
+      "ref": "A-pistes_2020_2026-D11",
+      "assertion": "M6 a présenté « sans réserve » ses excuses à Mgr Valentin et a reconnu qu'il s'agissait d'un faux témoignage, après une enquête interne lancée le soir même.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "M6 (communiqué)",
+      "date_faits": "2026-06-03",
+      "lieu": "France",
+      "sources": ["S-pistes_2020_2026-D08", "S-pistes_2020_2026-D10"],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Communiqué cité quasi mot pour mot d'un média à l'autre."
+    },
+    {
+      "ref": "A-pistes_2020_2026-D12",
+      "assertion": "Le président de l'Arcom a indiqué que le régulateur allait « se pencher sur la séquence » diffusée par M6 afin de déterminer dans quelle mesure la chaîne a manqué à ses obligations.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Martin Ajdari, président de l'Arcom",
+      "date_faits": "2026-06-04",
+      "lieu": "France",
+      "sources": ["S-pistes_2020_2026-D12"],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Déclaration faite sur ICI Provence ; reprise par franceinfo et Radio France. Aucune décision n'en est encore publiée à la date de consultation."
+    },
+    {
+      "ref": "A-pistes_2020_2026-D13",
+      "assertion": "Au 1er octobre 2026, aucune décision de l'Arcom relative à la séquence du 2 juin 2026 n'apparaît dans la liste publique des décisions du régulateur, dont la plus récente est datée du 24 septembre 2026.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Constat de consultation, site de l'Arcom",
+      "date_faits": "2026-10-01",
+      "lieu": "France",
+      "sources": ["S-pistes_2020_2026-D21"],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": false,
+      "notes": "Constat négatif : il ne prouve pas l'absence de procédure interne (mise en demeure, intervention, courrier non publié). Absence de décision publiée ≠ absence d'examen."
+    },
+    {
+      "ref": "A-pistes_2020_2026-D14",
+      "assertion": "Le procureur de Nantes a annoncé le 3 juin 2026 que le juge d'instruction saisi ferait procéder par les enquêteurs aux vérifications nécessaires, à la fois sur le compte « Epsilon » et sur les informations diffusées la veille sur M6.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Antoine Leroy, procureur de la République de Nantes",
+      "date_faits": "2026-06-03",
+      "lieu": "Nantes",
+      "sources": ["S-pistes_2020_2026-D15", "S-pistes_2020_2026-D18", "S-pistes_2020_2026-D19"],
+      "nb_sources_independantes": 3,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Communiqué de presse du parquet ; le contenu précis des vérifications demandées n'est pas public."
+    },
+    {
+      "ref": "A-pistes_2020_2026-D15",
+      "assertion": "Un compte « Epsilon » a existé sur le forum cite-catholique.org : créé le 2 juillet 2010, environ 1 169 messages, actif jusqu'en 2017 (août 2017 selon le parquet), présentant des similitudes de style avec les comptes « Chevy » et « LIGO » attribués à Xavier Dupont de Ligonnès avant avril 2011.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Ouest-France (enquête OSINT) ; reprise par Le Parisien ; éléments repris par le parquet de Nantes",
+      "date_faits": "2010-2017",
+      "lieu": "Forum cite-catholique.org",
+      "sources": ["S-pistes_2020_2026-D16", "S-pistes_2020_2026-D17", "S-pistes_2020_2026-D15"],
+      "nb_sources_independantes": 2,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "L'existence et les caractéristiques du compte sont documentées ; son attribution à Xavier Dupont de Ligonnès ne l'est pas."
+    },
+    {
+      "ref": "A-pistes_2020_2026-D16",
+      "assertion": "Un expert en stylométrie sollicité par Ouest-France, Claude Alain Roten, estime que « la piste est sérieuse », sans que l'attribution du compte « Epsilon » à Xavier Dupont de Ligonnès soit établie.",
+      "categorie": "HYPOTHESE",
+      "attribution": "Claude Alain Roten, expert en stylométrie (via Ouest-France)",
+      "date_faits": "2026-06-01",
+      "lieu": "France",
+      "sources": ["S-pistes_2020_2026-D17", "S-pistes_2020_2026-D16", "S-pistes_2020_2026-D15"],
+      "nb_sources_independantes": 2,
+      "incertitude": "forte",
+      "centrale": true,
+      "notes": "La stylométrie est une méthode d'aide, non une preuve d'identité. Le parquet lui-même se contente d'annoncer des vérifications."
+    },
+    {
+      "ref": "A-pistes_2020_2026-D17",
+      "assertion": "Selon Ouest-France, des enquêteurs spécialisés examineraient déjà l'adresse IP et les messages du compte « Epsilon », actif entre 2010 et 2017.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Ouest-France (source non nommée)",
+      "date_faits": "2026-06-03",
+      "lieu": "France",
+      "sources": ["S-pistes_2020_2026-D18", "S-pistes_2020_2026-D19"],
+      "nb_sources_independantes": 2,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Formulé au conditionnel par le média ; non confirmé par une communication du parquet."
+    },
+    {
+      "ref": "A-pistes_2020_2026-D18",
+      "assertion": "Le parquet de Nantes rappelle que les très nombreuses informations reçues depuis 2011 ont toutes été vérifiées « jusqu'ici sans succès », et que l'enquête n'a pas permis de déterminer si Xavier Dupont de Ligonnès était mort ou en fuite.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Antoine Leroy, procureur de la République de Nantes ; franceinfo",
+      "date_faits": "2026-06-03",
+      "lieu": "Nantes",
+      "sources": ["S-pistes_2020_2026-D14", "S-pistes_2020_2026-D15", "S-pistes_2020_2026-D04"],
+      "nb_sources_independantes": 3,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Formule employée de manière récurrente par le parquet à chaque nouvelle piste."
+    },
+    {
+      "ref": "A-pistes_2020_2026-D19",
+      "assertion": "Le nombre de signalements recensés est d'environ 1 750 au printemps 2024 et supérieur à 1 850 en juin 2026.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Parquet de Nantes (1 750, repris par l'AFP) ; Le Parisien (plus de 1 850)",
+      "date_faits": "2024-03 / 2026-06",
+      "lieu": "France et étranger",
+      "sources": ["S-pistes_2020_2026-D17", "S-pistes_2020_2026-D04"],
+      "nb_sources_independantes": 2,
+      "incertitude": "moyenne",
+      "centrale": false,
+      "notes": "Chiffres à des dates différentes ; la progression est cohérente mais les périmètres de comptage peuvent différer."
+    },
+    {
+      "ref": "A-pistes_2020_2026-D20",
+      "assertion": "Entre juillet et septembre 2026, aucune évolution d'enquête publique majeure (conclusion sur « Epsilon », décision de l'Arcom, procédure contre l'auteur du faux témoignage) n'a été identifiée ; la période est marquée par des reprises médiatiques, dont un récit du Nouvel Obs le 29 juillet 2026 et un numéro de « 13h15 le dimanche » le 5 juillet 2026.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Constat de recherche du 2026-10-01",
+      "date_faits": "2026-07-01 / 2026-09-30",
+      "lieu": "France",
+      "sources": ["S-pistes_2020_2026-D22", "S-pistes_2020_2026-D23", "S-pistes_2020_2026-D21"],
+      "nb_sources_independantes": 2,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Constat négatif issu de plusieurs requêtes ciblées (« juillet 2026 », « août 2026 », « septembre 2026 », « Epsilon conclusions »). À ne pas présenter comme une preuve d'absence."
+    },
+    {
+      "ref": "A-pistes_2020_2026-D21",
+      "assertion": "Geneviève Maître, mère de Xavier Dupont de Ligonnès, est décédée en mars 2026, à l'âge de 96 ans.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "La Dépêche du Midi (titre) ; mention biographique reprise par Wikipédia",
+      "date_faits": "2026-03",
+      "lieu": "France",
+      "sources": ["S-pistes_2020_2026-D24"],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": false,
+      "notes": "Seul le titre de l'article a été vu. Date exacte du décès non établie ; à confirmer avant toute utilisation à l'antenne."
+    }
+  ],
+  "chronologie": [
+    {
+      "date": "2024-03-12",
+      "precision": "jour",
+      "evenement": "Un premier signalement est adressé à la gendarmerie : une personne pense avoir reconnu Xavier Dupont de Ligonnès lors d'une veillée à Montferrand-le-Château (Doubs).",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "sources": ["S-pistes_2020_2026-D02", "S-pistes_2020_2026-D03"],
+      "note": "Deux autres signalements similaires suivront."
+    },
+    {
+      "date": "2024-04-15",
+      "precision": "jour",
+      "evenement": "Le parquet de Nantes annonce que l'ADN prélevé dans le Doubs ne correspond pas à celui de Xavier Dupont de Ligonnès ; la piste est écartée.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": ["S-pistes_2020_2026-D01", "S-pistes_2020_2026-D02"],
+      "note": "Dépêche AFP, 20 h 22 (Le Progrès) / 19 h 56 (Le Parisien)."
+    },
+    {
+      "date": "2026-03",
+      "precision": "mois",
+      "evenement": "Décès de Geneviève Maître, mère de Xavier Dupont de Ligonnès, à 96 ans.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": ["S-pistes_2020_2026-D24"],
+      "note": "Date exacte non vérifiée."
+    },
+    {
+      "date": "2026-03-25",
+      "precision": "jour",
+      "evenement": "Le bureau du shérif du comté de Brewster (Texas) publie un appel à informations sur Xavier Dupont de Ligonnès, évoquant une possible observation en 2020 avec un labrador noir.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": ["S-pistes_2020_2026-D05", "S-pistes_2020_2026-D04"],
+      "note": "Publication en soirée sur Facebook."
+    },
+    {
+      "date": "2026-03-26",
+      "precision": "jour",
+      "evenement": "Mise au point du shérif : aucune observation confirmée, aucun nouvel élément. Le procureur de Nantes déclare n'avoir pas été informé de cet appel à témoins.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": ["S-pistes_2020_2026-D05", "S-pistes_2020_2026-D04"],
+      "note": ""
+    },
+    {
+      "date": "2026-06-01",
+      "precision": "jour",
+      "evenement": "Ouest-France publie une enquête révélant l'existence du compte « Epsilon » sur un forum catholique, actif jusqu'en 2017.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": ["S-pistes_2020_2026-D16"],
+      "note": "Enquête OSINT revendiquée par le journal."
+    },
+    {
+      "date": "2026-06-02",
+      "precision": "jour",
+      "evenement": "M6 diffuse « Appel à témoins » (Julien Courbet) consacrée à l'affaire ; un homme se présentant comme prêtre y affirme avoir confessé Xavier Dupont de Ligonnès en 2022 dans l'Aude.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "sources": ["S-pistes_2020_2026-D08", "S-pistes_2020_2026-D09", "S-pistes_2020_2026-D20"],
+      "note": "Témoignage ensuite reconnu faux."
+    },
+    {
+      "date": "2026-06-03",
+      "precision": "jour",
+      "evenement": "Démenti de l'évêque de Carcassonne et saisine de l'Arcom ; l'appelant reconnaît ne pas être prêtre ; M6 présente ses excuses ; le parquet de Nantes annonce des vérifications sur « Epsilon » et sur les propos diffusés.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": ["S-pistes_2020_2026-D11", "S-pistes_2020_2026-D15", "S-pistes_2020_2026-D08"],
+      "note": "Journée charnière : quatre communications distinctes."
+    },
+    {
+      "date": "2026-06-04",
+      "precision": "jour",
+      "evenement": "Le président de l'Arcom annonce que le régulateur va examiner la séquence diffusée par M6.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": ["S-pistes_2020_2026-D12"],
+      "note": ""
+    },
+    {
+      "date": "2026-07-05",
+      "precision": "jour",
+      "evenement": "France 2 diffuse dans « 13h15 le dimanche » un numéro intitulé « Le disparu » consacré à l'affaire.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": ["S-pistes_2020_2026-D23"],
+      "note": "Source de second rang."
+    },
+    {
+      "date": "2026-07-29",
+      "precision": "jour",
+      "evenement": "Le Nouvel Obs publie un récit de série sur l'affaire, sans élément d'enquête nouveau identifié.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "sources": ["S-pistes_2020_2026-D22"],
+      "note": ""
+    },
+    {
+      "date": "2026-09-24",
+      "precision": "jour",
+      "evenement": "Date de la décision la plus récente publiée par l'Arcom à la date de consultation : aucune ne concerne la séquence du 2 juin 2026.",
+      "categorie": "FAIT_DOCUMENTE",
+      "sources": ["S-pistes_2020_2026-D21"],
+      "note": "Constat négatif."
+    }
+  ],
+  "contradictions": [
+    {
+      "sujet": "Portée réelle de l'appel à informations texan",
+      "versions": [
+        {
+          "version": "Présenté comme une « nouvelle enquête » ou une piste relancée, avec une possible observation en 2020 et des appels nombreux.",
+          "sources": ["S-pistes_2020_2026-D06", "S-pistes_2020_2026-D07"]
+        },
+        {
+          "version": "« Aucune observation confirmée », « aucun nouvel élément ni information » selon le shérif lui-même, et parquet de Nantes non informé.",
+          "sources": ["S-pistes_2020_2026-D05", "S-pistes_2020_2026-D04"]
+        }
+      ],
+      "traitement_recommande": "Rapporter d'abord la mise au point officielle du shérif et du parquet, puis le traitement médiatique comme effet de reprise, sans reprendre le vocabulaire de « révélation »."
+    },
+    {
+      "sujet": "Nom donné au faux témoin",
+      "versions": [
+        {
+          "version": "« Père Marc »",
+          "sources": ["S-pistes_2020_2026-D09", "S-pistes_2020_2026-D20", "S-pistes_2020_2026-D08"]
+        },
+        {
+          "version": "« Frère Marc »",
+          "sources": ["S-pistes_2020_2026-D11"]
+        }
+      ],
+      "traitement_recommande": "Signaler la variante ; ne pas nommer l'individu, dont l'identité n'est pas publique."
+    },
+    {
+      "sujet": "Statut de la piste « Epsilon »",
+      "versions": [
+        {
+          "version": "« Piste sérieuse » selon un expert en stylométrie ; similitudes jugées troublantes.",
+          "sources": ["S-pistes_2020_2026-D17", "S-pistes_2020_2026-D16"]
+        },
+        {
+          "version": "Rien ne permet d'affirmer formellement l'attribution ; le parquet annonce des vérifications et rappelle quinze ans de pistes vérifiées « sans succès ».",
+          "sources": ["S-pistes_2020_2026-D15", "S-pistes_2020_2026-D17"]
+        }
+      ],
+      "traitement_recommande": "Présenter la stylométrie comme indice et non comme preuve ; distinguer l'existence du compte (établie) de son attribution (non établie)."
+    },
+    {
+      "sujet": "Nombre de signalements",
+      "versions": [
+        {
+          "version": "Plus de 1 750 signalements (printemps 2024).",
+          "sources": ["S-pistes_2020_2026-D04"]
+        },
+        {
+          "version": "Plus de 1 850 signalements (juin 2026).",
+          "sources": ["S-pistes_2020_2026-D17"]
+        }
+      ],
+      "traitement_recommande": "Donner le chiffre avec sa date. Ne pas additionner ni présenter comme un comptage unique."
+    },
+    {
+      "sujet": "Localisation du monastère cité par le faux témoin",
+      "versions": [
+        {
+          "version": "Monastère de Plavilla, dans l'Aude.",
+          "sources": ["S-pistes_2020_2026-D09", "S-pistes_2020_2026-D20"]
+        },
+        {
+          "version": "« Un monastère de l'Aude », sans autre précision, et aucun « Frère Marc » résidant dans le monastère cité.",
+          "sources": ["S-pistes_2020_2026-D11"]
+        }
+      ],
+      "traitement_recommande": "Conserver Plavilla (lieu nommé dans l'émission) en précisant que le témoignage est faux et que la communauté a démenti."
+    }
+  ],
+  "lacunes": [
+    "Aucune conclusion publique n'a été trouvée, au 1er octobre 2026, sur l'identification de l'auteur des messages du compte « Epsilon » (adresse IP, identité, ou classement).",
+    "Aucune décision de l'Arcom concernant la séquence du 2 juin 2026 n'a été trouvée dans la liste publique des décisions ; il n'est pas possible d'en déduire qu'aucune procédure n'est en cours.",
+    "L'identité de l'auteur du faux témoignage n'est pas publique, et aucune information n'a été trouvée sur une plainte, une garde à vue ou des poursuites le visant personnellement.",
+    "Aucune suite publique de l'appel à informations du comté de Brewster n'a été trouvée après mars 2026 (aucun signalement confirmé, aucune clôture annoncée).",
+    "Le contenu exact et le calendrier des vérifications ordonnées par le juge d'instruction (compte « Epsilon », propos diffusés sur M6) ne sont pas publics.",
+    "L'identité et le statut de la personne aperçue dans le Doubs (l'homme appelé « Jean ») n'ont pas été rendus publics.",
+    "La mention selon laquelle le faux prêtre aurait ensuite prétendu être Xavier Dupont de Ligonnès lui-même provient de Le Figaro via cath.ch : Le Figaro n'a pas pu être ouvert, la source reste de seconde main.",
+    "La date exacte du décès de la mère de Xavier Dupont de Ligonnès n'a pas été établie (seul le mois de mars 2026 est documenté ici).",
+    "Le contenu intégral de l'enquête Ouest-France sur « Epsilon » n'était pas accessible (abonnement) : seuls des fragments et des reprises ont été lus.",
+    "Aucune recherche n'a porté sur d'éventuelles évolutions postérieures au 30 septembre 2026, la date de consultation étant le 1er octobre 2026."
+  ]
+}

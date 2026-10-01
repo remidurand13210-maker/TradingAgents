@@ -225,6 +225,12 @@ class Verrou:
 
 # ------------------------------------------------------------------ commandes
 
+def episode_valide(dossier_ep: Path) -> bool:
+    """Un épisode n'est narrable qu'après vérification des sources sur pages lues (VALIDATION.md : « valide: oui »)."""
+    f = dossier_ep / "VALIDATION.md"
+    return f.exists() and re.search(r"^valide:\s*oui\s*$", f.read_text(encoding="utf-8"), re.M | re.I) is not None
+
+
 def episodes_cibles(filtre: str | None) -> list[Path]:
     ds = sorted(p for p in EPISODES.iterdir() if p.is_dir() and (p / "narration.txt").exists())
     return [p for p in ds if not filtre or p.name.startswith(filtre)]
@@ -264,7 +270,12 @@ def produire(cfg: dict, filtre: str | None, segment: str | None, forcer: bool, e
     if echantillon:
         travaux = [("echantillon", {"id": "E01", "texte": echantillon})]
     else:
-        travaux = [(ep.name, s) for ep in episodes_cibles(filtre) for s in lire_segments(ep)
+        cibles = episodes_cibles(filtre)
+        non_valides = [ep.name for ep in cibles if not episode_valide(ep)]
+        if non_valides:
+            sys.exit("Narration refusée : script non validé (VALIDATION.md absent ou sans « valide: oui ») pour "
+                     + ", ".join(non_valides) + ". Un brouillon v0 ne se narre pas.")
+        travaux = [(ep.name, s) for ep in cibles for s in lire_segments(ep)
                    if not segment or s["id"] == segment]
     with Verrou():
         for ep_nom, s in travaux:

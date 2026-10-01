@@ -1,0 +1,420 @@
+{
+  "sujet": "hypotheses_sort",
+  "outil": "bionic-agent (LM Studio Bionic) — second regard indépendant, recherche web propre",
+  "note_meta": {
+    "avertissement": "Ce fichier n'a PAS été produit par DeepSeek. Il a été produit par l'agent Bionic avec sa propre recherche web, à la place du prompt DeepSeek resté sans réponse. Le champ 'outil' est donc volontairement différent de la valeur 'deepseek' prévue par le schéma.",
+    "regle_appliquee": "Seules des pages réellement ouvertes (lu_partiel) ou vues via un extrait de moteur de recherche (extrait_moteur) sont citées. Deux pages non ouvertes sont marquées 'inaccessible'. Aucune URL reconstruite. Aucune information de mémoire.",
+    "consigne_specifique": "Aucune probabilité chiffrée, aucune quantification inventée. Chaque position est attribuée nommément et datée. Les auteurs cités n'ont pas été lus : leurs thèses sont rapportées d'après des comptes rendus de presse, ce qui est signalé à chaque fois."
+  },
+  "sources": [
+    {
+      "ref": "S-hypotheses_sort-D01",
+      "titre": "Affaire Xavier Dupont de Ligonnès : « Il n'a pas préparé tout ça pour mourir », est convaincu Bruno de Stabenrath, ami du fugitif",
+      "url": "https://www.20minutes.fr/justice/3012459-20210402-affaire-xavier-dupont-de-ligonnes-prepare-tout-ca-mourir-convaincu-bruno-stabenrath-ami-fugitif",
+      "auteur_organisme": "20 Minutes",
+      "media": "20 Minutes",
+      "date_publication": "2021-04-02",
+      "date_faits": "2021-04",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Point de départ 1 du prompt. Entretien avec Bruno de Stabenrath, auteur de « L'Ami impossible » (Gallimard). Le livre lui-même n'a pas été lu : ce sont ses propos rapportés qui sont utilisés ici."
+    },
+    {
+      "ref": "S-hypotheses_sort-D02",
+      "titre": "Xavier Dupont de Ligonnès. Toujours introuvable deux ans après",
+      "url": "https://www.letelegramme.fr/loire-atlantique/nantes-44000/spanxavier-dupont-de-ligonnesspan-toujours-introuvable-deux-ans-apres-1816680.php",
+      "auteur_organisme": "Le Télégramme",
+      "media": "Le Télégramme",
+      "date_publication": "2013-04-15",
+      "date_faits": "2013-04",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Rapporte la position de la procureure de Nantes Brigitte Lamy."
+    },
+    {
+      "ref": "S-hypotheses_sort-D03",
+      "titre": "Affaire de Ligonnès : les enquêteurs étudient la piste de la cavale",
+      "url": "https://www.lemonde.fr/societe/article/2011/09/03/affaire-de-ligonnes-les-enqueteurs-etudient-la-piste-de-la-cavale_1567321_3224.html",
+      "auteur_organisme": "Le Monde",
+      "media": "Le Monde",
+      "date_publication": "2011-09-03",
+      "date_faits": "2011-09-03",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Position officielle du parquet de Nantes en septembre 2011. Seuls les premiers paragraphes ont été lus (accès partiel)."
+    },
+    {
+      "ref": "S-hypotheses_sort-D04",
+      "titre": "« Pourquoi organiser ça pour se suicider ? » : 15 ans après l'affaire Xavier Dupont de Ligonnès, la journaliste Anne-Sophie Martin prône une disparition « orchestrée »",
+      "url": "https://www.rtl.fr/actu/justice-faits-divers/pourquoi-organiser-ca-pour-se-suicider-15-ans-apres-l-affaire-xavier-dupont-de-ligonnes-la-journaliste-anne-sophie-martin-prone-une-disparition-orchestree-7900641709",
+      "auteur_organisme": "RTL",
+      "media": "RTL",
+      "date_publication": "2026-06-02",
+      "date_faits": "2026-06-02",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Entretien avec Anne-Sophie Martin, journaliste et auteur du livre « Le Disparu ». Le livre n'a pas été lu."
+    },
+    {
+      "ref": "S-hypotheses_sort-D05",
+      "titre": "RECIT. Ses énigmatiques trajets dans le Var, sa dernière nuit au Formule 1… Retour dans le triangle des Bermudes de Xavier Dupont de Ligonnès",
+      "url": "https://www.nicematin.com/societe/justice/recit-ses-enigmatiques-trajets-dans-le-var-sa-derniere-nuit-au-formule-1-retour-dans-le-triangle-des-bermudes-de-xavier-dupont-de-ligonnes-612549",
+      "auteur_organisme": "Peggy Poletto, Nice-Matin",
+      "media": "Nice-Matin",
+      "date_publication": "2020-12-07",
+      "date_faits": "2011 / 2020",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Décrit les recherches menées et leurs limites matérielles (cavités, massif, étangs)."
+    },
+    {
+      "ref": "S-hypotheses_sort-D06",
+      "titre": "Affaire Dupont de Ligonnès",
+      "url": "https://fr.wikipedia.org/wiki/Affaire_Dupont_de_Ligonn%C3%A8s",
+      "auteur_organisme": "Contributeurs Wikipédia",
+      "media": "Wikipédia (fr)",
+      "date_publication": "",
+      "date_faits": "2011-2026",
+      "date_consultation": "2026-10-01",
+      "acces": "extrait_moteur",
+      "type": "autre",
+      "origine": "propre",
+      "notes": "Encyclopédie collaborative. Sert ici de piste de sourçage (elle cite Le Tensorer, le livre de Gilles Galloux, les positions de Christine de Ligonnès). Chaque élément doit être retrouvé à la source avant diffusion."
+    },
+    {
+      "ref": "S-hypotheses_sort-D07",
+      "titre": "« Tout est mis en scène » : cet ancien enquêteur relance la piste d'une fuite de Xavier Dupont de Ligonnès",
+      "url": "https://www.lamontagne.fr/france-monde/faits-divers/tout-est-mis-en-scene-cet-ancien-enqueteur-relance-la-piste-dune-fuite-de-xavier-dupont-de-ligonnes_14988367/",
+      "auteur_organisme": "La Montagne",
+      "media": "La Montagne",
+      "date_publication": "2026",
+      "date_faits": "2026",
+      "date_consultation": "2026-10-01",
+      "acces": "inaccessible",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Page NON ouverte (échec de l'extraction). Titre et existence relevés via un moteur de recherche. Ne doit pas être citée comme source lue."
+    },
+    {
+      "ref": "S-hypotheses_sort-D08",
+      "titre": "Affaire Xavier Dupont de Ligonnès : « Je pense qu'il les a tués », le beau-frère prend enfin la parole et demande au fugitif de se rendre",
+      "url": "https://www.ladepeche.fr/2026/04/11/affaire-xavier-dupont-de-ligonnes-je-pense-quil-les-a-tues-le-beau-frere-prend-enfin-la-parole-et-demande-au-fugitif-de-se-rendre-13321022.php",
+      "auteur_organisme": "Louise Deshautels, La Dépêche du Midi",
+      "media": "La Dépêche du Midi",
+      "date_publication": "2026-04-11",
+      "date_faits": "2026-04-11",
+      "date_consultation": "2026-10-01",
+      "acces": "extrait_moteur",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Position d'un membre de la famille d'Agnès, quinze ans après les faits."
+    },
+    {
+      "ref": "S-hypotheses_sort-D09",
+      "titre": "La nuit du meurtre, la découverte des corps, la dernière image du fugitif… Les grandes dates de l'affaire Dupont de Ligonnès",
+      "url": "https://www.leparisien.fr/faits-divers/la-nuit-du-meurtre-la-decouverte-des-corps-la-derniere-image-du-fugitif-les-grandes-dates-de-laffaire-dupont-de-ligonnes-03-04-2026-J27GNQSCXJGMNKNKA2O2LVG7KY.php",
+      "auteur_organisme": "Le Parisien",
+      "media": "Le Parisien",
+      "date_publication": "2026-04-03",
+      "date_faits": "2011-2026",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Contexte des recherches menées (cavités, perquisitions, auditions) et des fausses pistes."
+    },
+    {
+      "ref": "S-hypotheses_sort-D10",
+      "titre": "Le suicide de Dupont de Ligonnès, « hypothèse la plus probable »",
+      "url": "https://www.lepoint.fr/societe/le-suicide-de-dupont-de-ligonnes-hypothese-la-plus-probable-03-09-2011-1369530_23.php",
+      "auteur_organisme": "Le Point",
+      "media": "Le Point",
+      "date_publication": "2011-09-03",
+      "date_faits": "2011-09-03",
+      "date_consultation": "2026-10-01",
+      "acces": "inaccessible",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Page NON ouverte (échec de l'extraction). Le même jour, Le Monde a été lu et donne la position du procureur : c'est Le Monde qui est utilisé comme source, Le Point n'est listé que pour mémoire."
+    },
+    {
+      "ref": "S-hypotheses_sort-D11",
+      "titre": "Et si Xavier Dupont de Ligonnès avait acheté des faux papiers dans le Var pour partir aux États-Unis ? C'est la thèse d'un ancien policier",
+      "url": "https://www.nicematin.com/faits-divers/et-si-xavier-dupont-de-ligonnes-avait-achete-des-faux-papiers-a-la-seyne-pour-partir-aux-etats-unis-c-est-la-these-d-un-ancien-policier-10670565",
+      "auteur_organisme": "Nice-Matin",
+      "media": "Nice-Matin",
+      "date_publication": "2026",
+      "date_faits": "2026",
+      "date_consultation": "2026-10-01",
+      "acces": "extrait_moteur",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Compte rendu de la thèse de Gilles Galloux. Seul le titre et le chapô ont été lus."
+    },
+    {
+      "ref": "S-hypotheses_sort-D12",
+      "titre": "Affaire Dupont de Ligonnès : le fugitif vu partout ou presque depuis 15 ans",
+      "url": "https://www.laprovence.com/article/faits-divers-justice/8863549821662114/affaire-dupont-de-ligonnes-le-fugitif-vu-partout-ou-presque-depuis-15-ans",
+      "auteur_organisme": "La Provence",
+      "media": "La Provence",
+      "date_publication": "2026-04-12",
+      "date_faits": "2011-2026",
+      "date_consultation": "2026-10-01",
+      "acces": "extrait_moteur",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Recense les fausses pistes, dont des recherches infructueuses dans plusieurs abbayes. Article payant : fragments seulement."
+    },
+    {
+      "ref": "S-hypotheses_sort-D13",
+      "titre": "Xavier Dupont de Ligonnès repéré grâce à son adresse IP ?",
+      "url": "https://www.numerama.com/politique/19130-xavier-dupont-de-ligonnes-repere-grace-a-son-adresse-ip.html",
+      "auteur_organisme": "Numerama",
+      "media": "Numerama",
+      "date_publication": "2011-06-21",
+      "date_faits": "2011-04",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "reprise:Le Monde",
+      "notes": "Reprend Le Monde du 21 juin 2011 pour les éléments financiers (fermeture d'un compte, somme emportée, téléphone coupé)."
+    },
+    {
+      "ref": "S-hypotheses_sort-D14",
+      "titre": "« Rends-toi » : le beau-frère de Xavier Dupont de Ligonnès sort du silence et se dit convaincu de sa culpabilité",
+      "url": "https://www.rtl.fr/actu/justice-faits-divers/rends-toi-le-beau-frere-de-xavier-dupont-de-ligonnes-sort-du-silence-et-se-dit-convaincu-de-sa-culpabilite-7900622918",
+      "auteur_organisme": "RTL",
+      "media": "RTL",
+      "date_publication": "2026-04-11",
+      "date_faits": "2026-04-11",
+      "date_consultation": "2026-10-01",
+      "acces": "extrait_moteur",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Version radio de la prise de parole du beau-frère ; seuls le titre et la description ont été lus."
+    }
+  ],
+  "assertions": [
+    {
+      "ref": "A-hypotheses_sort-D01",
+      "assertion": "Bruno de Stabenrath, ami d'adolescence et auteur de « L'Ami impossible », se dit convaincu que Xavier Dupont de Ligonnès est vivant : selon lui, il était polyglotte, savait modifier son apparence et était capable de se construire un nouvel environnement à l'étranger ; il juge qu'il « n'a pas préparé tout ça pour mourir ».",
+      "categorie": "HYPOTHESE",
+      "attribution": "Bruno de Stabenrath, ami du fugitif (entretien à 20 Minutes, 2021)",
+      "date_faits": "2021-04",
+      "lieu": "France",
+      "sources": ["S-hypotheses_sort-D01"],
+      "nb_sources_independantes": 1,
+      "incertitude": "forte",
+      "centrale": true,
+      "notes": "Point de départ 1 du prompt. Bien séparer, dans l'entretien, les souvenirs vérifiables (jeunesse, contacts) de la conviction personnelle sur une survie. Stabenrath mentionne par ailleurs avoir vu dans des rapports de police que six téléphones avaient été retrouvés chez la sœur et la mère — élément non confirmé par une autre source ouverte."
+    },
+    {
+      "ref": "A-hypotheses_sort-D02",
+      "assertion": "Brigitte Lamy, alors procureure de la République de Nantes, estimait que Xavier Dupont de Ligonnès s'était suicidé : « c'est une conviction mais on en sera sûr le jour où on découvrira son corps ».",
+      "categorie": "HYPOTHESE",
+      "attribution": "Brigitte Lamy, procureure de la République de Nantes (2013)",
+      "date_faits": "2013-04",
+      "lieu": "Nantes",
+      "sources": ["S-hypotheses_sort-D02"],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Magistrate en fonction : distinguer la conviction personnelle qu'elle exprime de la position judiciaire du parquet."
+    },
+    {
+      "ref": "A-hypotheses_sort-D03",
+      "assertion": "En septembre 2011, le procureur de la République de Nantes déclarait que le suicide était l'hypothèse « la plus probable », tout en rappelant qu'il y avait « toujours eu deux hypothèses : un suicide quelques jours après ou une fuite particulièrement bien préparée ».",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Parquet de Nantes, rapporté par Le Monde (3 septembre 2011)",
+      "date_faits": "2011-09-03",
+      "lieu": "Nantes",
+      "sources": ["S-hypotheses_sort-D03"],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Le Point du même jour traite du même sujet mais n'a pas pu être ouvert : la formulation retenue est celle du Monde. La mention « deux hypothèses » est essentielle : elle interdit de présenter le parquet comme ayant tranché."
+    },
+    {
+      "ref": "A-hypotheses_sort-D04",
+      "assertion": "Jean-Paul Le Tensorer, ancien directeur interrégional ouest de la police judiciaire, s'est dit convaincu en 2019 que Xavier Dupont de Ligonnès avait mis fin à ses jours : il décrit un homme acculé par une situation financière et patrimoniale intenable et souligne le coût qu'impliquerait un changement d'identité durable.",
+      "categorie": "HYPOTHESE",
+      "attribution": "Jean-Paul Le Tensorer, ancien directeur interrégional ouest de la PJ (2019)",
+      "date_faits": "2019",
+      "lieu": "France",
+      "sources": ["S-hypotheses_sort-D06"],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Attribution reconstituée depuis une source encyclopédique qui cite la presse : à retrouver à la source avant diffusion."
+    },
+    {
+      "ref": "A-hypotheses_sort-D05",
+      "assertion": "Gilles Galloux, ancien enquêteur ayant participé à la traque en 2011, défend dans un livre paru en février 2026 la thèse d'une fuite aux États-Unis rendue possible par de faux papiers obtenus dans le Var, et estime que la dernière apparition relevait d'une mise en scène.",
+      "categorie": "HYPOTHESE",
+      "attribution": "Gilles Galloux, ancien enquêteur (livre, février 2026)",
+      "date_faits": "2026-02",
+      "lieu": "France / États-Unis",
+      "sources": ["S-hypotheses_sort-D06", "S-hypotheses_sort-D11"],
+      "nb_sources_independantes": 2,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Le livre n'a pas été lu : la thèse est rapportée d'après des comptes rendus de presse et une notice encyclopédique. C'est aussi l'origine revendiquée de l'appel à informations texan de mars 2026."
+    },
+    {
+      "ref": "A-hypotheses_sort-D06",
+      "assertion": "Anne-Sophie Martin, journaliste et auteur du livre « Le Disparu », se dit sûre qu'il s'agit d'une « disparition orchestrée, organisée, anticipée », mais ne croit pas à la thèse d'une fuite vers les États-Unis.",
+      "categorie": "HYPOTHESE",
+      "attribution": "Anne-Sophie Martin, journaliste (RTL, 2 juin 2026)",
+      "date_faits": "2026-06-02",
+      "lieu": "France",
+      "sources": ["S-hypotheses_sort-D04"],
+      "nb_sources_independantes": 1,
+      "incertitude": "forte",
+      "centrale": true,
+      "notes": "Position intermédiaire utile pour la série : elle récuse le suicide sans adhérer à la piste américaine. Le livre n'a pas été lu."
+    },
+    {
+      "ref": "A-hypotheses_sort-D07",
+      "assertion": "Le beau-frère de Xavier Dupont de Ligonnès, frère d'Agnès, s'est dit en avril 2026 persuadé de sa culpabilité et l'a appelé à se rendre, exprimant le souhait que l'affaire se referme pour qu'il puisse faire son deuil.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Guillaume Habbas Hodanger, frère d'Agnès (La Dépêche / RTL, avril 2026)",
+      "date_faits": "2026-04-11",
+      "lieu": "France",
+      "sources": ["S-hypotheses_sort-D08", "S-hypotheses_sort-D14"],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Position de la famille d'Agnès, à distinguer nettement des positions de la famille de Xavier. Les deux médias écrivent son nom avec des variantes : à vérifier avant toute mention écrite."
+    },
+    {
+      "ref": "A-hypotheses_sort-D08",
+      "assertion": "Christine Dupont de Ligonnès, sœur du suspect, soutient depuis 2024 la thèse d'un exil aux États-Unis et affirme que les corps retrouvés sous la terrasse ne sont pas ceux de sa belle-sœur et de ses neveux ; ces affirmations sont contestées par la famille d'Agnès et qualifiées d'infondées par divers journalistes et par le parquet.",
+      "categorie": "HYPOTHESE",
+      "attribution": "Christine Dupont de Ligonnès (livre, mars 2024) ; réserves exprimées par la famille d'Agnès et par le parquet de Nantes",
+      "date_faits": "2024-03",
+      "lieu": "France",
+      "sources": ["S-hypotheses_sort-D06", "S-hypotheses_sort-D09"],
+      "nb_sources_independantes": 2,
+      "incertitude": "forte",
+      "centrale": false,
+      "notes": "Thèse rejetée par les parties civiles et par la justice. À traiter comme une position publique, jamais comme un élément de dossier."
+    },
+    {
+      "ref": "A-hypotheses_sort-D09",
+      "assertion": "Éléments matériels disponibles publiquement : son ordinateur portable et son téléphone mobile n'ont jamais été retrouvés ; selon Le Monde, il avait fermé un compte bancaire, emporté « une petite somme susceptible de le faire vivoter quelques semaines » et coupé son téléphone portable.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Nice-Matin ; Le Monde (21 juin 2011) via Numerama",
+      "date_faits": "2011-04",
+      "lieu": "France",
+      "sources": ["S-hypotheses_sort-D05", "S-hypotheses_sort-D13"],
+      "nb_sources_independantes": 2,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Ces éléments alimentent l'argumentaire des deux camps : ressources limitées pour l'un, préparation méthodique pour l'autre. L'article du Monde n'a pas été ouvert directement."
+    },
+    {
+      "ref": "A-hypotheses_sort-D10",
+      "assertion": "Les recherches menées autour de Roquebrune-sur-Argens ont été limitées par le terrain : fouilles de cavités naturelles par des spéléologues en juin 2011, recherche de plongeurs dans les étangs et les bois, explorations dans le massif du rocher de Roquebrune, sans résultat ; les enquêteurs ont également exploré sans succès plusieurs abbayes.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Nice-Matin ; Le Parisien ; La Provence",
+      "date_faits": "2011-2013",
+      "lieu": "Var et régions voisines",
+      "sources": ["S-hypotheses_sort-D05", "S-hypotheses_sort-D09", "S-hypotheses_sort-D12"],
+      "nb_sources_independantes": 3,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Le caractère non exhaustif de ces recherches est un argument central du débat : à exposer comme tel, sans conclure."
+    },
+    {
+      "ref": "A-hypotheses_sort-D11",
+      "assertion": "Le débat public est alimenté par un flux continu de signalements, tous vérifiés sans résultat : plus de 700 en 2013, plus de 900 en 2020, plus de 1 750 en 2024 ; le parquet rappelait encore en juin 2026 que les informations reçues sont vérifiées « jusqu'ici sans succès ».",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Parquet de Nantes ; décomptes de presse",
+      "date_faits": "2013-2026",
+      "lieu": "France et étranger",
+      "sources": ["S-hypotheses_sort-D02", "S-hypotheses_sort-D05", "S-hypotheses_sort-D09"],
+      "nb_sources_independantes": 3,
+      "incertitude": "moyenne",
+      "centrale": false,
+      "notes": "Chiffres à des dates différentes, périmètres de comptage possiblement variables : toujours donner le chiffre avec son année."
+    }
+  ],
+  "chronologie": [
+    {"date": "2011-09-03", "precision": "jour", "evenement": "Le procureur de la République de Nantes déclare que le suicide est l'hypothèse « la plus probable », tout en maintenant deux hypothèses ouvertes.", "categorie": "FAIT_DOCUMENTE", "sources": ["S-hypotheses_sort-D03"], "note": ""},
+    {"date": "2013-04-15", "precision": "jour", "evenement": "La procureure Brigitte Lamy dit pencher pour le suicide, sans exclure la fuite.", "categorie": "HYPOTHESE", "sources": ["S-hypotheses_sort-D02"], "note": ""},
+    {"date": "2019", "precision": "annee", "evenement": "L'ancien directeur interrégional ouest de la PJ Jean-Paul Le Tensorer se dit convaincu du suicide.", "categorie": "HYPOTHESE", "sources": ["S-hypotheses_sort-D06"], "note": "Attribution à retrouver à la source."},
+    {"date": "2019-10", "precision": "mois", "evenement": "Une fausse annonce d'arrestation en Écosse provoque une vive séquence médiatique ; la personne interpellée n'a aucun lien avec l'affaire.", "categorie": "FAIT_DOCUMENTE", "sources": ["S-hypotheses_sort-D05"], "note": "Aucun nom n'est repris ici (personne innocente)."},
+    {"date": "2020-12", "precision": "mois", "evenement": "Récit de terrain sur le Formule 1 et l'itinéraire varois ; rappel des limites matérielles des recherches.", "categorie": "RECONSTRUCTION_ENQUETE", "sources": ["S-hypotheses_sort-D05"], "note": ""},
+    {"date": "2021-04-02", "precision": "jour", "evenement": "Bruno de Stabenrath expose sa conviction d'une survie et publie « L'Ami impossible ».", "categorie": "HYPOTHESE", "sources": ["S-hypotheses_sort-D01"], "note": ""},
+    {"date": "2024-03", "precision": "mois", "evenement": "Publication du livre de Christine Dupont de Ligonnès défendant la thèse d'un exil et d'une famille vivante ; vives réserves de la famille d'Agnès et du parquet.", "categorie": "HYPOTHESE", "sources": ["S-hypotheses_sort-D06", "S-hypotheses_sort-D09"], "note": ""},
+    {"date": "2025-04", "precision": "mois", "evenement": "Un influenceur affirme, sans élément vérifiable, avoir localisé le fugitif en Asie ; le parquet dément toute information factuelle portée à sa connaissance.", "categorie": "FAIT_DOCUMENTE", "sources": ["S-hypotheses_sort-D06"], "note": "Aucun nom n'est repris ici."},
+    {"date": "2026-02", "precision": "mois", "evenement": "Parution du livre de Gilles Galloux, ancien enquêteur, défendant la thèse d'une fuite aux États-Unis avec de faux papiers.", "categorie": "HYPOTHESE", "sources": ["S-hypotheses_sort-D06", "S-hypotheses_sort-D11"], "note": ""},
+    {"date": "2026-03-25", "precision": "jour", "evenement": "Appel à informations du shérif du comté de Brewster (Texas), sur sollicitation d'une équipe journalistique incluant Gilles Galloux.", "categorie": "FAIT_DOCUMENTE", "sources": ["S-hypotheses_sort-D06"], "note": "Détaillé dans le fichier pistes_2020_2026."},
+    {"date": "2026-04-11", "precision": "jour", "evenement": "Le frère d'Agnès prend la parole publiquement : il se dit convaincu de la culpabilité du suspect et l'appelle à se rendre.", "categorie": "TEMOIGNAGE_RAPPORTE", "sources": ["S-hypotheses_sort-D08", "S-hypotheses_sort-D14"], "note": ""},
+    {"date": "2026-06-02", "precision": "jour", "evenement": "Anne-Sophie Martin défend sur RTL la thèse d'une disparition orchestrée, tout en écartant la piste américaine.", "categorie": "HYPOTHESE", "sources": ["S-hypotheses_sort-D04"], "note": ""}
+  ],
+  "contradictions": [
+    {
+      "sujet": "Vivant ou mort : la ligne de partage entre anciens enquêteurs",
+      "versions": [
+        {"version": "Conviction du suicide, fondée sur l'état d'accullement financier et le coût d'une vie clandestine durable (Jean-Paul Le Tensorer, 2019).", "sources": ["S-hypotheses_sort-D06"]},
+        {"version": "Conviction d'une fuite éventuellement aux États-Unis, fondée sur la préparation et la dernière apparition jugée mise en scène (Gilles Galloux, 2026).", "sources": ["S-hypotheses_sort-D06", "S-hypotheses_sort-D11"]}
+      ],
+      "traitement_recommande": "Présenter côte à côte, en nommant les auteurs, sans hiérarchiser. Faire apparaître qu'il s'agit de deux anciens policiers du même dossier : c'est un point éditorial fort."
+    },
+    {
+      "sujet": "Fuite à l'étranger ou disparition orchestrée sans départ",
+      "versions": [
+        {"version": "Il a préparé une fuite au long cours, possiblement aux États-Unis (Bruno de Stabenrath ; Gilles Galloux).", "sources": ["S-hypotheses_sort-D01", "S-hypotheses_sort-D05"]},
+        {"version": "La disparition était organisée et anticipée, mais il ne croit pas à une fuite vers les États-Unis (Anne-Sophie Martin).", "sources": ["S-hypotheses_sort-D04"]}
+      ],
+      "traitement_recommande": "Ne pas réduire le débat à « suicide contre Amérique » : la position d'Anne-Sophie Martin montre qu'un troisième terme existe. C'est la nuance la plus utile pour la série."
+    },
+    {
+      "sujet": "Position du parquet : le suicide a-t-il été « l'hypothèse officielle » ?",
+      "versions": [
+        {"version": "En 2011, le suicide est qualifié d'hypothèse « la plus probable », mais le parquet rappelle qu'il y a « toujours eu deux hypothèses ».", "sources": ["S-hypotheses_sort-D03"]},
+        {"version": "En 2013, la procureure parle d'« une conviction », formulée à titre personnel, en attendant la découverte d'un corps.", "sources": ["S-hypotheses_sort-D02"]}
+      ],
+      "traitement_recommande": "Ne jamais écrire « la justice a conclu au suicide » : le dossier n'est pas clos et l'enquête n'a pas déterminé s'il était mort ou en fuite. C'est la formulation officielle la plus récente."
+    },
+    {
+      "sujet": "Fiabilité des affirmations de la sœur du suspect",
+      "versions": [
+        {"version": "Christine Dupont de Ligonnès affirme que la famille est vivante à l'étranger et que les corps identifiés ne sont pas ceux de sa belle-sœur et de ses neveux.", "sources": ["S-hypotheses_sort-D06"]},
+        {"version": "Ces affirmations sont contredites par les éléments scientifiques du dossier, par la famille d'Agnès et par plusieurs journalistes ; le parquet a indiqué qu'elles ne constituent pas une piste sérieuse.", "sources": ["S-hypotheses_sort-D06", "S-hypotheses_sort-D09"]}
+      ],
+      "traitement_recommande": "Si la thèse est évoquée, elle doit l'être avec sa contradiction, dans le même mouvement. Ne jamais la présenter seule pour l'effet."
+    },
+    {
+      "sujet": "Ce qui manque pour trancher",
+      "versions": [
+        {"version": "La découverte d'un corps et une identification permettraient de clore la question (« on en sera sûr le jour où on découvrira son corps »).", "sources": ["S-hypotheses_sort-D02"]},
+        {"version": "Aucune observation de ce type n'est intervenue à ce jour : ni restes identifiés, ni correspondance ADN ou d'empreintes, malgré plus de 1 750 signalements vérifiés.", "sources": ["S-hypotheses_sort-D09", "S-hypotheses_sort-D06"]}
+      ],
+      "traitement_recommande": "Conclure la séquence là-dessus : c'est honnête et cela évite toute conclusion spéculative à l'antenne."
+    }
+  ],
+  "lacunes": [
+    "Le livre de Gilles Galloux (« Xavier Dupont de Ligonnès – Un flic au cœur de l'affaire », février 2026) n'a pas été lu : sa thèse est rapportée d'après des comptes rendus de presse et une notice encyclopédique.",
+    "Le livre de Bruno de Stabenrath (« L'Ami impossible », 2021) n'a pas été lu : seuls ses propos en entretien sont utilisés.",
+    "Le livre d'Anne-Sophie Martin (« Le Disparu ») n'a pas été lu.",
+    "Le livre de Christine Dupont de Ligonnès (mars 2024) n'a pas été lu.",
+    "L'article de La Montagne sur la thèse de Gilles Galloux n'a pas pu être ouvert.",
+    "L'article du Point du 3 septembre 2011 sur la position du parquet n'a pas pu être ouvert ; seule la version du Monde a été lue.",
+    "L'attribution de la position de Jean-Paul Le Tensorer repose sur une source encyclopédique citant la presse : la source de premier rang n'a pas été retrouvée.",
+    "Aucune information publique trouvée sur la présence ou l'absence d'un passeport, de faux papiers ou de moyens de paiement anonymes dans ses effets après le 15 avril 2011.",
+    "Aucune information publique trouvée sur les résultats d'expertises concernant l'arme, les munitions ou d'éventuelles traces exploitables.",
+    "Aucun élément public ne permet d'exclure ou de confirmer une aide extérieure : la question des complicités éventuelles reste ouverte dans toutes les sources consultées."
+  ]
+}

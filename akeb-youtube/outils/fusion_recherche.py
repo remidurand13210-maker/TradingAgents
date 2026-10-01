@@ -16,6 +16,8 @@ RACINE = Path(__file__).resolve().parent.parent
 BRUT = RACINE / "recherche" / "brut"
 SPECIAUX = {"plateformes", "commerce_droits", "emplacements_youtube"}
 ORDRE_INCERT = {"faible": 0, "moyenne": 1, "forte": 2}
+# Provenance des fichiers déjà présents avant la reprise par Antigravity/Codex
+PROVENANCE_BRUT = {"bio_jeunesse": "claude_cloud_extraits_moteur_non_lus"}
 
 
 def norm_url(u: str) -> str:
@@ -38,22 +40,25 @@ def ecrire_csv(chemin: Path, champs: list[str], lignes: list[dict]) -> None:
 
 
 def main() -> dict:
-    fichiers = sorted(BRUT.glob("*.json")) + sorted((BRUT.parent / "brut_codex").glob("*.json"))
+    fichiers = sorted(BRUT.glob("*.json")) + sorted((BRUT.parent / "brut_codex").glob("*.json")) \
+        + sorted((BRUT.parent / "contre_verif" / "bionic").glob("*.json"))
     sources: dict[str, dict] = {}
     index: dict[str, str] = {}
     assertions, chrono, constats = [], [], []
     erreurs = []
 
-    def sid_pour(src: dict, theme: str) -> str:
+    def sid_pour(src: dict, theme: str, provenance: str) -> str:
         cle = norm_url(src.get("url", "")) or f"sans-url:{src.get('titre','')}|{src.get('media','')}|{src.get('date_publication','')}"
         if cle not in sources:
             sources[cle] = {"id": f"S{len(sources) + 1:03d}", **{k: src.get(k, "") for k in (
                 "titre", "url", "auteur_organisme", "media", "date_publication", "date_faits", "date_consultation",
-                "acces", "type", "origine", "notes")}, "themes": [theme], "assertions": [], "incertitudes": []}
+                "acces", "type", "origine", "notes")}, "themes": [theme], "provenances": [provenance], "assertions": [], "incertitudes": []}
         else:
             s = sources[cle]
             if theme not in s["themes"]:
                 s["themes"].append(theme)
+            if provenance not in s["provenances"]:
+                s["provenances"].append(provenance)
             ordre_acces = ["extrait_moteur", "inaccessible", "lu_partiel", "lu_integral"]
             if src.get("acces") in ordre_acces and s.get("acces") in ordre_acces and ordre_acces.index(src["acces"]) > ordre_acces.index(s["acces"]):
                 s["acces"] = src["acces"]
@@ -62,14 +67,19 @@ def main() -> dict:
         return sources[cle]["id"]
 
     for f in fichiers:
-        theme = f.stem + ("_codex" if f.parent.name == "brut_codex" else "")
+        if f.parent.name == "bionic":
+            theme, provenance = f.stem.replace("_deepseek", "") + "_bionic", "bionic_lmstudio_non_reverifie"
+        elif f.parent.name == "brut_codex":
+            theme, provenance = f.stem + "_codex", "codex"
+        else:
+            theme, provenance = f.stem, PROVENANCE_BRUT.get(f.stem, "dossier_principal")
         try:
             d = json.loads(f.read_text(encoding="utf-8"))
         except Exception as e:  # noqa: BLE001
             erreurs.append(f"{f.name}: {e}")
             continue
         for src in d.get("sources", []):
-            gid = sid_pour(src, theme)
+            gid = sid_pour(src, theme, provenance)
             if src.get("ref"):
                 index[f"{theme}:{src['ref']}"] = gid
                 index.setdefault(src["ref"], gid)
@@ -83,7 +93,7 @@ def main() -> dict:
             gid = f"A{len(assertions) + 1:03d}"
             refs = [index.get(f"{theme}:{r}", index.get(r, r)) for r in a.get("sources", [])]
             v = a.get("verification") or {}
-            ligne = {"id": gid, "ref_brute": a.get("ref", ""), "theme": theme, "assertion": a.get("assertion", ""),
+            ligne = {"id": gid, "ref_brute": a.get("ref", ""), "theme": theme, "provenance": provenance, "assertion": a.get("assertion", ""),
                      "categorie": a.get("categorie", ""), "attribution": a.get("attribution", ""), "date_faits": a.get("date_faits", ""),
                      "lieu": a.get("lieu", ""), "sources": refs, "nb_sources_independantes": a.get("nb_sources_independantes", ""),
                      "incertitude": a.get("incertitude", ""), "centrale": a.get("centrale", ""),
@@ -96,7 +106,7 @@ def main() -> dict:
                         s["assertions"].append(gid)
                         s["incertitudes"].append(a.get("incertitude", ""))
         for c in d.get("chronologie", []):
-            chrono.append({"date": c.get("date", ""), "precision": c.get("precision", ""), "evenement": c.get("evenement", ""),
+            chrono.append({"date": c.get("date", ""), "precision": c.get("precision", ""), "evenement": c.get("evenement", ""), "provenance": provenance,
                            "categorie": c.get("categorie", ""), "sources": [index.get(f"{theme}:{r}", index.get(r, r)) for r in c.get("sources", [])],
                            "theme": theme, "note": c.get("note", "")})
 
@@ -108,13 +118,13 @@ def main() -> dict:
         lignes_src.append(s)
     ecrire_csv(RACINE / "recherche" / "SOURCES.csv",
                ["id", "titre", "url", "auteur_organisme", "media", "date_publication", "date_faits", "date_consultation", "acces",
-                "type", "origine", "assertions_etayees", "incertitude_max", "themes", "notes"], lignes_src)
+                "type", "origine", "assertions_etayees", "incertitude_max", "themes", "provenances", "notes"], lignes_src)
     ecrire_csv(RACINE / "recherche" / "ASSERTIONS.csv",
-               ["id", "theme", "assertion", "categorie", "attribution", "date_faits", "lieu", "sources", "nb_sources_independantes",
+               ["id", "theme", "provenance", "assertion", "categorie", "attribution", "date_faits", "lieu", "sources", "nb_sources_independantes",
                 "incertitude", "centrale", "verification", "commentaire_verification", "notes", "ref_brute"], assertions)
     chrono.sort(key=lambda c: (re.sub(r"[^0-9-]", "", c["date"]) or "9999"))
     ecrire_csv(RACINE / "recherche" / "CHRONOLOGIE.csv",
-               ["date", "precision", "evenement", "categorie", "sources", "theme", "note"], chrono)
+               ["date", "precision", "evenement", "categorie", "sources", "theme", "provenance", "note"], chrono)
     if constats:
         ecrire_csv(RACINE / "recherche" / "CONSTATS_PLATEFORMES.csv",
                    ["ref", "theme", "domaine", "constat", "sources", "fiabilite", "notes"], constats)

@@ -315,14 +315,18 @@ def carton_document(titre: str, lignes_doc: list[str], source: str = "", w=1920,
 FRISE_BORNES = (1961, 2027)
 
 
-def carton_frise(evenements: list[dict], focus: tuple[int, int] | None = None, titre: str = "", curseur: float | None = None, w=1920, h=1080) -> Image.Image:
+MOIS = ["janv.", "févr.", "mars", "avril", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."]
+
+
+def carton_frise(evenements: list[dict], focus: tuple[int, int] | None = None, titre: str = "", curseur: float | None = None, bornes: tuple[float, float] | None = None, w=1920, h=1080) -> Image.Image:
     """evenements : [{"annee": 1961.4, "label": "Naissance", "statut": "FAIT", "haut": True}]"""
     img = fond(w, h)
     d = ImageDraw.Draw(img)
     filigrane(d, w, h)
     if titre:
         d.text((160, 120), typo_fr(titre), font=police("semibold", 44), fill=ACCENT, anchor="la")
-    a0, a1 = FRISE_BORNES
+    a0, a1 = bornes or FRISE_BORNES
+    evenements = [e for e in evenements if a0 <= e["annee"] <= a1]
     x0, x1, ya = 160, w - 160, h * 0.56
 
     def X(annee: float) -> float:
@@ -331,10 +335,18 @@ def carton_frise(evenements: list[dict], focus: tuple[int, int] | None = None, t
     if focus:
         d.rectangle([X(focus[0]), ya - 250, X(focus[1]), ya + 250], fill=(26, 31, 40))
     d.line([(x0, ya), (x1, ya)], fill=TRAIT, width=4)
-    for dec in range(1960, 2031, 10):
-        if a0 <= dec <= a1:
-            d.line([(X(dec), ya - 10), (X(dec), ya + 10)], fill=DISCRET, width=2)
-            d.text((X(dec), ya + 34), str(dec), font=police("regular", 26), fill=DISCRET, anchor="mm")
+    if a1 - a0 > 8:
+        for dec in range(1960, 2031, 10):
+            if a0 <= dec <= a1:
+                d.line([(X(dec), ya - 10), (X(dec), ya + 10)], fill=DISCRET, width=2)
+                d.text((X(dec), ya + 34), str(dec), font=police("regular", 26), fill=DISCRET, anchor="mm")
+    else:  # frise zoomée : graduations mensuelles
+        m = int(a0 * 12)
+        while m / 12 <= a1:
+            if m / 12 >= a0:
+                d.line([(X(m / 12), ya - 8), (X(m / 12), ya + 8)], fill=DISCRET, width=2)
+                d.text((X(m / 12), ya + 34), f"{MOIS[m % 12]} {m // 12}", font=police("regular", 22), fill=DISCRET, anchor="mm")
+            m += 1
     fnt = police("semibold", 28)
     places: list[tuple[float, float, bool]] = []
     for ev in sorted(evenements, key=lambda e: e["annee"]):
@@ -350,13 +362,16 @@ def carton_frise(evenements: list[dict], focus: tuple[int, int] | None = None, t
         yt = ya - dy if haut else ya + dy + 30
         d.line([(x, ya), (x, yt + (18 if haut else -18))], fill=couleur, width=2)
         d.ellipse([x - 9, ya - 9, x + 9, ya + 9], fill=couleur)
-        d.text((x, yt), typo_fr(ev["label"]), font=fnt, fill=TEXTE, anchor="mb" if haut else "mt")
+        label = typo_fr(ev["label"])
+        demi = fnt.getlength(label) / 2
+        xt = min(max(x, 60 + demi), w - 60 - demi)  # étiquette maintenue dans le cadre
+        d.text((xt, yt), label, font=fnt, fill=TEXTE, anchor="mb" if haut else "mt")
     if curseur is not None:
         xc = X(curseur)
         d.polygon([(xc - 14, ya + 70), (xc + 14, ya + 70), (xc, ya + 46)], fill=ACCENT)
     # légende des statuts
     lx = 160
-    for cle in ("FAIT", "TEMOIGNAGE", "HYPOTHESE"):
+    for cle in ("FAIT", "TEMOIGNAGE", "RECONSTRUCTION", "HYPOTHESE"):
         texte, couleur = ETIQUETTES[cle]
         d.ellipse([lx, h - 112, lx + 16, h - 96], fill=couleur)
         d.text((lx + 28, h - 104), texte.capitalize(), font=police("regular", 24), fill=DISCRET, anchor="lm")

@@ -112,8 +112,9 @@ def rendre_plan(plan: dict, numero_ep: str, bandeau: str, dossier: Path) -> Path
     elif t == "document":
         img = I.carton_document(texte, [x.strip() for x in texte2.split("|") if x.strip()], src)
     elif t == "frise":
-        evs = [e for e in frise_commune() if e["annee"] <= p.get("jusqua", 2100)]
-        img = I.carton_frise(evs, tuple(p["focus"]) if p.get("focus") else None, texte, p.get("curseur"))
+        evs = [e for e in frise_commune() if e["annee"] <= p.get("jusqua", 2100) and (not p.get("details") or e.get("detail"))] \
+            if p.get("bornes") else [e for e in frise_commune() if e["annee"] <= p.get("jusqua", 2100) and not e.get("detail")]
+        img = I.carton_frise(evs, tuple(p["focus"]) if p.get("focus") else None, texte, p.get("curseur"), tuple(p["bornes"]) if p.get("bornes") else None)
     elif t == "carte":
         img = I.carton_carte(p["points"], tuple(p["bbox"]), texte, p.get("trajet", False), src, faits, statut)
     elif t == "livre":

@@ -1,0 +1,372 @@
+{
+  "sujet": "avril_2011_avant",
+  "outil": "bionic-agent (LM Studio Bionic) — second regard indépendant, recherche web propre",
+  "note_meta": {
+    "avertissement": "Ce fichier n'a PAS été produit par DeepSeek. Il a été produit par l'agent Bionic avec sa propre recherche web, à la place du prompt DeepSeek resté sans réponse. Le champ 'outil' est donc volontairement différent de la valeur 'deepseek' prévue par le schéma.",
+    "regle_appliquee": "Seules des pages réellement ouvertes (lu_partiel) ou vues via un extrait de moteur de recherche (extrait_moteur) sont citées, chaque cas étant signalé. Les pages non ouvertes sont marquées 'inaccessible'. Aucune URL reconstruite. Aucune information de mémoire.",
+    "consigne_specifique": "AUCUN détail graphique ni opératoire : les achats sont mentionnés en catégories, sans mode d'emploi, et les constats médico-légaux sont réduits au strict minimum nécessaire à la chronologie.",
+    "methode": "Recherches web du 2026-10-01 : points de départ 5, 6, 7 et 12, puis requêtes 'Thomas Angers retour Nantes', 'décès père carabine', 'armurier prêtre tireur d'élite', 'écoles absences'."
+  },
+  "sources": [
+    {
+      "ref": "S-avril_2011_avant-D01",
+      "titre": "Tuerie de Nantes : Le père s'entraînait régulièrement au tir avant le drame",
+      "url": "https://www.20minutes.fr/societe/712447-20110423-societe-tuerie-nantes-pere-entrainait-regulierement-tir-avant-drame",
+      "auteur_organisme": "20 Minutes avec AFP",
+      "media": "20 Minutes",
+      "date_publication": "2011-04-23",
+      "date_faits": "2010-12 / 2011-04",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "AFP",
+      "notes": "Point de départ 5. Contenu lu intégralement pour l'essentiel (article court)."
+    },
+    {
+      "ref": "S-avril_2011_avant-D02",
+      "titre": "Nantes : quand le père prétendait être « un prêtre tireur d'élite »",
+      "url": "https://www.leparisien.fr/faits-divers/nantes-quand-le-pere-pretendait-etre-un-pretre-tireur-d-elite-27-04-2011-1424471.php",
+      "auteur_organisme": "Le Parisien",
+      "media": "Le Parisien",
+      "date_publication": "2011-04-27",
+      "date_faits": "2011-03",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Point de départ 6. Donne le modèle de la carabine et le récit de l'armurier."
+    },
+    {
+      "ref": "S-avril_2011_avant-D03",
+      "titre": "Dupont de Ligonnès : Il n'y avait « rien d'excessif dans leur foi »",
+      "url": "https://www.20minutes.fr/societe/712093-20110422-societe-dupont-ligonnes-rien-excessif-foi",
+      "auteur_organisme": "20 Minutes",
+      "media": "20 Minutes",
+      "date_publication": "2011-04-22",
+      "date_faits": "2011-04-04 / 2011-04-11",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Point de départ 7. Uniquement les passages sur les deux établissements scolaires ont été lus."
+    },
+    {
+      "ref": "S-avril_2011_avant-D04",
+      "titre": "La nuit du meurtre, la découverte des corps, la dernière image du fugitif… Les grandes dates de l'affaire Dupont de Ligonnès",
+      "url": "https://www.leparisien.fr/faits-divers/la-nuit-du-meurtre-la-decouverte-des-corps-la-derniere-image-du-fugitif-les-grandes-dates-de-laffaire-dupont-de-ligonnes-03-04-2026-J27GNQSCXJGMNKNKA2O2LVG7KY.php",
+      "auteur_organisme": "Le Parisien",
+      "media": "Le Parisien",
+      "date_publication": "2026-04-03",
+      "date_faits": "2011-04",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Point de départ 12. Chronologie de référence récente, à confronter aux sources de 2011."
+    },
+    {
+      "ref": "S-avril_2011_avant-D05",
+      "titre": "Drame de Nantes : le père fréquentait un stand de tir",
+      "url": "https://www.lefigaro.fr/actualite-france/2011/04/23/01016-20110423ARTFIG00357-drame-de-nantes-le-pere-frequentait-un-stand-de-tir.php",
+      "auteur_organisme": "Le Figaro avec AFP",
+      "media": "Le Figaro",
+      "date_publication": "2011-04-23",
+      "date_faits": "2010-12 / 2011-04",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_national",
+      "origine": "AFP",
+      "notes": "Seuls le titre, le chapô et les légendes photographiques ont pu être lus ; corps de l'article non obtenu. Cite le moniteur Benoît Hérault et le photographe AFP Jean-Sébastien Evrard."
+    },
+    {
+      "ref": "S-avril_2011_avant-D06",
+      "titre": "Xavier Dupont de Ligonnès. Toujours introuvable deux ans après",
+      "url": "https://www.letelegramme.fr/loire-atlantique/nantes-44000/spanxavier-dupont-de-ligonnesspan-toujours-introuvable-deux-ans-apres-1816680.php",
+      "auteur_organisme": "Le Télégramme",
+      "media": "Le Télégramme",
+      "date_publication": "2013-04-15",
+      "date_faits": "2010-12 / 2013-04",
+      "date_consultation": "2026-10-01",
+      "acces": "lu_partiel",
+      "type": "media_regional",
+      "origine": "propre",
+      "notes": "Chronologie jour par jour, utile mais de 2013 : comporte des divergences avec les reconstitutions récentes (date du dîner avec Thomas, notamment)."
+    },
+    {
+      "ref": "S-avril_2011_avant-D07",
+      "titre": "Affaire Dupont de Ligonnès",
+      "url": "https://fr.wikipedia.org/wiki/Affaire_Dupont_de_Ligonn%C3%A8s",
+      "auteur_organisme": "Contributeurs Wikipédia",
+      "media": "Wikipédia (fr)",
+      "date_publication": "",
+      "date_faits": "2011",
+      "date_consultation": "2026-10-01",
+      "acces": "extrait_moteur",
+      "type": "autre",
+      "origine": "propre",
+      "notes": "Encyclopédie collaborative, non utilisable comme source de premier rang. Utile ici parce qu'elle cite ses propres références (presse 2011), qui restent à vérifier une par une. Contenu lu par fragments via moteur de recherche."
+    },
+    {
+      "ref": "S-avril_2011_avant-D08",
+      "titre": "Dupont de Ligonnès : la maison de l'horreur",
+      "url": "https://www.parismatch.com/actu/faits-divers/dupont-de-ligonnes-la-maison-de-lhorreur-37611",
+      "auteur_organisme": "Paris Match",
+      "media": "Paris Match",
+      "date_publication": "2019-10-11",
+      "date_faits": "2011-04",
+      "date_consultation": "2026-10-01",
+      "acces": "extrait_moteur",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Récit très détaillé, comportant des scènes reconstituées et des hypothèses d'enquêteurs : à manier comme RECONSTRUCTION, jamais comme fait établi. Contient des éléments graphiques volontairement non repris ici."
+    },
+    {
+      "ref": "S-avril_2011_avant-D09",
+      "titre": "Drame de Nantes : dîner père-fils le 4/4",
+      "url": "http://www.lefigaro.fr/flash-actu/2011/04/28/97001-20110428FILWWW00403-drame-de-nantes-diner-pere-fils-le-44.php",
+      "auteur_organisme": "Le Figaro (flash AFP)",
+      "media": "Le Figaro",
+      "date_publication": "2011-04-28",
+      "date_faits": "2011-04-04",
+      "date_consultation": "2026-10-01",
+      "acces": "inaccessible",
+      "type": "media_national",
+      "origine": "AFP",
+      "notes": "Page NON ouverte. Titre et date relevés dans les références de l'article Wikipédia (note 66), qui le cite sous le titre « Drame de Nantes : dîner père-fils le 4/4 ». Sert uniquement à documenter une divergence de date ; doit être vérifié avant usage."
+    },
+    {
+      "ref": "S-avril_2011_avant-D10",
+      "titre": "Le dernier repas des Ligonnès",
+      "url": "https://www.lemonde.fr/societe/article/2011/04/29/le-dernier-repas-des-ligonnes_1514579_3224.html",
+      "auteur_organisme": "Le Monde",
+      "media": "Le Monde",
+      "date_publication": "2011-04-29",
+      "date_faits": "2011-04-03",
+      "date_consultation": "2026-10-01",
+      "acces": "extrait_moteur",
+      "type": "media_national",
+      "origine": "propre",
+      "notes": "Seul le titre et le chapô ont été vus en moteur de recherche ; le corps de l'article est payant."
+    }
+  ],
+  "assertions": [
+    {
+      "ref": "A-avril_2011_avant-D01",
+      "assertion": "Xavier Dupont de Ligonnès a commencé une initiation au tir en décembre 2010 — soit avant le décès de son père — et a obtenu sa licence de club le 2 février 2011 ; il s'entraînait régulièrement la semaine précédant le drame.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "20 Minutes (AFP), Le Figaro (AFP), Le Télégramme",
+      "date_faits": "2010-12 / 2011-04",
+      "lieu": "Nantes (stand de tir)",
+      "sources": ["S-avril_2011_avant-D01", "S-avril_2011_avant-D05", "S-avril_2011_avant-D06"],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Le point de départ de la pratique en décembre 2010 est constant dans les sources, et antérieur au décès du père (janvier ou février 2011 selon les sources)."
+    },
+    {
+      "ref": "A-avril_2011_avant-D02",
+      "assertion": "Au stand, il utilisait un pistolet de calibre 22 long rifle — le même calibre que celui relevé par la police sur les victimes — et a apporté courant février une carabine du même calibre, en évoquant l'ajout d'un silencieux ; un moniteur dit l'avoir vu tirer une fois avec une carabine équipée d'un silencieux.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Benoît Hérault (moniteur du stand) et Alain Neutre, cités par 20 Minutes",
+      "date_faits": "2011-02 / 2011-04",
+      "lieu": "Stand de tir, Nantes",
+      "sources": ["S-avril_2011_avant-D01"],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Témoignages directs de deux hommes du stand. Le détail balistique est réduit ici au minimum : calibre et équipement, sans description des effets."
+    },
+    {
+      "ref": "A-avril_2011_avant-D03",
+      "assertion": "La carabine héritée de son père est décrite comme une Unique X-51bis, classée en quatrième catégorie, équipée d'un chargeur de dix balles et munie d'un silencieux.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Le Parisien",
+      "date_faits": "2011",
+      "lieu": "Nantes",
+      "sources": ["S-avril_2011_avant-D02"],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Détail technique issu d'une seule source ouverte pour ce relevé ; les mentions de chargeur varient selon les récits (voir contradictions ailleurs si nécessaire)."
+    },
+    {
+      "ref": "A-avril_2011_avant-D04",
+      "assertion": "Un armurier de la région nantaise se souvient qu'un homme s'est présenté chez lui comme « prêtre tireur d'élite » et a demandé comment acquérir une arme de poing ; faute d'autorisation administrative, il est reparti sans arme, et le commerçant l'a pris pour un mythomane.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Le patron de l'armurerie, cité par Le Parisien",
+      "date_faits": "2011-03",
+      "lieu": "Région nantaise",
+      "sources": ["S-avril_2011_avant-D02"],
+      "nb_sources_independantes": 1,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "Témoignage unique, publié quatre jours après la découverte des corps. Point de départ 6 du prompt."
+    },
+    {
+      "ref": "A-avril_2011_avant-D05",
+      "assertion": "Les achats documentés s'échelonnent sur les premiers jours d'avril : une bêche et une houe le 1er avril, puis quatre sacs de 10 kg de chaux le 2 avril, dans plusieurs magasins ; un silencieux et des cartouches de carabine avaient été achetés le 12 mars dans une armurerie de Nantes.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Le Parisien (2026) ; Le Télégramme ; Ouest-France via Wikipédia",
+      "date_faits": "2011-03-12 / 2011-04-02",
+      "lieu": "Nantes et agglomération",
+      "sources": ["S-avril_2011_avant-D04", "S-avril_2011_avant-D06"],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Volontairement limité aux dates et aux catégories d'objets, sans aucune indication d'usage. D'autres achats (ciment, sacs-poubelle, toile de jute, ruban adhésif, produit désincrustant) sont mentionnés par des récits magazine — Paris Match — et n'ont pas été confirmés par une source judiciaire ouverte."
+    },
+    {
+      "ref": "A-avril_2011_avant-D06",
+      "assertion": "Le 9 avril, Xavier Dupont de Ligonnès a prévenu le stand de tir que ses fils ne pourraient pas venir au rendez-vous prévu, sans donner de raison.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Benoît Hérault, moniteur, cité par 20 Minutes",
+      "date_faits": "2011-04",
+      "lieu": "Stand de tir, Nantes",
+      "sources": ["S-avril_2011_avant-D01"],
+      "nb_sources_independantes": 1,
+      "incertitude": "faible",
+      "centrale": false,
+      "notes": "Détail souvent cité comme signe de préméditation ; il n'établit rien par lui-même."
+    },
+    {
+      "ref": "A-avril_2011_avant-D07",
+      "assertion": "Le directeur du collège-lycée Perverie-Sacré-Cœur, où étaient scolarisés Benoît (13 ans) et Anne (16 ans), a indiqué avoir été averti de leur absence le 4 avril pour motif de maladie, puis avoir appris leur déscolarisation le 11 avril par un courrier évoquant une mutation.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Directeur de l'établissement, cité par 20 Minutes",
+      "date_faits": "2011-04-04 / 2011-04-11",
+      "lieu": "Nantes",
+      "sources": ["S-avril_2011_avant-D03", "S-avril_2011_avant-D04"],
+      "nb_sources_independantes": 2,
+      "incertitude": "faible",
+      "centrale": true,
+      "notes": "Les deux responsables d'établissement ont précisé n'avoir jamais rencontré Xavier Dupont de Ligonnès, seulement son épouse. Point de départ 7 du prompt."
+    },
+    {
+      "ref": "A-avril_2011_avant-D08",
+      "assertion": "La date retenue par l'enquête pour les meurtres d'Agnès et de trois de ses enfants est la nuit du 3 au 4 avril 2011, présentée comme « date probable » par le procureur de Nantes.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Parquet de Nantes, repris par Le Télégramme et Le Parisien",
+      "date_faits": "2011-04-03",
+      "lieu": "Nantes",
+      "sources": ["S-avril_2011_avant-D06", "S-avril_2011_avant-D04"],
+      "nb_sources_independantes": 2,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "À formuler impérativement comme reconstruction : la datation n'est pas certaine au jour près."
+    },
+    {
+      "ref": "A-avril_2011_avant-D09",
+      "assertion": "Le procureur de Nantes a indiqué que la date exacte des décès ne pouvait être déterminée « au jour près » par les légistes, et des témoins du voisinage disent avoir aperçu Agnès Dupont de Ligonnès devant son domicile le 5 avril vers 12 h 15–12 h 30, puis le 7 avril.",
+      "categorie": "TEMOIGNAGE_RAPPORTE",
+      "attribution": "Parquet de Nantes ; témoins du voisinage cités par RTL, repris par Wikipédia",
+      "date_faits": "2011-04-04 / 2011-04-07",
+      "lieu": "Nantes, boulevard Robert-Schuman",
+      "sources": ["S-avril_2011_avant-D07"],
+      "nb_sources_independantes": 1,
+      "incertitude": "forte",
+      "centrale": true,
+      "notes": "Élément central pour toute reconstitution : il interdit d'affirmer la date du décès d'Agnès comme un fait. Source de premier rang à retrouver (RTL 2011, reportage Envoyé spécial du 24 octobre 2013)."
+    },
+    {
+      "ref": "A-avril_2011_avant-D10",
+      "assertion": "Thomas, 18 ans, étudiant en musicologie à Angers, a été appelé par son père et est rentré à Nantes ; ils ont dîné ensemble au restaurant, et le jeune homme est reparti avec lui avant d'être tué dans la nuit qui a suivi.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Reconstitution d'enquête, reprise par Le Parisien et Le Télégramme",
+      "date_faits": "2011-04-04 ou 2011-04-05",
+      "lieu": "Angers / Nantes",
+      "sources": ["S-avril_2011_avant-D04", "S-avril_2011_avant-D06", "S-avril_2011_avant-D08"],
+      "nb_sources_independantes": 3,
+      "incertitude": "moyenne",
+      "centrale": true,
+      "notes": "La date du dîner diverge selon les sources : voir la contradiction dédiée. Le mobile de l'appel rapporté est un prétexte (accident de la mère)."
+    },
+    {
+      "ref": "A-avril_2011_avant-D11",
+      "assertion": "Le dernier dîner avec Thomas est situé par une source encyclopédique au restaurant gastronomique « Le Cavier / La Croix Cadeau », à Avrillé, en périphérie d'Angers.",
+      "categorie": "RECONSTRUCTION_ENQUETE",
+      "attribution": "Wikipédia, citant un flash du Figaro du 28 avril 2011 (non ouvert)",
+      "date_faits": "2011-04",
+      "lieu": "Avrillé (Maine-et-Loire)",
+      "sources": ["S-avril_2011_avant-D07"],
+      "nb_sources_independantes": 1,
+      "incertitude": "forte",
+      "centrale": false,
+      "notes": "À vérifier sur une source de presse ouverte : la source d'origine (Le Figaro) n'a pas pu être consultée."
+    },
+    {
+      "ref": "A-avril_2011_avant-D12",
+      "assertion": "Le 3 avril 2011, dernier repas connu du couple avec trois de ses enfants dans un restaurant de la périphérie de Nantes.",
+      "categorie": "FAIT_DOCUMENTE",
+      "attribution": "Le Télégramme ; Le Monde (« Le dernier repas des Ligonnès »)",
+      "date_faits": "2011-04-03",
+      "lieu": "Périphérie de Nantes",
+      "sources": ["S-avril_2011_avant-D06", "S-avril_2011_avant-D10"],
+      "nb_sources_independantes": 2,
+      "incertitude": "moyenne",
+      "centrale": false,
+      "notes": "Le contenu de l'article du Monde n'a pas pu être lu (payant) : l'information repose ici sur Le Télégramme."
+    }
+  ],
+  "chronologie": [
+    {"date": "2010-12", "precision": "mois", "evenement": "Début de l'initiation au tir de Xavier Dupont de Ligonnès.", "categorie": "FAIT_DOCUMENTE", "sources": ["S-avril_2011_avant-D01", "S-avril_2011_avant-D05"], "note": "Antérieur au décès de son père."},
+    {"date": "2011-01-20", "precision": "jour", "evenement": "Décès du père de Xavier Dupont de Ligonnès à Levallois-Perret.", "categorie": "FAIT_DOCUMENTE", "sources": ["S-avril_2011_avant-D07", "S-avril_2011_avant-D06"], "note": "Date donnée par la source encyclopédique ; Le Parisien situe le décès en février. Divergence non tranchée."},
+    {"date": "2011-02-02", "precision": "jour", "evenement": "Obtention de la licence de tir dans un club nantais.", "categorie": "FAIT_DOCUMENTE", "sources": ["S-avril_2011_avant-D01", "S-avril_2011_avant-D06"], "note": ""},
+    {"date": "2011-02", "precision": "mois", "evenement": "Il apporte une carabine au stand de tir et évoque l'ajout d'un silencieux.", "categorie": "TEMOIGNAGE_RAPPORTE", "sources": ["S-avril_2011_avant-D01"], "note": ""},
+    {"date": "2011-03", "precision": "mois", "evenement": "Visite rapportée à une armurerie de la région nantaise, où il se présente comme « prêtre tireur d'élite ».", "categorie": "TEMOIGNAGE_RAPPORTE", "sources": ["S-avril_2011_avant-D02"], "note": "Date approximative (mars 2011)."},
+    {"date": "2011-03-12", "precision": "jour", "evenement": "Achat d'un silencieux et de cartouches de carabine dans une armurerie de Nantes.", "categorie": "FAIT_DOCUMENTE", "sources": ["S-avril_2011_avant-D06", "S-avril_2011_avant-D04"], "note": ""},
+    {"date": "2011-03", "precision": "approx", "evenement": "Il commence à emmener ses fils au stand de tir.", "categorie": "TEMOIGNAGE_RAPPORTE", "sources": ["S-avril_2011_avant-D01"], "note": "« depuis le mois de mars » selon le moniteur."},
+    {"date": "2011-04-01", "precision": "jour", "evenement": "Achats en magasin de bricolage : bêche et houe.", "categorie": "FAIT_DOCUMENTE", "sources": ["S-avril_2011_avant-D04", "S-avril_2011_avant-D06"], "note": ""},
+    {"date": "2011-04-02", "precision": "jour", "evenement": "Achat de quatre sacs de 10 kg de chaux.", "categorie": "FAIT_DOCUMENTE", "sources": ["S-avril_2011_avant-D04", "S-avril_2011_avant-D06"], "note": ""},
+    {"date": "2011-04-03", "precision": "jour", "evenement": "Dernier repas connu du couple avec trois de ses enfants au restaurant.", "categorie": "FAIT_DOCUMENTE", "sources": ["S-avril_2011_avant-D06"], "note": ""},
+    {"date": "2011-04-03", "precision": "jour", "evenement": "Nuit du 3 au 4 avril : « date probable » des meurtres d'Agnès, Arthur, Anne et Benoît (reconstruction d'enquête).", "categorie": "RECONSTRUCTION_ENQUETE", "sources": ["S-avril_2011_avant-D06", "S-avril_2011_avant-D04"], "note": "Non certaine au jour près."},
+    {"date": "2011-04-04", "precision": "jour", "evenement": "Le collège-lycée signale l'absence de Benoît et Anne pour motif de maladie.", "categorie": "FAIT_DOCUMENTE", "sources": ["S-avril_2011_avant-D03"], "note": ""},
+    {"date": "2011-04-04", "precision": "jour", "evenement": "Dîner père-fils avec Thomas au restaurant, selon une chronologie de 2013 (contredit par d'autres sources qui placent le dîner le 5 avril).", "categorie": "RECONSTRUCTION_ENQUETE", "sources": ["S-avril_2011_avant-D06", "S-avril_2011_avant-D09"], "note": "Divergence majeure, voir contradictions."},
+    {"date": "2011-04-05", "precision": "jour", "evenement": "Selon les reconstitutions récentes : Thomas rentre d'Angers, dîner au restaurant avec son père, puis mort dans la nuit du 5 au 6 avril.", "categorie": "RECONSTRUCTION_ENQUETE", "sources": ["S-avril_2011_avant-D04", "S-avril_2011_avant-D08"], "note": ""},
+    {"date": "2011-04-09", "precision": "jour", "evenement": "Il prévient le stand de tir que ses fils ne viendront pas au rendez-vous, sans explication.", "categorie": "FAIT_DOCUMENTE", "sources": ["S-avril_2011_avant-D01"], "note": ""},
+    {"date": "2011-04-11", "precision": "jour", "evenement": "Les établissements scolaires apprennent la déscolarisation par courrier, et l'employeur d'Agnès reçoit un courrier évoquant une mutation.", "categorie": "FAIT_DOCUMENTE", "sources": ["S-avril_2011_avant-D03", "S-avril_2011_avant-D04"], "note": ""}
+  ],
+  "contradictions": [
+    {
+      "sujet": "Date du décès du père de Xavier Dupont de Ligonnès (et donc de l'héritage de la carabine)",
+      "versions": [
+        {"version": "Décès en janvier 2011 ; date précise du 20 janvier 2011 ; héritage « en janvier ».", "sources": ["S-avril_2011_avant-D06", "S-avril_2011_avant-D07"]},
+        {"version": "Décès « en février dernier » ; héritage en février.", "sources": ["S-avril_2011_avant-D02"]}
+      ],
+      "traitement_recommande": "Ne pas donner de date de décès du père sans la qualifier. Écrire « fin janvier ou février 2011 selon les sources ». Vérifier l'acte de décès ou la presse de janvier 2011 avant toute datation à l'antenne."
+    },
+    {
+      "sujet": "Date du dîner entre Xavier Dupont de Ligonnès et son fils Thomas",
+      "versions": [
+        {"version": "4 avril 2011 (dîner « le 4/4 » ; chronologie de 2013 plaçant le dîner le 4 avril).", "sources": ["S-avril_2011_avant-D09", "S-avril_2011_avant-D06"]},
+        {"version": "5 avril 2011 (retour d'Angers le 5 avril, dîner, mort dans la nuit du 5 au 6).", "sources": ["S-avril_2011_avant-D04", "S-avril_2011_avant-D07"]}
+      ],
+      "traitement_recommande": "C'est la divergence explicitement signalée par le prompt. Présenter les deux versions, en notant que la datation de 2011 (4 avril) a été progressivement remplacée par le 5 avril dans les reconstitutions récentes. Ne pas trancher sans accès au dossier d'instruction."
+    },
+    {
+      "sujet": "Date du décès d'Agnès Dupont de Ligonnès",
+      "versions": [
+        {"version": "Nuit du 3 au 4 avril, « date probable » retenue par l'enquête.", "sources": ["S-avril_2011_avant-D06", "S-avril_2011_avant-D04"]},
+        {"version": "Impossible à fixer au jour près selon le parquet ; témoignages de voisinage évoquant une vision le 5 avril vers midi puis le 7 avril.", "sources": ["S-avril_2011_avant-D07"]}
+      ],
+      "traitement_recommande": "Toujours dire « date probable » et signaler l'existence des témoignages contraires. Ces témoignages appartiennent au dossier et ne doivent pas être passés sous silence."
+    },
+    {
+      "sujet": "Nature de l'arme et capacité du chargeur",
+      "versions": [
+        {"version": "Carabine Unique X-51bis, chargeur de dix balles, quatrième catégorie, avec silencieux.", "sources": ["S-avril_2011_avant-D02"]},
+        {"version": "Carabine semi-automatique à cinq coups héritée du père.", "sources": ["S-avril_2011_avant-D08"]}
+      ],
+      "traitement_recommande": "Divergence secondaire et non indispensable à la narration. En cas de mention, s'en tenir au calibre (22 long rifle) et au fait qu'il s'agit d'une arme héritée, sans détailler le mécanisme."
+    }
+  ],
+  "lacunes": [
+    "Le contenu complet de l'article du Figaro du 23 avril 2011 sur le stand de tir n'a pas pu être lu (titre, chapô et légendes seulement).",
+    "Le flash du Figaro du 28 avril 2011 intitulé « Drame de Nantes : dîner père-fils le 4/4 » n'a pas pu être ouvert : la divergence sur la date du dîner avec Thomas n'est donc documentée que par un titre, via une référence de seconde main.",
+    "L'article du Monde « Le dernier repas des Ligonnès » (29 avril 2011) est resté inaccessible : seul le titre a été vu.",
+    "Aucune source ouverte ne précise la date exacte d'envoi des courriers adressés aux établissements scolaires et à l'employeur d'Agnès (la réception est datée du 11 avril).",
+    "Aucune information trouvée sur le devenir de la carabine et du silencieux après avril 2011.",
+    "Aucune confirmation ouverte du fait qu'Arthur devait également s'initier au tir (mention présente dans la source encyclopédique seulement).",
+    "Le rôle et les propos du président du club de tir, évoqués par le point de départ 5 du prompt, n'ont pas été retrouvés dans l'article consulté : celui-ci cite le moniteur et un second membre du stand, pas le président.",
+    "Les autres achats relevés par la presse magazine (ciment, sacs-poubelle, toile de jute, ruban adhésif, produit désincrustant) n'ont pas été confirmés par une source judiciaire ouverte et ne sont donc pas intégrés comme faits."
+  ]
+}
