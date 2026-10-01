@@ -67,6 +67,9 @@ SUR_X, SUR_Y = 96, 54
 MUSIQUE_DEFAUT = {"01": "archives", "02": "enquete", "03": "enquete", "04": "conclusion"}
 
 
+CODES_PRECISION = {"jour", "mois", "heure", "année", "annee"}
+
+
 def sh(cmd: list[str], **kw) -> str:
     r = subprocess.run(cmd, capture_output=True, text=True, **kw)
     if r.returncode != 0:
@@ -319,6 +322,8 @@ class Plan:
             for l in l2:
                 self.html.append(ligne(esc(l), "semibold", t2, y, "m", align="center", couleur=I.ACCENT, classe="l lieu"))
                 y += t2 * 1.2
+        if self.par.get("precision", "").strip().lower() in CODES_PRECISION:
+            self.par = {k: v for k, v in self.par.items() if k != "precision"}  # code technique, pas un texte
         if self.par.get("precision"):
             t3, l3 = ajuste(self.par["precision"], "italic", 36, W - 500, 2)
             y += 14
