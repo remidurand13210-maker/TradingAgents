@@ -1,1 +1,1141 @@
-{"segments": {}}
+{
+  "segments": {
+    "echantillon/E01": {
+      "empreinte": "b98f7260291c64d1c2e11c08",
+      "wav": "audio/cache/b98f7260291c64d1c2e11c08.wav",
+      "duree_s": 29.84,
+      "taux": 24000,
+      "mots": 77,
+      "statut": "genere",
+      "debit_mpm": 154.8
+    },
+    "00_bande_annonce/S01": {
+      "empreinte": "54dfafb6ca6cb9f759156e69",
+      "wav": "audio/cache/54dfafb6ca6cb9f759156e69.wav",
+      "duree_s": 9.24,
+      "taux": 24000,
+      "mots": 26,
+      "statut": "genere",
+      "debit_mpm": 168.8,
+      "controle": {
+        "empreinte": "54dfafb6ca6cb9f759156e69",
+        "ecarts": []
+      }
+    },
+    "00_bande_annonce/S02": {
+      "empreinte": "44e7dce89ef48259ece2e3d7",
+      "wav": "audio/cache/44e7dce89ef48259ece2e3d7.wav",
+      "duree_s": 13.96,
+      "taux": 24000,
+      "mots": 39,
+      "statut": "genere",
+      "debit_mpm": 167.6,
+      "controle": {
+        "empreinte": "44e7dce89ef48259ece2e3d7",
+        "ecarts": []
+      }
+    },
+    "00_bande_annonce/S03": {
+      "empreinte": "cf239bc658d12870f7c61347",
+      "wav": "audio/cache/cf239bc658d12870f7c61347.wav",
+      "duree_s": 11.68,
+      "taux": 24000,
+      "mots": 28,
+      "statut": "genere",
+      "debit_mpm": 143.8,
+      "controle": {
+        "empreinte": "cf239bc658d12870f7c61347",
+        "ecarts": []
+      }
+    },
+    "00_bande_annonce/S04": {
+      "empreinte": "0f4d67644bcb9f8ae966aa0e",
+      "wav": "audio/cache/0f4d67644bcb9f8ae966aa0e.wav",
+      "duree_s": 12.64,
+      "taux": 24000,
+      "mots": 37,
+      "statut": "genere",
+      "debit_mpm": 175.6,
+      "controle": {
+        "empreinte": "0f4d67644bcb9f8ae966aa0e",
+        "ecarts": [
+          "insert: attendu «  » / entendu « n »"
+        ]
+      }
+    },
+    "00_bande_annonce/S05": {
+      "empreinte": "c5fcb25d6c06c4932115e111",
+      "wav": "audio/cache/c5fcb25d6c06c4932115e111.wav",
+      "duree_s": 5.4,
+      "taux": 24000,
+      "mots": 16,
+      "statut": "genere",
+      "debit_mpm": 177.8,
+      "controle": {
+        "empreinte": "c5fcb25d6c06c4932115e111",
+        "ecarts": [
+          "replace: attendu « et » / entendu « est »"
+        ]
+      }
+    },
+    "00_bande_annonce/S06": {
+      "empreinte": "7cf15d15b70a6e804e37d20c",
+      "wav": "audio/cache/7cf15d15b70a6e804e37d20c.wav",
+      "duree_s": 10.76,
+      "taux": 24000,
+      "mots": 28,
+      "statut": "genere",
+      "debit_mpm": 156.1,
+      "controle": {
+        "empreinte": "7cf15d15b70a6e804e37d20c",
+        "ecarts": []
+      }
+    },
+    "00_bande_annonce/S07": {
+      "empreinte": "aeedc2040ceff62d88b0a8ad",
+      "wav": "audio/cache/aeedc2040ceff62d88b0a8ad.wav",
+      "duree_s": 5.24,
+      "taux": 24000,
+      "mots": 16,
+      "statut": "genere",
+      "debit_mpm": 183.2,
+      "controle": {
+        "empreinte": "aeedc2040ceff62d88b0a8ad",
+        "ecarts": []
+      }
+    },
+    "01_vie_avant_affaire/S01": {
+      "empreinte": "752c338f03e640a346f0b6a7",
+      "wav": "audio/cache/752c338f03e640a346f0b6a7.wav",
+      "duree_s": 21.0,
+      "taux": 24000,
+      "mots": 66,
+      "statut": "genere",
+      "debit_mpm": 188.6,
+      "controle": {
+        "empreinte": "752c338f03e640a346f0b6a7",
+        "ecarts": []
+      }
+    },
+    "01_vie_avant_affaire/S02": {
+      "empreinte": "c9d9c31855357ddff944c3af",
+      "wav": "audio/cache/c9d9c31855357ddff944c3af.wav",
+      "duree_s": 17.92,
+      "taux": 24000,
+      "mots": 52,
+      "statut": "genere",
+      "debit_mpm": 174.1,
+      "controle": {
+        "empreinte": "c9d9c31855357ddff944c3af",
+        "ecarts": []
+      }
+    },
+    "01_vie_avant_affaire/S03": {
+      "empreinte": "ed54c0d4fbc2c0dee0c39361",
+      "wav": "audio/cache/ed54c0d4fbc2c0dee0c39361.wav",
+      "duree_s": 19.68,
+      "taux": 24000,
+      "mots": 55,
+      "statut": "genere",
+      "debit_mpm": 167.7,
+      "controle": {
+        "empreinte": "ed54c0d4fbc2c0dee0c39361",
+        "ecarts": []
+      }
+    },
+    "01_vie_avant_affaire/S04": {
+      "empreinte": "23432f3b8fc22b269bb204cb",
+      "wav": "audio/cache/23432f3b8fc22b269bb204cb.wav",
+      "duree_s": 19.76,
+      "taux": 24000,
+      "mots": 57,
+      "statut": "genere",
+      "debit_mpm": 173.1,
+      "controle": {
+        "empreinte": "23432f3b8fc22b269bb204cb",
+        "ecarts": []
+      }
+    },
+    "01_vie_avant_affaire/S05": {
+      "empreinte": "39c143e56490ec07fda4554b",
+      "wav": "audio/cache/39c143e56490ec07fda4554b.wav",
+      "duree_s": 15.36,
+      "taux": 24000,
+      "mots": 46,
+      "statut": "genere",
+      "debit_mpm": 179.7,
+      "controle": {
+        "empreinte": "39c143e56490ec07fda4554b",
+        "ecarts": []
+      }
+    },
+    "01_vie_avant_affaire/S06": {
+      "empreinte": "f76a2739456cb6663b90a7bc",
+      "wav": "audio/cache/f76a2739456cb6663b90a7bc.wav",
+      "duree_s": 13.2,
+      "taux": 24000,
+      "mots": 39,
+      "statut": "genere",
+      "debit_mpm": 177.3,
+      "controle": {
+        "empreinte": "f76a2739456cb6663b90a7bc",
+        "ecarts": []
+      }
+    },
+    "01_vie_avant_affaire/S07": {
+      "empreinte": "b75060dac152764be2484398",
+      "wav": "audio/cache/b75060dac152764be2484398.wav",
+      "duree_s": 14.92,
+      "taux": 24000,
+      "mots": 42,
+      "statut": "genere",
+      "debit_mpm": 168.9,
+      "controle": {
+        "empreinte": "b75060dac152764be2484398",
+        "ecarts": []
+      }
+    },
+    "01_vie_avant_affaire/S08": {
+      "empreinte": "a3a4b0157d59e968c7fda3a3",
+      "wav": "audio/cache/a3a4b0157d59e968c7fda3a3.wav",
+      "duree_s": 23.48,
+      "taux": 24000,
+      "mots": 64,
+      "statut": "genere",
+      "debit_mpm": 163.5,
+      "controle": {
+        "empreinte": "a3a4b0157d59e968c7fda3a3",
+        "ecarts": []
+      }
+    },
+    "01_vie_avant_affaire/S09": {
+      "empreinte": "d14200d2275ee2fd9b376ccc",
+      "wav": "audio/cache/d14200d2275ee2fd9b376ccc.wav",
+      "duree_s": 22.88,
+      "taux": 24000,
+      "mots": 65,
+      "statut": "genere",
+      "debit_mpm": 170.5,
+      "controle": {
+        "empreinte": "d14200d2275ee2fd9b376ccc",
+        "ecarts": [
+          "replace: attendu « pieces » / entendu « piece »"
+        ]
+      }
+    },
+    "01_vie_avant_affaire/S10": {
+      "empreinte": "0113afcb1b2e439b761b2f4a",
+      "wav": "audio/cache/0113afcb1b2e439b761b2f4a.wav",
+      "duree_s": 19.72,
+      "taux": 24000,
+      "mots": 58,
+      "statut": "genere",
+      "debit_mpm": 176.5,
+      "controle": {
+        "empreinte": "0113afcb1b2e439b761b2f4a",
+        "ecarts": []
+      }
+    },
+    "01_vie_avant_affaire/S11": {
+      "empreinte": "84b593c0564dc9117ca51ee6",
+      "wav": "audio/cache/84b593c0564dc9117ca51ee6.wav",
+      "duree_s": 13.52,
+      "taux": 24000,
+      "mots": 37,
+      "statut": "genere",
+      "debit_mpm": 164.2,
+      "controle": {
+        "empreinte": "84b593c0564dc9117ca51ee6",
+        "ecarts": []
+      }
+    },
+    "01_vie_avant_affaire/S12": {
+      "empreinte": "adcb87a09bd01eaf47e6c670",
+      "wav": "audio/cache/adcb87a09bd01eaf47e6c670.wav",
+      "duree_s": 22.0,
+      "taux": 24000,
+      "mots": 50,
+      "statut": "genere",
+      "debit_mpm": 136.4,
+      "controle": {
+        "empreinte": "adcb87a09bd01eaf47e6c670",
+        "ecarts": []
+      }
+    },
+    "01_vie_avant_affaire/S13": {
+      "empreinte": "c571d5403ab46158aeea8083",
+      "wav": "audio/cache/c571d5403ab46158aeea8083.wav",
+      "duree_s": 13.56,
+      "taux": 24000,
+      "mots": 40,
+      "statut": "genere",
+      "debit_mpm": 177.0,
+      "controle": {
+        "empreinte": "c571d5403ab46158aeea8083",
+        "ecarts": []
+      }
+    },
+    "01_vie_avant_affaire/S14": {
+      "empreinte": "b2969f25b2f84e31b074c6dc",
+      "wav": "audio/cache/b2969f25b2f84e31b074c6dc.wav",
+      "duree_s": 17.4,
+      "taux": 24000,
+      "mots": 54,
+      "statut": "genere",
+      "debit_mpm": 186.2,
+      "controle": {
+        "empreinte": "b2969f25b2f84e31b074c6dc",
+        "ecarts": [
+          "delete: attendu « il » / entendu «  »"
+        ]
+      }
+    },
+    "01_vie_avant_affaire/S15": {
+      "empreinte": "eb5a6bd178ee85f572293dab",
+      "wav": "audio/cache/eb5a6bd178ee85f572293dab.wav",
+      "duree_s": 15.88,
+      "taux": 24000,
+      "mots": 48,
+      "statut": "genere",
+      "debit_mpm": 181.4,
+      "controle": {
+        "empreinte": "eb5a6bd178ee85f572293dab",
+        "ecarts": []
+      }
+    },
+    "01_vie_avant_affaire/S16": {
+      "empreinte": "d0b5f4f8980352b90b9664d2",
+      "wav": "audio/cache/d0b5f4f8980352b90b9664d2.wav",
+      "duree_s": 17.24,
+      "taux": 24000,
+      "mots": 57,
+      "statut": "genere",
+      "debit_mpm": 198.4,
+      "controle": {
+        "empreinte": "d0b5f4f8980352b90b9664d2",
+        "ecarts": [
+          "replace: attendu « netsurf » / entendu « net surf »"
+        ]
+      }
+    },
+    "01_vie_avant_affaire/S17": {
+      "empreinte": "1b815266ff5d47619d1c41d1",
+      "wav": "audio/cache/1b815266ff5d47619d1c41d1.wav",
+      "duree_s": 24.64,
+      "taux": 24000,
+      "mots": 73,
+      "statut": "genere",
+      "debit_mpm": 177.8,
+      "controle": {
+        "empreinte": "1b815266ff5d47619d1c41d1",
+        "ecarts": []
+      }
+    },
+    "01_vie_avant_affaire/S18": {
+      "empreinte": "4328054f1d8400fa6325edee",
+      "wav": "audio/cache/4328054f1d8400fa6325edee.wav",
+      "duree_s": 16.36,
+      "taux": 24000,
+      "mots": 45,
+      "statut": "genere",
+      "debit_mpm": 165.0,
+      "controle": {
+        "empreinte": "4328054f1d8400fa6325edee",
+        "ecarts": []
+      }
+    },
+    "01_vie_avant_affaire/S19": {
+      "empreinte": "0e5e2d0040bc56481a1fa55d",
+      "wav": "audio/cache/0e5e2d0040bc56481a1fa55d.wav",
+      "duree_s": 11.52,
+      "taux": 24000,
+      "mots": 37,
+      "statut": "genere",
+      "debit_mpm": 192.7,
+      "controle": {
+        "empreinte": "0e5e2d0040bc56481a1fa55d",
+        "ecarts": []
+      }
+    },
+    "01_vie_avant_affaire/S20": {
+      "empreinte": "175152c357a56ce6868805cf",
+      "wav": "audio/cache/175152c357a56ce6868805cf.wav",
+      "duree_s": 17.84,
+      "taux": 24000,
+      "mots": 55,
+      "statut": "genere",
+      "debit_mpm": 185.0,
+      "controle": {
+        "empreinte": "175152c357a56ce6868805cf",
+        "ecarts": []
+      }
+    },
+    "01_vie_avant_affaire/S21": {
+      "empreinte": "68a6135c18b12e4daa62019c",
+      "wav": "audio/cache/68a6135c18b12e4daa62019c.wav",
+      "duree_s": 17.92,
+      "taux": 24000,
+      "mots": 56,
+      "statut": "genere",
+      "debit_mpm": 187.5,
+      "controle": {
+        "empreinte": "68a6135c18b12e4daa62019c",
+        "ecarts": []
+      }
+    },
+    "01_vie_avant_affaire/S22": {
+      "empreinte": "9291ae51ecf04c5fa0a77cc7",
+      "wav": "audio/cache/9291ae51ecf04c5fa0a77cc7.wav",
+      "duree_s": 20.44,
+      "taux": 24000,
+      "mots": 61,
+      "statut": "genere",
+      "debit_mpm": 179.1,
+      "controle": {
+        "empreinte": "9291ae51ecf04c5fa0a77cc7",
+        "ecarts": []
+      }
+    },
+    "01_vie_avant_affaire/S23": {
+      "empreinte": "15eaabd10b8bab68b23b0fc4",
+      "wav": "audio/cache/15eaabd10b8bab68b23b0fc4.wav",
+      "duree_s": 21.44,
+      "taux": 24000,
+      "mots": 68,
+      "statut": "genere",
+      "debit_mpm": 190.3,
+      "controle": {
+        "empreinte": "15eaabd10b8bab68b23b0fc4",
+        "ecarts": []
+      }
+    },
+    "01_vie_avant_affaire/S24": {
+      "empreinte": "beb6a3a49345ff1b7cc0015e",
+      "wav": "audio/cache/beb6a3a49345ff1b7cc0015e.wav",
+      "duree_s": 14.6,
+      "taux": 24000,
+      "mots": 42,
+      "statut": "genere",
+      "debit_mpm": 172.6,
+      "controle": {
+        "empreinte": "beb6a3a49345ff1b7cc0015e",
+        "ecarts": [
+          "replace: attendu « vue » / entendu « vu »"
+        ]
+      }
+    },
+    "01_vie_avant_affaire/S25": {
+      "empreinte": "82daef01551c2da88175bd70",
+      "wav": "audio/cache/82daef01551c2da88175bd70.wav",
+      "duree_s": 25.76,
+      "taux": 24000,
+      "mots": 75,
+      "statut": "genere",
+      "debit_mpm": 174.7,
+      "controle": {
+        "empreinte": "82daef01551c2da88175bd70",
+        "ecarts": []
+      }
+    },
+    "01_vie_avant_affaire/S26": {
+      "empreinte": "096abcd5c974258a1b9dca9a",
+      "wav": "audio/cache/096abcd5c974258a1b9dca9a.wav",
+      "duree_s": 24.84,
+      "taux": 24000,
+      "mots": 67,
+      "statut": "genere",
+      "debit_mpm": 161.8,
+      "controle": {
+        "empreinte": "096abcd5c974258a1b9dca9a",
+        "ecarts": []
+      }
+    },
+    "01_vie_avant_affaire/S27": {
+      "empreinte": "72d1e0d6c5a0e19871bc5e7a",
+      "wav": "audio/cache/72d1e0d6c5a0e19871bc5e7a.wav",
+      "duree_s": 9.4,
+      "taux": 24000,
+      "mots": 30,
+      "statut": "genere",
+      "debit_mpm": 191.5,
+      "controle": {
+        "empreinte": "72d1e0d6c5a0e19871bc5e7a",
+        "ecarts": []
+      }
+    },
+    "01_vie_avant_affaire/S28": {
+      "empreinte": "39137d315638dafcb569b456",
+      "wav": "audio/cache/39137d315638dafcb569b456.wav",
+      "duree_s": 18.76,
+      "taux": 24000,
+      "mots": 66,
+      "statut": "genere",
+      "debit_mpm": 211.1,
+      "controle": {
+        "empreinte": "39137d315638dafcb569b456",
+        "ecarts": [
+          "replace: attendu « ils » / entendu « il »",
+          "replace: attendu « avaient » / entendu « avait »",
+          "replace: attendu « problemes » / entendu « probleme »"
+        ]
+      }
+    },
+    "01_vie_avant_affaire/S29": {
+      "empreinte": "f860f4068986c5a4c4b52a75",
+      "wav": "audio/cache/f860f4068986c5a4c4b52a75.wav",
+      "duree_s": 20.44,
+      "taux": 24000,
+      "mots": 62,
+      "statut": "genere",
+      "debit_mpm": 182.0,
+      "controle": {
+        "empreinte": "f860f4068986c5a4c4b52a75",
+        "ecarts": []
+      }
+    },
+    "01_vie_avant_affaire/S30": {
+      "empreinte": "d3cd7813e1f6b5e4cdf40e31",
+      "wav": "audio/cache/d3cd7813e1f6b5e4cdf40e31.wav",
+      "duree_s": 21.68,
+      "taux": 24000,
+      "mots": 64,
+      "statut": "genere",
+      "debit_mpm": 177.1,
+      "controle": {
+        "empreinte": "d3cd7813e1f6b5e4cdf40e31",
+        "ecarts": []
+      }
+    },
+    "01_vie_avant_affaire/S31": {
+      "empreinte": "9c53240a20cd43ea6e8322a4",
+      "wav": "audio/cache/9c53240a20cd43ea6e8322a4.wav",
+      "duree_s": 18.88,
+      "taux": 24000,
+      "mots": 64,
+      "statut": "genere",
+      "debit_mpm": 203.4,
+      "controle": {
+        "empreinte": "9c53240a20cd43ea6e8322a4",
+        "ecarts": [
+          "replace: attendu « e book » / entendu « ebook »"
+        ]
+      }
+    },
+    "01_vie_avant_affaire/S32": {
+      "empreinte": "8b1e56b01c92aa7fdd321f2c",
+      "wav": "audio/cache/8b1e56b01c92aa7fdd321f2c.wav",
+      "duree_s": 12.12,
+      "taux": 24000,
+      "mots": 40,
+      "statut": "genere",
+      "debit_mpm": 198.0,
+      "controle": {
+        "empreinte": "8b1e56b01c92aa7fdd321f2c",
+        "ecarts": []
+      }
+    },
+    "03_pistes_et_verifications/S01": {
+      "empreinte": "65e7bdfdcb0c95345f5b6119",
+      "wav": "audio/cache/65e7bdfdcb0c95345f5b6119.wav",
+      "duree_s": 21.08,
+      "taux": 24000,
+      "mots": 67,
+      "statut": "genere",
+      "debit_mpm": 190.7,
+      "controle": {
+        "empreinte": "65e7bdfdcb0c95345f5b6119",
+        "ecarts": [
+          "replace: attendu « m6 » / entendu « m six »"
+        ]
+      }
+    },
+    "03_pistes_et_verifications/S02": {
+      "empreinte": "c8433fff640f2ce72eae0d34",
+      "wav": "audio/cache/c8433fff640f2ce72eae0d34.wav",
+      "duree_s": 14.84,
+      "taux": 24000,
+      "mots": 46,
+      "statut": "genere",
+      "debit_mpm": 186.0,
+      "controle": {
+        "empreinte": "c8433fff640f2ce72eae0d34",
+        "ecarts": []
+      }
+    },
+    "03_pistes_et_verifications/S03": {
+      "empreinte": "7d61d6602315c728ee0aae65",
+      "wav": "audio/cache/7d61d6602315c728ee0aae65.wav",
+      "duree_s": 18.88,
+      "taux": 24000,
+      "mots": 54,
+      "statut": "genere",
+      "debit_mpm": 171.6,
+      "controle": {
+        "empreinte": "7d61d6602315c728ee0aae65",
+        "ecarts": []
+      }
+    },
+    "03_pistes_et_verifications/S04": {
+      "empreinte": "5139c81fca36f22357e32b75",
+      "wav": "audio/cache/5139c81fca36f22357e32b75.wav",
+      "duree_s": 16.2,
+      "taux": 24000,
+      "mots": 44,
+      "statut": "genere",
+      "debit_mpm": 163.0,
+      "controle": {
+        "empreinte": "5139c81fca36f22357e32b75",
+        "ecarts": []
+      }
+    },
+    "03_pistes_et_verifications/S05": {
+      "empreinte": "5d5ef22c6207dd7ba98e00c3",
+      "wav": "audio/cache/5d5ef22c6207dd7ba98e00c3.wav",
+      "duree_s": 21.44,
+      "taux": 24000,
+      "mots": 53,
+      "statut": "genere",
+      "debit_mpm": 148.3,
+      "controle": {
+        "empreinte": "5d5ef22c6207dd7ba98e00c3",
+        "ecarts": []
+      }
+    },
+    "03_pistes_et_verifications/S06": {
+      "empreinte": "e2b3cf6672e863a25c510fb5",
+      "wav": "audio/cache/e2b3cf6672e863a25c510fb5.wav",
+      "duree_s": 22.76,
+      "taux": 24000,
+      "mots": 63,
+      "statut": "genere",
+      "debit_mpm": 166.1,
+      "controle": {
+        "empreinte": "e2b3cf6672e863a25c510fb5",
+        "ecarts": [
+          "replace: attendu « tf1 » / entendu « tf un »"
+        ]
+      }
+    },
+    "03_pistes_et_verifications/S07": {
+      "empreinte": "6e3cf26c8a6dcf140fb95f40",
+      "wav": "audio/cache/6e3cf26c8a6dcf140fb95f40.wav",
+      "duree_s": 21.08,
+      "taux": 24000,
+      "mots": 55,
+      "statut": "genere",
+      "debit_mpm": 156.5,
+      "controle": {
+        "empreinte": "6e3cf26c8a6dcf140fb95f40",
+        "ecarts": []
+      }
+    },
+    "03_pistes_et_verifications/S08": {
+      "empreinte": "afde186d3fe6945e85f2e003",
+      "wav": "audio/cache/afde186d3fe6945e85f2e003.wav",
+      "duree_s": 17.2,
+      "taux": 24000,
+      "mots": 43,
+      "statut": "genere",
+      "debit_mpm": 150.0,
+      "controle": {
+        "empreinte": "afde186d3fe6945e85f2e003",
+        "ecarts": []
+      }
+    },
+    "03_pistes_et_verifications/S09": {
+      "empreinte": "45652c430f61f3a692b9338e",
+      "wav": "audio/cache/45652c430f61f3a692b9338e.wav",
+      "duree_s": 19.56,
+      "taux": 24000,
+      "mots": 49,
+      "statut": "genere",
+      "debit_mpm": 150.3,
+      "controle": {
+        "empreinte": "45652c430f61f3a692b9338e",
+        "ecarts": []
+      }
+    },
+    "03_pistes_et_verifications/S10": {
+      "empreinte": "c44ecb8d92601b19bc4802dd",
+      "wav": "audio/cache/c44ecb8d92601b19bc4802dd.wav",
+      "duree_s": 20.04,
+      "taux": 24000,
+      "mots": 58,
+      "statut": "genere",
+      "debit_mpm": 173.7,
+      "controle": {
+        "empreinte": "c44ecb8d92601b19bc4802dd",
+        "ecarts": []
+      }
+    },
+    "03_pistes_et_verifications/S11": {
+      "empreinte": "23d164cf395fcaab82dfee57",
+      "wav": "audio/cache/23d164cf395fcaab82dfee57.wav",
+      "duree_s": 20.64,
+      "taux": 24000,
+      "mots": 61,
+      "statut": "genere",
+      "debit_mpm": 177.3,
+      "controle": {
+        "empreinte": "23d164cf395fcaab82dfee57",
+        "ecarts": []
+      }
+    },
+    "03_pistes_et_verifications/S12": {
+      "empreinte": "2b50848c7ff760df06881727",
+      "wav": "audio/cache/2b50848c7ff760df06881727.wav",
+      "duree_s": 24.28,
+      "taux": 24000,
+      "mots": 67,
+      "statut": "genere",
+      "debit_mpm": 165.6,
+      "controle": {
+        "empreinte": "2b50848c7ff760df06881727",
+        "ecarts": []
+      }
+    },
+    "03_pistes_et_verifications/S13": {
+      "empreinte": "39a8d03c16776b935d79c81b",
+      "wav": "audio/cache/39a8d03c16776b935d79c81b.wav",
+      "duree_s": 14.88,
+      "taux": 24000,
+      "mots": 42,
+      "statut": "genere",
+      "debit_mpm": 169.4,
+      "controle": {
+        "empreinte": "39a8d03c16776b935d79c81b",
+        "ecarts": [
+          "replace: attendu « franceinfo » / entendu « france info »"
+        ]
+      }
+    },
+    "03_pistes_et_verifications/S14": {
+      "empreinte": "627b803a5d9e80130c045350",
+      "wav": "audio/cache/627b803a5d9e80130c045350.wav",
+      "duree_s": 18.8,
+      "taux": 24000,
+      "mots": 49,
+      "statut": "genere",
+      "debit_mpm": 156.4,
+      "controle": {
+        "empreinte": "627b803a5d9e80130c045350",
+        "ecarts": []
+      }
+    },
+    "03_pistes_et_verifications/S15": {
+      "empreinte": "1923001209d22ce77fa8ecf7",
+      "wav": "audio/cache/1923001209d22ce77fa8ecf7.wav",
+      "duree_s": 15.28,
+      "taux": 24000,
+      "mots": 43,
+      "statut": "genere",
+      "debit_mpm": 168.8,
+      "controle": {
+        "empreinte": "1923001209d22ce77fa8ecf7",
+        "ecarts": [
+          "replace: attendu « franceinfo » / entendu « france info »"
+        ]
+      }
+    },
+    "03_pistes_et_verifications/S16": {
+      "empreinte": "15c66b20432e8b102e20afd5",
+      "wav": "audio/cache/15c66b20432e8b102e20afd5.wav",
+      "duree_s": 19.6,
+      "taux": 24000,
+      "mots": 59,
+      "statut": "genere",
+      "debit_mpm": 180.6,
+      "controle": {
+        "empreinte": "15c66b20432e8b102e20afd5",
+        "ecarts": []
+      }
+    },
+    "03_pistes_et_verifications/S17": {
+      "empreinte": "79b7833b4a1e3c135226a41f",
+      "wav": "audio/cache/79b7833b4a1e3c135226a41f.wav",
+      "duree_s": 14.72,
+      "taux": 24000,
+      "mots": 40,
+      "statut": "genere",
+      "debit_mpm": 163.0,
+      "controle": {
+        "empreinte": "79b7833b4a1e3c135226a41f",
+        "ecarts": []
+      }
+    },
+    "03_pistes_et_verifications/S18": {
+      "empreinte": "f18bf8c065caa154418c6123",
+      "wav": "audio/cache/f18bf8c065caa154418c6123.wav",
+      "duree_s": 21.92,
+      "taux": 24000,
+      "mots": 66,
+      "statut": "genere",
+      "debit_mpm": 180.7,
+      "controle": {
+        "empreinte": "f18bf8c065caa154418c6123",
+        "ecarts": [
+          "replace: attendu « m6 » / entendu « m six »",
+          "replace: attendu « parler » / entendu « parle »"
+        ]
+      }
+    },
+    "03_pistes_et_verifications/S19": {
+      "empreinte": "394c0c25e4be315ed93c6253",
+      "wav": "audio/cache/394c0c25e4be315ed93c6253.wav",
+      "duree_s": 12.12,
+      "taux": 24000,
+      "mots": 28,
+      "statut": "genere",
+      "debit_mpm": 138.6,
+      "controle": {
+        "empreinte": "394c0c25e4be315ed93c6253",
+        "ecarts": []
+      }
+    },
+    "03_pistes_et_verifications/S20": {
+      "empreinte": "976ab1d68156417c797571e0",
+      "wav": "audio/cache/976ab1d68156417c797571e0.wav",
+      "duree_s": 22.76,
+      "taux": 24000,
+      "mots": 67,
+      "statut": "genere",
+      "debit_mpm": 176.6,
+      "controle": {
+        "empreinte": "976ab1d68156417c797571e0",
+        "ecarts": [
+          "replace: attendu « m6 » / entendu « m six »",
+          "replace: attendu « vignon » / entendu « vignaud »"
+        ]
+      }
+    },
+    "03_pistes_et_verifications/S21": {
+      "empreinte": "49dffdd4f2c1a0ce6443a751",
+      "wav": "audio/cache/49dffdd4f2c1a0ce6443a751.wav",
+      "duree_s": 21.56,
+      "taux": 24000,
+      "mots": 60,
+      "statut": "genere",
+      "debit_mpm": 167.0,
+      "controle": {
+        "empreinte": "49dffdd4f2c1a0ce6443a751",
+        "ecarts": [
+          "replace: attendu « m6 » / entendu « m six »"
+        ]
+      }
+    },
+    "03_pistes_et_verifications/S22": {
+      "empreinte": "f3e10c95a6ffa0499decacf7",
+      "wav": "audio/cache/f3e10c95a6ffa0499decacf7.wav",
+      "duree_s": 19.48,
+      "taux": 24000,
+      "mots": 64,
+      "statut": "genere",
+      "debit_mpm": 197.1,
+      "controle": {
+        "empreinte": "f3e10c95a6ffa0499decacf7",
+        "ecarts": []
+      }
+    },
+    "03_pistes_et_verifications/S23": {
+      "empreinte": "a960b33b247d9dc23ef8e846",
+      "wav": "audio/cache/a960b33b247d9dc23ef8e846.wav",
+      "duree_s": 16.64,
+      "taux": 24000,
+      "mots": 46,
+      "statut": "genere",
+      "debit_mpm": 165.9,
+      "controle": {
+        "empreinte": "a960b33b247d9dc23ef8e846",
+        "ecarts": []
+      }
+    },
+    "03_pistes_et_verifications/S24": {
+      "empreinte": "40ad91beae056b1ed72331fd",
+      "wav": "audio/cache/40ad91beae056b1ed72331fd.wav",
+      "duree_s": 20.36,
+      "taux": 24000,
+      "mots": 56,
+      "statut": "genere",
+      "debit_mpm": 165.0,
+      "controle": {
+        "empreinte": "40ad91beae056b1ed72331fd",
+        "ecarts": []
+      }
+    },
+    "03_pistes_et_verifications/S25": {
+      "empreinte": "aff0ccfa26c9ecd795418598",
+      "wav": "audio/cache/aff0ccfa26c9ecd795418598.wav",
+      "duree_s": 19.0,
+      "taux": 24000,
+      "mots": 52,
+      "statut": "genere",
+      "debit_mpm": 164.2,
+      "controle": {
+        "empreinte": "aff0ccfa26c9ecd795418598",
+        "ecarts": [
+          "replace: attendu « control » / entendu « contre »"
+        ]
+      }
+    },
+    "03_pistes_et_verifications/S26": {
+      "empreinte": "75efcd47068a7ca4bb1a976a",
+      "wav": "audio/cache/75efcd47068a7ca4bb1a976a.wav",
+      "duree_s": 19.6,
+      "taux": 24000,
+      "mots": 56,
+      "statut": "genere",
+      "debit_mpm": 171.4,
+      "controle": {
+        "empreinte": "75efcd47068a7ca4bb1a976a",
+        "ecarts": [
+          "replace: attendu « m6 » / entendu « m six »"
+        ]
+      }
+    },
+    "03_pistes_et_verifications/S27": {
+      "empreinte": "751fd19cc2c8847b8d1ef6c9",
+      "wav": "audio/cache/751fd19cc2c8847b8d1ef6c9.wav",
+      "duree_s": 24.8,
+      "taux": 24000,
+      "mots": 61,
+      "statut": "genere",
+      "debit_mpm": 147.6,
+      "controle": {
+        "empreinte": "751fd19cc2c8847b8d1ef6c9",
+        "ecarts": []
+      }
+    },
+    "03_pistes_et_verifications/S28": {
+      "empreinte": "5695b20e8d8f9628c95d5982",
+      "wav": "audio/cache/5695b20e8d8f9628c95d5982.wav",
+      "duree_s": 24.24,
+      "taux": 24000,
+      "mots": 62,
+      "statut": "genere",
+      "debit_mpm": 153.5,
+      "controle": {
+        "empreinte": "5695b20e8d8f9628c95d5982",
+        "ecarts": []
+      }
+    },
+    "03_pistes_et_verifications/S29": {
+      "empreinte": "cb449b41687bdf3016549d35",
+      "wav": "audio/cache/cb449b41687bdf3016549d35.wav",
+      "duree_s": 10.48,
+      "taux": 24000,
+      "mots": 33,
+      "statut": "genere",
+      "debit_mpm": 188.9,
+      "controle": {
+        "empreinte": "cb449b41687bdf3016549d35",
+        "ecarts": []
+      }
+    },
+    "04_notre_hypothese/S01": {
+      "empreinte": "d1f29d56a873c06572384407",
+      "wav": "audio/cache/d1f29d56a873c06572384407.wav",
+      "duree_s": 18.52,
+      "taux": 24000,
+      "mots": 58,
+      "statut": "genere",
+      "debit_mpm": 187.9
+    },
+    "04_notre_hypothese/S02": {
+      "empreinte": "aa19cef4f8ff292832417d5c",
+      "wav": "audio/cache/aa19cef4f8ff292832417d5c.wav",
+      "duree_s": 20.04,
+      "taux": 24000,
+      "mots": 57,
+      "statut": "genere",
+      "debit_mpm": 170.7
+    },
+    "04_notre_hypothese/S03": {
+      "empreinte": "a77caf1e186cac60b26044ea",
+      "wav": "audio/cache/a77caf1e186cac60b26044ea.wav",
+      "duree_s": 17.48,
+      "taux": 24000,
+      "mots": 44,
+      "statut": "genere",
+      "debit_mpm": 151.0
+    },
+    "04_notre_hypothese/S04": {
+      "empreinte": "c4374bc4f79d27f45f85ff55",
+      "wav": "audio/cache/c4374bc4f79d27f45f85ff55.wav",
+      "duree_s": 25.56,
+      "taux": 24000,
+      "mots": 77,
+      "statut": "genere",
+      "debit_mpm": 180.8
+    },
+    "04_notre_hypothese/S05": {
+      "empreinte": "b74c0f7a1ba782108685e5a2",
+      "wav": "audio/cache/b74c0f7a1ba782108685e5a2.wav",
+      "duree_s": 23.84,
+      "taux": 24000,
+      "mots": 73,
+      "statut": "genere",
+      "debit_mpm": 183.7
+    },
+    "04_notre_hypothese/S06": {
+      "empreinte": "7cae083d458f8f67a2279f3b",
+      "wav": "audio/cache/7cae083d458f8f67a2279f3b.wav",
+      "duree_s": 23.96,
+      "taux": 24000,
+      "mots": 70,
+      "statut": "genere",
+      "debit_mpm": 175.3
+    },
+    "04_notre_hypothese/S07": {
+      "empreinte": "6468b2c77ca8194d064cfde1",
+      "wav": "audio/cache/6468b2c77ca8194d064cfde1.wav",
+      "duree_s": 18.04,
+      "taux": 24000,
+      "mots": 52,
+      "statut": "genere",
+      "debit_mpm": 172.9
+    },
+    "04_notre_hypothese/S08": {
+      "empreinte": "bb7c9311ef394c5364700e53",
+      "wav": "audio/cache/bb7c9311ef394c5364700e53.wav",
+      "duree_s": 24.4,
+      "taux": 24000,
+      "mots": 69,
+      "statut": "genere",
+      "debit_mpm": 169.7
+    },
+    "04_notre_hypothese/S09": {
+      "empreinte": "32392db05d6d5b8a63fc77fc",
+      "wav": "audio/cache/32392db05d6d5b8a63fc77fc.wav",
+      "duree_s": 12.72,
+      "taux": 24000,
+      "mots": 42,
+      "statut": "genere",
+      "debit_mpm": 198.1
+    },
+    "04_notre_hypothese/S10": {
+      "empreinte": "fa4847b68b13fcc2701670d9",
+      "wav": "audio/cache/fa4847b68b13fcc2701670d9.wav",
+      "duree_s": 19.4,
+      "taux": 24000,
+      "mots": 54,
+      "statut": "genere",
+      "debit_mpm": 167.0
+    },
+    "04_notre_hypothese/S11": {
+      "empreinte": "98dfc23b73e32f39cd0af61e",
+      "wav": "audio/cache/98dfc23b73e32f39cd0af61e.wav",
+      "duree_s": 19.08,
+      "taux": 24000,
+      "mots": 60,
+      "statut": "genere",
+      "debit_mpm": 188.7
+    },
+    "04_notre_hypothese/S12": {
+      "empreinte": "4462c85616a8e7c052578348",
+      "wav": "audio/cache/4462c85616a8e7c052578348.wav",
+      "duree_s": 19.84,
+      "taux": 24000,
+      "mots": 62,
+      "statut": "genere",
+      "debit_mpm": 187.5
+    },
+    "04_notre_hypothese/S13": {
+      "empreinte": "f3749d8b3ba3b037024fdbee",
+      "wav": "audio/cache/f3749d8b3ba3b037024fdbee.wav",
+      "duree_s": 18.84,
+      "taux": 24000,
+      "mots": 53,
+      "statut": "genere",
+      "debit_mpm": 168.8
+    },
+    "04_notre_hypothese/S14": {
+      "empreinte": "321e969cbbf4d8d17611a889",
+      "wav": "audio/cache/321e969cbbf4d8d17611a889.wav",
+      "duree_s": 25.92,
+      "taux": 24000,
+      "mots": 74,
+      "statut": "genere",
+      "debit_mpm": 171.3
+    },
+    "04_notre_hypothese/S15": {
+      "empreinte": "13db37b52777397ddd01fd90",
+      "wav": "audio/cache/13db37b52777397ddd01fd90.wav",
+      "duree_s": 17.2,
+      "taux": 24000,
+      "mots": 58,
+      "statut": "genere",
+      "debit_mpm": 202.3
+    },
+    "04_notre_hypothese/S16": {
+      "empreinte": "6122f78acff6dab1447ae44c",
+      "wav": "audio/cache/6122f78acff6dab1447ae44c.wav",
+      "duree_s": 25.12,
+      "taux": 24000,
+      "mots": 66,
+      "statut": "genere",
+      "debit_mpm": 157.6
+    },
+    "04_notre_hypothese/S17": {
+      "empreinte": "d97407622400b6ccae25b433",
+      "wav": "audio/cache/d97407622400b6ccae25b433.wav",
+      "duree_s": 17.16,
+      "taux": 24000,
+      "mots": 44,
+      "statut": "genere",
+      "debit_mpm": 153.8
+    },
+    "04_notre_hypothese/S18": {
+      "empreinte": "4eb901a7a829eb89ebd08dd8",
+      "wav": "audio/cache/4eb901a7a829eb89ebd08dd8.wav",
+      "duree_s": 24.84,
+      "taux": 24000,
+      "mots": 74,
+      "statut": "genere",
+      "debit_mpm": 178.7
+    },
+    "04_notre_hypothese/S19": {
+      "empreinte": "0e53ef89a80f98d149880d22",
+      "wav": "audio/cache/0e53ef89a80f98d149880d22.wav",
+      "duree_s": 22.32,
+      "taux": 24000,
+      "mots": 64,
+      "statut": "genere",
+      "debit_mpm": 172.0
+    },
+    "04_notre_hypothese/S20": {
+      "empreinte": "57952006f32bddb614c53fb3",
+      "wav": "audio/cache/57952006f32bddb614c53fb3.wav",
+      "duree_s": 16.72,
+      "taux": 24000,
+      "mots": 48,
+      "statut": "genere",
+      "debit_mpm": 172.2
+    },
+    "04_notre_hypothese/S21": {
+      "empreinte": "7cd8c8bf4b13f7a7b943e878",
+      "statut": "quota"
+    },
+    "02_avril_2011/S01": {
+      "empreinte": "02eec5716ffa4d8ed1024d3b",
+      "wav": "audio/cache/02eec5716ffa4d8ed1024d3b.wav",
+      "duree_s": 22.72,
+      "taux": 24000,
+      "mots": 65,
+      "statut": "genere",
+      "debit_mpm": 171.7
+    },
+    "02_avril_2011/S02": {
+      "empreinte": "9e227a1afd0fd75913085aa8",
+      "wav": "audio/cache/9e227a1afd0fd75913085aa8.wav",
+      "duree_s": 19.92,
+      "taux": 24000,
+      "mots": 60,
+      "statut": "genere",
+      "debit_mpm": 180.7
+    },
+    "02_avril_2011/S03": {
+      "empreinte": "110e61d340932968e6904461",
+      "statut": "quota"
+    }
+  }
+}

@@ -19,3 +19,4 @@ audio/temoin/
 montage/assets/
 montage/maquette_comparaison/hyperframes/assets/
 montage/maquette_comparaison/audio/*.wav
+audio/.production.lock
