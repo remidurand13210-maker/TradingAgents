@@ -54,11 +54,13 @@
     "source": "budget_resume.json transmis par Codex le 01/10/2026 (suivi local estimatif, pas une facture Google)"
   },
   "narration": {
-    "enveloppe_demandee_eur": null,
-    "enveloppe_accordee_eur": null,
+    "enveloppe_demandee_eur": 3.5,
+    "enveloppe_accordee_eur": 3.5,
     "registre": "audio/registre_narration.jsonl",
     "depense_cumulee_eur": 0.0,
-    "statut": "en attente de l'estimation sur les scripts définitifs"
+    "statut": "enveloppe accordée ; narration seulement des épisodes avec VALIDATION.md",
+    "scenario": "A (narration 3,00 € + contrôle voix/texte 0,50 €)",
+    "accord": "Rémi, 01/10/2026"
   },
   "autres_depenses_session": []
 }

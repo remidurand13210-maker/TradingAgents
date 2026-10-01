@@ -11,13 +11,70 @@
   "pause_defaut_s": 0.45,
   "marge_reservation": 1.5,
   "tarifs": {
-    "a_verifier": true,
-    "source": "Page modèle citée par Codex : https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash-tts ; tarifs à relire sur https://ai.google.dev/gemini-api/docs/pricing (inaccessible depuis cette session cloud)",
-    "entree_texte_usd_par_million": null,
-    "sortie_audio_usd_par_million": null,
-    "tokens_audio_par_seconde": null,
+    "a_verifier": false,
+    "source": "https://ai.google.dev/gemini-api/docs/pricing (section Gemini 3.8 Flash TTS, palier payant Standard) — lu le 01/10/2026",
+    "entree_texte_usd_par_million": 0.5,
+    "sortie_audio_usd_par_million": 9.0,
+    "tokens_audio_par_seconde": 25,
     "eur_par_usd": 0.93,
-    "reference_empirique": "3 Shorts ≈ 157 mots : 0,02487 € réservés selon le registre local (estimation, pas une facture)"
+    "note_validite": "Tarifs valables jusqu'au 31/12/2026. À partir du 01/01/2027 : 1,00 $ (entrée texte) et 18,00 $ (sortie audio) par million de tokens. Batch : 0,25 $ / 4,50 $ jusqu'au 31/12/2026.",
+    "reference_empirique": "3 Shorts ≈ 157 mots : 0,02487 € réservés selon le registre local (estimation, pas une facture)",
+    "autres_tarifs_lus": {
+      "controle_voix_texte": {
+        "modele": "Gemini 2.5 Flash (gemini-2.5-flash)",
+        "prix": 1.0,
+        "unite": "USD par million de tokens d'entrée audio (palier payant Standard) ; texte/image/vidéo 0,30 $",
+        "url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "remarque": "Gemini 3.8 Flash (gemini-3.8-flash) : entrée 0,75 $/M jusqu'au 31/12/2026 (1,50 $ dès 01/01/2027) ; tarif audio distinct non confirmé de façon cohérente à la lecture (une lecture indiquait 3,00 $/M ou 0,005 $/min audio) — à revérifier."
+      },
+      "images": [
+        {
+          "modele": "Gemini 3.1 Flash Image (Nano Banana 2, gemini-3.1-flash-image)",
+          "prix": 0.067,
+          "unite": "USD par image 1K (0,045 $ par image 0,5K)",
+          "url": "https://ai.google.dev/gemini-api/docs/pricing"
+        },
+        {
+          "modele": "Gemini 3.1 Flash Lite Image (gemini-3.1-flash-lite-image)",
+          "prix": 0.0336,
+          "unite": "USD par image 1K",
+          "url": "https://ai.google.dev/gemini-api/docs/pricing"
+        },
+        {
+          "remarque": "Aucun modèle nommé « Imagen » listé sur la page de tarifs."
+        }
+      ],
+      "video": [
+        {
+          "modele": "Veo 3.1",
+          "prix": {
+            "720p_1080p": 0.4,
+            "4k": 0.6
+          },
+          "unite": "USD par seconde de vidéo",
+          "url": "https://ai.google.dev/gemini-api/docs/pricing"
+        },
+        {
+          "modele": "Veo 3.1 Fast",
+          "prix": {
+            "720p": 0.1,
+            "1080p": 0.12,
+            "4k": 0.3
+          },
+          "unite": "USD par seconde de vidéo",
+          "url": "https://ai.google.dev/gemini-api/docs/pricing"
+        },
+        {
+          "modele": "Veo 3.1 Lite",
+          "prix": {
+            "720p": 0.05,
+            "1080p": 0.08
+          },
+          "unite": "USD par seconde de vidéo",
+          "url": "https://ai.google.dev/gemini-api/docs/pricing"
+        }
+      ]
+    }
   },
   "cle": {
     "type": "auto",
