@@ -397,6 +397,7 @@
 
 **Lacunes signalées :**
 
+- Couverture de la passe : 48 URL YouTube distinctes documentées et ouvertes ; 13 textes de vidéos examinés, dont 12 transcriptions françaises complètes et une lacunaire. Les durées des 13 programmes totalisent 35 292 secondes, soit 9 h 48 min 12 s ; ce total ne représente pas un visionnage audiovisuel. Catalogue réparti dans youtube_archives_entretiens_codex.json, youtube_documentaires_biographies_codex.json et youtube_pistes_2024_2026_codex.json ; doublons de liens dédupliqués, pas tous les remontages.
 - Repérage large en français et en anglais, sans garantie d'exhaustivité de toutes les vidéos YouTube, republications ou suppressions.
 - Les transcriptions ont été lues ; les images, la mise en scène, la musique et l'audio ne sont pas analysés. Aucun média audiovisuel n'a été téléchargé.
 - Les noms, dates et montants des sous-titres automatiques peuvent être erronés ; contrôler toute information retenue dans une pièce ou une source indépendante.
