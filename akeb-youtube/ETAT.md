@@ -11,7 +11,7 @@ Statuts : préparé · généré · contrôlé · envoyé · soumis · publié �
 |---|---|---|
 | Dossier documentaire | **recherche Codex reçue** (11 dossiers, 143 sources lues intégralement) ; fusion faite : 250 sources, 285 assertions ; voir `recherche/AUDIT_CODEX.md`. Ancien état : partiel, à revérifier | 102 sources, 103 assertions, avec leur provenance : `bio_jeunesse` (extraits de moteur, session cloud) et 4 thèmes Bionic (LM Studio, 24 sources lues partiellement, non revérifiées ; voir `recherche/contre_verif/AUDIT_BIONIC.md`). Il manque : famille, travail et finances, découverte et enquête, pistes 2011-2019 (dont Glasgow), plateformes, emplacements. |
 | Scripts des 4 épisodes + bande-annonce | **v1 écrits et validés** (01/10/2026, environnement Akeb) | 00 : 190 mots ; 01 : 1 711 ; 02 : 1 786 ; 03 : 1 544 ; 04 : 1 712 (total 6 943). `VERIFICATION_V1.md` et `VALIDATION.md` par épisode ; pages relues le 01/10 quand le réseau l'a permis, sinon lecture intégrale Codex. Ligne de l'épisode 4 **tranchée par Rémi** : « Un décès survenu après la disparition d'avril 2011 me paraît plus plausible qu'une fuite durable, à l'étranger ou plus près ; ni l'un ni l'autre n'est démontré. » Liste `CONTROLE_AVANT_PUBLICATION.md` à cocher pour chaque vidéo. |
-| Narration Gemini 3.8 (Algieba, confirmée par Rémi) | **en cours** (89/133 segments ; voir « Production réelle ») — **enveloppe accordée** (`DEMANDE_ENVELOPPE.md`, scénario A 3,50 €, accord de Rémi le 01/10 ; tarif officiel lu : 0,50 $/M texte, 9 $/M audio, doublement le 01/01/2027) | Accès **vérifié dans l'environnement Akeb** (test non génératif réussi, aucun audio). Default reste sans identifiant. L'outil gère le mode proxy (clé ajoutée après la VM, `GEMINI_API_KEY` absente). Chiffrage après les scripts ; narration refusée sans `VALIDATION.md`. |
+| Narration Gemini 3.8 (Algieba, confirmée par Rémi) | **terminée** (133/133 segments) — **enveloppe accordée** (`DEMANDE_ENVELOPPE.md`, scénario A 3,50 €, accord de Rémi le 01/10 ; tarif officiel lu : 0,50 $/M texte, 9 $/M audio, doublement le 01/01/2027) | Accès **vérifié dans l'environnement Akeb** (test non génératif réussi, aucun audio). Default reste sans identifiant. L'outil gère le mode proxy (clé ajoutée après la VM, `GEMINI_API_KEY` absente). Chiffrage après les scripts ; narration refusée sans `VALIDATION.md`. |
 | Outils de montage et de contrôle | contrôlé | Testés de bout en bout ; sous-titres alignés sur la voix réelle ; moteur d'animation local. Maquette de comparaison de 27,1 s (moteur Python ou HyperFrames) produite en vrai MP4 1080p : voir `montage/maquette_comparaison/COMPARAISON.md`. **HyperFrames validé par Rémi le 01/10/2026** pour le rendu animé (gabarits pilotés par les storyboards) ; le moteur Python reste en secours. |
 | Musique | généré | 3 nappes originales (`audio/musique/`, hors Git). |
 | Identité visuelle | contrôlé | Avatar 800×800 et bannière 2560×1440 prêts **à installer** sur la chaîne. |
@@ -26,13 +26,13 @@ Statuts : préparé · généré · contrôlé · envoyé · soumis · publié �
 
 | Vidéo | Script | Voix (Algieba) | Contrôle voix/texte | Montage HyperFrames | Contrôle technique | Publication |
 |---|---|---|---|---|---|---|
-| 00 Bande-annonce | v1 validé | 7/7 segments | fait, sans vrai défaut | rendu 84 s | conforme | MP4 hors Git, envoyé à Rémi ; à transmettre |
-| 01 Avant 2011 | v1 validé (57 phrases relues) | 32/32 | fait, sans vrai défaut | rendu 10 min 09 | conforme | **dossier livré** (`exports/publication/01_vie_avant_affaire/`, commit d33c7f5) ; **import privé en cours par Codex** dans le Studio |
-| 02 Avril 2011 | v1 validé (relecture stricte) | 1/37 | — | — | — | **bloqué : quota Gemini TTS** (100 requêtes/jour, Tier 1), reprise automatique le 02/10 vers 00:12 UTC |
-| 03 Après la disparition | v1 validé | 29/29 | fait (écarts de transcription seulement) | rendu 9 min 39 | conforme | prêt ; dossier de publication à préparer |
-| 04 Mort ou en fuite ? | v1 validé | 20/28 | — | — | — | **bloqué : quota Gemini TTS**, même reprise |
+| 00 Bande-annonce | v1 validé | 7/7 | fait | rendu 84 s | conforme | **dossier livré** (`exports/publication/00_bande_annonce/`) ; import par Codex |
+| 01 Avant 2011 | v1 validé (57 phrases relues) | 32/32 | fait | rendu 10 min 09 | conforme | **dossier livré** (d33c7f5) ; **import privé en cours par Codex** |
+| 02 Avril 2011 | v1 validé (relecture stricte) | 37/37 | fait | rendu 10 min 27 | conforme | **dossier livré** (`exports/publication/02_avril_2011/`) |
+| 03 Après la disparition | v1 validé | 29/29 | fait | rendu 9 min 39 (corrigé) | conforme | **dossier livré** ; reste privé tant que le 2 n'est pas public |
+| 04 Mort ou en fuite ? | v1 validé | 28/28 (S01 régénéré : « dix ans » lu au lieu de « quinze ») | fait | rendu 10 min 14 | conforme | **dossier livré** ; publié en dernier |
 
-Dépense narration + contrôle : **0,714 €** sur l'enveloppe de 3,50 € (registre `audio/registre_narration.jsonl`).
+Dépense narration + contrôle : **0,91 €** sur l'enveloppe de 3,50 € (registre `audio/registre_narration.jsonl`).
 Les WAV, MP4 complets et la musique sont **hors Git** (conteneur temporaire) ; seuls les dossiers de publication contiennent la vidéo.
 Défaut évité : en mode « prompt », la voix lisait la consigne anglaise ; corrigé par l'API Interactions (style en métadonnée) et détecté par `outils/controle_voix.py`.
 
@@ -43,7 +43,7 @@ Défaut évité : en mode « prompt », la voix lisait la consigne anglaise ; co
 | Livre (API) | 1,409 € réservés | registre local transmis (estimation, pas une facture) |
 | Shorts (API) | 0,025 € réservés | idem |
 | Total sur le plafond de 5 € | 1,434 € | jamais remis à zéro |
-| Narration des documentaires | 0,714 € | enveloppe de 3,50 € accordée le 01/10 |
+| Narration des documentaires | 0,91 € | enveloppe de 3,50 € accordée le 01/10 |
 | Publicité Meta | 50 € engagés (dépense réelle à relever) | transmission de Codex |
 | Publicité Google | 0 € constaté | non inspecté |
 | Session cloud Akeb | voir narration | uniquement narration et contrôle Gemini, dans l’enveloppe |
