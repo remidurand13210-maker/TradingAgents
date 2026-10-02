@@ -934,11 +934,18 @@
     "04_notre_hypothese/S01": {
       "empreinte": "d1f29d56a873c06572384407",
       "wav": "audio/cache/d1f29d56a873c06572384407.wav",
-      "duree_s": 18.52,
+      "duree_s": 18.72,
       "taux": 24000,
       "mots": 58,
       "statut": "genere",
-      "debit_mpm": 187.9
+      "debit_mpm": 185.9,
+      "controle": {
+        "empreinte": "d1f29d56a873c06572384407",
+        "ecarts": [
+          "replace: attendu « seize heures » / entendu « 16 h »",
+          "replace: attendu « quinze » / entendu « 15 »"
+        ]
+      }
     },
     "04_notre_hypothese/S02": {
       "empreinte": "aa19cef4f8ff292832417d5c",
@@ -947,7 +954,11 @@
       "taux": 24000,
       "mots": 57,
       "statut": "genere",
-      "debit_mpm": 170.7
+      "debit_mpm": 170.7,
+      "controle": {
+        "empreinte": "aa19cef4f8ff292832417d5c",
+        "ecarts": []
+      }
     },
     "04_notre_hypothese/S03": {
       "empreinte": "a77caf1e186cac60b26044ea",
@@ -956,7 +967,11 @@
       "taux": 24000,
       "mots": 44,
       "statut": "genere",
-      "debit_mpm": 151.0
+      "debit_mpm": 151.0,
+      "controle": {
+        "empreinte": "a77caf1e186cac60b26044ea",
+        "ecarts": []
+      }
     },
     "04_notre_hypothese/S04": {
       "empreinte": "c4374bc4f79d27f45f85ff55",
@@ -965,7 +980,11 @@
       "taux": 24000,
       "mots": 77,
       "statut": "genere",
-      "debit_mpm": 180.8
+      "debit_mpm": 180.8,
+      "controle": {
+        "empreinte": "c4374bc4f79d27f45f85ff55",
+        "ecarts": []
+      }
     },
     "04_notre_hypothese/S05": {
       "empreinte": "b74c0f7a1ba782108685e5a2",
@@ -974,7 +993,11 @@
       "taux": 24000,
       "mots": 73,
       "statut": "genere",
-      "debit_mpm": 183.7
+      "debit_mpm": 183.7,
+      "controle": {
+        "empreinte": "b74c0f7a1ba782108685e5a2",
+        "ecarts": []
+      }
     },
     "04_notre_hypothese/S06": {
       "empreinte": "7cae083d458f8f67a2279f3b",
@@ -983,7 +1006,11 @@
       "taux": 24000,
       "mots": 70,
       "statut": "genere",
-      "debit_mpm": 175.3
+      "debit_mpm": 175.3,
+      "controle": {
+        "empreinte": "7cae083d458f8f67a2279f3b",
+        "ecarts": []
+      }
     },
     "04_notre_hypothese/S07": {
       "empreinte": "6468b2c77ca8194d064cfde1",
@@ -992,7 +1019,11 @@
       "taux": 24000,
       "mots": 52,
       "statut": "genere",
-      "debit_mpm": 172.9
+      "debit_mpm": 172.9,
+      "controle": {
+        "empreinte": "6468b2c77ca8194d064cfde1",
+        "ecarts": []
+      }
     },
     "04_notre_hypothese/S08": {
       "empreinte": "bb7c9311ef394c5364700e53",
@@ -1001,7 +1032,11 @@
       "taux": 24000,
       "mots": 69,
       "statut": "genere",
-      "debit_mpm": 169.7
+      "debit_mpm": 169.7,
+      "controle": {
+        "empreinte": "bb7c9311ef394c5364700e53",
+        "ecarts": []
+      }
     },
     "04_notre_hypothese/S09": {
       "empreinte": "32392db05d6d5b8a63fc77fc",
@@ -1010,7 +1045,11 @@
       "taux": 24000,
       "mots": 42,
       "statut": "genere",
-      "debit_mpm": 198.1
+      "debit_mpm": 198.1,
+      "controle": {
+        "empreinte": "32392db05d6d5b8a63fc77fc",
+        "ecarts": []
+      }
     },
     "04_notre_hypothese/S10": {
       "empreinte": "fa4847b68b13fcc2701670d9",
@@ -1019,7 +1058,11 @@
       "taux": 24000,
       "mots": 54,
       "statut": "genere",
-      "debit_mpm": 167.0
+      "debit_mpm": 167.0,
+      "controle": {
+        "empreinte": "fa4847b68b13fcc2701670d9",
+        "ecarts": []
+      }
     },
     "04_notre_hypothese/S11": {
       "empreinte": "98dfc23b73e32f39cd0af61e",
@@ -1028,7 +1071,11 @@
       "taux": 24000,
       "mots": 60,
       "statut": "genere",
-      "debit_mpm": 188.7
+      "debit_mpm": 188.7,
+      "controle": {
+        "empreinte": "98dfc23b73e32f39cd0af61e",
+        "ecarts": []
+      }
     },
     "04_notre_hypothese/S12": {
       "empreinte": "4462c85616a8e7c052578348",
@@ -1037,7 +1084,11 @@
       "taux": 24000,
       "mots": 62,
       "statut": "genere",
-      "debit_mpm": 187.5
+      "debit_mpm": 187.5,
+      "controle": {
+        "empreinte": "4462c85616a8e7c052578348",
+        "ecarts": []
+      }
     },
     "04_notre_hypothese/S13": {
       "empreinte": "f3749d8b3ba3b037024fdbee",
@@ -1046,7 +1097,13 @@
       "taux": 24000,
       "mots": 53,
       "statut": "genere",
-      "debit_mpm": 168.8
+      "debit_mpm": 168.8,
+      "controle": {
+        "empreinte": "f3749d8b3ba3b037024fdbee",
+        "ecarts": [
+          "replace: attendu « galloux » / entendu « gayet »"
+        ]
+      }
     },
     "04_notre_hypothese/S14": {
       "empreinte": "321e969cbbf4d8d17611a889",
@@ -1055,7 +1112,13 @@
       "taux": 24000,
       "mots": 74,
       "statut": "genere",
-      "debit_mpm": 171.3
+      "debit_mpm": 171.3,
+      "controle": {
+        "empreinte": "321e969cbbf4d8d17611a889",
+        "ecarts": [
+          "delete: attendu « de » / entendu «  »"
+        ]
+      }
     },
     "04_notre_hypothese/S15": {
       "empreinte": "13db37b52777397ddd01fd90",
@@ -1064,7 +1127,11 @@
       "taux": 24000,
       "mots": 58,
       "statut": "genere",
-      "debit_mpm": 202.3
+      "debit_mpm": 202.3,
+      "controle": {
+        "empreinte": "13db37b52777397ddd01fd90",
+        "ecarts": []
+      }
     },
     "04_notre_hypothese/S16": {
       "empreinte": "6122f78acff6dab1447ae44c",
@@ -1073,7 +1140,11 @@
       "taux": 24000,
       "mots": 66,
       "statut": "genere",
-      "debit_mpm": 157.6
+      "debit_mpm": 157.6,
+      "controle": {
+        "empreinte": "6122f78acff6dab1447ae44c",
+        "ecarts": []
+      }
     },
     "04_notre_hypothese/S17": {
       "empreinte": "d97407622400b6ccae25b433",
@@ -1082,7 +1153,11 @@
       "taux": 24000,
       "mots": 44,
       "statut": "genere",
-      "debit_mpm": 153.8
+      "debit_mpm": 153.8,
+      "controle": {
+        "empreinte": "d97407622400b6ccae25b433",
+        "ecarts": []
+      }
     },
     "04_notre_hypothese/S18": {
       "empreinte": "4eb901a7a829eb89ebd08dd8",
@@ -1091,7 +1166,11 @@
       "taux": 24000,
       "mots": 74,
       "statut": "genere",
-      "debit_mpm": 178.7
+      "debit_mpm": 178.7,
+      "controle": {
+        "empreinte": "4eb901a7a829eb89ebd08dd8",
+        "ecarts": []
+      }
     },
     "04_notre_hypothese/S19": {
       "empreinte": "0e53ef89a80f98d149880d22",
@@ -1100,7 +1179,11 @@
       "taux": 24000,
       "mots": 64,
       "statut": "genere",
-      "debit_mpm": 172.0
+      "debit_mpm": 172.0,
+      "controle": {
+        "empreinte": "0e53ef89a80f98d149880d22",
+        "ecarts": []
+      }
     },
     "04_notre_hypothese/S20": {
       "empreinte": "57952006f32bddb614c53fb3",
@@ -1109,7 +1192,11 @@
       "taux": 24000,
       "mots": 48,
       "statut": "genere",
-      "debit_mpm": 172.2
+      "debit_mpm": 172.2,
+      "controle": {
+        "empreinte": "57952006f32bddb614c53fb3",
+        "ecarts": []
+      }
     },
     "04_notre_hypothese/S21": {
       "empreinte": "7cd8c8bf4b13f7a7b943e878",
@@ -1118,7 +1205,11 @@
       "taux": 24000,
       "mots": 55,
       "statut": "genere",
-      "debit_mpm": 183.3
+      "debit_mpm": 183.3,
+      "controle": {
+        "empreinte": "7cd8c8bf4b13f7a7b943e878",
+        "ecarts": []
+      }
     },
     "02_avril_2011/S01": {
       "empreinte": "02eec5716ffa4d8ed1024d3b",
@@ -1127,7 +1218,11 @@
       "taux": 24000,
       "mots": 65,
       "statut": "genere",
-      "debit_mpm": 171.7
+      "debit_mpm": 171.7,
+      "controle": {
+        "empreinte": "02eec5716ffa4d8ed1024d3b",
+        "ecarts": []
+      }
     },
     "02_avril_2011/S02": {
       "empreinte": "9e227a1afd0fd75913085aa8",
@@ -1136,11 +1231,24 @@
       "taux": 24000,
       "mots": 60,
       "statut": "genere",
-      "debit_mpm": 180.7
+      "debit_mpm": 180.7,
+      "controle": {
+        "empreinte": "9e227a1afd0fd75913085aa8",
+        "ecarts": []
+      }
     },
     "02_avril_2011/S03": {
       "empreinte": "110e61d340932968e6904461",
-      "statut": "quota"
+      "wav": "audio/cache/110e61d340932968e6904461.wav",
+      "duree_s": 12.76,
+      "taux": 24000,
+      "mots": 37,
+      "statut": "genere",
+      "debit_mpm": 174.0,
+      "controle": {
+        "empreinte": "110e61d340932968e6904461",
+        "ecarts": []
+      }
     },
     "04_notre_hypothese/S22": {
       "empreinte": "0548fa9c148d1b26519e795a",
@@ -1149,7 +1257,11 @@
       "taux": 24000,
       "mots": 70,
       "statut": "genere",
-      "debit_mpm": 172.7
+      "debit_mpm": 172.7,
+      "controle": {
+        "empreinte": "0548fa9c148d1b26519e795a",
+        "ecarts": []
+      }
     },
     "04_notre_hypothese/S23": {
       "empreinte": "2c3279c52c358d7d78021e82",
@@ -1158,11 +1270,529 @@
       "taux": 24000,
       "mots": 76,
       "statut": "genere",
-      "debit_mpm": 182.7
+      "debit_mpm": 182.7,
+      "controle": {
+        "empreinte": "2c3279c52c358d7d78021e82",
+        "ecarts": []
+      }
     },
     "04_notre_hypothese/S24": {
       "empreinte": "d61b278c16b79256a185b36d",
-      "statut": "quota"
+      "wav": "audio/cache/d61b278c16b79256a185b36d.wav",
+      "duree_s": 27.48,
+      "taux": 24000,
+      "mots": 78,
+      "statut": "genere",
+      "debit_mpm": 170.3,
+      "controle": {
+        "empreinte": "d61b278c16b79256a185b36d",
+        "ecarts": [
+          "replace: attendu « galloux » / entendu « gallut »"
+        ]
+      }
+    },
+    "04_notre_hypothese/S25": {
+      "empreinte": "f855e60d06974bf8f07313e7",
+      "wav": "audio/cache/f855e60d06974bf8f07313e7.wav",
+      "duree_s": 24.64,
+      "taux": 24000,
+      "mots": 71,
+      "statut": "genere",
+      "debit_mpm": 172.9,
+      "controle": {
+        "empreinte": "f855e60d06974bf8f07313e7",
+        "ecarts": []
+      }
+    },
+    "04_notre_hypothese/S26": {
+      "empreinte": "26799dbd41ddd71d36808621",
+      "wav": "audio/cache/26799dbd41ddd71d36808621.wav",
+      "duree_s": 20.88,
+      "taux": 24000,
+      "mots": 59,
+      "statut": "genere",
+      "debit_mpm": 169.5,
+      "controle": {
+        "empreinte": "26799dbd41ddd71d36808621",
+        "ecarts": []
+      }
+    },
+    "04_notre_hypothese/S27": {
+      "empreinte": "4638c9d6cf96763635da2722",
+      "wav": "audio/cache/4638c9d6cf96763635da2722.wav",
+      "duree_s": 15.52,
+      "taux": 24000,
+      "mots": 48,
+      "statut": "genere",
+      "debit_mpm": 185.6,
+      "controle": {
+        "empreinte": "4638c9d6cf96763635da2722",
+        "ecarts": []
+      }
+    },
+    "04_notre_hypothese/S28": {
+      "empreinte": "77f6e28c5fd3ca4d057f1771",
+      "wav": "audio/cache/77f6e28c5fd3ca4d057f1771.wav",
+      "duree_s": 22.68,
+      "taux": 24000,
+      "mots": 56,
+      "statut": "genere",
+      "debit_mpm": 148.1,
+      "controle": {
+        "empreinte": "77f6e28c5fd3ca4d057f1771",
+        "ecarts": []
+      }
+    },
+    "02_avril_2011/S04": {
+      "empreinte": "bbe408fd482360a8c6def591",
+      "wav": "audio/cache/bbe408fd482360a8c6def591.wav",
+      "duree_s": 19.56,
+      "taux": 24000,
+      "mots": 61,
+      "statut": "genere",
+      "debit_mpm": 187.1,
+      "controle": {
+        "empreinte": "bbe408fd482360a8c6def591",
+        "ecarts": []
+      }
+    },
+    "02_avril_2011/S05": {
+      "empreinte": "b7b49450f1141a8ad302c929",
+      "wav": "audio/cache/b7b49450f1141a8ad302c929.wav",
+      "duree_s": 11.28,
+      "taux": 24000,
+      "mots": 38,
+      "statut": "genere",
+      "debit_mpm": 202.1,
+      "controle": {
+        "empreinte": "b7b49450f1141a8ad302c929",
+        "ecarts": []
+      }
+    },
+    "02_avril_2011/S06": {
+      "empreinte": "b44f3e8fd476c62e1a50e2ec",
+      "wav": "audio/cache/b44f3e8fd476c62e1a50e2ec.wav",
+      "duree_s": 19.04,
+      "taux": 24000,
+      "mots": 57,
+      "statut": "genere",
+      "debit_mpm": 179.6,
+      "controle": {
+        "empreinte": "b44f3e8fd476c62e1a50e2ec",
+        "ecarts": []
+      }
+    },
+    "02_avril_2011/S07": {
+      "empreinte": "67203164c0103bce93d30deb",
+      "wav": "audio/cache/67203164c0103bce93d30deb.wav",
+      "duree_s": 18.6,
+      "taux": 24000,
+      "mots": 56,
+      "statut": "genere",
+      "debit_mpm": 180.6,
+      "controle": {
+        "empreinte": "67203164c0103bce93d30deb",
+        "ecarts": []
+      }
+    },
+    "02_avril_2011/S08": {
+      "empreinte": "f365491edec0f72e821095a3",
+      "wav": "audio/cache/f365491edec0f72e821095a3.wav",
+      "duree_s": 22.24,
+      "taux": 24000,
+      "mots": 70,
+      "statut": "genere",
+      "debit_mpm": 188.8,
+      "controle": {
+        "empreinte": "f365491edec0f72e821095a3",
+        "ecarts": []
+      }
+    },
+    "02_avril_2011/S09": {
+      "empreinte": "4782c2b560b4e4a9ea80e8ab",
+      "wav": "audio/cache/4782c2b560b4e4a9ea80e8ab.wav",
+      "duree_s": 17.04,
+      "taux": 24000,
+      "mots": 45,
+      "statut": "genere",
+      "debit_mpm": 158.5,
+      "controle": {
+        "empreinte": "4782c2b560b4e4a9ea80e8ab",
+        "ecarts": [
+          "replace: attendu « ces jours concernent » / entendu « ce sejour concerne »"
+        ]
+      }
+    },
+    "02_avril_2011/S10": {
+      "empreinte": "be5f4eca6bbba390c9297897",
+      "wav": "audio/cache/be5f4eca6bbba390c9297897.wav",
+      "duree_s": 20.92,
+      "taux": 24000,
+      "mots": 51,
+      "statut": "genere",
+      "debit_mpm": 146.3,
+      "controle": {
+        "empreinte": "be5f4eca6bbba390c9297897",
+        "ecarts": []
+      }
+    },
+    "02_avril_2011/S11": {
+      "empreinte": "cb40867e7ca0c74b43f46b18",
+      "wav": "audio/cache/cb40867e7ca0c74b43f46b18.wav",
+      "duree_s": 16.88,
+      "taux": 24000,
+      "mots": 48,
+      "statut": "genere",
+      "debit_mpm": 170.6,
+      "controle": {
+        "empreinte": "cb40867e7ca0c74b43f46b18",
+        "ecarts": []
+      }
+    },
+    "02_avril_2011/S12": {
+      "empreinte": "41f8a5711ffd513a156c233a",
+      "wav": "audio/cache/41f8a5711ffd513a156c233a.wav",
+      "duree_s": 12.6,
+      "taux": 24000,
+      "mots": 40,
+      "statut": "genere",
+      "debit_mpm": 190.5,
+      "controle": {
+        "empreinte": "41f8a5711ffd513a156c233a",
+        "ecarts": []
+      }
+    },
+    "02_avril_2011/S13": {
+      "empreinte": "2c7c7fab8541d2c45059a86f",
+      "wav": "audio/cache/2c7c7fab8541d2c45059a86f.wav",
+      "duree_s": 12.12,
+      "taux": 24000,
+      "mots": 35,
+      "statut": "genere",
+      "debit_mpm": 173.3,
+      "controle": {
+        "empreinte": "2c7c7fab8541d2c45059a86f",
+        "ecarts": []
+      }
+    },
+    "02_avril_2011/S14": {
+      "empreinte": "e4a41448a943f646c224feb7",
+      "wav": "audio/cache/e4a41448a943f646c224feb7.wav",
+      "duree_s": 12.28,
+      "taux": 24000,
+      "mots": 39,
+      "statut": "genere",
+      "debit_mpm": 190.6,
+      "controle": {
+        "empreinte": "e4a41448a943f646c224feb7",
+        "ecarts": []
+      }
+    },
+    "02_avril_2011/S15": {
+      "empreinte": "65a975afe7d464863fdc918d",
+      "wav": "audio/cache/65a975afe7d464863fdc918d.wav",
+      "duree_s": 19.88,
+      "taux": 24000,
+      "mots": 68,
+      "statut": "genere",
+      "debit_mpm": 205.2,
+      "controle": {
+        "empreinte": "65a975afe7d464863fdc918d",
+        "ecarts": []
+      }
+    },
+    "02_avril_2011/S16": {
+      "empreinte": "33f06e98a3d10e1149642581",
+      "wav": "audio/cache/33f06e98a3d10e1149642581.wav",
+      "duree_s": 7.96,
+      "taux": 24000,
+      "mots": 25,
+      "statut": "genere",
+      "debit_mpm": 188.4,
+      "controle": {
+        "empreinte": "33f06e98a3d10e1149642581",
+        "ecarts": []
+      }
+    },
+    "02_avril_2011/S17": {
+      "empreinte": "b9a452e1d57e33984f96e556",
+      "wav": "audio/cache/b9a452e1d57e33984f96e556.wav",
+      "duree_s": 16.64,
+      "taux": 24000,
+      "mots": 56,
+      "statut": "genere",
+      "debit_mpm": 201.9,
+      "controle": {
+        "empreinte": "b9a452e1d57e33984f96e556",
+        "ecarts": []
+      }
+    },
+    "02_avril_2011/S18": {
+      "empreinte": "e0b14e39bdda1be24a933be7",
+      "wav": "audio/cache/e0b14e39bdda1be24a933be7.wav",
+      "duree_s": 24.12,
+      "taux": 24000,
+      "mots": 71,
+      "statut": "genere",
+      "debit_mpm": 176.6,
+      "controle": {
+        "empreinte": "e0b14e39bdda1be24a933be7",
+        "ecarts": []
+      }
+    },
+    "02_avril_2011/S19": {
+      "empreinte": "1c08f36cc4a2b8ec05e462bf",
+      "wav": "audio/cache/1c08f36cc4a2b8ec05e462bf.wav",
+      "duree_s": 11.12,
+      "taux": 24000,
+      "mots": 31,
+      "statut": "genere",
+      "debit_mpm": 167.3,
+      "controle": {
+        "empreinte": "1c08f36cc4a2b8ec05e462bf",
+        "ecarts": []
+      }
+    },
+    "02_avril_2011/S20": {
+      "empreinte": "88a1a98748959d3fa5443db6",
+      "wav": "audio/cache/88a1a98748959d3fa5443db6.wav",
+      "duree_s": 23.84,
+      "taux": 24000,
+      "mots": 68,
+      "statut": "genere",
+      "debit_mpm": 171.1,
+      "controle": {
+        "empreinte": "88a1a98748959d3fa5443db6",
+        "ecarts": [
+          "replace: attendu « et le » / entendu « el »"
+        ]
+      }
+    },
+    "02_avril_2011/S21": {
+      "empreinte": "80d699463eb055480110bea9",
+      "wav": "audio/cache/80d699463eb055480110bea9.wav",
+      "duree_s": 17.32,
+      "taux": 24000,
+      "mots": 54,
+      "statut": "genere",
+      "debit_mpm": 187.1,
+      "controle": {
+        "empreinte": "80d699463eb055480110bea9",
+        "ecarts": []
+      }
+    },
+    "02_avril_2011/S22": {
+      "empreinte": "4d167fdab2a5d2f9dffee195",
+      "wav": "audio/cache/4d167fdab2a5d2f9dffee195.wav",
+      "duree_s": 13.04,
+      "taux": 24000,
+      "mots": 38,
+      "statut": "genere",
+      "debit_mpm": 174.8,
+      "controle": {
+        "empreinte": "4d167fdab2a5d2f9dffee195",
+        "ecarts": []
+      }
+    },
+    "02_avril_2011/S23": {
+      "empreinte": "93c8b62064ebd597c2f3d515",
+      "wav": "audio/cache/93c8b62064ebd597c2f3d515.wav",
+      "duree_s": 16.2,
+      "taux": 24000,
+      "mots": 50,
+      "statut": "genere",
+      "debit_mpm": 185.2,
+      "controle": {
+        "empreinte": "93c8b62064ebd597c2f3d515",
+        "ecarts": []
+      }
+    },
+    "02_avril_2011/S24": {
+      "empreinte": "0abeea0170678bf0380af46a",
+      "wav": "audio/cache/0abeea0170678bf0380af46a.wav",
+      "duree_s": 14.32,
+      "taux": 24000,
+      "mots": 50,
+      "statut": "genere",
+      "debit_mpm": 209.5,
+      "controle": {
+        "empreinte": "0abeea0170678bf0380af46a",
+        "ecarts": []
+      }
+    },
+    "02_avril_2011/S25": {
+      "empreinte": "fe7e171c4203b978169e5a98",
+      "wav": "audio/cache/fe7e171c4203b978169e5a98.wav",
+      "duree_s": 13.92,
+      "taux": 24000,
+      "mots": 43,
+      "statut": "genere",
+      "debit_mpm": 185.3,
+      "controle": {
+        "empreinte": "fe7e171c4203b978169e5a98",
+        "ecarts": []
+      }
+    },
+    "02_avril_2011/S26": {
+      "empreinte": "ab0b61a753dc7989af94eaa4",
+      "wav": "audio/cache/ab0b61a753dc7989af94eaa4.wav",
+      "duree_s": 17.92,
+      "taux": 24000,
+      "mots": 55,
+      "statut": "genere",
+      "debit_mpm": 184.2,
+      "controle": {
+        "empreinte": "ab0b61a753dc7989af94eaa4",
+        "ecarts": []
+      }
+    },
+    "02_avril_2011/S27": {
+      "empreinte": "c57b4a90dabc89b816c3268a",
+      "wav": "audio/cache/c57b4a90dabc89b816c3268a.wav",
+      "duree_s": 13.24,
+      "taux": 24000,
+      "mots": 40,
+      "statut": "genere",
+      "debit_mpm": 181.3,
+      "controle": {
+        "empreinte": "c57b4a90dabc89b816c3268a",
+        "ecarts": []
+      }
+    },
+    "02_avril_2011/S28": {
+      "empreinte": "7f7ca33ef6fe6cbe18e2508b",
+      "wav": "audio/cache/7f7ca33ef6fe6cbe18e2508b.wav",
+      "duree_s": 11.56,
+      "taux": 24000,
+      "mots": 38,
+      "statut": "genere",
+      "debit_mpm": 197.2,
+      "controle": {
+        "empreinte": "7f7ca33ef6fe6cbe18e2508b",
+        "ecarts": []
+      }
+    },
+    "02_avril_2011/S29": {
+      "empreinte": "534ab45f9978a09c5014fd9a",
+      "wav": "audio/cache/534ab45f9978a09c5014fd9a.wav",
+      "duree_s": 9.6,
+      "taux": 24000,
+      "mots": 26,
+      "statut": "genere",
+      "debit_mpm": 162.5,
+      "controle": {
+        "empreinte": "534ab45f9978a09c5014fd9a",
+        "ecarts": []
+      }
+    },
+    "02_avril_2011/S30": {
+      "empreinte": "d63b4083ac19c47fed7d3dae",
+      "wav": "audio/cache/d63b4083ac19c47fed7d3dae.wav",
+      "duree_s": 19.28,
+      "taux": 24000,
+      "mots": 59,
+      "statut": "genere",
+      "debit_mpm": 183.6,
+      "controle": {
+        "empreinte": "d63b4083ac19c47fed7d3dae",
+        "ecarts": []
+      }
+    },
+    "02_avril_2011/S31": {
+      "empreinte": "f5e52f74f4e7c6d85bba6766",
+      "wav": "audio/cache/f5e52f74f4e7c6d85bba6766.wav",
+      "duree_s": 17.0,
+      "taux": 24000,
+      "mots": 48,
+      "statut": "genere",
+      "debit_mpm": 169.4,
+      "controle": {
+        "empreinte": "f5e52f74f4e7c6d85bba6766",
+        "ecarts": []
+      }
+    },
+    "02_avril_2011/S32": {
+      "empreinte": "d82af2e9ec6096499f98d9c0",
+      "wav": "audio/cache/d82af2e9ec6096499f98d9c0.wav",
+      "duree_s": 12.2,
+      "taux": 24000,
+      "mots": 37,
+      "statut": "genere",
+      "debit_mpm": 182.0,
+      "controle": {
+        "empreinte": "d82af2e9ec6096499f98d9c0",
+        "ecarts": []
+      }
+    },
+    "02_avril_2011/S33": {
+      "empreinte": "36f66c7bf6d2fd01ef75816d",
+      "wav": "audio/cache/36f66c7bf6d2fd01ef75816d.wav",
+      "duree_s": 13.24,
+      "taux": 24000,
+      "mots": 41,
+      "statut": "genere",
+      "debit_mpm": 185.8,
+      "controle": {
+        "empreinte": "36f66c7bf6d2fd01ef75816d",
+        "ecarts": []
+      }
+    },
+    "02_avril_2011/S34": {
+      "empreinte": "7c97332e7c9b575d0ec4c6b0",
+      "wav": "audio/cache/7c97332e7c9b575d0ec4c6b0.wav",
+      "duree_s": 20.32,
+      "taux": 24000,
+      "mots": 53,
+      "statut": "genere",
+      "debit_mpm": 156.5,
+      "controle": {
+        "empreinte": "7c97332e7c9b575d0ec4c6b0",
+        "ecarts": []
+      }
+    },
+    "02_avril_2011/S35": {
+      "empreinte": "1c083fec930ff247368bb72e",
+      "wav": "audio/cache/1c083fec930ff247368bb72e.wav",
+      "duree_s": 17.8,
+      "taux": 24000,
+      "mots": 47,
+      "statut": "genere",
+      "debit_mpm": 158.4,
+      "controle": {
+        "empreinte": "1c083fec930ff247368bb72e",
+        "ecarts": [
+          "replace: attendu « retrait » / entendu « retraits »",
+          "replace: attendu « ces » / entendu « ses »"
+        ]
+      }
+    },
+    "02_avril_2011/S36": {
+      "empreinte": "073a073c6c8759ec40a948af",
+      "wav": "audio/cache/073a073c6c8759ec40a948af.wav",
+      "duree_s": 18.84,
+      "taux": 24000,
+      "mots": 62,
+      "statut": "genere",
+      "debit_mpm": 197.5,
+      "controle": {
+        "empreinte": "073a073c6c8759ec40a948af",
+        "ecarts": [
+          "replace: attendu « akeb » / entendu « acab »"
+        ]
+      }
+    },
+    "02_avril_2011/S37": {
+      "empreinte": "8958b644b68896022deec883",
+      "wav": "audio/cache/8958b644b68896022deec883.wav",
+      "duree_s": 12.2,
+      "taux": 24000,
+      "mots": 39,
+      "statut": "genere",
+      "debit_mpm": 191.8,
+      "controle": {
+        "empreinte": "8958b644b68896022deec883",
+        "ecarts": []
+      }
     }
   }
 }
